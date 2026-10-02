@@ -63,6 +63,10 @@ TREE.push(
  {id:'gabriel-nova',hero:'gabriel',name:'Erupção da Forja',cost:2,requires:'gabriel-control',icon:0,description:'48 dano de fogo. 13 MP.'},
  {id:'gabriel-silence',hero:'gabriel',name:'Cinzas do Véu',cost:2,requires:'gabriel-nova',icon:15,description:'30 dano e silêncio por 1 ação. 12 MP.'},
  {id:'gabriel-field',hero:'gabriel',name:'Brasa Renovada',cost:1,requires:'gabriel-vital',icon:3,description:'Cura 28 HP e remove estados de um aliado. Também na exploração. 10 MP.'},
+ {id:'max-power',hero:'max',name:'Fio de Relâmpago',cost:1,icon:15,description:'Corte de Vajra causa +8 de dano elétrico.'},
+ {id:'max-control',hero:'max',name:'Arco Voltaico',cost:1,requires:'max-power',icon:15,description:'Libera Arco Voltaico: 28 dano elétrico e cegueira por 2 ações. 10 MP.'},
+ {id:'max-master',hero:'max',name:'Voz da Tempestade',cost:2,requires:'max-control',icon:15,description:'+12 de dano à ultimate Trono da Tempestade.'},
+ {id:'max-vital',hero:'max',name:'Costuras Resistentes',cost:1,icon:10,description:'+15 HP máximos.'},
  {id:'beatriz-vital',hero:'beatriz',name:'Votos da margem',cost:1,icon:10,description:'+15 HP máximos.'},
  {id:'beatriz-master',hero:'beatriz',name:'Maré consagrada',cost:2,requires:'beatriz-vital',icon:3,description:'+12 de dano à ultimate.'}
 );
@@ -70,7 +74,7 @@ export const EXTRA_SKILLS:Record<HeroId,{id:string;node:string;name:string;cost:
  {id:'blind',node:'seiji-blind',name:'Noite de Tinta',cost:10,description:'22 dano • cegueira 2 ações',icon:6},
  {id:'bleed',node:'seiji-bleed',name:'Rasura',cost:12,description:'30 dano • sangramento 3 ações',icon:1}],ophelia:[
  {id:'freeze',node:'ophelia-freeze',name:'Prisão Glacial',cost:11,description:'24 dano • congela 1 ação, uma vez',icon:7},
- {id:'cleanse',node:'ophelia-cleanse',name:'Aurora',cost:12,description:'25 HP • remove todos os estados',icon:3}],max:[],beatriz:[]};
+ {id:'cleanse',node:'ophelia-cleanse',name:'Aurora',cost:12,description:'25 HP • remove todos os estados',icon:3}],max:[{id:'arc',node:'max-control',name:'Arco Voltaico',cost:10,description:'28 dano elétrico • cegueira 2 ações',icon:15}],beatriz:[]};
 export type StatusId='freeze'|'blind'|'bleed'|'silence';
 export type Status={id:StatusId;turns:number};
 export const STATUS:Record<StatusId,{name:string;icon:number;description:string}>={
