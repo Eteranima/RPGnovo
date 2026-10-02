@@ -50,3 +50,19 @@ SPRITE_FRAMES.beatriz=v21grid(3,4,1086,1448);
 SPRITE_FRAMES.battle_beatriz_attack=v21grid(3,1,2172,724);
 SPRITE_FRAMES.battle_beatriz_cast=SPRITE_FRAMES.battle_beatriz_attack;
 SPRITE_FRAMES.battle_beatriz_ultimate=SPRITE_FRAMES.battle_beatriz_attack;
+
+// Orfeu is elementless: three physical anti-magic sequences in a 4×3 sheet.
+const v23grid=(cols:number,rows:number,width:number,height:number)=>Array.from({length:cols*rows},(_,i)=>{const w=width/cols,h=height/rows,x=i%cols*w,y=Math.floor(i/cols)*h;return{x,y,w,h,anchorX:x+w/2,anchorY:y+h*.95};});
+const orfeuCombat=v23grid(4,3,1448,1086);
+SPRITE_FRAMES.battle_orfeu_attack=orfeuCombat.slice(0,4);
+SPRITE_FRAMES.battle_orfeu_cast=orfeuCombat.slice(4,8);
+SPRITE_FRAMES.battle_orfeu_ultimate=orfeuCombat.slice(8,12);
+const avaCombat=v23grid(4,3,1448,1086);
+SPRITE_FRAMES.battle_ava_attack=avaCombat.slice(0,4);
+SPRITE_FRAMES.battle_ava_cast=avaCombat.slice(4,8);
+SPRITE_FRAMES.battle_ava_ultimate=avaCombat.slice(8,12);
+// Carmilla keeps the same adult-proportion 3×4 walk layout as Beatriz.
+SPRITE_FRAMES.carmilla=v21grid(3,4,1086,1448);
+SPRITE_FRAMES.battle_carmilla_attack=v23grid(2,2,1225,1284);
+SPRITE_FRAMES.battle_carmilla_cast=v23grid(2,2,1354,1161);
+SPRITE_FRAMES.battle_carmilla_ultimate=v23grid(2,2,1349,1166);

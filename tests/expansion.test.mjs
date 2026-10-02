@@ -1,11 +1,12 @@
+import {pathToFileURL} from 'node:url';
 import assert from 'node:assert/strict';
 import {readFileSync,writeFileSync,mkdtempSync,existsSync} from 'node:fs';
 import {tmpdir} from 'node:os';
 import {join} from 'node:path';
 import ts from 'typescript';
 const out=mkdtempSync(join(tmpdir(),'eter-expansion-'));
-for(const name of ['cosmetics','data','engine','progression','music','sprites'])writeFileSync(`${out}/${name}.js`,ts.transpileModule(readFileSync(`lib/game/${name}.ts`,'utf8').replace(/from '\.\/(\w+)'/g,"from './$1.js'"),{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.ES2022}}).outputText);
-const {GameEngine,parseSave}=await import(`${out}/engine.js`),{MAPS,ASSETS}=await import(`${out}/data.js`),{SHOP,GEAR,QUESTS,level,spellBonus}=await import(`${out}/progression.js`),{musicFor,MUSIC,MusicDirector}=await import(`${out}/music.js`),{SPRITE_FRAMES}=await import(`${out}/sprites.js`);
+for(const name of ['cosmetics','data','engine','progression','music','sprites','summons','carmilla'])writeFileSync(`${out}/${name}.js`,ts.transpileModule(readFileSync(`lib/game/${name}.ts`,'utf8').replace(/from '\.\/(\w+)'/g,"from './$1.js'"),{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.ES2022}}).outputText);
+const {GameEngine,parseSave}=await import(pathToFileURL(join(out,'engine.js')).href),{MAPS,ASSETS}=await import(pathToFileURL(join(out,'data.js')).href),{SHOP,GEAR,QUESTS,level,spellBonus}=await import(pathToFileURL(join(out,'progression.js')).href),{musicFor,MUSIC,MusicDirector}=await import(pathToFileURL(join(out,'music.js')).href),{SPRITE_FRAMES}=await import(pathToFileURL(join(out,'sprites.js')).href);
 let checks=0;const check=(ok,msg)=>{assert.ok(ok,msg);checks++;};
 const saved=new Map();global.localStorage={setItem:(k,v)=>saved.set(k,v),getItem:k=>saved.get(k)||null};
 const timers=[];global.setTimeout=cb=>{timers.push(cb);return 1;};const flush=()=>{let n=0;while(timers.length&&n++<200)timers.shift()();check(n<200,'animation settles');};

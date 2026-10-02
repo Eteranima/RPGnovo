@@ -1,11 +1,12 @@
+import {pathToFileURL} from 'node:url';
 import assert from 'node:assert/strict';
 import {readFileSync,writeFileSync,mkdtempSync} from 'node:fs';
 import {tmpdir} from 'node:os';
 import {join} from 'node:path';
 import ts from 'typescript';
 const out=mkdtempSync(join(tmpdir(),'eter-echoes-'));
-for(const name of ['data','engine','progression','cosmetics'])writeFileSync(`${out}/${name}.js`,ts.transpileModule(readFileSync(`lib/game/${name}.ts`,'utf8').replace(/from '\.\/(\w+)'/g,"from './$1.js'"),{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.ES2022}}).outputText);
-const {GameEngine,parseSave,SAVE_KEY,findPath}=await import(`${out}/engine.js`),{MAPS}=await import(`${out}/data.js`),{ANCHORS,EVENTS}=await import(`${out}/progression.js`),{COSMETICS,RARITIES,chooseCosmetic}=await import(`${out}/cosmetics.js`);
+for(const name of ['data','engine','progression','cosmetics','summons','carmilla'])writeFileSync(`${out}/${name}.js`,ts.transpileModule(readFileSync(`lib/game/${name}.ts`,'utf8').replace(/from '\.\/(\w+)'/g,"from './$1.js'"),{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.ES2022}}).outputText);
+const {GameEngine,parseSave,SAVE_KEY,findPath}=await import(pathToFileURL(join(out,'engine.js')).href),{MAPS}=await import(pathToFileURL(join(out,'data.js')).href),{ANCHORS,EVENTS}=await import(pathToFileURL(join(out,'progression.js')).href),{COSMETICS,RARITIES,chooseCosmetic}=await import(pathToFileURL(join(out,'cosmetics.js')).href);
 let checks=0;const check=(ok,msg)=>{assert.ok(ok,msg);checks++;};const store=new Map();global.localStorage={setItem:(k,v)=>store.set(k,v),getItem:k=>store.get(k)||null};
 const timers=[];global.setTimeout=cb=>{timers.push(cb);return 1;};const flush=()=>{let n=0;while(timers.length&&n++<100)timers.shift()();check(n<100,'animation settles');};const fresh=()=>{const g=new GameEngine();g.start();g.finishCutscene();return g;};
 check(COSMETICS.length===50&&new Set(COSMETICS.map(c=>c.id)).size===50,'50 unique obtainable cosmetic items');check(RARITIES.reduce((n,r)=>n+r.weight,0)===100,'rarity odds total 100%');

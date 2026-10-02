@@ -1,13 +1,14 @@
+import {pathToFileURL} from 'node:url';
 import assert from 'node:assert/strict';
 import {readFileSync,writeFileSync,mkdtempSync} from 'node:fs';
 import {tmpdir} from 'node:os';
 import {join} from 'node:path';
 import ts from 'typescript';
 const out=mkdtempSync(join(tmpdir(),'eter-progression-'));
-for(const name of ['cosmetics','data','engine','progression'])writeFileSync(`${out}/${name}.js`,ts.transpileModule(readFileSync(`lib/game/${name}.ts`,'utf8').replace(/from '\.\/(\w+)'/g,"from './$1.js'"),{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.ES2022}}).outputText);
-const {GameEngine,parseSave,SAVE_KEY,isWalkable}=await import(`${out}/engine.js`);
-const {MAPS,newHeroes}=await import(`${out}/data.js`);
-const {SLOTS,setCount,level}=await import(`${out}/progression.js`);
+for(const name of ['cosmetics','data','engine','progression','summons','carmilla'])writeFileSync(`${out}/${name}.js`,ts.transpileModule(readFileSync(`lib/game/${name}.ts`,'utf8').replace(/from '\.\/(\w+)'/g,"from './$1.js'"),{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.ES2022}}).outputText);
+const {GameEngine,parseSave,SAVE_KEY,isWalkable}=await import(pathToFileURL(join(out,'engine.js')).href);
+const {MAPS,newHeroes}=await import(pathToFileURL(join(out,'data.js')).href);
+const {SLOTS,setCount,level}=await import(pathToFileURL(join(out,'progression.js')).href);
 const stored=new Map();global.localStorage={setItem:(k,v)=>stored.set(k,v),getItem:k=>stored.get(k)||null};
 let checks=0;const check=(ok,message)=>{assert.ok(ok,message);checks++;};
 const timers=[];global.setTimeout=cb=>{timers.push(cb);return 1;};

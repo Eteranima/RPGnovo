@@ -1,14 +1,15 @@
+import {pathToFileURL} from 'node:url';
 import assert from 'node:assert/strict';
 import {readFileSync,writeFileSync,mkdtempSync,existsSync} from 'node:fs';
 import ts from 'typescript';
 import {tmpdir} from 'node:os';
 import {join} from 'node:path';
 const out=mkdtempSync(join(tmpdir(),'eter-tests-')); 
-for(const name of ['cosmetics','data','engine','sprites','progression','summons','master-mode']){const source=readFileSync(`lib/game/${name}.ts`,'utf8').replace(/from '\.\/(\w+)'/g,"from './$1.js'");writeFileSync(`${out}/${name}.js`,ts.transpileModule(source,{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.ES2022}}).outputText);}
-const {GameEngine,isWalkable,findPath,parseSave,SAVE_KEY}=await import(`${out}/engine.js`);
-const {MAPS,ASSETS}=await import(`${out}/data.js`);
-const {ICON_CROPS,battleCrop}=await import(`${out}/sprites.js`);
-const {advanceMasterSequence,emptyMasterSequence}=await import(`${out}/master-mode.js`);
+for(const name of ['cosmetics','data','engine','sprites','progression','summons','master-mode','carmilla']){const source=readFileSync(`lib/game/${name}.ts`,'utf8').replace(/from '\.\/(\w+)'/g,"from './$1.js'");writeFileSync(`${out}/${name}.js`,ts.transpileModule(source,{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.ES2022}}).outputText);}
+const {GameEngine,isWalkable,findPath,parseSave,SAVE_KEY}=await import(pathToFileURL(join(out,'engine.js')).href);
+const {MAPS,ASSETS}=await import(pathToFileURL(join(out,'data.js')).href);
+const {ICON_CROPS,battleCrop}=await import(pathToFileURL(join(out,'sprites.js')).href);
+const {advanceMasterSequence,emptyMasterSequence}=await import(pathToFileURL(join(out,'master-mode.js')).href);
 const store=new Map();global.localStorage={setItem:(k,v)=>store.set(k,v),getItem:k=>store.get(k)||null};
 const timers=[];global.setTimeout=cb=>{timers.push(cb);return 1;};
 let checks=0;const check=(value,message)=>{assert.ok(value,message);checks++;};
