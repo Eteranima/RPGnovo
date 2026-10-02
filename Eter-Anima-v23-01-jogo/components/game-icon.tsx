@@ -1,0 +1,2 @@
+import {ICON_CROPS} from '@/lib/game/sprites';
+export function GameIcon({index,className=''}:{index:number;className?:string}){const r=ICON_CROPS[index]||ICON_CROPS[0];return <span aria-hidden="true" className={`game-art-icon ${className}`} style={{backgroundImage:'url(/assets/ui/item-skill-icons-v12.webp)',backgroundSize:`${1254/r.w*100}% ${1254/r.h*100}%`,backgroundPosition:`${r.x/(1254-r.w)*100}% ${r.y/(1254-r.h)*100}%`}}/>;}

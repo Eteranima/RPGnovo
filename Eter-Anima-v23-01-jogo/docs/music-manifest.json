@@ -1,0 +1,37 @@
+[
+  {
+    "original": "Battle Ink_and_Ice_Clash.mp3",
+    "runtime": "/assets/music/ink-and-ice-clash.mp3",
+    "bytes": 2705336,
+    "sha256": "e771a746131b053708f32dab8ee37a1488164789547a3f9bd3b9905dc28c1950",
+    "source": "Trilha fornecida pelo usuário; MP3 original preservado."
+  },
+  {
+    "original": "Boss theme.mp3",
+    "runtime": "/assets/music/boss-theme.mp3",
+    "bytes": 3034040,
+    "sha256": "50fdf0ef1268beb54faf8dc096791f202dde54958ee17eb3f91118705ef7993a",
+    "source": "Trilha fornecida pelo usuário; MP3 original preservado."
+  },
+  {
+    "original": "Hidden_Academy_Theme.mp3",
+    "runtime": "/assets/music/hidden-academy.mp3",
+    "bytes": 3176888,
+    "sha256": "010fb4ef624193b65e3b375d4e6bcbe0d429ec3c756f28a0ed380a480293f2ea",
+    "source": "Trilha fornecida pelo usuário; MP3 original preservado."
+  },
+  {
+    "original": "The_Academy_Below_theme.mp3",
+    "runtime": "/assets/music/academy-below.mp3",
+    "bytes": 2720696,
+    "sha256": "0785035f4fe0951d719f6352f9aa5597acb4bab41494f6ecb18b6abda7d9ddb5",
+    "source": "Trilha fornecida pelo usuário; MP3 original preservado."
+  },
+  {
+    "original": "Press_Start_Screen-Ether_Anima.mp3",
+    "runtime": "/assets/music/press-start.mp3",
+    "bytes": 3335096,
+    "sha256": "8630537e8c7e63e86a2fedd8a190929ec427868fb31936d932d2646b6cfeb344",
+    "source": "Trilha fornecida pelo usuário; MP3 original preservado."
+  }
+]
