@@ -157,7 +157,7 @@ html,body{height:100%;overflow:hidden;overscroll-behavior:none}.game-shell{posit
 .menu-modal .summon-card-identity h4{font-family:Georgia,serif!important;font-weight:600!important;font-size:21px!important;line-height:1.12;margin:5px 0 4px}
 .menu-modal .summon-card-identity span{font-size:12px;color:#d3dceb}
 .menu-modal .summon-card-detail{position:absolute;z-index:3;inset:0;padding:24px 18px 18px;display:flex;flex-direction:column;justify-content:center;gap:12px;background:linear-gradient(160deg,#0b1c30f7,#172943f0);border-top:3px solid var(--summon-accent);opacity:0;visibility:hidden;transform:translateY(12px);transition:opacity .22s ease,transform .22s ease,visibility .22s}
-.menu-modal .summon-card.expanded .summon-card-detail,.menu-modal .summon-card:hover .summon-card-detail,.menu-modal .summon-card:focus-within .summon-card-detail{opacity:1;visibility:visible;transform:none}
+.menu-modal .summon-card.expanded .summon-card-detail,.menu-modal .summon-card:hover .summon-card-detail{opacity:1;visibility:visible;transform:none}
 .menu-modal .summon-card-detail p{font-size:14px!important;line-height:1.5;color:#ebedf2!important;margin:0}
 .menu-modal .summon-card-detail strong{font-family:Georgia,serif;font-size:15px;line-height:1.45;color:#f0d69f}
 .menu-modal .summon-card-detail small{color:var(--summon-accent);font-weight:700}
