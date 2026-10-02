@@ -140,3 +140,37 @@ html,body{height:100%;overflow:hidden;overscroll-behavior:none}.game-shell{posit
 /* Keep the vertical menu tabs at a fixed row height. The shared tab trigger's 100% height otherwise stretches each item to the entire panel. */
 .menu-modal .adventure-nav [data-slot=tabs-trigger]{height:42px!important;min-height:42px!important;flex:0 0 42px!important;align-self:stretch}
 @media(orientation:landscape) and (max-height:600px){.menu-modal .adventure-nav [data-slot=tabs-trigger]{height:44px!important;min-height:44px!important;flex-basis:44px!important}}
+
+
+/* Summon archive: framed portraits with readable labels and a deliberate detail reveal. */
+.menu-modal .summon-roster{align-items:stretch;gap:14px}
+.menu-modal .summon-card{position:relative;display:flex;flex-direction:column;min-width:0;min-height:386px;padding:0!important;overflow:hidden;isolation:isolate;border:1px solid color-mix(in srgb,var(--summon-accent) 60%,#d8bd80)!important;border-radius:7px!important;background:linear-gradient(145deg,#13253c,#091423)!important;box-shadow:inset 0 0 0 4px #081321,0 10px 24px #0208169c!important}
+.menu-modal .summon-card:before{content:"";position:absolute;inset:7px 7px 68px;z-index:0;border:1px solid color-mix(in srgb,var(--summon-accent) 33%,transparent);pointer-events:none}
+.menu-modal .summon-card-stage{position:relative;flex:1;min-height:290px;overflow:hidden;background:radial-gradient(ellipse at 52% 45%,color-mix(in srgb,var(--summon-accent) 23%,transparent),transparent 56%),linear-gradient(145deg,#203850,#080f20 70%)}
+.menu-modal .summon-card-stage:before{content:"";position:absolute;inset:12px;opacity:.24;border:1px solid var(--summon-accent);clip-path:polygon(0 0,100% 0,100% 100%,0 100%);background:repeating-linear-gradient(130deg,transparent 0 33px,color-mix(in srgb,var(--summon-accent) 18%,transparent) 34px 35px,transparent 36px 70px)}
+.menu-modal .summon-character-art{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;max-width:100%!important;max-height:100%!important;object-fit:contain!important;object-position:center bottom!important;filter:drop-shadow(0 7px 14px #010714d9);transition:transform .3s ease,filter .3s ease}
+.menu-modal .summon-card:hover .summon-character-art,.menu-modal .summon-card:focus-within .summon-character-art{transform:scale(1.035)}
+.menu-modal .summon-card.unowned{opacity:1;filter:none}.menu-modal .summon-card.unowned .summon-character-art{filter:grayscale(.75) brightness(.66) drop-shadow(0 7px 14px #010714d9)}
+.menu-modal .summon-card-sigil{position:absolute;inset:20px;display:grid;place-items:center;font-family:Georgia,serif;font-size:118px;color:color-mix(in srgb,var(--summon-accent) 60%,#e6c996);text-shadow:0 0 35px var(--summon-accent);opacity:.58}
+.menu-modal .summon-card-identity{position:absolute;z-index:2;bottom:0;left:0;right:0;padding:70px 18px 18px;color:#f5efdd;background:linear-gradient(transparent,#071323d6 46%,#071323f5 100%);text-shadow:0 2px 5px #000}
+.menu-modal .summon-card-identity small{color:var(--summon-accent);font-weight:800;font-size:12px;letter-spacing:.12em;text-transform:uppercase}
+.menu-modal .summon-card-identity h4{font-family:Georgia,serif!important;font-weight:600!important;font-size:21px!important;line-height:1.12;margin:5px 0 4px}
+.menu-modal .summon-card-identity span{font-size:12px;color:#d3dceb}
+.menu-modal .summon-card-detail{position:absolute;z-index:3;inset:0;padding:24px 18px 18px;display:flex;flex-direction:column;justify-content:center;gap:12px;background:linear-gradient(160deg,#0b1c30f7,#172943f0);border-top:3px solid var(--summon-accent);opacity:0;visibility:hidden;transform:translateY(12px);transition:opacity .22s ease,transform .22s ease,visibility .22s}
+.menu-modal .summon-card.expanded .summon-card-detail,.menu-modal .summon-card:hover .summon-card-detail,.menu-modal .summon-card:focus-within .summon-card-detail{opacity:1;visibility:visible;transform:none}
+.menu-modal .summon-card-detail p{font-size:14px!important;line-height:1.5;color:#ebedf2!important;margin:0}
+.menu-modal .summon-card-detail strong{font-family:Georgia,serif;font-size:15px;line-height:1.45;color:#f0d69f}
+.menu-modal .summon-card-detail small{color:var(--summon-accent);font-weight:700}
+.menu-modal .summon-card-actions{position:relative;z-index:4;display:grid;grid-template-columns:88px minmax(0,1fr);align-items:center;gap:7px;min-height:64px;padding:9px;background:#0d1a2b;border-top:1px solid color-mix(in srgb,var(--summon-accent) 45%,transparent)}
+.menu-modal .summon-card-actions button{min-height:43px;font-size:12px;line-height:1.2;padding:6px}
+.menu-modal .summon-card-actions .summon-inspect{color:#e9d4a1;border:1px solid #bda57172;background:#1a2c41;font-weight:700}
+.menu-modal .summon-card-actions .summon-inspect[aria-expanded=true]{background:#594c36;color:#fff}
+.menu-modal .summon-locked{font-size:11px;text-align:center;color:#aab8ce;letter-spacing:.08em;text-transform:uppercase}
+.menu-modal .adventure-menu>[data-slot=tabs]>[data-slot=tabs-content]{background:linear-gradient(150deg,#11263d77,#0a182b66);border:1px solid #d1b7762d;padding:12px!important}
+.menu-modal .adventure-nav [data-slot=tabs-trigger]{position:relative;border-left:2px solid transparent;border-radius:3px!important;background:linear-gradient(95deg,#192b41,#122238)!important;color:#d5dfeb!important;font-weight:650!important;letter-spacing:.01em;transition:background .15s,color .15s,transform .15s}
+.menu-modal .adventure-nav [data-slot=tabs-trigger]:hover,.menu-modal .adventure-nav [data-slot=tabs-trigger]:focus-visible{border-left-color:#d5bd85;color:#fff!important;background:linear-gradient(95deg,#29425f,#1a2e48)!important}
+.menu-modal .adventure-nav [data-slot=tabs-trigger][data-state=active]{border-left-color:#f8dfa6;background:linear-gradient(95deg,#ae8e54,#564d43)!important;color:#fff!important;box-shadow:inset 0 0 0 1px #f4d99d55,3px 3px 0 #030a15!important}
+.menu-modal .menu-intro{background:radial-gradient(circle at 88% 30%,#bd9c3540,transparent 28%),linear-gradient(120deg,#203953,#0e1e34)!important;border-left:4px solid #d9bb7b!important;box-shadow:inset 0 0 0 1px #d4bb8350}
+.menu-modal .menu-subheading{color:#f2e0b7;letter-spacing:.035em}
+@media(max-width:650px){.menu-modal .summon-roster{grid-template-columns:1fr}.menu-modal .summon-card{min-height:310px}.menu-modal .summon-card-stage{min-height:240px}.menu-modal .summon-card-detail{padding:14px}.menu-modal .summon-card-detail p{font-size:13px!important}}
+@media(orientation:landscape) and (max-height:680px){.menu-modal .adventure-nav [data-slot=tabs-trigger]{height:42px!important;min-height:42px!important;max-height:42px!important;flex:0 0 42px!important}.menu-modal .summon-card{min-height:325px}.menu-modal .summon-card-stage{min-height:255px}}
