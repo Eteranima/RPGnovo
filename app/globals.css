@@ -174,3 +174,22 @@ html,body{height:100%;overflow:hidden;overscroll-behavior:none}.game-shell{posit
 .menu-modal .menu-subheading{color:#f2e0b7;letter-spacing:.035em}
 @media(max-width:650px){.menu-modal .summon-roster{grid-template-columns:1fr}.menu-modal .summon-card{min-height:310px}.menu-modal .summon-card-stage{min-height:240px}.menu-modal .summon-card-detail{padding:14px}.menu-modal .summon-card-detail p{font-size:13px!important}}
 @media(orientation:landscape) and (max-height:680px){.menu-modal .adventure-nav [data-slot=tabs-trigger]{height:42px!important;min-height:42px!important;max-height:42px!important;flex:0 0 42px!important}.menu-modal .summon-card{min-height:325px}.menu-modal .summon-card-stage{min-height:255px}}
+
+
+/* Stone Reach archive: stronger hierarchy without increasing the menu footprint. */
+.menu-modal{position:relative;background:radial-gradient(circle at 84% -12%,#82643730,transparent 34%),linear-gradient(165deg,#10263e,#09182b 62%,#101d31)!important;border:1px solid #bca478a8!important;box-shadow:0 25px 85px #020814e8,inset 0 0 0 5px #071320,inset 0 0 0 6px #b89a6a40!important}
+.menu-modal:before,.menu-modal:after{position:absolute;z-index:2;color:#e8c887;pointer-events:none;font:26px Georgia,serif;text-shadow:0 0 14px #d5ae6e88}
+.menu-modal:before{content:"✧";top:6px;left:9px}.menu-modal:after{content:"✧";bottom:5px;right:11px}
+.menu-modal [data-slot=dialog-header]{position:relative;min-height:68px;padding:4px 62px 14px 22px!important;margin:0 0 12px!important;border-bottom:1px solid #c6a56b7a;background:linear-gradient(90deg,#ab82481c,transparent 76%)}
+.menu-modal [data-slot=dialog-header]:before{content:"STONE REACH  /  ARQUIVO DE AVENTURA";display:block;font:700 10px/1.2 system-ui,sans-serif;letter-spacing:.2em;color:#dfbc78;margin-bottom:7px}
+.menu-modal [data-slot=dialog-header]:after{content:"";position:absolute;left:0;bottom:-2px;width:30%;height:3px;background:linear-gradient(90deg,#e3c68e,#987755,transparent)}
+.menu-modal [data-slot=dialog-title]{font:600 clamp(22px,2.3vw,31px)/1 Georgia,serif!important;letter-spacing:.035em;color:#f4e4bd;text-shadow:0 2px #050c16,0 0 20px #b1894650}
+.menu-modal [data-slot=dialog-description]{color:#aebfd1!important;font-size:12px!important;letter-spacing:.05em}
+.menu-modal .menu-resources{align-items:center;margin:0 0 11px;padding:0 0 11px;border-bottom:1px solid #a88f5c35}
+.menu-modal .menu-resources>span{min-height:30px;padding:4px 10px;border:1px solid #b5a37445;background:linear-gradient(105deg,#263b51,#101e31);border-radius:2px;box-shadow:inset 0 1px #ffffff13}
+.menu-modal .adventure-nav{background:linear-gradient(150deg,#182d45,#0a192b)!important;border-color:#9f87578c!important;box-shadow:inset 0 0 0 1px #081623,0 10px 20px #02091688}
+.menu-modal .adventure-nav [data-slot=tabs-trigger]{justify-content:flex-start!important;padding-left:15px!important;clip-path:polygon(0 0,calc(100% - 6px) 0,100% 50%,calc(100% - 6px) 100%,0 100%);text-shadow:0 1px #030915}
+.menu-modal .adventure-nav [data-slot=tabs-trigger][data-state=active]:before{content:"◆";position:absolute;left:3px;font-size:7px;color:#fff2be;filter:drop-shadow(0 0 4px #fff)}
+.menu-modal .adventure-menu>[data-slot=tabs]>[data-slot=tabs-content]{box-shadow:inset 0 0 0 1px #071527,0 8px 20px #030b1999}
+@media(orientation:landscape) and (max-height:680px){.menu-modal [data-slot=dialog-header]{min-height:50px;padding:2px 52px 8px 16px!important;margin-bottom:7px!important}.menu-modal [data-slot=dialog-header]:before{font-size:8px;margin-bottom:3px}.menu-modal [data-slot=dialog-title]{font-size:21px!important}.menu-modal .menu-resources{margin-bottom:7px;padding-bottom:7px}.menu-modal .menu-resources>span{min-height:26px;padding:2px 8px}}
+@media(max-width:650px){.menu-modal .adventure-nav [data-slot=tabs-trigger]{clip-path:none!important;justify-content:center!important;padding-left:6px!important}.menu-modal .adventure-nav [data-slot=tabs-trigger][data-state=active]:before{display:none}}
