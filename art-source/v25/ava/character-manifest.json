@@ -1,0 +1,326 @@
+{
+  "mode": "built-in imagegen",
+  "sourceDirectory": "C:/Users/Diego/.codex/generated_images/01a0fe9c-5a05-7ae0-b816-392e2a3c966b",
+  "approvedReferences": [
+    "public/assets/v22/ava-fighter-5star.webp",
+    "public/assets/characters/ophelia-walk-v2.webp",
+    "public/assets/characters/seiji-attack-v2.webp",
+    "public/assets/v23/carmilla-walk-slender-v2.png"
+  ],
+  "review": "Closed fists/open palms, elbows/knees, hair/feet inspected. Generated PNGs unchanged; measured runtime crops. Rejected layouts stay only in original source directory.",
+  "alphaBoundaryThreshold": 24,
+  "assets": [
+    {
+      "file": "ava-earth-walk.png",
+      "source": "exec-1eb06018-6112-4b0d-aaab-387ed8f2b86e.png",
+      "size": [
+        1086,
+        1448
+      ],
+      "alpha0": 1051488,
+      "borderPixels": 0,
+      "crops": [
+        {
+          "x": 0,
+          "y": 10,
+          "w": 362,
+          "h": 357,
+          "anchorX": 246,
+          "anchorY": 359
+        },
+        {
+          "x": 362,
+          "y": 10,
+          "w": 362,
+          "h": 357,
+          "anchorX": 547,
+          "anchorY": 351
+        },
+        {
+          "x": 724,
+          "y": 10,
+          "w": 362,
+          "h": 357,
+          "anchorX": 844,
+          "anchorY": 358
+        },
+        {
+          "x": 0,
+          "y": 373,
+          "w": 362,
+          "h": 340,
+          "anchorX": 230,
+          "anchorY": 705
+        },
+        {
+          "x": 362,
+          "y": 373,
+          "w": 362,
+          "h": 340,
+          "anchorX": 557,
+          "anchorY": 707
+        },
+        {
+          "x": 724,
+          "y": 373,
+          "w": 362,
+          "h": 340,
+          "anchorX": 853,
+          "anchorY": 701
+        },
+        {
+          "x": 0,
+          "y": 725,
+          "w": 362,
+          "h": 340,
+          "anchorX": 225,
+          "anchorY": 1048
+        },
+        {
+          "x": 362,
+          "y": 725,
+          "w": 362,
+          "h": 340,
+          "anchorX": 526,
+          "anchorY": 1058
+        },
+        {
+          "x": 724,
+          "y": 725,
+          "w": 362,
+          "h": 340,
+          "anchorX": 862,
+          "anchorY": 1048
+        },
+        {
+          "x": 0,
+          "y": 1065,
+          "w": 362,
+          "h": 349,
+          "anchorX": 227,
+          "anchorY": 1406
+        },
+        {
+          "x": 362,
+          "y": 1065,
+          "w": 362,
+          "h": 349,
+          "anchorX": 545,
+          "anchorY": 1401
+        },
+        {
+          "x": 724,
+          "y": 1065,
+          "w": 362,
+          "h": 349,
+          "anchorX": 864,
+          "anchorY": 1405
+        }
+      ]
+    },
+    {
+      "file": "ava-earth-attack.png",
+      "source": "exec-27d3c013-4c48-4993-8fb4-2792a3e659ab.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "alpha0": 1053605,
+      "borderPixels": 0,
+      "crops": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 512,
+          "h": 512,
+          "anchorX": 250,
+          "anchorY": 489
+        },
+        {
+          "x": 512,
+          "y": 0,
+          "w": 512,
+          "h": 512,
+          "anchorX": 775,
+          "anchorY": 489
+        },
+        {
+          "x": 1024,
+          "y": 0,
+          "w": 512,
+          "h": 512,
+          "anchorX": 1265,
+          "anchorY": 491
+        },
+        {
+          "x": 0,
+          "y": 512,
+          "w": 512,
+          "h": 512,
+          "anchorX": 260,
+          "anchorY": 954
+        },
+        {
+          "x": 512,
+          "y": 512,
+          "w": 512,
+          "h": 512,
+          "anchorX": 785,
+          "anchorY": 962
+        },
+        {
+          "x": 1024,
+          "y": 512,
+          "w": 512,
+          "h": 512,
+          "anchorX": 1265,
+          "anchorY": 979
+        }
+      ]
+    },
+    {
+      "file": "ava-earth-cast.png",
+      "source": "exec-8a707e19-745f-4d23-96a1-9622719835ec.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "alpha0": 926353,
+      "borderPixels": 0,
+      "crops": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 512,
+          "h": 512,
+          "anchorX": 252,
+          "anchorY": 491
+        },
+        {
+          "x": 512,
+          "y": 0,
+          "w": 512,
+          "h": 512,
+          "anchorX": 765,
+          "anchorY": 487
+        },
+        {
+          "x": 1024,
+          "y": 0,
+          "w": 512,
+          "h": 512,
+          "anchorX": 1260,
+          "anchorY": 475
+        },
+        {
+          "x": 0,
+          "y": 512,
+          "w": 512,
+          "h": 512,
+          "anchorX": 250,
+          "anchorY": 975
+        },
+        {
+          "x": 512,
+          "y": 512,
+          "w": 512,
+          "h": 512,
+          "anchorX": 770,
+          "anchorY": 955
+        },
+        {
+          "x": 1024,
+          "y": 512,
+          "w": 512,
+          "h": 512,
+          "anchorX": 1275,
+          "anchorY": 971
+        }
+      ]
+    },
+    {
+      "file": "ava-earth-ultimate.png",
+      "source": "exec-18f960e0-40a7-4eb3-9183-a693305ef4aa.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "alpha0": 935047,
+      "borderPixels": 0,
+      "crops": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 384,
+          "h": 512,
+          "anchorX": 202,
+          "anchorY": 485
+        },
+        {
+          "x": 384,
+          "y": 0,
+          "w": 384,
+          "h": 512,
+          "anchorX": 583,
+          "anchorY": 485
+        },
+        {
+          "x": 768,
+          "y": 0,
+          "w": 384,
+          "h": 512,
+          "anchorX": 970,
+          "anchorY": 479
+        },
+        {
+          "x": 1152,
+          "y": 0,
+          "w": 384,
+          "h": 512,
+          "anchorX": 1335,
+          "anchorY": 483
+        },
+        {
+          "x": 0,
+          "y": 512,
+          "w": 384,
+          "h": 512,
+          "anchorX": 201,
+          "anchorY": 969
+        },
+        {
+          "x": 384,
+          "y": 512,
+          "w": 384,
+          "h": 512,
+          "anchorX": 597,
+          "anchorY": 973
+        },
+        {
+          "x": 768,
+          "y": 512,
+          "w": 384,
+          "h": 512,
+          "anchorX": 980,
+          "anchorY": 977
+        },
+        {
+          "x": 1152,
+          "y": 512,
+          "w": 384,
+          "h": 512,
+          "anchorX": 1365,
+          "anchorY": 976
+        }
+      ]
+    },
+    {
+      "file": "ava-earth-portrait.png",
+      "source": "exec-0e4c8e51-2c29-4dbe-8f36-b6ef32f38d0a.png",
+      "size": [
+        975,
+        1612
+      ]
+    }
+  ]
+}

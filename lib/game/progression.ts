@@ -70,9 +70,9 @@ TREE.push(
  {id:'orfeu-vital',hero:'orfeu',name:'Corpo Forjado',cost:1,icon:10,description:'+15 HP máximos.'},
  {id:'orfeu-master',hero:'orfeu',name:'Domínio Nulo',cost:2,requires:'orfeu-vital',icon:15,description:'+12 de dano à ultimate.'},
  {id:'orfeu-field',hero:'orfeu',name:'Leitura de Fluxo',cost:1,requires:'orfeu-vital',icon:5,description:'Revela uma distorção mágica no Arquivo por 15 segundos. 5 MP.'},
- {id:'ava-vital',hero:'ava',name:'Raízes Fortes',cost:1,icon:10,description:'+15 HP máximos.'},
- {id:'ava-master',hero:'ava',name:'Jardim Indomável',cost:2,requires:'ava-vital',icon:15,description:'+12 de dano à ultimate.'},
- {id:'ava-field',hero:'ava',name:'Chamado das Raízes',cost:1,requires:'ava-vital',icon:3,description:'Flores revela um esconderijo no Domo por 15 segundos. 5 MP.'},
+ {id:'ava-vital',hero:'ava',name:'Fundação Rochosa',cost:1,icon:10,description:'+15 HP máximos.'},
+ {id:'ava-master',hero:'ava',name:'Soberania da Terra',cost:2,requires:'ava-vital',icon:15,description:'+12 de dano à ultimate.'},
+ {id:'ava-field',hero:'ava',name:'Chamado da Terra',cost:1,requires:'ava-vital',icon:3,description:'O Éter da terra revela um esconderijo no Domo por 15 segundos. 5 MP.'},
  {id:'carmilla-vital',hero:'carmilla',name:'Fôlego Rubro',cost:1,icon:10,description:'+15 HP máximos para suportar a transferência de feridas.'},
  {id:'beatriz-vital',hero:'beatriz',name:'Votos da margem',cost:1,icon:10,description:'+15 HP máximos.'},
  {id:'beatriz-master',hero:'beatriz',name:'Maré consagrada',cost:2,requires:'beatriz-vital',icon:3,description:'+12 de dano à ultimate.'}
@@ -82,10 +82,10 @@ export const EXTRA_SKILLS:Record<HeroId,{id:string;node:string;name:string;cost:
  {id:'bleed',node:'seiji-bleed',name:'Rasura',cost:12,description:'30 dano • sangramento 3 ações',icon:1}],ophelia:[
  {id:'freeze',node:'ophelia-freeze',name:'Prisão Glacial',cost:11,description:'24 dano • congela 1 ação, uma vez',icon:7},
  {id:'cleanse',node:'ophelia-cleanse',name:'Aurora',cost:12,description:'25 HP • remove todos os estados',icon:3}],max:[{id:'arc',node:'max-control',name:'Arco Voltaico',cost:10,description:'28 dano elétrico • cegueira 2 ações',icon:15}],beatriz:[],orfeu:[],ava:[],carmilla:[]};
-export type StatusId='freeze'|'blind'|'bleed'|'silence';
+export type StatusId='freeze'|'bind'|'blind'|'bleed'|'silence';
 export type Status={id:StatusId;turns:number};
 export const STATUS:Record<StatusId,{name:string;icon:number;description:string}>={
- freeze:{name:'Congelado',icon:7,description:'Perde a próxima ação.'},blind:{name:'Cegueira',icon:6,description:'50% de chance de errar ataques e magias ofensivas.'},bleed:{name:'Sangramento',icon:1,description:'Sofre 6 de dano no início de cada ação.'},silence:{name:'Silêncio',icon:15,description:'Impede magias; o inimigo usa um golpe físico.'}
+ freeze:{name:'Congelado',icon:7,description:'Perde a próxima ação.'},bind:{name:'Prisão de Pedra',icon:10,description:'A terra imobiliza: perde a próxima ação.'},blind:{name:'Cegueira',icon:6,description:'50% de chance de errar ataques e magias ofensivas.'},bleed:{name:'Sangramento',icon:1,description:'Sofre 6 de dano no início de cada ação.'},silence:{name:'Silêncio',icon:15,description:'Impede magias; o inimigo usa um golpe físico.'}
 };
 export const BESTIARY=[{id:'ashwolf',name:'Lobo de Cinzas',asset:'ashwolf',hp:190,description:'Predador da Mata Cindária. Sua pressão alimenta a carga das ultimates.',set:'ember' as SetId},{id:'moth',name:'Mariposa do Véu',asset:'moth',hp:180,description:'Uma memória alada que cobre os olhos de quem atravessa a mata.',set:'lunar' as SetId},{id:'cinder',name:'A Chama que Lembra',asset:'cinder',hp:520,description:'O fogo tomou forma na Clareira da Pira. Prepare o grupo e as ultimates antes do confronto.'},
  {id:'lobo',name:'Lobo de Éter',asset:'wolf',hp:130,description:'Éter que tomou forma de predador. Sua mordida causa sangramento na segunda rodada.',set:'wolf' as SetId},
@@ -172,7 +172,7 @@ export const FIELD_TECHNIQUES:Record<HeroId,{id:string;node:string;name:string;c
  max:[{id:'storm-trace',node:'',name:'Passo de Vajra',cost:5,icon:15,timed:true},{id:'stormguard',node:'',name:'Guarda de Tempestade',cost:10,icon:15,timed:false}],
  beatriz:[{id:'margem',node:'',name:'Margem Serena',cost:11,icon:3,timed:false}],
  orfeu:[{id:'echo-sight',node:'orfeu-field',name:'Leitura de Fluxo',cost:5,icon:5,timed:true}],
- ava:[{id:'vine-growth',node:'ava-field',name:'Chamado das Raízes',cost:5,icon:3,timed:true}],
+ ava:[{id:'vine-growth',node:'ava-field',name:'Chamado da Terra',cost:5,icon:3,timed:true}],
  carmilla:[]
 };
 TREE.push({id:'marin-explore',hero:'marin',name:'Passo entre Sombras',cost:1,requires:'marin-vital',icon:6,description:'Por 15 s: evita contato automático com mobs e revela esconderijos. 6 MP.'},{id:'gabriel-explore',hero:'gabriel',name:'Luz da Forja',cost:1,requires:'gabriel-vital',icon:0,description:'Por 15 s: ilumina o cenário e revela tesouros entre as cinzas. 6 MP.'});

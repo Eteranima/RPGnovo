@@ -30,7 +30,8 @@ SPRITE_FRAMES.battle_gabriel_lycan_ultimate=[{"x": 0, "y": 614, "w": 384, "h": 2
 
 const v20grid=(cols:number,rows:number,width=1536,height=1024)=>Array.from({length:cols*rows},(_,i)=>{const w=width/cols,h=height/rows,x=i%cols*w,y=Math.floor(i/cols)*h;return{x,y,w,h,anchorX:x+w/2,anchorY:y+h*.95};});
 SPRITE_FRAMES.companions=v20grid(5,4,1223,1286);
-SPRITE_FRAMES.signboards=v20grid(4,3);
+// v25 signboards preserve all twelve designs with measured isolated bounds.
+SPRITE_FRAMES.signboards=[{"x":56,"y":39,"w":351,"h":318,"anchorX":231,"anchorY":354},{"x":464,"y":36,"w":218,"h":332,"anchorX":572.5,"anchorY":365},{"x":752,"y":42,"w":328,"h":316,"anchorX":915.5,"anchorY":355},{"x":1135,"y":39,"w":261,"h":342,"anchorX":1265,"anchorY":378},{"x":85,"y":381,"w":257,"h":300,"anchorX":213,"anchorY":678},{"x":404,"y":408,"w":319,"h":254,"anchorX":563,"anchorY":659},{"x":769,"y":394,"w":298,"h":295,"anchorX":917.5,"anchorY":686},{"x":1130,"y":392,"w":270,"h":283,"anchorX":1264.5,"anchorY":672},{"x":90,"y":698,"w":275,"h":330,"anchorX":227,"anchorY":1025},{"x":403,"y":704,"w":312,"h":319,"anchorX":558.5,"anchorY":1020},{"x":757,"y":700,"w":298,"h":328,"anchorX":905.5,"anchorY":1025},{"x":1122,"y":699,"w":282,"h":330,"anchorX":1262.5,"anchorY":1026}];
 SPRITE_FRAMES.max=v20grid(3,4,1086,1448);
 SPRITE_FRAMES.battle_max_attack=v20grid(4,4,1402,1122).slice(0,4);
 SPRITE_FRAMES.battle_max_cast=v20grid(4,4,1402,1122).slice(4,8);
@@ -53,14 +54,17 @@ SPRITE_FRAMES.battle_beatriz_ultimate=SPRITE_FRAMES.battle_beatriz_attack;
 
 // Orfeu is elementless: three physical anti-magic sequences in a 4×3 sheet.
 const v23grid=(cols:number,rows:number,width:number,height:number)=>Array.from({length:cols*rows},(_,i)=>{const w=width/cols,h=height/rows,x=i%cols*w,y=Math.floor(i/cols)*h;return{x,y,w,h,anchorX:x+w/2,anchorY:y+h*.95};});
-const orfeuCombat=v23grid(4,3,1448,1086);
+// v25 Orfeu uses measured separate rows/columns; no neighbouring palm enters a pose.
+const orfeuCombat:SpriteCrop[]=[{"x":0,"y":0,"w":384,"h":375,"anchorX":205,"anchorY":369},{"x":384,"y":0,"w":384,"h":375,"anchorX":591,"anchorY":366},{"x":768,"y":0,"w":430,"h":375,"anchorX":975,"anchorY":364},{"x":1198,"y":0,"w":338,"h":375,"anchorX":1366,"anchorY":368},{"x":0,"y":375,"w":384,"h":341,"anchorX":203,"anchorY":706},{"x":384,"y":375,"w":384,"h":341,"anchorX":583,"anchorY":705},{"x":768,"y":375,"w":430,"h":341,"anchorX":976,"anchorY":706},{"x":1198,"y":375,"w":338,"h":341,"anchorX":1362,"anchorY":711},{"x":0,"y":716,"w":395,"h":308,"anchorX":219,"anchorY":981},{"x":395,"y":716,"w":368,"h":308,"anchorX":593,"anchorY":986},{"x":763,"y":716,"w":435,"h":308,"anchorX":978,"anchorY":978},{"x":1198,"y":716,"w":338,"h":308,"anchorX":1350,"anchorY":993}];
 SPRITE_FRAMES.battle_orfeu_attack=orfeuCombat.slice(0,4);
 SPRITE_FRAMES.battle_orfeu_cast=orfeuCombat.slice(4,8);
 SPRITE_FRAMES.battle_orfeu_ultimate=orfeuCombat.slice(8,12);
-const avaCombat=v23grid(4,3,1448,1086);
-SPRITE_FRAMES.battle_ava_attack=avaCombat.slice(0,4);
-SPRITE_FRAMES.battle_ava_cast=avaCombat.slice(4,8);
-SPRITE_FRAMES.battle_ava_ultimate=avaCombat.slice(8,12);
+// v25 Ava: whole generated RGBA sources. Exploration rows are measured,
+// combat cells have real empty gutters, and anchors follow the body's axis.
+SPRITE_FRAMES.ava=[{"x":0,"y":10,"w":362,"h":357,"anchorX":246,"anchorY":359},{"x":362,"y":10,"w":362,"h":357,"anchorX":547,"anchorY":351},{"x":724,"y":10,"w":362,"h":357,"anchorX":844,"anchorY":358},{"x":0,"y":373,"w":362,"h":340,"anchorX":230,"anchorY":705},{"x":362,"y":373,"w":362,"h":340,"anchorX":557,"anchorY":707},{"x":724,"y":373,"w":362,"h":340,"anchorX":853,"anchorY":701},{"x":0,"y":725,"w":362,"h":340,"anchorX":225,"anchorY":1048},{"x":362,"y":725,"w":362,"h":340,"anchorX":526,"anchorY":1058},{"x":724,"y":725,"w":362,"h":340,"anchorX":862,"anchorY":1048},{"x":0,"y":1065,"w":362,"h":349,"anchorX":227,"anchorY":1406},{"x":362,"y":1065,"w":362,"h":349,"anchorX":545,"anchorY":1401},{"x":724,"y":1065,"w":362,"h":349,"anchorX":864,"anchorY":1405}];
+SPRITE_FRAMES.battle_ava_attack=[{"x":0,"y":0,"w":512,"h":512,"anchorX":250,"anchorY":489},{"x":512,"y":0,"w":512,"h":512,"anchorX":775,"anchorY":489},{"x":1024,"y":0,"w":512,"h":512,"anchorX":1265,"anchorY":491},{"x":0,"y":512,"w":512,"h":512,"anchorX":260,"anchorY":954},{"x":512,"y":512,"w":512,"h":512,"anchorX":785,"anchorY":962},{"x":1024,"y":512,"w":512,"h":512,"anchorX":1265,"anchorY":979}];
+SPRITE_FRAMES.battle_ava_cast=[{"x":0,"y":0,"w":512,"h":512,"anchorX":252,"anchorY":491},{"x":512,"y":0,"w":512,"h":512,"anchorX":765,"anchorY":487},{"x":1024,"y":0,"w":512,"h":512,"anchorX":1260,"anchorY":475},{"x":0,"y":512,"w":512,"h":512,"anchorX":250,"anchorY":975},{"x":512,"y":512,"w":512,"h":512,"anchorX":770,"anchorY":955},{"x":1024,"y":512,"w":512,"h":512,"anchorX":1275,"anchorY":971}];
+SPRITE_FRAMES.battle_ava_ultimate=[{"x":0,"y":0,"w":384,"h":512,"anchorX":202,"anchorY":485},{"x":384,"y":0,"w":384,"h":512,"anchorX":583,"anchorY":485},{"x":768,"y":0,"w":384,"h":512,"anchorX":970,"anchorY":479},{"x":1152,"y":0,"w":384,"h":512,"anchorX":1335,"anchorY":483},{"x":0,"y":512,"w":384,"h":512,"anchorX":201,"anchorY":969},{"x":384,"y":512,"w":384,"h":512,"anchorX":597,"anchorY":973},{"x":768,"y":512,"w":384,"h":512,"anchorX":980,"anchorY":977},{"x":1152,"y":512,"w":384,"h":512,"anchorX":1365,"anchorY":976}];
 // Carmilla keeps the same adult-proportion 3×4 walk layout as Beatriz.
 SPRITE_FRAMES.carmilla=v21grid(3,4,1086,1448);
 SPRITE_FRAMES.battle_carmilla_attack=v23grid(2,2,1225,1284);

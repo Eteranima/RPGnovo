@@ -1,3 +1,4 @@
+import {imageDimensions} from './image-dimensions.mjs';
 import {pathToFileURL} from 'node:url';
 import assert from 'node:assert/strict';
 import {readFileSync,writeFileSync,mkdtempSync,existsSync} from 'node:fs';
@@ -23,7 +24,7 @@ for(const m of Object.values(MAPS)){
 }
 for(const [key,path] of Object.entries(ASSETS))check(existsSync(`public${path}`),`asset ${key} exists`);
 for(const hero of ['seiji','ophelia'])for(const action of ['attack','cast']){
- const png=readFileSync(`art-source/v2/${hero}-${action}-v2.png`),width=png.readUInt32BE(16),height=png.readUInt32BE(20);
+ const {width,height}=imageDimensions(`public${ASSETS[`battle_${hero}_${action}`]}`);
  check(width===1536&&height===1024,`${hero}/${action}: six generated frames`);
  for(let frame=0;frame<6;frame++){const r=battleCrop(`battle_${hero}_${action}`,frame);check(r.x>=0&&r.y>=0&&r.x+r.w<=width&&r.y+r.h<=height,`${hero}/${action}/${frame}: source crop inside sheet`);check(r.anchorX>=r.x&&r.anchorX<=r.x+r.w&&r.anchorY>=r.y&&r.anchorY<=r.y+r.h,`${hero}/${action}/${frame}: feet anchor inside frame`);}
 }

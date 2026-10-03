@@ -1,0 +1,26 @@
+Built-in imagegen; original generation plus one background-extraction refinement.
+Original source: C:\Users\Diego\.codex\generated_images\01a1028e-1afa-7611-900f-c84542197a68\exec-aaf512b3-6c7d-4b2d-8732-181210d7034b.png
+Accepted source: C:\Users\Diego\.codex\generated_images\01a1028e-1afa-7611-900f-c84542197a68\exec-ab053b30-0e50-4bae-9cb6-29c98dbc5a06.png
+Runtime copy: public/assets/v25/ava/ava-earth-vfx.png
+No pixel editing or alpha reconstruction was used.
+
+ORIGINAL PROMPT
+Use case: stylized-concept.
+Asset type: final production 2D fantasy RPG combat VFX sprite atlas for Ava, a 5-star Earth-element martial artist. This atlas must be usable in a professional polished game, matching detailed hand-painted anime JRPG effects.
+Primary request: exactly SIX distinct sequential EARTH IMPACT sprites in a strict 3-column by 2-row sprite atlas. Wide landscape canvas; equal cells. Reading order left-to-right across top row, then bottom row. Each effect occupies at most 64% of its cell width and 66% of its cell height. Leave large genuinely empty transparent gutters, at least 16% of each cell on every side. No effect may touch any cell boundary; no dust, glow, rock, shadow, or fragment may spill into another cell.
+Subject: recognizable layered sandstone rocks, compact ochre soil particles, pale beige dust, faceted solid stones with charcoal-brown fissures, crisp warm amber mineral seams. Earth must be visibly solid stratified rock and soil. No flames, fire, lava, magma, grass, vines, plants, snow, ice, blue crystalline ice, purple magic, circles, runes, text, humans, hands, body parts, weapons, characters or silhouettes.
+Sequence:
+1. compact low cluster of cracked sandstone fragments erupting upward, restrained tiny dust;
+2. ascending stone shards, short layered rock spires, compact billow of pale beige dust;
+3. a strong compact fan of five stratified stone shards at impact, tiny suspended rubble;
+4. a tall but compact ringless layered sandstone prison formation, three thick earthen slabs enclosing a small empty center, visually Earth stone;
+5. breaking stone prison, contained rubble pieces and narrow beige dust puffs;
+6. dissipating compact scatter of descending small rock chips and sparse pale soil flecks.
+Style/medium: refined anime fantasy hand-painted sprite art, sharp readable silhouette, detailed material texture, restrained atmospheric edge highlights, clean antialiased edges. Strong readability at small game size; no photographic backdrop.
+Scene/backdrop: truly transparent RGBA alpha background. Absolutely no solid or gradient background, no checkerboard drawing, no ground plane, no floor, no framing, no borders, no labels. Transparent beyond the art edge. Isolated six effects only.
+Lighting: soft warm mineral light, warm neutral stones, no orange flame-shaped glow. Largest stones clearly edged and textured, small particles controlled.
+Constraints: strict exact 3x2 grid, exactly six isolated sprites, generous empty gutters, all six effects fully contained and anatomically irrelevant; final polished asset, no placeholders or watermarks.
+
+REFINEMENT PROMPT
+Use case: background-extraction. Edit target is the provided SIX EARTH VFX sprite atlas. Keep exactly the same six rock effects, their order, artistic detail, sandstone materials and exact 3-column x 2-row layout. Preserve each effect as its own isolated game sprite, full shape and rock/dust detail. Change only alpha/background cleanup: REMOVE ALL broad tan/brown atmospheric backplates and fuzzy background glow. Keep localized pale dust attached to each effect. Every pixel in gutters between the six effects and beyond their close silhouettes must be fully transparent alpha=0, with wide transparent gutters. There must be no remaining brown fog across the background, no faint alpha at the cell boundaries. Each sprite must stay fully contained inside its own equal-sized cell with at least 45px blank margins, even for tiny dust particles. Preserve six independent crisp detailed Earth effects: rocks, soil and stone prison. No flames, lava, ice, vines, rings, runes, text, character or hands. Truly transparent PNG; do not draw black background or checkerboard. Exactly same landscape 1536x1024 canvas if possible.
+

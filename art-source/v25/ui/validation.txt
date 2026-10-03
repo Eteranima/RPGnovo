@@ -1,0 +1,19 @@
+Generator: built-in image_gen, 2026-10-03.
+Selected source: stone-reach-hud-atlas-selected.png, 1254 x 1254, RGBA.
+Runtime source: public/assets/v25/ui/stone-reach-hud-atlas.png, byte-identical to the selected source.
+25 distinct icons inspected visually in the complete atlas. Gold/ivory and lapis palette follows Stone Reach.
+Transparency: measured RGBA alpha spans 0..255, genuine transparent exterior.
+Atlas crops: components/hud-icon.tsx. Bounds measured with alpha > 20, padded square crops for CSS background sampling. No resynthesis, recolouring or destructive background removal.
+Layout: original 5 x 5 grid; crops use measured bounds instead of assuming perfect cell placement. Every runtime crop includes the silhouette and excludes neighbouring icons.
+No visible text labels embedded in the art; the interface supplies Portuguese semantic labels, focus states, pressed states and notices.
+
+Local browser QA, 2026-10-03, installed Next.js preview on 127.0.0.1:5173:
+- 1280 x 720 desktop: all nine generated top controls visible, distinct silhouettes and readable captions; framed adventure menu and independent scroll areas checked visually.
+- 844 x 390 landscape: all nine top controls fit; minimum 44 x 44 button targets and menu navigation verified.
+- 390 x 844 portrait: 44 x 48 top controls in a horizontally scrollable strip; menu content and sidebar remain independently scrollable. Temporary viewport overrides reset after QA.
+- Final sidebar check after preview restart: computed justify-content flex-start; scrollTop 0; navigation top 230.625, first MAIL tab top 236.625 and height 44; viewport height 432.375, scroll height 744. First tabs remain reachable, MAIL and Diary selected through the UI.
+- Welcome MAIL still shows its original one-time gift and functional claim button. No gift was claimed in the browser QA save.
+- Ava origin card uses the final /assets/v25/ava/ava-earth-portrait.png, loaded at natural 975 x 1612 dimensions; its visible label is Terra / Controle / Cura. Selection header now reads ORIGENS / UM SELO with eight starter cards.
+- Evidence: docs/qa-v25/ui-final.jpg, ui-hud-final.jpg, ui-ava-origin.jpg.
+- TypeScript validation passed before final root validation. UI changes add no dependencies, debug routes, runtime art substitutions or new game flows.
+- Legacy fixtures adjusted to current canonical maps, five base heroes, real recruitment gates and five active slots. Targeted suites: expansion 168 checks, origins 202 checks, v14 49 checks, all passed.

@@ -12,7 +12,7 @@ const saved=new Map();global.localStorage={setItem:(k,v)=>saved.set(k,v),getItem
 const timers=[];global.setTimeout=cb=>{timers.push(cb);return 1;};const flush=()=>{let n=0;while(timers.length&&n++<200)timers.shift()();check(n<200,'animation settles');};
 const fresh=()=>{const g=new GameEngine();g.start();g.finishCutscene();return g;};
 const dialogue=g=>{let n=0;while(g.state.mode==='dialogue'&&n++<12)g.nextDialogue();check(n<12,'NPC dialogue resolves');};
-check(Object.keys(MAPS).length===9,'nine actual logical maps');
+check(Object.keys(MAPS).sort().join(',')===['patio','arquivo','subsolo','camara','porto','domo','galeria','ashwood','vigilia','ashpyre'].sort().join(','),'ten canonical logical maps remain available');
 for(const [id,track] of [['patio','academy'],['arquivo','academy'],['porto','academy'],['domo','academy'],['subsolo','below'],['camara','below'],['galeria','below']]){check(musicFor({mode:'world',map:id})===track,`${id} area music`);check(musicFor({mode:'dialogue',map:id})===track,`${id} dialogue keeps area music`);}
 check(musicFor({mode:'start',map:'galeria'})==='start','title always selects Press Start');
 check(musicFor({mode:'battle',map:'subsolo',battle:{boss:false}})==='battle','common battle theme');
@@ -56,4 +56,4 @@ check(channels.every(a=>a.loop),'both audio channels loop');check(channels.every
 check(channels[0].src===MUSIC.start.src&&!channels[0].paused,'Press Start is playing');music.request('academy');await Promise.resolve();for(const [id,cb] of [...frames]){frames.delete(id);cb(0);}check(channels.every(a=>a.volume>=0&&a.volume<=1),'early animation timestamp keeps legal audio volume');for(const [id,cb] of [...frames]){frames.delete(id);cb(performance.now()+1000);}check(channels[0].paused&&!channels[1].paused&&channels[1].src===MUSIC.academy.src,'area transition fades to supplied Academy MP3');
 music.setVolume(.35);check(channels[1].volume===.35,'volume affects active audio');await music.setEnabled(false);check(channels.every(a=>a.paused),'mute pauses both channels');music.request('battle');check(channels.every(a=>a.paused),'muted context never autoplays');check(await music.unlock()&&channels[music.active].src===MUSIC.battle.src,'unmute resumes correct battle theme');music.dispose();check(channels.every(a=>a.paused&&a.src===''),'dispose stops all music');
 const denied=[new AudioMock(),new AudioMock()];denied[0].reject=true;let status;const rejected=new MusicDirector(denied,s=>status=s);check(!(await rejected.unlock())&&status==='blocked','blocked autoplay reports real state');rejected.dispose();
-console.log(`${checks} expansion checks passed: MP3 mapping and playback, seven maps, gear tiers, canonical NPC quests, unique encounters, optional boss and compatible saves.`);
+console.log(`${checks} expansion checks passed: MP3 mapping and playback, ten maps, gear tiers, canonical NPC quests, unique encounters, optional boss and compatible saves.`);

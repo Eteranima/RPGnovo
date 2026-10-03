@@ -1,0 +1,110 @@
+{
+  "mode": "Built-in imagegen; transparent_background:true; original actor reference",
+  "prompt": "Repair Orfeu combat sprite atlas for Éter Anima by generating NEW clean isolated frames preserving EXACT character identity/attire from supplied sheet. Adult athletic long-limbed male martial antimage, silver-white tousled hair, golden-brown eyes, dark navy sleeveless high-collar wrap top with gold embroidered seams, navy loose trousers, long royalblue/gold sash, white wrapped forearms, dark martial footwear. Mature adult anatomy, two natural arms/legs, elbows wrists hands correct, clean five-finger open palms or natural closed fists, normal neck shoulders spine. Premium hand-painted anime fantasy game art consistent original quality. CRITICAL TECHNICAL FIX:12SMALL self-contained full-body sprites in4 columns3rows. Landscape1536x1024. Each cell384x341. ALL complete bodies, hair, cloth, feet and effects at most280px high and280px wide; centered with minimum40px whollytransparent gutters around cells. Do NOT scale characters to fill cells. Strong clear empty space separating each. True transparent RGBA background alpha0; no solid backdrop, no grid labels text. No limb/sash/dust crossing another frame. Row1basic attack4poses all facingRIGHT:guard, windup forward palm, palmstrike (tiny silvergray kinetic streak), recovery. Row2cast4poses all facingRIGHT:grounded guard, gathered palms, controlled palm thrust (compact silvergray cancellation arc), recovery. Row3ultimate4poses all facingRIGHT:crouched fist grounding, windup palm, compact neutral antimagic pulse beside palm and boots, settling recovery. All attacks NEUTRAL PHYSICAL ANTIMAGIC: silverygray kinetic lines and restrained mutedlavender cancellation light, no fire ice water lightning plant/earth rocks or elemental effects. Body axis/feet coherent, all heads and feet complete. No duplicated limb or floating disembodied hands. Keep every pose visually independent and carefully drawn natural anatomy. Prior sheet has overlapping poses; correct layout while preserving designs.",
+  "source": "exec-5a6d7548-d827-4118-9fab-5026f5237b96.png",
+  "file": "public/assets/v25/orfeu/orfeu-antimagic-combat.png",
+  "size": [
+    1536,
+    1024
+  ],
+  "alpha0": 796691,
+  "crops": [
+    {
+      "x": 0,
+      "y": 0,
+      "w": 384,
+      "h": 375,
+      "anchorX": 205,
+      "anchorY": 369
+    },
+    {
+      "x": 384,
+      "y": 0,
+      "w": 384,
+      "h": 375,
+      "anchorX": 591,
+      "anchorY": 366
+    },
+    {
+      "x": 768,
+      "y": 0,
+      "w": 430,
+      "h": 375,
+      "anchorX": 975,
+      "anchorY": 364
+    },
+    {
+      "x": 1198,
+      "y": 0,
+      "w": 338,
+      "h": 375,
+      "anchorX": 1366,
+      "anchorY": 368
+    },
+    {
+      "x": 0,
+      "y": 375,
+      "w": 384,
+      "h": 341,
+      "anchorX": 203,
+      "anchorY": 706
+    },
+    {
+      "x": 384,
+      "y": 375,
+      "w": 384,
+      "h": 341,
+      "anchorX": 583,
+      "anchorY": 705
+    },
+    {
+      "x": 768,
+      "y": 375,
+      "w": 430,
+      "h": 341,
+      "anchorX": 976,
+      "anchorY": 706
+    },
+    {
+      "x": 1198,
+      "y": 375,
+      "w": 338,
+      "h": 341,
+      "anchorX": 1362,
+      "anchorY": 711
+    },
+    {
+      "x": 0,
+      "y": 716,
+      "w": 395,
+      "h": 308,
+      "anchorX": 219,
+      "anchorY": 981
+    },
+    {
+      "x": 395,
+      "y": 716,
+      "w": 368,
+      "h": 308,
+      "anchorX": 593,
+      "anchorY": 986
+    },
+    {
+      "x": 763,
+      "y": 716,
+      "w": 435,
+      "h": 308,
+      "anchorX": 978,
+      "anchorY": 978
+    },
+    {
+      "x": 1198,
+      "y": 716,
+      "w": 338,
+      "h": 308,
+      "anchorX": 1350,
+      "anchorY": 993
+    }
+  ],
+  "review": "Original pose2 could not exclude preceding palm while including its own foot. New full-body poses keep identity, anatomy and Neutral antimagic; source PNG unchanged. Measured separated row cuts375/716, third-row column cuts395/763/1198."
+}
