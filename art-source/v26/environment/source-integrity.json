@@ -1,0 +1,106 @@
+[
+  {
+    "asset": "floor-academy.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2596440,
+    "sha256": "80ef4275ae685984276987c1f87bac0e2d445bfc21f87dafdd2dc4f7a0a63348",
+    "identicalToGeneratedSource": true
+  },
+  {
+    "asset": "floor-depths.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2328231,
+    "sha256": "7837ea2f38f2d5920dadb402975d13809e7f92b307786f41e22aa40c0875627a",
+    "identicalToGeneratedSource": true
+  },
+  {
+    "asset": "floor-wilds.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2522217,
+    "sha256": "c4669678b2b1c7d0e37e56633ee2bae6f69cf2333224ab7624889fac1bab0848",
+    "identicalToGeneratedSource": true
+  },
+  {
+    "asset": "floor-water-docks.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1871341,
+    "sha256": "0a835f86dd4fc686483080dcce609351d95c8c9b863573fdc44a815777b45422",
+    "identicalToGeneratedSource": true
+  },
+  {
+    "asset": "scenery-academy.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 1818816,
+    "sha256": "5b7848ba80d2b054259acba78e5eab130a3a890ca73c67821ff2c53da9aca8f6",
+    "identicalToGeneratedSource": true
+  },
+  {
+    "asset": "scenery-ruins.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 1337036,
+    "sha256": "495a53ff81120bb5e0750c069e537c087fc43d8d0de163fb0e2f11b7c7dbe996",
+    "identicalToGeneratedSource": true
+  },
+  {
+    "asset": "utilities.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 1440160,
+    "sha256": "69e3fa97fe10132ca32bb9d2ac8be9967611dea94167b9127cac6f0e468507e1",
+    "identicalToGeneratedSource": true
+  },
+  {
+    "asset": "harbor.png",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 2382970,
+    "sha256": "444315cced29502a04b9953ca840e8d472812ba92acd0dbcb30ed0b586b5ceb9",
+    "identicalToGeneratedSource": true
+  },
+  {
+    "asset": "boundaries.png",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 1985862,
+    "sha256": "f400df34e069eba76a8a78a9d9bffbb9aca8c666e8361f08ddd0582ffebef825",
+    "identicalToGeneratedSource": true
+  },
+  {
+    "asset": "academy.png",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 2222513,
+    "sha256": "bafdd73a242fe110742c1db48a01a201dd2727edbcb4ca1f3652e4b45e4e90ec",
+    "identicalToGeneratedSource": true
+  },
+  {
+    "asset": "signboards.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 1341872,
+    "sha256": "6d025796095780e26829b5576536bd71839021361bc8003cf044a288d6554ff0",
+    "identicalToGeneratedSource": true
+  },
+  {
+    "asset": "exits.png",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 2865840,
+    "sha256": "01db38e950edf5cca8f52f199c54cf9e341a27ca383a4d2003f390410fa9ab1e",
+    "identicalToGeneratedSource": true
+  },
+  {
+    "asset": "wall-caps.png",
+    "width": 1774,
+    "height": 887,
+    "bytes": 1653382,
+    "sha256": "603a68049f35f457a61a65e712bb0e9bcbff9190132feedd5765f982f1b4dce0",
+    "identicalToGeneratedSource": true
+  }
+]

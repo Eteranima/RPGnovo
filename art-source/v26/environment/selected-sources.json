@@ -1,0 +1,67 @@
+[
+  {
+    "asset": "floor-academy.png",
+    "source": "C:/Users/Diego/.codex/generated_images/01a1028e-5be8-7663-82a1-e9f4a5e52f9d/exec-ad213750-cdb6-46ce-9f0d-e8df38610e6d.png",
+    "destination": "public/assets/v26/environment/floor-academy.png"
+  },
+  {
+    "asset": "floor-depths.png",
+    "source": "C:/Users/Diego/.codex/generated_images/01a1028e-5be8-7663-82a1-e9f4a5e52f9d/exec-cac65530-fee7-4e51-bf2c-e3cb0ed435fc.png",
+    "destination": "public/assets/v26/environment/floor-depths.png"
+  },
+  {
+    "asset": "floor-wilds.png",
+    "source": "C:/Users/Diego/.codex/generated_images/01a1028e-5be8-7663-82a1-e9f4a5e52f9d/exec-32315911-2812-4f4c-92db-8ab23607244d.png",
+    "destination": "public/assets/v26/environment/floor-wilds.png"
+  },
+  {
+    "asset": "floor-water-docks.png",
+    "source": "C:/Users/Diego/.codex/generated_images/01a1028e-5be8-7663-82a1-e9f4a5e52f9d/exec-33dd72a5-1a42-4adb-af02-17d6fa4279a1.png",
+    "destination": "public/assets/v26/environment/floor-water-docks.png"
+  },
+  {
+    "asset": "scenery-academy.png",
+    "source": "C:/Users/Diego/.codex/generated_images/01a1028e-5be8-7663-82a1-e9f4a5e52f9d/exec-795063e6-58ec-4df0-8ce4-e70f1a88752e.png",
+    "destination": "public/assets/v26/environment/scenery-academy.png"
+  },
+  {
+    "asset": "scenery-ruins.png",
+    "source": "C:/Users/Diego/.codex/generated_images/01a1028e-5be8-7663-82a1-e9f4a5e52f9d/exec-bd112a61-14fd-45a7-8e8c-6a6eb9f69f41.png",
+    "destination": "public/assets/v26/environment/scenery-ruins.png"
+  },
+  {
+    "asset": "utilities.png",
+    "source": "C:/Users/Diego/.codex/generated_images/01a1028e-5be8-7663-82a1-e9f4a5e52f9d/exec-011a19be-0630-44df-9538-d588d2f39e7b.png",
+    "destination": "public/assets/v26/environment/utilities.png"
+  },
+  {
+    "asset": "harbor.png",
+    "source": "C:/Users/Diego/.codex/generated_images/01a1028e-5be8-7663-82a1-e9f4a5e52f9d/exec-404d2232-08bb-478a-8ef5-7f692cf585b2.png",
+    "destination": "public/assets/v26/environment/harbor.png"
+  },
+  {
+    "asset": "boundaries.png",
+    "source": "C:/Users/Diego/.codex/generated_images/01a1028e-5be8-7663-82a1-e9f4a5e52f9d/exec-6345efc7-e267-4bbf-ab1c-14fe4ae1393a.png",
+    "destination": "public/assets/v26/environment/boundaries.png"
+  },
+  {
+    "asset": "academy.png",
+    "source": "C:/Users/Diego/.codex/generated_images/01a1028e-5be8-7663-82a1-e9f4a5e52f9d/exec-b3f7c2c3-9d12-466b-9138-fe9d712bf1c6.png",
+    "destination": "public/assets/v26/environment/academy.png"
+  },
+  {
+    "asset": "signboards.png",
+    "source": "C:/Users/Diego/.codex/generated_images/01a1028e-5be8-7663-82a1-e9f4a5e52f9d/exec-5817d0ef-f579-424e-a362-abe252af9cbb.png",
+    "destination": "public/assets/v26/environment/signboards.png"
+  },
+  {
+    "asset": "exits.png",
+    "source": "C:/Users/Diego/.codex/generated_images/01a1028e-5be8-7663-82a1-e9f4a5e52f9d/exec-cd6cf6df-1d9b-42b5-a99c-d3e468443fae.png",
+    "destination": "public/assets/v26/environment/exits.png"
+  },
+  {
+    "asset": "wall-caps.png",
+    "source": "C:/Users/Diego/.codex/generated_images/01a1028e-5be8-7663-82a1-e9f4a5e52f9d/exec-396008bb-eb67-498c-a67d-72c2242cb55a.png",
+    "destination": "public/assets/v26/environment/wall-caps.png"
+  }
+]

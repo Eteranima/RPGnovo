@@ -1,0 +1,4 @@
+import {readFileSync,writeFileSync} from 'node:fs';import{createHash}from'node:crypto';
+const sources=JSON.parse(readFileSync('art-source/v26/environment/selected-sources.json','utf8'));
+const report=sources.map(item=>{const original=readFileSync(item.source),selected=readFileSync(item.destination),sha256=createHash('sha256').update(selected).digest('hex');if(!selected.equals(original))throw new Error('Generated pixels changed: '+item.asset);return{asset:item.asset,width:selected.readUInt32BE(16),height:selected.readUInt32BE(20),bytes:selected.length,sha256,identicalToGeneratedSource:true};});
+writeFileSync('art-source/v26/environment/source-integrity.json',JSON.stringify(report,null,2)+'\n');console.log(report.length+' selected PNGs are byte-for-byte identical to their generated originals.');

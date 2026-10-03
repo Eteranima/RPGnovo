@@ -12,7 +12,7 @@ for(const name of ['cosmetics','data','progression','summons','carmilla','engine
  writeFileSync(join(out,`${name}.js`),ts.transpileModule(source,{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.ES2022}}).outputText);
 }
 const {GameEngine,parseSave}=await import(pathToFileURL(join(out,'engine.js')).href);
-const {PLAYABLE_HERO_IDS,HERO_COMBAT_ELEMENTS,combatElement,combatImpact,SKILLS,heroBases,ULTIMATE_NAMES,EARTH_VFX_FRAMES}=await import(pathToFileURL(join(out,'data.js')).href);
+const {PLAYABLE_HERO_IDS,HERO_COMBAT_ELEMENTS,combatElement,combatImpact,SKILLS,heroBases,ULTIMATE_NAMES,EARTH_VFX_FRAMES,ASSETS}=await import(pathToFileURL(join(out,'data.js')).href);
 const {deriveHeroes,TREE,EXTRA_SKILLS,STATUS,FIELD_TECHNIQUES}=await import(pathToFileURL(join(out,'progression.js')).href);
 const {summonedById}=await import(pathToFileURL(join(out,'summons.js')).href);
 let saved,timers=[];global.localStorage={setItem:(_,value)=>saved=value,getItem:()=>null};
@@ -82,7 +82,7 @@ for(const action of ['vine-strike','ultimate']){
  assert.equal(ULTIMATE_NAMES.ava,'Soberania da Terra');
 }
 {
- const png=readFileSync('public/assets/v25/ava/ava-earth-vfx.png'),w=png.readUInt32BE(16),h=png.readUInt32BE(20);
+ const png=readFileSync('public'+ASSETS.battle_fx_ava),w=png.readUInt32BE(16),h=png.readUInt32BE(20);
  assert.equal(w,1536);assert.equal(h,1024);assert.equal(png[24],8);assert.equal(png[25],6,'Earth effect has a real RGBA alpha channel');
  const chunks=[];for(let offset=8;offset<png.length;){const length=png.readUInt32BE(offset);if(png.toString('ascii',offset+4,offset+8)==='IDAT')chunks.push(png.subarray(offset+8,offset+8+length));offset+=length+12;}
  const raw=inflateSync(Buffer.concat(chunks)),stride=w*4,pixels=Buffer.alloc(stride*h);

@@ -1,0 +1,386 @@
+{
+  "mode": "Built-in imagegen",
+  "sourceDirectory": "C:/Users/Diego/.codex/generated_images/01a0fe9c-5a05-7ae0-b816-392e2a3c966b",
+  "references": [
+    "public/assets/v25/ava/ava-earth-portrait.png (identity only, style replaced)",
+    "public/assets/characters/ophelia-walk-v2.webp",
+    "public/assets/characters/seiji-attack-v2.webp"
+  ],
+  "review": "Viewed each atlas, closed fists, wrists/elbows, knees, silhouette, Earth effects. Read-only System.Drawing alpha inspection; generated pixel data is unchanged. Initial portrait and attack layout rejected for touched edges; corrected via built-in imagegen. Raw source sides East/West reordered into game's S/W/E/N. Style references Mushoku Tensei/Fate, original Ava identity retained.",
+  "assets": [
+    {
+      "key": "portrait",
+      "source": "exec-771d6c7b-62b6-4003-b108-4959d1087389.png",
+      "size": [
+        971,
+        1620
+      ],
+      "alpha0": 750298,
+      "bounds": [
+        67,
+        99,
+        850,
+        1430
+      ],
+      "file": "public/assets/v26/ava/ava-anime-portrait.png",
+      "pixelsAboveAlpha24OnCropEdges": 0
+    },
+    {
+      "key": "walk",
+      "source": "exec-05a4a9fa-7055-4bbd-8336-3416bda23d08.png",
+      "size": [
+        1086,
+        1448
+      ],
+      "alpha0": 1023801,
+      "crops": [
+        {
+          "x": 0,
+          "y": 24,
+          "w": 362,
+          "h": 355,
+          "anchorX": 241,
+          "anchorY": 377
+        },
+        {
+          "x": 362,
+          "y": 24,
+          "w": 362,
+          "h": 355,
+          "anchorX": 546,
+          "anchorY": 365
+        },
+        {
+          "x": 724,
+          "y": 24,
+          "w": 362,
+          "h": 355,
+          "anchorX": 842,
+          "anchorY": 377
+        },
+        {
+          "x": 0,
+          "y": 724,
+          "w": 362,
+          "h": 349,
+          "anchorX": 224,
+          "anchorY": 1063
+        },
+        {
+          "x": 362,
+          "y": 724,
+          "w": 362,
+          "h": 349,
+          "anchorX": 545,
+          "anchorY": 1063
+        },
+        {
+          "x": 724,
+          "y": 724,
+          "w": 362,
+          "h": 349,
+          "anchorX": 838,
+          "anchorY": 1063
+        },
+        {
+          "x": 0,
+          "y": 379,
+          "w": 362,
+          "h": 343,
+          "anchorX": 267,
+          "anchorY": 718
+        },
+        {
+          "x": 362,
+          "y": 379,
+          "w": 362,
+          "h": 343,
+          "anchorX": 559,
+          "anchorY": 717
+        },
+        {
+          "x": 724,
+          "y": 379,
+          "w": 362,
+          "h": 343,
+          "anchorX": 885,
+          "anchorY": 719
+        },
+        {
+          "x": 0,
+          "y": 1073,
+          "w": 362,
+          "h": 345,
+          "anchorX": 239,
+          "anchorY": 1412
+        },
+        {
+          "x": 362,
+          "y": 1073,
+          "w": 362,
+          "h": 345,
+          "anchorX": 539,
+          "anchorY": 1412
+        },
+        {
+          "x": 724,
+          "y": 1073,
+          "w": 362,
+          "h": 345,
+          "anchorX": 847,
+          "anchorY": 1412
+        }
+      ],
+      "file": "public/assets/v26/ava/ava-anime-walk.png",
+      "pixelsAboveAlpha24OnCropEdges": 0
+    },
+    {
+      "key": "attack",
+      "source": "exec-aadfaa1c-821a-4b25-abf5-594e1f3b2f0e.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "alpha0": 1020849,
+      "crops": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 512,
+          "h": 512,
+          "anchorX": 252,
+          "anchorY": 488
+        },
+        {
+          "x": 512,
+          "y": 0,
+          "w": 512,
+          "h": 512,
+          "anchorX": 776,
+          "anchorY": 489
+        },
+        {
+          "x": 1024,
+          "y": 0,
+          "w": 512,
+          "h": 512,
+          "anchorX": 1295,
+          "anchorY": 487
+        },
+        {
+          "x": 0,
+          "y": 512,
+          "w": 512,
+          "h": 512,
+          "anchorX": 256,
+          "anchorY": 992
+        },
+        {
+          "x": 512,
+          "y": 512,
+          "w": 512,
+          "h": 512,
+          "anchorX": 787,
+          "anchorY": 991
+        },
+        {
+          "x": 1024,
+          "y": 512,
+          "w": 512,
+          "h": 512,
+          "anchorX": 1302,
+          "anchorY": 992
+        }
+      ],
+      "file": "public/assets/v26/ava/ava-anime-attack.png",
+      "pixelsAboveAlpha24OnCropEdges": 0
+    },
+    {
+      "key": "cast",
+      "source": "exec-d46c2fd6-537b-4db6-8bbc-c508b2563430.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "alpha0": 842038,
+      "crops": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 512,
+          "h": 512,
+          "anchorX": 268,
+          "anchorY": 500
+        },
+        {
+          "x": 512,
+          "y": 0,
+          "w": 512,
+          "h": 512,
+          "anchorX": 789,
+          "anchorY": 498
+        },
+        {
+          "x": 1024,
+          "y": 0,
+          "w": 512,
+          "h": 512,
+          "anchorX": 1297,
+          "anchorY": 497
+        },
+        {
+          "x": 0,
+          "y": 512,
+          "w": 512,
+          "h": 512,
+          "anchorX": 265,
+          "anchorY": 1001
+        },
+        {
+          "x": 512,
+          "y": 512,
+          "w": 512,
+          "h": 512,
+          "anchorX": 779,
+          "anchorY": 1001
+        },
+        {
+          "x": 1024,
+          "y": 512,
+          "w": 512,
+          "h": 512,
+          "anchorX": 1293,
+          "anchorY": 1002
+        }
+      ],
+      "file": "public/assets/v26/ava/ava-anime-cast.png",
+      "pixelsAboveAlpha24OnCropEdges": 0
+    },
+    {
+      "key": "ultimate",
+      "source": "exec-79d0d147-1cb6-45a3-95fa-757aa42eb99f.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "alpha0": 771348,
+      "crops": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 384,
+          "h": 512,
+          "anchorX": 194,
+          "anchorY": 490
+        },
+        {
+          "x": 384,
+          "y": 0,
+          "w": 384,
+          "h": 512,
+          "anchorX": 581,
+          "anchorY": 483
+        },
+        {
+          "x": 768,
+          "y": 0,
+          "w": 384,
+          "h": 512,
+          "anchorX": 1007,
+          "anchorY": 484
+        },
+        {
+          "x": 1152,
+          "y": 0,
+          "w": 384,
+          "h": 512,
+          "anchorX": 1338,
+          "anchorY": 488
+        },
+        {
+          "x": 0,
+          "y": 512,
+          "w": 384,
+          "h": 512,
+          "anchorX": 188,
+          "anchorY": 990
+        },
+        {
+          "x": 384,
+          "y": 512,
+          "w": 384,
+          "h": 512,
+          "anchorX": 575,
+          "anchorY": 990
+        },
+        {
+          "x": 768,
+          "y": 512,
+          "w": 384,
+          "h": 512,
+          "anchorX": 955,
+          "anchorY": 990
+        },
+        {
+          "x": 1152,
+          "y": 512,
+          "w": 384,
+          "h": 512,
+          "anchorX": 1365,
+          "anchorY": 990
+        }
+      ],
+      "file": "public/assets/v26/ava/ava-anime-ultimate.png",
+      "pixelsAboveAlpha24OnCropEdges": 0
+    },
+    {
+      "key": "vfx",
+      "source": "exec-797f00f6-b20d-49dc-85f6-5d834fd712df.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "alpha0": 1076402,
+      "crops": [
+        {
+          "x": 16,
+          "y": 16,
+          "w": 480,
+          "h": 480
+        },
+        {
+          "x": 528,
+          "y": 16,
+          "w": 480,
+          "h": 480
+        },
+        {
+          "x": 1040,
+          "y": 16,
+          "w": 480,
+          "h": 480
+        },
+        {
+          "x": 16,
+          "y": 528,
+          "w": 480,
+          "h": 480
+        },
+        {
+          "x": 528,
+          "y": 528,
+          "w": 480,
+          "h": 480
+        },
+        {
+          "x": 1040,
+          "y": 528,
+          "w": 480,
+          "h": 480
+        }
+      ],
+      "file": "public/assets/v26/ava/ava-anime-vfx.png",
+      "pixelsAboveAlpha24OnCropEdges": 0
+    }
+  ]
+}

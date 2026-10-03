@@ -84,13 +84,17 @@ function fieldMap(id:MapId,p:Progression):MapData{
 }
 export class GameEngine{
  state:Snapshot={...fresh(),mode:'start',cutscene:null,overlay:null,rewardNotice:null,gachaResults:[],gachaBusy:false,summonResults:[],summonBusy:false,fieldEffect:null,dialogue:null,battle:null,nearby:null,toast:'',hasSave:false,saving:'',facing:0,moving:false};
- listeners=new Set<()=>void>(); saved:Save|null=null;keys=new Set<string>();path:Point[]=[];pending:string|null=null;paused=false;follower:Point={x:14,y:13.1};trail:Point[]=[];respawns:Record<string,number>={};now=0;patrolTime=0;lastEmit=0;lastAutosave=0;toastUntil=0;afterDialogue:(()=>void)|null=null;audio:AudioContext|null=null;sound=false;
+ listeners=new Set<()=>void>(); saved:Save|null=null;keys=new Set<string>();path:Point[]=[];pending:string|null=null;paused=false;follower:Point={x:14,y:13.1};trail:Point[]=[];respawns:Record<string,number>={};now=0;patrolTime=0;lastEmit=0;lastAutosave=0;toastUntil=0;afterDialogue:(()=>void)|null=null;audio:AudioContext|null=null;
+ private soundEnabled=false;private audioGeneration=0;private effects=new Set<HTMLAudioElement>();private tones=new Map<OscillatorNode,GainNode>();
+ get sound(){return this.soundEnabled;}
+ set sound(enabled:boolean){this.soundEnabled=enabled;if(!enabled)this.stopSounds();}
+ private stopSounds(){this.audioGeneration++;for(const effect of this.effects){effect.muted=true;effect.pause();effect.src='';effect.onended=null;effect.onerror=null;}this.effects.clear();for(const [oscillator,gain] of this.tones){oscillator.onended=null;try{oscillator.stop();oscillator.disconnect();gain.disconnect();}catch{}}this.tones.clear();if(this.audio?.state==='running')void this.audio.suspend().catch(()=>{});}
  subscribe=(fn:()=>void)=>{this.listeners.add(fn);return()=>{this.listeners.delete(fn);};};
  snapshot=()=>this.state;
  emit(){this.state={...this.state,position:{...this.state.position},heroes:this.state.heroes.map(h=>({...h})),nearby:this.nearest()};this.listeners.forEach(f=>f());}
  hydrate(){try{this.saved=parseSave(localStorage.getItem(SAVE_KEY));}catch{}this.state.hasSave=!!this.saved;this.emit();}
  toast(text:string){this.state.toast=text;this.toastUntil=this.now+4;this.emit();}
- tone(f=400){if(!this.sound)return;try{if(!this.audio||this.audio.state==='closed')this.audio=new AudioContext();void this.audio.resume().catch(()=>{});const o=this.audio.createOscillator(),g=this.audio.createGain();o.type='sine';o.frequency.setValueAtTime(f,this.audio.currentTime);g.gain.setValueAtTime(.045,this.audio.currentTime);g.gain.exponentialRampToValueAtTime(.001,this.audio.currentTime+.2);o.connect(g);g.connect(this.audio.destination);o.start();o.stop(this.audio.currentTime+.21);}catch{}}
+ tone(f=400){if(!this.sound)return;try{if(!this.audio||this.audio.state==='closed')this.audio=new AudioContext();const context=this.audio;void context.resume().then(()=>{if((!this.sound||context!==this.audio)&&context.state!=='closed')void context.suspend().catch(()=>{});}).catch(()=>{});const o=context.createOscillator(),g=context.createGain();this.tones.set(o,g);o.onended=()=>{this.tones.delete(o);o.disconnect();g.disconnect();};o.type='sine';o.frequency.setValueAtTime(f,context.currentTime);g.gain.setValueAtTime(.045,context.currentTime);g.gain.exponentialRampToValueAtTime(.001,context.currentTime+.2);o.connect(g);g.connect(context.destination);o.start();o.stop(context.currentTime+.21);}catch{}}
  selectProtagonist(){this.clearMovement();this.state.mode='selection';this.emit();}
  start(resume=false,protagonist?:HeroId){const s=resume&&this.saved?structuredClone(this.saved):fresh(protagonist);this.state={...this.state,...s,mode:'world',cutscene:null,overlay:null,rewardNotice:null,gachaResults:[],gachaBusy:false,summonResults:[],summonBusy:false,fieldEffect:null,dialogue:null,battle:null};this.respawns={};this.clearMovement();this.follower={x:s.position.x,y:s.position.y+.9};this.unlockCarmillaIfReady();this.emit();
   if(!resume)this.playCutscene(protagonist?`origin-${protagonist}`:'arrival',()=>this.save());
@@ -211,7 +215,7 @@ const moving=!!(dx||dy);if(moving){const n=Math.hypot(dx,dy),step=Math.min(dt,.0
  setDifficulty(id:1|2|3){if(this.state.mode!=='world'||![1,2,3].includes(id))return false;this.state.progress.difficulty=id;this.save();this.toast(`Dificuldade: ${DIFFICULTIES[id-1].name}. Vale para o próximo combate.`);return true;}
  ackGear(slot?:Slot){const p=this.state.progress;p.unseenGear=p.unseenGear.filter(id=>slot&&gearById(id)?.slot!==slot);this.save();}
  ackCosmetic(id:string){this.state.progress.unseenCosmetics=this.state.progress.unseenCosmetics.filter(v=>v!==id);this.save();}
- soundEffect(id:string){if(!this.sound||typeof Audio==='undefined')return;try{const audio=new Audio(`/assets/audio/sfx/${id}.wav`);audio.volume=.32;void audio.play().catch(()=>{});}catch{}}
+ soundEffect(id:string){if(!this.sound||typeof Audio==='undefined')return;try{const audio=new Audio(`/assets/audio/sfx/${id}.wav`),token=this.audioGeneration;audio.volume=.32;audio.muted=false;this.effects.add(audio);const release=()=>{this.effects.delete(audio);audio.onended=null;audio.onerror=null;};audio.onended=release;audio.onerror=release;void audio.play().then(()=>{if(!this.sound||token!==this.audioGeneration){audio.muted=true;audio.pause();release();}}).catch(release);}catch{}}
  chargeLimit(id:HeroId,amount:number){this.state.progress.limit[id]=Math.min(100,(this.state.progress.limit[id]||0)+amount);}
  setGabrielForm(form:'human'|'lycan'){if(this.state.mode!=='world'||!this.state.progress.recruited.includes('gabriel'))return false;this.state.progress.gabrielForm=form;this.save();this.emit();return true;}
  ultimateName(id:HeroId){return ULTIMATE_NAMES[id];}
@@ -354,5 +358,5 @@ const moving=!!(dx||dy);if(moving){const n=Math.hypot(dx,dy),step=Math.min(dt,.0
  playCutscene(id:string,onEnd?:()=>void,replay=false){if(!CUTSCENES[id])return false;if(replay&&(this.state.mode!=='world'||CUTSCENES[id].map!==this.state.map||!this.state.progress.seen.includes(id)))return false;this.clearMovement();this.state.mode='cutscene';this.state.cutscene={id,index:0,replay};this.afterDialogue=onEnd||null;this.emit();return true;}
  nextCutscene(){const c=this.state.cutscene;if(!c)return;const scene=CUTSCENES[c.id];if(c.index<scene.beats.length-1){c.index++;this.emit();}else this.finishCutscene();}
  finishCutscene(){const c=this.state.cutscene;if(!c)return;this.state.cutscene=null;this.state.mode='world';if(!this.state.progress.seen.includes(c.id))this.state.progress.seen.push(c.id);const cb=this.afterDialogue;this.afterDialogue=null;cb?.();this.save(true);this.emit();}
- dispose(){const audio=this.audio;this.audio=null;if(audio&&audio.state!=='closed')void audio.close().catch(()=>{});}
+ dispose(){this.sound=false;const audio=this.audio;this.audio=null;if(audio&&audio.state!=='closed')void audio.close().catch(()=>{});}
 }

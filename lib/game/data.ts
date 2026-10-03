@@ -136,7 +136,7 @@ export function combatElement(hero:HeroId,action:string):CombatElement{
  if(hero==='beatriz')return action==='umbra-seal'?'dark':action==='ultimate'?'water-dark':'water';
  return HERO_COMBAT_ELEMENTS[hero];
 }
-export const EARTH_VFX_FRAMES=Array.from({length:6},(_,frame)=>({x:frame%3*512+32,y:Math.floor(frame/3)*512+32,w:448,h:448}));
+export const EARTH_VFX_FRAMES=Array.from({length:6},(_,frame)=>({x:frame%3*512+16,y:Math.floor(frame/3)*512+16,w:480,h:480}));
 export function combatImpact(element:CombatElement):{asset:string;row:number;rows:number;columns:number;frames?:readonly {x:number;y:number;w:number;h:number}[]}|undefined{
  const row=({ice:0,ink:1,dark:2,fire:3} as Partial<Record<CombatElement,number>>)[element];
  if(row!==undefined)return {asset:'battle_vfx',row,rows:4,columns:6};
@@ -202,10 +202,10 @@ ASSETS.battle_beatriz_cast='/assets/v22/beatriz-combat.webp';
 ASSETS.battle_beatriz_ultimate='/assets/v22/beatriz-combat.webp';
 ASSETS.battle_fx_beatriz='/assets/v22/beatriz-vfx.webp';
 for(const action of ['attack','cast','ultimate'])ASSETS[`battle_orfeu_${action}`]='/assets/v25/orfeu/orfeu-antimagic-combat.png';
-for(const action of ['attack','cast','ultimate'])ASSETS[`battle_ava_${action}`]=`/assets/v25/ava/ava-earth-${action}.png`;
-ASSETS.ava='/assets/v25/ava/ava-earth-walk.png';
-ASSETS.battle_fx_ava='/assets/v25/ava/ava-earth-vfx.png';
-ASSETS.dlg_orfeu='/assets/v22/orfeu-5star.webp';ASSETS.dlg_ava='/assets/v25/ava/ava-earth-portrait.png';
+for(const action of ['attack','cast','ultimate'])ASSETS[`battle_ava_${action}`]=`/assets/v26/ava/ava-anime-${action}.png`;
+ASSETS.ava='/assets/v26/ava/ava-anime-walk.png';
+ASSETS.battle_fx_ava='/assets/v26/ava/ava-anime-vfx.png';
+ASSETS.dlg_orfeu='/assets/v22/orfeu-5star.webp';ASSETS.dlg_ava='/assets/v26/ava/ava-anime-portrait.png';
 ASSETS.carmilla='/assets/v23/carmilla-walk-slender-v2.png';ASSETS.dlg_carmilla='/assets/v23/carmilla-portrait-v2.png';
 ASSETS.battle_carmilla_attack='/assets/v23/carmilla-attack-armfix.png';
 ASSETS.battle_carmilla_cast='/assets/v23/carmilla-in-aeternum-vive.png';

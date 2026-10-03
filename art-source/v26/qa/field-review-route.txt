@@ -1,0 +1,8 @@
+'use client';
+// TEMPORARY QA: the real Home UI/renderers, with an isolated in-document fixture.
+// hydrate/save never read or write game save storage. Removed before production build.
+import Home from '../page';
+import {GameEngine,type Save} from '@/lib/game/engine';
+import {freshProgression,deriveHeroes} from '@/lib/game/progression';
+GameEngine.prototype.hydrate=function(){const p=freshProgression();p.party=['ava','seiji'];p.recruited=['ava','seiji'];p.summoned=['ava'];p.bonded=['ava'];p.xp=80;p.visited=['patio','arquivo','subsolo','camara','porto','domo','galeria','ashwood','vigilia','ashpyre'];this.state.progress=p;this.state.heroes=deriveHeroes(p);this.state.map='subsolo';this.state.position={x:14,y:7};this.state.stage=5;this.state.mode='world';this.state.credits=240;this.state.checkpoint={map:'subsolo',position:{x:14,y:7}};this.state.hasSave=true;this.saved={...this.state} as Save;this.save=()=>false;this.emit();};
+export default Home;

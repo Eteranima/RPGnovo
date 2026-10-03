@@ -3,6 +3,9 @@
 - Trabalhe neste repositório: `C:\Users\Diego\OneDrive\Documentos\GitHub\RPGnovo`.
 - Não use placeholders em conteúdo destinado ao jogador. Artes, sprites de personagens, cenários e ícones do HUD devem ser assets finais próprios, integrados e visualmente verificados.
 - Novas artes devem acompanhar o padrão aprovado de Seiji, Ophelia e Carmilla, com proporções do elenco, silhuetas completas, mãos e anatomia coerentes. Personagens 5★ precisam do mesmo cuidado no retrato, exploração, ataque, habilidade e ultimate.
+- A identidade visual é anime de fantasia, com Mushoku Tensei e Fate Series como referências: contornos limpos, rostos anime e sombras em cel shading. Personagens, pisos, paredes e objetos devem compartilhar essa linguagem; evite rostos de animação ocidental e acabamento fotorrealista.
+- Não desenhe blocos de sombra quadrados sobre obstáculos. Use paredes e rochas com arte própria e bordas coerentes. Barras HP/MP, saídas e minimapa também precisam de sprites finais.
+- A escolha de som desligado persiste entre telas, mapas, batalhas e recargas até o jogador ativar o som explicitamente.
 - Preserve identidade, figurino, raridade, companheiros e regras já aprovadas. Use referências locais antes de gerar variantes.
 - Ava é Terra. Ophelia é Gelo. Os efeitos e textos de cada ataque devem corresponder ao elemento do personagem; confira também o ataque básico, as técnicas e a ultimate.
 - Folhas de sprites precisam de transparência real, células isoladas sem invasão de efeitos vizinhos, recortes e âncoras medidos. Não anuncie ausência absoluta de defeitos sem inspeção.

@@ -1,0 +1,529 @@
+{
+  "hp-vessel": {
+    "source": "field-panels-selected.png",
+    "sourceBox": [
+      14,
+      68,
+      622,
+      228
+    ],
+    "size": [
+      608,
+      160
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  "mp-vessel": {
+    "source": "field-panels-selected.png",
+    "sourceBox": [
+      634,
+      68,
+      1243,
+      228
+    ],
+    "size": [
+      609,
+      160
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  "travel-plaque": {
+    "source": "field-panels-selected.png",
+    "sourceBox": [
+      15,
+      298,
+      650,
+      526
+    ],
+    "size": [
+      635,
+      228
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  "party-panel": {
+    "source": "field-panels-selected.png",
+    "sourceBox": [
+      664,
+      298,
+      1239,
+      525
+    ],
+    "size": [
+      575,
+      227
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  "minimap-frame": {
+    "source": "field-panels-selected.png",
+    "sourceBox": [
+      31,
+      558,
+      635,
+      1161
+    ],
+    "size": [
+      604,
+      603
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  "portrait-ring": {
+    "source": "field-panels-selected.png",
+    "sourceBox": [
+      674,
+      568,
+      1237,
+      1168
+    ],
+    "size": [
+      563,
+      600
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  "destination-patio": {
+    "source": "field-symbols-isolated-selected.png",
+    "sourceBox": [
+      20,
+      38,
+      263,
+      273
+    ],
+    "size": [
+      243,
+      235
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  "destination-arquivo": {
+    "source": "field-symbols-isolated-selected.png",
+    "sourceBox": [
+      283,
+      38,
+      481,
+      276
+    ],
+    "size": [
+      198,
+      238
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  "destination-subsolo": {
+    "source": "field-symbols-isolated-selected.png",
+    "sourceBox": [
+      518,
+      39,
+      736,
+      275
+    ],
+    "size": [
+      218,
+      236
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  "destination-camara": {
+    "source": "field-symbols-isolated-selected.png",
+    "sourceBox": [
+      756,
+      39,
+      990,
+      275
+    ],
+    "size": [
+      234,
+      236
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  "destination-porto": {
+    "source": "field-symbols-isolated-selected.png",
+    "sourceBox": [
+      1006,
+      54,
+      1229,
+      278
+    ],
+    "size": [
+      223,
+      224
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  "destination-domo": {
+    "source": "field-symbols-isolated-selected.png",
+    "sourceBox": [
+      13,
+      300,
+      253,
+      542
+    ],
+    "size": [
+      240,
+      242
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  "destination-galeria": {
+    "source": "field-symbols-isolated-selected.png",
+    "sourceBox": [
+      258,
+      317,
+      499,
+      543
+    ],
+    "size": [
+      241,
+      226
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  "destination-ashwood": {
+    "source": "field-symbols-isolated-selected.png",
+    "sourceBox": [
+      508,
+      312,
+      747,
+      543
+    ],
+    "size": [
+      239,
+      231
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  "destination-vigilia": {
+    "source": "field-symbols-isolated-selected.png",
+    "sourceBox": [
+      748,
+      322,
+      1000,
+      542
+    ],
+    "size": [
+      252,
+      220
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  "destination-ashpyre": {
+    "source": "field-symbols-isolated-selected.png",
+    "sourceBox": [
+      1014,
+      320,
+      1241,
+      543
+    ],
+    "size": [
+      227,
+      223
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  "marker-player": {
+    "source": "field-symbols-isolated-selected.png",
+    "sourceBox": [
+      33,
+      566,
+      230,
+      766
+    ],
+    "size": [
+      197,
+      200
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  "marker-objective": {
+    "source": "field-symbols-isolated-selected.png",
+    "sourceBox": [
+      285,
+      567,
+      480,
+      770
+    ],
+    "size": [
+      195,
+      203
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  "marker-save": {
+    "source": "field-symbols-isolated-selected.png",
+    "sourceBox": [
+      557,
+      568,
+      697,
+      777
+    ],
+    "size": [
+      140,
+      209
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  "marker-enemy": {
+    "source": "field-symbols-isolated-selected.png",
+    "sourceBox": [
+      765,
+      563,
+      971,
+      775
+    ],
+    "size": [
+      206,
+      212
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  "marker-boss": {
+    "source": "field-symbols-isolated-selected.png",
+    "sourceBox": [
+      1023,
+      567,
+      1227,
+      771
+    ],
+    "size": [
+      204,
+      204
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  "marker-npc": {
+    "source": "field-symbols-isolated-selected.png",
+    "sourceBox": [
+      27,
+      797,
+      227,
+      996
+    ],
+    "size": [
+      200,
+      199
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  "marker-chest": {
+    "source": "field-symbols-isolated-selected.png",
+    "sourceBox": [
+      272,
+      816,
+      482,
+      981
+    ],
+    "size": [
+      210,
+      165
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  "marker-event": {
+    "source": "field-symbols-isolated-selected.png",
+    "sourceBox": [
+      525,
+      788,
+      729,
+      996
+    ],
+    "size": [
+      204,
+      208
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  "marker-lock": {
+    "source": "field-symbols-isolated-selected.png",
+    "sourceBox": [
+      800,
+      784,
+      952,
+      997
+    ],
+    "size": [
+      152,
+      213
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  "marker-travel": {
+    "source": "field-symbols-isolated-selected.png",
+    "sourceBox": [
+      1018,
+      829,
+      1230,
+      966
+    ],
+    "size": [
+      212,
+      137
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  "hp-fluid": {
+    "source": "field-symbols-isolated-selected.png",
+    "sourceBox": [
+      48,
+      1100,
+      234,
+      1124
+    ],
+    "size": [
+      186,
+      24
+    ],
+    "alpha": [
+      252,
+      254
+    ]
+  },
+  "mp-fluid": {
+    "source": "field-symbols-isolated-selected.png",
+    "sourceBox": [
+      291,
+      1100,
+      478,
+      1124
+    ],
+    "size": [
+      187,
+      24
+    ],
+    "alpha": [
+      252,
+      253
+    ]
+  },
+  "map-ground": {
+    "source": "field-symbols-isolated-selected.png",
+    "sourceBox": [
+      551,
+      1035,
+      699,
+      1178
+    ],
+    "size": [
+      148,
+      143
+    ],
+    "alpha": [
+      251,
+      254
+    ]
+  },
+  "map-wall": {
+    "source": "field-symbols-isolated-selected.png",
+    "sourceBox": [
+      797,
+      1035,
+      951,
+      1178
+    ],
+    "size": [
+      154,
+      143
+    ],
+    "alpha": [
+      251,
+      253
+    ]
+  },
+  "map-water": {
+    "source": "field-symbols-isolated-selected.png",
+    "sourceBox": [
+      1058,
+      1035,
+      1205,
+      1178
+    ],
+    "size": [
+      147,
+      143
+    ],
+    "alpha": [
+      250,
+      253
+    ]
+  }
+}

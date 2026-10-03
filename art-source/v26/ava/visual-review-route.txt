@@ -1,0 +1,12 @@
+'use client';
+import {useState} from 'react';
+import {BattleScene} from '@/components/battle-scene';
+import {UltimateCinematic} from '@/components/ultimate-cinematic';
+import {ASSETS} from '@/lib/game/data';
+import {freshProgression,deriveHeroes} from '@/lib/game/progression';
+import type {Battle} from '@/lib/game/engine';
+const progress=freshProgression();progress.party=['ava','seiji'];progress.recruited=['ava','seiji'];progress.summoned=['ava'];progress.bonded=['ava'];
+const heroes=deriveHeroes(progress);
+const reviewStyle='.ava-review .battle-stage{height:100%;inset:0}.ava-review .battle-stage canvas{height:100%!important;width:100%}';
+const base:Battle={entityId:'qa',family:'lobo',name:'Revisão de arte',boss:false,asset:'wolf',hp:1000,maxHp:1000,spd:1,damage:1,xp:0,credits:0,round:1,queue:['ava','enemy'],index:0,weakened:false,log:[],busy:false,flash:0,statuses:{},phase:1,bossCharge:0,difficulty:1,dropChance:0,baseDamage:1,freezeUsed:false};
+export default function AvaReview(){const [battle,setBattle]=useState(base),[action,setAction]=useState('attack');const play=(next:string,phase:number)=>{setAction(next);setBattle({...base,animation:{actor:'ava',action:next,element:'earth',target:'enemy',started:Date.now()-(phase+.05)*60000/(next==='ultimate'?8:6),duration:60000,impactAt:0}});};return <main className="ava-review" style={{height:'100dvh',background:'#071523',color:'#f5e7c8',display:'grid',gridTemplateRows:'70px 1fr',padding:12}}><style>{reviewStyle}</style><header style={{display:'flex',gap:8,alignItems:'center',flexWrap:'wrap'}}><b>Ava · Anime / Terra · revisão temporária sem saves</b>{['attack','vine-strike','ultimate'].map(next=><button key={next} onClick={()=>play(next,0)}>{next==='attack'?'Ataque':next==='ultimate'?'Ultimate':'Habilidade'}</button>)}{Array.from({length:action==='ultimate'?8:6},(_,i)=><button key={i} onClick={()=>play(action,i)}>Quadro {i+1}</button>)}</header><section style={{display:'grid',gridTemplateColumns:'24% 1fr',minHeight:0,gap:20}}><img src={ASSETS.dlg_ava} alt="Retrato anime completo da Ava" style={{height:'100%',width:'100%',objectFit:'contain'}}/><div className="world" style={{minHeight:0,height:'100%',backgroundImage:`url(${ASSETS.battle_bg_below})`,backgroundSize:'cover'}}><BattleScene battle={battle} heroes={heroes} progress={progress} map="subsolo"/><UltimateCinematic battle={battle} heroes={heroes} progress={progress} map="subsolo"/></div></section></main>;}

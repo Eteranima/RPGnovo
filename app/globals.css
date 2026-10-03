@@ -261,3 +261,67 @@ html,body{height:100%;overflow:hidden;overscroll-behavior:none}.game-shell{posit
 .ultimate-cinematic>.cinematic-caption>strong{display:block;font-family:Georgia,serif!important;font-size:clamp(18px,2.6vw,30px);font-weight:500!important;line-height:1.12;color:#fff4df!important;overflow-wrap:anywhere}
 @media(orientation:landscape) and (max-height:600px){.ultimate-cinematic>.cinematic-caption{bottom:9%;padding:7px 12px;gap:2px}.ultimate-cinematic>.cinematic-caption>strong{font-size:21px}.ultimate-cinematic>.cinematic-caption>small{font-size:10px}}
 @media(max-width:500px) and (orientation:portrait){.ultimate-cinematic>.cinematic-caption{max-width:88%;left:6%;padding:9px 12px}.ultimate-cinematic>.cinematic-caption>strong{font-size:22px}}
+
+/* Generated fantasy anime field HUD: painted vessels, destination plates and cartography. */
+.field-art{display:block;object-fit:contain;pointer-events:none;user-select:none}
+.game-shell .play-column>.party-footer{height:94px;gap:14px;padding:7px 14px;border-top:1px solid #d5bd7955;background:#081728;overflow-x:auto;overflow-y:hidden;scrollbar-width:thin;scrollbar-color:#c1a967 #0a1728}
+.game-shell .party-footer .hero-card{width:326px;flex:0 0 326px;height:80px;gap:11px;padding:8px 16px;border:0!important;border-radius:0!important;background:transparent url('/assets/v26/ui/party-panel.png') center/100% 100% no-repeat!important;box-shadow:none}
+.game-shell .party-footer .hero-name{display:flex;justify-content:space-between;align-items:baseline;gap:6px;height:18px;line-height:18px;margin:0 0 2px}
+.game-shell .party-footer .hero-name strong{font-family:Georgia,serif;font-size:17px;font-weight:600;white-space:nowrap;color:#fff0d0}
+.game-shell .party-footer .hero-name>span{font-size:10px;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--element,#c3d7ee)}
+.game-shell .party-footer .hero-info{min-width:0;flex:1}
+.hero-card .stat-row{height:23px;line-height:1;gap:5px;margin-top:0}
+.hero-card .stat-row>span:first-child{width:18px;flex:0 0 18px;font-size:10px;letter-spacing:.03em;color:#e8dbc1}
+.hero-card .stat-row b{width:59px;font-size:11px;line-height:1;flex:0 0 59px;color:#f7eacf;font-variant-numeric:tabular-nums;white-space:nowrap}
+.hero-card .stat-row b small{font-size:10px;color:#b1c4d7}
+.hero-card .vital-vessel{display:block;position:relative;flex:1;min-width:60px;width:auto;height:23px}
+.hero-card .vital-frame{position:absolute;inset:0;width:100%;height:100%;object-fit:fill;z-index:0}
+.hero-card .vital-track[data-slot=progress]{position:absolute;left:21%;right:10%;top:39%;width:auto;height:25%;min-width:0;border:0;border-radius:3px;background:transparent!important;overflow:hidden;z-index:1}
+.vital-vessel .vital-track [data-slot=progress-indicator]{background-color:transparent!important;background-position:center;background-size:100% 100%;border-radius:2px;transition:transform .25s ease}
+.vital-hp .vital-track [data-slot=progress-indicator]{background-image:url('/assets/v26/ui/hp-fluid.png')!important}
+.vital-mp .vital-track [data-slot=progress-indicator]{background-image:url('/assets/v26/ui/mp-fluid.png')!important}
+.hero-card .face{width:56px;height:56px;flex:0 0 56px;border:0!important;border-radius:0!important;overflow:visible;clip-path:none;background:transparent!important;box-shadow:none}
+.hero-card .portrait-window{position:absolute;left:14%;right:14%;top:17%;bottom:15%;overflow:hidden;border-radius:50%;background:#183144}
+.hero-card .portrait-window>img{position:absolute;width:240%;height:auto;max-width:none;left:50%;top:0;transform:translateX(-50%)}
+.hero-card .face-ophelia .portrait-window>img{width:280%}
+.hero-card .face-gabriel_lycan .portrait-window>img{width:230%}
+.hero-card .face>.portrait-ornament{position:absolute;inset:0;width:100%;height:100%;max-width:none;object-fit:fill;transform:none;z-index:2}
+.game-shell .party-footer .save-status{flex:0 0 auto;margin-left:auto;padding:0 8px;color:#ddcaa5}
+.game-shell .world .hud-minimap{top:12px;right:14px;width:154px;padding:0;border:0!important;border-radius:0!important;background:transparent!important;box-shadow:none}
+.hud-minimap>.cartography-frame{position:relative;display:block;width:100%;aspect-ratio:1;margin:0;font-size:inherit;letter-spacing:normal}
+.cartography-aperture{position:absolute;left:11%;top:17%;width:78%;height:71%;overflow:hidden;background:#0b1c2a}
+.hud-minimap .cartography-aperture>.minimap{width:100%;height:100%;padding:0;border:0;border-radius:0;background:#0b1c2a}
+.cartography-ornament{position:absolute;inset:0;width:100%;height:100%;object-fit:fill}
+.hud-minimap>.cartography-label{display:flex;justify-content:center;align-items:center;gap:5px;margin:3px 0 0;padding:3px 4px;color:#ffe9bb;font-size:11px;letter-spacing:.03em;line-height:1.2;text-shadow:0 2px 4px #000;background:#081826cf;border-radius:3px}
+.cartography-label>.hud-art-icon{width:17px;height:17px;flex-basis:17px}
+.hud-minimap:focus-visible{outline:2px solid #f7d894;outline-offset:4px}
+.hud-minimap:hover .cartography-ornament{filter:brightness(1.12)}
+.illustrated-minimap{background:#0c1d2b;border-color:#c8b78355}
+.minimap-player{pointer-events:none}
+.game-shell .world .map-exits{right:12px;bottom:10px;width:228px;max-width:228px;max-height:calc(100% - 180px);overflow-y:auto;gap:4px;padding:3px;scrollbar-width:thin;scrollbar-color:#cfb678 #0b1728}
+.game-shell .world .map-exits button{position:relative;isolation:isolate;display:flex;align-items:center;gap:6px;width:100%;min-height:62px;padding:9px 31px 9px 11px;border:0!important;border-radius:0!important;background:transparent!important;box-shadow:none;overflow:visible;text-align:left;color:#fff0cb}
+.map-exits .travel-plaque{position:absolute;inset:0;width:100%;height:100%;max-width:none;object-fit:fill;z-index:-1}
+.map-exits .travel-destination-art{width:39px;height:41px;flex:0 0 39px;filter:drop-shadow(0 1px 2px #020a14)}
+.map-exits .travel-label{position:relative;min-width:0;font-family:Georgia,serif;font-size:14px;font-weight:600;line-height:1.2;text-shadow:0 2px 3px #000b}
+.map-exits .travel-lock{position:absolute;right:17px;top:8px;width:13px;height:16px}
+.map-exits button:hover:not(:disabled) .travel-plaque{filter:brightness(1.15)}
+.map-exits button:focus-visible{outline:2px solid #ffe5a6;outline-offset:1px}
+.game-shell .world .map-exits button:disabled{opacity:.65}
+@media(orientation:landscape) and (max-height:650px){.game-shell .play-column>.party-footer{height:82px;padding:5px 12px;gap:10px}.game-shell .party-footer .hero-card{width:305px;flex-basis:305px;height:70px;padding:6px 14px;gap:9px}.game-shell .party-footer .hero-name{height:16px;line-height:16px;margin-bottom:1px}.game-shell .party-footer .hero-name strong{font-size:15px}.game-shell .party-footer .hero-card .face{width:49px;height:49px;flex-basis:49px}.hero-card .stat-row{height:21px}.hero-card .vital-vessel{height:21px}.game-shell .world .hud-minimap{width:128px;top:8px;right:12px}.game-shell .world .map-exits{width:215px;max-width:215px;bottom:7px;max-height:calc(100% - 164px);gap:2px}.game-shell .world .map-exits button{min-height:55px;padding-top:6px;padding-bottom:6px}.map-exits .travel-destination-art{width:34px;height:37px;flex-basis:34px}.map-exits .travel-label{font-size:13px}}
+@media(orientation:landscape) and (max-height:440px){.game-shell .world .hud-minimap{width:103px}.hud-minimap>.cartography-label{font-size:10px;margin-top:0}.game-shell .world .map-exits{width:186px;max-width:186px;max-height:calc(100% - 130px);right:8px}.game-shell .world .map-exits button{min-height:51px;padding-left:8px;padding-right:25px}.map-exits .travel-label{font-size:12px}.game-shell .party-footer .hero-card{width:285px;flex-basis:285px}.game-shell .party-footer .hero-name>span{font-size:9px}.game-shell .party-footer .save-status small{display:none}}
+@media(max-width:520px) and (orientation:portrait){.game-shell .play-column>.party-footer{height:90px;padding:6px 8px;gap:8px}.game-shell .party-footer .hero-card{width:294px;flex-basis:294px;height:76px;padding:7px 13px;gap:8px}.game-shell .party-footer .hero-name strong{font-size:16px}.hero-card .face{width:49px;height:49px;flex-basis:49px}.game-shell .world .hud-minimap{width:120px;top:96px;right:10px}.game-shell .world .map-exits{width:190px;max-width:190px;right:8px;bottom:15px;max-height:38%}.game-shell .world .map-exits button{min-height:55px;padding-left:8px;padding-right:27px}.map-exits .travel-label{font-size:12px}.map-exits .travel-destination-art{width:34px;height:37px;flex-basis:34px}.game-shell .party-footer .save-status{font-size:10px}.game-shell .party-footer .save-status small{display:none}}
+@media(prefers-reduced-motion:reduce){.vital-vessel .vital-track [data-slot=progress-indicator]{transition:none}}
+.game-shell .party-footer .hero-card{padding-left:18px;padding-right:27px}
+@media(orientation:landscape) and (max-height:650px){.game-shell .party-footer .hero-card{padding-left:16px;padding-right:26px}}
+@media(max-width:520px) and (orientation:portrait){.game-shell .party-footer .hero-card{padding-left:15px;padding-right:26px}}
+@media(max-width:520px) and (orientation:portrait){
+ .game-shell .world .map-exits{bottom:145px}
+ .game-shell .world .field-quickbar{left:auto;right:8px;bottom:12px;transform:none;width:calc(100% - 154px);display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:5px;z-index:10}
+ .game-shell .world .field-quickbar>button{min-width:0;width:100%;min-height:44px;padding:5px 7px;gap:5px}
+ .game-shell .world .field-quickbar>button:not(.leader-swap):first-child:nth-last-child(2){grid-column:1/-1}
+ .game-shell .world .field-quickbar .leader-swap{grid-column:1/-1}
+ .game-shell .world .field-quickbar .game-art-icon{width:24px;height:24px;flex-basis:24px}
+ .game-shell .world .field-quickbar span{display:block;min-width:0;white-space:normal;font-size:11px;line-height:1.2}
+ .game-shell .world .field-quickbar small{font-size:9px;line-height:1.3}
+ .game-shell .world .field-quickbar .leader-swap img{width:26px;height:32px}
+}
