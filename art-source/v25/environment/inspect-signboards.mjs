@@ -1,4 +1,4 @@
-// Read-only analysis of the old lossless WebP atlas; no image file is modified.
+// Read-only alpha analysis of the repaired signboard PNG; no image file is modified.
 import sharp from '../../../node_modules/.pnpm/sharp@0.35.4_@types+node@22.19.19/node_modules/sharp/dist/index.mjs';
 import {writeFileSync} from 'node:fs';
 const {data,info}=await sharp('public/assets/v25/environment/signboards.png').ensureAlpha().raw().toBuffer({resolveWithObject:true});

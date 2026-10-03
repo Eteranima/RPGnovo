@@ -43,6 +43,8 @@ A escolha de variações usa coordenadas do mundo e identificador do mapa: deslo
 
 - Inspeção visual das sete imagens selecionadas, inclusive transparência e silhuetas após a revisão de layout das folhas de objetos e placas.
 - Checagem de tipos com `tsc --noEmit`: passou durante a integração.
-- `node tests/environment.test.mjs`: 17.010 verificações passaram nos dez mapas, cobertura de todos os tipos de terreno, fonte de cada célula, recortes de materiais sem vazamento, variações estáveis, recortes alfa medidos, limite de cache e atualização na ativação/expiração da ponte de gelo.
+- `node tests/environment.test.mjs`: 17.024 verificações passaram nos dez mapas, cobertura de todos os tipos de terreno, fonte de cada célula, recortes de materiais sem vazamento, variações estáveis, 24 recortes alfa medidos, 12 placas reparadas, limite de cache e atualização na ativação/expiração da ponte de gelo.
 - Inspeção visível da composição completa dos dez mapas na prévia local, usando os mesmos métodos de chão, cenário e entidades de `WorldRenderer`: pisos, leituras de bioma e recortes de objetos aprovados. A checagem encontrou e encaminhou a correção das placas antigas.
 - Ava parada e os quatro passos do ciclo, ao sul, oeste, leste e norte, conferidos com o método real `WorldRenderer.actor`: corpo estável no eixo, silhuetas completas, direções cardinais corretas, sem fragmentos das células vizinhas nas vistas examinadas.
+- Após a integração da folha reparada e dos doze recortes nativos, Porto Lúmina, Mata Cindária e Domo de Herbologia foram revistos: placas completas, símbolos corretos e sem fragmentos vizinhos.
+- A página temporária de revisão foi removida após a inspeção; sua fonte foi arquivada em `visual-review-route.txt` para registrar o método da checagem.

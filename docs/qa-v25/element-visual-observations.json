@@ -1,0 +1,805 @@
+[
+  {
+    "hero": "seiji",
+    "action": "cut",
+    "meta": [
+      {
+        "auras": "",
+        "element": "ink",
+        "elementLabel": "Tinta",
+        "frame": "seiji:3",
+        "impactElement": "ink",
+        "skillVisual": "seiji:0:projectile",
+        "ultimateFrames": "6",
+        "ultimateHero": "ava",
+        "ultimateStarted": "996208"
+      }
+    ]
+  },
+  {
+    "hero": "seiji",
+    "action": "stain",
+    "meta": [
+      {
+        "auras": "",
+        "element": "ink",
+        "elementLabel": "Tinta",
+        "frame": "seiji:3",
+        "impactElement": "ink",
+        "skillVisual": "seiji:1:bloom",
+        "ultimateFrames": "6",
+        "ultimateHero": "ava",
+        "ultimateStarted": "996208"
+      }
+    ]
+  },
+  {
+    "hero": "seiji",
+    "action": "blind",
+    "meta": [
+      {
+        "auras": "",
+        "element": "ink",
+        "elementLabel": "Tinta",
+        "frame": "seiji:3",
+        "impactElement": "ink",
+        "skillVisual": "seiji:2:veil",
+        "ultimateFrames": "6",
+        "ultimateHero": "ava",
+        "ultimateStarted": "996208"
+      }
+    ]
+  },
+  {
+    "hero": "seiji",
+    "action": "bleed",
+    "meta": [
+      {
+        "auras": "",
+        "element": "ink",
+        "elementLabel": "Tinta",
+        "frame": "seiji:3",
+        "impactElement": "ink",
+        "skillVisual": "seiji:3:slash",
+        "ultimateFrames": "6",
+        "ultimateHero": "ava",
+        "ultimateStarted": "996208"
+      }
+    ]
+  },
+  {
+    "hero": "seiji",
+    "action": "ultimate",
+    "meta": [
+      {
+        "auras": "",
+        "element": "ink",
+        "elementLabel": "Tinta",
+        "frame": "seiji:6",
+        "impactElement": "ink",
+        "ultimateFrames": "6",
+        "ultimateHero": "seiji",
+        "ultimateStarted": "996208"
+      }
+    ]
+  },
+  {
+    "hero": "ophelia",
+    "action": "shard",
+    "meta": [
+      {
+        "auras": "",
+        "element": "ice",
+        "elementLabel": "Gelo",
+        "frame": "ophelia:3",
+        "impactElement": "ice",
+        "opheliaFacing": "enemy",
+        "skillVisual": "ophelia:0:projectile",
+        "ultimateFrames": "6",
+        "ultimateHero": "seiji",
+        "ultimateStarted": "996208"
+      }
+    ]
+  },
+  {
+    "hero": "ophelia",
+    "action": "mend",
+    "meta": [
+      {
+        "auras": "",
+        "element": "ice",
+        "elementLabel": "Gelo",
+        "frame": "ophelia:3",
+        "opheliaFacing": "enemy",
+        "skillVisual": "ophelia:1:bloom",
+        "ultimateFrames": "6",
+        "ultimateHero": "seiji",
+        "ultimateStarted": "996208"
+      }
+    ]
+  },
+  {
+    "hero": "ophelia",
+    "action": "freeze",
+    "meta": [
+      {
+        "auras": "",
+        "element": "ice",
+        "elementLabel": "Gelo",
+        "frame": "ophelia:3",
+        "impactElement": "ice",
+        "opheliaFacing": "enemy",
+        "skillVisual": "ophelia:2:veil",
+        "ultimateFrames": "6",
+        "ultimateHero": "seiji",
+        "ultimateStarted": "996208"
+      }
+    ]
+  },
+  {
+    "hero": "ophelia",
+    "action": "cleanse",
+    "meta": [
+      {
+        "auras": "",
+        "element": "ice",
+        "elementLabel": "Gelo",
+        "frame": "ophelia:3",
+        "opheliaFacing": "enemy",
+        "skillVisual": "ophelia:3:slash",
+        "ultimateFrames": "6",
+        "ultimateHero": "seiji",
+        "ultimateStarted": "996208"
+      }
+    ]
+  },
+  {
+    "hero": "ophelia",
+    "action": "ultimate",
+    "meta": [
+      {
+        "auras": "",
+        "element": "ice",
+        "elementLabel": "Gelo",
+        "frame": "ophelia:6",
+        "ultimateFrames": "6",
+        "ultimateHero": "ophelia",
+        "ultimateStarted": "996208"
+      }
+    ]
+  },
+  {
+    "hero": "marin",
+    "action": "eclipse",
+    "meta": [
+      {
+        "auras": "",
+        "element": "dark",
+        "elementLabel": "Trevas",
+        "frame": "marin:3",
+        "impactElement": "dark",
+        "skillVisual": "marin:0:projectile",
+        "ultimateFrames": "6",
+        "ultimateHero": "ophelia",
+        "ultimateStarted": "996208"
+      }
+    ]
+  },
+  {
+    "hero": "marin",
+    "action": "drain",
+    "meta": [
+      {
+        "auras": "",
+        "element": "dark",
+        "elementLabel": "Trevas",
+        "frame": "marin:3",
+        "impactElement": "dark",
+        "skillVisual": "marin:1:bloom",
+        "ultimateFrames": "6",
+        "ultimateHero": "ophelia",
+        "ultimateStarted": "996208"
+      }
+    ]
+  },
+  {
+    "hero": "marin",
+    "action": "darkveil",
+    "meta": [
+      {
+        "auras": "",
+        "element": "dark",
+        "elementLabel": "Trevas",
+        "frame": "marin:3",
+        "impactElement": "dark",
+        "skillVisual": "marin:2:veil",
+        "ultimateFrames": "6",
+        "ultimateHero": "ophelia",
+        "ultimateStarted": "996208"
+      }
+    ]
+  },
+  {
+    "hero": "marin",
+    "action": "rupture",
+    "meta": [
+      {
+        "auras": "",
+        "element": "dark",
+        "elementLabel": "Trevas",
+        "frame": "marin:3",
+        "impactElement": "dark",
+        "skillVisual": "marin:3:slash",
+        "ultimateFrames": "6",
+        "ultimateHero": "ophelia",
+        "ultimateStarted": "996208"
+      }
+    ]
+  },
+  {
+    "hero": "marin",
+    "action": "nightseal",
+    "meta": [
+      {
+        "auras": "",
+        "element": "dark",
+        "elementLabel": "Trevas",
+        "frame": "marin:3",
+        "impactElement": "dark",
+        "skillVisual": "marin:4:seal",
+        "ultimateFrames": "6",
+        "ultimateHero": "ophelia",
+        "ultimateStarted": "996208"
+      }
+    ]
+  },
+  {
+    "hero": "marin",
+    "action": "shadowrest",
+    "meta": [
+      {
+        "auras": "",
+        "element": "dark",
+        "elementLabel": "Trevas",
+        "frame": "marin:3",
+        "skillVisual": "marin:5:restore",
+        "ultimateFrames": "6",
+        "ultimateHero": "ophelia",
+        "ultimateStarted": "996208"
+      }
+    ]
+  },
+  {
+    "hero": "marin",
+    "action": "ultimate",
+    "meta": [
+      {
+        "auras": "",
+        "element": "dark",
+        "elementLabel": "Trevas",
+        "frame": "marin:6",
+        "impactElement": "dark",
+        "ultimateFrames": "6",
+        "ultimateHero": "marin",
+        "ultimateStarted": "996208"
+      }
+    ]
+  },
+  {
+    "hero": "gabriel",
+    "action": "blaze",
+    "meta": [
+      {
+        "auras": "",
+        "element": "fire",
+        "elementLabel": "Fogo",
+        "frame": "gabriel:3",
+        "impactElement": "fire",
+        "skillVisual": "gabriel:0:projectile",
+        "ultimateFrames": "6",
+        "ultimateHero": "marin",
+        "ultimateStarted": "996208"
+      }
+    ]
+  },
+  {
+    "hero": "gabriel",
+    "action": "bulwark",
+    "meta": [
+      {
+        "auras": "",
+        "element": "fire",
+        "elementLabel": "Fogo",
+        "frame": "gabriel:3",
+        "skillVisual": "gabriel:1:bloom",
+        "ultimateFrames": "6",
+        "ultimateHero": "marin",
+        "ultimateStarted": "996208"
+      }
+    ]
+  },
+  {
+    "hero": "gabriel",
+    "action": "flamewall",
+    "meta": [
+      {
+        "auras": "",
+        "element": "fire",
+        "elementLabel": "Fogo",
+        "frame": "gabriel:3",
+        "impactElement": "fire",
+        "skillVisual": "gabriel:2:veil",
+        "ultimateFrames": "6",
+        "ultimateHero": "marin",
+        "ultimateStarted": "996208"
+      }
+    ]
+  },
+  {
+    "hero": "gabriel",
+    "action": "nova",
+    "meta": [
+      {
+        "auras": "",
+        "element": "fire",
+        "elementLabel": "Fogo",
+        "frame": "gabriel:3",
+        "impactElement": "fire",
+        "skillVisual": "gabriel:3:slash",
+        "ultimateFrames": "6",
+        "ultimateHero": "marin",
+        "ultimateStarted": "996208"
+      }
+    ]
+  },
+  {
+    "hero": "gabriel",
+    "action": "ashseal",
+    "meta": [
+      {
+        "auras": "",
+        "element": "fire",
+        "elementLabel": "Fogo",
+        "frame": "gabriel:3",
+        "impactElement": "fire",
+        "skillVisual": "gabriel:4:seal",
+        "ultimateFrames": "6",
+        "ultimateHero": "marin",
+        "ultimateStarted": "996208"
+      }
+    ]
+  },
+  {
+    "hero": "gabriel",
+    "action": "rekindle",
+    "meta": [
+      {
+        "auras": "",
+        "element": "fire",
+        "elementLabel": "Fogo",
+        "frame": "gabriel:3",
+        "skillVisual": "gabriel:5:restore",
+        "ultimateFrames": "6",
+        "ultimateHero": "marin",
+        "ultimateStarted": "996208"
+      }
+    ]
+  },
+  {
+    "hero": "gabriel",
+    "action": "ultimate",
+    "meta": [
+      {
+        "auras": "",
+        "element": "fire",
+        "elementLabel": "Fogo",
+        "frame": "gabriel:6",
+        "impactElement": "fire",
+        "ultimateFrames": "6",
+        "ultimateHero": "gabriel",
+        "ultimateStarted": "996208"
+      }
+    ]
+  },
+  {
+    "hero": "max",
+    "action": "voltcut",
+    "meta": [
+      {
+        "auras": "",
+        "element": "lightning",
+        "elementLabel": "Eletricidade",
+        "frame": "max:2",
+        "ultimateFrames": "6",
+        "ultimateHero": "gabriel",
+        "ultimateStarted": "996208"
+      }
+    ]
+  },
+  {
+    "hero": "max",
+    "action": "stormguard",
+    "meta": [
+      {
+        "auras": "",
+        "element": "lightning",
+        "elementLabel": "Eletricidade",
+        "frame": "max:2",
+        "ultimateFrames": "6",
+        "ultimateHero": "gabriel",
+        "ultimateStarted": "996208"
+      }
+    ]
+  },
+  {
+    "hero": "max",
+    "action": "arc",
+    "meta": [
+      {
+        "auras": "",
+        "element": "lightning",
+        "elementLabel": "Eletricidade",
+        "frame": "max:2",
+        "ultimateFrames": "6",
+        "ultimateHero": "gabriel",
+        "ultimateStarted": "996208"
+      }
+    ]
+  },
+  {
+    "hero": "max",
+    "action": "ultimate",
+    "meta": [
+      {
+        "auras": "",
+        "element": "lightning",
+        "elementLabel": "Eletricidade",
+        "frame": "max:6",
+        "ultimateFrames": "6",
+        "ultimateHero": "max",
+        "ultimateStarted": "996208"
+      }
+    ]
+  },
+  {
+    "hero": "beatriz",
+    "action": "tidecut",
+    "meta": [
+      {
+        "auras": "",
+        "element": "water",
+        "elementLabel": "Água",
+        "frame": "beatriz:1",
+        "impactElement": "water",
+        "ultimateFrames": "6",
+        "ultimateHero": "max",
+        "ultimateStarted": "996208"
+      }
+    ]
+  },
+  {
+    "hero": "beatriz",
+    "action": "umbra-seal",
+    "meta": [
+      {
+        "auras": "",
+        "element": "dark",
+        "elementLabel": "Trevas",
+        "frame": "beatriz:1",
+        "impactElement": "dark",
+        "ultimateFrames": "6",
+        "ultimateHero": "max",
+        "ultimateStarted": "996208"
+      }
+    ]
+  },
+  {
+    "hero": "beatriz",
+    "action": "margem",
+    "meta": [
+      {
+        "auras": "",
+        "element": "water",
+        "elementLabel": "Água",
+        "frame": "beatriz:1",
+        "ultimateFrames": "6",
+        "ultimateHero": "max",
+        "ultimateStarted": "996208"
+      }
+    ]
+  },
+  {
+    "hero": "beatriz",
+    "action": "ultimate",
+    "meta": [
+      {
+        "auras": "",
+        "element": "water-dark",
+        "elementLabel": "Água / Trevas",
+        "frame": "beatriz:2",
+        "impactElement": "water-dark",
+        "ultimateFrames": "2",
+        "ultimateHero": "beatriz",
+        "ultimateStarted": "996208"
+      }
+    ]
+  },
+  {
+    "hero": "orfeu",
+    "action": "attack",
+    "meta": [
+      {
+        "auras": "",
+        "element": "neutral",
+        "elementLabel": "Físico",
+        "frame": "orfeu:1",
+        "ultimateFrames": "2",
+        "ultimateHero": "beatriz",
+        "ultimateStarted": "996208"
+      }
+    ]
+  },
+  {
+    "hero": "orfeu",
+    "action": "echo-strike",
+    "meta": [
+      {
+        "auras": "",
+        "element": "neutral",
+        "elementLabel": "Físico",
+        "frame": "orfeu:1",
+        "ultimateFrames": "2",
+        "ultimateHero": "beatriz",
+        "ultimateStarted": "996208"
+      }
+    ]
+  },
+  {
+    "hero": "orfeu",
+    "action": "echo-ward",
+    "meta": [
+      {
+        "auras": "",
+        "element": "neutral",
+        "elementLabel": "Físico",
+        "frame": "orfeu:1",
+        "ultimateFrames": "2",
+        "ultimateHero": "beatriz",
+        "ultimateStarted": "996208"
+      }
+    ]
+  },
+  {
+    "hero": "orfeu",
+    "action": "ultimate",
+    "meta": [
+      {
+        "auras": "",
+        "element": "neutral",
+        "elementLabel": "Físico",
+        "frame": "orfeu:3",
+        "ultimateFrames": "3",
+        "ultimateHero": "orfeu",
+        "ultimateStarted": "996208"
+      }
+    ]
+  },
+  {
+    "hero": "carmilla",
+    "action": "attack",
+    "meta": [
+      {
+        "auras": ",,",
+        "element": "blood",
+        "elementLabel": "Sangue",
+        "frame": "carmilla:2",
+        "opheliaFacing": "enemy",
+        "ultimateFrames": "3",
+        "ultimateHero": "orfeu",
+        "ultimateStarted": "996208"
+      }
+    ]
+  },
+  {
+    "hero": "carmilla",
+    "action": "in-aeternum-vive",
+    "meta": [
+      {
+        "auras": ",,",
+        "element": "blood",
+        "elementLabel": "Sangue",
+        "frame": "carmilla:2",
+        "opheliaFacing": "enemy",
+        "ultimateFrames": "3",
+        "ultimateHero": "orfeu",
+        "ultimateStarted": "996208"
+      }
+    ]
+  },
+  {
+    "hero": "carmilla",
+    "action": "ultimate",
+    "meta": [
+      {
+        "auras": ",,",
+        "element": "blood",
+        "elementLabel": "Sangue",
+        "frame": "carmilla:3",
+        "opheliaFacing": "enemy",
+        "ultimateFrames": "3",
+        "ultimateHero": "carmilla",
+        "ultimateStarted": "996208"
+      }
+    ]
+  },
+  {
+    "hero": "ava",
+    "action": "attack",
+    "meta": [
+      {
+        "auras": "",
+        "element": "earth",
+        "elementLabel": "Terra",
+        "frame": "ava:3",
+        "impactElement": "earth"
+      }
+    ]
+  },
+  {
+    "hero": "ava",
+    "action": "vine-strike",
+    "meta": [
+      {
+        "auras": "",
+        "element": "earth",
+        "elementLabel": "Terra",
+        "frame": "ava:3",
+        "impactElement": "earth"
+      }
+    ]
+  },
+  {
+    "hero": "ava",
+    "action": "garden-heal",
+    "meta": [
+      {
+        "auras": "",
+        "element": "earth",
+        "elementLabel": "Terra",
+        "frame": "ava:3",
+        "impactElement": "earth"
+      }
+    ]
+  },
+  {
+    "hero": "ava",
+    "action": "ultimate",
+    "phase": "12%",
+    "meta": [
+      {
+        "auras": "",
+        "element": "earth",
+        "elementLabel": "Terra",
+        "frame": "ava:0",
+        "ultimateFrames": "0",
+        "ultimateHero": "ava",
+        "ultimateStarted": "999424"
+      }
+    ]
+  },
+  {
+    "hero": "ava",
+    "action": "ultimate",
+    "phase": "35%",
+    "meta": [
+      {
+        "auras": "",
+        "element": "earth",
+        "elementLabel": "Terra",
+        "frame": "ava:1",
+        "ultimateFrames": "1",
+        "ultimateHero": "ava",
+        "ultimateStarted": "998320"
+      }
+    ]
+  },
+  {
+    "hero": "ava",
+    "action": "ultimate",
+    "phase": "42%",
+    "meta": [
+      {
+        "auras": "",
+        "element": "earth",
+        "elementLabel": "Terra",
+        "frame": "ava:2",
+        "ultimateFrames": "2",
+        "ultimateHero": "ava",
+        "ultimateStarted": "997984"
+      }
+    ]
+  },
+  {
+    "hero": "ava",
+    "action": "ultimate",
+    "phase": "54%",
+    "meta": [
+      {
+        "auras": "",
+        "element": "earth",
+        "elementLabel": "Terra",
+        "frame": "ava:3",
+        "ultimateFrames": "3",
+        "ultimateHero": "ava",
+        "ultimateStarted": "997408"
+      }
+    ]
+  },
+  {
+    "hero": "ava",
+    "action": "ultimate",
+    "phase": "66%",
+    "meta": [
+      {
+        "auras": "",
+        "element": "earth",
+        "elementLabel": "Terra",
+        "frame": "ava:4",
+        "ultimateFrames": "4",
+        "ultimateHero": "ava",
+        "ultimateStarted": "996832"
+      }
+    ]
+  },
+  {
+    "hero": "ava",
+    "action": "ultimate",
+    "phase": "73%",
+    "meta": [
+      {
+        "auras": "",
+        "element": "earth",
+        "elementLabel": "Terra",
+        "frame": "ava:5",
+        "impactElement": "earth",
+        "ultimateFrames": "5",
+        "ultimateHero": "ava",
+        "ultimateStarted": "996496"
+      }
+    ]
+  },
+  {
+    "hero": "ava",
+    "action": "ultimate",
+    "phase": "79%",
+    "meta": [
+      {
+        "auras": "",
+        "element": "earth",
+        "elementLabel": "Terra",
+        "frame": "ava:6",
+        "impactElement": "earth",
+        "ultimateFrames": "6",
+        "ultimateHero": "ava",
+        "ultimateStarted": "996208"
+      }
+    ]
+  },
+  {
+    "hero": "ava",
+    "action": "ultimate",
+    "phase": "93%",
+    "meta": [
+      {
+        "auras": "",
+        "element": "earth",
+        "elementLabel": "Terra",
+        "frame": "ava:7",
+        "impactElement": "earth",
+        "ultimateFrames": "7",
+        "ultimateHero": "ava",
+        "ultimateStarted": "995536"
+      }
+    ]
+  }
+]

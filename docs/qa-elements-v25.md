@@ -41,3 +41,14 @@ Os seis recortes de runtime medidos excluem 32 pixels de cada lado da célula de
 - Checagem TypeScript sem erros.
 
 A leitura das artes existentes confirmou Gelo nas folhas de cast/VFX de Ophelia, Água/Trevas no VFX de Beatriz, antimagia física em Orfeu, eletricidade no combate de Max e fios de Sangue em Carmilla. A revisão das novas folhas de personagem de Ava e a verificação final em tela integram o relatório de artes do lote v25.
+
+## Revisão final em tela
+
+Os componentes reais `BattleScene` e `UltimateCinematic` foram inspecionados no navegador local, com estado de combate controlado e relógio fixo em uma rota temporária. Foram vistos os básicos dos nove personagens, todas as habilidades base e de árvore, as nove ultimates, a prisão mineral e as oito poses da ultimate de Ava. A execução mecânica e os números reais são cobertos pelos testes do motor; os valores mostrados nas imagens são apenas dados da revisão visual.
+
+- Ava: corpo, mãos, pernas e pés completos nas oito poses; ancoragem dos pés estável; pedras e arenito visíveis no básico, habilidade, cura e ultimate. Os polígonos procedurais dourados que encobriam a textura das rochas foram removidos. O VFX aceito mantém os recortes e a transparência documentados acima.
+- Orfeu: a folha antiga deixava entrar parte da mão da pose anterior. A folha nova `public/assets/v25/orfeu/orfeu-antimagic-combat.png` foi integrada às três ações, com doze recortes medidos pelo responsável das artes. Ataque, cast e ultimate exibem membros completos e antimagia neutra.
+- Carmilla: tamanho do corpo e enquadramento ajustados à posição de retaguarda; a escala é calculada para a sequência inteira, evitando cabeça cortada e oscilação de tamanho entre quadros. Arte aprovada e transferência de Sangue preservadas.
+- Cinemáticas: todos os atores usam um frame individual, com legenda compacta e cor do elemento real. A legenda de diálogos deixava um painel branco grande sobre o corpo; a regra agora é específica da cinemática de combate. Os impactos e pés ficam dentro da área visível após a aproximação inicial da câmera.
+
+Evidência final: `docs/qa-v25/ava-earth-showcase.jpg` mostra somente a cena; `element-ava-final.jpg`, `element-ava-cinematic.jpg`, `element-orfeu-attack.jpg`, `element-orfeu-cinematic.jpg` e `element-carmilla-attack.jpg` documentam as correções. As outras imagens `element-<herói>-<ação>.jpg` registram a varredura elemental; `element-visual-observations.json` guarda os elementos e frames observados. A rota `app/qa-elements/page.tsx` foi removida ao encerrar a revisão; não há controles ou relógio de teste na aplicação final.
