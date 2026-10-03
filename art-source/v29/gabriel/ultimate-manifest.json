@@ -1,0 +1,232 @@
+{
+  "mode": "RGBA",
+  "size": [
+    1536,
+    1024
+  ],
+  "alphaMin": 0,
+  "alphaMax": 254,
+  "fullyTransparentPixels": 822781,
+  "visiblePixels": 600337,
+  "visibleBoundsXYXY": [
+    21,
+    11,
+    1498,
+    993
+  ],
+  "visibleEdgePixels": 0,
+  "source": "ultimate-source.png",
+  "runtime": "/assets/v29/gabriel/ultimate.png",
+  "key": "battle_gabriel_ultimate",
+  "sha256": "e9a4a26d7aeb6c31d14dfcea21cac6f4bc511c3f35ef062de56c7499173a2890",
+  "columns": 4,
+  "rows": 2,
+  "walkDirectionOrder": null,
+  "combatFacing": "right",
+  "alphaThresholdForVisibleBounds": 24,
+  "rowCuts": [
+    0,
+    505,
+    1024
+  ],
+  "rowEmptyCorridorsInclusive": [
+    [
+      495,
+      515
+    ]
+  ],
+  "columnEmptyCorridorsInclusive": [
+    [
+      [
+        334,
+        401
+      ],
+      [
+        708,
+        798
+      ],
+      [
+        1146,
+        1210
+      ]
+    ],
+    [
+      [
+        330,
+        361
+      ],
+      [
+        782,
+        800
+      ],
+      [
+        1114,
+        1186
+      ]
+    ]
+  ],
+  "cells": [
+    {
+      "index": 0,
+      "row": 0,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "w": 368,
+        "h": 505
+      },
+      "crop": {
+        "x": 39,
+        "y": 12,
+        "w": 297,
+        "h": 485,
+        "anchorX": 200,
+        "anchorY": 494
+      },
+      "visibleEdgePixels": 0
+    },
+    {
+      "index": 1,
+      "row": 0,
+      "col": 1,
+      "cell": {
+        "x": 368,
+        "y": 0,
+        "w": 385,
+        "h": 505
+      },
+      "crop": {
+        "x": 400,
+        "y": 12,
+        "w": 310,
+        "h": 485,
+        "anchorX": 580,
+        "anchorY": 494
+      },
+      "visibleEdgePixels": 0
+    },
+    {
+      "index": 2,
+      "row": 0,
+      "col": 2,
+      "cell": {
+        "x": 753,
+        "y": 0,
+        "w": 425,
+        "h": 505
+      },
+      "crop": {
+        "x": 797,
+        "y": 62,
+        "w": 351,
+        "h": 435,
+        "anchorX": 990,
+        "anchorY": 494
+      },
+      "visibleEdgePixels": 0
+    },
+    {
+      "index": 3,
+      "row": 0,
+      "col": 3,
+      "cell": {
+        "x": 1178,
+        "y": 0,
+        "w": 358,
+        "h": 505
+      },
+      "crop": {
+        "x": 1209,
+        "y": 9,
+        "w": 291,
+        "h": 486,
+        "anchorX": 1380,
+        "anchorY": 492
+      },
+      "visibleEdgePixels": 0
+    },
+    {
+      "index": 4,
+      "row": 1,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 505,
+        "w": 346,
+        "h": 519
+      },
+      "crop": {
+        "x": 19,
+        "y": 514,
+        "w": 313,
+        "h": 481,
+        "anchorX": 185,
+        "anchorY": 992
+      },
+      "visibleEdgePixels": 0
+    },
+    {
+      "index": 5,
+      "row": 1,
+      "col": 1,
+      "cell": {
+        "x": 346,
+        "y": 505,
+        "w": 445,
+        "h": 519
+      },
+      "crop": {
+        "x": 360,
+        "y": 546,
+        "w": 424,
+        "h": 447,
+        "anchorX": 555,
+        "anchorY": 990
+      },
+      "visibleEdgePixels": 0
+    },
+    {
+      "index": 6,
+      "row": 1,
+      "col": 2,
+      "cell": {
+        "x": 791,
+        "y": 505,
+        "w": 359,
+        "h": 519
+      },
+      "crop": {
+        "x": 799,
+        "y": 533,
+        "w": 317,
+        "h": 460,
+        "anchorX": 980,
+        "anchorY": 990
+      },
+      "visibleEdgePixels": 0
+    },
+    {
+      "index": 7,
+      "row": 1,
+      "col": 3,
+      "cell": {
+        "x": 1150,
+        "y": 505,
+        "w": 386,
+        "h": 519
+      },
+      "crop": {
+        "x": 1185,
+        "y": 521,
+        "w": 315,
+        "h": 474,
+        "anchorX": 1340,
+        "anchorY": 992
+      },
+      "visibleEdgePixels": 0
+    }
+  ],
+  "anchorMethod": "combat body axis visually measured at waist, feet from opaque bottom; walk upper-torso axis and opaque feet; FX/icons centered",
+  "pixelTransform": "none; runtime atlas copied source RGBA; icons native rectangle crops only"
+}

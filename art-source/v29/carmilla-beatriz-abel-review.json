@@ -1,0 +1,218 @@
+{
+  "tool": "built-in image_gen",
+  "generatedSelectedImages": 20,
+  "atlases": 17,
+  "frames": 120,
+  "assetKeys": 44,
+  "runtimeFiles": 41,
+  "nativeFaceCrops": 3,
+  "nativeIndividualIconCrops": 18,
+  "atlasReview": [
+    {
+      "id": "carmilla",
+      "kind": "walk",
+      "size": [
+        1086,
+        1448
+      ],
+      "count": 12,
+      "backgroundAlphaZero": 940715,
+      "allMeasuredCellsIsolated": true,
+      "nativeCopiesByteIdentical": true
+    },
+    {
+      "id": "carmilla",
+      "kind": "attack",
+      "size": [
+        1536,
+        1024
+      ],
+      "count": 6,
+      "backgroundAlphaZero": 832097,
+      "allMeasuredCellsIsolated": true,
+      "nativeCopiesByteIdentical": true
+    },
+    {
+      "id": "carmilla",
+      "kind": "cast",
+      "size": [
+        1536,
+        1024
+      ],
+      "count": 6,
+      "backgroundAlphaZero": 752434,
+      "allMeasuredCellsIsolated": true,
+      "nativeCopiesByteIdentical": true
+    },
+    {
+      "id": "carmilla",
+      "kind": "ultimate",
+      "size": [
+        1774,
+        887
+      ],
+      "count": 8,
+      "backgroundAlphaZero": 975261,
+      "allMeasuredCellsIsolated": true,
+      "nativeCopiesByteIdentical": true
+    },
+    {
+      "id": "carmilla",
+      "kind": "vfx",
+      "size": [
+        1536,
+        1024
+      ],
+      "count": 6,
+      "backgroundAlphaZero": 724400,
+      "allMeasuredCellsIsolated": true,
+      "nativeCopiesByteIdentical": true
+    },
+    {
+      "id": "carmilla",
+      "kind": "icons",
+      "size": [
+        1536,
+        1024
+      ],
+      "count": 6,
+      "backgroundAlphaZero": 719354,
+      "allMeasuredCellsIsolated": true,
+      "nativeCopiesByteIdentical": true
+    },
+    {
+      "id": "beatriz",
+      "kind": "walk",
+      "size": [
+        1086,
+        1448
+      ],
+      "count": 12,
+      "backgroundAlphaZero": 1049954,
+      "allMeasuredCellsIsolated": true,
+      "nativeCopiesByteIdentical": true
+    },
+    {
+      "id": "beatriz",
+      "kind": "attack",
+      "size": [
+        1536,
+        1024
+      ],
+      "count": 6,
+      "backgroundAlphaZero": 931036,
+      "allMeasuredCellsIsolated": true,
+      "nativeCopiesByteIdentical": true
+    },
+    {
+      "id": "beatriz",
+      "kind": "cast",
+      "size": [
+        1536,
+        1024
+      ],
+      "count": 6,
+      "backgroundAlphaZero": 991387,
+      "allMeasuredCellsIsolated": true,
+      "nativeCopiesByteIdentical": true
+    },
+    {
+      "id": "beatriz",
+      "kind": "ultimate",
+      "size": [
+        1774,
+        887
+      ],
+      "count": 8,
+      "backgroundAlphaZero": 1068451,
+      "allMeasuredCellsIsolated": true,
+      "nativeCopiesByteIdentical": true
+    },
+    {
+      "id": "beatriz",
+      "kind": "vfx",
+      "size": [
+        1536,
+        1024
+      ],
+      "count": 6,
+      "backgroundAlphaZero": 589308,
+      "allMeasuredCellsIsolated": true,
+      "nativeCopiesByteIdentical": true
+    },
+    {
+      "id": "beatriz",
+      "kind": "icons",
+      "size": [
+        1536,
+        1024
+      ],
+      "count": 6,
+      "backgroundAlphaZero": 712650,
+      "allMeasuredCellsIsolated": true,
+      "nativeCopiesByteIdentical": true
+    },
+    {
+      "id": "abel",
+      "kind": "attack",
+      "size": [
+        1536,
+        1024
+      ],
+      "count": 6,
+      "backgroundAlphaZero": 827063,
+      "allMeasuredCellsIsolated": true,
+      "nativeCopiesByteIdentical": true
+    },
+    {
+      "id": "abel",
+      "kind": "cast",
+      "size": [
+        1536,
+        1024
+      ],
+      "count": 6,
+      "backgroundAlphaZero": 1026976,
+      "allMeasuredCellsIsolated": true,
+      "nativeCopiesByteIdentical": true
+    },
+    {
+      "id": "abel",
+      "kind": "ultimate",
+      "size": [
+        1774,
+        887
+      ],
+      "count": 8,
+      "backgroundAlphaZero": 814181,
+      "allMeasuredCellsIsolated": true,
+      "nativeCopiesByteIdentical": true
+    },
+    {
+      "id": "abel",
+      "kind": "vfx",
+      "size": [
+        1536,
+        1024
+      ],
+      "count": 6,
+      "backgroundAlphaZero": 606995,
+      "allMeasuredCellsIsolated": true,
+      "nativeCopiesByteIdentical": true
+    },
+    {
+      "id": "abel",
+      "kind": "icons",
+      "size": [
+        1536,
+        1024
+      ],
+      "count": 6,
+      "backgroundAlphaZero": 671466,
+      "allMeasuredCellsIsolated": true,
+      "nativeCopiesByteIdentical": true
+    }
+  ],
+  "visualReview": "Reviewed full-body identities, mature proportions, hands/weapon grips, complete hats/boots/weapons, right-facing combat poses, S/W/E/N walk rows and semantic element motifs. Six rejected layouts were regenerated before selection. No claim of absolute anatomical perfection; root performs final composition QA.",
+  "preservedGameplay": "No stats, character availability, save, collision or gameplay module changed. In Aeternum Vive cost15% and proportional healing remain root-owned gameplay invariants."
+}

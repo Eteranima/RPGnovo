@@ -1,0 +1,11 @@
+Use case: stylized-concept. FINAL2Danime fantasy RPG SKILL ICON atlas with EXACTLYSIX distinct square roundeddiamond skillbuttons for gabriel.
+Reference1 characterstyle/palette only; DO NOTdrawwholecharacter/face/hands/body. Mature handdrawn fantasycelshading MushokuTensei/Fate, elegant restrainedthin champagnegoldrim andnavy/element darkinterior, clearoriginalsymbol painted inside each button. Palette deepcrimson, amber/orangefire,gold; motifs burningfists/sun/whitewolf.
+1536×1024 RGBA trulytransparentbackground. EXACT3columns×2rows; six isolated buttons centeredin512×512cells. Eachbutton maximum330×330px,100pxemptyalpha0 margins withinitscell. Largecleartransparentcorridors x512,x1024,y512. Samebuttonshapes/perspective/rimwidth all6; symbols distinct easyrecognize64px.
+Row-majororder0–5:
+0: burning gloved fist orangeamber for basic magic attack
+1: two crossed flame-wrapped fist emblems for explosive boxing skill
+2: amber heart surrounded by a protective solar ring for guard/self-heal skill
+3: an ember binding ring with flamebars for control
+4: gold dawnsunburst with flameorbit for Juramento da Alvorada
+5: WHITE WOLF HEAD in profile with amberfire mane and suncrest for Forja da Alvorada Lycan
+Oneiconpercell, allentirelyselfcontained, nofxcrossingedge, noobjectsoutsiderim. No words, text, numbers, initials, symbolsfromexistingbrands. No silhouettepeople/scenery/opaquegradientbackdrop/checkerboardpainted/cellseparators. Outerbackgroundtruealpha0, interiorpaintedopaque, keep antialiasalpha native. Beautifulhighquality crispart andcontrasted motif legibility. ForMax headroundflat mustclearlybe NAILS not screws/swords.

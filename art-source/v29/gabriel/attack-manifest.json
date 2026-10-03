@@ -1,0 +1,184 @@
+{
+  "mode": "RGBA",
+  "size": [
+    1536,
+    1024
+  ],
+  "alphaMin": 0,
+  "alphaMax": 254,
+  "fullyTransparentPixels": 866878,
+  "visiblePixels": 565883,
+  "visibleBoundsXYXY": [
+    37,
+    16,
+    1515,
+    984
+  ],
+  "visibleEdgePixels": 0,
+  "source": "attack-source.png",
+  "runtime": "/assets/v29/gabriel/attack.png",
+  "key": "battle_gabriel_attack",
+  "sha256": "9a7bddacbd643ad2e40007d42b8ecdc19011b4f8607ca198e9f96ae13bdebb0c",
+  "columns": 3,
+  "rows": 2,
+  "walkDirectionOrder": null,
+  "combatFacing": "right",
+  "alphaThresholdForVisibleBounds": 24,
+  "rowCuts": [
+    0,
+    506,
+    1024
+  ],
+  "rowEmptyCorridorsInclusive": [
+    [
+      493,
+      519
+    ]
+  ],
+  "columnEmptyCorridorsInclusive": [
+    [
+      [
+        468,
+        531
+      ],
+      [
+        1007,
+        1032
+      ]
+    ],
+    [
+      [
+        563,
+        573
+      ],
+      [
+        999,
+        1054
+      ]
+    ]
+  ],
+  "cells": [
+    {
+      "index": 0,
+      "row": 0,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "w": 500,
+        "h": 506
+      },
+      "crop": {
+        "x": 35,
+        "y": 14,
+        "w": 435,
+        "h": 481,
+        "anchorX": 280,
+        "anchorY": 492
+      },
+      "visibleEdgePixels": 0
+    },
+    {
+      "index": 1,
+      "row": 0,
+      "col": 1,
+      "cell": {
+        "x": 500,
+        "y": 0,
+        "w": 520,
+        "h": 506
+      },
+      "crop": {
+        "x": 530,
+        "y": 24,
+        "w": 479,
+        "h": 471,
+        "anchorX": 805,
+        "anchorY": 492
+      },
+      "visibleEdgePixels": 0
+    },
+    {
+      "index": 2,
+      "row": 0,
+      "col": 2,
+      "cell": {
+        "x": 1020,
+        "y": 0,
+        "w": 516,
+        "h": 506
+      },
+      "crop": {
+        "x": 1031,
+        "y": 27,
+        "w": 486,
+        "h": 468,
+        "anchorX": 1285,
+        "anchorY": 492
+      },
+      "visibleEdgePixels": 0
+    },
+    {
+      "index": 3,
+      "row": 1,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 506,
+        "w": 568,
+        "h": 518
+      },
+      "crop": {
+        "x": 41,
+        "y": 529,
+        "w": 524,
+        "h": 455,
+        "anchorX": 285,
+        "anchorY": 981
+      },
+      "visibleEdgePixels": 0
+    },
+    {
+      "index": 4,
+      "row": 1,
+      "col": 1,
+      "cell": {
+        "x": 568,
+        "y": 506,
+        "w": 459,
+        "h": 518
+      },
+      "crop": {
+        "x": 572,
+        "y": 518,
+        "w": 429,
+        "h": 468,
+        "anchorX": 790,
+        "anchorY": 983
+      },
+      "visibleEdgePixels": 0
+    },
+    {
+      "index": 5,
+      "row": 1,
+      "col": 2,
+      "cell": {
+        "x": 1027,
+        "y": 506,
+        "w": 509,
+        "h": 518
+      },
+      "crop": {
+        "x": 1053,
+        "y": 518,
+        "w": 412,
+        "h": 468,
+        "anchorX": 1280,
+        "anchorY": 983
+      },
+      "visibleEdgePixels": 0
+    }
+  ],
+  "anchorMethod": "combat body axis visually measured at waist, feet from opaque bottom; walk upper-torso axis and opaque feet; FX/icons centered",
+  "pixelTransform": "none; runtime atlas copied source RGBA; icons native rectangle crops only"
+}

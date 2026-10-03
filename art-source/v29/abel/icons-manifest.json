@@ -1,0 +1,273 @@
+{
+  "id": "abel",
+  "kind": "icons",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-1d6829a1-0b02-4883-9770-d62d693153c5.png",
+  "selected": "art-source/v29/abel/icons-source.png",
+  "runtime": "public/assets/v29/abel/icons.png",
+  "width": 1536,
+  "height": 1024,
+  "cols": 3,
+  "rows": 2,
+  "sourceSha256": "4d11ea1d7541372e873ae98994d48fddacade3af4640d3b1487f96f4fbe4b31c",
+  "selectedSha256": "4d11ea1d7541372e873ae98994d48fddacade3af4640d3b1487f96f4fbe4b31c",
+  "runtimeSha256": "4d11ea1d7541372e873ae98994d48fddacade3af4640d3b1487f96f4fbe4b31c",
+  "byteIdenticalSourceCopies": true,
+  "alphaThresholdForMeasurementOnly": 24,
+  "backgroundAlphaZero": 671466,
+  "rowCuts": [
+    0,
+    497,
+    1024
+  ],
+  "frames": [
+    {
+      "x": 15,
+      "y": 0,
+      "w": 482,
+      "h": 489,
+      "anchorX": 255.5,
+      "anchorY": 244
+    },
+    {
+      "x": 528,
+      "y": 0,
+      "w": 482,
+      "h": 490,
+      "anchorX": 768.5,
+      "anchorY": 244.5
+    },
+    {
+      "x": 1040,
+      "y": 0,
+      "w": 482,
+      "h": 489,
+      "anchorX": 1280.5,
+      "anchorY": 244
+    },
+    {
+      "x": 15,
+      "y": 504,
+      "w": 482,
+      "h": 497,
+      "anchorX": 255.5,
+      "anchorY": 752
+    },
+    {
+      "x": 527,
+      "y": 512,
+      "w": 482,
+      "h": 489,
+      "anchorX": 767.5,
+      "anchorY": 756
+    },
+    {
+      "x": 1040,
+      "y": 512,
+      "w": 483,
+      "h": 489,
+      "anchorX": 1281,
+      "anchorY": 756
+    }
+  ],
+  "measurements": [
+    {
+      "i": 0,
+      "row": 0,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 497
+      },
+      "visibleBounds": {
+        "x": 23,
+        "y": 8,
+        "w": 466,
+        "h": 473
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 121043,
+      "crop": {
+        "x": 15,
+        "y": 0,
+        "w": 482,
+        "h": 489,
+        "anchorX": 255.5,
+        "anchorY": 244
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v29/abel/icons/0.png",
+        "sha256": "198819337005b372e1b41edc9459c4ac8318ccc18d80f63813e07a57a6e44a34",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    },
+    {
+      "i": 1,
+      "row": 0,
+      "col": 1,
+      "cell": {
+        "x": 512,
+        "y": 0,
+        "w": 513,
+        "h": 497
+      },
+      "visibleBounds": {
+        "x": 536,
+        "y": 8,
+        "w": 466,
+        "h": 474
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 122498,
+      "crop": {
+        "x": 528,
+        "y": 0,
+        "w": 482,
+        "h": 490,
+        "anchorX": 768.5,
+        "anchorY": 244.5
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v29/abel/icons/1.png",
+        "sha256": "3f237668271088e55e17f227f0119f732f98305bf928e59ecc8942bc57e0f76e",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    },
+    {
+      "i": 2,
+      "row": 0,
+      "col": 2,
+      "cell": {
+        "x": 1025,
+        "y": 0,
+        "w": 511,
+        "h": 497
+      },
+      "visibleBounds": {
+        "x": 1048,
+        "y": 8,
+        "w": 466,
+        "h": 473
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 114457,
+      "crop": {
+        "x": 1040,
+        "y": 0,
+        "w": 482,
+        "h": 489,
+        "anchorX": 1280.5,
+        "anchorY": 244
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v29/abel/icons/2.png",
+        "sha256": "e1448d0995318ab7e9bac3045b0edbac67b56318a7ae5ec4b807e0bceb1725b5",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    },
+    {
+      "i": 3,
+      "row": 1,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 497,
+        "w": 512,
+        "h": 527
+      },
+      "visibleBounds": {
+        "x": 23,
+        "y": 512,
+        "w": 466,
+        "h": 481
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 101177,
+      "crop": {
+        "x": 15,
+        "y": 504,
+        "w": 482,
+        "h": 497,
+        "anchorX": 255.5,
+        "anchorY": 752
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v29/abel/icons/3.png",
+        "sha256": "69da680a6a14ffa4560a0ac31acc09267e0e19c331c8df7c1f01ab7cc623688c",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    },
+    {
+      "i": 4,
+      "row": 1,
+      "col": 1,
+      "cell": {
+        "x": 512,
+        "y": 497,
+        "w": 512,
+        "h": 527
+      },
+      "visibleBounds": {
+        "x": 535,
+        "y": 520,
+        "w": 466,
+        "h": 473
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 128984,
+      "crop": {
+        "x": 527,
+        "y": 512,
+        "w": 482,
+        "h": 489,
+        "anchorX": 767.5,
+        "anchorY": 756
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v29/abel/icons/4.png",
+        "sha256": "7edb4c5a8c8e6aac09d8d58ac9f9e0c48321d38dbfa514a51bddbca7e9182b75",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    },
+    {
+      "i": 5,
+      "row": 1,
+      "col": 2,
+      "cell": {
+        "x": 1024,
+        "y": 497,
+        "w": 512,
+        "h": 527
+      },
+      "visibleBounds": {
+        "x": 1048,
+        "y": 520,
+        "w": 467,
+        "h": 473
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 132660,
+      "crop": {
+        "x": 1040,
+        "y": 512,
+        "w": 483,
+        "h": 489,
+        "anchorX": 1281,
+        "anchorY": 756
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v29/abel/icons/5.png",
+        "sha256": "996d1a344dfdc170e1bd24c51c20f47ade437ee6c66da023401988bbb88a8e79",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    }
+  ]
+}

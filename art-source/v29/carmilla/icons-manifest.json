@@ -1,0 +1,273 @@
+{
+  "id": "carmilla",
+  "kind": "icons",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-b5f330e1-763e-4efb-a1ca-d0c4354dbdf3.png",
+  "selected": "art-source/v29/carmilla/icons-source.png",
+  "runtime": "public/assets/v29/carmilla/icons.png",
+  "width": 1536,
+  "height": 1024,
+  "cols": 3,
+  "rows": 2,
+  "sourceSha256": "e29397a3b60107bba62239467f4ffbdee8f8d81f6518e799a426ecd4b78935b4",
+  "selectedSha256": "e29397a3b60107bba62239467f4ffbdee8f8d81f6518e799a426ecd4b78935b4",
+  "runtimeSha256": "e29397a3b60107bba62239467f4ffbdee8f8d81f6518e799a426ecd4b78935b4",
+  "byteIdenticalSourceCopies": true,
+  "alphaThresholdForMeasurementOnly": 24,
+  "backgroundAlphaZero": 719354,
+  "rowCuts": [
+    0,
+    480,
+    1024
+  ],
+  "frames": [
+    {
+      "x": 23,
+      "y": 3,
+      "w": 478,
+      "h": 477,
+      "anchorX": 261.5,
+      "anchorY": 241.5
+    },
+    {
+      "x": 528,
+      "y": 3,
+      "w": 477,
+      "h": 470,
+      "anchorX": 766,
+      "anchorY": 237.5
+    },
+    {
+      "x": 1032,
+      "y": 4,
+      "w": 482,
+      "h": 476,
+      "anchorX": 1272.5,
+      "anchorY": 241.5
+    },
+    {
+      "x": 8,
+      "y": 481,
+      "w": 504,
+      "h": 501,
+      "anchorX": 259.5,
+      "anchorY": 731
+    },
+    {
+      "x": 520,
+      "y": 482,
+      "w": 494,
+      "h": 500,
+      "anchorX": 766.5,
+      "anchorY": 731.5
+    },
+    {
+      "x": 1026,
+      "y": 480,
+      "w": 498,
+      "h": 515,
+      "anchorX": 1274.5,
+      "anchorY": 736.5
+    }
+  ],
+  "measurements": [
+    {
+      "i": 0,
+      "row": 0,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "w": 514,
+        "h": 480
+      },
+      "visibleBounds": {
+        "x": 31,
+        "y": 11,
+        "w": 462,
+        "h": 462
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 127455,
+      "crop": {
+        "x": 23,
+        "y": 3,
+        "w": 478,
+        "h": 477,
+        "anchorX": 261.5,
+        "anchorY": 241.5
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v29/carmilla/icons/0.png",
+        "sha256": "21628e9b616f912ccaa0a3950613e62e87eac8ce3f6a22994b20096ca60607f4",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    },
+    {
+      "i": 1,
+      "row": 0,
+      "col": 1,
+      "cell": {
+        "x": 514,
+        "y": 0,
+        "w": 504,
+        "h": 480
+      },
+      "visibleBounds": {
+        "x": 536,
+        "y": 11,
+        "w": 461,
+        "h": 454
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 132638,
+      "crop": {
+        "x": 528,
+        "y": 3,
+        "w": 477,
+        "h": 470,
+        "anchorX": 766,
+        "anchorY": 237.5
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v29/carmilla/icons/1.png",
+        "sha256": "43d79ab9eb4eb40c47b9c29c1082fa959ef1c061e921211d0b8870273a10fbe8",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    },
+    {
+      "i": 2,
+      "row": 0,
+      "col": 2,
+      "cell": {
+        "x": 1018,
+        "y": 0,
+        "w": 518,
+        "h": 480
+      },
+      "visibleBounds": {
+        "x": 1040,
+        "y": 12,
+        "w": 466,
+        "h": 460
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 128121,
+      "crop": {
+        "x": 1032,
+        "y": 4,
+        "w": 482,
+        "h": 476,
+        "anchorX": 1272.5,
+        "anchorY": 241.5
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v29/carmilla/icons/2.png",
+        "sha256": "0d4e1950954da4843d763f4609131f323e49305f16781cb451274452ae87d9fb",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    },
+    {
+      "i": 3,
+      "row": 1,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 480,
+        "w": 516,
+        "h": 544
+      },
+      "visibleBounds": {
+        "x": 16,
+        "y": 489,
+        "w": 488,
+        "h": 485
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 134829,
+      "crop": {
+        "x": 8,
+        "y": 481,
+        "w": 504,
+        "h": 501,
+        "anchorX": 259.5,
+        "anchorY": 731
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v29/carmilla/icons/3.png",
+        "sha256": "cab38c8eb289c54f047192b7850ae9c0a6effa32ca2348c5ecdfc7d0b9b05964",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    },
+    {
+      "i": 4,
+      "row": 1,
+      "col": 1,
+      "cell": {
+        "x": 516,
+        "y": 480,
+        "w": 504,
+        "h": 544
+      },
+      "visibleBounds": {
+        "x": 528,
+        "y": 490,
+        "w": 478,
+        "h": 484
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 139591,
+      "crop": {
+        "x": 520,
+        "y": 482,
+        "w": 494,
+        "h": 500,
+        "anchorX": 766.5,
+        "anchorY": 731.5
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v29/carmilla/icons/4.png",
+        "sha256": "f9a850b6aa3b406cf496f89bc94dfa2ab6498b671e6cfa11ca5ba2839590eedf",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    },
+    {
+      "i": 5,
+      "row": 1,
+      "col": 2,
+      "cell": {
+        "x": 1020,
+        "y": 480,
+        "w": 516,
+        "h": 544
+      },
+      "visibleBounds": {
+        "x": 1034,
+        "y": 487,
+        "w": 482,
+        "h": 500
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 136271,
+      "crop": {
+        "x": 1026,
+        "y": 480,
+        "w": 498,
+        "h": 515,
+        "anchorX": 1274.5,
+        "anchorY": 736.5
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v29/carmilla/icons/5.png",
+        "sha256": "e6626f722ca9f182145bb039f60cc31201b0603d4273877777fe60fc753b6533",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    }
+  ]
+}

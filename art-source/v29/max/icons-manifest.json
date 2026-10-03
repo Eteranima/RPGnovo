@@ -1,0 +1,196 @@
+{
+  "mode": "RGBA",
+  "size": [
+    1536,
+    1024
+  ],
+  "alphaMin": 0,
+  "alphaMax": 254,
+  "fullyTransparentPixels": 788711,
+  "visiblePixels": 757000,
+  "visibleBoundsXYXY": [
+    48,
+    18,
+    1487,
+    976
+  ],
+  "visibleEdgePixels": 0,
+  "source": "icons-source.png",
+  "runtime": "/assets/v29/max/icons.png",
+  "key": "skill_icons_max",
+  "sha256": "26817378f21f31ef8ae795db2446f7c3b4d911d9e44d14b61f2c684972c7a395",
+  "columns": 3,
+  "rows": 2,
+  "walkDirectionOrder": null,
+  "combatFacing": null,
+  "alphaThresholdForVisibleBounds": 24,
+  "rowCuts": [
+    0,
+    497,
+    1024
+  ],
+  "rowEmptyCorridorsInclusive": [
+    [
+      486,
+      508
+    ]
+  ],
+  "columnEmptyCorridorsInclusive": [
+    [
+      [
+        517,
+        532
+      ],
+      [
+        1002,
+        1016
+      ]
+    ],
+    [
+      [
+        517,
+        531
+      ],
+      [
+        1002,
+        1016
+      ]
+    ]
+  ],
+  "cells": [
+    {
+      "index": 0,
+      "row": 0,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "w": 525,
+        "h": 497
+      },
+      "crop": {
+        "x": 46,
+        "y": 16,
+        "w": 473,
+        "h": 472,
+        "anchorX": 282.5,
+        "anchorY": 252.0
+      },
+      "visibleEdgePixels": 0,
+      "runtime": "/assets/v29/max/icons/0.png",
+      "sha256": "68b1712c1619ce73f07f785f902c92720ea9038ea1ad494ac75670e180fcb53c"
+    },
+    {
+      "index": 1,
+      "row": 0,
+      "col": 1,
+      "cell": {
+        "x": 525,
+        "y": 0,
+        "w": 484,
+        "h": 497
+      },
+      "crop": {
+        "x": 531,
+        "y": 16,
+        "w": 473,
+        "h": 472,
+        "anchorX": 767.5,
+        "anchorY": 252.0
+      },
+      "visibleEdgePixels": 0,
+      "runtime": "/assets/v29/max/icons/1.png",
+      "sha256": "31770b5d9b0b9064bf7ebaf472f3a595afe6386c9a97187f22408874acf856aa"
+    },
+    {
+      "index": 2,
+      "row": 0,
+      "col": 2,
+      "cell": {
+        "x": 1009,
+        "y": 0,
+        "w": 527,
+        "h": 497
+      },
+      "crop": {
+        "x": 1015,
+        "y": 16,
+        "w": 474,
+        "h": 472,
+        "anchorX": 1252.0,
+        "anchorY": 252.0
+      },
+      "visibleEdgePixels": 0,
+      "runtime": "/assets/v29/max/icons/2.png",
+      "sha256": "b8eab922e869ff8837ba0d6d64a49add70a9969106c93ad36d97603b9c05f2db"
+    },
+    {
+      "index": 3,
+      "row": 1,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 497,
+        "w": 524,
+        "h": 527
+      },
+      "crop": {
+        "x": 46,
+        "y": 507,
+        "w": 473,
+        "h": 471,
+        "anchorX": 282.5,
+        "anchorY": 742.5
+      },
+      "visibleEdgePixels": 0,
+      "runtime": "/assets/v29/max/icons/3.png",
+      "sha256": "01c1536aed8131a5167fb36478185c4f5843f8787296d995ce8690a093b60f7e"
+    },
+    {
+      "index": 4,
+      "row": 1,
+      "col": 1,
+      "cell": {
+        "x": 524,
+        "y": 497,
+        "w": 485,
+        "h": 527
+      },
+      "crop": {
+        "x": 530,
+        "y": 507,
+        "w": 474,
+        "h": 471,
+        "anchorX": 767.0,
+        "anchorY": 742.5
+      },
+      "visibleEdgePixels": 0,
+      "runtime": "/assets/v29/max/icons/4.png",
+      "sha256": "427e40ae00e9139fbca2b4df1c20282722ca6dbabaa9f357eee5b5eb00496181"
+    },
+    {
+      "index": 5,
+      "row": 1,
+      "col": 2,
+      "cell": {
+        "x": 1009,
+        "y": 497,
+        "w": 527,
+        "h": 527
+      },
+      "crop": {
+        "x": 1015,
+        "y": 507,
+        "w": 473,
+        "h": 471,
+        "anchorX": 1251.5,
+        "anchorY": 742.5
+      },
+      "visibleEdgePixels": 0,
+      "runtime": "/assets/v29/max/icons/5.png",
+      "sha256": "7af64b8e81c9a132730b8531a7478e6da57b0f91720075c709f702ad2ebc04b0"
+    }
+  ],
+  "anchorMethod": "combat body axis visually measured at waist, feet from opaque bottom; walk upper-torso axis and opaque feet; FX/icons centered",
+  "pixelTransform": "none; runtime atlas copied source RGBA; icons native rectangle crops only"
+}

@@ -1,4 +1,4 @@
-import { COMPANIONS, ENEMY_ULTIMATES, ULTIMATE_NAMES, combatElement, ELEMENT_LABELS, type CombatElement, ORIGINS, MAPS, newHeroes, heroBases, HERO_IDS, PLAYABLE_HERO_IDS, OBJECTIVES, SKILLS, type MapId, type MapData, type Point, type Entity, type Hero, type HeroId, type BaseHeroId } from './data';
+import { COMPANIONS, ENEMY_ULTIMATES, ULTIMATE_NAMES, signatureTechnique, combatElement, ELEMENT_LABELS, type CombatElement, ORIGINS, MAPS, newHeroes, heroBases, HERO_IDS, PLAYABLE_HERO_IDS, OBJECTIVES, SKILLS, type MapId, type MapData, type Point, type Entity, type Hero, type HeroId, type BaseHeroId } from './data';
 import { freshProgression, deriveHeroes, level, setCount, spellBonus, GEAR, gearById, commonKills, SLOTS, SETS, FIELD_TECHNIQUES, DIFFICULTIES, BESTIARY, BOSS_REWARDS, TREE, EXTRA_SKILLS, QUESTS, ACHIEVEMENTS, CUTSCENES, SHOP, ANCHORS, EVENTS, type Progression, type Slot, type Status, type StatusId } from './progression';
 import {chooseCosmetic,cosmeticById,cosmeticRank} from './cosmetics';
 import {SUMMONED_HEROES,summonedById,type SummonRarity} from './summons';
@@ -8,7 +8,7 @@ export const STARTER_FIVE_STAR_IDS=['beatriz','orfeu','ava'] as const;
 export type Save={version:2;progress:Progression;remedies:number;map:MapId;position:Point;stage:number;heroes:Hero[];potions:number;ethers:number;credits:number;opened:string[];checkpoint:{map:MapId;position:Point};elapsed:number};
 export type Line={speaker:string;text:string;right?:HeroId|'abel';both?:boolean;present?:boolean};
 export type Dialogue={lines:Line[];index:number;choice?:boolean};
-export type BattleAnimation={actor:HeroId|'enemy';action:string;element?:CombatElement;target:HeroId|'enemy'|'party';started:number;duration:number;impactAt:number;value?:number;targets?:HeroId[];selfDamage?:number};
+export type BattleAnimation={actor:HeroId|'enemy';action:string;element?:CombatElement;target:HeroId|'enemy'|'party';started:number;duration:number;impactAt:number;value?:number;targets?:HeroId[];healing?:{target:HeroId;value:number};selfDamage?:number};
 export type Battle={entityId:string;eventId?:string;family:string;name:string;boss:boolean;asset:string;hp:number;maxHp:number;spd:number;damage:number;xp:number;credits:number;round:number;queue:string[];index:number;weakened:boolean;log:string[];busy:boolean;result?:'victory'|'defeat';flash:number;animation?:BattleAnimation;statuses:Record<string,Status[]>;phase:1|2|3;bossCharge:number;difficulty:1|2|3;dropChance:number;baseDamage:number;freezeUsed:boolean};
 export type Snapshot=Save & {mode:'start'|'selection'|'world'|'dialogue'|'battle'|'cutscene';cutscene:{id:string;index:number;replay:boolean}|null;overlay:'shop'|'events'|null;rewardNotice:{text:string;tab:string;focus?:string}|null;gachaResults:{id:string;duplicate:boolean}[];gachaBusy:boolean;summonResults:{id:string;rarity:SummonRarity;duplicate:boolean}[];summonBusy:boolean;fieldEffect:{kind:CombatElement|'heal'|'shadow';started:number}|null;dialogue:Dialogue|null;battle:Battle|null;nearby:Entity|null;toast:string;hasSave:boolean;saving:string;facing:number;moving:boolean};
 const dist=(a:Point,b:Point)=>Math.hypot(a.x-b.x,a.y-b.y);
@@ -289,7 +289,8 @@ const moving=!!(dx||dy);if(moving){const n=Math.hypot(dx,dy),step=Math.min(dt,.0
  transferCarmilla(guard=false){const b=this.state.battle!,plan=planInAeternumVive(this.state.heroes),caster=this.state.heroes.find(h=>h.id==='carmilla')!;for(const target of plan.targets){const ally=this.state.heroes.find(h=>h.id===target.id)!;ally.hp=Math.min(ally.maxHp,ally.hp+target.heal);}caster.hp=Math.max(0,caster.hp-plan.selfDamage);if(guard)this.state.heroes.filter(h=>h.hp>0).forEach(h=>h.guard=true);if(this.state.progress.masterMode&&caster.hp===0){caster.hp=caster.maxHp;caster.mp=caster.maxMp;b.statuses.carmilla=[];}this.state.progress.metrics.heals+=plan.targets.length;if(b.animation){b.animation.targets=plan.targets.map(h=>h.id as HeroId);b.animation.selfDamage=plan.selfDamage;b.animation.value=plan.targets.reduce((n,h)=>n+h.heal,0);}b.log.push(`IN AETERNUM VIVE: ${plan.targets.map(h=>this.state.heroes.find(v=>v.id===h.id)!.name).join(' e ')||'ninguém'} recupera ${plan.targets.reduce((n,h)=>n+h.heal,0)} HP; Carmilla sofre ${plan.selfDamage} de dano.${guard?' O grupo recebe guarda.':''}`);return plan;}
  action(action:string,target?:HeroId){const b=this.state.battle,h=this.currentHero();if(!b||!h||b.result)return false;const allyId=(this.state.heroes.find(v=>v.id===target)||h).id;
   if(action==='flee'){if(b.boss)return false;this.respawns[b.entityId]=this.now+12;this.state.mode='world';this.state.battle=null;this.save();this.toast('O grupo recuou.');return true;}
-  const sk=this.skills(h.id).find(s=>s.id===action);
+  const sk=this.skills(h.id).find(s=>s.id===action),signature=signatureTechnique(action);
+  if(signature?.target==='ally'&&(this.state.heroes.find(v=>v.id===allyId)?.hp||0)<=0)return false;
   if(action==='in-aeternum-vive'&&!planInAeternumVive(this.state.heroes).targets.length)return false;
   if(sk&&this.hasStatus(h.id,'silence'))return false;
   if(action==='remedy'){if(!this.state.remedies||!b.statuses[allyId]?.length)return false;this.state.remedies--;}
@@ -297,10 +298,46 @@ const moving=!!(dx||dy);if(moving){const n=Math.hypot(dx,dy),step=Math.min(dt,.0
   else if(action==='ether'){if(!this.state.ethers)return false;this.state.ethers--;}
   else if(action==='ultimate'){if((this.state.progress.limit[h.id]||0)<100)return false;this.state.progress.limit[h.id]=0;}
   else if(!['attack','guard'].includes(action)){if(!sk||!this.state.progress.masterMode&&h.mp<this.skillCost(h.id,sk.cost))return false;if(!this.state.progress.masterMode)h.mp-=this.skillCost(h.id,sk.cost);}
-  const actorId=h.id;const healing=['mend','cleanse','rekindle','shadowrest','margem','garden-heal'].includes(action);this.playAction(actorId,action,action==='in-aeternum-vive'||action==='ultimate'&&['ophelia','carmilla'].includes(actorId)?'party':['stormguard','echo-ward'].includes(action)?'party':action==='shadowrest'?actorId:['mend','cleanse','rekindle','margem','garden-heal','potion','ether','remedy'].includes(action)?allyId:action==='guard'?actorId:'enemy',()=>{
+  const actorId=h.id;const healing=['mend','cleanse','rekindle','shadowrest','margem','garden-heal'].includes(action);this.playAction(actorId,action,signature?.target==='ally'?allyId:action==='in-aeternum-vive'||action==='ultimate'&&['ophelia','carmilla'].includes(actorId)?'party':['stormguard','echo-ward'].includes(action)?'party':action==='shadowrest'?actorId:['mend','cleanse','rekindle','margem','garden-heal','potion','ether','remedy'].includes(action)?allyId:action==='guard'?actorId:'enemy',()=>{
    const hero=this.state.heroes.find(v=>v.id===actorId)!,ally=this.state.heroes.find(v=>v.id===allyId)!;let dmg=0;
-   if(!['ultimate','in-aeternum-vive','bulwark','stormguard','echo-ward','guard','mend','cleanse','rekindle','shadowrest','potion','ether','remedy'].includes(action)&&this.hasStatus(actorId,'blind')&&Math.random()<.5){b.log.push(`${hero.name} erra por cegueira.`);return;}
-   if(action==='ultimate'){const bonus=spellBonus(this.state.progress,actorId)+(this.state.progress.learned.includes(`${actorId}-master`)?12:0);if(actorId==='carmilla'){this.transferCarmilla(true);b.log.push('Vigília Rubra: Carmilla toma para si a dor dos mais feridos e protege a equipe.');}else if(actorId==='ophelia'){const amount=Math.round((60+bonus)*this.magicScale(actorId));for(const member of this.state.heroes){member.hp=Math.min(member.maxHp,member.hp+amount);member.guard=true;b.statuses[member.id]=[];}b.log.push('Inverno Sereno: o grupo recupera forças, remove estados e recebe guarda.');if(b.animation)b.animation.value=amount;}else{dmg=actorId==='orfeu'?Math.round(78+bonus+hero.atk):Math.round((80+bonus)*this.magicScale(actorId));if(setCount(this.state.progress,actorId,'lunar')>=3)hero.hp=Math.min(hero.maxHp,hero.hp+4);if(actorId==='seiji')this.addStatus('enemy','silence',1);if(actorId==='marin'){hero.hp=Math.min(hero.maxHp,hero.hp+30);this.addStatus('enemy','blind',2);}if(actorId==='gabriel')this.state.heroes.forEach(member=>member.guard=true);if(actorId==='beatriz'){this.addStatus('enemy','blind',2);this.state.heroes.forEach(member=>member.guard=true);}if(actorId==='orfeu'){this.addStatus('enemy','silence',2);this.state.heroes.forEach(member=>{member.guard=true;b.statuses[member.id]=(b.statuses[member.id]||[]).filter(st=>st.id!=='silence');});}if(actorId==='ava'){this.addStatus('enemy','bind',1);this.state.heroes.forEach(member=>member.hp=Math.min(member.maxHp,member.hp+25));}b.log.push(`${hero.name} libera ${this.ultimateName(actorId)}: ${dmg} de dano.`);}}
+   if(signature?.target!=='ally'&&!['ultimate','in-aeternum-vive','bulwark','stormguard','echo-ward','guard','mend','cleanse','rekindle','shadowrest','potion','ether','remedy'].includes(action)&&this.hasStatus(actorId,'blind')&&Math.random()<.5){b.log.push(`${hero.name} erra por cegueira.`);return;}
+   if(action==='ultimate'){
+    const bonus=spellBonus(this.state.progress,actorId)+(this.state.progress.learned.includes(`${actorId}-master`)?12:0),alive=this.state.heroes.filter(member=>member.hp>0);
+    if(actorId==='carmilla'){
+     const plan=this.transferCarmilla(true);for(const member of plan.targets)b.statuses[member.id]=[];
+     b.log.push(`${this.ultimateName(actorId)}: fios rubros limpam as feridas tratadas e protegem o grupo.`);
+    }else if(actorId==='ophelia'){
+     const amount=Math.round((65+bonus)*this.magicScale(actorId));for(const member of alive){member.hp=Math.min(member.maxHp,member.hp+amount);member.guard=true;b.statuses[member.id]=[];}
+     this.addStatus('enemy','freeze',1);this.state.progress.metrics.heals+=alive.length;
+     b.log.push(`${this.ultimateName(actorId)}: cura ${amount} HP dos aliados vivos, remove estados, concede guarda e ergue gelo sobre o inimigo.`);if(b.animation)b.animation.value=amount;
+    }else{
+     const base=({seiji:88,marin:94,gabriel:84,max:90,beatriz:86} as Partial<Record<HeroId,number>>)[actorId]||80;
+     dmg=actorId==='orfeu'?Math.round(78+bonus+hero.atk):Math.round((base+bonus)*this.magicScale(actorId));
+     if(setCount(this.state.progress,actorId,'lunar')>=3)hero.hp=Math.min(hero.maxHp,hero.hp+4);
+     if(actorId==='seiji'){this.addStatus('enemy','silence',1);b.weakened=true;}
+     if(actorId==='marin'){hero.hp=Math.min(hero.maxHp,hero.hp+35);this.addStatus('enemy','blind',2);this.addStatus('enemy','silence',1);}
+     if(actorId==='gabriel')for(const member of alive){member.guard=true;b.statuses[member.id]=(b.statuses[member.id]||[]).filter(st=>st.id!=='bleed');}
+     if(actorId==='max'){b.bossCharge=Math.max(0,b.bossCharge-35);this.addStatus('enemy','blind',2);}
+     if(actorId==='beatriz'){this.addStatus('enemy','blind',2);alive.forEach(member=>member.guard=true);}
+     if(actorId==='orfeu'){this.addStatus('enemy','silence',2);this.state.heroes.forEach(member=>{member.guard=true;b.statuses[member.id]=(b.statuses[member.id]||[]).filter(st=>st.id!=='silence');});}
+     if(actorId==='ava'){this.addStatus('enemy','bind',1);this.state.heroes.forEach(member=>member.hp=Math.min(member.maxHp,member.hp+25));}
+     b.log.push(`${hero.name} libera ${this.ultimateName(actorId)}: ${dmg} de dano.`);
+    }
+   }
+   else if(signature){
+    const healAlly=(recipient:Hero,base:number)=>{const amount=Math.min(recipient.maxHp-recipient.hp,this.healPower(actorId,base));recipient.hp+=amount;if(amount>0)this.state.progress.metrics.heals++;return amount;};
+    if(signature.damage){dmg=Math.round((signature.damage+spellBonus(this.state.progress,actorId))*this.magicScale(actorId));if(setCount(this.state.progress,actorId,'lunar')>=3)hero.hp=Math.min(hero.maxHp,hero.hp+4);}
+    if(signature.status)this.addStatus('enemy',signature.status,signature.turns||1);
+    if(signature.weaken)b.weakened=true;
+    if(signature.chargeDrain)b.bossCharge=Math.max(0,b.bossCharge-signature.chargeDrain);
+    if(signature.selfHeal)healAlly(hero,signature.selfHeal);
+    if(signature.woundedHeal){const wounded=this.state.heroes.filter(member=>member.hp>0&&member.hp<member.maxHp).sort((a,b)=>a.hp/a.maxHp-b.hp/b.maxHp)[0];if(wounded){const amount=healAlly(wounded,signature.woundedHeal);if(b.animation&&amount>0)b.animation.healing={target:wounded.id,value:amount};}}
+    if(signature.heal){const amount=healAlly(ally,signature.heal);if(b.animation)b.animation.value=amount;}
+    const protectedMembers=signature.guard==='party'?this.state.heroes.filter(member=>member.hp>0):[ally];
+    if(signature.guard)protectedMembers.forEach(member=>member.guard=true);
+    if(signature.cleanse)for(const member of protectedMembers)b.statuses[member.id]=signature.cleanse==='all'?[]:(b.statuses[member.id]||[]).filter(st=>st.id!=='bleed');
+    b.log.push(`${hero.name} usa ${signature.name}: ${dmg?`${dmg} de dano de ${ELEMENT_LABELS[combatElement(actorId,action)]}`:`${b.animation?.value||0} HP restaurados`}${signature.chargeDrain?`; carga inimiga reduzida em ${signature.chargeDrain}`:''}.`);
+   }
    else if(action==='in-aeternum-vive'){this.transferCarmilla();}
    else if(action==='bulwark'){this.state.heroes.forEach(member=>member.guard=true);b.log.push('Baluarte: o grupo recebe guarda.');}
    else if(action==='stormguard'){this.state.heroes.forEach(member=>{member.guard=true;b.statuses[member.id]=(b.statuses[member.id]||[]).filter(st=>st.id!=='blind');});b.log.push('Guarda de Tempestade: o grupo recebe guarda e dissipa cegueira.');}
@@ -326,6 +363,8 @@ const moving=!!(dx||dy);if(moving){const n=Math.hypot(dx,dy),step=Math.min(dt,.0
  useItem(type:'potion'|'ether',target:HeroId){if(this.state.mode!=='world')return false;const h=this.state.heroes.find(v=>v.id===target)!;if(type==='potion'){if(this.state.potions===0||h.hp===h.maxHp)return false;this.state.potions--;h.hp=Math.min(h.maxHp,h.hp+45);}else{if(this.state.ethers===0||h.mp===h.maxMp)return false;this.state.ethers--;h.mp=Math.min(h.maxMp,h.mp+24);}this.save();this.emit();return true;}
 
  skills(id:HeroId){const scale=this.magicScale(id),p=this.state.progress;return [...SKILLS[id],...EXTRA_SKILLS[id].filter(sk=>p.learned.includes(sk.node))].map(sk=>{
+   const signature=signatureTechnique(sk.id);
+   if(signature){let description=signature.description;if(signature.damage)description=description.replace(/^\d+/,String(Math.round((signature.damage+spellBonus(p,id))*scale)));if(signature.heal)description=description.replace(/Restaura \d+/,`Restaura ${this.healPower(id,signature.heal)}`);if(signature.woundedHeal)description=description.replace(/cura \d+/,`cura ${this.healPower(id,signature.woundedHeal)}`);if(signature.selfHeal)description=description.replace(/recupera \d+/,`recupera ${this.healPower(id,signature.selfHeal)}`);return {...sk,description};}
    const base=({cut:38,stain:26,shard:32,blind:22,bleed:30,freeze:24,eclipse:34,drain:26,blaze:36,voltcut:34,arc:28,darkveil:24,flamewall:28,rupture:32,nightseal:38,nova:48,ashseal:30,tidecut:36,'umbra-seal':25,'echo-strike':32,'vine-strike':32} as Record<string,number>)[sk.id],bonus=sk.id==='cut'&&p.learned.includes('seiji-ink')||sk.id==='shard'&&p.learned.includes('ophelia-ice')||['eclipse','blaze','voltcut'].includes(sk.id)&&p.learned.includes(`${id}-power`)?8:0;
    if(['mend','cleanse','rekindle','shadowrest','margem','garden-heal'].includes(sk.id))return {...sk,description:`Restaura ${this.healPower(id,({mend:36,cleanse:25,rekindle:28,shadowrest:24,margem:32,'garden-heal':38} as Record<string,number>)[sk.id])} HP${['cleanse','rekindle','margem'].includes(sk.id)?' e remove estados.':sk.id==='shadowrest'?' de Marin.':'.'} Também na exploração.`};
    return {...sk,description:sk.description.replace(/^\d+/,String(Math.round((base+bonus+spellBonus(p,id))*scale)))};

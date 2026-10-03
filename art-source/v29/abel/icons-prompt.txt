@@ -1,0 +1,12 @@
+Use case: stylized-concept.
+Asset type: FINAL six exclusive SKILL ICON sprites atlas for abel, original fantasy JRPG Éter Anima. EXACT3columns×2rows,1536×1024landscape. Reference image supplies palette/material/style identity ONLY. There are ZERO characters/people/faces/hands in this image.
+Style: high quality adult anime fantasy Fate/Mushoku Tensei, clean fine contour, refined painted cel shadows, crisp readable silhouette, controlled luminous highlights. NOT 3D/photoreal or western cartoon. Palette: primordial FIRE crimson/ruby/amber with gold/bronze, no electricity, no water or ice.
+Read row-major six separate objects:
+0: red crystal embraced by a ruby flame
+1: bronze-gold staff with red crystal and flame burst
+2: lion paw made of amber flames
+3: crimson fire containment ring
+4: proud ruby/amber lion mane
+5: Leão do Fogo Primordial: complete mature lion silhouette made of ruby/amber fire
+Composition: exactly one motif per512×512cell. Center each silhouette in its cell, max370×370px,70px actual empty alpha gutters all sides, no part of object/light/particle crosses into another cell. Small elegant coherent circular rim of thin silver/champagne metal per icon with element-toned inset; each icon needs bold readable motif at48px, empty outside, no square card. Motifs different and clear.
+Background MUST be real alpha0 with fully transparent gutters/corners and spaces between individual effects. No backdrop, floor, cast shadow, grid, letters, names, pseudo-text/runes, numbers, UI, labels or watermark. No particles in the gutters. Quality final carefully finished, no placeholders.

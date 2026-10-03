@@ -1,0 +1,232 @@
+{
+  "mode": "RGBA",
+  "size": [
+    1536,
+    1024
+  ],
+  "alphaMin": 0,
+  "alphaMax": 254,
+  "fullyTransparentPixels": 813018,
+  "visiblePixels": 623622,
+  "visibleBoundsXYXY": [
+    43,
+    10,
+    1491,
+    996
+  ],
+  "visibleEdgePixels": 0,
+  "source": "ultimate-source.png",
+  "runtime": "/assets/v29/gabriel_lycan/ultimate.png",
+  "key": "battle_gabriel_lycan_ultimate",
+  "sha256": "4064bede0adfeaaf9a222886a48e85d532c4baee10f0534f69073bb088d672e2",
+  "columns": 4,
+  "rows": 2,
+  "walkDirectionOrder": null,
+  "combatFacing": "right",
+  "alphaThresholdForVisibleBounds": 24,
+  "rowCuts": [
+    0,
+    504,
+    1024
+  ],
+  "rowEmptyCorridorsInclusive": [
+    [
+      497,
+      510
+    ]
+  ],
+  "columnEmptyCorridorsInclusive": [
+    [
+      [
+        356,
+        420
+      ],
+      [
+        739,
+        789
+      ],
+      [
+        1108,
+        1166
+      ]
+    ],
+    [
+      [
+        347,
+        399
+      ],
+      [
+        797,
+        803
+      ],
+      [
+        1115,
+        1182
+      ]
+    ]
+  ],
+  "cells": [
+    {
+      "index": 0,
+      "row": 0,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "w": 388,
+        "h": 504
+      },
+      "crop": {
+        "x": 56,
+        "y": 14,
+        "w": 302,
+        "h": 485,
+        "anchorX": 225,
+        "anchorY": 496
+      },
+      "visibleEdgePixels": 0
+    },
+    {
+      "index": 1,
+      "row": 0,
+      "col": 1,
+      "cell": {
+        "x": 388,
+        "y": 0,
+        "w": 376,
+        "h": 504
+      },
+      "crop": {
+        "x": 419,
+        "y": 20,
+        "w": 322,
+        "h": 479,
+        "anchorX": 610,
+        "anchorY": 496
+      },
+      "visibleEdgePixels": 0
+    },
+    {
+      "index": 2,
+      "row": 0,
+      "col": 2,
+      "cell": {
+        "x": 764,
+        "y": 0,
+        "w": 373,
+        "h": 504
+      },
+      "crop": {
+        "x": 788,
+        "y": 70,
+        "w": 322,
+        "h": 425,
+        "anchorX": 965,
+        "anchorY": 492
+      },
+      "visibleEdgePixels": 0
+    },
+    {
+      "index": 3,
+      "row": 0,
+      "col": 3,
+      "cell": {
+        "x": 1137,
+        "y": 0,
+        "w": 399,
+        "h": 504
+      },
+      "crop": {
+        "x": 1165,
+        "y": 8,
+        "w": 328,
+        "h": 490,
+        "anchorX": 1355,
+        "anchorY": 495
+      },
+      "visibleEdgePixels": 0
+    },
+    {
+      "index": 4,
+      "row": 1,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 504,
+        "w": 373,
+        "h": 520
+      },
+      "crop": {
+        "x": 41,
+        "y": 509,
+        "w": 308,
+        "h": 489,
+        "anchorX": 185,
+        "anchorY": 995
+      },
+      "visibleEdgePixels": 0
+    },
+    {
+      "index": 5,
+      "row": 1,
+      "col": 1,
+      "cell": {
+        "x": 373,
+        "y": 504,
+        "w": 427,
+        "h": 520
+      },
+      "crop": {
+        "x": 398,
+        "y": 569,
+        "w": 401,
+        "h": 428,
+        "anchorX": 555,
+        "anchorY": 994
+      },
+      "visibleEdgePixels": 0
+    },
+    {
+      "index": 6,
+      "row": 1,
+      "col": 2,
+      "cell": {
+        "x": 800,
+        "y": 504,
+        "w": 349,
+        "h": 520
+      },
+      "crop": {
+        "x": 802,
+        "y": 548,
+        "w": 315,
+        "h": 450,
+        "anchorX": 965,
+        "anchorY": 995
+      },
+      "visibleEdgePixels": 0
+    },
+    {
+      "index": 7,
+      "row": 1,
+      "col": 3,
+      "cell": {
+        "x": 1149,
+        "y": 504,
+        "w": 387,
+        "h": 520
+      },
+      "crop": {
+        "x": 1181,
+        "y": 520,
+        "w": 302,
+        "h": 478,
+        "anchorX": 1340,
+        "anchorY": 995
+      },
+      "visibleEdgePixels": 0
+    }
+  ],
+  "anchorMethod": "combat body axis visually measured at waist, feet from opaque bottom; walk upper-torso axis and opaque feet; FX/icons centered",
+  "pixelTransform": "none; runtime atlas copied source RGBA; icons native rectangle crops only"
+}

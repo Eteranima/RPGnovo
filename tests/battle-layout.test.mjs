@@ -11,7 +11,7 @@ const projectRequire=createRequire(import.meta.url);
 const wranglerRequire=createRequire(projectRequire.resolve('wrangler'));
 const sharp=createRequire(wranglerRequire.resolve('miniflare'))('sharp');
 const out=mkdtempSync(join(tmpdir(),'eter-battle-layout-'));
-for(const name of ['data','sprites','battleFormation']){
+for(const name of ['remakeArt','remakeArtSeijiOphelia','remakeArtGabrielMarinMax','remakeArtCarmillaBeatrizAbel','data','sprites','battleFormation']){
  const source=readFileSync(`lib/game/${name}.ts`,'utf8').replace(/from '\.\/(\w+)'/g,"from './$1.js'");
  writeFileSync(join(out,`${name}.js`),ts.transpileModule(source,{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.ES2022}}).outputText);
 }
@@ -65,7 +65,7 @@ for(const [width,height] of [[1310,235],[844,205]])for(let count=1;count<=5;coun
  }
  const nearestEnemy=Math.min(...enemies.map(bounds=>bounds.left));
  for(const hero of heroes)for(let lane=0;lane<count;lane++){
-  const slot=formation.heroes[lane],key=`battle_${hero}_attack`,bounds=await renderedIdle(key,slot,hero==='ophelia');
+  const slot=formation.heroes[lane],key=`battle_${hero}_attack`,bounds=await renderedIdle(key,slot,hero==='ophelia'&&!ASSETS[key].startsWith('/assets/v29/'));
   const context=`${width}×${height}/${count}/${hero}/lane ${lane+1}`;
   check(bounds.left>=0&&bounds.right<=width&&bounds.top-idleSway>=0&&bounds.bottom+idleSway<=height,`${context}: visible idle stays on stage throughout its ±1.5px sway`);
   check(bounds.left>=slot.x-slot.cellWidth/2&&bounds.right<=slot.x+slot.cellWidth/2,`${context}: visible idle stays in its own lane`);

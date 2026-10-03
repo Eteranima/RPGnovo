@@ -1,0 +1,184 @@
+{
+  "mode": "RGBA",
+  "size": [
+    1536,
+    1024
+  ],
+  "alphaMin": 0,
+  "alphaMax": 254,
+  "fullyTransparentPixels": 979150,
+  "visiblePixels": 470216,
+  "visibleBoundsXYXY": [
+    43,
+    19,
+    1510,
+    1000
+  ],
+  "visibleEdgePixels": 0,
+  "source": "attack-source.png",
+  "runtime": "/assets/v29/max/attack.png",
+  "key": "battle_max_attack",
+  "sha256": "9d3711cc6a78dec5be43eecc821477c7de4177258228c097dea6518b87bb6aa3",
+  "columns": 3,
+  "rows": 2,
+  "walkDirectionOrder": null,
+  "combatFacing": "right",
+  "alphaThresholdForVisibleBounds": 24,
+  "rowCuts": [
+    0,
+    516,
+    1024
+  ],
+  "rowEmptyCorridorsInclusive": [
+    [
+      501,
+      530
+    ]
+  ],
+  "columnEmptyCorridorsInclusive": [
+    [
+      [
+        405,
+        552
+      ],
+      [
+        976,
+        1015
+      ]
+    ],
+    [
+      [
+        560,
+        571
+      ],
+      [
+        1008,
+        1067
+      ]
+    ]
+  ],
+  "cells": [
+    {
+      "index": 0,
+      "row": 0,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "w": 479,
+        "h": 516
+      },
+      "crop": {
+        "x": 41,
+        "y": 19,
+        "w": 366,
+        "h": 484,
+        "anchorX": 235,
+        "anchorY": 500
+      },
+      "visibleEdgePixels": 0
+    },
+    {
+      "index": 1,
+      "row": 0,
+      "col": 1,
+      "cell": {
+        "x": 479,
+        "y": 0,
+        "w": 517,
+        "h": 516
+      },
+      "crop": {
+        "x": 551,
+        "y": 17,
+        "w": 427,
+        "h": 486,
+        "anchorX": 790,
+        "anchorY": 500
+      },
+      "visibleEdgePixels": 0
+    },
+    {
+      "index": 2,
+      "row": 0,
+      "col": 2,
+      "cell": {
+        "x": 996,
+        "y": 0,
+        "w": 540,
+        "h": 516
+      },
+      "crop": {
+        "x": 1014,
+        "y": 72,
+        "w": 498,
+        "h": 408,
+        "anchorX": 1240,
+        "anchorY": 477
+      },
+      "visibleEdgePixels": 0
+    },
+    {
+      "index": 3,
+      "row": 1,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 516,
+        "w": 566,
+        "h": 508
+      },
+      "crop": {
+        "x": 46,
+        "y": 572,
+        "w": 516,
+        "h": 413,
+        "anchorX": 285,
+        "anchorY": 982
+      },
+      "visibleEdgePixels": 0
+    },
+    {
+      "index": 4,
+      "row": 1,
+      "col": 1,
+      "cell": {
+        "x": 566,
+        "y": 516,
+        "w": 472,
+        "h": 508
+      },
+      "crop": {
+        "x": 570,
+        "y": 571,
+        "w": 440,
+        "h": 413,
+        "anchorX": 775,
+        "anchorY": 981
+      },
+      "visibleEdgePixels": 0
+    },
+    {
+      "index": 5,
+      "row": 1,
+      "col": 2,
+      "cell": {
+        "x": 1038,
+        "y": 516,
+        "w": 498,
+        "h": 508
+      },
+      "crop": {
+        "x": 1066,
+        "y": 529,
+        "w": 389,
+        "h": 473,
+        "anchorX": 1260,
+        "anchorY": 999
+      },
+      "visibleEdgePixels": 0
+    }
+  ],
+  "anchorMethod": "combat body axis visually measured at waist, feet from opaque bottom; walk upper-torso axis and opaque feet; FX/icons centered",
+  "pixelTransform": "none; runtime atlas copied source RGBA; icons native rectangle crops only"
+}

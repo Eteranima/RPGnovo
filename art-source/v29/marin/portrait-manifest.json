@@ -1,0 +1,84 @@
+{
+  "mode": "RGBA",
+  "size": [
+    1024,
+    1536
+  ],
+  "alphaMin": 0,
+  "alphaMax": 254,
+  "fullyTransparentPixels": 756790,
+  "visiblePixels": 754280,
+  "visibleBoundsXYXY": [
+    37,
+    14,
+    1005,
+    1517
+  ],
+  "visibleEdgePixels": 0,
+  "source": "portrait-source.png",
+  "runtime": "/assets/v29/marin/portrait.png",
+  "sha256": "933baac7b7c8ee8c46e70172b23a4e6891ebfab410a907bc5f3aa5ca18e8f0c8",
+  "faceCrop": {
+    "x": 350,
+    "y": 0,
+    "w": 290,
+    "h": 290
+  },
+  "faceRuntime": "/assets/v29/marin/face.png",
+  "faceSha256": "f24a375250181d599e068e6d512cf6aeeb89f807c9acb18ca2d66c9eeb8b1c36",
+  "outsideSilhouetteAlphaSamples": [
+    {
+      "x": 60,
+      "y": 300,
+      "alpha": 0
+    },
+    {
+      "x": 950,
+      "y": 300,
+      "alpha": 0
+    },
+    {
+      "x": 60,
+      "y": 700,
+      "alpha": 0
+    },
+    {
+      "x": 950,
+      "y": 700,
+      "alpha": 0
+    },
+    {
+      "x": 60,
+      "y": 1400,
+      "alpha": 0
+    },
+    {
+      "x": 950,
+      "y": 1400,
+      "alpha": 0
+    }
+  ],
+  "faceAlphaSamples": [
+    {
+      "x": 0,
+      "y": 0,
+      "alpha": 0
+    },
+    {
+      "x": 289,
+      "y": 0,
+      "alpha": 0
+    },
+    {
+      "x": 0,
+      "y": 289,
+      "alpha": 151
+    },
+    {
+      "x": 289,
+      "y": 289,
+      "alpha": 253
+    }
+  ],
+  "pixelTransform": "none; portrait copied native RGBA; face rectangle crop only"
+}

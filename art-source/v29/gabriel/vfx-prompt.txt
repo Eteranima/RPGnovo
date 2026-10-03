@@ -1,0 +1,10 @@
+Use case: stylized-concept. FINAL production spriteatlas of exactly SIX independent anime fantasy spell EFFECTS for gabriel, no characters.
+Reference1 is style/element palette only, do NOT draw character/body/hand/face from it. Crisp hand-drawn2D cel-shaded magic, mature MushokuTensei/Fate anime fantasy, clean readable high detail, no3D/fxphotorealism.
+1536×1024 RGBA true alpha0 emptybackground. EXACT3columns×2rows, each512×512cell ONE isolated effect centered in cell, maximum300pxwide300pxtall, at least90pxclear alpha gutters all4sidesEVERYcell, no touching/intersection. Row-major objects0–5:
+0: a compact orange-amber fire fist impact starburst, no hand
+1: a sharp orange-amber crescent fire boxing slash
+2: a thin protective amber sun-ring with four warm heart-heal motes inside, center mostly open alpha
+3: a small ember cage loop with restrained curled flame streaks
+4: a golden dawn solar sigil encircled by elegant flame tongues, no text/numbers
+5: a fierce amber-gold spectral wolf HEAD profile formed entirely of flames, striking right; head silhouette only not character
+Each is a self-contained WHOLEcutout with some empty alpha at center where applicable, not a continuous strip, not phases. Fully transparentoutsideandgaps. No backdrop/gradient/floor/shadow/panel/frames/text/numbers/cellsseparator/checkerboardpainted. No hands/bodies/people/anatomy/blood. All marks partof specificelementeffect. Avoid fire for Marin/Max; Max yellow/cyan lightning distinct from orangefire, iron NAILHEADS visually clear (no swords/screws). High quality clean smallsize readability.

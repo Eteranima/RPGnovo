@@ -23,9 +23,10 @@ function apertureStyle(aperture: CardAperture): CSSProperties {
 export function HeroPortrait({ h, lycan = false, style }: { h: Pick<CardHeroDisplay, 'id' | 'portrait'>; lycan?: boolean; style?: CSSProperties }) {
   const portraitId = h.id === 'gabriel' && lycan ? 'gabriel_lycan' : h.id;
   const art = HERO_CARD_ART[h.id];
+  const face = ASSETS[`face_${portraitId}`];
   return <span className={`character-portrait character-portrait-${portraitId}`} style={style} aria-hidden="true">
     <span className="character-portrait-window" style={apertureStyle(art.portraitAperture)}>
-      <img src={h.portrait || ASSETS[`dlg_${portraitId}`]} alt="" draggable={false} />
+      <img src={face || h.portrait || ASSETS[`dlg_${portraitId}`]} style={face?{left:0,top:0,width:'100%',height:'100%',transform:'none',objectFit:'cover'}:undefined} alt="" draggable={false} />
     </span>
     <img className="character-ring" src={art.ring} alt="" draggable={false} />
   </span>;

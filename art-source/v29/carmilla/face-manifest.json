@@ -1,0 +1,13 @@
+{
+  "portrait": "public/assets/v29/carmilla/portrait.png",
+  "face": "public/assets/v29/carmilla/face.png",
+  "faceCrop": {
+    "left": 367,
+    "top": 7,
+    "width": 320,
+    "height": 320
+  },
+  "sourceSha256": "c433b14b7ffe9aec73a0f8ccc960742b43256626655e1df9907a711ba0a9d80b",
+  "faceSha256": "f9e80433d2dd74f73a8338344a0327a9810e59b4ebd6e17c3a9550b9260f581a",
+  "allNativeRgbaPixelsPreserved": true
+}

@@ -14,6 +14,7 @@
 - Folhas de sprites precisam de transparência real, células isoladas sem invasão de efeitos vizinhos, recortes e âncoras medidos. Não anuncie ausência absoluta de defeitos sem inspeção.
 - Diversifique pisos e objetos por cenário com variações estáveis, sem alterar navegação, colisões e travas de missões por razões visuais.
 - Preserve compatibilidade de saves, MAIL, recrutamento e controles acessíveis. Registre prompts, fontes, recortes e validações das novas artes.
+- Remakes de personagens incluem retrato, caminhada, ataque, habilidade, ultimate e efeitos finais do próprio elemento. Novas técnicas têm custo, alvo e impacto reais; preserve identificadores antigos de habilidades e aprendizado nos saves. Respeite as exceções de personagem indicadas pelo usuário em cada pedido.
 - As ordens explícitas do usuário têm precedência sobre estas diretrizes.
 
 <!-- BEGIN:nextjs-agent-rules -->

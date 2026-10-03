@@ -1,0 +1,28 @@
+{
+  "id": "carmilla",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-33912812-75b2-4150-b5fb-6b634799331a.png",
+  "selected": "art-source/v29/carmilla/portrait-source.png",
+  "runtime": "public/assets/v29/carmilla/portrait.png",
+  "identityReference": "public/assets/v23/carmilla-portrait-v2.png",
+  "styleReference": "public/assets/v26/ava/ava-anime-portrait.png",
+  "width": 1024,
+  "height": 1536,
+  "sourceSha256": "c433b14b7ffe9aec73a0f8ccc960742b43256626655e1df9907a711ba0a9d80b",
+  "selectedSha256": "c433b14b7ffe9aec73a0f8ccc960742b43256626655e1df9907a711ba0a9d80b",
+  "runtimeSha256": "c433b14b7ffe9aec73a0f8ccc960742b43256626655e1df9907a711ba0a9d80b",
+  "sourceCopiesByteIdentical": true,
+  "freeAlphaZero": 644950,
+  "visibleOuterEdge": 0,
+  "face": {
+    "path": "public/assets/v29/carmilla/face.png",
+    "crop": {
+      "x": 367,
+      "y": 7,
+      "w": 320,
+      "h": 320
+    },
+    "sha256": "f9e80433d2dd74f73a8338344a0327a9810e59b4ebd6e17c3a9550b9260f581a",
+    "allNativeRgbaPixelsPreserved": true
+  }
+}

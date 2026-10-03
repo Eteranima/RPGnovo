@@ -1,3 +1,5 @@
+import {REMAKE_ASSETS} from './remakeArt';
+
 export type MapId = 'patio' | 'arquivo' | 'subsolo' | 'camara' | 'porto' | 'domo' | 'galeria' | 'ashwood' | 'ashpyre' | 'vigilia';
 export type Point = { x: number; y: number };
 export type Entity = Point & { id: string; label: string; kind: 'npc'|'warp'|'book'|'save'|'chest'|'rune'|'mob'|'boss'|'sign'|'shop'|'event'; to?: MapId; spawn?: Point; asset?: string; minStage?: number; family?: 'lobo'|'sombra'|'selo'|'eco'|'ashwolf'|'moth'|'cinder'; hp?:number; damage?:number; xp?:number; credits?:number; text?:string; eventId?:string; fieldSkill?:string; fieldRequired?:string };
@@ -133,7 +135,7 @@ export const ELEMENT_COLORS:Record<CombatElement,string>={ink:'#7c9fc9',ice:'#b4
 // offensive actions inherit the hero's identity, including the basic attack.
 export function combatElement(hero:HeroId,action:string):CombatElement{
  if(['guard','potion','ether','remedy'].includes(action))return 'neutral';
- if(hero==='beatriz')return action==='umbra-seal'?'dark':action==='ultimate'?'water-dark':'water';
+ if(hero==='beatriz')return action==='umbra-seal'?'dark':['ultimate','abyss-countertide'].includes(action)?'water-dark':'water';
  return HERO_COMBAT_ELEMENTS[hero];
 }
 export const EARTH_VFX_FRAMES=Array.from({length:6},(_,frame)=>({x:frame%3*512+16,y:Math.floor(frame/3)*512+16,w:480,h:480}));
@@ -146,7 +148,30 @@ export function combatImpact(element:CombatElement):{asset:string;row:number;row
  // borrow the fire, ice or dark atlas for an unrelated elemental identity.
  return undefined;
 }
-export const ULTIMATE_NAMES:Record<HeroId,string>={seiji:'Códice Sem Fundo',ophelia:'Inverno Sereno',marin:'Hora Sem Estrelas',gabriel:'Coração da Forja',max:'Trono da Tempestade',beatriz:'Maré Umbral',orfeu:'Domínio Nulo',ava:'Soberania da Terra',carmilla:'Vigília Rubra'};
+export const ULTIMATE_NAMES:Record<HeroId,string>={seiji:'Códice da Página Final',ophelia:'Catedral do Inverno',marin:'Lâmina da Hora Zero',gabriel:'Forja da Alvorada Lycan',max:'Crucificação do Trovão',beatriz:'Tribunal das Duas Marés',orfeu:'Domínio Nulo',ava:'Soberania da Terra',carmilla:'Catedral de Fios Rubros'};
+export const ULTIMATE_DESCRIPTIONS:Record<HeroId,string>={
+ seiji:'Tinta sela a página final: dano, silêncio e enfraquecimento do próximo golpe.',
+ ophelia:'Uma catedral de gelo cura o grupo, remove estados, concede guarda e congela o inimigo uma vez.',
+ marin:'A lâmina de Umbra rompe a última estrela: dano de Trevas, recuperação própria, cegueira e silêncio.',
+ gabriel:'A alvorada da forja causa dano de Fogo; o grupo recebe guarda e perde sangramento.',
+ max:'Pregos de Éter conduzem o trovão: dano elétrico, cegueira e redução de 35 pontos da carga inimiga.',
+ beatriz:'Água e Trevas julgam o campo: dano, cegueira inimiga e guarda para os aliados vivos.',
+ orfeu:'Impacto físico rompe a magia inimiga e protege o grupo.',
+ ava:'Estratos de terra prendem o inimigo e restauram o grupo.',
+ carmilla:'Fios de sangue curam os aliados vivos mais feridos em proporção, limpam seus estados e protegem o grupo. Carmilla recebe 15% do HP curado.',
+};
+export type SignatureTechnique={id:string;name:string;cost:number;description:string;node:string;requires:string;target:'enemy'|'ally';damage?:number;heal?:number;guard?:'ally'|'party';selfHeal?:number;woundedHeal?:number;status?:'silence'|'blind'|'bleed';turns?:number;weaken?:boolean;chargeDrain?:number;cleanse?:'bleed'|'all'};
+/** New nodes add to existing learned IDs; no old unlock is removed from a save. */
+export const SIGNATURE_TECHNIQUES:Partial<Record<HeroId,SignatureTechnique[]>>={
+ seiji:[{id:'kanji-interdict',name:'Kanji: Interdição',cost:12,node:'seiji-signature',requires:'seiji-master',target:'enemy',damage:34,status:'silence',turns:1,weaken:true,description:'34 de dano de Tinta; silêncio por 1 ação e enfraquece o próximo golpe.'}],
+ ophelia:[{id:'frost-sanctuary',name:'Santuário de Geada',cost:13,node:'ophelia-signature',requires:'ophelia-master',target:'ally',heal:38,guard:'ally',cleanse:'bleed',description:'Restaura 38 HP de um aliado vivo, remove sangramento e concede guarda.'}],
+ marin:[{id:'umbra-hunt',name:'Caçada de Umbra',cost:15,node:'marin-signature',requires:'marin-master',target:'enemy',damage:44,selfHeal:20,status:'silence',turns:1,description:'44 de dano de Trevas; recupera 20 HP de Marin e silencia por 1 ação.'}],
+ gabriel:[{id:'lycan-oath',name:'Juramento da Alvorada',cost:13,node:'gabriel-signature',requires:'gabriel-master',target:'enemy',damage:30,selfHeal:18,guard:'party',cleanse:'bleed',description:'30 de dano de Fogo; recupera 18 HP de Gabriel, guarda o grupo e remove sangramento.'}],
+ max:[{id:'nail-conduction',name:'Circuito de Pregos',cost:13,node:'max-signature',requires:'max-master',target:'enemy',damage:40,chargeDrain:25,description:'40 de dano elétrico e reduz a carga da ultimate inimiga em 25 pontos.'}],
+ beatriz:[{id:'abyss-countertide',name:'Contramaré Abissal',cost:14,node:'beatriz-signature',requires:'beatriz-master',target:'enemy',damage:38,status:'blind',turns:1,weaken:true,description:'38 de dano de Água / Trevas; cegueira por 1 ação e enfraquece o próximo golpe.'}],
+ carmilla:[{id:'crimson-suture',name:'Sutura Carmesim',cost:11,node:'carmilla-suture',requires:'carmilla-vital',target:'enemy',damage:26,woundedHeal:22,status:'bleed',turns:2,description:'26 de dano de Sangue; sangramento por 2 ações e cura 22 HP do aliado vivo mais ferido em proporção.'},{id:'return-stitch',name:'Ponto de Retorno',cost:13,node:'carmilla-return',requires:'carmilla-suture',target:'ally',heal:30,cleanse:'all',description:'Restaura 30 HP de um aliado vivo e remove todos os estados. Não revive.'}],
+};
+export function signatureTechnique(id:string){return Object.values(SIGNATURE_TECHNIQUES).flat().find(skill=>skill.id===id);}
 export type Hero={id:HeroId;name:string;element:string;role:string;maxHp:number;hp:number;maxMp:number;mp:number;atk:number;spd:number;guard:boolean};
 export const heroBases=():Hero[]=>[
  {id:'seiji',name:'Seiji',element:'Tinta',role:'Escriba',maxHp:85,hp:85,maxMp:40,mp:40,atk:18,spd:15,guard:false},
@@ -213,3 +238,5 @@ ASSETS.battle_carmilla_ultimate='/assets/v23/carmilla-ultimate-armfix.png';
 for(const action of ['attack','cast','ultimate'])ASSETS[`battle_gabriel_lycan_${action}`]='/assets/v19/gabriel-lycan-combat.webp';
 ASSETS.companions='/assets/v20/companions.webp';ASSETS.companions_combat='/assets/v20/companions-combat.webp';ASSETS.signboards='/assets/v20/signboards.webp';ASSETS.max='/assets/v21/max-walk-slender.png';ASSETS.dlg_max='/assets/v20/max-dialogue-black.webp';ASSETS.battle_max_attack='/assets/v21/max-combat-electric.png';ASSETS.battle_max_cast='/assets/v21/max-combat-electric.png';ASSETS.battle_max_ultimate='/assets/v21/max-combat-electric.png';
 for(const family of Object.keys(ENEMY_ULTIMATES))ASSETS[`ultimate_${family}`]=`/assets/v20/ultimate-${family}.webp`;
+
+Object.assign(ASSETS,REMAKE_ASSETS);

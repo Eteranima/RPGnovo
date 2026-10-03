@@ -9,9 +9,11 @@ import {GameIcon} from './game-icon';
 import {SUMMONED_HEROES,summonedById} from '@/lib/game/summons';
 import {HeroCard} from './hero-card';
 import {isHeroCardId} from '@/lib/game/heroCardArt';
+import {CharacterShowcase} from './character-showcase';
+import showcaseStyles from './character-showcase.module.css';
 
 export function SummonMenu({s,engine,initialFocus,onClose}:{s:Snapshot;engine:GameEngine;initialFocus?:string;onClose:()=>void}){
- const [detail,setDetail]=useState(initialFocus||s.progress.lastSummon||'');const [expanded,setExpanded]=useState<string|null>(null);const p=s.progress,chosen=summonedById(detail),world=s.mode==='world';
+ const [detail,setDetail]=useState(initialFocus||s.progress.lastSummon||'');const [expanded,setExpanded]=useState<string|null>(null),[preview,setPreview]=useState<string|null>(null);const p=s.progress,chosen=summonedById(detail),world=s.mode==='world';
  useEffect(()=>{if(p.lastSummon)setDetail(p.lastSummon);},[p.lastSummon]);
  const pull=(count:1|10,method:'ticket'|'crystal')=>engine.drawCharacter(count,method);
  return <><div className="menu-intro"><span className="eyebrow">CONVOCAÇÃO DO ÉTER</span><h3>Arquivo dos Despertos</h3><p>O círculo chama heróis 4★ e 5★. Beatriz entra no Grupo ao ser invocada; Orfeu e Ava concluem suas aulas de vínculo. O MAIL oferece 30 tiros e um seletor 5★ jogável. Carmilla é uma recompensa de conquistas ou do Modo Mestre, fora do sorteio.</p></div>
@@ -25,12 +27,13 @@ export function SummonMenu({s,engine,initialFocus,onClose}:{s:Snapshot;engine:Ga
   const destination=hero.id==='orfeu'?'arquivo':hero.id==='ava'?'domo':'patio';
   const place=destination==='arquivo'?'Arquivo Central':destination==='domo'?'Domo de Herbologia':'Pátio Central';
   return <article className={`summon-card ${owned?'owned':'unowned'} ${opened?'expanded':''}`} key={hero.id} style={{'--summon-accent':hero.accent} as React.CSSProperties}>
-   <div className="summon-card-stage">
-    <img className="summon-character-art" src={hero.art||ASSETS[`dlg_${cardId}`]} alt="" loading="lazy"/>
+   <div className={`summon-card-stage ${preview===hero.id?showcaseStyles.previewStage:''}`}>
+    {preview===hero.id?<CharacterShowcase id={cardId} name={hero.name}/>:<img className="summon-character-art" src={hero.art||ASSETS[`dlg_${cardId}`]} alt="" loading="lazy"/>}
     {isHeroCardId(cardId)&&<HeroCard className="summon-character-card" h={{id:cardId,name:hero.name,element:hero.element,portrait:hero.art}} showVitals={false} detail={`${hero.rarity}★ · ${hero.role}`}/>}
     <div className="summon-card-detail" aria-hidden={!opened}><p>{hero.description}</p><strong>{hero.ultimate}</strong><small>Constelação {p.constellations[hero.id]||0}/6</small></div>
    </div>
    <div className="summon-card-actions">
+    {ASSETS[`battle_${cardId}_ultimate`]?.startsWith('/assets/v29/')&&<button className={showcaseStyles.previewToggle} aria-pressed={preview===hero.id} onClick={()=>{setPreview(preview===hero.id?null:hero.id);setExpanded(null);}}>{preview===hero.id?'Voltar ao retrato':'Ver ultimate'}</button>}
     <button className="summon-inspect" aria-expanded={opened} aria-label={`${opened?'Ocultar':'Mostrar'} detalhes de ${hero.name}`} onClick={()=>{setDetail(hero.id);setExpanded(opened?null:hero.id);}}>{opened?'Voltar à arte':'Detalhes'}</button>
     {owned?<button className="secondary-button" disabled={!world||bonded||s.map!==destination} onClick={()=>{onClose();engine.bondSummoned(hero.id);}}>{bonded?hero.id==='carmilla'?'Disponível no Grupo':'Vínculo concluído':s.map===destination?'Iniciar Aula de Vínculo':`Vá ao ${place}`}</button>:<span className="summon-locked">{hero.achievementOnly?'Conquistas / Modo Mestre':'Ainda não convocado'}</span>}
    </div>

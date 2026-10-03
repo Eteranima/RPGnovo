@@ -1,0 +1,84 @@
+{
+  "mode": "RGBA",
+  "size": [
+    1024,
+    1536
+  ],
+  "alphaMin": 0,
+  "alphaMax": 254,
+  "fullyTransparentPixels": 703025,
+  "visiblePixels": 795903,
+  "visibleBoundsXYXY": [
+    7,
+    3,
+    1020,
+    1534
+  ],
+  "visibleEdgePixels": 0,
+  "source": "portrait-source.png",
+  "runtime": "/assets/v29/gabriel/portrait.png",
+  "sha256": "22dbf55f212abd4f1487f3fc1ebca94ab08fba6d825cf40dce3831808622cd07",
+  "faceCrop": {
+    "x": 280,
+    "y": 0,
+    "w": 300,
+    "h": 285
+  },
+  "faceRuntime": "/assets/v29/gabriel/face.png",
+  "faceSha256": "e710eda2c1e77b18dbf7b6bc45ac435b758702bc7de6a228f63cc62faea5608f",
+  "outsideSilhouetteAlphaSamples": [
+    {
+      "x": 60,
+      "y": 300,
+      "alpha": 0
+    },
+    {
+      "x": 950,
+      "y": 300,
+      "alpha": 0
+    },
+    {
+      "x": 60,
+      "y": 700,
+      "alpha": 0
+    },
+    {
+      "x": 950,
+      "y": 700,
+      "alpha": 0
+    },
+    {
+      "x": 60,
+      "y": 1400,
+      "alpha": 0
+    },
+    {
+      "x": 950,
+      "y": 1400,
+      "alpha": 0
+    }
+  ],
+  "faceAlphaSamples": [
+    {
+      "x": 0,
+      "y": 0,
+      "alpha": 0
+    },
+    {
+      "x": 299,
+      "y": 0,
+      "alpha": 0
+    },
+    {
+      "x": 0,
+      "y": 284,
+      "alpha": 0
+    },
+    {
+      "x": 299,
+      "y": 284,
+      "alpha": 254
+    }
+  ],
+  "pixelTransform": "none; portrait copied native RGBA; face rectangle crop only"
+}

@@ -1,0 +1,13 @@
+{
+  "portrait": "public/assets/v29/beatriz/portrait.png",
+  "face": "public/assets/v29/beatriz/face.png",
+  "faceCrop": {
+    "left": 439,
+    "top": 135,
+    "width": 260,
+    "height": 260
+  },
+  "sourceSha256": "9a5510af15073a064f0261f5a64d7d948896473947c2588319256955f204c1a3",
+  "faceSha256": "fd0e0f1211d8edf1222754a9854881372bba5e4582bda66e74c7c945236a2af0",
+  "allNativeRgbaPixelsPreserved": true
+}

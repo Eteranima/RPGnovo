@@ -1,0 +1,20 @@
+import {readFileSync,writeFileSync,mkdirSync,copyFileSync} from 'node:fs';
+import {createRequire} from 'node:module';
+import {createHash} from 'node:crypto';
+const require=createRequire(import.meta.url),wrangler=createRequire(require.resolve('wrangler'));
+const sharp=createRequire(wrangler.resolve('miniflare'))('sharp');
+const source='C:/Users/Diego/.codex/generated_images/01a0fe9c-5a05-7ae0-b816-392e2a3c966b/exec-cc7fe83c-cf53-4c8e-b89d-24724f9b140d.png';
+const {data,info}=await sharp(source).ensureAlpha().raw().toBuffer({resolveWithObject:true});
+let left=info.width,top=info.height,right=-1,bottom=-1,edgePixels=0;
+for(let y=0;y<info.height;y++)for(let x=0;x<info.width;x++)if(data[(y*info.width+x)*4+3]>24){left=Math.min(left,x);right=Math.max(right,x);top=Math.min(top,y);bottom=Math.max(bottom,y);if(!x||!y||x===info.width-1||y===info.height-1)edgePixels++;}
+if(edgePixels)throw new Error(`Regenerate margin before export: ${edgePixels} visible edge pixels`);
+const crop={left:Math.max(0,left-8),top:Math.max(0,top-8),width:Math.min(info.width-1,right+8)-Math.max(0,left-8)+1,height:Math.min(info.height-1,bottom+8)-Math.max(0,top-8)+1};
+mkdirSync('public/assets/v29/ui',{recursive:true});mkdirSync('art-source/v29/ui',{recursive:true});
+copyFileSync(source,'art-source/v29/ui/source.png');
+const output='public/assets/v29/ui/skill-command.png';await sharp(source).extract(crop).png().toFile(output);
+const raw=await sharp(output).ensureAlpha().raw().toBuffer();
+const original=Buffer.concat(Array.from({length:crop.height},(_,row)=>data.subarray(((crop.top+row)*info.width+crop.left)*4,((crop.top+row)*info.width+crop.left+crop.width)*4)));
+if(!raw.equals(original))throw new Error('Native RGBA pixels changed');
+const sha=value=>createHash('sha256').update(value).digest('hex');
+writeFileSync('art-source/v29/ui/manifest.json',JSON.stringify({mode:'Built-in imagegen edit',source,reference:'public/assets/v28/combat/skills.png',output,size:[info.width,info.height],crop,edgePixels,rgbaUnchanged:true,sourceSha256:sha(readFileSync(source)),outputSha256:sha(readFileSync(output))},null,2));
+console.log(JSON.stringify({crop,edgePixels,rgbaUnchanged:true}));

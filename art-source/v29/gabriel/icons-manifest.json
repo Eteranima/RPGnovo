@@ -1,0 +1,196 @@
+{
+  "mode": "RGBA",
+  "size": [
+    1536,
+    1024
+  ],
+  "alphaMin": 0,
+  "alphaMax": 254,
+  "fullyTransparentPixels": 797183,
+  "visiblePixels": 745385,
+  "visibleBoundsXYXY": [
+    16,
+    13,
+    1519,
+    971
+  ],
+  "visibleEdgePixels": 0,
+  "source": "icons-source.png",
+  "runtime": "/assets/v29/gabriel/icons.png",
+  "key": "skill_icons_gabriel",
+  "sha256": "b706ccffd852fdd3ea456cd25593fea9308f6e42c088b99f180dfadb2bfc8141",
+  "columns": 3,
+  "rows": 2,
+  "walkDirectionOrder": null,
+  "combatFacing": null,
+  "alphaThresholdForVisibleBounds": 24,
+  "rowCuts": [
+    0,
+    490,
+    1024
+  ],
+  "rowEmptyCorridorsInclusive": [
+    [
+      483,
+      497
+    ]
+  ],
+  "columnEmptyCorridorsInclusive": [
+    [
+      [
+        500,
+        524
+      ],
+      [
+        1011,
+        1034
+      ]
+    ],
+    [
+      [
+        499,
+        524
+      ],
+      [
+        1011,
+        1034
+      ]
+    ]
+  ],
+  "cells": [
+    {
+      "index": 0,
+      "row": 0,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 490
+      },
+      "crop": {
+        "x": 15,
+        "y": 11,
+        "w": 487,
+        "h": 473,
+        "anchorX": 258.5,
+        "anchorY": 247.5
+      },
+      "visibleEdgePixels": 0,
+      "runtime": "/assets/v29/gabriel/icons/0.png",
+      "sha256": "c96243e019c9b6a1e90e46e71f4ce9b4fb0374127c639ba4dd4b76ab6cd70e28"
+    },
+    {
+      "index": 1,
+      "row": 0,
+      "col": 1,
+      "cell": {
+        "x": 512,
+        "y": 0,
+        "w": 511,
+        "h": 490
+      },
+      "crop": {
+        "x": 523,
+        "y": 11,
+        "w": 490,
+        "h": 474,
+        "anchorX": 768.0,
+        "anchorY": 248.0
+      },
+      "visibleEdgePixels": 0,
+      "runtime": "/assets/v29/gabriel/icons/1.png",
+      "sha256": "b870b8a983ad00b5f6d918a0dfea7ac6f88745754d3ccc9a68ac70d475ec36cd"
+    },
+    {
+      "index": 2,
+      "row": 0,
+      "col": 2,
+      "cell": {
+        "x": 1023,
+        "y": 0,
+        "w": 513,
+        "h": 490
+      },
+      "crop": {
+        "x": 1033,
+        "y": 11,
+        "w": 488,
+        "h": 474,
+        "anchorX": 1277.0,
+        "anchorY": 248.0
+      },
+      "visibleEdgePixels": 0,
+      "runtime": "/assets/v29/gabriel/icons/2.png",
+      "sha256": "9b37478f79960f41fac50fea500d17d48dc013f44d3a8b470c1813309169c263"
+    },
+    {
+      "index": 3,
+      "row": 1,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 490,
+        "w": 512,
+        "h": 534
+      },
+      "crop": {
+        "x": 14,
+        "y": 496,
+        "w": 487,
+        "h": 476,
+        "anchorX": 257.5,
+        "anchorY": 734.0
+      },
+      "visibleEdgePixels": 0,
+      "runtime": "/assets/v29/gabriel/icons/3.png",
+      "sha256": "1c78b7b08528076447a71623ed4a25eddfb75dab46a13af2053021acc3996c8d"
+    },
+    {
+      "index": 4,
+      "row": 1,
+      "col": 1,
+      "cell": {
+        "x": 512,
+        "y": 490,
+        "w": 511,
+        "h": 534
+      },
+      "crop": {
+        "x": 523,
+        "y": 496,
+        "w": 490,
+        "h": 477,
+        "anchorX": 768.0,
+        "anchorY": 734.5
+      },
+      "visibleEdgePixels": 0,
+      "runtime": "/assets/v29/gabriel/icons/4.png",
+      "sha256": "4f10ee183329049d0a6ff122dcb5bc90d137030ae35a51ed3efd2d67bc1102f3"
+    },
+    {
+      "index": 5,
+      "row": 1,
+      "col": 2,
+      "cell": {
+        "x": 1023,
+        "y": 490,
+        "w": 513,
+        "h": 534
+      },
+      "crop": {
+        "x": 1033,
+        "y": 497,
+        "w": 488,
+        "h": 475,
+        "anchorX": 1277.0,
+        "anchorY": 734.5
+      },
+      "visibleEdgePixels": 0,
+      "runtime": "/assets/v29/gabriel/icons/5.png",
+      "sha256": "46a312706a282950b7c70088c87eeb2f7627061c9eb0dacdde0250690c41a31f"
+    }
+  ],
+  "anchorMethod": "combat body axis visually measured at waist, feet from opaque bottom; walk upper-torso axis and opaque feet; FX/icons centered",
+  "pixelTransform": "none; runtime atlas copied source RGBA; icons native rectangle crops only"
+}

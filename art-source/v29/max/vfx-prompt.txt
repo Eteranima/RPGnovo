@@ -1,0 +1,10 @@
+Use case: stylized-concept. FINAL production spriteatlas of exactly SIX independent anime fantasy spell EFFECTS for max, no characters.
+Reference1 is style/element palette only, do NOT draw character/body/hand/face from it. Crisp hand-drawn2D cel-shaded magic, mature MushokuTensei/Fate anime fantasy, clean readable high detail, no3D/fxphotorealism.
+1536×1024 RGBA true alpha0 emptybackground. EXACT3columns×2rows, each512×512cell ONE isolated effect centered in cell, maximum300pxwide300pxtall, at least90pxclear alpha gutters all4sidesEVERYcell, no touching/intersection. Row-major objects0–5:
+0: a yellow/cyan electric nail-hit starburst
+1: two flying IRON NAILS with broad FLAT ROUND HEADS and pointed shafts, electric streak towardRIGHT
+2: a thin yellow/cyan electric shielding ring and inward charge motes
+3: a tiny triangle circuit of three recognizable flat-round-headed iron nails connected by arcs
+4: a compact lattice of three iron nails forming conductive nodes, yellow/cyan arcs
+5: a crisscross lattice of FIVE unmistakable long flat-round-headed iron NAILS joined by yellow/cyan branching lightning; magic object only no victims
+Each is a self-contained WHOLEcutout with some empty alpha at center where applicable, not a continuous strip, not phases. Fully transparentoutsideandgaps. No backdrop/gradient/floor/shadow/panel/frames/text/numbers/cellsseparator/checkerboardpainted. No hands/bodies/people/anatomy/blood. All marks partof specificelementeffect. Avoid fire for Marin/Max; Max yellow/cyan lightning distinct from orangefire, iron NAILHEADS visually clear (no swords/screws). High quality clean smallsize readability.

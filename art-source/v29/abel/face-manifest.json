@@ -1,0 +1,13 @@
+{
+  "portrait": "public/assets/v29/abel/portrait.png",
+  "face": "public/assets/v29/abel/face.png",
+  "faceCrop": {
+    "left": 388,
+    "top": 70,
+    "width": 286,
+    "height": 286
+  },
+  "sourceSha256": "39553502d12c6f66b761ab05047665a66425868c1d6a5fe08a5cf23dd36f84a0",
+  "faceSha256": "2d658db33f1c3df63da304aa1bd61938fa6958e9cfea42f8e57a3afad0dd77fa",
+  "allNativeRgbaPixelsPreserved": true
+}

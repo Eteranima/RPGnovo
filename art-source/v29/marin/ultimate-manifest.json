@@ -1,0 +1,232 @@
+{
+  "mode": "RGBA",
+  "size": [
+    1536,
+    1024
+  ],
+  "alphaMin": 0,
+  "alphaMax": 254,
+  "fullyTransparentPixels": 795630,
+  "visiblePixels": 640733,
+  "visibleBoundsXYXY": [
+    22,
+    14,
+    1514,
+    993
+  ],
+  "visibleEdgePixels": 0,
+  "source": "ultimate-source.png",
+  "runtime": "/assets/v29/marin/ultimate.png",
+  "key": "battle_marin_ultimate",
+  "sha256": "d62435f14ad4bb1bf54c90c775e056b260a83484442aceb05aab36bff74fc44e",
+  "columns": 4,
+  "rows": 2,
+  "walkDirectionOrder": null,
+  "combatFacing": "right",
+  "alphaThresholdForVisibleBounds": 24,
+  "rowCuts": [
+    0,
+    515,
+    1024
+  ],
+  "rowEmptyCorridorsInclusive": [
+    [
+      500,
+      529
+    ]
+  ],
+  "columnEmptyCorridorsInclusive": [
+    [
+      [
+        369,
+        425
+      ],
+      [
+        746,
+        788
+      ],
+      [
+        1126,
+        1173
+      ]
+    ],
+    [
+      [
+        370,
+        403
+      ],
+      [
+        815,
+        816
+      ],
+      [
+        1141,
+        1175
+      ]
+    ]
+  ],
+  "cells": [
+    {
+      "index": 0,
+      "row": 0,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "w": 397,
+        "h": 515
+      },
+      "crop": {
+        "x": 27,
+        "y": 29,
+        "w": 344,
+        "h": 473,
+        "anchorX": 210,
+        "anchorY": 499
+      },
+      "visibleEdgePixels": 0
+    },
+    {
+      "index": 1,
+      "row": 0,
+      "col": 1,
+      "cell": {
+        "x": 397,
+        "y": 0,
+        "w": 370,
+        "h": 515
+      },
+      "crop": {
+        "x": 424,
+        "y": 37,
+        "w": 324,
+        "h": 465,
+        "anchorX": 610,
+        "anchorY": 499
+      },
+      "visibleEdgePixels": 0
+    },
+    {
+      "index": 2,
+      "row": 0,
+      "col": 2,
+      "cell": {
+        "x": 767,
+        "y": 0,
+        "w": 383,
+        "h": 515
+      },
+      "crop": {
+        "x": 787,
+        "y": 38,
+        "w": 341,
+        "h": 464,
+        "anchorX": 990,
+        "anchorY": 499
+      },
+      "visibleEdgePixels": 0
+    },
+    {
+      "index": 3,
+      "row": 0,
+      "col": 3,
+      "cell": {
+        "x": 1150,
+        "y": 0,
+        "w": 386,
+        "h": 515
+      },
+      "crop": {
+        "x": 1172,
+        "y": 12,
+        "w": 341,
+        "h": 490,
+        "anchorX": 1360,
+        "anchorY": 499
+      },
+      "visibleEdgePixels": 0
+    },
+    {
+      "index": 4,
+      "row": 1,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 515,
+        "w": 387,
+        "h": 509
+      },
+      "crop": {
+        "x": 20,
+        "y": 528,
+        "w": 352,
+        "h": 459,
+        "anchorX": 235,
+        "anchorY": 984
+      },
+      "visibleEdgePixels": 0
+    },
+    {
+      "index": 5,
+      "row": 1,
+      "col": 1,
+      "cell": {
+        "x": 387,
+        "y": 515,
+        "w": 429,
+        "h": 509
+      },
+      "crop": {
+        "x": 402,
+        "y": 561,
+        "w": 414,
+        "h": 420,
+        "anchorX": 615,
+        "anchorY": 978
+      },
+      "visibleEdgePixels": 0
+    },
+    {
+      "index": 6,
+      "row": 1,
+      "col": 2,
+      "cell": {
+        "x": 816,
+        "y": 515,
+        "w": 342,
+        "h": 509
+      },
+      "crop": {
+        "x": 816,
+        "y": 535,
+        "w": 327,
+        "h": 457,
+        "anchorX": 985,
+        "anchorY": 989
+      },
+      "visibleEdgePixels": 0
+    },
+    {
+      "index": 7,
+      "row": 1,
+      "col": 3,
+      "cell": {
+        "x": 1158,
+        "y": 515,
+        "w": 378,
+        "h": 509
+      },
+      "crop": {
+        "x": 1174,
+        "y": 530,
+        "w": 342,
+        "h": 465,
+        "anchorX": 1360,
+        "anchorY": 992
+      },
+      "visibleEdgePixels": 0
+    }
+  ],
+  "anchorMethod": "combat body axis visually measured at waist, feet from opaque bottom; walk upper-torso axis and opaque feet; FX/icons centered",
+  "pixelTransform": "none; runtime atlas copied source RGBA; icons native rectangle crops only"
+}

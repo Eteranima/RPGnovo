@@ -1,0 +1,28 @@
+'use client';
+// Temporary review document: isolated game state, no save reads or writes.
+import Home from '../page';
+import {GameEngine,type Battle} from '@/lib/game/engine';
+import {freshProgression,deriveHeroes,TREE} from '@/lib/game/progression';
+import {PLAYABLE_HERO_IDS,combatElement,signatureTechnique,type HeroId} from '@/lib/game/data';
+
+GameEngine.prototype.hydrate=function(){
+ const q=new URLSearchParams(window.location.search),hero=PLAYABLE_HERO_IDS.find(id=>id===q.get('hero'))||'seiji';
+ const groups:Record<string,HeroId[]>={a:['seiji','ophelia','carmilla','beatriz'],b:['gabriel','marin','max','ava','orfeu'],all:['seiji','ophelia','marin','gabriel','max']};
+ const party=q.get('solo')==='1'?[hero]:groups[q.get('group')||'a']||groups.a;
+ if(!party.includes(hero))party[0]=hero;
+ const p=freshProgression();p.masterMode=true;p.recruited=[...PLAYABLE_HERO_IDS];p.party=party;p.summoned=['beatriz','orfeu','ava','carmilla','abel','seiji-awakened','ophelia-awakened','marin-awakened','gabriel-awakened','max-awakened'];p.bonded=['beatriz','orfeu','ava','carmilla'];p.learned=TREE.map(node=>node.id);p.xp=80;p.gabrielForm=q.get('form')==='lycan'?'lycan':'human';for(const id of party)p.limit[id]=100;
+ this.state.progress=p;this.state.heroes=deriveHeroes(p).map(h=>({...h,hp:Math.max(1,h.maxHp-20),mp:Math.max(0,h.maxMp-12)}));
+ this.state.map='subsolo';this.state.position={x:14,y:11};this.state.stage=2;this.state.credits=240;this.state.potions=3;this.state.ethers=2;this.state.remedies=2;
+ this.state.hasSave=false;this.save=()=>false;
+ if(q.get('mode')==='world'){this.state.mode='world';this.state.battle=null;this.emit();return;}
+ this.state.mode='battle';
+ const battle:Battle={entityId:'review-wolf',family:'lobo',name:'Lobo de Éter · revisão',boss:false,asset:'wolf',hp:2000,maxHp:2000,spd:12,damage:16,baseDamage:16,xp:20,credits:40,round:1,queue:[hero,...party.filter(id=>id!==hero),'enemy'],index:0,weakened:false,log:['Revisão visual isolada.'],busy:false,flash:0,statuses:{enemy:[]},phase:1,bossCharge:70,difficulty:1,dropChance:0,freezeUsed:false};
+ const duel=PLAYABLE_HERO_IDS.find(id=>id===q.get('duel'));
+ if(duel)Object.assign(battle,{asset:duel,eventId:`recruit-${duel}`,family:'eco',name:`Duelo de recrutamento · ${duel}`});
+ const action=q.get('action');
+ if(action){const epoch=Date.now(),age=Number(q.get('age')||2200),duration=action==='ultimate'?4800:1600;Date.now=()=>epoch;Object.assign(battle,{busy:true,animation:{actor:hero,action,element:combatElement(hero,action),target:signatureTechnique(action)?.target==='ally'?(party.find(id=>id!==hero)||hero):action==='ultimate'&&['ophelia','carmilla'].includes(hero)?'party':'enemy',started:epoch-age,duration,impactAt:Math.round(duration*(action==='ultimate'?.68:.55)),value:40}});}
+ if(duel&&battle.animation){battle.animation.actor='enemy';battle.animation.element=combatElement(duel,action==='enemy-ultimate'?'ultimate':'attack');battle.animation.target=hero;}
+ if(action==='crimson-suture'&&battle.animation){const wounded=this.state.heroes.filter(h=>h.hp>0&&h.hp<h.maxHp).sort((a,b)=>a.hp/a.maxHp-b.hp/b.maxHp)[0];if(wounded)battle.animation.healing={target:wounded.id,value:Math.min(wounded.maxHp-wounded.hp,this.healPower(hero,22))};}
+ this.state.battle=battle;this.emit();
+};
+export default Home;

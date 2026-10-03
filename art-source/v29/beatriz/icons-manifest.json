@@ -1,0 +1,273 @@
+{
+  "id": "beatriz",
+  "kind": "icons",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-f053d2d1-2124-4aa7-9925-137c95f54371.png",
+  "selected": "art-source/v29/beatriz/icons-source.png",
+  "runtime": "public/assets/v29/beatriz/icons.png",
+  "width": 1536,
+  "height": 1024,
+  "cols": 3,
+  "rows": 2,
+  "sourceSha256": "a43018e274e823d01cf490f7fe4e2d40a6efa825157fd5e54cb9e76e2d29ac94",
+  "selectedSha256": "a43018e274e823d01cf490f7fe4e2d40a6efa825157fd5e54cb9e76e2d29ac94",
+  "runtimeSha256": "a43018e274e823d01cf490f7fe4e2d40a6efa825157fd5e54cb9e76e2d29ac94",
+  "byteIdenticalSourceCopies": true,
+  "alphaThresholdForMeasurementOnly": 24,
+  "backgroundAlphaZero": 712650,
+  "rowCuts": [
+    0,
+    512,
+    1024
+  ],
+  "frames": [
+    {
+      "x": 43,
+      "y": 20,
+      "w": 443,
+      "h": 489,
+      "anchorX": 264,
+      "anchorY": 264
+    },
+    {
+      "x": 545,
+      "y": 31,
+      "w": 449,
+      "h": 448,
+      "anchorX": 769,
+      "anchorY": 254.5
+    },
+    {
+      "x": 1045,
+      "y": 35,
+      "w": 448,
+      "h": 477,
+      "anchorX": 1268.5,
+      "anchorY": 276.5
+    },
+    {
+      "x": 39,
+      "y": 512,
+      "w": 455,
+      "h": 453,
+      "anchorX": 266,
+      "anchorY": 735.5
+    },
+    {
+      "x": 545,
+      "y": 512,
+      "w": 449,
+      "h": 453,
+      "anchorX": 769,
+      "anchorY": 735
+    },
+    {
+      "x": 1035,
+      "y": 512,
+      "w": 473,
+      "h": 458,
+      "anchorX": 1271,
+      "anchorY": 737.5
+    }
+  ],
+  "measurements": [
+    {
+      "i": 0,
+      "row": 0,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "w": 515,
+        "h": 512
+      },
+      "visibleBounds": {
+        "x": 51,
+        "y": 28,
+        "w": 427,
+        "h": 473
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 123722,
+      "crop": {
+        "x": 43,
+        "y": 20,
+        "w": 443,
+        "h": 489,
+        "anchorX": 264,
+        "anchorY": 264
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v29/beatriz/icons/0.png",
+        "sha256": "316bdacbe7345564d70ff18c085eaa403c11e599ea5edea465acd850cd13a55d",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    },
+    {
+      "i": 1,
+      "row": 0,
+      "col": 1,
+      "cell": {
+        "x": 515,
+        "y": 0,
+        "w": 504,
+        "h": 512
+      },
+      "visibleBounds": {
+        "x": 553,
+        "y": 39,
+        "w": 433,
+        "h": 432
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 124091,
+      "crop": {
+        "x": 545,
+        "y": 31,
+        "w": 449,
+        "h": 448,
+        "anchorX": 769,
+        "anchorY": 254.5
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v29/beatriz/icons/1.png",
+        "sha256": "e8c9df3f22765b7a44a6ed3f0445fd738914796902b3684f17045bcd9ff76d59",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    },
+    {
+      "i": 2,
+      "row": 0,
+      "col": 2,
+      "cell": {
+        "x": 1019,
+        "y": 0,
+        "w": 517,
+        "h": 512
+      },
+      "visibleBounds": {
+        "x": 1053,
+        "y": 43,
+        "w": 432,
+        "h": 468
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 129013,
+      "crop": {
+        "x": 1045,
+        "y": 35,
+        "w": 448,
+        "h": 477,
+        "anchorX": 1268.5,
+        "anchorY": 276.5
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v29/beatriz/icons/2.png",
+        "sha256": "7594cf06f46ff75d14eab8d21181b2824cb41660003a5020fb038691af8000ca",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    },
+    {
+      "i": 3,
+      "row": 1,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 512,
+        "w": 519,
+        "h": 512
+      },
+      "visibleBounds": {
+        "x": 47,
+        "y": 515,
+        "w": 439,
+        "h": 442
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 133812,
+      "crop": {
+        "x": 39,
+        "y": 512,
+        "w": 455,
+        "h": 453,
+        "anchorX": 266,
+        "anchorY": 735.5
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v29/beatriz/icons/3.png",
+        "sha256": "275ba634a99bd114a377904707c706eb45a091af78f7022204b6bd75304eb12f",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    },
+    {
+      "i": 4,
+      "row": 1,
+      "col": 1,
+      "cell": {
+        "x": 519,
+        "y": 512,
+        "w": 495,
+        "h": 512
+      },
+      "visibleBounds": {
+        "x": 553,
+        "y": 514,
+        "w": 433,
+        "h": 443
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 127100,
+      "crop": {
+        "x": 545,
+        "y": 512,
+        "w": 449,
+        "h": 453,
+        "anchorX": 769,
+        "anchorY": 735
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v29/beatriz/icons/4.png",
+        "sha256": "14b2022d4f661d84d45432523103289ddd514f9b5b1af9cfba5907cb5d5ab777",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    },
+    {
+      "i": 5,
+      "row": 1,
+      "col": 2,
+      "cell": {
+        "x": 1014,
+        "y": 512,
+        "w": 522,
+        "h": 512
+      },
+      "visibleBounds": {
+        "x": 1043,
+        "y": 514,
+        "w": 457,
+        "h": 448
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 141526,
+      "crop": {
+        "x": 1035,
+        "y": 512,
+        "w": 473,
+        "h": 458,
+        "anchorX": 1271,
+        "anchorY": 737.5
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v29/beatriz/icons/5.png",
+        "sha256": "f3397a70c50b91e5411c7eafbea5b1d644d49cd3bc8969a261d3b721ddf28bb5",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    }
+  ]
+}

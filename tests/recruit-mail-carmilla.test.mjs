@@ -6,7 +6,7 @@ import {join} from 'node:path';
 import ts from 'typescript';
 
 const out=mkdtempSync(join(tmpdir(),'eter-recruit-mail-'));
-for(const name of ['cosmetics','data','progression','summons','carmilla','sprites','engine']){
+for(const name of ['remakeArt','remakeArtSeijiOphelia','remakeArtGabrielMarinMax','remakeArtCarmillaBeatrizAbel','cosmetics','data','progression','summons','carmilla','sprites','engine']){
  const source=readFileSync(`lib/game/${name}.ts`,'utf8').replace(/from '\.\/(\w+)'/g,"from './$1.js'");
  writeFileSync(join(out,`${name}.js`),ts.transpileModule(source,{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.ES2022}}).outputText);
 }

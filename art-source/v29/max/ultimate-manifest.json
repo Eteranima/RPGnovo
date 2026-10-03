@@ -1,0 +1,232 @@
+{
+  "mode": "RGBA",
+  "size": [
+    1536,
+    1024
+  ],
+  "alphaMin": 0,
+  "alphaMax": 254,
+  "fullyTransparentPixels": 988654,
+  "visiblePixels": 450495,
+  "visibleBoundsXYXY": [
+    47,
+    40,
+    1503,
+    957
+  ],
+  "visibleEdgePixels": 0,
+  "source": "ultimate-source.png",
+  "runtime": "/assets/v29/max/ultimate.png",
+  "key": "battle_max_ultimate",
+  "sha256": "ea955632fc08c16b78609d8eff55bec27e4540525d18790733e5a840c1fb1419",
+  "columns": 4,
+  "rows": 2,
+  "walkDirectionOrder": null,
+  "combatFacing": "right",
+  "alphaThresholdForVisibleBounds": 24,
+  "rowCuts": [
+    0,
+    507,
+    1024
+  ],
+  "rowEmptyCorridorsInclusive": [
+    [
+      459,
+      555
+    ]
+  ],
+  "columnEmptyCorridorsInclusive": [
+    [
+      [
+        325,
+        432
+      ],
+      [
+        710,
+        824
+      ],
+      [
+        1100,
+        1207
+      ]
+    ],
+    [
+      [
+        351,
+        429
+      ],
+      [
+        798,
+        834
+      ],
+      [
+        1114,
+        1213
+      ]
+    ]
+  ],
+  "cells": [
+    {
+      "index": 0,
+      "row": 0,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "w": 379,
+        "h": 507
+      },
+      "crop": {
+        "x": 50,
+        "y": 49,
+        "w": 277,
+        "h": 411,
+        "anchorX": 190,
+        "anchorY": 457
+      },
+      "visibleEdgePixels": 0
+    },
+    {
+      "index": 1,
+      "row": 0,
+      "col": 1,
+      "cell": {
+        "x": 379,
+        "y": 0,
+        "w": 388,
+        "h": 507
+      },
+      "crop": {
+        "x": 431,
+        "y": 49,
+        "w": 281,
+        "h": 412,
+        "anchorX": 560,
+        "anchorY": 458
+      },
+      "visibleEdgePixels": 0
+    },
+    {
+      "index": 2,
+      "row": 0,
+      "col": 2,
+      "cell": {
+        "x": 767,
+        "y": 0,
+        "w": 387,
+        "h": 507
+      },
+      "crop": {
+        "x": 823,
+        "y": 38,
+        "w": 279,
+        "h": 423,
+        "anchorX": 965,
+        "anchorY": 458
+      },
+      "visibleEdgePixels": 0
+    },
+    {
+      "index": 3,
+      "row": 0,
+      "col": 3,
+      "cell": {
+        "x": 1154,
+        "y": 0,
+        "w": 382,
+        "h": 507
+      },
+      "crop": {
+        "x": 1206,
+        "y": 49,
+        "w": 299,
+        "h": 411,
+        "anchorX": 1340,
+        "anchorY": 457
+      },
+      "visibleEdgePixels": 0
+    },
+    {
+      "index": 4,
+      "row": 1,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 507,
+        "w": 390,
+        "h": 517
+      },
+      "crop": {
+        "x": 45,
+        "y": 554,
+        "w": 308,
+        "h": 405,
+        "anchorX": 190,
+        "anchorY": 956
+      },
+      "visibleEdgePixels": 0
+    },
+    {
+      "index": 5,
+      "row": 1,
+      "col": 1,
+      "cell": {
+        "x": 390,
+        "y": 507,
+        "w": 426,
+        "h": 517
+      },
+      "crop": {
+        "x": 428,
+        "y": 559,
+        "w": 372,
+        "h": 395,
+        "anchorX": 570,
+        "anchorY": 951
+      },
+      "visibleEdgePixels": 0
+    },
+    {
+      "index": 6,
+      "row": 1,
+      "col": 2,
+      "cell": {
+        "x": 816,
+        "y": 507,
+        "w": 348,
+        "h": 517
+      },
+      "crop": {
+        "x": 833,
+        "y": 558,
+        "w": 283,
+        "h": 399,
+        "anchorX": 980,
+        "anchorY": 954
+      },
+      "visibleEdgePixels": 0
+    },
+    {
+      "index": 7,
+      "row": 1,
+      "col": 3,
+      "cell": {
+        "x": 1164,
+        "y": 507,
+        "w": 372,
+        "h": 517
+      },
+      "crop": {
+        "x": 1212,
+        "y": 559,
+        "w": 282,
+        "h": 398,
+        "anchorX": 1350,
+        "anchorY": 954
+      },
+      "visibleEdgePixels": 0
+    }
+  ],
+  "anchorMethod": "combat body axis visually measured at waist, feet from opaque bottom; walk upper-torso axis and opaque feet; FX/icons centered",
+  "pixelTransform": "none; runtime atlas copied source RGBA; icons native rectangle crops only"
+}

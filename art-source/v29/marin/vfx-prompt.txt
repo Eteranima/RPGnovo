@@ -1,0 +1,10 @@
+Use case: stylized-concept. FINAL production spriteatlas of exactly SIX independent anime fantasy spell EFFECTS for marin, no characters.
+Reference1 is style/element palette only, do NOT draw character/body/hand/face from it. Crisp hand-drawn2D cel-shaded magic, mature MushokuTensei/Fate anime fantasy, clean readable high detail, no3D/fxphotorealism.
+1536×1024 RGBA true alpha0 emptybackground. EXACT3columns×2rows, each512×512cell ONE isolated effect centered in cell, maximum300pxwide300pxtall, at least90pxclear alpha gutters all4sidesEVERYcell, no touching/intersection. Row-major objects0–5:
+0: a violet-black dagger-cut impact burst
+1: a clean sweeping violet-black crescent slash with small shadow wisps
+2: a thin violet-black protective ring with inward siphon motes
+3: a compact shadow seal for silence: dark violet ring and crossed dim chains, NO symbols/text
+4: a stylized violet-black RAVEN shadow silhouette dissolving into wisps, pure magic not new companion
+5: a broken circular shadow-clock ring with TWO crossed curved violet dagger silhouettes, NO numerals or text
+Each is a self-contained WHOLEcutout with some empty alpha at center where applicable, not a continuous strip, not phases. Fully transparentoutsideandgaps. No backdrop/gradient/floor/shadow/panel/frames/text/numbers/cellsseparator/checkerboardpainted. No hands/bodies/people/anatomy/blood. All marks partof specificelementeffect. Avoid fire for Marin/Max; Max yellow/cyan lightning distinct from orangefire, iron NAILHEADS visually clear (no swords/screws). High quality clean smallsize readability.

@@ -1,0 +1,196 @@
+{
+  "mode": "RGBA",
+  "size": [
+    1536,
+    1024
+  ],
+  "alphaMin": 0,
+  "alphaMax": 254,
+  "fullyTransparentPixels": 851246,
+  "visiblePixels": 698168,
+  "visibleBoundsXYXY": [
+    40,
+    12,
+    1495,
+    967
+  ],
+  "visibleEdgePixels": 0,
+  "source": "icons-source.png",
+  "runtime": "/assets/v29/marin/icons.png",
+  "key": "skill_icons_marin",
+  "sha256": "6d0a352612e9dad7948df445f645a0fe13778f94c10991619773b2bdbb3827b1",
+  "columns": 3,
+  "rows": 2,
+  "walkDirectionOrder": null,
+  "combatFacing": null,
+  "alphaThresholdForVisibleBounds": 24,
+  "rowCuts": [
+    0,
+    490,
+    1024
+  ],
+  "rowEmptyCorridorsInclusive": [
+    [
+      474,
+      505
+    ]
+  ],
+  "columnEmptyCorridorsInclusive": [
+    [
+      [
+        498,
+        537
+      ],
+      [
+        997,
+        1035
+      ]
+    ],
+    [
+      [
+        498,
+        537
+      ],
+      [
+        997,
+        1035
+      ]
+    ]
+  ],
+  "cells": [
+    {
+      "index": 0,
+      "row": 0,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "w": 518,
+        "h": 490
+      },
+      "crop": {
+        "x": 38,
+        "y": 11,
+        "w": 462,
+        "h": 464,
+        "anchorX": 269.0,
+        "anchorY": 243.0
+      },
+      "visibleEdgePixels": 0,
+      "runtime": "/assets/v29/marin/icons/0.png",
+      "sha256": "377abd8c8aea9db91db556dfee82c1ff304436a68b65665bf3d700434abdb006"
+    },
+    {
+      "index": 1,
+      "row": 0,
+      "col": 1,
+      "cell": {
+        "x": 518,
+        "y": 0,
+        "w": 498,
+        "h": 490
+      },
+      "crop": {
+        "x": 536,
+        "y": 10,
+        "w": 463,
+        "h": 465,
+        "anchorX": 767.5,
+        "anchorY": 242.5
+      },
+      "visibleEdgePixels": 0,
+      "runtime": "/assets/v29/marin/icons/1.png",
+      "sha256": "09fbccd981214cb7d0f2d4a78936c018461f372830b61b4af206897eac28d2fb"
+    },
+    {
+      "index": 2,
+      "row": 0,
+      "col": 2,
+      "cell": {
+        "x": 1016,
+        "y": 0,
+        "w": 520,
+        "h": 490
+      },
+      "crop": {
+        "x": 1034,
+        "y": 11,
+        "w": 463,
+        "h": 465,
+        "anchorX": 1265.5,
+        "anchorY": 243.5
+      },
+      "visibleEdgePixels": 0,
+      "runtime": "/assets/v29/marin/icons/2.png",
+      "sha256": "0e5b2e67219367ae0e04836879e98fa6b4deff424e01be56a032dcd46230aff6"
+    },
+    {
+      "index": 3,
+      "row": 1,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 490,
+        "w": 518,
+        "h": 534
+      },
+      "crop": {
+        "x": 38,
+        "y": 504,
+        "w": 462,
+        "h": 465,
+        "anchorX": 269.0,
+        "anchorY": 736.5
+      },
+      "visibleEdgePixels": 0,
+      "runtime": "/assets/v29/marin/icons/3.png",
+      "sha256": "d243b460169beb350e02ba5530fcf720af5edcec3c32a432ff10daa2de613744"
+    },
+    {
+      "index": 4,
+      "row": 1,
+      "col": 1,
+      "cell": {
+        "x": 518,
+        "y": 490,
+        "w": 498,
+        "h": 534
+      },
+      "crop": {
+        "x": 536,
+        "y": 504,
+        "w": 463,
+        "h": 465,
+        "anchorX": 767.5,
+        "anchorY": 736.5
+      },
+      "visibleEdgePixels": 0,
+      "runtime": "/assets/v29/marin/icons/4.png",
+      "sha256": "006bddb9bfa081706cb49f3b7f3e339521c8d467acec40fd5224c44919aebfd6"
+    },
+    {
+      "index": 5,
+      "row": 1,
+      "col": 2,
+      "cell": {
+        "x": 1016,
+        "y": 490,
+        "w": 520,
+        "h": 534
+      },
+      "crop": {
+        "x": 1034,
+        "y": 504,
+        "w": 463,
+        "h": 465,
+        "anchorX": 1265.5,
+        "anchorY": 736.5
+      },
+      "visibleEdgePixels": 0,
+      "runtime": "/assets/v29/marin/icons/5.png",
+      "sha256": "7a35877885fbf4212509c8e88eab34ca0b659dbb8aa399cc007d36ef611c3f0b"
+    }
+  ],
+  "anchorMethod": "combat body axis visually measured at waist, feet from opaque bottom; walk upper-torso axis and opaque feet; FX/icons centered",
+  "pixelTransform": "none; runtime atlas copied source RGBA; icons native rectangle crops only"
+}

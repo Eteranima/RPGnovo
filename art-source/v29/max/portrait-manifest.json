@@ -1,0 +1,84 @@
+{
+  "mode": "RGBA",
+  "size": [
+    1024,
+    1536
+  ],
+  "alphaMin": 0,
+  "alphaMax": 254,
+  "fullyTransparentPixels": 827743,
+  "visiblePixels": 661399,
+  "visibleBoundsXYXY": [
+    25,
+    12,
+    1003,
+    1518
+  ],
+  "visibleEdgePixels": 0,
+  "source": "portrait-source.png",
+  "runtime": "/assets/v29/max/portrait.png",
+  "sha256": "bbc89341708d8ba618f50b9065bd21d7c0367a6448e9e36cb62b84fe6393c56c",
+  "faceCrop": {
+    "x": 420,
+    "y": 0,
+    "w": 270,
+    "h": 270
+  },
+  "faceRuntime": "/assets/v29/max/face.png",
+  "faceSha256": "6becba28e3b9ab36f81b31f2a3555cec330f6dcb49a57c35f398c906dde6aa97",
+  "outsideSilhouetteAlphaSamples": [
+    {
+      "x": 60,
+      "y": 300,
+      "alpha": 0
+    },
+    {
+      "x": 950,
+      "y": 300,
+      "alpha": 0
+    },
+    {
+      "x": 60,
+      "y": 700,
+      "alpha": 0
+    },
+    {
+      "x": 950,
+      "y": 700,
+      "alpha": 0
+    },
+    {
+      "x": 60,
+      "y": 1400,
+      "alpha": 0
+    },
+    {
+      "x": 950,
+      "y": 1400,
+      "alpha": 0
+    }
+  ],
+  "faceAlphaSamples": [
+    {
+      "x": 0,
+      "y": 0,
+      "alpha": 0
+    },
+    {
+      "x": 269,
+      "y": 0,
+      "alpha": 0
+    },
+    {
+      "x": 0,
+      "y": 269,
+      "alpha": 253
+    },
+    {
+      "x": 269,
+      "y": 269,
+      "alpha": 252
+    }
+  ],
+  "pixelTransform": "none; portrait copied native RGBA; face rectangle crop only"
+}

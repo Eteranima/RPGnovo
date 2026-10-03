@@ -1,0 +1,12 @@
+Use case: stylized-concept.
+Asset type: FINAL six exclusive battle VFX sprites atlas for carmilla, original fantasy JRPG Éter Anima. EXACT3columns×2rows,1536×1024landscape. Reference image supplies palette/material/style identity ONLY. There are ZERO characters/people/faces/hands in this image.
+Style: high quality adult anime fantasy Fate/Mushoku Tensei, clean fine contour, refined painted cel shadows, crisp readable silhouette, controlled luminous highlights. NOT 3D/photoreal or western cartoon. Palette: deep carmine/red blood magic, ruby highlights, dark silver needles and restrained champagne gold; NO flame orange, NO green nature, NO ice.
+Read row-major six separate objects:
+0: focused ruby blood stitch impact
+1: two dark metal needles with a carmine thread projectile
+2: scarlet cross-stitch healing/protection seal, no religious cross
+3: bound knot of carmine threads and delicate suspended red drops
+4: In Aeternum Vive: anatomically symbolic ruby heart held together with fine gold/carmine sutures
+5: Catedral de Fios Rubros: luminous cathedral arches woven entirely from carmine threads and ruby droplets
+Composition: exactly one motif per512×512cell. Center each silhouette in its cell, max370×370px,70px actual empty alpha gutters all sides, no part of object/light/particle crosses into another cell. Effects are free-standing magical art without solid badges, floor, dark or colored plates; no button silhouettes or icon frames. Different complete bounded motifs, not a giant composition. Semi-transparent aura immediately around motif only, not cloudy background.
+Background MUST be real alpha0 with fully transparent gutters/corners and spaces between individual effects. No backdrop, floor, cast shadow, grid, letters, names, pseudo-text/runes, numbers, UI, labels or watermark. No particles in the gutters. Quality final carefully finished, no placeholders.

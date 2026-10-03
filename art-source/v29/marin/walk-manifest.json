@@ -1,0 +1,339 @@
+{
+  "mode": "RGBA",
+  "size": [
+    1086,
+    1448
+  ],
+  "alphaMin": 0,
+  "alphaMax": 255,
+  "fullyTransparentPixels": 1024260,
+  "visiblePixels": 466394,
+  "visibleBoundsXYXY": [
+    62,
+    9,
+    1018,
+    1418
+  ],
+  "visibleEdgePixels": 0,
+  "source": "walk-source.png",
+  "runtime": "/assets/v29/marin/walk.png",
+  "key": "marin",
+  "sha256": "c5670d0c88603ee89f0eb8481e61e71d1e5d74db3c47a0ba026e0e8b75096134",
+  "columns": 3,
+  "rows": 4,
+  "walkDirectionOrder": [
+    "S",
+    "W",
+    "E",
+    "N"
+  ],
+  "combatFacing": null,
+  "alphaThresholdForVisibleBounds": 24,
+  "rowCuts": [
+    0,
+    362,
+    711,
+    1057,
+    1448
+  ],
+  "rowEmptyCorridorsInclusive": [
+    [
+      359,
+      364
+    ],
+    [
+      704,
+      718
+    ],
+    [
+      1052,
+      1061
+    ]
+  ],
+  "columnEmptyCorridorsInclusive": [
+    [
+      [
+        330,
+        434
+      ],
+      [
+        655,
+        757
+      ]
+    ],
+    [
+      [
+        362,
+        443
+      ],
+      [
+        678,
+        731
+      ]
+    ],
+    [
+      [
+        340,
+        410
+      ],
+      [
+        650,
+        726
+      ]
+    ],
+    [
+      [
+        339,
+        416
+      ],
+      [
+        667,
+        763
+      ]
+    ]
+  ],
+  "cells": [
+    {
+      "index": 0,
+      "row": 0,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "w": 382,
+        "h": 362
+      },
+      "crop": {
+        "x": 96,
+        "y": 7,
+        "w": 236,
+        "h": 354,
+        "anchorX": 207.0,
+        "anchorY": 358
+      },
+      "visibleEdgePixels": 0
+    },
+    {
+      "index": 1,
+      "row": 0,
+      "col": 1,
+      "cell": {
+        "x": 382,
+        "y": 0,
+        "w": 324,
+        "h": 362
+      },
+      "crop": {
+        "x": 433,
+        "y": 8,
+        "w": 224,
+        "h": 352,
+        "anchorX": 545.5,
+        "anchorY": 357
+      },
+      "visibleEdgePixels": 0
+    },
+    {
+      "index": 2,
+      "row": 0,
+      "col": 2,
+      "cell": {
+        "x": 706,
+        "y": 0,
+        "w": 380,
+        "h": 362
+      },
+      "crop": {
+        "x": 756,
+        "y": 8,
+        "w": 227,
+        "h": 353,
+        "anchorX": 864.5,
+        "anchorY": 358
+      },
+      "visibleEdgePixels": 0
+    },
+    {
+      "index": 3,
+      "row": 1,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 362,
+        "w": 403,
+        "h": 349
+      },
+      "crop": {
+        "x": 68,
+        "y": 365,
+        "w": 296,
+        "h": 339,
+        "anchorX": 207.5,
+        "anchorY": 701
+      },
+      "visibleEdgePixels": 0
+    },
+    {
+      "index": 4,
+      "row": 1,
+      "col": 1,
+      "cell": {
+        "x": 403,
+        "y": 362,
+        "w": 302,
+        "h": 349
+      },
+      "crop": {
+        "x": 442,
+        "y": 363,
+        "w": 238,
+        "h": 340,
+        "anchorX": 539.0,
+        "anchorY": 700
+      },
+      "visibleEdgePixels": 0
+    },
+    {
+      "index": 5,
+      "row": 1,
+      "col": 2,
+      "cell": {
+        "x": 705,
+        "y": 362,
+        "w": 381,
+        "h": 349
+      },
+      "crop": {
+        "x": 730,
+        "y": 365,
+        "w": 290,
+        "h": 341,
+        "anchorX": 873.0,
+        "anchorY": 703
+      },
+      "visibleEdgePixels": 0
+    },
+    {
+      "index": 6,
+      "row": 2,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 711,
+        "w": 375,
+        "h": 346
+      },
+      "crop": {
+        "x": 60,
+        "y": 717,
+        "w": 282,
+        "h": 335,
+        "anchorX": 212.5,
+        "anchorY": 1049
+      },
+      "visibleEdgePixels": 0
+    },
+    {
+      "index": 7,
+      "row": 2,
+      "col": 1,
+      "cell": {
+        "x": 375,
+        "y": 711,
+        "w": 313,
+        "h": 346
+      },
+      "crop": {
+        "x": 409,
+        "y": 717,
+        "w": 243,
+        "h": 337,
+        "anchorX": 546.0,
+        "anchorY": 1051
+      },
+      "visibleEdgePixels": 0
+    },
+    {
+      "index": 8,
+      "row": 2,
+      "col": 2,
+      "cell": {
+        "x": 688,
+        "y": 711,
+        "w": 398,
+        "h": 346
+      },
+      "crop": {
+        "x": 725,
+        "y": 717,
+        "w": 293,
+        "h": 337,
+        "anchorX": 880.5,
+        "anchorY": 1051
+      },
+      "visibleEdgePixels": 0
+    },
+    {
+      "index": 9,
+      "row": 3,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 1057,
+        "w": 378,
+        "h": 391
+      },
+      "crop": {
+        "x": 82,
+        "y": 1060,
+        "w": 259,
+        "h": 359,
+        "anchorX": 206.0,
+        "anchorY": 1416
+      },
+      "visibleEdgePixels": 0
+    },
+    {
+      "index": 10,
+      "row": 3,
+      "col": 1,
+      "cell": {
+        "x": 378,
+        "y": 1057,
+        "w": 337,
+        "h": 391
+      },
+      "crop": {
+        "x": 415,
+        "y": 1060,
+        "w": 254,
+        "h": 360,
+        "anchorX": 547.0,
+        "anchorY": 1417
+      },
+      "visibleEdgePixels": 0
+    },
+    {
+      "index": 11,
+      "row": 3,
+      "col": 2,
+      "cell": {
+        "x": 715,
+        "y": 1057,
+        "w": 371,
+        "h": 391
+      },
+      "crop": {
+        "x": 762,
+        "y": 1061,
+        "w": 253,
+        "h": 357,
+        "anchorX": 883.0,
+        "anchorY": 1415
+      },
+      "visibleEdgePixels": 0
+    }
+  ],
+  "anchorMethod": "combat body axis visually measured at waist, feet from opaque bottom; walk upper-torso axis and opaque feet; FX/icons centered",
+  "pixelTransform": "none; runtime atlas copied source RGBA; icons native rectangle crops only"
+}

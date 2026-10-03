@@ -1,0 +1,28 @@
+{
+  "id": "beatriz",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-9db1051b-8de7-4b7b-a7f4-f8d0510d4ea6.png",
+  "selected": "art-source/v29/beatriz/portrait-source.png",
+  "runtime": "public/assets/v29/beatriz/portrait.png",
+  "identityReference": "public/assets/v22/beatriz-5star.webp",
+  "styleReference": "public/assets/v26/ava/ava-anime-portrait.png",
+  "width": 1024,
+  "height": 1536,
+  "sourceSha256": "9a5510af15073a064f0261f5a64d7d948896473947c2588319256955f204c1a3",
+  "selectedSha256": "9a5510af15073a064f0261f5a64d7d948896473947c2588319256955f204c1a3",
+  "runtimeSha256": "9a5510af15073a064f0261f5a64d7d948896473947c2588319256955f204c1a3",
+  "sourceCopiesByteIdentical": true,
+  "freeAlphaZero": 610344,
+  "visibleOuterEdge": 0,
+  "face": {
+    "path": "public/assets/v29/beatriz/face.png",
+    "crop": {
+      "x": 439,
+      "y": 135,
+      "w": 260,
+      "h": 260
+    },
+    "sha256": "fd0e0f1211d8edf1222754a9854881372bba5e4582bda66e74c7c945236a2af0",
+    "allNativeRgbaPixelsPreserved": true
+  }
+}

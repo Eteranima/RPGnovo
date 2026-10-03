@@ -1,0 +1,84 @@
+{
+  "mode": "RGBA",
+  "size": [
+    1024,
+    1536
+  ],
+  "alphaMin": 0,
+  "alphaMax": 254,
+  "fullyTransparentPixels": 612428,
+  "visiblePixels": 882957,
+  "visibleBoundsXYXY": [
+    9,
+    4,
+    1021,
+    1530
+  ],
+  "visibleEdgePixels": 0,
+  "source": "portrait-source.png",
+  "runtime": "/assets/v29/gabriel_lycan/portrait.png",
+  "sha256": "e150c3b6252dd6b53ad46d8e6f6839d09267d1944cbdfc4c8cd1ae5dfef580c0",
+  "faceCrop": {
+    "x": 310,
+    "y": 0,
+    "w": 330,
+    "h": 330
+  },
+  "faceRuntime": "/assets/v29/gabriel_lycan/face.png",
+  "faceSha256": "b025264638323ce56422766156c7c08ea3b9381d8d7885ae487aca2772268233",
+  "outsideSilhouetteAlphaSamples": [
+    {
+      "x": 60,
+      "y": 300,
+      "alpha": 0
+    },
+    {
+      "x": 950,
+      "y": 300,
+      "alpha": 0
+    },
+    {
+      "x": 60,
+      "y": 700,
+      "alpha": 0
+    },
+    {
+      "x": 950,
+      "y": 700,
+      "alpha": 0
+    },
+    {
+      "x": 60,
+      "y": 1400,
+      "alpha": 0
+    },
+    {
+      "x": 950,
+      "y": 1400,
+      "alpha": 0
+    }
+  ],
+  "faceAlphaSamples": [
+    {
+      "x": 0,
+      "y": 0,
+      "alpha": 0
+    },
+    {
+      "x": 329,
+      "y": 0,
+      "alpha": 0
+    },
+    {
+      "x": 0,
+      "y": 329,
+      "alpha": 252
+    },
+    {
+      "x": 329,
+      "y": 329,
+      "alpha": 253
+    }
+  ],
+  "pixelTransform": "none; portrait copied native RGBA; face rectangle crop only"
+}

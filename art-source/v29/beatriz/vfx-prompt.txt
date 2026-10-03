@@ -1,0 +1,12 @@
+Use case: stylized-concept.
+Asset type: FINAL six exclusive battle VFX sprites atlas for beatriz, original fantasy JRPG Éter Anima. EXACT3columns×2rows,1536×1024landscape. Reference image supplies palette/material/style identity ONLY. There are ZERO characters/people/faces/hands in this image.
+Style: high quality adult anime fantasy Fate/Mushoku Tensei, clean fine contour, refined painted cel shadows, crisp readable silhouette, controlled luminous highlights. NOT 3D/photoreal or western cartoon. Palette: blue/azure WATER and violet/near-black DARKNESS are distinct balanced currents, gold/white sword accents; NO orange/red fire, NO ice crystals.
+Read row-major six separate objects:
+0: bright BLUE WATER sword impact splash, liquid not crystals
+1: blue flowing WATER crescent cut
+2: blue WATER protective circular veil with a delicate dark-violet rim
+3: DARKNESS violet/near-black binding crescent, no blue water in this cell
+4: Contramaré Abissal: blue water wave intertwined with equal near-black/violet darkness wave
+5: Tribunal das Duas Marés: balanced twin wave tribunal crest, left blue water and right violet/black darkness
+Composition: exactly one motif per512×512cell. Center each silhouette in its cell, max370×370px,70px actual empty alpha gutters all sides, no part of object/light/particle crosses into another cell. Effects are free-standing magical art without solid badges, floor, dark or colored plates; no button silhouettes or icon frames. Different complete bounded motifs, not a giant composition. Semi-transparent aura immediately around motif only, not cloudy background.
+Background MUST be real alpha0 with fully transparent gutters/corners and spaces between individual effects. No backdrop, floor, cast shadow, grid, letters, names, pseudo-text/runes, numbers, UI, labels or watermark. No particles in the gutters. Quality final carefully finished, no placeholders.

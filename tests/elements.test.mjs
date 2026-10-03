@@ -7,7 +7,7 @@ import ts from 'typescript';
 import {inflateSync} from 'node:zlib';
 
 const out=mkdtempSync(join(tmpdir(),'eter-elements-'));
-for(const name of ['cosmetics','data','progression','summons','carmilla','engine']){
+for(const name of ['remakeArt','remakeArtSeijiOphelia','remakeArtGabrielMarinMax','remakeArtCarmillaBeatrizAbel','cosmetics','data','progression','summons','carmilla','engine']){
  const source=readFileSync(`lib/game/${name}.ts`,'utf8').replace(/from '\.\/(\w+)'/g,"from './$1.js'");
  writeFileSync(join(out,`${name}.js`),ts.transpileModule(source,{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.ES2022}}).outputText);
 }
@@ -34,7 +34,7 @@ const freshHero=id=>{
 for(const id of PLAYABLE_HERO_IDS){
  const primary=HERO_COMBAT_ELEMENTS[id];
  for(const action of ['attack','ultimate',...SKILLS[id].map(skill=>skill.id),...EXTRA_SKILLS[id].map(skill=>skill.id)]){
-  const expected=id==='beatriz'?action==='umbra-seal'?'dark':action==='ultimate'?'water-dark':'water':primary;
+  const expected=id==='beatriz'?action==='umbra-seal'?'dark':['ultimate','abyss-countertide'].includes(action)?'water-dark':'water':primary;
   assert.equal(combatElement(id,action),expected,`${id}:${action} keeps elemental identity`);
   if(action==='in-aeternum-vive')continue; // Its automatic ally selection is covered by the dedicated Carmilla suite.
   const game=freshHero(id);if(action==='ultimate')game.state.progress.limit[id]=100;

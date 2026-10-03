@@ -4,20 +4,22 @@ import {StatusBadges} from './game-menu';
 import {HeroPortrait} from './hero-card';
 import {cosmeticRank} from '@/lib/game/cosmetics';
 import {GameEngine,type Snapshot} from '@/lib/game/engine';
-import {combatElement,ELEMENT_LABELS,type HeroId} from '@/lib/game/data';
+import {ASSETS,combatElement,ELEMENT_LABELS,signatureTechnique,ULTIMATE_DESCRIPTIONS,type HeroId} from '@/lib/game/data';
+import {skillMotifIndex} from '@/lib/game/characterAnimation';
 import {planInAeternumVive} from '@/lib/game/carmilla';
 import styles from './battle-interface.module.css';
 
 type CommandArtKind='actions'|'skills'|'items'|'flee'|'attack'|'guard';
-function CommandArt({kind}:{kind:CommandArtKind}){
- return <img className={styles.commandArt} src={'/assets/v28/combat/'+kind+'.png'} alt="" aria-hidden="true" draggable={false}/>;
+function CommandArt({kind,hero,action}:{kind:CommandArtKind;hero?:HeroId;action?:string}){
+ const icon=hero&&action?ASSETS[`skill_icon_${hero}_${skillMotifIndex(action)}`]:undefined;
+ return <><img className={styles.commandArt} src={icon?'/assets/v29/ui/skill-command.png':'/assets/v28/combat/'+kind+'.png'} alt="" aria-hidden="true" draggable={false}/>{icon&&<img className={styles.personalSkillArt} src={icon} alt="" aria-hidden="true" draggable={false}/>}</>;
 }
 
 export function BattleCommands({engine,s,target,setTarget}:{engine:GameEngine;s:Snapshot;target:HeroId;setTarget:(id:HeroId)=>void}){
  const b=s.battle!,hero=engine.currentHero(),h=hero||s.heroes.find(h=>h.id===b.animation?.actor)||s.heroes.find(h=>h.id===b.queue[Math.max(0,b.index-1)])||s.heroes[0],silenced=engine.hasStatus(h.id,'silence'),ally=s.heroes.find(h=>h.id===target)||h;
  const turnText=b.busy?b.animation?.action==='frozen'?'Imobilizado pelo gelo…':b.animation?.action==='bound'?'Imobilizado pela terra…':b.animation?.actor==='enemy'?'O inimigo está agindo…':(s.heroes.find(h=>h.id===b.animation?.actor)?.name||'Herói')+' está agindo…':'Turno de '+(hero?.name||'…');
  const warning=b.boss&&b.bossCharge>=66?'Ruptura do Éter em '+b.bossCharge+'%. Prepare a guarda.':b.boss&&b.round%2===0?(b.family==='cinder'?'Pulso da Pira':'Colapso do Véu')+' nesta rodada. Guarde-se.':silenced?'Silêncio: use ataque, guarda ou Antídoto.':'Escolha uma ação.';
- const ultimate=<button className={styles.commandButton+' '+styles.ultimateButton} disabled={!hero||s.progress.limit[h.id]<100} onClick={()=>engine.action('ultimate')} title={engine.ultimateName(h.id)+' · '+s.progress.limit[h.id]+' / 100 · sem custo de MP'}><CommandArt kind="skills"/><span>{engine.ultimateName(h.id)}<small>Ultimate · {s.progress.limit[h.id]} / 100</small></span><span className={styles.limitTrack} role="progressbar" aria-label={'Carga de ultimate de '+h.name} aria-valuemin={0} aria-valuemax={100} aria-valuenow={s.progress.limit[h.id]}><i style={{width:s.progress.limit[h.id]+'%'}}/></span></button>;
+ const ultimate=<button className={styles.commandButton+' '+styles.ultimateButton} disabled={!hero||s.progress.limit[h.id]<100} onClick={()=>engine.action('ultimate')} title={engine.ultimateName(h.id)+' · '+s.progress.limit[h.id]+' / 100 · sem custo de MP · '+ULTIMATE_DESCRIPTIONS[h.id]}><CommandArt kind="skills" hero={h.id} action="ultimate"/><span>{engine.ultimateName(h.id)}<small>Ultimate · {s.progress.limit[h.id]} / 100</small></span><span className={styles.limitTrack} role="progressbar" aria-label={'Carga de ultimate de '+h.name} aria-valuemin={0} aria-valuemax={100} aria-valuenow={s.progress.limit[h.id]}><i style={{width:s.progress.limit[h.id]+'%'}}/></span></button>;
  return <div className={styles.commandRoot}>
   <div className={styles.commandTitle} title={warning}><strong>{turnText}</strong><span className={styles.activeVitals}>{h.hp}/{h.maxHp} HP · {h.mp}/{h.maxMp} MP</span><StatusBadges states={b.statuses[h.id]}/><small className={styles.commandWarning}>{warning}</small></div>
   <Tabs defaultValue="actions" className={styles.commandTabs}>
@@ -32,7 +34,7 @@ export function BattleCommands({engine,s,target,setTarget}:{engine:GameEngine;s:
     {ultimate}
    </div></TabsContent>
    <TabsContent className={styles.commandPanel} value="skills"><div className={styles.commandList}>
-    {engine.skills(h.id).map(sk=><button className={styles.commandButton+' '+styles.skillButton} key={sk.id} disabled={!hero||silenced||h.mp<engine.skillCost(h.id,sk.cost)||sk.id==='in-aeternum-vive'&&!planInAeternumVive(s.heroes).targets.length} title={sk.name+' · '+(sk.id==='in-aeternum-vive'?'15% do HP curado · alvos automáticos':engine.skillCost(h.id,sk.cost)+' MP')+' · '+sk.description} onClick={()=>engine.action(sk.id,target)}><CommandArt kind="skills"/><span>{sk.name}<small>{sk.id==='in-aeternum-vive'?'15% HP · automático':engine.skillCost(h.id,sk.cost)+' MP'}</small></span></button>)}
+    {engine.skills(h.id).map(sk=><button className={styles.commandButton+' '+styles.skillButton} key={sk.id} disabled={!hero||silenced||!s.progress.masterMode&&h.mp<engine.skillCost(h.id,sk.cost)||signatureTechnique(sk.id)?.target==='ally'&&ally.hp<=0||sk.id==='in-aeternum-vive'&&!planInAeternumVive(s.heroes).targets.length} title={sk.name+' · '+(sk.id==='in-aeternum-vive'?'15% do HP curado · alvos automáticos':engine.skillCost(h.id,sk.cost)+' MP')+' · '+sk.description} onClick={()=>engine.action(sk.id,target)}><CommandArt kind="skills" hero={h.id} action={sk.id}/><span>{sk.name}<small>{sk.id==='in-aeternum-vive'?'15% HP · automático':engine.skillCost(h.id,sk.cost)+' MP'}</small></span></button>)}
     {ultimate}
    </div></TabsContent>
    <TabsContent className={styles.commandPanel} value="items"><div className={styles.commandList}>

@@ -1,4 +1,4 @@
-import { ORIGINS, newHeroes, heroBases, HERO_IDS, type BaseHeroId, type HeroId, type Hero, type Point, type MapId } from './data';
+import { ORIGINS, newHeroes, heroBases, HERO_IDS, SIGNATURE_TECHNIQUES, type BaseHeroId, type HeroId, type Hero, type Point, type MapId } from './data';
 import {cosmeticRank} from './cosmetics';
 
 export const SLOTS = ['weapon','head','body','hands','feet','charm'] as const;
@@ -65,7 +65,7 @@ TREE.push(
  {id:'gabriel-field',hero:'gabriel',name:'Brasa Renovada',cost:1,requires:'gabriel-vital',icon:3,description:'Cura 28 HP e remove estados de um aliado. Também na exploração. 10 MP.'},
  {id:'max-power',hero:'max',name:'Fio de Relâmpago',cost:1,icon:15,description:'Corte de Vajra causa +8 de dano elétrico.'},
  {id:'max-control',hero:'max',name:'Arco Voltaico',cost:1,requires:'max-power',icon:15,description:'Libera Arco Voltaico: 28 dano elétrico e cegueira por 2 ações. 10 MP.'},
- {id:'max-master',hero:'max',name:'Voz da Tempestade',cost:2,requires:'max-control',icon:15,description:'+12 de dano à ultimate Trono da Tempestade.'},
+ {id:'max-master',hero:'max',name:'Voz da Tempestade',cost:2,requires:'max-control',icon:15,description:'+12 de dano à ultimate Crucificação do Trovão.'},
  {id:'max-vital',hero:'max',name:'Costuras Resistentes',cost:1,icon:10,description:'+15 HP máximos.'},
  {id:'orfeu-vital',hero:'orfeu',name:'Corpo Forjado',cost:1,icon:10,description:'+15 HP máximos.'},
  {id:'orfeu-master',hero:'orfeu',name:'Domínio Nulo',cost:2,requires:'orfeu-vital',icon:15,description:'+12 de dano à ultimate.'},
@@ -82,6 +82,10 @@ export const EXTRA_SKILLS:Record<HeroId,{id:string;node:string;name:string;cost:
  {id:'bleed',node:'seiji-bleed',name:'Rasura',cost:12,description:'30 dano • sangramento 3 ações',icon:1}],ophelia:[
  {id:'freeze',node:'ophelia-freeze',name:'Prisão Glacial',cost:11,description:'24 dano • congela 1 ação, uma vez',icon:7},
  {id:'cleanse',node:'ophelia-cleanse',name:'Aurora',cost:12,description:'25 HP • remove todos os estados',icon:3}],max:[{id:'arc',node:'max-control',name:'Arco Voltaico',cost:10,description:'28 dano elétrico • cegueira 2 ações',icon:15}],beatriz:[],orfeu:[],ava:[],carmilla:[]};
+for(const [hero,techniques] of Object.entries(SIGNATURE_TECHNIQUES))for(const technique of techniques){
+ TREE.push({id:technique.node,hero:hero as HeroId,name:technique.name,cost:2,requires:technique.requires,icon:15,description:`${technique.description} ${technique.cost} MP.`});
+ EXTRA_SKILLS[hero as HeroId].push({...technique,icon:15});
+}
 export type StatusId='freeze'|'bind'|'blind'|'bleed'|'silence';
 export type Status={id:StatusId;turns:number};
 export const STATUS:Record<StatusId,{name:string;icon:number;description:string}>={

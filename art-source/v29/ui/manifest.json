@@ -1,0 +1,20 @@
+{
+  "mode": "Built-in imagegen edit",
+  "source": "C:/Users/Diego/.codex/generated_images/01a0fe9c-5a05-7ae0-b816-392e2a3c966b/exec-cc7fe83c-cf53-4c8e-b89d-24724f9b140d.png",
+  "reference": "public/assets/v28/combat/skills.png",
+  "output": "public/assets/v29/ui/skill-command.png",
+  "size": [
+    2172,
+    724
+  ],
+  "crop": {
+    "left": 0,
+    "top": 86,
+    "width": 2171,
+    "height": 543
+  },
+  "edgePixels": 0,
+  "rgbaUnchanged": true,
+  "sourceSha256": "de4a27a943db0b3e86eb96a8e378f6de6dceaff9f3834274fb4d7c1b3c42ac83",
+  "outputSha256": "3c9c976f704377e2e877c4f5832a5a511dcdddbbfb458ba822e48ce441e89eed"
+}

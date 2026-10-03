@@ -1,3 +1,4 @@
+import {ULTIMATE_DESCRIPTIONS,type HeroId} from './data';
 export type SummonRarity=3|4|5;
 export type SummonedHero={id:string;name:string;rarity:4|5;element:string;role:string;hero?:string;title:string;description:string;ultimate:string;bond:string;accent:string;art?:string;achievementOnly?:boolean};
 
@@ -13,5 +14,13 @@ export const SUMMONED_HEROES:SummonedHero[]=[
  {id:'abel',name:'Abel Nomikos — Fogo Primordial',rarity:5,element:'Fogo Primordial',role:'DPS Técnico',title:'Professor da Forja Antiga',description:'Cabelo vermelho, pele morena, óculos de aro dourado e manto rubro. Runas ardem nos braços enquanto empunha o cajado de cristal vermelho.',ultimate:'“Não é chama. É o começo.” Seu cajado abre um círculo de fogo primordial sobre o campo.',bond:'Aula de Vínculo: A Chama sem Encanto.',accent:'#f17855',art:'/assets/v22/abel-5star.webp'},
  {id:'carmilla',name:'Carmilla — In Aeternum Vive',rarity:5,element:'Sangue',role:'Suporte / Cura',title:'A Professora que Toma para Si',description:'Vampira loira de Stone Reach, vestes acadêmicas pretas e vinho. Duas agulhas de metal escuro costuram a vida dos aliados com fios carmesins.',ultimate:'“Enquanto eu respirar, tu hás de respirar. In æternum vive.” Cura os aliados mais feridos e recebe parte da dor.',bond:'Complete todas as conquistas ou ative o Modo Mestre para adicioná-la ao Grupo.',accent:'#c66b79',art:'/assets/v23/carmilla-portrait-v2.png',achievementOnly:true}
 ];
+
+for(const hero of SUMMONED_HEROES){
+ const id=hero.hero||hero.id;
+ if(['seiji','ophelia','marin','gabriel','max','beatriz','carmilla','abel'].includes(id)){
+  hero.art=`/assets/v29/${id}/portrait.png`;
+  hero.ultimate=id==='abel'?'Leão do Fogo Primordial: o cajado convoca uma juba solar, traços leoninos e runas de fogo.':ULTIMATE_DESCRIPTIONS[id as HeroId];
+ }
+}
 
 export const summonedById=(id:string)=>SUMMONED_HEROES.find(hero=>hero.id===id);
