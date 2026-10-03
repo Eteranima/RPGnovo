@@ -6,6 +6,8 @@
 - A identidade visual é anime de fantasia, com Mushoku Tensei e Fate Series como referências: contornos limpos, rostos anime e sombras em cel shading. Personagens, pisos, paredes e objetos devem compartilhar essa linguagem; evite rostos de animação ocidental e acabamento fotorrealista.
 - Não desenhe blocos de sombra quadrados sobre obstáculos. Use paredes e rochas com arte própria e bordas coerentes. Barras HP/MP, saídas e minimapa também precisam de sprites finais.
 - A escolha de som desligado persiste entre telas, mapas, batalhas e recargas até o jogador ativar o som explicitamente.
+- Cards de personagens têm sprites exclusivos: Ava flores/terra; Seiji tinta/kanjis; Ophelia gelo/cura; Gabriel fogo/lycan; Marin escuridão/sombras; Max eletricidade/pregos; Carmilla sangue/costuras; Beatriz água/escuridão; Abel fogo/leão; Orfeu anti-magia/combate físico. Reserve áreas livres para nomes, elementos e valores reais de HP/MP, sem texto tocando ornamentos.
+- O fundo dos cards acompanha o elemento: Ava marrom; Seiji branco; Ophelia azul; Marin preto; Carmilla, Abel e Gabriel vermelho; Beatriz metade azul/metade preto; Max amarelo elétrico; Orfeu cinza mineral. Preserve contraste do texto sobre essas artes.
 - Preserve identidade, figurino, raridade, companheiros e regras já aprovadas. Use referências locais antes de gerar variantes.
 - Ava é Terra. Ophelia é Gelo. Os efeitos e textos de cada ataque devem corresponder ao elemento do personagem; confira também o ataque básico, as técnicas e a ultimate.
 - Folhas de sprites precisam de transparência real, células isoladas sem invasão de efeitos vizinhos, recortes e âncoras medidos. Não anuncie ausência absoluta de defeitos sem inspeção.

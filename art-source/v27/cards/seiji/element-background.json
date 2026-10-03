@@ -1,0 +1,68 @@
+{
+  "hero": "seiji",
+  "elementAppearance": "tinta: painel branco",
+  "createdAtUtc": "2026-10-03T20:41:43.550481+00:00",
+  "source": {
+    "path": "art-source/v27/cards/seiji/element-background-source.png",
+    "generatorPath": "C:\\Users\\Diego\\.codex\\generated_images\\01a0fe9c-5a05-7ae0-b816-392e2a3c966b\\exec-2d69a0ac-ccc2-496f-b13a-bafe4d786827.png",
+    "sha256": "bccab2cb35dda1d3d0d4fb1e852aa12aa94bcca369b5a1c75178ab62e6b6532e",
+    "width": 2172,
+    "height": 724,
+    "mode": "RGBA",
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "fullyTransparentPixels": 631845
+  },
+  "crop": {
+    "operation": "native RGBA crop only; no resize, repaint or alpha alteration",
+    "boundsConvention": "left, top, right, bottom; right and bottom exclusive",
+    "nativeAlphaBBox": [
+      0,
+      23,
+      2114,
+      676
+    ],
+    "alphaBBoxThreshold": 0,
+    "visibleAlphaBBoxOver24": [
+      15,
+      48,
+      2111,
+      666
+    ]
+  },
+  "runtime": {
+    "path": "public/assets/v27/cards/seiji/card-frame.png",
+    "sha256": "8046ed7597330616afd58a296d3e8053d347c8f0d48c8686501a20e3c2fd85a0",
+    "width": 2114,
+    "height": 653,
+    "mode": "RGBA",
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "fullyTransparentPixels": 439759,
+    "edgePixelsAlphaOver24": 0,
+    "sourceCropPixelsMatch": true,
+    "centerRgba": [
+      252,
+      251,
+      250,
+      253
+    ]
+  },
+  "previousBlueFrame": {
+    "path": "art-source/v27/cards/seiji/card-frame-blue.png",
+    "sha256": "5196e78a4974fa693c53570a9217398eb9bd451cd87b2d2b60872eb14a1f94b7"
+  },
+  "preservedFilesSha256": {
+    "public/assets/v27/cards/seiji/portrait-ring.png": "f506ee0c1d41aeea3018c25cf5a5b940358c78fbb489474d1a274f9ff86e305f",
+    "public/assets/v27/cards/seiji/hp-vessel.png": "6fdea2d86447a4686b867c9a9d0cdcb2b17b5c7b80b982560b1abfe1c1efe3e0",
+    "public/assets/v27/cards/seiji/mp-vessel.png": "b06329b9caacb9d65ab33485d2c0a08d12dcd2c6505f20657fec013353f431e2",
+    "art-source/v27/cards/seiji/selected-atlas.png": "060388be1f5825e4693d7d5c63d9886e5ee65e623c35f5e05d80a92b217880d6",
+    "art-source/v27/cards/seiji/crops.json": "49b32f08e0403b781f85059bf39f62f1c399a7b0cac6eca918d502e268c3ffdb"
+  },
+  "portraitLayout": "No integrated portrait opening; the separate original portrait-ring and UI positioning remain unchanged.",
+  "originalKitMetadata": "selected-atlas.png and crops.json describe the original four-part kit; this separate file supersedes only its runtime card-frame source and geometry."
+}

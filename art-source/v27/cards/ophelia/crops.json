@@ -1,0 +1,107 @@
+{
+  "sourceSha256": "E93728621CEA0F07DC29D850BFF49E8708DA86B4CDFEC129115EC9B72844C973",
+  "mode": "Built-in imagegen",
+  "crops": {
+    "portrait-ring": {
+      "size": [
+        521,
+        554
+      ],
+      "windowEdgeAbove20": 0,
+      "sourceBox": [
+        31,
+        415,
+        552,
+        969
+      ],
+      "alpha": [
+        0,
+        254
+      ],
+      "opening": {
+        "y": 114,
+        "pixels": 86808,
+        "x": 95,
+        "centerAlpha": 0,
+        "height": 329,
+        "width": 336,
+        "mode": "alpha"
+      },
+      "transparentPixels": 226469
+    },
+    "mp-vessel": {
+      "size": [
+        971,
+        226
+      ],
+      "windowEdgeAbove20": 0,
+      "sourceBox": [
+        551,
+        728,
+        1522,
+        954
+      ],
+      "alpha": [
+        0,
+        254
+      ],
+      "opening": {
+        "y": 83,
+        "pixels": 41644,
+        "x": 170,
+        "centerAlpha": 0,
+        "height": 67,
+        "width": 649,
+        "mode": "alpha"
+      },
+      "transparentPixels": 194698
+    },
+    "hp-vessel": {
+      "size": [
+        971,
+        228
+      ],
+      "windowEdgeAbove20": 0,
+      "sourceBox": [
+        551,
+        500,
+        1522,
+        728
+      ],
+      "alpha": [
+        0,
+        254
+      ],
+      "opening": {
+        "y": 87,
+        "pixels": 41293,
+        "x": 170,
+        "centerAlpha": 0,
+        "height": 67,
+        "width": 649,
+        "mode": "alpha"
+      },
+      "transparentPixels": 212155
+    },
+    "card-frame": {
+      "size": [
+        1372,
+        368
+      ],
+      "windowEdgeAbove20": 0,
+      "sourceBox": [
+        83,
+        47,
+        1455,
+        415
+      ],
+      "transparentPixels": 283245,
+      "alpha": [
+        0,
+        254
+      ]
+    }
+  },
+  "operation": "Native crop only; no resize or alpha editing",
+  "source": "selected-atlas.png"
+}

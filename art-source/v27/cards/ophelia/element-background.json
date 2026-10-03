@@ -1,0 +1,68 @@
+{
+  "hero": "ophelia",
+  "elementAppearance": "gelo: painel azul glacial",
+  "createdAtUtc": "2026-10-03T20:41:45.663592+00:00",
+  "source": {
+    "path": "art-source/v27/cards/ophelia/element-background-source.png",
+    "generatorPath": "C:\\Users\\Diego\\.codex\\generated_images\\01a0fe9c-5a05-7ae0-b816-392e2a3c966b\\exec-9a89d08f-1ed1-47b6-a5f1-eae52788b096.png",
+    "sha256": "2d4566316480c465a4c5d12e88f063f496e6ff3cd548a650f25424aa0a36beb9",
+    "width": 2170,
+    "height": 725,
+    "mode": "RGBA",
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "fullyTransparentPixels": 701754
+  },
+  "crop": {
+    "operation": "native RGBA crop only; no resize, repaint or alpha alteration",
+    "boundsConvention": "left, top, right, bottom; right and bottom exclusive",
+    "nativeAlphaBBox": [
+      9,
+      41,
+      2165,
+      686
+    ],
+    "alphaBBoxThreshold": 0,
+    "visibleAlphaBBoxOver24": [
+      11,
+      82,
+      2160,
+      654
+    ]
+  },
+  "runtime": {
+    "path": "public/assets/v27/cards/ophelia/card-frame.png",
+    "sha256": "6048336ac910bd6144b3fe88a2d79582a89e7a8f5f449fad844366e35c3650f5",
+    "width": 2156,
+    "height": 645,
+    "mode": "RGBA",
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "fullyTransparentPixels": 519124,
+    "edgePixelsAlphaOver24": 0,
+    "sourceCropPixelsMatch": true,
+    "centerRgba": [
+      47,
+      159,
+      251,
+      252
+    ]
+  },
+  "previousBlueFrame": {
+    "path": "art-source/v27/cards/ophelia/card-frame-blue.png",
+    "sha256": "46eb56d1aeb2f35c479530b69ccb0fae6bd914fb7225f487aa4cd1b549864cc0"
+  },
+  "preservedFilesSha256": {
+    "public/assets/v27/cards/ophelia/portrait-ring.png": "1e4e771980d072b650942e5f92a16f7cb3a96b1ee444e9d6dbd9b3750a47e120",
+    "public/assets/v27/cards/ophelia/hp-vessel.png": "d7ee2128102f8531897acc8db76c9d485304faa6f28bfe8818f2bd70afa2d129",
+    "public/assets/v27/cards/ophelia/mp-vessel.png": "dc5ffefa122afe441e359c74510f5a33d823fda1c28d0da8a3bc5025528a900f",
+    "art-source/v27/cards/ophelia/selected-atlas.png": "e93728621cea0f07dc29d850bff49e8708da86b4cdfec129115ec9b72844c973",
+    "art-source/v27/cards/ophelia/crops.json": "d37e50c6714b20cf238ae211a0d4b6699318a195ef7260901e4a28a52bc6db1a"
+  },
+  "portraitLayout": "No integrated portrait opening; the separate original portrait-ring and UI positioning remain unchanged.",
+  "originalKitMetadata": "selected-atlas.png and crops.json describe the original four-part kit; this separate file supersedes only its runtime card-frame source and geometry."
+}

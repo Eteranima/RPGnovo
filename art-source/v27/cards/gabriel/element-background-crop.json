@@ -1,0 +1,70 @@
+{
+  "elementBackgroundEdit": {
+    "generator": "built-in image_gen",
+    "prompt": "element-background-prompt.txt",
+    "source": "element-background-source.png",
+    "generatorOutput": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-1afa-7611-900f-c84542197a68\\exec-7da45f14-c11b-43e3-ab59-93ba56859445.png",
+    "sourceDimensions": [
+      2043,
+      770
+    ],
+    "sourceSHA256": "3f5db37713912b5913014c308e1d3e4495fb000ffb54d3125fd1a2f28f735967",
+    "sourceAlphaExtrema": [
+      0,
+      255
+    ],
+    "sourceFullyTransparentPixels": 786970,
+    "readyAt": "2026-10-03T20:28:53.071377+00:00",
+    "scope": "Only card-frame; all portrait-ring/hp-vessel/mp-vessel hashes checked unchanged"
+  },
+  "archivedNavyCard": {
+    "path": "/assets/v27/cards/gabriel/card-frame.png",
+    "sourceBox": [
+      58,
+      61,
+      1490,
+      428
+    ],
+    "dimensions": [
+      1432,
+      367
+    ],
+    "alphaExtrema": [
+      0,
+      254
+    ],
+    "fullyTransparentPixels": 132117,
+    "visibleEdgePixelsAbove24": 0,
+    "sha256": "a50ce468969ecec59c86a6939eaec35b4b7c0379bb91de11e5b5a97861732300",
+    "source": "selected-atlas.png",
+    "archive": "card-frame-navy-archived.png"
+  },
+  "cardFrame": {
+    "path": "/assets/v27/cards/gabriel/card-frame.png",
+    "source": "element-background-source.png",
+    "sourceBox": [
+      0,
+      97,
+      2034,
+      625
+    ],
+    "dimensions": [
+      2034,
+      528
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "fullyTransparentPixels": 288390,
+    "visibleEdgePixelsAbove24": 0,
+    "elementPanelColor": "deep elemental red",
+    "centerPanelSampleRGBA": [
+      137,
+      14,
+      15,
+      253
+    ],
+    "sha256": "aa9b9563f5f96c91dff0b52b64a03b7c0f536dcac6730e1854ee91e0695cf75c"
+  }
+}

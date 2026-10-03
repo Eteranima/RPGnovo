@@ -1,0 +1,47 @@
+{
+  "character": "carmilla",
+  "tool": "built-in image_gen",
+  "source": "C:/Users/Diego/.codex/generated_images/01a1028e-5be8-7663-82a1-e9f4a5e52f9d/exec-2bbb73dd-56e1-40a8-81b2-e8cba7c876fe.png",
+  "selected": "art-source/v27/cards/carmilla/element-background-source.png",
+  "sourceSha256": "c28d570c10a4e9ff20a392c8723081992b485179bf14995c4a813e798c44d9d7",
+  "sourceIsGeneratedCopy": true,
+  "originalNavy": "card-frame-blue-original.png",
+  "originalNavySha256": "8c2b2223747496233c87c26c60a15f08f66cbe2a6ec1544e7fd942eb760a0aba",
+  "canvas": {
+    "width": 2170,
+    "height": 725
+  },
+  "sourceCrop": {
+    "left": 2,
+    "top": 56,
+    "width": 2166,
+    "height": 612
+  },
+  "width": 2166,
+  "height": 612,
+  "sha256": "e200c64c710783c6504467b8fe82a312cd4c51645f844ec7f374f9de6d080525",
+  "nativePixelsPreserved": true,
+  "framePortraitOpening": {
+    "x": 100,
+    "y": 87,
+    "w": 409,
+    "h": 398,
+    "alphaOpening": true,
+    "method": "measured native alpha<=8 connected opening after background edit",
+    "centerAlpha": 0,
+    "centerX": 304.5,
+    "centerY": 286
+  },
+  "textRect": {
+    "x": 675.8362369337979,
+    "y": 148.14074074074074,
+    "w": 1219.233449477352,
+    "h": 276.81481481481484
+  },
+  "separateComponentsUnchanged": {
+    "portrait-ring": true,
+    "hp-vessel": true,
+    "mp-vessel": true
+  },
+  "visualReview": "Only background palette changed; complete single frame, original motifs and frontal proportions retained. Alpha exterior measured."
+}

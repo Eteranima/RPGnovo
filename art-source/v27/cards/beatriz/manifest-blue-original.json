@@ -1,0 +1,121 @@
+{
+  "character": "beatriz",
+  "tool": "built-in image_gen",
+  "source": "C:/Users/Diego/.codex/generated_images/01a1028e-5be8-7663-82a1-e9f4a5e52f9d/exec-36367d09-01e6-458d-a67a-32f0af8f1431.png",
+  "selected": "art-source/v27/cards/beatriz/atlas-selected.png",
+  "width": 1536,
+  "height": 1024,
+  "sourceSha256": "2400df39600030552681f7ac76647ab2cdd1a5333d2717378e1d99c2b79ffa73",
+  "selectedIsByteIdentical": true,
+  "transparentPixels": 911919,
+  "partialAlphaPixels": 660945,
+  "alphaMeasurementThreshold": 16,
+  "export": "native crop only, no resize, no repaint, original RGBA pixels preserved",
+  "crops": {
+    "card-frame": {
+      "sourceCrop": {
+        "left": 47,
+        "top": 44,
+        "width": 1451,
+        "height": 379
+      },
+      "path": "public/assets/v27/cards/beatriz/card-frame.png",
+      "width": 1451,
+      "height": 379,
+      "sha256": "5b318a148b7a31a4655cff071a21739f1872dd3529227245a97f2a79def8bcad",
+      "nativePixelsPreserved": true,
+      "textRect": {
+        "x": 453,
+        "y": 101,
+        "w": 810,
+        "h": 185
+      },
+      "framePortraitOpening": {
+        "x": 120,
+        "y": 56,
+        "w": 249,
+        "h": 252,
+        "method": "native alpha<=8 connected opening; wave ornament occupies left portion of circle",
+        "alphaOpening": true,
+        "centerX": 244.5,
+        "centerY": 182
+      }
+    },
+    "portrait-ring": {
+      "sourceCrop": {
+        "left": 40,
+        "top": 447,
+        "width": 472,
+        "height": 532
+      },
+      "path": "public/assets/v27/cards/beatriz/portrait-ring.png",
+      "width": 472,
+      "height": 532,
+      "sha256": "17f48c716ac753c1823692319f02ab1826be248e92b9fc45a30db3f0df1200bf",
+      "nativePixelsPreserved": true,
+      "opening": {
+        "x": 78,
+        "y": 80,
+        "w": 318,
+        "h": 308,
+        "pixels": 71009,
+        "centerAlpha": 0,
+        "threshold": 8
+      }
+    },
+    "hp-vessel": {
+      "sourceCrop": {
+        "left": 539,
+        "top": 497,
+        "width": 957,
+        "height": 183
+      },
+      "path": "public/assets/v27/cards/beatriz/hp-vessel.png",
+      "width": 957,
+      "height": 183,
+      "sha256": "58433ae4cdb47ef2c9162f26984ef0a229abc812b787e9d4a34d5f7be6243150",
+      "nativePixelsPreserved": true,
+      "opening": {
+        "x": 149,
+        "y": 51,
+        "w": 711,
+        "h": 79,
+        "pixels": 52739,
+        "centerAlpha": 0,
+        "threshold": 8
+      }
+    },
+    "mp-vessel": {
+      "sourceCrop": {
+        "left": 539,
+        "top": 713,
+        "width": 956,
+        "height": 183
+      },
+      "path": "public/assets/v27/cards/beatriz/mp-vessel.png",
+      "width": 956,
+      "height": 183,
+      "sha256": "af8b4ce91ce60e9ce8835b7e997f2781b288e6d2b4b31bb1b0efafc13980f920",
+      "nativePixelsPreserved": true,
+      "opening": {
+        "x": 148,
+        "y": 52,
+        "w": 712,
+        "h": 78,
+        "pixels": 52160,
+        "centerAlpha": 0,
+        "threshold": 8
+      }
+    }
+  },
+  "framePortraitOpening": {
+    "x": 120,
+    "y": 56,
+    "w": 249,
+    "h": 252,
+    "method": "native alpha<=8 connected opening; wave ornament occupies left portion of circle",
+    "alphaOpening": true,
+    "centerX": 244.5,
+    "centerY": 182
+  }
+}

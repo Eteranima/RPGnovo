@@ -1,0 +1,46 @@
+{
+  "character": "orfeu",
+  "tool": "built-in image_gen",
+  "source": "C:/Users/Diego/.codex/generated_images/01a1028e-5be8-7663-82a1-e9f4a5e52f9d/exec-4a8cccbc-ff76-4af3-83d9-6e738607d689.png",
+  "selected": "art-source/v27/cards/orfeu/element-background-source.png",
+  "sourceSha256": "a6a716d7ae1109ed45d9046ae83700140313889fb9e5fa39564f06179af4a27b",
+  "sourceIsGeneratedCopy": true,
+  "originalNavy": "card-frame-blue-original.png",
+  "originalNavySha256": "85e4d85d057ab08475a85b011434ae563af469049b25bf522b9b7e7d2d232304",
+  "canvas": {
+    "width": 2171,
+    "height": 724
+  },
+  "sourceCrop": {
+    "left": 2,
+    "top": 58,
+    "width": 2153,
+    "height": 600
+  },
+  "width": 2153,
+  "height": 600,
+  "sha256": "12cb3e8219e466c5e321bb5257b1b19ebf5e2fef8402fa97d43feea5e567e56b",
+  "nativePixelsPreserved": true,
+  "framePortraitOpening": {
+    "x": 151.83115991763898,
+    "y": 142.76470588235293,
+    "w": 291.76801647220316,
+    "h": 321.75,
+    "alphaOpening": false,
+    "method": "visible inner-rim bounds scaled to preserved frontal silhouette; painted fist remains",
+    "centerX": 297.7151681537406,
+    "centerY": 303.6397058823529
+  },
+  "textRect": {
+    "x": 679.3713109128346,
+    "y": 167.51470588235293,
+    "w": 1193.5964310226493,
+    "h": 269.3382352941176
+  },
+  "separateComponentsUnchanged": {
+    "portrait-ring": true,
+    "hp-vessel": true,
+    "mp-vessel": true
+  },
+  "visualReview": "Only background palette changed; complete single frame, original motifs and frontal proportions retained. Alpha exterior measured."
+}

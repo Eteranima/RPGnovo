@@ -1,0 +1,7 @@
+'use client';
+// QA only: fresh in-document fixture, with no game save reads or writes.
+import Home from '../page';
+import {GameEngine,type Save} from '@/lib/game/engine';
+import {freshProgression,deriveHeroes} from '@/lib/game/progression';
+GameEngine.prototype.hydrate=function(){const p=freshProgression();p.party=['ava','seiji','ophelia'];p.recruited=['ava','seiji','ophelia'];p.summoned=['ava'];p.bonded=['ava'];p.xp=80;p.visited=['patio','arquivo','subsolo','camara','porto','domo','galeria','ashwood','vigilia','ashpyre'];this.state.progress=p;this.state.heroes=deriveHeroes(p);this.state.map='porto';this.state.position={x:14,y:11};this.state.stage=5;this.state.mode='world';this.state.credits=240;this.state.checkpoint={map:'porto',position:{x:14,y:11}};this.state.hasSave=true;this.saved={...this.state} as Save;this.save=()=>false;this.emit();};
+export default Home;

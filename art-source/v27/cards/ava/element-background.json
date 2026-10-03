@@ -1,0 +1,68 @@
+{
+  "hero": "ava",
+  "elementAppearance": "terra: painel ocre e marrom",
+  "createdAtUtc": "2026-10-03T20:41:41.869501+00:00",
+  "source": {
+    "path": "art-source/v27/cards/ava/element-background-source.png",
+    "generatorPath": "C:\\Users\\Diego\\.codex\\generated_images\\01a0fe9c-5a05-7ae0-b816-392e2a3c966b\\exec-efb31507-9912-4cee-a065-82b20b3ca7d9.png",
+    "sha256": "b6a874bdfc17fe4dfdca527d76f90717e4789b132bcd8a52dfdddc501aa65379",
+    "width": 2172,
+    "height": 724,
+    "mode": "RGBA",
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "fullyTransparentPixels": 534090
+  },
+  "crop": {
+    "operation": "native RGBA crop only; no resize, repaint or alpha alteration",
+    "boundsConvention": "left, top, right, bottom; right and bottom exclusive",
+    "nativeAlphaBBox": [
+      0,
+      39,
+      2149,
+      670
+    ],
+    "alphaBBoxThreshold": 0,
+    "visibleAlphaBBoxOver24": [
+      13,
+      44,
+      2146,
+      665
+    ]
+  },
+  "runtime": {
+    "path": "public/assets/v27/cards/ava/card-frame.png",
+    "sha256": "002e12dcb0f19a16bbba1b880b6b7de36c897a4a151d74eb7374f8c85784f57d",
+    "width": 2149,
+    "height": 631,
+    "mode": "RGBA",
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "fullyTransparentPixels": 317581,
+    "edgePixelsAlphaOver24": 0,
+    "sourceCropPixelsMatch": true,
+    "centerRgba": [
+      71,
+      36,
+      11,
+      252
+    ]
+  },
+  "previousBlueFrame": {
+    "path": "art-source/v27/cards/ava/card-frame-blue.png",
+    "sha256": "befe9185d51d000ee7133fd4d7a41562e1eb635fa33b6b3ba4491c3c4c8b2b55"
+  },
+  "preservedFilesSha256": {
+    "public/assets/v27/cards/ava/portrait-ring.png": "1d113376291eb13b2d05011eb5a9bec3b2a4017d8600866cc305a40d4b811aa7",
+    "public/assets/v27/cards/ava/hp-vessel.png": "391a7679ff26a6ef8d4ca0adf20b65dfbb0f6d8cc5f4a46608baff305ebccf4d",
+    "public/assets/v27/cards/ava/mp-vessel.png": "957db46dd69f817c26108ff357876c9c8c96aa3dac20917ef26addf389e58f2b",
+    "art-source/v27/cards/ava/selected-atlas.png": "0c8d48f19ab8015bed3b84aaeada1ed7012b79f8792fe2d88a5a8854e65c8734",
+    "art-source/v27/cards/ava/crops.json": "425bc5970d1e53845fbc56996e3d42b43e39b01cad9cef4f5f685629592db89a"
+  },
+  "portraitLayout": "No integrated portrait opening; the separate original portrait-ring and UI positioning remain unchanged.",
+  "originalKitMetadata": "selected-atlas.png and crops.json describe the original four-part kit; this separate file supersedes only its runtime card-frame source and geometry."
+}

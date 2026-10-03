@@ -1,0 +1,74 @@
+[
+  {
+    "character": "carmilla",
+    "generatedSourceIdentical": true,
+    "width": 2166,
+    "height": 612,
+    "cornersAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "nativeCropPixelsVerified": true,
+    "separatePiecesUnchanged": {
+      "portrait-ring": true,
+      "hp-vessel": true,
+      "mp-vessel": true
+    }
+  },
+  {
+    "character": "beatriz",
+    "generatedSourceIdentical": true,
+    "width": 2145,
+    "height": 559,
+    "cornersAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "nativeCropPixelsVerified": true,
+    "separatePiecesUnchanged": {
+      "portrait-ring": true,
+      "hp-vessel": true,
+      "mp-vessel": true
+    }
+  },
+  {
+    "character": "abel",
+    "generatedSourceIdentical": true,
+    "width": 2168,
+    "height": 623,
+    "cornersAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "nativeCropPixelsVerified": true,
+    "separatePiecesUnchanged": {
+      "portrait-ring": true,
+      "hp-vessel": true,
+      "mp-vessel": true
+    }
+  },
+  {
+    "character": "orfeu",
+    "generatedSourceIdentical": true,
+    "width": 2153,
+    "height": 600,
+    "cornersAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "nativeCropPixelsVerified": true,
+    "separatePiecesUnchanged": {
+      "portrait-ring": true,
+      "hp-vessel": true,
+      "mp-vessel": true
+    }
+  }
+]

@@ -1,0 +1,121 @@
+{
+  "character": "abel",
+  "tool": "built-in image_gen",
+  "source": "C:/Users/Diego/.codex/generated_images/01a1028e-5be8-7663-82a1-e9f4a5e52f9d/exec-b8890814-3caf-4461-90ca-10f39c50bc5f.png",
+  "selected": "art-source/v27/cards/abel/atlas-selected.png",
+  "width": 1536,
+  "height": 1024,
+  "sourceSha256": "32bba405799cdb5db996d3b2162478403f34b544715f7ed6efebad57c5b9c1e3",
+  "selectedIsByteIdentical": true,
+  "transparentPixels": 890212,
+  "partialAlphaPixels": 682652,
+  "alphaMeasurementThreshold": 16,
+  "export": "native crop only, no resize, no repaint, original RGBA pixels preserved",
+  "crops": {
+    "card-frame": {
+      "sourceCrop": {
+        "left": 63,
+        "top": 28,
+        "width": 1439,
+        "height": 413
+      },
+      "path": "public/assets/v27/cards/abel/card-frame.png",
+      "width": 1439,
+      "height": 413,
+      "sha256": "f0fba7bd4b710f721239a7ccf7475f84d0e458fc8771a22c7ec48fe990ab3501",
+      "nativePixelsPreserved": true,
+      "textRect": {
+        "x": 437,
+        "y": 117,
+        "w": 810,
+        "h": 185
+      },
+      "framePortraitOpening": {
+        "x": 111,
+        "y": 92,
+        "w": 220,
+        "h": 234,
+        "method": "native alpha<=8 connected opening; lion ornament occupies left portion of circle",
+        "alphaOpening": true,
+        "centerX": 221,
+        "centerY": 209
+      }
+    },
+    "portrait-ring": {
+      "sourceCrop": {
+        "left": 38,
+        "top": 450,
+        "width": 475,
+        "height": 516
+      },
+      "path": "public/assets/v27/cards/abel/portrait-ring.png",
+      "width": 475,
+      "height": 516,
+      "sha256": "cd457af215921d1b25f8593ce63ab8f01d3e09444e89ee96f375a619ce22333e",
+      "nativePixelsPreserved": true,
+      "opening": {
+        "x": 87,
+        "y": 134,
+        "w": 302,
+        "h": 280,
+        "pixels": 66567,
+        "centerAlpha": 0,
+        "threshold": 8
+      }
+    },
+    "hp-vessel": {
+      "sourceCrop": {
+        "left": 524,
+        "top": 511,
+        "width": 979,
+        "height": 188
+      },
+      "path": "public/assets/v27/cards/abel/hp-vessel.png",
+      "width": 979,
+      "height": 188,
+      "sha256": "8e6559fb5f66eb79b660602743e751614d536d7adec8446fd722bd2646a2abbe",
+      "nativePixelsPreserved": true,
+      "opening": {
+        "x": 162,
+        "y": 78,
+        "w": 726,
+        "h": 65,
+        "pixels": 45686,
+        "centerAlpha": 0,
+        "threshold": 8
+      }
+    },
+    "mp-vessel": {
+      "sourceCrop": {
+        "left": 524,
+        "top": 736,
+        "width": 979,
+        "height": 187
+      },
+      "path": "public/assets/v27/cards/abel/mp-vessel.png",
+      "width": 979,
+      "height": 187,
+      "sha256": "9b2c8a1c3efb4fd3e1665701f3de677a5e7d872841aba9d4ae865c90fde3777d",
+      "nativePixelsPreserved": true,
+      "opening": {
+        "x": 162,
+        "y": 78,
+        "w": 727,
+        "h": 65,
+        "pixels": 45786,
+        "centerAlpha": 0,
+        "threshold": 8
+      }
+    }
+  },
+  "framePortraitOpening": {
+    "x": 111,
+    "y": 92,
+    "w": 220,
+    "h": 234,
+    "method": "native alpha<=8 connected opening; lion ornament occupies left portion of circle",
+    "alphaOpening": true,
+    "centerX": 221,
+    "centerY": 209
+  }
+}

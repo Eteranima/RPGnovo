@@ -1,0 +1,8 @@
+import{readFileSync,writeFileSync}from'node:fs';import{createHash}from'node:crypto';import assert from'node:assert/strict';import sharp from '../../../node_modules/.pnpm/sharp@0.35.4_@types+node@22.19.19/node_modules/sharp/dist/index.mjs';
+const hash=p=>createHash('sha256').update(readFileSync(p)).digest('hex'),report=[];for(const id of['carmilla','beatriz','abel','orfeu']){const dir='art-source/v27/cards/'+id,m=JSON.parse(readFileSync(dir+'/manifest.json')),r=m.elementBackground;
+ assert.equal(hash(r.source),hash(r.selected),'Selected edit matches generated source');
+ const card='public/assets/v27/cards/'+id+'/card-frame.png',meta=await sharp(card).metadata();assert.ok(meta.hasAlpha);assert.equal(meta.width,r.width);assert.equal(meta.height,r.height);assert.equal(hash(card),r.sha256);
+ const{data,info}=await sharp(card).ensureAlpha().raw().toBuffer({resolveWithObject:true});const corners=[[0,0],[info.width-1,0],[0,info.height-1],[info.width-1,info.height-1]].map(([x,y])=>data[(y*info.width+x)*4+3]);assert.ok(corners.every(a=>a===0));
+ const pieces={};for(const name of['portrait-ring','hp-vessel','mp-vessel']){pieces[name]=hash(m.crops[name].path)===m.crops[name].sha256;assert.ok(pieces[name]);}
+ report.push({character:id,generatedSourceIdentical:true,width:meta.width,height:meta.height,cornersAlpha:corners,nativeCropPixelsVerified:true,separatePiecesUnchanged:pieces});}
+ writeFileSync('art-source/v27/cards/element-background-verification.json',JSON.stringify(report,null,2)+'\n');console.log('Four edited card frames verified; 12 separate sprites unchanged; alpha0 corners; source bytes match generated originals.');

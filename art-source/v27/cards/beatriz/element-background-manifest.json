@@ -1,0 +1,68 @@
+{
+  "character": "beatriz",
+  "tool": "built-in image_gen",
+  "source": "C:/Users/Diego/.codex/generated_images/01a1028e-5be8-7663-82a1-e9f4a5e52f9d/exec-c3f32629-2fde-436f-a588-dc11def9ed97.png",
+  "selected": "art-source/v27/cards/beatriz/element-background-source.png",
+  "sourceSha256": "558dcf16e61336e360a771912ed5ded4a3cf604d231da29906783fb02a5e6a16",
+  "sourceIsGeneratedCopy": true,
+  "originalNavy": "card-frame-blue-original.png",
+  "originalNavySha256": "5b318a148b7a31a4655cff071a21739f1872dd3529227245a97f2a79def8bcad",
+  "canvas": {
+    "width": 2171,
+    "height": 724
+  },
+  "sourceCrop": {
+    "left": 2,
+    "top": 77,
+    "width": 2145,
+    "height": 559
+  },
+  "width": 2145,
+  "height": 559,
+  "sha256": "69c12ac7d2d883a2ca6038c5b74cd7ed1f15eefda0d0c4c64fdfd32217a2a745",
+  "nativePixelsPreserved": true,
+  "framePortraitOpening": {
+    "x": 171,
+    "y": 83,
+    "w": 374,
+    "h": 374,
+    "alphaOpening": true,
+    "method": "measured native alpha<=8 connected opening after background edit",
+    "centerAlpha": 0,
+    "centerX": 358,
+    "centerY": 270
+  },
+  "textRect": {
+    "x": 670.7925568573397,
+    "y": 150.3693931398417,
+    "w": 1194.066161268091,
+    "h": 269.934036939314
+  },
+  "separateComponentsUnchanged": {
+    "portrait-ring": true,
+    "hp-vessel": true,
+    "mp-vessel": true
+  },
+  "visualReview": "Only background palette changed; complete single frame, original motifs and frontal proportions retained. Alpha exterior measured.",
+  "approximateSplit": {
+    "blueShare": 0.47,
+    "blackShare": 0.53,
+    "orientation": "vertical, blue left/black right",
+    "measuredMiddleRow": 356,
+    "blueRun": [
+      604,
+      1261
+    ],
+    "blackRun": [
+      1262,
+      2002
+    ],
+    "note": "Visually balanced halves; approximate ratio, no claim of exact pixel equality. Root approved this interpretation."
+  },
+  "additionalCandidate": {
+    "source": "C:/Users/Diego/.codex/generated_images/01a1028e-5be8-7663-82a1-e9f4a5e52f9d/exec-869b08a3-71f0-4718-a7aa-374a178b2192.png",
+    "selected": "art-source/v27/cards/beatriz/element-background-half-candidate.png",
+    "sha256": "e3979b9c9ee66c4dfd499ec446dbef45fd60f00ba2bbc163f0f866065c270374",
+    "review": "Second edit kept the division near the center ornaments. First edit selected for reference-design fidelity; no third call after root clarification."
+  }
+}

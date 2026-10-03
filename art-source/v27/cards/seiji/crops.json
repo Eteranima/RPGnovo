@@ -1,0 +1,107 @@
+{
+  "mode": "Built-in imagegen",
+  "source": "selected-atlas.png",
+  "crops": {
+    "hp-vessel": {
+      "sourceBox": [
+        560,
+        499,
+        1509,
+        725
+      ],
+      "opening": {
+        "y": 91,
+        "height": 57,
+        "width": 655,
+        "mode": "alpha",
+        "x": 189,
+        "centerAlpha": 0,
+        "pixels": 36470
+      },
+      "windowEdgeAbove20": 0,
+      "size": [
+        949,
+        226
+      ],
+      "transparentPixels": 165572,
+      "alpha": [
+        0,
+        254
+      ]
+    },
+    "card-frame": {
+      "transparentPixels": 254168,
+      "alpha": [
+        0,
+        254
+      ],
+      "windowEdgeAbove20": 0,
+      "size": [
+        1446,
+        431
+      ],
+      "sourceBox": [
+        47,
+        26,
+        1493,
+        457
+      ]
+    },
+    "portrait-ring": {
+      "sourceBox": [
+        27,
+        457,
+        548,
+        991
+      ],
+      "opening": {
+        "y": 95,
+        "height": 299,
+        "width": 325,
+        "mode": "alpha",
+        "x": 95,
+        "centerAlpha": 0,
+        "pixels": 75454
+      },
+      "windowEdgeAbove20": 0,
+      "size": [
+        521,
+        534
+      ],
+      "transparentPixels": 195075,
+      "alpha": [
+        0,
+        254
+      ]
+    },
+    "mp-vessel": {
+      "sourceBox": [
+        560,
+        733,
+        1509,
+        965
+      ],
+      "opening": {
+        "y": 94,
+        "height": 56,
+        "width": 653,
+        "mode": "alpha",
+        "x": 189,
+        "centerAlpha": 0,
+        "pixels": 35435
+      },
+      "windowEdgeAbove20": 0,
+      "size": [
+        949,
+        232
+      ],
+      "transparentPixels": 184876,
+      "alpha": [
+        0,
+        254
+      ]
+    }
+  },
+  "sourceSha256": "060388BE1F5825E4693D7D5C63D9886E5EE65E623C35F5E05D80A92B217880D6",
+  "operation": "Native crop only; no resize or alpha editing"
+}

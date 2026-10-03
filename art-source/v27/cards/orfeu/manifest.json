@@ -1,0 +1,169 @@
+{
+  "character": "orfeu",
+  "tool": "built-in image_gen",
+  "source": "C:/Users/Diego/.codex/generated_images/01a1028e-5be8-7663-82a1-e9f4a5e52f9d/exec-ea97ea63-0c27-4c1c-9a62-70006743d1b6.png",
+  "selected": "art-source/v27/cards/orfeu/atlas-selected.png",
+  "width": 1536,
+  "height": 1024,
+  "sourceSha256": "402a4a82bb8c58d6608ecef006019d75a9be12b3746a13c27ddeaa55c8841c04",
+  "selectedIsByteIdentical": true,
+  "transparentPixels": 880230,
+  "partialAlphaPixels": 692634,
+  "alphaMeasurementThreshold": 16,
+  "export": "native crop only, no resize, no repaint, original RGBA pixels preserved",
+  "crops": {
+    "card-frame": {
+      "sourceCrop": {
+        "left": 2,
+        "top": 58,
+        "width": 2153,
+        "height": 600
+      },
+      "path": "public/assets/v27/cards/orfeu/card-frame.png",
+      "width": 2153,
+      "height": 600,
+      "sha256": "12cb3e8219e466c5e321bb5257b1b19ebf5e2fef8402fa97d43feea5e567e56b",
+      "nativePixelsPreserved": true,
+      "textRect": {
+        "x": 679.3713109128346,
+        "y": 167.51470588235293,
+        "w": 1193.5964310226493,
+        "h": 269.3382352941176
+      },
+      "framePortraitOpening": {
+        "x": 151.83115991763898,
+        "y": 142.76470588235293,
+        "w": 291.76801647220316,
+        "h": 321.75,
+        "alphaOpening": false,
+        "method": "visible inner-rim bounds scaled to preserved frontal silhouette; painted fist remains",
+        "centerX": 297.7151681537406,
+        "centerY": 303.6397058823529
+      },
+      "source": "art-source/v27/cards/orfeu/element-background-source.png",
+      "elementBackground": true
+    },
+    "portrait-ring": {
+      "sourceCrop": {
+        "left": 20,
+        "top": 440,
+        "width": 479,
+        "height": 517
+      },
+      "path": "public/assets/v27/cards/orfeu/portrait-ring.png",
+      "width": 479,
+      "height": 517,
+      "sha256": "d63f803db2746a20adddb66b4c96948d8bbd5fa039b87c9d20723fdf3b907080",
+      "nativePixelsPreserved": true,
+      "opening": {
+        "x": 94,
+        "y": 128,
+        "w": 290,
+        "h": 274,
+        "pixels": 62660,
+        "centerAlpha": 0,
+        "threshold": 8
+      }
+    },
+    "hp-vessel": {
+      "sourceCrop": {
+        "left": 514,
+        "top": 480,
+        "width": 1000,
+        "height": 226
+      },
+      "path": "public/assets/v27/cards/orfeu/hp-vessel.png",
+      "width": 1000,
+      "height": 226,
+      "sha256": "8c58b582b2e92a82d65b8b5d1cc18521d47373c4e8c4d176b1c2460cf7a4aba7",
+      "nativePixelsPreserved": true,
+      "opening": {
+        "x": 194,
+        "y": 74,
+        "w": 662,
+        "h": 63,
+        "pixels": 40706,
+        "centerAlpha": 0,
+        "threshold": 8
+      }
+    },
+    "mp-vessel": {
+      "sourceCrop": {
+        "left": 514,
+        "top": 710,
+        "width": 1000,
+        "height": 225
+      },
+      "path": "public/assets/v27/cards/orfeu/mp-vessel.png",
+      "width": 1000,
+      "height": 225,
+      "sha256": "0c6d7da70b0c99e2d918294e6f4f36ea1abab8a3caf2a70739b4d3e70ddf75b8",
+      "nativePixelsPreserved": true,
+      "opening": {
+        "x": 194,
+        "y": 73,
+        "w": 661,
+        "h": 64,
+        "pixels": 40855,
+        "centerAlpha": 0,
+        "threshold": 8
+      }
+    }
+  },
+  "framePortraitOpening": {
+    "x": 151.83115991763898,
+    "y": 142.76470588235293,
+    "w": 291.76801647220316,
+    "h": 321.75,
+    "alphaOpening": false,
+    "method": "visible inner-rim bounds scaled to preserved frontal silhouette; painted fist remains",
+    "centerX": 297.7151681537406,
+    "centerY": 303.6397058823529
+  },
+  "elementBackground": {
+    "character": "orfeu",
+    "tool": "built-in image_gen",
+    "source": "C:/Users/Diego/.codex/generated_images/01a1028e-5be8-7663-82a1-e9f4a5e52f9d/exec-4a8cccbc-ff76-4af3-83d9-6e738607d689.png",
+    "selected": "art-source/v27/cards/orfeu/element-background-source.png",
+    "sourceSha256": "a6a716d7ae1109ed45d9046ae83700140313889fb9e5fa39564f06179af4a27b",
+    "sourceIsGeneratedCopy": true,
+    "originalNavy": "card-frame-blue-original.png",
+    "originalNavySha256": "85e4d85d057ab08475a85b011434ae563af469049b25bf522b9b7e7d2d232304",
+    "canvas": {
+      "width": 2171,
+      "height": 724
+    },
+    "sourceCrop": {
+      "left": 2,
+      "top": 58,
+      "width": 2153,
+      "height": 600
+    },
+    "width": 2153,
+    "height": 600,
+    "sha256": "12cb3e8219e466c5e321bb5257b1b19ebf5e2fef8402fa97d43feea5e567e56b",
+    "nativePixelsPreserved": true,
+    "framePortraitOpening": {
+      "x": 151.83115991763898,
+      "y": 142.76470588235293,
+      "w": 291.76801647220316,
+      "h": 321.75,
+      "alphaOpening": false,
+      "method": "visible inner-rim bounds scaled to preserved frontal silhouette; painted fist remains",
+      "centerX": 297.7151681537406,
+      "centerY": 303.6397058823529
+    },
+    "textRect": {
+      "x": 679.3713109128346,
+      "y": 167.51470588235293,
+      "w": 1193.5964310226493,
+      "h": 269.3382352941176
+    },
+    "separateComponentsUnchanged": {
+      "portrait-ring": true,
+      "hp-vessel": true,
+      "mp-vessel": true
+    },
+    "visualReview": "Only background palette changed; complete single frame, original motifs and frontal proportions retained. Alpha exterior measured."
+  }
+}

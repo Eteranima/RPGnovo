@@ -1,0 +1,47 @@
+{
+  "character": "abel",
+  "tool": "built-in image_gen",
+  "source": "C:/Users/Diego/.codex/generated_images/01a1028e-5be8-7663-82a1-e9f4a5e52f9d/exec-e3d0acf5-2d72-4ec5-bb04-d17dddd48a17.png",
+  "selected": "art-source/v27/cards/abel/element-background-source.png",
+  "sourceSha256": "266aa1b589b2075e3ec0521391d9fcff9c4e15578ec95433ed33d4615ec37feb",
+  "sourceIsGeneratedCopy": true,
+  "originalNavy": "card-frame-blue-original.png",
+  "originalNavySha256": "f0fba7bd4b710f721239a7ccf7475f84d0e458fc8771a22c7ec48fe990ab3501",
+  "canvas": {
+    "width": 2171,
+    "height": 724
+  },
+  "sourceCrop": {
+    "left": 3,
+    "top": 49,
+    "width": 2168,
+    "height": 623
+  },
+  "width": 2168,
+  "height": 623,
+  "sha256": "01ea9a6a417ca9c60881513b055301f2ba463a2358fd3e460bc7fb0a74db3836",
+  "nativePixelsPreserved": true,
+  "framePortraitOpening": {
+    "x": 165,
+    "y": 138,
+    "w": 332,
+    "h": 356,
+    "alphaOpening": true,
+    "method": "measured native alpha<=8 connected opening after background edit",
+    "centerAlpha": 0,
+    "centerX": 331,
+    "centerY": 316
+  },
+  "textRect": {
+    "x": 660.4739402362752,
+    "y": 177.7917675544794,
+    "w": 1218.6587908269632,
+    "h": 276.38014527845036
+  },
+  "separateComponentsUnchanged": {
+    "portrait-ring": true,
+    "hp-vessel": true,
+    "mp-vessel": true
+  },
+  "visualReview": "Only background palette changed; complete single frame, original motifs and frontal proportions retained. Alpha exterior measured."
+}

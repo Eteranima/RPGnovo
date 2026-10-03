@@ -1,0 +1,220 @@
+{
+  "hero": "gabriel",
+  "generator": "built-in image_gen",
+  "source": "selected-atlas.png",
+  "sourceDimensions": [
+    1536,
+    1024
+  ],
+  "sourceSHA256": "0fc941ff2a7e981adc665e7ed3b8ae9a799f570ecbf17e977a0d399714a7dda8",
+  "sourceAlphaExtrema": [
+    0,
+    254
+  ],
+  "sourceFullyTransparentPixels": 912786,
+  "alphaSilhouetteThreshold": 24,
+  "pixelOperations": "RGBA crop only; no resizing, painting, recoloring, alpha modification or background removal",
+  "assets": {
+    "card-frame": {
+      "path": "/assets/v27/cards/gabriel/card-frame.png",
+      "source": "element-background-source.png",
+      "sourceBox": [
+        0,
+        97,
+        2034,
+        625
+      ],
+      "dimensions": [
+        2034,
+        528
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "fullyTransparentPixels": 288390,
+      "visibleEdgePixelsAbove24": 0,
+      "elementPanelColor": "deep elemental red",
+      "centerPanelSampleRGBA": [
+        137,
+        14,
+        15,
+        253
+      ],
+      "sha256": "aa9b9563f5f96c91dff0b52b64a03b7c0f536dcac6730e1854ee91e0695cf75c"
+    },
+    "portrait-ring": {
+      "path": "/assets/v27/cards/gabriel/portrait-ring.png",
+      "sourceBox": [
+        57,
+        470,
+        501,
+        945
+      ],
+      "dimensions": [
+        444,
+        475
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 126980,
+      "visibleEdgePixelsAbove24": 0,
+      "sha256": "b6e5e4e39c0a8eaf2d443c714e6f4dc43bf12bfa2a58ae2220b19b90b6aa8dbb",
+      "opening": {
+        "x": 73,
+        "y": 110,
+        "w": 298,
+        "h": 272
+      },
+      "openingPercent": {
+        "left": 16.441,
+        "top": 23.158,
+        "width": 67.117,
+        "height": 57.263
+      },
+      "openingTransparency": {
+        "componentThreshold": 24,
+        "componentPixels": 63251,
+        "fullyTransparentPixels": 58822,
+        "seed": [
+          219,
+          261
+        ]
+      }
+    },
+    "hp-vessel": {
+      "path": "/assets/v27/cards/gabriel/hp-vessel.png",
+      "sourceBox": [
+        538,
+        535,
+        1502,
+        728
+      ],
+      "dimensions": [
+        964,
+        193
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 98386,
+      "visibleEdgePixelsAbove24": 0,
+      "sha256": "3e926793a9827831542b319174d25419c0769ae30d261acbdedb126e76c87ec8",
+      "opening": {
+        "x": 191,
+        "y": 72,
+        "w": 679,
+        "h": 47
+      },
+      "openingPercent": {
+        "left": 19.813,
+        "top": 37.306,
+        "width": 70.436,
+        "height": 24.352
+      },
+      "openingTransparency": {
+        "componentThreshold": 24,
+        "componentPixels": 31347,
+        "fullyTransparentPixels": 27656,
+        "seed": [
+          562,
+          95
+        ]
+      }
+    },
+    "mp-vessel": {
+      "path": "/assets/v27/cards/gabriel/mp-vessel.png",
+      "sourceBox": [
+        537,
+        749,
+        1502,
+        945
+      ],
+      "dimensions": [
+        965,
+        196
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 94253,
+      "visibleEdgePixelsAbove24": 0,
+      "sha256": "ae8757d777066ec5569367012dee9bf566dd7c4fffa0dfa5e46c7e4dd3d316fe",
+      "opening": {
+        "x": 191,
+        "y": 74,
+        "w": 680,
+        "h": 46
+      },
+      "openingPercent": {
+        "left": 19.793,
+        "top": 37.755,
+        "width": 70.466,
+        "height": 23.469
+      },
+      "openingTransparency": {
+        "componentThreshold": 24,
+        "componentPixels": 30017,
+        "fullyTransparentPixels": 19312,
+        "seed": [
+          563,
+          101
+        ]
+      }
+    }
+  },
+  "measuredClearancesAboveAlpha24": {
+    "cardToRing": 50,
+    "ringToBars": 45,
+    "hpToMp": 29
+  },
+  "readyAt": "2026-10-03T20:16:11.851426+00:00",
+  "generatorOutputs": {
+    "initial": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-1afa-7611-900f-c84542197a68\\exec-660c17cf-1c3b-47e7-bb0a-efa10facd0ec.png",
+    "selected": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-1afa-7611-900f-c84542197a68\\exec-89dbd928-c93f-45a1-b576-bdbfce2488d5.png"
+  },
+  "archivedNavyCard": {
+    "path": "/assets/v27/cards/gabriel/card-frame.png",
+    "sourceBox": [
+      58,
+      61,
+      1490,
+      428
+    ],
+    "dimensions": [
+      1432,
+      367
+    ],
+    "alphaExtrema": [
+      0,
+      254
+    ],
+    "fullyTransparentPixels": 132117,
+    "visibleEdgePixelsAbove24": 0,
+    "sha256": "a50ce468969ecec59c86a6939eaec35b4b7c0379bb91de11e5b5a97861732300",
+    "source": "selected-atlas.png",
+    "archive": "card-frame-navy-archived.png"
+  },
+  "elementBackgroundEdit": {
+    "generator": "built-in image_gen",
+    "prompt": "element-background-prompt.txt",
+    "source": "element-background-source.png",
+    "generatorOutput": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-1afa-7611-900f-c84542197a68\\exec-7da45f14-c11b-43e3-ab59-93ba56859445.png",
+    "sourceDimensions": [
+      2043,
+      770
+    ],
+    "sourceSHA256": "3f5db37713912b5913014c308e1d3e4495fb000ffb54d3125fd1a2f28f735967",
+    "sourceAlphaExtrema": [
+      0,
+      255
+    ],
+    "sourceFullyTransparentPixels": 786970,
+    "readyAt": "2026-10-03T20:28:53.071377+00:00",
+    "scope": "Only card-frame; all portrait-ring/hp-vessel/mp-vessel hashes checked unchanged"
+  }
+}

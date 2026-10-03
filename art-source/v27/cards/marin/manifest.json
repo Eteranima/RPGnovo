@@ -1,0 +1,262 @@
+{
+  "hero": "marin",
+  "generator": "built-in image_gen",
+  "source": "selected-atlas.png",
+  "sourceDimensions": [
+    1536,
+    1024
+  ],
+  "sourceSHA256": "b2f808d536509627c9f0850a0fc3aa7d73bfbbbd40bdb40769badb76be53d43b",
+  "sourceAlphaExtrema": [
+    0,
+    254
+  ],
+  "sourceFullyTransparentPixels": 877347,
+  "alphaSilhouetteThreshold": 24,
+  "pixelOperations": "RGBA crop only; no resizing, painting, recoloring, alpha modification or background removal",
+  "assets": {
+    "card-frame": {
+      "path": "/assets/v27/cards/marin/card-frame.png",
+      "source": "element-background-source.png",
+      "sourceBox": [
+        0,
+        66,
+        1992,
+        634
+      ],
+      "dimensions": [
+        1992,
+        568
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "fullyTransparentPixels": 376323,
+      "visibleEdgePixelsAbove24": 0,
+      "elementPanelColor": "black",
+      "centerPanelSampleRGBA": [
+        9,
+        8,
+        12,
+        253
+      ],
+      "framePortraitOpening": {
+        "x": 170,
+        "y": 152,
+        "w": 295,
+        "h": 294
+      },
+      "framePortraitOpeningPercent": {
+        "left": 8.534,
+        "top": 26.761,
+        "width": 14.809,
+        "height": 51.761
+      },
+      "openingTransparency": {
+        "componentThreshold": 24,
+        "componentPixels": 67038,
+        "fullyTransparentPixels": 63837,
+        "seed": [
+          318,
+          301
+        ]
+      },
+      "sha256": "d1c11e08c80e996221b14a5c184a5f7f433b737697eacfd1e8240fe1831b9f4b"
+    },
+    "portrait-ring": {
+      "path": "/assets/v27/cards/marin/portrait-ring.png",
+      "sourceBox": [
+        46,
+        499,
+        479,
+        948
+      ],
+      "dimensions": [
+        433,
+        449
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 113967,
+      "visibleEdgePixelsAbove24": 0,
+      "sha256": "5db81fb256fa2b431c69653fb30a454288c326dffd28b9058daea0e94995495c",
+      "opening": {
+        "x": 73,
+        "y": 76,
+        "w": 288,
+        "h": 270
+      },
+      "openingPercent": {
+        "left": 16.859,
+        "top": 16.927,
+        "width": 66.513,
+        "height": 60.134
+      },
+      "openingTransparency": {
+        "componentThreshold": 24,
+        "componentPixels": 61332,
+        "fullyTransparentPixels": 56353,
+        "seed": [
+          218,
+          225
+        ]
+      }
+    },
+    "hp-vessel": {
+      "path": "/assets/v27/cards/marin/hp-vessel.png",
+      "sourceBox": [
+        520,
+        554,
+        1505,
+        737
+      ],
+      "dimensions": [
+        985,
+        183
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 84959,
+      "visibleEdgePixelsAbove24": 0,
+      "sha256": "71fe046b2eee9220f16b1322f598a9c08a105e11d8b9e232aaf070ca79c18434",
+      "opening": {
+        "x": 178,
+        "y": 75,
+        "w": 716,
+        "h": 47
+      },
+      "openingPercent": {
+        "left": 18.071,
+        "top": 40.984,
+        "width": 72.69,
+        "height": 25.683
+      },
+      "openingTransparency": {
+        "componentThreshold": 24,
+        "componentPixels": 32478,
+        "fullyTransparentPixels": 20395,
+        "seed": [
+          580,
+          101
+        ]
+      }
+    },
+    "mp-vessel": {
+      "path": "/assets/v27/cards/marin/mp-vessel.png",
+      "sourceBox": [
+        520,
+        753,
+        1506,
+        943
+      ],
+      "dimensions": [
+        986,
+        190
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 92695,
+      "visibleEdgePixelsAbove24": 0,
+      "sha256": "f3ec7182ecd5b2821f71ab86f5706b450321f9455bed6f1b8adb9ccea4c36869",
+      "opening": {
+        "x": 180,
+        "y": 79,
+        "w": 715,
+        "h": 48
+      },
+      "openingPercent": {
+        "left": 18.256,
+        "top": 41.579,
+        "width": 72.515,
+        "height": 25.263
+      },
+      "openingTransparency": {
+        "componentThreshold": 24,
+        "componentPixels": 33477,
+        "fullyTransparentPixels": 29753,
+        "seed": [
+          580,
+          102
+        ]
+      }
+    }
+  },
+  "measuredClearancesAboveAlpha24": {
+    "cardToRing": 42,
+    "ringToBars": 49,
+    "hpToMp": 24
+  },
+  "readyAt": "2026-10-03T20:16:11.859233+00:00",
+  "generatorOutputs": {
+    "initial": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-1afa-7611-900f-c84542197a68\\exec-2d866835-ec86-4b46-a47b-b8b5f8e623b6.png",
+    "selected": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-1afa-7611-900f-c84542197a68\\exec-8e6eb0e2-d056-4875-8ed9-949db8acdc50.png"
+  },
+  "archivedNavyCard": {
+    "path": "/assets/v27/cards/marin/card-frame.png",
+    "sourceBox": [
+      36,
+      56,
+      1515,
+      465
+    ],
+    "dimensions": [
+      1479,
+      409
+    ],
+    "alphaExtrema": [
+      0,
+      254
+    ],
+    "fullyTransparentPixels": 180111,
+    "visibleEdgePixelsAbove24": 0,
+    "sha256": "e4e097cabb61451398b52122c25d34540ef7a8b1ea7e9989cf88b26033b4db42",
+    "framePortraitOpening": {
+      "x": 125,
+      "y": 109,
+      "w": 221,
+      "h": 215
+    },
+    "framePortraitOpeningPercent": {
+      "left": 8.452,
+      "top": 26.65,
+      "width": 14.943,
+      "height": 52.567
+    },
+    "openingTransparency": {
+      "componentThreshold": 24,
+      "componentPixels": 36458,
+      "fullyTransparentPixels": 32929,
+      "seed": [
+        239,
+        219
+      ]
+    },
+    "source": "selected-atlas.png",
+    "archive": "card-frame-navy-archived.png"
+  },
+  "elementBackgroundEdit": {
+    "generator": "built-in image_gen",
+    "prompt": "element-background-prompt.txt",
+    "source": "element-background-source.png",
+    "generatorOutput": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-1afa-7611-900f-c84542197a68\\exec-1e8417d5-21a3-4363-8169-d67fd554b960.png",
+    "sourceDimensions": [
+      2060,
+      763
+    ],
+    "sourceSHA256": "915ddca8e149856a891b9ac6e3062a1927af96c5e305fcb1cf5eaf1b69dc45cc",
+    "sourceAlphaExtrema": [
+      0,
+      255
+    ],
+    "sourceFullyTransparentPixels": 816230,
+    "readyAt": "2026-10-03T20:28:54.601461+00:00",
+    "scope": "Only card-frame; all portrait-ring/hp-vessel/mp-vessel hashes checked unchanged"
+  }
+}

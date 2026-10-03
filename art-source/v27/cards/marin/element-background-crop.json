@@ -1,0 +1,112 @@
+{
+  "elementBackgroundEdit": {
+    "generator": "built-in image_gen",
+    "prompt": "element-background-prompt.txt",
+    "source": "element-background-source.png",
+    "generatorOutput": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-1afa-7611-900f-c84542197a68\\exec-1e8417d5-21a3-4363-8169-d67fd554b960.png",
+    "sourceDimensions": [
+      2060,
+      763
+    ],
+    "sourceSHA256": "915ddca8e149856a891b9ac6e3062a1927af96c5e305fcb1cf5eaf1b69dc45cc",
+    "sourceAlphaExtrema": [
+      0,
+      255
+    ],
+    "sourceFullyTransparentPixels": 816230,
+    "readyAt": "2026-10-03T20:28:54.601461+00:00",
+    "scope": "Only card-frame; all portrait-ring/hp-vessel/mp-vessel hashes checked unchanged"
+  },
+  "archivedNavyCard": {
+    "path": "/assets/v27/cards/marin/card-frame.png",
+    "sourceBox": [
+      36,
+      56,
+      1515,
+      465
+    ],
+    "dimensions": [
+      1479,
+      409
+    ],
+    "alphaExtrema": [
+      0,
+      254
+    ],
+    "fullyTransparentPixels": 180111,
+    "visibleEdgePixelsAbove24": 0,
+    "sha256": "e4e097cabb61451398b52122c25d34540ef7a8b1ea7e9989cf88b26033b4db42",
+    "framePortraitOpening": {
+      "x": 125,
+      "y": 109,
+      "w": 221,
+      "h": 215
+    },
+    "framePortraitOpeningPercent": {
+      "left": 8.452,
+      "top": 26.65,
+      "width": 14.943,
+      "height": 52.567
+    },
+    "openingTransparency": {
+      "componentThreshold": 24,
+      "componentPixels": 36458,
+      "fullyTransparentPixels": 32929,
+      "seed": [
+        239,
+        219
+      ]
+    },
+    "source": "selected-atlas.png",
+    "archive": "card-frame-navy-archived.png"
+  },
+  "cardFrame": {
+    "path": "/assets/v27/cards/marin/card-frame.png",
+    "source": "element-background-source.png",
+    "sourceBox": [
+      0,
+      66,
+      1992,
+      634
+    ],
+    "dimensions": [
+      1992,
+      568
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "fullyTransparentPixels": 376323,
+    "visibleEdgePixelsAbove24": 0,
+    "elementPanelColor": "black",
+    "centerPanelSampleRGBA": [
+      9,
+      8,
+      12,
+      253
+    ],
+    "framePortraitOpening": {
+      "x": 170,
+      "y": 152,
+      "w": 295,
+      "h": 294
+    },
+    "framePortraitOpeningPercent": {
+      "left": 8.534,
+      "top": 26.761,
+      "width": 14.809,
+      "height": 51.761
+    },
+    "openingTransparency": {
+      "componentThreshold": 24,
+      "componentPixels": 67038,
+      "fullyTransparentPixels": 63837,
+      "seed": [
+        318,
+        301
+      ]
+    },
+    "sha256": "d1c11e08c80e996221b14a5c184a5f7f433b737697eacfd1e8240fe1831b9f4b"
+  }
+}

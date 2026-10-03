@@ -1,0 +1,172 @@
+{
+  "character": "carmilla",
+  "tool": "built-in image_gen",
+  "source": "C:/Users/Diego/.codex/generated_images/01a1028e-5be8-7663-82a1-e9f4a5e52f9d/exec-c313c6d9-de9d-452c-89ad-a6b174b5077d.png",
+  "selected": "art-source/v27/cards/carmilla/atlas-selected.png",
+  "width": 1536,
+  "height": 1024,
+  "sourceSha256": "3837695669c3a14dbdbc70eccf2bca09c2b2c88795733de3735d2457561dd5b1",
+  "selectedIsByteIdentical": true,
+  "transparentPixels": 953130,
+  "partialAlphaPixels": 619734,
+  "alphaMeasurementThreshold": 16,
+  "export": "native crop only, no resize, no repaint, original RGBA pixels preserved",
+  "crops": {
+    "card-frame": {
+      "sourceCrop": {
+        "left": 2,
+        "top": 56,
+        "width": 2166,
+        "height": 612
+      },
+      "path": "public/assets/v27/cards/carmilla/card-frame.png",
+      "width": 2166,
+      "height": 612,
+      "sha256": "e200c64c710783c6504467b8fe82a312cd4c51645f844ec7f374f9de6d080525",
+      "nativePixelsPreserved": true,
+      "textRect": {
+        "x": 675.8362369337979,
+        "y": 148.14074074074074,
+        "w": 1219.233449477352,
+        "h": 276.81481481481484
+      },
+      "framePortraitOpening": {
+        "x": 100,
+        "y": 87,
+        "w": 409,
+        "h": 398,
+        "alphaOpening": true,
+        "method": "measured native alpha<=8 connected opening after background edit",
+        "centerAlpha": 0,
+        "centerX": 304.5,
+        "centerY": 286
+      },
+      "source": "art-source/v27/cards/carmilla/element-background-source.png",
+      "elementBackground": true
+    },
+    "portrait-ring": {
+      "sourceCrop": {
+        "left": 41,
+        "top": 470,
+        "width": 449,
+        "height": 500
+      },
+      "path": "public/assets/v27/cards/carmilla/portrait-ring.png",
+      "width": 449,
+      "height": 500,
+      "sha256": "9b89214d7fce2161a910c0faf5660eb3c8e0af7025bd47fe0081d80e0cd1e43d",
+      "nativePixelsPreserved": true,
+      "opening": {
+        "x": 73,
+        "y": 71,
+        "w": 302,
+        "h": 291,
+        "pixels": 68487,
+        "centerAlpha": 0,
+        "threshold": 8
+      }
+    },
+    "hp-vessel": {
+      "sourceCrop": {
+        "left": 540,
+        "top": 507,
+        "width": 960,
+        "height": 187
+      },
+      "path": "public/assets/v27/cards/carmilla/hp-vessel.png",
+      "width": 960,
+      "height": 187,
+      "sha256": "e350c375a93c14904f448b10ca3367e48e04ec347ca73e94784d118aac01695f",
+      "nativePixelsPreserved": true,
+      "opening": {
+        "x": 142,
+        "y": 57,
+        "w": 712,
+        "h": 51,
+        "pixels": 34973,
+        "centerAlpha": 0,
+        "threshold": 8
+      }
+    },
+    "mp-vessel": {
+      "sourceCrop": {
+        "left": 540,
+        "top": 745,
+        "width": 960,
+        "height": 186
+      },
+      "path": "public/assets/v27/cards/carmilla/mp-vessel.png",
+      "width": 960,
+      "height": 186,
+      "sha256": "cbf46b5bbb7578ab04b5d1ce55fac2766c0291e056e35129335941870f98f689",
+      "nativePixelsPreserved": true,
+      "opening": {
+        "x": 142,
+        "y": 58,
+        "w": 713,
+        "h": 52,
+        "pixels": 34861,
+        "centerAlpha": 0,
+        "threshold": 8
+      }
+    }
+  },
+  "framePortraitOpening": {
+    "x": 100,
+    "y": 87,
+    "w": 409,
+    "h": 398,
+    "alphaOpening": true,
+    "method": "measured native alpha<=8 connected opening after background edit",
+    "centerAlpha": 0,
+    "centerX": 304.5,
+    "centerY": 286
+  },
+  "elementBackground": {
+    "character": "carmilla",
+    "tool": "built-in image_gen",
+    "source": "C:/Users/Diego/.codex/generated_images/01a1028e-5be8-7663-82a1-e9f4a5e52f9d/exec-2bbb73dd-56e1-40a8-81b2-e8cba7c876fe.png",
+    "selected": "art-source/v27/cards/carmilla/element-background-source.png",
+    "sourceSha256": "c28d570c10a4e9ff20a392c8723081992b485179bf14995c4a813e798c44d9d7",
+    "sourceIsGeneratedCopy": true,
+    "originalNavy": "card-frame-blue-original.png",
+    "originalNavySha256": "8c2b2223747496233c87c26c60a15f08f66cbe2a6ec1544e7fd942eb760a0aba",
+    "canvas": {
+      "width": 2170,
+      "height": 725
+    },
+    "sourceCrop": {
+      "left": 2,
+      "top": 56,
+      "width": 2166,
+      "height": 612
+    },
+    "width": 2166,
+    "height": 612,
+    "sha256": "e200c64c710783c6504467b8fe82a312cd4c51645f844ec7f374f9de6d080525",
+    "nativePixelsPreserved": true,
+    "framePortraitOpening": {
+      "x": 100,
+      "y": 87,
+      "w": 409,
+      "h": 398,
+      "alphaOpening": true,
+      "method": "measured native alpha<=8 connected opening after background edit",
+      "centerAlpha": 0,
+      "centerX": 304.5,
+      "centerY": 286
+    },
+    "textRect": {
+      "x": 675.8362369337979,
+      "y": 148.14074074074074,
+      "w": 1219.233449477352,
+      "h": 276.81481481481484
+    },
+    "separateComponentsUnchanged": {
+      "portrait-ring": true,
+      "hp-vessel": true,
+      "mp-vessel": true
+    },
+    "visualReview": "Only background palette changed; complete single frame, original motifs and frontal proportions retained. Alpha exterior measured."
+  }
+}

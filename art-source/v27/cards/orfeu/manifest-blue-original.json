@@ -1,0 +1,121 @@
+{
+  "character": "orfeu",
+  "tool": "built-in image_gen",
+  "source": "C:/Users/Diego/.codex/generated_images/01a1028e-5be8-7663-82a1-e9f4a5e52f9d/exec-ea97ea63-0c27-4c1c-9a62-70006743d1b6.png",
+  "selected": "art-source/v27/cards/orfeu/atlas-selected.png",
+  "width": 1536,
+  "height": 1024,
+  "sourceSha256": "402a4a82bb8c58d6608ecef006019d75a9be12b3746a13c27ddeaa55c8841c04",
+  "selectedIsByteIdentical": true,
+  "transparentPixels": 880230,
+  "partialAlphaPixels": 692634,
+  "alphaMeasurementThreshold": 16,
+  "export": "native crop only, no resize, no repaint, original RGBA pixels preserved",
+  "crops": {
+    "card-frame": {
+      "sourceCrop": {
+        "left": 41,
+        "top": 32,
+        "width": 1457,
+        "height": 408
+      },
+      "path": "public/assets/v27/cards/orfeu/card-frame.png",
+      "width": 1457,
+      "height": 408,
+      "sha256": "85e4d85d057ab08475a85b011434ae563af469049b25bf522b9b7e7d2d232304",
+      "nativePixelsPreserved": true,
+      "textRect": {
+        "x": 459,
+        "y": 113,
+        "w": 810,
+        "h": 185
+      },
+      "framePortraitOpening": {
+        "x": 101,
+        "y": 96,
+        "w": 198,
+        "h": 221,
+        "method": "manual visible inner gold-rim bounds; painted fist covers the center, no transparent opening",
+        "alphaOpening": false,
+        "centerX": 200,
+        "centerY": 206.5
+      }
+    },
+    "portrait-ring": {
+      "sourceCrop": {
+        "left": 20,
+        "top": 440,
+        "width": 479,
+        "height": 517
+      },
+      "path": "public/assets/v27/cards/orfeu/portrait-ring.png",
+      "width": 479,
+      "height": 517,
+      "sha256": "d63f803db2746a20adddb66b4c96948d8bbd5fa039b87c9d20723fdf3b907080",
+      "nativePixelsPreserved": true,
+      "opening": {
+        "x": 94,
+        "y": 128,
+        "w": 290,
+        "h": 274,
+        "pixels": 62660,
+        "centerAlpha": 0,
+        "threshold": 8
+      }
+    },
+    "hp-vessel": {
+      "sourceCrop": {
+        "left": 514,
+        "top": 480,
+        "width": 1000,
+        "height": 226
+      },
+      "path": "public/assets/v27/cards/orfeu/hp-vessel.png",
+      "width": 1000,
+      "height": 226,
+      "sha256": "8c58b582b2e92a82d65b8b5d1cc18521d47373c4e8c4d176b1c2460cf7a4aba7",
+      "nativePixelsPreserved": true,
+      "opening": {
+        "x": 194,
+        "y": 74,
+        "w": 662,
+        "h": 63,
+        "pixels": 40706,
+        "centerAlpha": 0,
+        "threshold": 8
+      }
+    },
+    "mp-vessel": {
+      "sourceCrop": {
+        "left": 514,
+        "top": 710,
+        "width": 1000,
+        "height": 225
+      },
+      "path": "public/assets/v27/cards/orfeu/mp-vessel.png",
+      "width": 1000,
+      "height": 225,
+      "sha256": "0c6d7da70b0c99e2d918294e6f4f36ea1abab8a3caf2a70739b4d3e70ddf75b8",
+      "nativePixelsPreserved": true,
+      "opening": {
+        "x": 194,
+        "y": 73,
+        "w": 661,
+        "h": 64,
+        "pixels": 40855,
+        "centerAlpha": 0,
+        "threshold": 8
+      }
+    }
+  },
+  "framePortraitOpening": {
+    "x": 101,
+    "y": 96,
+    "w": 198,
+    "h": 221,
+    "method": "manual visible inner gold-rim bounds; painted fist covers the center, no transparent opening",
+    "alphaOpening": false,
+    "centerX": 200,
+    "centerY": 206.5
+  }
+}

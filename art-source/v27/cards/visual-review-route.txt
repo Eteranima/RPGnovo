@@ -1,0 +1,18 @@
+'use client';
+// Temporary visual fixture: renders real cards, no engine or save operations.
+import {useState} from 'react';
+import {HeroCard,type CardHeroDisplay} from '@/components/hero-card';
+import {heroBases} from '@/lib/game/data';
+import {SUMMONED_HEROES} from '@/lib/game/summons';
+
+export default function CardsReview(){
+ const [large,setLarge]=useState(false),[lycan,setLycan]=useState(false);
+ const cards:CardHeroDisplay[]=heroBases().map(h=>({...h,hp:large?9876:Math.round(h.maxHp*.76),maxHp:large?9999:h.maxHp,mp:large?1234:Math.round(h.maxMp*.42),maxMp:large?9999:h.maxMp}));
+ const abel=SUMMONED_HEROES.find(h=>h.id==='abel')!;
+ cards.push({id:'abel',name:abel.name,element:abel.element,portrait:abel.art});
+ return <main className="cards-review"><style>{`html,body{height:auto;min-height:100dvh;overflow:auto}.cards-review{position:relative;min-height:100dvh;padding:14px;background:#081728}.cards-review h1{font-size:20px;margin:0 0 8px}.cards-review nav{display:flex;gap:10px;margin-bottom:14px}.cards-review nav button{background:#183343;color:#fff0d0;border:1px solid #bca779;padding:8px}.cards-review-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.cards-review-grid article{min-width:0;padding-bottom:6px}.cards-review-grid article>p{font-size:12px;margin:3px 12px;color:#c9d6e5}.cards-review .character-card{max-width:100%}@media(max-width:1100px){.cards-review-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:650px){.cards-review-grid{grid-template-columns:1fr}.cards-review{padding:10px}}`}</style>
+ <h1>Revisão dos dez kits exclusivos · sem alterar a partida</h1>
+ <nav><button onClick={()=>setLarge(v=>!v)}>{large?'Valores normais':'Valores de quatro dígitos'}</button><button onClick={()=>setLycan(v=>!v)}>{lycan?'Gabriel humano':'Gabriel lycan'}</button></nav>
+ <section className="cards-review-grid">{cards.map(h=><article key={h.id}><HeroCard h={h} lycan={lycan} active={h.id==='ava'} detail={h.id==='abel'?'Fogo e leão · kit de convocação':undefined}/><p>{({ava:'Flores e Terra',seiji:'Tinta e kanjis',ophelia:'Gelo e cura',gabriel:'Fogo e lycan',marin:'Escuridão e sombras',max:'Eletricidade e pregos',carmilla:'Sangue e costuras',beatriz:'Água e escuridão',abel:'Fogo e leão',orfeu:'Anti-magia e combate físico'}[h.id])}</p></article>)}</section>
+ </main>;
+}

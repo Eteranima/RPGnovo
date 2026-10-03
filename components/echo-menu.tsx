@@ -7,6 +7,8 @@ import {COSMETICS,RARITIES,cosmeticById,cosmeticOf} from '@/lib/game/cosmetics';
 import {RelicIcon,GachaAnimation} from './relic-art';
 import {GameIcon} from './game-icon';
 import {SUMMONED_HEROES,summonedById} from '@/lib/game/summons';
+import {HeroCard} from './hero-card';
+import {isHeroCardId} from '@/lib/game/heroCardArt';
 
 export function SummonMenu({s,engine,initialFocus,onClose}:{s:Snapshot;engine:GameEngine;initialFocus?:string;onClose:()=>void}){
  const [detail,setDetail]=useState(initialFocus||s.progress.lastSummon||'');const [expanded,setExpanded]=useState<string|null>(null);const p=s.progress,chosen=summonedById(detail),world=s.mode==='world';
@@ -19,13 +21,13 @@ export function SummonMenu({s,engine,initialFocus,onClose}:{s:Snapshot;engine:Ga
  <details className="gacha-rules"><summary>Regras do banner</summary><div className="rarity-odds"><span>3★ <b>78%</b></span><span>4★ <b>20%</b></span><span>5★ <b>2%</b></span></div><p>Uma duplicata concede Fragmentos de Alma, Cristais e uma constelação (até 6). Carmilla não integra a roleta: complete todas as conquistas ou ative o Modo Mestre. Auras cosméticas permanecem no Relicário abaixo.</p></details>
  <h3 className="menu-subheading">Lista de Espera · {p.summoned.length}/{SUMMONED_HEROES.length}</h3>
  <div className="menu-grid summon-roster">{SUMMONED_HEROES.map(hero=>{
-  const owned=p.summoned.includes(hero.id),bonded=p.bonded.includes(hero.id),opened=expanded===hero.id;
+  const owned=p.summoned.includes(hero.id),bonded=p.bonded.includes(hero.id),opened=expanded===hero.id,cardId=hero.hero||hero.id;
   const destination=hero.id==='orfeu'?'arquivo':hero.id==='ava'?'domo':'patio';
   const place=destination==='arquivo'?'Arquivo Central':destination==='domo'?'Domo de Herbologia':'Pátio Central';
   return <article className={`summon-card ${owned?'owned':'unowned'} ${opened?'expanded':''}`} key={hero.id} style={{'--summon-accent':hero.accent} as React.CSSProperties}>
    <div className="summon-card-stage">
-    {hero.art?<img className="summon-character-art" src={hero.art} alt="" loading="lazy"/>:<span className="summon-card-sigil" aria-hidden="true">✦</span>}
-    <div className="summon-card-identity"><small>{hero.rarity}★ · {hero.element}</small><h4>{hero.name}</h4><span>{hero.role}</span></div>
+    <img className="summon-character-art" src={hero.art||ASSETS[`dlg_${cardId}`]} alt="" loading="lazy"/>
+    {isHeroCardId(cardId)&&<HeroCard className="summon-character-card" h={{id:cardId,name:hero.name,element:hero.element,portrait:hero.art}} showVitals={false} detail={`${hero.rarity}★ · ${hero.role}`}/>}
     <div className="summon-card-detail" aria-hidden={!opened}><p>{hero.description}</p><strong>{hero.ultimate}</strong><small>Constelação {p.constellations[hero.id]||0}/6</small></div>
    </div>
    <div className="summon-card-actions">
