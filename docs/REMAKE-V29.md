@@ -8,6 +8,10 @@ Seiji, Ophelia, Marin, Gabriel humano/lycan, Max, Beatriz e Carmilla recebem nov
 
 As novas imagens são geradas com o imagegen integrado, seguindo referências locais de identidade e o padrão anime adulto da Ava/Orfeu. Fontes, prompts, transparência, recortes e âncoras ficam em `art-source/v29/`; artes do jogo em `public/assets/v29/`. A exportação preserva os pixels RGBA gerados, inclusive nos recortes de rosto e ícones individuais.
 
+Entrega artística: 60 imagens selecionadas de personagens (9 retratos, 8 caminhadas, 9 ataques, 9 conjurações, 9 ultimates, 8 folhas de efeitos e 8 folhas de ícones). Há 9 recortes de rosto e 48 ícones individuais. Com a nova placa de comandos, são 118 PNGs runtime nativos (170.013.172 bytes). Os atlases têm 372 quadros únicos; 384 registros incluem os efeitos/ícones de Gabriel reutilizados pela forma lycan. Os 372 quadros são medidos, com bordas sem pixels visíveis de alpha maior que 24. Fontes rejeitadas e seus reparos ficam documentados; não são usadas no jogo.
+
+Modo de ferramenta: `image_gen` integrado, geração/edição guiada por referências locais. Prompts e manifests por personagem: `art-source/v29/{seiji,ophelia,gabriel,gabriel_lycan,marin,max,carmilla,beatriz,abel}`. A placa vazia de habilidades foi editada a partir da arte aprovada v28; prompt e prova de exportação nativa em `art-source/v29/ui/`.
+
 ## Técnicas de assinatura
 
 | Herói | Técnica | Efeito base | MP |
@@ -36,7 +40,7 @@ São desbloqueadas em novos nós da árvore. Equipamentos continuam escalando os
 | Carmilla | Catedral de Fios Rubros | Transferência aprovada, limpeza dos tratados e guarda |
 | Abel | Leão do Fogo Primordial | Apresentação visual de Fogo/leão no catálogo |
 
-Ultimates jogáveis mantêm carga100 e impacto adiado na sequência de4,8s. Novos tempos de pose preservam antecipação, golpe e recuperação; as cinemáticas têm câmera específica por personagem. O catálogo mostra as folhas reais, com controle de pausa, sem consumir recursos ou alterar a partida.
+Ultimates jogáveis mantêm carga 100 e impacto adiado na sequência de 4,8 s. Novos tempos de pose preservam antecipação, golpe e recuperação; as cinemáticas têm câmera específica por personagem. O catálogo mostra as folhas reais e o efeito próprio, com controle de pausa, sem consumir recursos ou alterar a partida. A prévia respeita movimento reduzido ao iniciar e permite reprodução explícita pelo botão. Pausar conserva o quadro atual.
 
 ## Compatibilidade e desempenho
 
@@ -46,4 +50,10 @@ Retratos pequenos usam recortes medidos de rosto. Placas de habilidades acomodam
 
 ## Validação
 
-Em andamento: inspeção dos kits e suas correções de anatomia/isolamento, integração dos módulos medidos, revisão em tela e validação final de compilação. Os testes iniciais das oito técnicas, sete ultimates e identidade elemental passaram. Os resultados finais serão registrados após a revisão visual.
+- Suíte completa: 17 arquivos de teste passaram, incluindo elementos, áudio/mute, MAIL/recrutamento, migração de saves, navegação e progressão.
+- Arte v29: 1.760 verificações passaram para kits completos, dimensões nativas, transparência, limites, motivos, ícones, rostos, todos os tempos de pose e exceções Ava/Orfeu.
+- Formação: 1.978 verificações, 300 posicionamentos em 1310×235 e 844×205, grupos de 1–5, nove heróis e Gabriel lycan. Menor distância do nome à silhueta no repouso: 11,74 px; menor separação do inimigo: 84,51 px. A extensão temporária de armas/magias é parte da ação.
+- Mecânicas v29: oito técnicas e sete ultimates com impacto adiado, MP/desbloqueio/silêncio, aliados vivos, efeito lunar3 e save antigo. Os dois testes v29 foram repetidos após os ajustes concretos da revisão e passaram.
+- Inspeção visual: formações, sprites de comandos e novas cinemáticas em 1310×572; combate com cinco integrantes em 844×390; catálogo em 390×844. Reproduzir avançou os quadros; Pausar manteve o mesmo quadro. Ophélia enfrenta o grupo no duelo e usa gelo. Sutura mostra separadamente sangue no inimigo e cura no aliado correto.
+- Capturas em `docs/qa-v29/`. A revisão visual usou uma partida isolada sem ler/gravar save, inclusive quadros fixos para conferir composição. O cenário temporário foi removido das rotas do jogo; seu código está arquivado como texto em `art-source/v29/review-fixture.txt`. A funcionalidade real é verificada pelos testes do motor.
+- Não apareceram erros/avisos no console da última revisão do duelo. Mãos, anatomia, identidade e direções foram inspecionadas nas artes, sem afirmar ausência absoluta de defeitos em conteúdo gerado.
