@@ -1,0 +1,100 @@
+{
+  "id": "attack",
+  "labelForRuntimeOnly": "Atacar: uma lâmina",
+  "generatedWith": "built-in image_gen imagegen",
+  "createdAtUtc": "2026-10-03T21:57:06.187256+00:00",
+  "references": [
+    {
+      "path": "public/assets/v26/ui/travel-plaque.png",
+      "sha256": "733eedd33c29d4665247ae47c89ec61e7cfc3401fe1db86ae1d78c56d25cbb88",
+      "role": "style reference, inspected before generation"
+    },
+    {
+      "path": "public/assets/v26/ui/party-panel.png",
+      "sha256": "1e6fc3d57924dab102c0f1886067f3e9655f8c1b4795b7451cf53fe9065eba1a",
+      "role": "style reference, inspected before generation"
+    }
+  ],
+  "source": {
+    "path": "art-source/v28/combat/attack/selected-source.png",
+    "originalGeneratorPath": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-1afa-7611-900f-c84542197a68\\exec-1c85a6c1-cb68-48d8-a548-394205387580.png",
+    "sha256": "8a38fca0fc69fdc90b2e3e307c1cc43fee02a236676c9a620cdbef7f3b2a0e29",
+    "width": 2172,
+    "height": 724,
+    "mode": "RGBA",
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "fullyTransparentPixels": 663399,
+    "nativeAlphaBBox": [
+      13,
+      20,
+      2160,
+      724
+    ],
+    "visibleAlphaBBoxOver24": [
+      16,
+      67,
+      2158,
+      613
+    ],
+    "visiblePixelsOnSourceEdges": 0
+  },
+  "crop": {
+    "rect": [
+      8,
+      59,
+      2166,
+      621
+    ],
+    "boundsConvention": "left/top/right/bottom; right and bottom exclusive",
+    "visibleAlphaThreshold": 24,
+    "paddingPixels": 8,
+    "pixelOperation": "native RGBA crop only, no resize or repaint; preserved original alpha within crop"
+  },
+  "runtime": {
+    "path": "public/assets/v28/combat/attack.png",
+    "sha256": "3879da9a13ea824d348cfb5c4ca4ed76b850f53c5658cb26e7e31aab50018cf8",
+    "width": 2158,
+    "height": 562,
+    "aspectRatio": 3.839858,
+    "mode": "RGBA",
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "fullyTransparentPixels": 304109,
+    "visiblePixelsOnEdges": 0,
+    "pixelsIdenticalToNativeSourceCrop": true,
+    "clearLabelRect": [
+      690,
+      140,
+      1899,
+      421
+    ],
+    "clearLabelAlphaExtrema": [
+      251,
+      254
+    ],
+    "centerRgba": [
+      13,
+      37,
+      77,
+      253
+    ]
+  },
+  "composition": {
+    "individualSprite": true,
+    "generatedText": false,
+    "emblem": "left side, approximately 18–22% width",
+    "clearDomLabelAreaPercent": {
+      "left": 32,
+      "top": 25,
+      "width": 56,
+      "height": 50
+    },
+    "nativeAspectNote": "The generated plaque is somewhat longer than the requested approximate 3:1 family shape; no distortion was applied to the source."
+  },
+  "review": "Source visually inspected with built-in view_image: complete plaque, legible unique command emblem, no added text, navy painted label region and transparent exterior."
+}

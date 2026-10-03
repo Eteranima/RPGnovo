@@ -1,0 +1,42 @@
+{
+  "sprite": "skills",
+  "tool": "built-in image_gen",
+  "generatedSource": "C:/Users/Diego/.codex/generated_images/01a1028e-5be8-7663-82a1-e9f4a5e52f9d/exec-5fb0639a-adc3-4e92-8689-38738034f400.png",
+  "selected": "art-source/v28/combat/skills/source.png",
+  "sourceSha256": "22acd4cd4c95d391b1b60406ddec2d53274ce8034e8f22ab61f4322d8380e5c3",
+  "selectedSha256": "22acd4cd4c95d391b1b60406ddec2d53274ce8034e8f22ab61f4322d8380e5c3",
+  "sourceCopyByteIdentical": true,
+  "sourceSize": {
+    "width": 2172,
+    "height": 724
+  },
+  "sourceTransparentPixels": 667773,
+  "sourceVisibleEdgePixels": 0,
+  "alphaCropThreshold": 24,
+  "cropMargin": 8,
+  "crop": {
+    "left": 43,
+    "top": 91,
+    "width": 2087,
+    "height": 521
+  },
+  "path": "public/assets/v28/combat/skills.png",
+  "width": 2087,
+  "height": 521,
+  "ratio": 4.005758157389636,
+  "sha256": "f5341a6831832a8817eca51a3374e34abd036462cb3d8d64c68f76a873062e30",
+  "allNativeRgbaPixelsPreserved": true,
+  "cornersAlpha": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "paintedInteriorAlpha": 253,
+  "textSafeArea": {
+    "x": 668,
+    "y": 130,
+    "w": 1169,
+    "h": 261
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "tool": "built-in image_gen",
+  "source": "C:/Users/Diego/.codex/generated_images/01a0fe9c-5a05-7ae0-b816-392e2a3c966b/exec-51b6a9e1-c38d-4512-85b4-79442733d918.png",
+  "selected": "art-source/v28/cards/carmilla/source.png",
+  "output": "public/assets/v28/cards/carmilla/card-frame.png",
+  "sourceCanvas": {
+    "width": 2172,
+    "height": 724
+  },
+  "crop": {
+    "left": 0,
+    "top": 55,
+    "width": 2172,
+    "height": 616
+  },
+  "nativePixelsPreserved": true,
+  "sourceSha256": "9c5b33a641ff31800990a1f9752b3c6fa5540cf85ad99a77ab62cf79fa3405f0",
+  "outputSha256": "f354cadcd5a029a5994ee487e99e20cb479d13b5fe44144e2983db85250f4aa4",
+  "interiorCoverage": [
+    {
+      "x": 0.145,
+      "y": 0.48,
+      "rx": 0.055,
+      "ry": 0.21,
+      "samples": 48554,
+      "below255": 48554,
+      "minimumAlpha": 252,
+      "histogram": {
+        "252": 5820,
+        "253": 42734
+      }
+    },
+    {
+      "x": 0.63,
+      "y": 0.48,
+      "rx": 0.28,
+      "ry": 0.19,
+      "samples": 223622,
+      "below255": 223622,
+      "minimumAlpha": 252,
+      "histogram": {
+        "252": 31936,
+        "253": 191686
+      }
+    }
+  ],
+  "portraitBacking": {
+    "left": 77,
+    "top": 69,
+    "width": 437,
+    "height": 471,
+    "center": {
+      "left": 13.581952117863718,
+      "top": 49.35064935064935
+    },
+    "method": "Native contiguous crimson inside the gold portrait rim"
+  },
+  "exteriorAlphaPreserved": true,
+  "visualReview": "Left portrait opening now has a painted crimson backing with alpha at least252; no clear holes. Original motifs and clear exterior retained."
+}

@@ -1,0 +1,106 @@
+{
+  "id": "actions",
+  "labelForRuntimeOnly": "Ações: duas espadas cruzadas",
+  "generatedWith": "built-in image_gen imagegen",
+  "createdAtUtc": "2026-10-03T21:57:05.134811+00:00",
+  "references": [
+    {
+      "path": "public/assets/v26/ui/travel-plaque.png",
+      "sha256": "733eedd33c29d4665247ae47c89ec61e7cfc3401fe1db86ae1d78c56d25cbb88",
+      "role": "style reference, inspected before generation"
+    },
+    {
+      "path": "public/assets/v26/ui/party-panel.png",
+      "sha256": "1e6fc3d57924dab102c0f1886067f3e9655f8c1b4795b7451cf53fe9065eba1a",
+      "role": "style reference, inspected before generation"
+    }
+  ],
+  "source": {
+    "path": "art-source/v28/combat/actions/selected-source.png",
+    "originalGeneratorPath": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-1afa-7611-900f-c84542197a68\\exec-ecea696c-093c-4da7-987b-03e6a56621cf.png",
+    "sha256": "1d893a0c3f98d10996d8fae652e69151ff0bef5e64929102501edafa400a38a8",
+    "width": 2092,
+    "height": 752,
+    "mode": "RGBA",
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "fullyTransparentPixels": 746133,
+    "nativeAlphaBBox": [
+      57,
+      54,
+      2042,
+      728
+    ],
+    "visibleAlphaBBoxOver24": [
+      59,
+      74,
+      2040,
+      647
+    ],
+    "visiblePixelsOnSourceEdges": 0
+  },
+  "crop": {
+    "rect": [
+      51,
+      66,
+      2048,
+      655
+    ],
+    "boundsConvention": "left/top/right/bottom; right and bottom exclusive",
+    "visibleAlphaThreshold": 24,
+    "paddingPixels": 8,
+    "pixelOperation": "native RGBA crop only, no resize or repaint; preserved original alpha within crop"
+  },
+  "runtime": {
+    "path": "public/assets/v28/combat/actions.png",
+    "sha256": "9a0ee0a4052c9c9ae46c057fdf576b99604177ba59a574bfac495fe03cc12935",
+    "width": 1997,
+    "height": 589,
+    "aspectRatio": 3.390492,
+    "mode": "RGBA",
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "fullyTransparentPixels": 349213,
+    "visiblePixelsOnEdges": 0,
+    "pixelsIdenticalToNativeSourceCrop": true,
+    "clearLabelRect": [
+      639,
+      147,
+      1757,
+      441
+    ],
+    "clearLabelAlphaExtrema": [
+      252,
+      254
+    ],
+    "centerRgba": [
+      5,
+      30,
+      72,
+      253
+    ]
+  },
+  "composition": {
+    "individualSprite": true,
+    "generatedText": false,
+    "emblem": "left side, approximately 18–22% width",
+    "clearDomLabelAreaPercent": {
+      "left": 32,
+      "top": 25,
+      "width": 56,
+      "height": 50
+    },
+    "nativeAspectNote": "The generated plaque is somewhat longer than the requested approximate 3:1 family shape; no distortion was applied to the source."
+  },
+  "review": "Source visually inspected with built-in view_image: complete plaque, legible unique command emblem, no added text, navy painted label region and transparent exterior.",
+  "refinement": {
+    "reason": "initial left/right tip contained 2 visible pixels on canvas edges; only external-margin refinement requested",
+    "initialSource": "art-source/v28/combat/actions/initial-source.png",
+    "initialSha256": "01a559cef56ce9c6f0029af550edbc80a5deacccbc5522f64ca27297289b2a3c",
+    "prompt": "art-source/v28/combat/actions/margin-refinement-prompt.txt"
+  }
+}

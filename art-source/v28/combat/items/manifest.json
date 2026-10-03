@@ -1,0 +1,42 @@
+{
+  "sprite": "items",
+  "tool": "built-in image_gen",
+  "generatedSource": "C:/Users/Diego/.codex/generated_images/01a1028e-5be8-7663-82a1-e9f4a5e52f9d/exec-e82a8029-f48b-42b5-b0e4-06885a6d6e65.png",
+  "selected": "art-source/v28/combat/items/source.png",
+  "sourceSha256": "9a06c1cd4d305be0303784e8dd76a413ada2acf40a069d36e0f36b7369ad8a6c",
+  "selectedSha256": "9a06c1cd4d305be0303784e8dd76a413ada2acf40a069d36e0f36b7369ad8a6c",
+  "sourceCopyByteIdentical": true,
+  "sourceSize": {
+    "width": 2172,
+    "height": 724
+  },
+  "sourceTransparentPixels": 611364,
+  "sourceVisibleEdgePixels": 0,
+  "alphaCropThreshold": 24,
+  "cropMargin": 8,
+  "crop": {
+    "left": 39,
+    "top": 84,
+    "width": 2095,
+    "height": 548
+  },
+  "path": "public/assets/v28/combat/items.png",
+  "width": 2095,
+  "height": 548,
+  "ratio": 3.822992700729927,
+  "sha256": "178819e984c7fdab13b20ff9e5dfb6e0bb6413d0efb538b38b5ef20a985d137e",
+  "allNativeRgbaPixelsPreserved": true,
+  "cornersAlpha": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "paintedInteriorAlpha": 252,
+  "textSafeArea": {
+    "x": 670,
+    "y": 137,
+    "w": 1173,
+    "h": 274
+  }
+}

@@ -1,0 +1,34 @@
+'use client';
+// Temporary visual fixture: no game-save reads or writes, removed before final build.
+import Home from '../page';
+import { GameEngine, type Battle } from '@/lib/game/engine';
+import { freshProgression, deriveHeroes, TREE } from '@/lib/game/progression';
+import type { HeroId } from '@/lib/game/data';
+
+GameEngine.prototype.hydrate = function () {
+  const query = new URLSearchParams(window.location.search);
+  const parties: Record<string, HeroId[]> = {
+    '1': ['carmilla'],
+    '2': ['seiji', 'ophelia'],
+    '3': ['seiji', 'ophelia', 'ava'],
+    '4': ['carmilla', 'ophelia', 'seiji', 'ava'],
+    '5': ['carmilla', 'ophelia', 'seiji', 'ava', 'gabriel'],
+  };
+  const party = parties[query.get('party') || '4'] || parties['4'];
+  const p = freshProgression();
+  p.masterMode = true; p.party = party; p.recruited = party;
+  p.summoned = ['carmilla', 'ava']; p.bonded = ['carmilla', 'ava'];
+  p.learned = TREE.map(node => node.id); p.xp = 80;
+  if (query.get('charged') === '1') for (const id of party) p.limit[id] = 100;
+  this.state.progress = p;
+  this.state.heroes = deriveHeroes(p).map(h => ({ ...h, hp: Math.max(1, h.maxHp - 20), mp: Math.max(0, h.maxMp - 12) }));
+  this.state.map = 'subsolo'; this.state.position = { x: 14, y: 11 };
+  this.state.stage = 2; this.state.mode = 'battle';
+  this.state.credits = 240; this.state.potions = 3; this.state.ethers = 2; this.state.remedies = 2;
+  const actor = party.find(id => id === query.get('actor')) || (party.includes('seiji') ? 'seiji' : party[0]);
+  const battle: Battle = { entityId: 'qa-wolf', family: 'lobo', name: 'Lobo de Éter · rastro norte', boss: false, asset: 'wolf', hp: 1200, maxHp: 1200, spd: 12, damage: 16, baseDamage: 16, xp: 20, credits: 40, round: 1, queue: [actor, ...party.filter(id => id !== actor), 'enemy'], index: 0, weakened: false, log: ['O Éter transbordado avança.'], busy: false, flash: 0, statuses: { enemy: [] }, phase: 1, bossCharge: 0, difficulty: 1, dropChance: 0, freezeUsed: false };
+  this.state.battle = battle; this.state.hasSave = false;
+  this.save = () => false;
+  this.emit();
+};
+export default Home;

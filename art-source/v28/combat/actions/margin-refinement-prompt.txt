@@ -1,0 +1,5 @@
+Use case: precise-object-edit.
+Asset type: Éter Anima final transparent individual combat button sprite.
+Input image 1 is the edit target. Preserve its entire existing silver/champagne-gold/navy crossed-swords button design: exactly two swords, all ornament, painted navy interior, colors, contours and blank label area. Change ONLY the amount of transparent canvas surrounding the complete existing button.
+The current left and right pointed frame tips nearly meet the canvas edges. Give the full complete uncut plaque at least 6% genuinely alpha-zero clear canvas on all four sides, including both side tips and the top/bottom diamond tips. Center the plaque inside a comfortably larger transparent canvas. Do not crop its tips, do not add another plate, do not change the icon, do not add text, do not add glow, shadow or background.
+Keep a single fully visible frontal long plaque with broad blank navy area on the central/right side; real transparent exterior. Preserve the existing polished 2D anime fantasy cel-shaded rendering and fine silver/champagne material. One image, one isolated full button.

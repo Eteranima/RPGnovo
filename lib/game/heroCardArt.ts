@@ -69,7 +69,8 @@ export const HERO_CARD_ART: Record<HeroCardId, HeroCardArtwork> = {
   },
   carmilla: {
     ...kit('carmilla'),
-    portraitCenter: { left: 14.058, top: 46.732 },
+    frame: '/assets/v28/cards/carmilla/card-frame.png',
+    portraitCenter: { left: 13.582, top: 49.351 },
     portraitAperture: { left: 19.700, top: 14.200, width: 60.400, height: 58.200 },
     hpAperture: { left: 14.792, top: 30.481, width: 74.167, height: 27.273 },
     mpAperture: { left: 14.792, top: 31.183, width: 74.271, height: 27.957 },

@@ -1,0 +1,42 @@
+{
+  "sprite": "flee",
+  "tool": "built-in image_gen",
+  "generatedSource": "C:/Users/Diego/.codex/generated_images/01a1028e-5be8-7663-82a1-e9f4a5e52f9d/exec-9f2f775c-2d0d-48bf-9ff3-b8d4d1d2cd0e.png",
+  "selected": "art-source/v28/combat/flee/source.png",
+  "sourceSha256": "069f4e9150a86d82b20e95e0388894d41b42e42710aee7fff3ffa0e9b26f9ab9",
+  "selectedSha256": "069f4e9150a86d82b20e95e0388894d41b42e42710aee7fff3ffa0e9b26f9ab9",
+  "sourceCopyByteIdentical": true,
+  "sourceSize": {
+    "width": 2164,
+    "height": 727
+  },
+  "sourceTransparentPixels": 626693,
+  "sourceVisibleEdgePixels": 0,
+  "alphaCropThreshold": 24,
+  "cropMargin": 8,
+  "crop": {
+    "left": 12,
+    "top": 77,
+    "width": 2141,
+    "height": 533
+  },
+  "path": "public/assets/v28/combat/flee.png",
+  "width": 2141,
+  "height": 533,
+  "ratio": 4.016885553470919,
+  "sha256": "87e2fb82e141ea30bffab87105108f46600e55585cd9eb66f63d92c347f53720",
+  "allNativeRgbaPixelsPreserved": true,
+  "cornersAlpha": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "paintedInteriorAlpha": 253,
+  "textSafeArea": {
+    "x": 685,
+    "y": 133,
+    "w": 1199,
+    "h": 267
+  }
+}
