@@ -1,0 +1,1804 @@
+{
+  "schema": 2,
+  "source": "art-source/v33/opening/clips/04-marin-fixed.mp4",
+  "sourceSHA256": "186d4962c7f96910bd53b806dae6853ef5e05952f557afa59a5ccf7b4143a89c",
+  "sourceBytes": 6371645,
+  "actualDecodedFrames": 192,
+  "sourceResolution": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 24,
+  "videoDurationSeconds": 8,
+  "containerDurationSeconds": 8,
+  "audio": [
+    {
+      "codec": "aac",
+      "sampleRate": "48000",
+      "channels": 2,
+      "duration": "8.000000"
+    }
+  ],
+  "full": [
+    {
+      "sample": 0,
+      "seconds": 0,
+      "sourceIndex": 0,
+      "sourceTime": 0,
+      "relativeTime": 0,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/marin-fixed-source/full/frame-00.png",
+      "pngSHA256": "6f44d8b1c5a71edf6820868d32018ec295f5b1568925f5b5c9d57aabe8b3cad8"
+    },
+    {
+      "sample": 1,
+      "seconds": 0.5,
+      "sourceIndex": 12,
+      "sourceTime": 0.5,
+      "relativeTime": 0.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/marin-fixed-source/full/frame-01.png",
+      "pngSHA256": "fc6221779af923c5b256e552f46f4bcc67a85a743290f4e0216c4d1d03d1da9c"
+    },
+    {
+      "sample": 2,
+      "seconds": 1,
+      "sourceIndex": 24,
+      "sourceTime": 1,
+      "relativeTime": 1,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/marin-fixed-source/full/frame-02.png",
+      "pngSHA256": "fc2b14371901da4a72ed31610c243b0b78f53ddcd20caea4761d4d0fcfddbd5a"
+    },
+    {
+      "sample": 3,
+      "seconds": 1.5,
+      "sourceIndex": 36,
+      "sourceTime": 1.5,
+      "relativeTime": 1.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/marin-fixed-source/full/frame-03.png",
+      "pngSHA256": "d389a25168dfe285cb1a8c31aeb9dd66a917a725a8d60f731f9ed2e9af00b414"
+    },
+    {
+      "sample": 4,
+      "seconds": 2,
+      "sourceIndex": 48,
+      "sourceTime": 2,
+      "relativeTime": 2,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/marin-fixed-source/full/frame-04.png",
+      "pngSHA256": "0920a66f4dff9e6fa58b6b8e573cbfe9f331e9734b0a6ad6d38ff14c37991309"
+    },
+    {
+      "sample": 5,
+      "seconds": 2.5,
+      "sourceIndex": 60,
+      "sourceTime": 2.5,
+      "relativeTime": 2.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/marin-fixed-source/full/frame-05.png",
+      "pngSHA256": "78105acd1f9bf3d6dfcec2f4e7b1229a0292414c3a5b2d4c63f50f96f8359342"
+    },
+    {
+      "sample": 6,
+      "seconds": 3,
+      "sourceIndex": 72,
+      "sourceTime": 3,
+      "relativeTime": 3,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/marin-fixed-source/full/frame-06.png",
+      "pngSHA256": "a0b9fe5838de8cef86db9973519f13184e3544f98e33383352a90ca60890e776"
+    },
+    {
+      "sample": 7,
+      "seconds": 3.5,
+      "sourceIndex": 84,
+      "sourceTime": 3.5,
+      "relativeTime": 3.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/marin-fixed-source/full/frame-07.png",
+      "pngSHA256": "5a3c0c00845ed6779c17b578954c96d3dcf59a323651347866be51992ef9dd08"
+    },
+    {
+      "sample": 8,
+      "seconds": 4,
+      "sourceIndex": 96,
+      "sourceTime": 4,
+      "relativeTime": 4,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/marin-fixed-source/full/frame-08.png",
+      "pngSHA256": "e1e1fa8b1d5e54d1c0ed248305676b4cd6d84df04762c0fa1eae6935a1547c8b"
+    },
+    {
+      "sample": 9,
+      "seconds": 4.5,
+      "sourceIndex": 108,
+      "sourceTime": 4.5,
+      "relativeTime": 4.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/marin-fixed-source/full/frame-09.png",
+      "pngSHA256": "15f67b5e55066c7920d6a1c7acfa24bb1e19a1b5188e6a9584f52153c0c93d75"
+    },
+    {
+      "sample": 10,
+      "seconds": 5,
+      "sourceIndex": 120,
+      "sourceTime": 5,
+      "relativeTime": 5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/marin-fixed-source/full/frame-10.png",
+      "pngSHA256": "ba44d546a87785e6118c3c4156c338b409803d0d32f4087d0814f5f2485821d9"
+    },
+    {
+      "sample": 11,
+      "seconds": 5.5,
+      "sourceIndex": 132,
+      "sourceTime": 5.5,
+      "relativeTime": 5.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/marin-fixed-source/full/frame-11.png",
+      "pngSHA256": "728762bf986738b155fbcaa6712459c72891e76e17e7f54588acaaf414d18e0c"
+    },
+    {
+      "sample": 12,
+      "seconds": 6,
+      "sourceIndex": 144,
+      "sourceTime": 6,
+      "relativeTime": 6,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/marin-fixed-source/full/frame-12.png",
+      "pngSHA256": "6a0b4c166551a2abaf9564f8a68508edf6cebb0aa63ac084f7ce69019911601a"
+    },
+    {
+      "sample": 13,
+      "seconds": 6.5,
+      "sourceIndex": 156,
+      "sourceTime": 6.5,
+      "relativeTime": 6.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/marin-fixed-source/full/frame-13.png",
+      "pngSHA256": "5058c2b41a1d300beab45a60dcdcfe8add6eed6692416c01ba42fe17b60f05cd"
+    },
+    {
+      "sample": 14,
+      "seconds": 7,
+      "sourceIndex": 168,
+      "sourceTime": 7,
+      "relativeTime": 7,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/marin-fixed-source/full/frame-14.png",
+      "pngSHA256": "a363e26764c0638aea7a2114dcf9bc3e6c89e86e5ff5a90c24c34c999512aa28"
+    },
+    {
+      "sample": 15,
+      "seconds": 7.5,
+      "sourceIndex": 180,
+      "sourceTime": 7.5,
+      "relativeTime": 7.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/marin-fixed-source/full/frame-15.png",
+      "pngSHA256": "2df9e48ab3a081f1940e6b9ca64780464d0a1614664f23c9b4cc74cf4e61e0c2"
+    }
+  ],
+  "cropped": {
+    "id": "umbra",
+    "character": "Umbra",
+    "crop": {
+      "x": 700,
+      "y": 240,
+      "width": 340,
+      "height": 460
+    },
+    "frames": [
+      {
+        "sample": 0,
+        "seconds": 0,
+        "sourceIndex": 0,
+        "sourceTime": 0,
+        "relativeTime": 0,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-00.png",
+        "pngSHA256": "7e322aaadc6a6c171e5cfed5a037d3e6f75e7e46f5034854adeea2f68118c71d"
+      },
+      {
+        "sample": 1,
+        "seconds": 0.25,
+        "sourceIndex": 6,
+        "sourceTime": 0.25,
+        "relativeTime": 0.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-01.png",
+        "pngSHA256": "ee7ec2bbdd4806d86f17051d44a535564be1981809cadb8fcabbb986261d7cc1"
+      },
+      {
+        "sample": 2,
+        "seconds": 0.5,
+        "sourceIndex": 12,
+        "sourceTime": 0.5,
+        "relativeTime": 0.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-02.png",
+        "pngSHA256": "c62e3bef9b2a01fbcfced3686900bc72a09127446b72dd3e8c9ed5240164a08b"
+      },
+      {
+        "sample": 3,
+        "seconds": 0.75,
+        "sourceIndex": 18,
+        "sourceTime": 0.75,
+        "relativeTime": 0.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-03.png",
+        "pngSHA256": "f013ef202fe2b8582f483b705353b5fa3fcb6acb277fbc5f84e69b0ac6082323"
+      },
+      {
+        "sample": 4,
+        "seconds": 1,
+        "sourceIndex": 24,
+        "sourceTime": 1,
+        "relativeTime": 1,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-04.png",
+        "pngSHA256": "a74a3bc7df375bf9dfb802f552759c35c350343fa2a846c41a34ce4a77da47d3"
+      },
+      {
+        "sample": 5,
+        "seconds": 1.25,
+        "sourceIndex": 30,
+        "sourceTime": 1.25,
+        "relativeTime": 1.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-05.png",
+        "pngSHA256": "5c343402d24df8a985a0274cf0fcd2c49d7d9b51b65716648de9f29dafecf56f"
+      },
+      {
+        "sample": 6,
+        "seconds": 1.5,
+        "sourceIndex": 36,
+        "sourceTime": 1.5,
+        "relativeTime": 1.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-06.png",
+        "pngSHA256": "3e4b57186b5713098dc43b36e5e8d7a31d58e5c070ba2482d539b8967f2f279d"
+      },
+      {
+        "sample": 7,
+        "seconds": 1.75,
+        "sourceIndex": 42,
+        "sourceTime": 1.75,
+        "relativeTime": 1.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-07.png",
+        "pngSHA256": "249613a0a6c136c22414ea0855fccb6cc5e7f39eb273ee84d747d938560f6556"
+      },
+      {
+        "sample": 8,
+        "seconds": 2,
+        "sourceIndex": 48,
+        "sourceTime": 2,
+        "relativeTime": 2,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-08.png",
+        "pngSHA256": "518521ed068a5cfa608133e31213a975915869a045d3ddea2e8f873d269bfe05"
+      },
+      {
+        "sample": 9,
+        "seconds": 2.25,
+        "sourceIndex": 54,
+        "sourceTime": 2.25,
+        "relativeTime": 2.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-09.png",
+        "pngSHA256": "c8f940ac79fa7410aeb0f85c46cad8d3813960050f39c78a419325513cbe92c9"
+      },
+      {
+        "sample": 10,
+        "seconds": 2.5,
+        "sourceIndex": 60,
+        "sourceTime": 2.5,
+        "relativeTime": 2.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-10.png",
+        "pngSHA256": "536f1519f227ac1ad5383d107ca51d2b8ffe1204166a4b8e098865d78fa12423"
+      },
+      {
+        "sample": 11,
+        "seconds": 2.75,
+        "sourceIndex": 66,
+        "sourceTime": 2.75,
+        "relativeTime": 2.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-11.png",
+        "pngSHA256": "4846a975e7f8b39b535007d53334341a287b6d0b175d3d71936cf07ad91dd068"
+      },
+      {
+        "sample": 12,
+        "seconds": 3,
+        "sourceIndex": 72,
+        "sourceTime": 3,
+        "relativeTime": 3,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-12.png",
+        "pngSHA256": "a12e0c9a41909ffbb5a2eee7668da2c1e1b0624ed3b311e1cb0e886ee9b50b4b"
+      },
+      {
+        "sample": 13,
+        "seconds": 3.25,
+        "sourceIndex": 78,
+        "sourceTime": 3.25,
+        "relativeTime": 3.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-13.png",
+        "pngSHA256": "250f72972939882da4b661a3b256ee5ea0490a7410d75b2f9ae878f5c50467f7"
+      },
+      {
+        "sample": 14,
+        "seconds": 3.5,
+        "sourceIndex": 84,
+        "sourceTime": 3.5,
+        "relativeTime": 3.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-14.png",
+        "pngSHA256": "286a984bee914bd33c5c2fd51eedcd153e9bd0abf0efa5f59e44ea59ba7d6a04"
+      },
+      {
+        "sample": 15,
+        "seconds": 3.75,
+        "sourceIndex": 90,
+        "sourceTime": 3.75,
+        "relativeTime": 3.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-15.png",
+        "pngSHA256": "823b55e4ba6ac8ddff14593f79432a518361db1d09bfcf33a17b75b4c44fd05b"
+      },
+      {
+        "sample": 16,
+        "seconds": 4,
+        "sourceIndex": 96,
+        "sourceTime": 4,
+        "relativeTime": 4,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-16.png",
+        "pngSHA256": "60c3d6288f30c896a130d49d9de19da02a7ae1d7e49e42efb9041a94bc457a41"
+      },
+      {
+        "sample": 17,
+        "seconds": 4.25,
+        "sourceIndex": 102,
+        "sourceTime": 4.25,
+        "relativeTime": 4.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-17.png",
+        "pngSHA256": "44fccacf982305b2b221137d29d41747a951119c8e8895e283a03444e861c5de"
+      },
+      {
+        "sample": 18,
+        "seconds": 4.5,
+        "sourceIndex": 108,
+        "sourceTime": 4.5,
+        "relativeTime": 4.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-18.png",
+        "pngSHA256": "c234fd7a119750b55b356e37576c82151e71405ddc3fa32e57a5d0949aa40a04"
+      },
+      {
+        "sample": 19,
+        "seconds": 4.75,
+        "sourceIndex": 114,
+        "sourceTime": 4.75,
+        "relativeTime": 4.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-19.png",
+        "pngSHA256": "b6a1851e7e26d3291410f9ea5957e096fc3ea6e9e223927070d02ca8e7263dc0"
+      },
+      {
+        "sample": 20,
+        "seconds": 5,
+        "sourceIndex": 120,
+        "sourceTime": 5,
+        "relativeTime": 5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-20.png",
+        "pngSHA256": "6afdba4d7c140867aed82b247ddb65a6ca96333d9121cb9ebd0a046f975a989e"
+      },
+      {
+        "sample": 21,
+        "seconds": 5.25,
+        "sourceIndex": 126,
+        "sourceTime": 5.25,
+        "relativeTime": 5.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-21.png",
+        "pngSHA256": "9649abab81d52864a172bcd5367ed33fdfb608c466521529ecfbca8c40b360da"
+      },
+      {
+        "sample": 22,
+        "seconds": 5.5,
+        "sourceIndex": 132,
+        "sourceTime": 5.5,
+        "relativeTime": 5.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-22.png",
+        "pngSHA256": "2bd14a3b348c4dd1df239789a1f2f6b1ad706c785ec80b242e7e6f32fd09aa6a"
+      },
+      {
+        "sample": 23,
+        "seconds": 5.75,
+        "sourceIndex": 138,
+        "sourceTime": 5.75,
+        "relativeTime": 5.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-23.png",
+        "pngSHA256": "650cb5f201b7cc1d9de75ca8cc78b7a2b2934a51dd608d165edd5a97f5b23ecb"
+      },
+      {
+        "sample": 24,
+        "seconds": 6,
+        "sourceIndex": 144,
+        "sourceTime": 6,
+        "relativeTime": 6,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-24.png",
+        "pngSHA256": "8c1d075f470709fcce85067676f2a06f144923720c0b6bbd7ea97ad526236b8e"
+      },
+      {
+        "sample": 25,
+        "seconds": 6.25,
+        "sourceIndex": 150,
+        "sourceTime": 6.25,
+        "relativeTime": 6.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-25.png",
+        "pngSHA256": "90b59bf5734a94bbc7fba856126c2eb5cd03dc6259af84bf9e638259f3117174"
+      },
+      {
+        "sample": 26,
+        "seconds": 6.5,
+        "sourceIndex": 156,
+        "sourceTime": 6.5,
+        "relativeTime": 6.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-26.png",
+        "pngSHA256": "441f58572836ac024659ea2825d157b78fcf60e28b5033bbd42793333cc5cec7"
+      },
+      {
+        "sample": 27,
+        "seconds": 6.75,
+        "sourceIndex": 162,
+        "sourceTime": 6.75,
+        "relativeTime": 6.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-27.png",
+        "pngSHA256": "d44f168c86f4c7fbe4e56d97e8bfb73bb9598560fd57a6617f873298cc3cf815"
+      },
+      {
+        "sample": 28,
+        "seconds": 7,
+        "sourceIndex": 168,
+        "sourceTime": 7,
+        "relativeTime": 7,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-28.png",
+        "pngSHA256": "469d1b9ff92398e3f65bd955e4130e027910f1902454cd666e2c7565412fc2c1"
+      },
+      {
+        "sample": 29,
+        "seconds": 7.25,
+        "sourceIndex": 174,
+        "sourceTime": 7.25,
+        "relativeTime": 7.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-29.png",
+        "pngSHA256": "d9f0b1bc8b23f56b81fb863596c201028dfcd86e1689a83b923ad5eb40e892de"
+      },
+      {
+        "sample": 30,
+        "seconds": 7.5,
+        "sourceIndex": 180,
+        "sourceTime": 7.5,
+        "relativeTime": 7.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-30.png",
+        "pngSHA256": "018d72c52d8890f5ba9a051426d89248b88de91e1f1c5379f948ed0da4158cda"
+      },
+      {
+        "sample": 31,
+        "seconds": 7.75,
+        "sourceIndex": 186,
+        "sourceTime": 7.75,
+        "relativeTime": 7.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-31.png",
+        "pngSHA256": "45dd97f3dd6db774e8f798bf69ecac33e7f57e6c7b67c1f3edeb93e559ed89b3"
+      }
+    ],
+    "nativePixels": true
+  },
+  "crops": [
+    {
+      "id": "umbra",
+      "character": "Umbra",
+      "crop": {
+        "x": 700,
+        "y": 240,
+        "width": 340,
+        "height": 460
+      },
+      "frames": [
+        {
+          "sample": 0,
+          "seconds": 0,
+          "sourceIndex": 0,
+          "sourceTime": 0,
+          "relativeTime": 0,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-00.png",
+          "pngSHA256": "7e322aaadc6a6c171e5cfed5a037d3e6f75e7e46f5034854adeea2f68118c71d"
+        },
+        {
+          "sample": 1,
+          "seconds": 0.25,
+          "sourceIndex": 6,
+          "sourceTime": 0.25,
+          "relativeTime": 0.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-01.png",
+          "pngSHA256": "ee7ec2bbdd4806d86f17051d44a535564be1981809cadb8fcabbb986261d7cc1"
+        },
+        {
+          "sample": 2,
+          "seconds": 0.5,
+          "sourceIndex": 12,
+          "sourceTime": 0.5,
+          "relativeTime": 0.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-02.png",
+          "pngSHA256": "c62e3bef9b2a01fbcfced3686900bc72a09127446b72dd3e8c9ed5240164a08b"
+        },
+        {
+          "sample": 3,
+          "seconds": 0.75,
+          "sourceIndex": 18,
+          "sourceTime": 0.75,
+          "relativeTime": 0.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-03.png",
+          "pngSHA256": "f013ef202fe2b8582f483b705353b5fa3fcb6acb277fbc5f84e69b0ac6082323"
+        },
+        {
+          "sample": 4,
+          "seconds": 1,
+          "sourceIndex": 24,
+          "sourceTime": 1,
+          "relativeTime": 1,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-04.png",
+          "pngSHA256": "a74a3bc7df375bf9dfb802f552759c35c350343fa2a846c41a34ce4a77da47d3"
+        },
+        {
+          "sample": 5,
+          "seconds": 1.25,
+          "sourceIndex": 30,
+          "sourceTime": 1.25,
+          "relativeTime": 1.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-05.png",
+          "pngSHA256": "5c343402d24df8a985a0274cf0fcd2c49d7d9b51b65716648de9f29dafecf56f"
+        },
+        {
+          "sample": 6,
+          "seconds": 1.5,
+          "sourceIndex": 36,
+          "sourceTime": 1.5,
+          "relativeTime": 1.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-06.png",
+          "pngSHA256": "3e4b57186b5713098dc43b36e5e8d7a31d58e5c070ba2482d539b8967f2f279d"
+        },
+        {
+          "sample": 7,
+          "seconds": 1.75,
+          "sourceIndex": 42,
+          "sourceTime": 1.75,
+          "relativeTime": 1.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-07.png",
+          "pngSHA256": "249613a0a6c136c22414ea0855fccb6cc5e7f39eb273ee84d747d938560f6556"
+        },
+        {
+          "sample": 8,
+          "seconds": 2,
+          "sourceIndex": 48,
+          "sourceTime": 2,
+          "relativeTime": 2,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-08.png",
+          "pngSHA256": "518521ed068a5cfa608133e31213a975915869a045d3ddea2e8f873d269bfe05"
+        },
+        {
+          "sample": 9,
+          "seconds": 2.25,
+          "sourceIndex": 54,
+          "sourceTime": 2.25,
+          "relativeTime": 2.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-09.png",
+          "pngSHA256": "c8f940ac79fa7410aeb0f85c46cad8d3813960050f39c78a419325513cbe92c9"
+        },
+        {
+          "sample": 10,
+          "seconds": 2.5,
+          "sourceIndex": 60,
+          "sourceTime": 2.5,
+          "relativeTime": 2.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-10.png",
+          "pngSHA256": "536f1519f227ac1ad5383d107ca51d2b8ffe1204166a4b8e098865d78fa12423"
+        },
+        {
+          "sample": 11,
+          "seconds": 2.75,
+          "sourceIndex": 66,
+          "sourceTime": 2.75,
+          "relativeTime": 2.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-11.png",
+          "pngSHA256": "4846a975e7f8b39b535007d53334341a287b6d0b175d3d71936cf07ad91dd068"
+        },
+        {
+          "sample": 12,
+          "seconds": 3,
+          "sourceIndex": 72,
+          "sourceTime": 3,
+          "relativeTime": 3,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-12.png",
+          "pngSHA256": "a12e0c9a41909ffbb5a2eee7668da2c1e1b0624ed3b311e1cb0e886ee9b50b4b"
+        },
+        {
+          "sample": 13,
+          "seconds": 3.25,
+          "sourceIndex": 78,
+          "sourceTime": 3.25,
+          "relativeTime": 3.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-13.png",
+          "pngSHA256": "250f72972939882da4b661a3b256ee5ea0490a7410d75b2f9ae878f5c50467f7"
+        },
+        {
+          "sample": 14,
+          "seconds": 3.5,
+          "sourceIndex": 84,
+          "sourceTime": 3.5,
+          "relativeTime": 3.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-14.png",
+          "pngSHA256": "286a984bee914bd33c5c2fd51eedcd153e9bd0abf0efa5f59e44ea59ba7d6a04"
+        },
+        {
+          "sample": 15,
+          "seconds": 3.75,
+          "sourceIndex": 90,
+          "sourceTime": 3.75,
+          "relativeTime": 3.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-15.png",
+          "pngSHA256": "823b55e4ba6ac8ddff14593f79432a518361db1d09bfcf33a17b75b4c44fd05b"
+        },
+        {
+          "sample": 16,
+          "seconds": 4,
+          "sourceIndex": 96,
+          "sourceTime": 4,
+          "relativeTime": 4,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-16.png",
+          "pngSHA256": "60c3d6288f30c896a130d49d9de19da02a7ae1d7e49e42efb9041a94bc457a41"
+        },
+        {
+          "sample": 17,
+          "seconds": 4.25,
+          "sourceIndex": 102,
+          "sourceTime": 4.25,
+          "relativeTime": 4.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-17.png",
+          "pngSHA256": "44fccacf982305b2b221137d29d41747a951119c8e8895e283a03444e861c5de"
+        },
+        {
+          "sample": 18,
+          "seconds": 4.5,
+          "sourceIndex": 108,
+          "sourceTime": 4.5,
+          "relativeTime": 4.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-18.png",
+          "pngSHA256": "c234fd7a119750b55b356e37576c82151e71405ddc3fa32e57a5d0949aa40a04"
+        },
+        {
+          "sample": 19,
+          "seconds": 4.75,
+          "sourceIndex": 114,
+          "sourceTime": 4.75,
+          "relativeTime": 4.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-19.png",
+          "pngSHA256": "b6a1851e7e26d3291410f9ea5957e096fc3ea6e9e223927070d02ca8e7263dc0"
+        },
+        {
+          "sample": 20,
+          "seconds": 5,
+          "sourceIndex": 120,
+          "sourceTime": 5,
+          "relativeTime": 5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-20.png",
+          "pngSHA256": "6afdba4d7c140867aed82b247ddb65a6ca96333d9121cb9ebd0a046f975a989e"
+        },
+        {
+          "sample": 21,
+          "seconds": 5.25,
+          "sourceIndex": 126,
+          "sourceTime": 5.25,
+          "relativeTime": 5.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-21.png",
+          "pngSHA256": "9649abab81d52864a172bcd5367ed33fdfb608c466521529ecfbca8c40b360da"
+        },
+        {
+          "sample": 22,
+          "seconds": 5.5,
+          "sourceIndex": 132,
+          "sourceTime": 5.5,
+          "relativeTime": 5.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-22.png",
+          "pngSHA256": "2bd14a3b348c4dd1df239789a1f2f6b1ad706c785ec80b242e7e6f32fd09aa6a"
+        },
+        {
+          "sample": 23,
+          "seconds": 5.75,
+          "sourceIndex": 138,
+          "sourceTime": 5.75,
+          "relativeTime": 5.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-23.png",
+          "pngSHA256": "650cb5f201b7cc1d9de75ca8cc78b7a2b2934a51dd608d165edd5a97f5b23ecb"
+        },
+        {
+          "sample": 24,
+          "seconds": 6,
+          "sourceIndex": 144,
+          "sourceTime": 6,
+          "relativeTime": 6,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-24.png",
+          "pngSHA256": "8c1d075f470709fcce85067676f2a06f144923720c0b6bbd7ea97ad526236b8e"
+        },
+        {
+          "sample": 25,
+          "seconds": 6.25,
+          "sourceIndex": 150,
+          "sourceTime": 6.25,
+          "relativeTime": 6.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-25.png",
+          "pngSHA256": "90b59bf5734a94bbc7fba856126c2eb5cd03dc6259af84bf9e638259f3117174"
+        },
+        {
+          "sample": 26,
+          "seconds": 6.5,
+          "sourceIndex": 156,
+          "sourceTime": 6.5,
+          "relativeTime": 6.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-26.png",
+          "pngSHA256": "441f58572836ac024659ea2825d157b78fcf60e28b5033bbd42793333cc5cec7"
+        },
+        {
+          "sample": 27,
+          "seconds": 6.75,
+          "sourceIndex": 162,
+          "sourceTime": 6.75,
+          "relativeTime": 6.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-27.png",
+          "pngSHA256": "d44f168c86f4c7fbe4e56d97e8bfb73bb9598560fd57a6617f873298cc3cf815"
+        },
+        {
+          "sample": 28,
+          "seconds": 7,
+          "sourceIndex": 168,
+          "sourceTime": 7,
+          "relativeTime": 7,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-28.png",
+          "pngSHA256": "469d1b9ff92398e3f65bd955e4130e027910f1902454cd666e2c7565412fc2c1"
+        },
+        {
+          "sample": 29,
+          "seconds": 7.25,
+          "sourceIndex": 174,
+          "sourceTime": 7.25,
+          "relativeTime": 7.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-29.png",
+          "pngSHA256": "d9f0b1bc8b23f56b81fb863596c201028dfcd86e1689a83b923ad5eb40e892de"
+        },
+        {
+          "sample": 30,
+          "seconds": 7.5,
+          "sourceIndex": 180,
+          "sourceTime": 7.5,
+          "relativeTime": 7.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-30.png",
+          "pngSHA256": "018d72c52d8890f5ba9a051426d89248b88de91e1f1c5379f948ed0da4158cda"
+        },
+        {
+          "sample": 31,
+          "seconds": 7.75,
+          "sourceIndex": 186,
+          "sourceTime": 7.75,
+          "relativeTime": 7.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/umbra/frame-31.png",
+          "pngSHA256": "45dd97f3dd6db774e8f798bf69ecac33e7f57e6c7b67c1f3edeb93e559ed89b3"
+        }
+      ],
+      "nativePixels": true
+    },
+    {
+      "id": "marin-hands-left",
+      "character": "Marin, left image region; both arm trajectories overlap when crossed",
+      "crop": {
+        "x": 330,
+        "y": 100,
+        "width": 290,
+        "height": 320
+      },
+      "frames": [
+        {
+          "sample": 0,
+          "seconds": 0,
+          "sourceIndex": 0,
+          "sourceTime": 0,
+          "relativeTime": 0,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-left/frame-00.png",
+          "pngSHA256": "61ba185af41b62cc87d98a3aa48505641cb1140ad2adb0b801fcdf89be4298dd"
+        },
+        {
+          "sample": 1,
+          "seconds": 0.25,
+          "sourceIndex": 6,
+          "sourceTime": 0.25,
+          "relativeTime": 0.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-left/frame-01.png",
+          "pngSHA256": "bb811a88c1f8b9a8710dce3debcaa53249e912f6955834e8a4a2a237b3f5c5da"
+        },
+        {
+          "sample": 2,
+          "seconds": 0.5,
+          "sourceIndex": 12,
+          "sourceTime": 0.5,
+          "relativeTime": 0.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-left/frame-02.png",
+          "pngSHA256": "7206cfb0af6e90ab0cee3d975d9fc2998a0c8511ddcb9b6f2223d97f745bf71b"
+        },
+        {
+          "sample": 3,
+          "seconds": 0.75,
+          "sourceIndex": 18,
+          "sourceTime": 0.75,
+          "relativeTime": 0.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-left/frame-03.png",
+          "pngSHA256": "0627da396a3ca14250e13ccf4de9714755bf147b72ec9a013d49752bb984ebef"
+        },
+        {
+          "sample": 4,
+          "seconds": 1,
+          "sourceIndex": 24,
+          "sourceTime": 1,
+          "relativeTime": 1,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-left/frame-04.png",
+          "pngSHA256": "e112b4ce42c7f506356cd37ea37f999c16be8fd11415a47df6ed4af5fc083ea5"
+        },
+        {
+          "sample": 5,
+          "seconds": 1.25,
+          "sourceIndex": 30,
+          "sourceTime": 1.25,
+          "relativeTime": 1.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-left/frame-05.png",
+          "pngSHA256": "e74ebd6c8f3da41c17777a958adb1cd5cf07ab113223952fefa495fdb046483a"
+        },
+        {
+          "sample": 6,
+          "seconds": 1.5,
+          "sourceIndex": 36,
+          "sourceTime": 1.5,
+          "relativeTime": 1.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-left/frame-06.png",
+          "pngSHA256": "15e97e8b8a3cfa0a7cec99a1bb82a1a7a65ed97fafec5b2de5f95a670bcf706c"
+        },
+        {
+          "sample": 7,
+          "seconds": 1.75,
+          "sourceIndex": 42,
+          "sourceTime": 1.75,
+          "relativeTime": 1.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-left/frame-07.png",
+          "pngSHA256": "ee152453a30ae2cef618c33b7791bc6484867a8d49f407f67539b45cdfa3c4d1"
+        },
+        {
+          "sample": 8,
+          "seconds": 2,
+          "sourceIndex": 48,
+          "sourceTime": 2,
+          "relativeTime": 2,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-left/frame-08.png",
+          "pngSHA256": "20f521c4fff054611c2f7bfda224932088b01fa89992b13bbee201c0a6867c56"
+        },
+        {
+          "sample": 9,
+          "seconds": 2.25,
+          "sourceIndex": 54,
+          "sourceTime": 2.25,
+          "relativeTime": 2.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-left/frame-09.png",
+          "pngSHA256": "8c1643e99cbc7c01efa40e29f1626bdd05e6228e6790b9bef1621f5f2e12f17a"
+        },
+        {
+          "sample": 10,
+          "seconds": 2.5,
+          "sourceIndex": 60,
+          "sourceTime": 2.5,
+          "relativeTime": 2.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-left/frame-10.png",
+          "pngSHA256": "217d54be74a0278dd1688a255de6f920131c57ed6e92f4a4c30f9ebafa08ba2c"
+        },
+        {
+          "sample": 11,
+          "seconds": 2.75,
+          "sourceIndex": 66,
+          "sourceTime": 2.75,
+          "relativeTime": 2.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-left/frame-11.png",
+          "pngSHA256": "5392f8bb09addcdc0574742b40591aa67ff86df0a40c064d1712029661569516"
+        },
+        {
+          "sample": 12,
+          "seconds": 3,
+          "sourceIndex": 72,
+          "sourceTime": 3,
+          "relativeTime": 3,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-left/frame-12.png",
+          "pngSHA256": "8ff6513950cbee512fa04918ef1df24df3fdb6eb2fb04469bc03dc6e51331f7e"
+        },
+        {
+          "sample": 13,
+          "seconds": 3.25,
+          "sourceIndex": 78,
+          "sourceTime": 3.25,
+          "relativeTime": 3.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-left/frame-13.png",
+          "pngSHA256": "ab16ce1c96331bd339ed2a840758fe61d38fc7768a2627f07de846c9063606d7"
+        },
+        {
+          "sample": 14,
+          "seconds": 3.5,
+          "sourceIndex": 84,
+          "sourceTime": 3.5,
+          "relativeTime": 3.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-left/frame-14.png",
+          "pngSHA256": "1d47041dc45b7cd2f333f4a1717f8af78a6a33ba76b0ce94006b2fdce5ba6b13"
+        },
+        {
+          "sample": 15,
+          "seconds": 3.75,
+          "sourceIndex": 90,
+          "sourceTime": 3.75,
+          "relativeTime": 3.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-left/frame-15.png",
+          "pngSHA256": "fa0a6f074b36ec449f020384e9195a0b4a9e066a9db03b2f870a156a9c195f22"
+        },
+        {
+          "sample": 16,
+          "seconds": 4,
+          "sourceIndex": 96,
+          "sourceTime": 4,
+          "relativeTime": 4,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-left/frame-16.png",
+          "pngSHA256": "5470da5d97d3f24d44db9aac830fd59abbe87f5c6e05abf97668b0751958dfa1"
+        },
+        {
+          "sample": 17,
+          "seconds": 4.25,
+          "sourceIndex": 102,
+          "sourceTime": 4.25,
+          "relativeTime": 4.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-left/frame-17.png",
+          "pngSHA256": "1a015c4a0c36814871ad6b88494a0fee4f421c7cc1689f3e378fb8fd43f8520c"
+        },
+        {
+          "sample": 18,
+          "seconds": 4.5,
+          "sourceIndex": 108,
+          "sourceTime": 4.5,
+          "relativeTime": 4.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-left/frame-18.png",
+          "pngSHA256": "d6934cfc413261bc1a821ef039853b20638b3d7db7747487b200ae8719b30986"
+        },
+        {
+          "sample": 19,
+          "seconds": 4.75,
+          "sourceIndex": 114,
+          "sourceTime": 4.75,
+          "relativeTime": 4.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-left/frame-19.png",
+          "pngSHA256": "f9787b49d6c4d4fff259dcdce81b01ec6e8e767f31fc7a83078efdca9ab65dad"
+        },
+        {
+          "sample": 20,
+          "seconds": 5,
+          "sourceIndex": 120,
+          "sourceTime": 5,
+          "relativeTime": 5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-left/frame-20.png",
+          "pngSHA256": "4db5ac94a1c17de7592fc84a6754bf67a3bff2922382c7b42d21e16071ec50c8"
+        },
+        {
+          "sample": 21,
+          "seconds": 5.25,
+          "sourceIndex": 126,
+          "sourceTime": 5.25,
+          "relativeTime": 5.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-left/frame-21.png",
+          "pngSHA256": "6164b254bfb182c578ee7d3b4385a570394e5f5083389a5b6fa4f496b430bb59"
+        },
+        {
+          "sample": 22,
+          "seconds": 5.5,
+          "sourceIndex": 132,
+          "sourceTime": 5.5,
+          "relativeTime": 5.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-left/frame-22.png",
+          "pngSHA256": "2bde47c01fd5769a13a929fc5d80339c505367dfd51cc40b1e9c915a6805ec4f"
+        },
+        {
+          "sample": 23,
+          "seconds": 5.75,
+          "sourceIndex": 138,
+          "sourceTime": 5.75,
+          "relativeTime": 5.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-left/frame-23.png",
+          "pngSHA256": "dc29ebabbd1e93f2027b097f9456ebd8aa19e282e1d5c1bee018fde0e665946a"
+        },
+        {
+          "sample": 24,
+          "seconds": 6,
+          "sourceIndex": 144,
+          "sourceTime": 6,
+          "relativeTime": 6,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-left/frame-24.png",
+          "pngSHA256": "6eb670fbb3d1ae53e4495429786586a879cbf33eefb28fea5908155ce47315d6"
+        },
+        {
+          "sample": 25,
+          "seconds": 6.25,
+          "sourceIndex": 150,
+          "sourceTime": 6.25,
+          "relativeTime": 6.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-left/frame-25.png",
+          "pngSHA256": "d80c3c040ef4a5aea9bde54e3165a0e8ead97b72b172e9d46c27c67aac7d7665"
+        },
+        {
+          "sample": 26,
+          "seconds": 6.5,
+          "sourceIndex": 156,
+          "sourceTime": 6.5,
+          "relativeTime": 6.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-left/frame-26.png",
+          "pngSHA256": "80442dbb1bd7f126e4a9b3620b09ae5e47ddc11f531ac9090a786ae861967c5c"
+        },
+        {
+          "sample": 27,
+          "seconds": 6.75,
+          "sourceIndex": 162,
+          "sourceTime": 6.75,
+          "relativeTime": 6.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-left/frame-27.png",
+          "pngSHA256": "89cf039e5b7d82f22df8567566f4cb12f6c9554d80ddfdd61121c16f182a200b"
+        },
+        {
+          "sample": 28,
+          "seconds": 7,
+          "sourceIndex": 168,
+          "sourceTime": 7,
+          "relativeTime": 7,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-left/frame-28.png",
+          "pngSHA256": "4d51fcfa3de8efdc6853bdf40720d485d3996d6c855d3360faab09f40388ae9e"
+        },
+        {
+          "sample": 29,
+          "seconds": 7.25,
+          "sourceIndex": 174,
+          "sourceTime": 7.25,
+          "relativeTime": 7.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-left/frame-29.png",
+          "pngSHA256": "9a3ba036148f52ec5eb2596d96d25fc8b671d83011b61cd95a3e90e43da9f902"
+        },
+        {
+          "sample": 30,
+          "seconds": 7.5,
+          "sourceIndex": 180,
+          "sourceTime": 7.5,
+          "relativeTime": 7.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-left/frame-30.png",
+          "pngSHA256": "ed6a01679b9f6dcffb73e2dda6f7091956bb503661aafafc559b09f72cad671e"
+        },
+        {
+          "sample": 31,
+          "seconds": 7.75,
+          "sourceIndex": 186,
+          "sourceTime": 7.75,
+          "relativeTime": 7.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-left/frame-31.png",
+          "pngSHA256": "06c225e8c2c515b51c0579ba398632c281d05002f20970416bf29a181766f683"
+        }
+      ],
+      "nativePixels": true
+    },
+    {
+      "id": "marin-hands-right",
+      "character": "Marin, right image region; both arm trajectories overlap when crossed",
+      "crop": {
+        "x": 460,
+        "y": 100,
+        "width": 285,
+        "height": 320
+      },
+      "frames": [
+        {
+          "sample": 0,
+          "seconds": 0,
+          "sourceIndex": 0,
+          "sourceTime": 0,
+          "relativeTime": 0,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-right/frame-00.png",
+          "pngSHA256": "a57ea646cff1e729ffa1ddd4b1a9987f6061b0a591689fde2b54af0e1d83ecd0"
+        },
+        {
+          "sample": 1,
+          "seconds": 0.25,
+          "sourceIndex": 6,
+          "sourceTime": 0.25,
+          "relativeTime": 0.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-right/frame-01.png",
+          "pngSHA256": "994b6cb8723b7b50b82b56f062ca796422fc69d37a878d901e7a47da1b614247"
+        },
+        {
+          "sample": 2,
+          "seconds": 0.5,
+          "sourceIndex": 12,
+          "sourceTime": 0.5,
+          "relativeTime": 0.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-right/frame-02.png",
+          "pngSHA256": "ee279891909c5a2e2a9841a90a4a051fe9a54627a11cf6cb8be277025b970391"
+        },
+        {
+          "sample": 3,
+          "seconds": 0.75,
+          "sourceIndex": 18,
+          "sourceTime": 0.75,
+          "relativeTime": 0.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-right/frame-03.png",
+          "pngSHA256": "bfd223929be23a2f4b378fa284e530c90b78c2abfe7edc64212358f0874190ba"
+        },
+        {
+          "sample": 4,
+          "seconds": 1,
+          "sourceIndex": 24,
+          "sourceTime": 1,
+          "relativeTime": 1,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-right/frame-04.png",
+          "pngSHA256": "fd6cc46652afb3af2572ef7683656d03d261a8c9cf11d5fd3f26c945f6c580e2"
+        },
+        {
+          "sample": 5,
+          "seconds": 1.25,
+          "sourceIndex": 30,
+          "sourceTime": 1.25,
+          "relativeTime": 1.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-right/frame-05.png",
+          "pngSHA256": "c8399c87f80b1ea79769cb271f7c700e0ea33c3b1b824e247936db794bbae993"
+        },
+        {
+          "sample": 6,
+          "seconds": 1.5,
+          "sourceIndex": 36,
+          "sourceTime": 1.5,
+          "relativeTime": 1.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-right/frame-06.png",
+          "pngSHA256": "9248b415bcab68eef4ba6379553800df89ad35e5200d23936d042c941c71b007"
+        },
+        {
+          "sample": 7,
+          "seconds": 1.75,
+          "sourceIndex": 42,
+          "sourceTime": 1.75,
+          "relativeTime": 1.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-right/frame-07.png",
+          "pngSHA256": "efe00f788dd0ab587be7b32b48c36f9319b47d1290b88e008ec7f4df5f90a896"
+        },
+        {
+          "sample": 8,
+          "seconds": 2,
+          "sourceIndex": 48,
+          "sourceTime": 2,
+          "relativeTime": 2,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-right/frame-08.png",
+          "pngSHA256": "7b807fdddc14b0de0f9f972aaf6a74e6af6d5afc815af29ddf37e18a0d69f66e"
+        },
+        {
+          "sample": 9,
+          "seconds": 2.25,
+          "sourceIndex": 54,
+          "sourceTime": 2.25,
+          "relativeTime": 2.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-right/frame-09.png",
+          "pngSHA256": "8982db7a56e9c1cead644de6abfae2d6592ca8041831d44189195c34126db62e"
+        },
+        {
+          "sample": 10,
+          "seconds": 2.5,
+          "sourceIndex": 60,
+          "sourceTime": 2.5,
+          "relativeTime": 2.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-right/frame-10.png",
+          "pngSHA256": "2377a8d6c642d63433f6fabea7612331fccbf95579becfd92e8325d193281c9a"
+        },
+        {
+          "sample": 11,
+          "seconds": 2.75,
+          "sourceIndex": 66,
+          "sourceTime": 2.75,
+          "relativeTime": 2.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-right/frame-11.png",
+          "pngSHA256": "ba8bd7c886b37a362692450fce19a299add5fec063b34dd9e103ffad9cd43b5f"
+        },
+        {
+          "sample": 12,
+          "seconds": 3,
+          "sourceIndex": 72,
+          "sourceTime": 3,
+          "relativeTime": 3,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-right/frame-12.png",
+          "pngSHA256": "b9f49e1986fdcba7594304737323ff2832d9a4e1f87c400b7c3372182a8da4aa"
+        },
+        {
+          "sample": 13,
+          "seconds": 3.25,
+          "sourceIndex": 78,
+          "sourceTime": 3.25,
+          "relativeTime": 3.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-right/frame-13.png",
+          "pngSHA256": "c8161503db649937b70ed5c8988ef2ed7d0a338a549e566a04e4d1d533022339"
+        },
+        {
+          "sample": 14,
+          "seconds": 3.5,
+          "sourceIndex": 84,
+          "sourceTime": 3.5,
+          "relativeTime": 3.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-right/frame-14.png",
+          "pngSHA256": "0ae336018d35a3af4cce988c01c1170c9c81a8e1dd64522c396d33a812dd8cee"
+        },
+        {
+          "sample": 15,
+          "seconds": 3.75,
+          "sourceIndex": 90,
+          "sourceTime": 3.75,
+          "relativeTime": 3.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-right/frame-15.png",
+          "pngSHA256": "b4936403aeea2ba51f58fab205eae6e318a0f1f7a2cf56bfcfa2f49fb1bf0fc3"
+        },
+        {
+          "sample": 16,
+          "seconds": 4,
+          "sourceIndex": 96,
+          "sourceTime": 4,
+          "relativeTime": 4,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-right/frame-16.png",
+          "pngSHA256": "2ce4d8b3f9efc887d1ab211b03c642e17142bd0d94fd9c588d27e7c9b8a367fd"
+        },
+        {
+          "sample": 17,
+          "seconds": 4.25,
+          "sourceIndex": 102,
+          "sourceTime": 4.25,
+          "relativeTime": 4.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-right/frame-17.png",
+          "pngSHA256": "4e6a45e9f4a0599f757b82802904d5a9e9e7548a3994ace8475a9bedfddebd4c"
+        },
+        {
+          "sample": 18,
+          "seconds": 4.5,
+          "sourceIndex": 108,
+          "sourceTime": 4.5,
+          "relativeTime": 4.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-right/frame-18.png",
+          "pngSHA256": "79294cb15c693240e8e5e7e142342d245d21ce18a3cd732de8ff36686557f3d7"
+        },
+        {
+          "sample": 19,
+          "seconds": 4.75,
+          "sourceIndex": 114,
+          "sourceTime": 4.75,
+          "relativeTime": 4.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-right/frame-19.png",
+          "pngSHA256": "887f02ee4b3aef605567fe8546733c6e6e19c7d66d57c028d5fa4fb2a3da7d90"
+        },
+        {
+          "sample": 20,
+          "seconds": 5,
+          "sourceIndex": 120,
+          "sourceTime": 5,
+          "relativeTime": 5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-right/frame-20.png",
+          "pngSHA256": "19ccccc700501516121aa6f61b5ee4d4e215248a62bd4e9c113a3bd4bb3b486c"
+        },
+        {
+          "sample": 21,
+          "seconds": 5.25,
+          "sourceIndex": 126,
+          "sourceTime": 5.25,
+          "relativeTime": 5.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-right/frame-21.png",
+          "pngSHA256": "1a55445c55b29ef9a013d9e145526455f91106917e3ee22ffefbb1316492ad07"
+        },
+        {
+          "sample": 22,
+          "seconds": 5.5,
+          "sourceIndex": 132,
+          "sourceTime": 5.5,
+          "relativeTime": 5.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-right/frame-22.png",
+          "pngSHA256": "6d818877095563236414ababe595134585751754cafb6e7ea914cac55c1b0d3e"
+        },
+        {
+          "sample": 23,
+          "seconds": 5.75,
+          "sourceIndex": 138,
+          "sourceTime": 5.75,
+          "relativeTime": 5.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-right/frame-23.png",
+          "pngSHA256": "769133455dfd7c20e5c16fb7b9387ddf4683b88fb90c843f3cd668f0dd81a9d3"
+        },
+        {
+          "sample": 24,
+          "seconds": 6,
+          "sourceIndex": 144,
+          "sourceTime": 6,
+          "relativeTime": 6,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-right/frame-24.png",
+          "pngSHA256": "783f84c843acf27ee150121135e58492644dd3b1633a030448a8032924a501d1"
+        },
+        {
+          "sample": 25,
+          "seconds": 6.25,
+          "sourceIndex": 150,
+          "sourceTime": 6.25,
+          "relativeTime": 6.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-right/frame-25.png",
+          "pngSHA256": "944138d7cb603bc0c305ebcecfe72b82672345f323c5c5a63200147549a7a968"
+        },
+        {
+          "sample": 26,
+          "seconds": 6.5,
+          "sourceIndex": 156,
+          "sourceTime": 6.5,
+          "relativeTime": 6.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-right/frame-26.png",
+          "pngSHA256": "b9872e8109f36960b9d65b44fed3cdc3f51aa90aafdc9a4b1f938e5e775c2711"
+        },
+        {
+          "sample": 27,
+          "seconds": 6.75,
+          "sourceIndex": 162,
+          "sourceTime": 6.75,
+          "relativeTime": 6.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-right/frame-27.png",
+          "pngSHA256": "528f650fca707dbdc4e67a1a2fec97404bdd609c801ba92a77ce8d8dc6489464"
+        },
+        {
+          "sample": 28,
+          "seconds": 7,
+          "sourceIndex": 168,
+          "sourceTime": 7,
+          "relativeTime": 7,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-right/frame-28.png",
+          "pngSHA256": "e3e190997b56767ea0856af8cd109b1fea9aad80e49315ab7cb789a2fb2991f5"
+        },
+        {
+          "sample": 29,
+          "seconds": 7.25,
+          "sourceIndex": 174,
+          "sourceTime": 7.25,
+          "relativeTime": 7.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-right/frame-29.png",
+          "pngSHA256": "51da5ed10b0f0fc106c8f2a87f0b95ea3a966dd75650d8e41cd209f9c1b905b9"
+        },
+        {
+          "sample": 30,
+          "seconds": 7.5,
+          "sourceIndex": 180,
+          "sourceTime": 7.5,
+          "relativeTime": 7.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-right/frame-30.png",
+          "pngSHA256": "bc0fd1f7292717f27f454d02ce40bb8c1d79ffbad89015a45bf7a3fb02fbaef8"
+        },
+        {
+          "sample": 31,
+          "seconds": 7.75,
+          "sourceIndex": 186,
+          "sourceTime": 7.75,
+          "relativeTime": 7.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/marin-fixed-source/marin-hands-right/frame-31.png",
+          "pngSHA256": "0c272af3307e70cde35d0e3584904953095a9972d8dff2af0ac4c619df0c0a17"
+        }
+      ],
+      "nativePixels": true
+    }
+  ],
+  "extraction": "FFmpeg decoded original source indices, rgb24 PNG. Character crops are native rectangles without repainting/resizing; only contact thumbnails are resized.",
+  "visualReview": "approved-sampled-window",
+  "commands": [
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffprobe.exe",
+      "args": [
+        "-v",
+        "error",
+        "-count_frames",
+        "-show_streams",
+        "-show_format",
+        "-of",
+        "json",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v33\\opening\\clips\\04-marin-fixed.mp4"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffprobe.exe",
+      "args": [
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_frames",
+        "-show_entries",
+        "frame=best_effort_timestamp_time",
+        "-of",
+        "json",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v33\\opening\\clips\\04-marin-fixed.mp4"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v33\\opening\\clips\\04-marin-fixed.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-vf",
+        "select='eq(n,0)+eq(n,12)+eq(n,24)+eq(n,36)+eq(n,48)+eq(n,60)+eq(n,72)+eq(n,84)+eq(n,96)+eq(n,108)+eq(n,120)+eq(n,132)+eq(n,144)+eq(n,156)+eq(n,168)+eq(n,180)',format=rgb24",
+        "-fps_mode",
+        "passthrough",
+        "-frames:v",
+        "16",
+        "-start_number",
+        "0",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\marin-fixed-source\\full\\frame-%02d.png"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "0",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\marin-fixed-source\\full\\frame-%02d.png",
+        "-vf",
+        "scale=320:180,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\marin-fixed-source\\full-contact.jpg"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v33\\opening\\clips\\04-marin-fixed.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-vf",
+        "select='eq(n,0)+eq(n,6)+eq(n,12)+eq(n,18)+eq(n,24)+eq(n,30)+eq(n,36)+eq(n,42)+eq(n,48)+eq(n,54)+eq(n,60)+eq(n,66)+eq(n,72)+eq(n,78)+eq(n,84)+eq(n,90)+eq(n,96)+eq(n,102)+eq(n,108)+eq(n,114)+eq(n,120)+eq(n,126)+eq(n,132)+eq(n,138)+eq(n,144)+eq(n,150)+eq(n,156)+eq(n,162)+eq(n,168)+eq(n,174)+eq(n,180)+eq(n,186)',format=rgb24,crop=340:460:700:240",
+        "-fps_mode",
+        "passthrough",
+        "-frames:v",
+        "32",
+        "-start_number",
+        "0",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\marin-fixed-source\\umbra\\frame-%02d.png"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "0",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\marin-fixed-source\\umbra\\frame-%02d.png",
+        "-vf",
+        "scale=320:433,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\marin-fixed-source\\umbra-contact-1.jpg"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "16",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\marin-fixed-source\\umbra\\frame-%02d.png",
+        "-vf",
+        "scale=320:433,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\marin-fixed-source\\umbra-contact-2.jpg"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v33\\opening\\clips\\04-marin-fixed.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-vf",
+        "select='eq(n,0)+eq(n,6)+eq(n,12)+eq(n,18)+eq(n,24)+eq(n,30)+eq(n,36)+eq(n,42)+eq(n,48)+eq(n,54)+eq(n,60)+eq(n,66)+eq(n,72)+eq(n,78)+eq(n,84)+eq(n,90)+eq(n,96)+eq(n,102)+eq(n,108)+eq(n,114)+eq(n,120)+eq(n,126)+eq(n,132)+eq(n,138)+eq(n,144)+eq(n,150)+eq(n,156)+eq(n,162)+eq(n,168)+eq(n,174)+eq(n,180)+eq(n,186)',format=rgb24,crop=290:320:330:100",
+        "-fps_mode",
+        "passthrough",
+        "-frames:v",
+        "32",
+        "-start_number",
+        "0",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\marin-fixed-source\\marin-hands-left\\frame-%02d.png"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "0",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\marin-fixed-source\\marin-hands-left\\frame-%02d.png",
+        "-vf",
+        "scale=320:353,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\marin-fixed-source\\marin-hands-left-contact-1.jpg"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "16",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\marin-fixed-source\\marin-hands-left\\frame-%02d.png",
+        "-vf",
+        "scale=320:353,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\marin-fixed-source\\marin-hands-left-contact-2.jpg"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v33\\opening\\clips\\04-marin-fixed.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-vf",
+        "select='eq(n,0)+eq(n,6)+eq(n,12)+eq(n,18)+eq(n,24)+eq(n,30)+eq(n,36)+eq(n,42)+eq(n,48)+eq(n,54)+eq(n,60)+eq(n,66)+eq(n,72)+eq(n,78)+eq(n,84)+eq(n,90)+eq(n,96)+eq(n,102)+eq(n,108)+eq(n,114)+eq(n,120)+eq(n,126)+eq(n,132)+eq(n,138)+eq(n,144)+eq(n,150)+eq(n,156)+eq(n,162)+eq(n,168)+eq(n,174)+eq(n,180)+eq(n,186)',format=rgb24,crop=285:320:460:100",
+        "-fps_mode",
+        "passthrough",
+        "-frames:v",
+        "32",
+        "-start_number",
+        "0",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\marin-fixed-source\\marin-hands-right\\frame-%02d.png"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "0",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\marin-fixed-source\\marin-hands-right\\frame-%02d.png",
+        "-vf",
+        "scale=320:359,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\marin-fixed-source\\marin-hands-right-contact-1.jpg"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "16",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\marin-fixed-source\\marin-hands-right\\frame-%02d.png",
+        "-vf",
+        "scale=320:359,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\marin-fixed-source\\marin-hands-right-contact-2.jpg"
+      ]
+    }
+  ],
+  "rootReview": "A raiz revisou e aprovou as contact sheets completas/janelas selecionadas; montagem autorizada após QA dos crops.",
+  "approvedWindows": [
+    {
+      "frames": 120,
+      "startSeconds": 0,
+      "sourceIndices": [
+        0,
+        119
+      ]
+    },
+    {
+      "frames": 26,
+      "startSeconds": 5,
+      "sourceIndices": [
+        120,
+        145
+      ]
+    }
+  ]
+}

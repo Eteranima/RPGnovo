@@ -1,0 +1,685 @@
+{
+  "source": "art-source/v33/opening/clips/02-seiji-corrected.mp4",
+  "sourceSHA256": "532324c6e66ff71263dbacf70f291465543496239bcb070a12fefacc838a8a0c",
+  "sourceBytes": 8538051,
+  "metadata": {
+    "codec": "h264",
+    "width": 1280,
+    "height": 720,
+    "pixelFormat": "yuv420p",
+    "r_frame_rate": "24/1",
+    "avg_frame_rate": "24/1",
+    "durationSeconds": 10,
+    "nb_frames": 240,
+    "nb_read_frames": 240,
+    "audioCodec": "aac",
+    "audioDurationSeconds": 10.005,
+    "containerDurationSeconds": 10.005
+  },
+  "metadataEvidence": "Actual local FFprobe 9.0.2 -count_frames result recorded by the QA owner.",
+  "fullFrames": [
+    {
+      "sample": 0,
+      "sourceFrame": 0,
+      "seconds": 0.0,
+      "path": "docs/qa-v33/opening/seiji-source/full/frame-00.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "b30d10c99552a3a007c99fa7858172bc715acdf7205c23f3ba154302e3ab945b"
+    },
+    {
+      "sample": 1,
+      "sourceFrame": 12,
+      "seconds": 0.5,
+      "path": "docs/qa-v33/opening/seiji-source/full/frame-01.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "983642bebc1ab8d9a67c6e254670669087585b203eaaa137d74c56d4c68e6c66"
+    },
+    {
+      "sample": 2,
+      "sourceFrame": 24,
+      "seconds": 1.0,
+      "path": "docs/qa-v33/opening/seiji-source/full/frame-02.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "6bfa7f4d9726c3fa75752d96852c263e4c1cdf335d1602461597a062073fec89"
+    },
+    {
+      "sample": 3,
+      "sourceFrame": 36,
+      "seconds": 1.5,
+      "path": "docs/qa-v33/opening/seiji-source/full/frame-03.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "e13276b55bc6a80b6c732532547a1b155b256a850972c0bc13cc66e99d6dbc70"
+    },
+    {
+      "sample": 4,
+      "sourceFrame": 48,
+      "seconds": 2.0,
+      "path": "docs/qa-v33/opening/seiji-source/full/frame-04.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "18bf15f2902877c4347d38bac68ae716f070c4ff59dd2239266f0eb63a6c966d"
+    },
+    {
+      "sample": 5,
+      "sourceFrame": 60,
+      "seconds": 2.5,
+      "path": "docs/qa-v33/opening/seiji-source/full/frame-05.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "1ce36f3373ef7e5028663b6676e78f91dccf3323164ebfd54a3dccfe7fc393bd"
+    },
+    {
+      "sample": 6,
+      "sourceFrame": 72,
+      "seconds": 3.0,
+      "path": "docs/qa-v33/opening/seiji-source/full/frame-06.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "e3885860f65d98451231294ccd71ff9c457093221f8b770a340b03c007df75f4"
+    },
+    {
+      "sample": 7,
+      "sourceFrame": 84,
+      "seconds": 3.5,
+      "path": "docs/qa-v33/opening/seiji-source/full/frame-07.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "8462b41da2b4da1665f761f83cb886a59fb33be772fe4ad0926ea8135540aa3b"
+    },
+    {
+      "sample": 8,
+      "sourceFrame": 96,
+      "seconds": 4.0,
+      "path": "docs/qa-v33/opening/seiji-source/full/frame-08.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "e88fb2d5bbf828d14c1d53ea705f0e4c2ebc19dab420a1203f96c58d7a8149fd"
+    },
+    {
+      "sample": 9,
+      "sourceFrame": 108,
+      "seconds": 4.5,
+      "path": "docs/qa-v33/opening/seiji-source/full/frame-09.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "a87d271c94bc5ae42dffdfe6f5c7d98a28b80fb51829734a2fa81394bc6b7ac3"
+    },
+    {
+      "sample": 10,
+      "sourceFrame": 120,
+      "seconds": 5.0,
+      "path": "docs/qa-v33/opening/seiji-source/full/frame-10.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "b3235fcbdc6779a2d10ed723bcb81c20a02775e9f57917fd4d3eb1f15e9ccbe3"
+    },
+    {
+      "sample": 11,
+      "sourceFrame": 132,
+      "seconds": 5.5,
+      "path": "docs/qa-v33/opening/seiji-source/full/frame-11.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "f1bac41d555f2e2d377085812a863337fc26553f2ca18b57a23fb7965345a4aa"
+    },
+    {
+      "sample": 12,
+      "sourceFrame": 144,
+      "seconds": 6.0,
+      "path": "docs/qa-v33/opening/seiji-source/full/frame-12.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "7dac2b1d3091a0bbc1fd6dbcc8df6a45247523bece5bdc49c6aec4661a5b0114"
+    },
+    {
+      "sample": 13,
+      "sourceFrame": 156,
+      "seconds": 6.5,
+      "path": "docs/qa-v33/opening/seiji-source/full/frame-13.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "c827abcac28b0f1cebc48f615c6f8cc5ee2d3816643e843691f49e4d83eb81f5"
+    },
+    {
+      "sample": 14,
+      "sourceFrame": 168,
+      "seconds": 7.0,
+      "path": "docs/qa-v33/opening/seiji-source/full/frame-14.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "7df092cd1ccefe39f263fa153579d1469d2e08818ebd70301a6de33ffbef1c36"
+    },
+    {
+      "sample": 15,
+      "sourceFrame": 180,
+      "seconds": 7.5,
+      "path": "docs/qa-v33/opening/seiji-source/full/frame-15.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "2b73de142a7b0053b0292b8d34510e10389d4086e9c5c22be2058b9e110368a3"
+    },
+    {
+      "sample": 16,
+      "sourceFrame": 192,
+      "seconds": 8.0,
+      "path": "docs/qa-v33/opening/seiji-source/full/frame-16.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "c27282944fe9a88902640c72d5633cca3432d8359662a80e9bc30b1a853714a7"
+    },
+    {
+      "sample": 17,
+      "sourceFrame": 204,
+      "seconds": 8.5,
+      "path": "docs/qa-v33/opening/seiji-source/full/frame-17.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "a5fd1f741f783f24625edaf3bac5445d03d028092c11212aebbc5ffc83c3bc12"
+    },
+    {
+      "sample": 18,
+      "sourceFrame": 216,
+      "seconds": 9.0,
+      "path": "docs/qa-v33/opening/seiji-source/full/frame-18.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "446f5ea57ddb0d2525ff2940c46d6f97156a697e9b149061d1a3e76ee5def23f"
+    },
+    {
+      "sample": 19,
+      "sourceFrame": 228,
+      "seconds": 9.5,
+      "path": "docs/qa-v33/opening/seiji-source/full/frame-19.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "eabb1b3263722e3249847acd0365679e81bf633a6d4ea648d0b43ce6f048d0c2"
+    }
+  ],
+  "shinFrames": [
+    {
+      "sample": 0,
+      "sourceFrame": 0,
+      "seconds": 0.0,
+      "path": "docs/qa-v33/opening/seiji-source/shin/frame-00.png",
+      "width": 500,
+      "height": 530,
+      "sha256": "d50bddc7aec1a2a6509ce0ce991f1e96c1e1ba8a86a8394775323ea21d64fc04"
+    },
+    {
+      "sample": 1,
+      "sourceFrame": 5,
+      "seconds": 0.20833333333333334,
+      "path": "docs/qa-v33/opening/seiji-source/shin/frame-01.png",
+      "width": 500,
+      "height": 530,
+      "sha256": "47a3d5b53fd86da3cb633bc04ff2febf5bb7383e1c89ed953394329edd02fab2"
+    },
+    {
+      "sample": 2,
+      "sourceFrame": 10,
+      "seconds": 0.4166666666666667,
+      "path": "docs/qa-v33/opening/seiji-source/shin/frame-02.png",
+      "width": 500,
+      "height": 530,
+      "sha256": "6772cf85d282fc323ee95f8f8da2e28cefe02f03d5965ecc8bee06ce5feef9ce"
+    },
+    {
+      "sample": 3,
+      "sourceFrame": 15,
+      "seconds": 0.625,
+      "path": "docs/qa-v33/opening/seiji-source/shin/frame-03.png",
+      "width": 500,
+      "height": 530,
+      "sha256": "914721693a30afa1379ace11f6e87a156c5ce9015c500db2235e3135e28a40ce"
+    },
+    {
+      "sample": 4,
+      "sourceFrame": 20,
+      "seconds": 0.8333333333333334,
+      "path": "docs/qa-v33/opening/seiji-source/shin/frame-04.png",
+      "width": 500,
+      "height": 530,
+      "sha256": "ad111bdff4c1cbf11313147c468797dbffd868e5cff27b2a1402cc2847093c34"
+    },
+    {
+      "sample": 5,
+      "sourceFrame": 25,
+      "seconds": 1.0416666666666667,
+      "path": "docs/qa-v33/opening/seiji-source/shin/frame-05.png",
+      "width": 500,
+      "height": 530,
+      "sha256": "1062596b7d432928ff3cf3fc9a1b14efc92af983c7c10083def5dafc8e2dbd68"
+    },
+    {
+      "sample": 6,
+      "sourceFrame": 30,
+      "seconds": 1.25,
+      "path": "docs/qa-v33/opening/seiji-source/shin/frame-06.png",
+      "width": 500,
+      "height": 530,
+      "sha256": "708df9bbca982058da468f05ee6fb476e386e601805f5fc87fda0dc9b89bed8f"
+    },
+    {
+      "sample": 7,
+      "sourceFrame": 35,
+      "seconds": 1.4583333333333333,
+      "path": "docs/qa-v33/opening/seiji-source/shin/frame-07.png",
+      "width": 500,
+      "height": 530,
+      "sha256": "b0590c85ede0f99529acc308124a3f7a74e1e2798467d0e1e548f18b4b5acbc0"
+    },
+    {
+      "sample": 8,
+      "sourceFrame": 40,
+      "seconds": 1.6666666666666667,
+      "path": "docs/qa-v33/opening/seiji-source/shin/frame-08.png",
+      "width": 500,
+      "height": 530,
+      "sha256": "a35ec7e3518a1216a002ddedc65b2b46a397035be7e391aedbcfa33ea9b5d14d"
+    },
+    {
+      "sample": 9,
+      "sourceFrame": 45,
+      "seconds": 1.875,
+      "path": "docs/qa-v33/opening/seiji-source/shin/frame-09.png",
+      "width": 500,
+      "height": 530,
+      "sha256": "8f218983b8e4279763512ffc7a52880c79495e364ce9d27eb2b37b0478f69578"
+    },
+    {
+      "sample": 10,
+      "sourceFrame": 50,
+      "seconds": 2.0833333333333335,
+      "path": "docs/qa-v33/opening/seiji-source/shin/frame-10.png",
+      "width": 500,
+      "height": 530,
+      "sha256": "c4efe6862dcb66fcd0e1d2de0c079c1ad3d9bdac2636fd36a44bc5a8ce8f0c8e"
+    },
+    {
+      "sample": 11,
+      "sourceFrame": 55,
+      "seconds": 2.2916666666666665,
+      "path": "docs/qa-v33/opening/seiji-source/shin/frame-11.png",
+      "width": 500,
+      "height": 530,
+      "sha256": "bd0412f418e2603ac2c73cb078777ba046efa2d63eeeb3c619c8429183a91abe"
+    },
+    {
+      "sample": 12,
+      "sourceFrame": 60,
+      "seconds": 2.5,
+      "path": "docs/qa-v33/opening/seiji-source/shin/frame-12.png",
+      "width": 500,
+      "height": 530,
+      "sha256": "cb13b85bb7d3fdc71904431822e2b6d1025869d6e86daa690e3e78abc01c6180"
+    },
+    {
+      "sample": 13,
+      "sourceFrame": 65,
+      "seconds": 2.7083333333333335,
+      "path": "docs/qa-v33/opening/seiji-source/shin/frame-13.png",
+      "width": 500,
+      "height": 530,
+      "sha256": "402909d6e2ebc37a6e750fa4da4b748ef6d5d1c35c11c25946d16c5e4c02c3a0"
+    },
+    {
+      "sample": 14,
+      "sourceFrame": 70,
+      "seconds": 2.9166666666666665,
+      "path": "docs/qa-v33/opening/seiji-source/shin/frame-14.png",
+      "width": 500,
+      "height": 530,
+      "sha256": "0f693bc4e809d1f6193dc4d85747b2686e78f73389da664e960b0ad21d5596f4"
+    },
+    {
+      "sample": 15,
+      "sourceFrame": 75,
+      "seconds": 3.125,
+      "path": "docs/qa-v33/opening/seiji-source/shin/frame-15.png",
+      "width": 500,
+      "height": 530,
+      "sha256": "3e48a175d008fcc746718084b9b1a65203bac01d19ef61b6a3ceff9d5960b639"
+    },
+    {
+      "sample": 16,
+      "sourceFrame": 80,
+      "seconds": 3.3333333333333335,
+      "path": "docs/qa-v33/opening/seiji-source/shin/frame-16.png",
+      "width": 500,
+      "height": 530,
+      "sha256": "f8686ccf3fad0a10d7a1823b5fd3b4ca0db4ef770e904950917babb4db9b2ab1"
+    },
+    {
+      "sample": 17,
+      "sourceFrame": 85,
+      "seconds": 3.5416666666666665,
+      "path": "docs/qa-v33/opening/seiji-source/shin/frame-17.png",
+      "width": 500,
+      "height": 530,
+      "sha256": "06d6d9a6695475fe3f40066adf3f3d4f12da3014c1378fae8947f73879f5f0d0"
+    },
+    {
+      "sample": 18,
+      "sourceFrame": 90,
+      "seconds": 3.75,
+      "path": "docs/qa-v33/opening/seiji-source/shin/frame-18.png",
+      "width": 500,
+      "height": 530,
+      "sha256": "92e9247f3a4ac14eb47b9d6396643c9c77769ef62344068ec5169c0b6a4e85c4"
+    },
+    {
+      "sample": 19,
+      "sourceFrame": 95,
+      "seconds": 3.9583333333333335,
+      "path": "docs/qa-v33/opening/seiji-source/shin/frame-19.png",
+      "width": 500,
+      "height": 530,
+      "sha256": "53b08b4c402c2983b872ae6c036340362774cdac0e68b69939f7585a734d8612"
+    },
+    {
+      "sample": 20,
+      "sourceFrame": 100,
+      "seconds": 4.166666666666667,
+      "path": "docs/qa-v33/opening/seiji-source/shin/frame-20.png",
+      "width": 500,
+      "height": 530,
+      "sha256": "e97c19b9ab8a29aa8cc7984d8db63d33dff722d2d8b4cc032ef4fe9191ba8c73"
+    },
+    {
+      "sample": 21,
+      "sourceFrame": 105,
+      "seconds": 4.375,
+      "path": "docs/qa-v33/opening/seiji-source/shin/frame-21.png",
+      "width": 500,
+      "height": 530,
+      "sha256": "4054372e5dec97057d30659470ea64763c1408c78811b3976054f55233331356"
+    },
+    {
+      "sample": 22,
+      "sourceFrame": 110,
+      "seconds": 4.583333333333333,
+      "path": "docs/qa-v33/opening/seiji-source/shin/frame-22.png",
+      "width": 500,
+      "height": 530,
+      "sha256": "0f10804bf4211f296ad58ff49cce5a5883eccab7706ded12e327e89f04a15023"
+    },
+    {
+      "sample": 23,
+      "sourceFrame": 115,
+      "seconds": 4.791666666666667,
+      "path": "docs/qa-v33/opening/seiji-source/shin/frame-23.png",
+      "width": 500,
+      "height": 530,
+      "sha256": "7ffc6ce57dbb2bae1f96f380422afaa83958da0b8ab25545ab0dc2a93c0f733f"
+    },
+    {
+      "sample": 24,
+      "sourceFrame": 120,
+      "seconds": 5.0,
+      "path": "docs/qa-v33/opening/seiji-source/shin/frame-24.png",
+      "width": 500,
+      "height": 530,
+      "sha256": "c619e657b1992f49451025150f129cc7b606dabd13fb5e1b26250d0ac33b938c"
+    },
+    {
+      "sample": 25,
+      "sourceFrame": 125,
+      "seconds": 5.208333333333333,
+      "path": "docs/qa-v33/opening/seiji-source/shin/frame-25.png",
+      "width": 500,
+      "height": 530,
+      "sha256": "7613b5bea2445d743741495aeddec7f0f6a7ffc9f8d901ad78414ec6bb35a6e6"
+    },
+    {
+      "sample": 26,
+      "sourceFrame": 130,
+      "seconds": 5.416666666666667,
+      "path": "docs/qa-v33/opening/seiji-source/shin/frame-26.png",
+      "width": 500,
+      "height": 530,
+      "sha256": "ddb5a0709c310cbac5bd80c5845b46ea91cd5feac4a9c82fa93f1efa996cf047"
+    },
+    {
+      "sample": 27,
+      "sourceFrame": 135,
+      "seconds": 5.625,
+      "path": "docs/qa-v33/opening/seiji-source/shin/frame-27.png",
+      "width": 500,
+      "height": 530,
+      "sha256": "c7d90d4fb73dba19cc308378ddfd9f4c0f17449b97382e625676936399da3aa4"
+    },
+    {
+      "sample": 28,
+      "sourceFrame": 140,
+      "seconds": 5.833333333333333,
+      "path": "docs/qa-v33/opening/seiji-source/shin/frame-28.png",
+      "width": 500,
+      "height": 530,
+      "sha256": "b6ea05dce3f2939797aba57c02e079f9f17a1600dc06f8d05c08a81f3a132247"
+    },
+    {
+      "sample": 29,
+      "sourceFrame": 145,
+      "seconds": 6.041666666666667,
+      "path": "docs/qa-v33/opening/seiji-source/shin/frame-29.png",
+      "width": 500,
+      "height": 530,
+      "sha256": "dff49052db17938afe0a4c6507fb72d1c94c8c6d42163f8f79a4077eaa09210e"
+    },
+    {
+      "sample": 30,
+      "sourceFrame": 150,
+      "seconds": 6.25,
+      "path": "docs/qa-v33/opening/seiji-source/shin/frame-30.png",
+      "width": 500,
+      "height": 530,
+      "sha256": "16454c7f791a84d04d02cb4f4cb1a40e74aa3e51e395d5b58f203b31fb380904"
+    },
+    {
+      "sample": 31,
+      "sourceFrame": 155,
+      "seconds": 6.458333333333333,
+      "path": "docs/qa-v33/opening/seiji-source/shin/frame-31.png",
+      "width": 500,
+      "height": 530,
+      "sha256": "4ec4dcb39848452d553f31f4cb218561267b86c22b55ad359bfa2cfebdef32b8"
+    },
+    {
+      "sample": 32,
+      "sourceFrame": 160,
+      "seconds": 6.666666666666667,
+      "path": "docs/qa-v33/opening/seiji-source/shin/frame-32.png",
+      "width": 500,
+      "height": 530,
+      "sha256": "e0e164a29604592c00ddc252ddf037191a17a3c857b0bd4cd300e80786e0d5f7"
+    },
+    {
+      "sample": 33,
+      "sourceFrame": 165,
+      "seconds": 6.875,
+      "path": "docs/qa-v33/opening/seiji-source/shin/frame-33.png",
+      "width": 500,
+      "height": 530,
+      "sha256": "7f996542c673d3020d7be9b5fd3a9fc6b2ccac5e443e07c6c81088500ff7f25f"
+    },
+    {
+      "sample": 34,
+      "sourceFrame": 170,
+      "seconds": 7.083333333333333,
+      "path": "docs/qa-v33/opening/seiji-source/shin/frame-34.png",
+      "width": 500,
+      "height": 530,
+      "sha256": "e304f2de0dbf18acd0d34859ffea6e1182af9eececce2ce21676102d99ebb683"
+    },
+    {
+      "sample": 35,
+      "sourceFrame": 175,
+      "seconds": 7.291666666666667,
+      "path": "docs/qa-v33/opening/seiji-source/shin/frame-35.png",
+      "width": 500,
+      "height": 530,
+      "sha256": "7c0fedc520aedd836527eaa53f2b1061c80db85b918225d4dfa74ed52cd7b3dd"
+    },
+    {
+      "sample": 36,
+      "sourceFrame": 180,
+      "seconds": 7.5,
+      "path": "docs/qa-v33/opening/seiji-source/shin/frame-36.png",
+      "width": 500,
+      "height": 530,
+      "sha256": "cc3a1062b75330472206027fd97904ed156cd917f97c16eedefaacf9cfe87fba"
+    },
+    {
+      "sample": 37,
+      "sourceFrame": 185,
+      "seconds": 7.708333333333333,
+      "path": "docs/qa-v33/opening/seiji-source/shin/frame-37.png",
+      "width": 500,
+      "height": 530,
+      "sha256": "7d1d893bb9dc936cc2a3a130a190800231b3a4c54cef766152d3551e652abe3f"
+    },
+    {
+      "sample": 38,
+      "sourceFrame": 190,
+      "seconds": 7.916666666666667,
+      "path": "docs/qa-v33/opening/seiji-source/shin/frame-38.png",
+      "width": 500,
+      "height": 530,
+      "sha256": "04f645bc24d715e6606f41a26a34815bd062af3a0368dc7e74e734a39535abd1"
+    },
+    {
+      "sample": 39,
+      "sourceFrame": 195,
+      "seconds": 8.125,
+      "path": "docs/qa-v33/opening/seiji-source/shin/frame-39.png",
+      "width": 500,
+      "height": 530,
+      "sha256": "24bdc85f24d4dd4d36d5725c0044e1b0467a4b494f68bd4cc2a082752ca415fc"
+    },
+    {
+      "sample": 40,
+      "sourceFrame": 200,
+      "seconds": 8.333333333333334,
+      "path": "docs/qa-v33/opening/seiji-source/shin/frame-40.png",
+      "width": 500,
+      "height": 530,
+      "sha256": "a579ce096d699e194bf63a9ae8f427b9d780c80f52005b7bd1e477184e8ab43c"
+    },
+    {
+      "sample": 41,
+      "sourceFrame": 205,
+      "seconds": 8.541666666666666,
+      "path": "docs/qa-v33/opening/seiji-source/shin/frame-41.png",
+      "width": 500,
+      "height": 530,
+      "sha256": "604a53f39ad6bcbd809e3a38fb20497648df07e5e3b1a12a7b9d4e27b991d35f"
+    },
+    {
+      "sample": 42,
+      "sourceFrame": 210,
+      "seconds": 8.75,
+      "path": "docs/qa-v33/opening/seiji-source/shin/frame-42.png",
+      "width": 500,
+      "height": 530,
+      "sha256": "b66194311245c47fc51c930df21657610f08550c276cffc4af95982765cf7542"
+    },
+    {
+      "sample": 43,
+      "sourceFrame": 215,
+      "seconds": 8.958333333333334,
+      "path": "docs/qa-v33/opening/seiji-source/shin/frame-43.png",
+      "width": 500,
+      "height": 530,
+      "sha256": "cc7e3b3ab1da2d5a9ffa1564affb0471548e2863569ad444ee6cc5056ea179f2"
+    },
+    {
+      "sample": 44,
+      "sourceFrame": 220,
+      "seconds": 9.166666666666666,
+      "path": "docs/qa-v33/opening/seiji-source/shin/frame-44.png",
+      "width": 500,
+      "height": 530,
+      "sha256": "3e67141fd83066f8d016d8b6c95af375aa32e67766e12277dcf7f299871242a8"
+    },
+    {
+      "sample": 45,
+      "sourceFrame": 225,
+      "seconds": 9.375,
+      "path": "docs/qa-v33/opening/seiji-source/shin/frame-45.png",
+      "width": 500,
+      "height": 530,
+      "sha256": "3bfe59299a6e987be34c62cf9c53ef3e9f8f80037b81b7b89a587f8caca5fa66"
+    },
+    {
+      "sample": 46,
+      "sourceFrame": 230,
+      "seconds": 9.583333333333334,
+      "path": "docs/qa-v33/opening/seiji-source/shin/frame-46.png",
+      "width": 500,
+      "height": 530,
+      "sha256": "7db61260efd176ea1152e5af8d5337459cdf2a5a3ef2d40d890adb2a7300d40c"
+    },
+    {
+      "sample": 47,
+      "sourceFrame": 235,
+      "seconds": 9.791666666666666,
+      "path": "docs/qa-v33/opening/seiji-source/shin/frame-47.png",
+      "width": 500,
+      "height": 530,
+      "sha256": "4dd4b8313159b589c40ac4be75058ac72efa28e8f1378834d364aaa20ede4a06"
+    }
+  ],
+  "shinCrop": {
+    "x": 740,
+    "y": 180,
+    "w": 500,
+    "h": 530
+  },
+  "distinctReviewedSourceFrames": 64,
+  "nativePixelProof": [
+    {
+      "sourceFrame": 0,
+      "identicalNativeRGBPixels": 265000,
+      "sha256Pixels": "66907911eb6a4e89d3fa8444210d06c1cce060e01625106b35e46865fdd79e58"
+    },
+    {
+      "sourceFrame": 60,
+      "identicalNativeRGBPixels": 265000,
+      "sha256Pixels": "de55dadae46511ae3a1b5a23617876da16d2b5bd94620d43737818feff785a2a"
+    },
+    {
+      "sourceFrame": 120,
+      "identicalNativeRGBPixels": 265000,
+      "sha256Pixels": "c9f6c14cd86d464456e5603de7111d9d8298c3b2799a6bb6fcb963864a854987"
+    },
+    {
+      "sourceFrame": 180,
+      "identicalNativeRGBPixels": 265000,
+      "sha256Pixels": "4d883e1ab9616dfbd073de563a2b0b593a1ff0a4676b4f0673c15061a1674068"
+    }
+  ],
+  "extraction": {
+    "fullFilter": "select='not(mod(n,12))',format=rgb24",
+    "shinFilter": "select='not(mod(n,5))',format=rgb24,crop=500:530:740:180",
+    "frameMode": "passthrough",
+    "startNumber": 0,
+    "fullContact": {
+      "columns": 5,
+      "rows": 4,
+      "thumbWidth": 320,
+      "thumbHeight": 180
+    },
+    "shinContacts": {
+      "sheets": 3,
+      "columns": 4,
+      "rows": 4,
+      "thumbWidth": 320
+    },
+    "note": "Only review thumbnails are scaled. The 20 full PNGs and 48 subject PNGs are native decoded/cropped RGB pixels."
+  },
+  "scope": "Source QA only; no film assembled and no source footage was changed."
+}

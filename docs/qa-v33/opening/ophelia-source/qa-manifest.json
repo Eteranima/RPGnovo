@@ -1,0 +1,663 @@
+{
+  "schema": 1,
+  "source": "art-source/v33/opening/clips/03-ophelia.mp4",
+  "sourceSHA256": "435829de715f08945b558f1ff274d2c334b27cf00f5a2b048b0e98267b529aa8",
+  "sourceBytes": 8691969,
+  "actualDecodedFrames": 192,
+  "sourceResolution": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 24,
+  "videoDurationSeconds": 8,
+  "containerDurationSeconds": 8,
+  "audio": [
+    {
+      "codec": "aac",
+      "sampleRate": "48000",
+      "channels": 2,
+      "duration": "8.000000"
+    }
+  ],
+  "full": [
+    {
+      "sample": 0,
+      "seconds": 0,
+      "sourceIndex": 0,
+      "sourceTime": 0,
+      "relativeTime": 0,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/ophelia-source/full/frame-00.png",
+      "pngSHA256": "f973fa175ec484b162b29ca47c197a42869f344790926bdc7cf51567da1e0561"
+    },
+    {
+      "sample": 1,
+      "seconds": 0.5,
+      "sourceIndex": 12,
+      "sourceTime": 0.5,
+      "relativeTime": 0.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/ophelia-source/full/frame-01.png",
+      "pngSHA256": "922c0a9df1b3cb7f176a4080ef4af3448294880a0d3371ad62bb9b3953a55587"
+    },
+    {
+      "sample": 2,
+      "seconds": 1,
+      "sourceIndex": 24,
+      "sourceTime": 1,
+      "relativeTime": 1,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/ophelia-source/full/frame-02.png",
+      "pngSHA256": "2069168e37d4f50726fa6fb2d8da9bdc6306d7d90795457092a5f0425aa7d41a"
+    },
+    {
+      "sample": 3,
+      "seconds": 1.5,
+      "sourceIndex": 36,
+      "sourceTime": 1.5,
+      "relativeTime": 1.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/ophelia-source/full/frame-03.png",
+      "pngSHA256": "186ecf3133a28d8b0075049ede0bc81d2ba7a95ab5f5b5a58da550a41a256295"
+    },
+    {
+      "sample": 4,
+      "seconds": 2,
+      "sourceIndex": 48,
+      "sourceTime": 2,
+      "relativeTime": 2,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/ophelia-source/full/frame-04.png",
+      "pngSHA256": "14fb766e496514c7c970cd745ee8fde443c8154ed4885ecc80cf41f77fcbabaf"
+    },
+    {
+      "sample": 5,
+      "seconds": 2.5,
+      "sourceIndex": 60,
+      "sourceTime": 2.5,
+      "relativeTime": 2.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/ophelia-source/full/frame-05.png",
+      "pngSHA256": "e345235883a1bfa9d9374d78b5a1e94bc91c3d2f94b18ca1fb9700a1a343528a"
+    },
+    {
+      "sample": 6,
+      "seconds": 3,
+      "sourceIndex": 72,
+      "sourceTime": 3,
+      "relativeTime": 3,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/ophelia-source/full/frame-06.png",
+      "pngSHA256": "6a89a45004577b952268ff63448cabcc53c37439ceeebc0a99d3a06565280e76"
+    },
+    {
+      "sample": 7,
+      "seconds": 3.5,
+      "sourceIndex": 84,
+      "sourceTime": 3.5,
+      "relativeTime": 3.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/ophelia-source/full/frame-07.png",
+      "pngSHA256": "4c71dd0e50b811c9dcb125f6f4b575d535c9ce6f41c7bfc6c6096378528361e1"
+    },
+    {
+      "sample": 8,
+      "seconds": 4,
+      "sourceIndex": 96,
+      "sourceTime": 4,
+      "relativeTime": 4,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/ophelia-source/full/frame-08.png",
+      "pngSHA256": "2111c5187f093ecb4bd4a37a082729948fd7038ea914625444a50ea0ad8e32d8"
+    },
+    {
+      "sample": 9,
+      "seconds": 4.5,
+      "sourceIndex": 108,
+      "sourceTime": 4.5,
+      "relativeTime": 4.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/ophelia-source/full/frame-09.png",
+      "pngSHA256": "befc73ad444acf0f29673c55e2383c3ce993e296f596aa78ec307b1b9e24ea6a"
+    },
+    {
+      "sample": 10,
+      "seconds": 5,
+      "sourceIndex": 120,
+      "sourceTime": 5,
+      "relativeTime": 5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/ophelia-source/full/frame-10.png",
+      "pngSHA256": "72e3321a5994c261fbd47de5653d908da65c3bdd3ed5606589a6b7b50a7e4647"
+    },
+    {
+      "sample": 11,
+      "seconds": 5.5,
+      "sourceIndex": 132,
+      "sourceTime": 5.5,
+      "relativeTime": 5.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/ophelia-source/full/frame-11.png",
+      "pngSHA256": "14a1e5a27d9945304aaa27f603739668ce9345ab7d4d30539ef65c34c0151a9f"
+    },
+    {
+      "sample": 12,
+      "seconds": 6,
+      "sourceIndex": 144,
+      "sourceTime": 6,
+      "relativeTime": 6,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/ophelia-source/full/frame-12.png",
+      "pngSHA256": "d6a6c1035b8dab8bfcb40908ebad3ff27f9f76dd52bfb45c06a086546d065566"
+    },
+    {
+      "sample": 13,
+      "seconds": 6.5,
+      "sourceIndex": 156,
+      "sourceTime": 6.5,
+      "relativeTime": 6.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/ophelia-source/full/frame-13.png",
+      "pngSHA256": "b5cb7eb6566305b2b0a469ea0fb691d8a8a3b8ccf2ae75dc44de441b2610dd2f"
+    },
+    {
+      "sample": 14,
+      "seconds": 7,
+      "sourceIndex": 168,
+      "sourceTime": 7,
+      "relativeTime": 7,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/ophelia-source/full/frame-14.png",
+      "pngSHA256": "182e6926156a5ae837b53a9f81c54ffb40e3c9ae5c01c6b0ee4568f832075872"
+    },
+    {
+      "sample": 15,
+      "seconds": 7.5,
+      "sourceIndex": 180,
+      "sourceTime": 7.5,
+      "relativeTime": 7.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/ophelia-source/full/frame-15.png",
+      "pngSHA256": "d5d57a78653c4c260bf0a7715b221f0a8bb58703692d11128d6eaa20bbc6267c"
+    }
+  ],
+  "cropped": {
+    "character": "Mika",
+    "crop": {
+      "x": 650,
+      "y": 180,
+      "width": 430,
+      "height": 540
+    },
+    "frames": [
+      {
+        "sample": 0,
+        "seconds": 0,
+        "sourceIndex": 0,
+        "sourceTime": 0,
+        "relativeTime": 0,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ophelia-source/mika/frame-00.png",
+        "pngSHA256": "8a697dc3922c72fcdf80015d6324b7b41d1efafe96dcfde9c99a0f3a7ea653d0"
+      },
+      {
+        "sample": 1,
+        "seconds": 0.25,
+        "sourceIndex": 6,
+        "sourceTime": 0.25,
+        "relativeTime": 0.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ophelia-source/mika/frame-01.png",
+        "pngSHA256": "ac6e0c83cddde0fa25ffd9e8d4fef42c0af3ef8867ebe6c3e80b64acef23ff34"
+      },
+      {
+        "sample": 2,
+        "seconds": 0.5,
+        "sourceIndex": 12,
+        "sourceTime": 0.5,
+        "relativeTime": 0.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ophelia-source/mika/frame-02.png",
+        "pngSHA256": "d44eba597dbeef3600f780928efbd884e8d1f66e1df31f32b60c043193603f9d"
+      },
+      {
+        "sample": 3,
+        "seconds": 0.75,
+        "sourceIndex": 18,
+        "sourceTime": 0.75,
+        "relativeTime": 0.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ophelia-source/mika/frame-03.png",
+        "pngSHA256": "f1e29622c3c7482786741a89689e248f4ba13c917259cff8d4209130143bfff8"
+      },
+      {
+        "sample": 4,
+        "seconds": 1,
+        "sourceIndex": 24,
+        "sourceTime": 1,
+        "relativeTime": 1,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ophelia-source/mika/frame-04.png",
+        "pngSHA256": "e7b0ad032b7c38fc2c6ed05cd1c37e6ad2d9e426e182f8d1ec9ec26cf02c3097"
+      },
+      {
+        "sample": 5,
+        "seconds": 1.25,
+        "sourceIndex": 30,
+        "sourceTime": 1.25,
+        "relativeTime": 1.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ophelia-source/mika/frame-05.png",
+        "pngSHA256": "5e64424ee4cfbb4f1d3499bd38608abdd0567c9294838f162e37d7eb1dcafc97"
+      },
+      {
+        "sample": 6,
+        "seconds": 1.5,
+        "sourceIndex": 36,
+        "sourceTime": 1.5,
+        "relativeTime": 1.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ophelia-source/mika/frame-06.png",
+        "pngSHA256": "0460d178c1a8aa67859f91a8b3a512e904a18830f25915b4f5d8cebb78eb8a51"
+      },
+      {
+        "sample": 7,
+        "seconds": 1.75,
+        "sourceIndex": 42,
+        "sourceTime": 1.75,
+        "relativeTime": 1.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ophelia-source/mika/frame-07.png",
+        "pngSHA256": "65cadfc91cd8a29b855140969d27fb3439a1c105a9f03f786db9a63e866dfe37"
+      },
+      {
+        "sample": 8,
+        "seconds": 2,
+        "sourceIndex": 48,
+        "sourceTime": 2,
+        "relativeTime": 2,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ophelia-source/mika/frame-08.png",
+        "pngSHA256": "a66cf46d0fc67b32c94a1c963bd57ea4a49031952d8d8f24f0c8dc3d9b2e2b76"
+      },
+      {
+        "sample": 9,
+        "seconds": 2.25,
+        "sourceIndex": 54,
+        "sourceTime": 2.25,
+        "relativeTime": 2.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ophelia-source/mika/frame-09.png",
+        "pngSHA256": "ef3c716983791c04e0e9e3e17fe68cb503aef99858ff422840f683a7952ea909"
+      },
+      {
+        "sample": 10,
+        "seconds": 2.5,
+        "sourceIndex": 60,
+        "sourceTime": 2.5,
+        "relativeTime": 2.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ophelia-source/mika/frame-10.png",
+        "pngSHA256": "7075c4f5d5a655a41943975e687642e3c35a31c8bfa7551b8bcc230359f01e00"
+      },
+      {
+        "sample": 11,
+        "seconds": 2.75,
+        "sourceIndex": 66,
+        "sourceTime": 2.75,
+        "relativeTime": 2.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ophelia-source/mika/frame-11.png",
+        "pngSHA256": "11f6df2fd94e631ce999dc5d1bc4d74b6d89cb54e294520f6e59497268c77c15"
+      },
+      {
+        "sample": 12,
+        "seconds": 3,
+        "sourceIndex": 72,
+        "sourceTime": 3,
+        "relativeTime": 3,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ophelia-source/mika/frame-12.png",
+        "pngSHA256": "94673c46fdae00722050a7e0201099245ff44da4a994bfa2b812796ac2b35ce8"
+      },
+      {
+        "sample": 13,
+        "seconds": 3.25,
+        "sourceIndex": 78,
+        "sourceTime": 3.25,
+        "relativeTime": 3.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ophelia-source/mika/frame-13.png",
+        "pngSHA256": "d4ac487cd9a13607c8bc9e004227dfc328224e9d93f707b63f3d232843f2639d"
+      },
+      {
+        "sample": 14,
+        "seconds": 3.5,
+        "sourceIndex": 84,
+        "sourceTime": 3.5,
+        "relativeTime": 3.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ophelia-source/mika/frame-14.png",
+        "pngSHA256": "beb359b151d98e1722e7977fc299151a49a056105e168ec51b7a6a33c34e7528"
+      },
+      {
+        "sample": 15,
+        "seconds": 3.75,
+        "sourceIndex": 90,
+        "sourceTime": 3.75,
+        "relativeTime": 3.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ophelia-source/mika/frame-15.png",
+        "pngSHA256": "d37a419317097c323d8aeb11d9eaa332e382e34cc04ded61a40f99904d5dde0f"
+      },
+      {
+        "sample": 16,
+        "seconds": 4,
+        "sourceIndex": 96,
+        "sourceTime": 4,
+        "relativeTime": 4,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ophelia-source/mika/frame-16.png",
+        "pngSHA256": "4c056f97cefa9fc266fbf6e9cff72b906d29032673914df8cb5d00c5b7bdbdc0"
+      },
+      {
+        "sample": 17,
+        "seconds": 4.25,
+        "sourceIndex": 102,
+        "sourceTime": 4.25,
+        "relativeTime": 4.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ophelia-source/mika/frame-17.png",
+        "pngSHA256": "130fbb4d8e65ed4e50bcd7a284dfc32de1fe31f04c55fb4773446d1fb99c1ba6"
+      },
+      {
+        "sample": 18,
+        "seconds": 4.5,
+        "sourceIndex": 108,
+        "sourceTime": 4.5,
+        "relativeTime": 4.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ophelia-source/mika/frame-18.png",
+        "pngSHA256": "4ee0aee5c59a3a2e9fd854381bee98a90c1b8e2e41c8390c842f2661c39808cd"
+      },
+      {
+        "sample": 19,
+        "seconds": 4.75,
+        "sourceIndex": 114,
+        "sourceTime": 4.75,
+        "relativeTime": 4.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ophelia-source/mika/frame-19.png",
+        "pngSHA256": "948628cb83250651e4aa9fcb34f1424148d90ca548462776ac3b9a8bc0229eeb"
+      },
+      {
+        "sample": 20,
+        "seconds": 5,
+        "sourceIndex": 120,
+        "sourceTime": 5,
+        "relativeTime": 5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ophelia-source/mika/frame-20.png",
+        "pngSHA256": "65ef3f6ae89d91100d9958792ceb2936c6479fee7013af3cfdb012b7ec6d4c51"
+      },
+      {
+        "sample": 21,
+        "seconds": 5.25,
+        "sourceIndex": 126,
+        "sourceTime": 5.25,
+        "relativeTime": 5.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ophelia-source/mika/frame-21.png",
+        "pngSHA256": "f116010492db65aa8dbef3d1fa33db2ecb751a1ccff6109e1da3a93ccef74727"
+      },
+      {
+        "sample": 22,
+        "seconds": 5.5,
+        "sourceIndex": 132,
+        "sourceTime": 5.5,
+        "relativeTime": 5.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ophelia-source/mika/frame-22.png",
+        "pngSHA256": "7ae6b22390d639ae072ae403f8d89a371bdbaa9e1ef3cd45fc869ea2249c54b1"
+      },
+      {
+        "sample": 23,
+        "seconds": 5.75,
+        "sourceIndex": 138,
+        "sourceTime": 5.75,
+        "relativeTime": 5.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ophelia-source/mika/frame-23.png",
+        "pngSHA256": "731f75aabe46fb24adceceda4598723f605cd427e04cbdff2d08d2a953cef75b"
+      },
+      {
+        "sample": 24,
+        "seconds": 6,
+        "sourceIndex": 144,
+        "sourceTime": 6,
+        "relativeTime": 6,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ophelia-source/mika/frame-24.png",
+        "pngSHA256": "f564099e7c3ef0114798e6f76a7e079f979de6ac8292a450c3fb7cdcd7814c4d"
+      },
+      {
+        "sample": 25,
+        "seconds": 6.25,
+        "sourceIndex": 150,
+        "sourceTime": 6.25,
+        "relativeTime": 6.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ophelia-source/mika/frame-25.png",
+        "pngSHA256": "73aec4cc8eb5e8074e2a0cd65f844c9522d19ec7d152eafa996815853289dadf"
+      },
+      {
+        "sample": 26,
+        "seconds": 6.5,
+        "sourceIndex": 156,
+        "sourceTime": 6.5,
+        "relativeTime": 6.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ophelia-source/mika/frame-26.png",
+        "pngSHA256": "0f39028d0fe6d0466e05d71618f8be9f6a2ad76a8a91234037a8e94bd6b13650"
+      },
+      {
+        "sample": 27,
+        "seconds": 6.75,
+        "sourceIndex": 162,
+        "sourceTime": 6.75,
+        "relativeTime": 6.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ophelia-source/mika/frame-27.png",
+        "pngSHA256": "2a0da1fcaa1cbe4020b255c851d3feabbb910dc5b70f981f43893bc522179259"
+      },
+      {
+        "sample": 28,
+        "seconds": 7,
+        "sourceIndex": 168,
+        "sourceTime": 7,
+        "relativeTime": 7,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ophelia-source/mika/frame-28.png",
+        "pngSHA256": "02dfe947f9a417fd70a5674cb612230bff797924177cc7bf138bc4d19ef35e2a"
+      },
+      {
+        "sample": 29,
+        "seconds": 7.25,
+        "sourceIndex": 174,
+        "sourceTime": 7.25,
+        "relativeTime": 7.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ophelia-source/mika/frame-29.png",
+        "pngSHA256": "81af01ffc62c652dfce61e812906534438b678b93704a30b579bed6a425f4ac3"
+      },
+      {
+        "sample": 30,
+        "seconds": 7.5,
+        "sourceIndex": 180,
+        "sourceTime": 7.5,
+        "relativeTime": 7.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ophelia-source/mika/frame-30.png",
+        "pngSHA256": "1d51c8c1f22d0ea478fc0558a71f0ad4650c0a9ac34a171f4f7e6cb04767dfae"
+      },
+      {
+        "sample": 31,
+        "seconds": 7.75,
+        "sourceIndex": 186,
+        "sourceTime": 7.75,
+        "relativeTime": 7.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ophelia-source/mika/frame-31.png",
+        "pngSHA256": "6a9771d608af8772bcc7000a679506f3f7f5e98afd8e0829f2b0cb8c47290396"
+      }
+    ],
+    "nativePixels": true
+  },
+  "extraction": "FFmpeg decoded original source indices, rgb24 PNG. Character crops are native rectangles without repainting/resizing; only contact thumbnails are resized.",
+  "visualReview": {
+    "status": "rejected-enquadramento",
+    "fullPNGs": 16,
+    "cropPNGs": 32,
+    "distinctSampledSourceFrames": 32,
+    "approvedFiveSecondWindow": null,
+    "excludedFromAssembly": true,
+    "note": "Camera aproxima e corta adorno/cabelo da Ophelia por volta de 2 s, bota na borda inferior em 3,5 s e botas do Mika posteriormente. Root solicitou retake com câmera fixa."
+  },
+  "commands": [
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffprobe.exe",
+      "args": [
+        "-v",
+        "error",
+        "-count_frames",
+        "-show_streams",
+        "-show_format",
+        "-of",
+        "json",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v33\\opening\\clips\\03-ophelia.mp4"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffprobe.exe",
+      "args": [
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_frames",
+        "-show_entries",
+        "frame=best_effort_timestamp_time",
+        "-of",
+        "json",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v33\\opening\\clips\\03-ophelia.mp4"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v33\\opening\\clips\\03-ophelia.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-vf",
+        "select='eq(n,0)+eq(n,12)+eq(n,24)+eq(n,36)+eq(n,48)+eq(n,60)+eq(n,72)+eq(n,84)+eq(n,96)+eq(n,108)+eq(n,120)+eq(n,132)+eq(n,144)+eq(n,156)+eq(n,168)+eq(n,180)',format=rgb24",
+        "-fps_mode",
+        "passthrough",
+        "-frames:v",
+        "16",
+        "-start_number",
+        "0",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\ophelia-source\\full\\frame-%02d.png"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "0",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\ophelia-source\\full\\frame-%02d.png",
+        "-vf",
+        "scale=320:180,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\ophelia-source\\full-contact.jpg"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v33\\opening\\clips\\03-ophelia.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-vf",
+        "select='eq(n,0)+eq(n,6)+eq(n,12)+eq(n,18)+eq(n,24)+eq(n,30)+eq(n,36)+eq(n,42)+eq(n,48)+eq(n,54)+eq(n,60)+eq(n,66)+eq(n,72)+eq(n,78)+eq(n,84)+eq(n,90)+eq(n,96)+eq(n,102)+eq(n,108)+eq(n,114)+eq(n,120)+eq(n,126)+eq(n,132)+eq(n,138)+eq(n,144)+eq(n,150)+eq(n,156)+eq(n,162)+eq(n,168)+eq(n,174)+eq(n,180)+eq(n,186)',format=rgb24,crop=430:540:650:180",
+        "-fps_mode",
+        "passthrough",
+        "-frames:v",
+        "32",
+        "-start_number",
+        "0",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\ophelia-source\\mika\\frame-%02d.png"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "0",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\ophelia-source\\mika\\frame-%02d.png",
+        "-vf",
+        "scale=320:402,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\ophelia-source\\mika-contact-1.jpg"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "16",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\ophelia-source\\mika\\frame-%02d.png",
+        "-vf",
+        "scale=320:402,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\ophelia-source\\mika-contact-2.jpg"
+      ]
+    }
+  ]
+}

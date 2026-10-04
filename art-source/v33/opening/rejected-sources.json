@@ -1,0 +1,70 @@
+{
+  "schema": 1,
+  "sources": [
+    {
+      "path": "art-source/v33/opening/rejected/02-seiji-three-arms.mp4",
+      "sha256": "462324a92afa3fc00422691cf43319df50a714caa3b8520c4b5443b0de154e75",
+      "excludedFromAssembly": true,
+      "reason": "Parent visual review rejected the Shin reference because it showed three arms. The assembler owner inspected technical metadata only.",
+      "video": {
+        "codec": "h264",
+        "width": 1280,
+        "height": 720,
+        "pixelFormat": "yuv420p",
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "durationSeconds": 10,
+        "nb_frames": 240,
+        "nb_read_frames": 240
+      },
+      "audio": { "codec": "aac", "durationSeconds": 10.005 },
+      "container": { "durationSeconds": 10.005, "bytes": 9120633 },
+      "inspection": "Verified with local FFprobe 9.0.2 using count_frames; not included in a film or exported as QA imagery."
+    },
+    {
+      "pathAtInspection": "art-source/v33/opening/clips/03-ophelia.mp4",
+      "originalDownloadName": "Woman_and_boy_sharing_frost_20261004083043.mp4",
+      "sha256": "435829de715f08945b558f1ff274d2c334b27cf00f5a2b048b0e98267b529aa8",
+      "excludedFromAssembly": true,
+      "status": "rejected-enquadramento",
+      "reason": "Camera push-in clips Ophelia's head ornament by the 2-second sample and her boot at the lower edge around 3.5 seconds; later samples also clip Mika's boots. No complete five-second window with both full bodies was approved. Root requested a locked-camera retake.",
+      "video": {
+        "codec": "h264",
+        "width": 1280,
+        "height": 720,
+        "pixelFormat": "yuv420p",
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "durationSeconds": 8,
+        "nb_frames": 192,
+        "nb_read_frames": 192
+      },
+      "audio": { "codec": "aac", "durationSeconds": 8 },
+      "container": { "durationSeconds": 8, "bytes": 8691969 },
+      "inspection": "16 native full PNGs at 0.5-second intervals and 32 native Mika crops at six-frame intervals, 32 distinct source frames. Blue/white frost motifs remained coherent; this rejection concerns source framing.",
+      "qa": "docs/qa-v33/opening/ophelia-source/review.md"
+    },
+    {
+      "pathAtInspection": "art-source/v33/opening/clips/04-marin.mp4",
+      "sha256": "9555bfd5fb019e9f7949ddee4ba1d30c3f5c1acdf76c97c523cbceec020cb14c",
+      "excludedFromAssembly": true,
+      "status": "rejected-anatomia",
+      "reason": "Marin develops three simultaneous hands while crossing his arms: hand on the left upper arm, raised hand at the right shoulder and a third hand holding the dagger at the waist. Visible by sampled 2.5 seconds and persistent afterward. Root requested a retake with arms/weapons fixed.",
+      "video": { "codec": "h264", "width": 1280, "height": 720, "pixelFormat": "yuv420p", "r_frame_rate": "24/1", "avg_frame_rate": "24/1", "durationSeconds": 8, "nb_frames": 192, "nb_read_frames": 192 },
+      "container": { "durationSeconds": 8, "bytes": 6510000 },
+      "inspection": "16 native full PNGs, 32 Umbra crops and two 32-frame hand-region crop sequences. These cover 32 distinct source frames; full sheets and native evidence were reviewed.",
+      "qa": "docs/qa-v33/opening/marin-source/review.md"
+    },
+    {
+      "pathAtInspection": "art-source/v33/opening/clips/05-gabriel.mp4",
+      "sha256": "81184b2b6d92194054c315b3ab4c6d02590e7a5eadf23b78d67db97c74f2de26",
+      "excludedFromAssembly": true,
+      "status": "rejected-enquadramento",
+      "reason": "Dante opens his wings beyond the upper/right source frame at 2.5 seconds (native frame 60) and beyond the right edge at 6.5 seconds (native frame 156). Every five-second window of this eight-second source includes at least one of those clipped poses. Root planned a folded-wing retake.",
+      "video": { "codec": "h264", "width": 1280, "height": 720, "pixelFormat": "yuv420p", "r_frame_rate": "24/1", "avg_frame_rate": "24/1", "durationSeconds": 8, "nb_frames": 192, "nb_read_frames": 192 },
+      "container": { "durationSeconds": 8, "bytes": 8091307 },
+      "inspection": "16 native full PNGs with definitive wing clipping visible in native full frames at 2.5 and 6.5 seconds. Additional named crops document Dante's claws/wings and Gabriel's hands.",
+      "qa": "docs/qa-v33/opening/gabriel-source/review.md"
+    }
+  ]
+}

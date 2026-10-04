@@ -1,0 +1,6174 @@
+{
+  "frames": [
+    {
+      "best_effort_timestamp_time": "0.000000",
+      "duration_time": "0.041667",
+      "side_data_list": [
+        {
+          "side_data_type": "H.26[45] User Data Unregistered SEI message"
+        }
+      ]
+    },
+    {
+      "best_effort_timestamp_time": "0.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "0.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "0.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "0.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "0.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "0.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "0.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "0.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "0.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "0.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "0.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "0.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "0.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "0.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "0.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "0.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "0.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "0.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "0.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "0.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "0.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "0.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "0.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "1.000000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "1.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "1.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "1.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "1.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "1.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "1.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "1.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "1.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "1.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "1.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "1.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "1.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "1.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "1.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "1.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "1.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "1.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "1.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "1.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "1.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "1.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "1.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "1.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "2.000000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "2.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "2.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "2.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "2.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "2.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "2.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "2.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "2.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "2.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "2.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "2.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "2.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "2.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "2.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "2.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "2.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "2.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "2.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "2.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "2.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "2.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "2.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "2.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "3.000000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "3.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "3.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "3.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "3.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "3.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "3.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "3.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "3.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "3.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "3.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "3.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "3.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "3.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "3.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "3.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "3.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "3.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "3.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "3.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "3.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "3.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "3.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "3.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "4.000000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "4.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "4.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "4.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "4.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "4.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "4.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "4.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "4.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "4.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "4.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "4.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "4.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "4.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "4.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "4.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "4.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "4.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "4.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "4.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "4.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "4.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "4.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "4.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "5.000000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "5.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "5.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "5.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "5.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "5.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "5.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "5.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "5.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "5.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "5.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "5.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "5.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "5.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "5.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "5.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "5.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "5.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "5.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "5.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "5.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "5.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "5.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "5.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "6.000000",
+      "duration_time": "0.041667",
+      "side_data_list": [
+        {
+          "side_data_type": "H.26[45] User Data Unregistered SEI message"
+        }
+      ]
+    },
+    {
+      "best_effort_timestamp_time": "6.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "6.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "6.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "6.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "6.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "6.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "6.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "6.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "6.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "6.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "6.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "6.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "6.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "6.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "6.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "6.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "6.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "6.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "6.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "6.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "6.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "6.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "6.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "7.000000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "7.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "7.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "7.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "7.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "7.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "7.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "7.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "7.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "7.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "7.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "7.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "7.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "7.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "7.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "7.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "7.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "7.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "7.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "7.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "7.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "7.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "7.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "7.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "8.000000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "8.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "8.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "8.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "8.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "8.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "8.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "8.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "8.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "8.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "8.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "8.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "8.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "8.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "8.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "8.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "8.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "8.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "8.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "8.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "8.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "8.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "8.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "8.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "9.000000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "9.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "9.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "9.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "9.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "9.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "9.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "9.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "9.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "9.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "9.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "9.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "9.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "9.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "9.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "9.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "9.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "9.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "9.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "9.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "9.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "9.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "9.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "9.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "10.000000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "10.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "10.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "10.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "10.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "10.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "10.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "10.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "10.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "10.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "10.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "10.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "10.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "10.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "10.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "10.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "10.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "10.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "10.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "10.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "10.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "10.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "10.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "10.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "11.000000",
+      "duration_time": "0.041667",
+      "side_data_list": [
+        {
+          "side_data_type": "H.26[45] User Data Unregistered SEI message"
+        }
+      ]
+    },
+    {
+      "best_effort_timestamp_time": "11.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "11.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "11.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "11.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "11.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "11.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "11.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "11.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "11.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "11.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "11.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "11.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "11.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "11.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "11.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "11.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "11.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "11.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "11.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "11.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "11.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "11.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "11.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "12.000000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "12.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "12.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "12.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "12.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "12.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "12.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "12.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "12.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "12.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "12.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "12.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "12.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "12.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "12.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "12.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "12.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "12.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "12.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "12.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "12.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "12.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "12.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "12.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "13.000000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "13.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "13.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "13.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "13.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "13.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "13.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "13.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "13.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "13.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "13.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "13.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "13.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "13.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "13.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "13.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "13.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "13.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "13.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "13.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "13.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "13.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "13.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "13.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "14.000000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "14.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "14.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "14.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "14.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "14.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "14.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "14.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "14.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "14.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "14.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "14.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "14.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "14.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "14.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "14.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "14.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "14.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "14.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "14.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "14.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "14.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "14.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "14.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "15.000000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "15.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "15.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "15.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "15.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "15.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "15.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "15.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "15.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "15.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "15.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "15.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "15.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "15.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "15.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "15.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "15.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "15.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "15.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "15.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "15.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "15.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "15.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "15.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "16.000000",
+      "duration_time": "0.041667",
+      "side_data_list": [
+        {
+          "side_data_type": "H.26[45] User Data Unregistered SEI message"
+        }
+      ]
+    },
+    {
+      "best_effort_timestamp_time": "16.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "16.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "16.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "16.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "16.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "16.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "16.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "16.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "16.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "16.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "16.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "16.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "16.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "16.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "16.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "16.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "16.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "16.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "16.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "16.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "16.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "16.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "16.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "17.000000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "17.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "17.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "17.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "17.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "17.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "17.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "17.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "17.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "17.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "17.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "17.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "17.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "17.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "17.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "17.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "17.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "17.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "17.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "17.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "17.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "17.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "17.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "17.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "18.000000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "18.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "18.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "18.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "18.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "18.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "18.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "18.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "18.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "18.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "18.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "18.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "18.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "18.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "18.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "18.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "18.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "18.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "18.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "18.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "18.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "18.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "18.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "18.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "19.000000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "19.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "19.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "19.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "19.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "19.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "19.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "19.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "19.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "19.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "19.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "19.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "19.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "19.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "19.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "19.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "19.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "19.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "19.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "19.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "19.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "19.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "19.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "19.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "20.000000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "20.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "20.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "20.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "20.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "20.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "20.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "20.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "20.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "20.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "20.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "20.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "20.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "20.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "20.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "20.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "20.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "20.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "20.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "20.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "20.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "20.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "20.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "20.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "21.000000",
+      "duration_time": "0.041667",
+      "side_data_list": [
+        {
+          "side_data_type": "H.26[45] User Data Unregistered SEI message"
+        }
+      ]
+    },
+    {
+      "best_effort_timestamp_time": "21.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "21.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "21.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "21.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "21.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "21.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "21.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "21.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "21.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "21.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "21.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "21.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "21.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "21.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "21.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "21.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "21.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "21.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "21.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "21.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "21.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "21.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "21.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "22.000000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "22.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "22.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "22.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "22.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "22.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "22.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "22.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "22.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "22.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "22.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "22.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "22.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "22.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "22.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "22.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "22.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "22.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "22.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "22.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "22.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "22.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "22.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "22.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "23.000000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "23.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "23.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "23.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "23.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "23.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "23.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "23.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "23.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "23.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "23.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "23.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "23.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "23.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "23.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "23.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "23.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "23.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "23.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "23.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "23.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "23.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "23.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "23.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "24.000000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "24.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "24.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "24.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "24.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "24.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "24.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "24.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "24.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "24.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "24.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "24.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "24.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "24.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "24.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "24.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "24.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "24.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "24.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "24.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "24.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "24.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "24.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "24.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "25.000000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "25.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "25.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "25.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "25.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "25.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "25.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "25.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "25.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "25.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "25.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "25.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "25.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "25.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "25.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "25.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "25.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "25.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "25.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "25.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "25.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "25.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "25.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "25.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "26.000000",
+      "duration_time": "0.041667",
+      "side_data_list": [
+        {
+          "side_data_type": "H.26[45] User Data Unregistered SEI message"
+        }
+      ]
+    },
+    {
+      "best_effort_timestamp_time": "26.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "26.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "26.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "26.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "26.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "26.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "26.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "26.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "26.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "26.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "26.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "26.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "26.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "26.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "26.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "26.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "26.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "26.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "26.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "26.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "26.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "26.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "26.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "27.000000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "27.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "27.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "27.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "27.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "27.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "27.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "27.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "27.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "27.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "27.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "27.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "27.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "27.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "27.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "27.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "27.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "27.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "27.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "27.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "27.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "27.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "27.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "27.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "28.000000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "28.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "28.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "28.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "28.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "28.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "28.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "28.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "28.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "28.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "28.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "28.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "28.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "28.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "28.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "28.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "28.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "28.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "28.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "28.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "28.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "28.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "28.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "28.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "29.000000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "29.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "29.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "29.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "29.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "29.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "29.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "29.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "29.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "29.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "29.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "29.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "29.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "29.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "29.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "29.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "29.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "29.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "29.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "29.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "29.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "29.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "29.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "29.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "30.000000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "30.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "30.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "30.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "30.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "30.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "30.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "30.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "30.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "30.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "30.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "30.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "30.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "30.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "30.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "30.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "30.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "30.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "30.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "30.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "30.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "30.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "30.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "30.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "31.000000",
+      "duration_time": "0.041667",
+      "side_data_list": [
+        {
+          "side_data_type": "H.26[45] User Data Unregistered SEI message"
+        }
+      ]
+    },
+    {
+      "best_effort_timestamp_time": "31.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "31.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "31.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "31.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "31.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "31.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "31.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "31.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "31.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "31.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "31.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "31.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "31.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "31.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "31.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "31.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "31.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "31.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "31.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "31.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "31.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "31.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "31.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "32.000000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "32.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "32.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "32.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "32.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "32.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "32.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "32.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "32.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "32.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "32.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "32.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "32.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "32.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "32.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "32.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "32.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "32.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "32.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "32.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "32.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "32.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "32.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "32.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "33.000000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "33.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "33.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "33.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "33.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "33.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "33.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "33.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "33.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "33.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "33.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "33.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "33.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "33.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "33.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "33.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "33.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "33.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "33.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "33.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "33.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "33.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "33.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "33.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "34.000000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "34.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "34.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "34.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "34.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "34.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "34.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "34.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "34.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "34.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "34.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "34.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "34.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "34.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "34.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "34.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "34.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "34.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "34.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "34.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "34.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "34.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "34.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "34.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "35.000000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "35.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "35.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "35.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "35.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "35.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "35.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "35.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "35.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "35.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "35.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "35.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "35.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "35.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "35.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "35.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "35.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "35.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "35.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "35.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "35.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "35.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "35.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "35.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "36.000000",
+      "duration_time": "0.041667",
+      "side_data_list": [
+        {
+          "side_data_type": "H.26[45] User Data Unregistered SEI message"
+        }
+      ]
+    },
+    {
+      "best_effort_timestamp_time": "36.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "36.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "36.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "36.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "36.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "36.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "36.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "36.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "36.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "36.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "36.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "36.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "36.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "36.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "36.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "36.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "36.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "36.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "36.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "36.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "36.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "36.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "36.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "37.000000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "37.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "37.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "37.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "37.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "37.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "37.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "37.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "37.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "37.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "37.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "37.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "37.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "37.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "37.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "37.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "37.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "37.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "37.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "37.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "37.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "37.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "37.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "37.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "38.000000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "38.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "38.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "38.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "38.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "38.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "38.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "38.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "38.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "38.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "38.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "38.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "38.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "38.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "38.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "38.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "38.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "38.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "38.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "38.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "38.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "38.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "38.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "38.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "39.000000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "39.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "39.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "39.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "39.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "39.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "39.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "39.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "39.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "39.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "39.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "39.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "39.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "39.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "39.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "39.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "39.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "39.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "39.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "39.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "39.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "39.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "39.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "39.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "40.000000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "40.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "40.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "40.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "40.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "40.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "40.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "40.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "40.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "40.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "40.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "40.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "40.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "40.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "40.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "40.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "40.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "40.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "40.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "40.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "40.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "40.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "40.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "40.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "41.000000",
+      "duration_time": "0.041667",
+      "side_data_list": [
+        {
+          "side_data_type": "H.26[45] User Data Unregistered SEI message"
+        }
+      ]
+    },
+    {
+      "best_effort_timestamp_time": "41.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "41.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "41.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "41.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "41.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "41.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "41.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "41.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "41.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "41.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "41.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "41.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "41.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "41.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "41.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "41.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "41.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "41.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "41.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "41.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "41.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "41.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "41.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "42.000000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "42.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "42.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "42.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "42.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "42.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "42.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "42.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "42.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "42.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "42.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "42.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "42.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "42.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "42.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "42.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "42.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "42.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "42.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "42.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "42.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "42.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "42.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "42.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "43.000000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "43.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "43.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "43.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "43.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "43.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "43.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "43.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "43.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "43.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "43.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "43.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "43.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "43.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "43.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "43.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "43.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "43.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "43.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "43.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "43.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "43.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "43.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "43.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "44.000000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "44.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "44.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "44.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "44.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "44.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "44.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "44.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "44.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "44.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "44.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "44.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "44.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "44.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "44.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "44.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "44.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "44.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "44.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "44.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "44.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "44.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "44.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "44.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "45.000000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "45.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "45.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "45.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "45.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "45.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "45.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "45.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "45.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "45.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "45.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "45.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "45.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "45.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "45.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "45.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "45.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "45.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "45.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "45.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "45.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "45.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "45.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "45.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "46.000000",
+      "duration_time": "0.041667",
+      "side_data_list": [
+        {
+          "side_data_type": "H.26[45] User Data Unregistered SEI message"
+        }
+      ]
+    },
+    {
+      "best_effort_timestamp_time": "46.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "46.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "46.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "46.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "46.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "46.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "46.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "46.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "46.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "46.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "46.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "46.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "46.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "46.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "46.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "46.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "46.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "46.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "46.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "46.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "46.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "46.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "46.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "47.000000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "47.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "47.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "47.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "47.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "47.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "47.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "47.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "47.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "47.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "47.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "47.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "47.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "47.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "47.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "47.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "47.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "47.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "47.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "47.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "47.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "47.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "47.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "47.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "48.000000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "48.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "48.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "48.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "48.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "48.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "48.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "48.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "48.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "48.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "48.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "48.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "48.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "48.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "48.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "48.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "48.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "48.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "48.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "48.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "48.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "48.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "48.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "48.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "49.000000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "49.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "49.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "49.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "49.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "49.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "49.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "49.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "49.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "49.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "49.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "49.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "49.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "49.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "49.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "49.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "49.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "49.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "49.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "49.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "49.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "49.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "49.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "49.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "50.000000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "50.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "50.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "50.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "50.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "50.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "50.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "50.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "50.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "50.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "50.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "50.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "50.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "50.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "50.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "50.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "50.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "50.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "50.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "50.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "50.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "50.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "50.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "50.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "51.000000",
+      "duration_time": "0.041667",
+      "side_data_list": [
+        {
+          "side_data_type": "H.26[45] User Data Unregistered SEI message"
+        }
+      ]
+    },
+    {
+      "best_effort_timestamp_time": "51.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "51.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "51.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "51.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "51.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "51.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "51.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "51.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "51.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "51.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "51.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "51.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "51.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "51.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "51.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "51.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "51.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "51.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "51.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "51.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "51.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "51.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "51.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "52.000000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "52.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "52.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "52.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "52.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "52.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "52.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "52.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "52.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "52.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "52.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "52.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "52.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "52.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "52.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "52.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "52.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "52.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "52.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "52.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "52.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "52.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "52.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "52.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "53.000000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "53.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "53.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "53.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "53.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "53.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "53.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "53.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "53.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "53.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "53.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "53.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "53.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "53.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "53.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "53.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "53.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "53.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "53.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "53.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "53.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "53.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "53.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "53.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "54.000000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "54.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "54.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "54.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "54.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "54.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "54.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "54.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "54.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "54.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "54.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "54.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "54.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "54.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "54.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "54.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "54.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "54.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "54.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "54.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "54.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "54.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "54.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "54.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "55.000000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "55.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "55.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "55.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "55.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "55.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "55.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "55.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "55.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "55.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "55.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "55.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "55.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "55.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "55.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "55.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "55.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "55.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "55.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "55.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "55.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "55.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "55.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "55.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "56.000000",
+      "duration_time": "0.041667",
+      "side_data_list": [
+        {
+          "side_data_type": "H.26[45] User Data Unregistered SEI message"
+        }
+      ]
+    },
+    {
+      "best_effort_timestamp_time": "56.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "56.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "56.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "56.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "56.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "56.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "56.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "56.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "56.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "56.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "56.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "56.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "56.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "56.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "56.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "56.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "56.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "56.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "56.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "56.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "56.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "56.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "56.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "57.000000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "57.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "57.083333",
+      "duration_time": "0.041667",
+      "side_data_list": [
+        {
+          "side_data_type": "H.26[45] User Data Unregistered SEI message"
+        }
+      ]
+    },
+    {
+      "best_effort_timestamp_time": "57.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "57.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "57.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "57.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "57.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "57.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "57.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "57.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "57.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "57.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "57.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "57.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "57.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "57.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "57.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "57.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "57.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "57.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "57.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "57.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "57.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "58.000000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "58.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "58.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "58.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "58.166667",
+      "duration_time": "0.041667",
+      "side_data_list": [
+        {
+          "side_data_type": "H.26[45] User Data Unregistered SEI message"
+        }
+      ]
+    },
+    {
+      "best_effort_timestamp_time": "58.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "58.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "58.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "58.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "58.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "58.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "58.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "58.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "58.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "58.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "58.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "58.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "58.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "58.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "58.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "58.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "58.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "58.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "58.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "59.000000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "59.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "59.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "59.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "59.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "59.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "59.250000",
+      "duration_time": "0.041667",
+      "side_data_list": [
+        {
+          "side_data_type": "H.26[45] User Data Unregistered SEI message"
+        }
+      ]
+    },
+    {
+      "best_effort_timestamp_time": "59.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "59.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "59.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "59.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "59.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "59.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "59.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "59.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "59.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "59.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "59.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "59.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "59.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "59.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "59.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "59.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "59.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "60.000000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "60.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "60.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "60.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "60.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "60.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "60.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "60.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "60.333333",
+      "duration_time": "0.041667",
+      "side_data_list": [
+        {
+          "side_data_type": "H.26[45] User Data Unregistered SEI message"
+        }
+      ]
+    },
+    {
+      "best_effort_timestamp_time": "60.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "60.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "60.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "60.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "60.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "60.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "60.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "60.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "60.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "60.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "60.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "60.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "60.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "60.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "60.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "61.000000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "61.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "61.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "61.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "61.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "61.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "61.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "61.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "61.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "61.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "61.416667",
+      "duration_time": "0.041667",
+      "side_data_list": [
+        {
+          "side_data_type": "H.26[45] User Data Unregistered SEI message"
+        }
+      ]
+    },
+    {
+      "best_effort_timestamp_time": "61.458333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "61.500000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "61.541667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "61.583333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "61.625000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "61.666667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "61.708333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "61.750000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "61.791667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "61.833333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "61.875000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "61.916667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "61.958333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "62.000000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "62.041667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "62.083333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "62.125000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "62.166667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "62.208333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "62.250000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "62.291667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "62.333333",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "62.375000",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "62.416667",
+      "duration_time": "0.041667"
+    },
+    {
+      "best_effort_timestamp_time": "62.458333",
+      "duration_time": "0.041667"
+    }
+  ],
+  "programs": [],
+  "stream_groups": [],
+  "streams": [
+    {
+      "index": 0,
+      "codec_name": "h264",
+      "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+      "profile": "High",
+      "codec_type": "video",
+      "codec_tag_string": "avc1",
+      "codec_tag": "0x31637661",
+      "mime_codec_string": "avc1.640029",
+      "width": 1280,
+      "height": 720,
+      "coded_width": 1280,
+      "coded_height": 720,
+      "has_b_frames": 2,
+      "sample_aspect_ratio": "1:1",
+      "display_aspect_ratio": "16:9",
+      "pix_fmt": "yuv420p",
+      "level": 41,
+      "chroma_location": "left",
+      "field_order": "progressive",
+      "refs": 5,
+      "is_avc": "true",
+      "nal_length_size": "4",
+      "id": "0x1",
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "time_base": "1/24000",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 1500000,
+      "duration": "62.500000",
+      "bit_rate": "2772797",
+      "bits_per_raw_sample": "8",
+      "nb_frames": "1500",
+      "nb_read_frames": "1500",
+      "extradata_size": 47,
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "VideoHandler"
+      }
+    }
+  ],
+  "format": {
+    "filename": "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\.agents\\v33-opening-renders\\2026-10-04T13-15-37-629Z-80155b26\\opening-verified.mp4",
+    "nb_streams": 1,
+    "nb_programs": 0,
+    "nb_stream_groups": 0,
+    "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+    "format_long_name": "QuickTime / MOV",
+    "start_time": "0.000000",
+    "duration": "62.500000",
+    "size": "21681228",
+    "bit_rate": "2775197",
+    "probe_score": 100,
+    "tags": {
+      "major_brand": "isom",
+      "minor_version": "512",
+      "compatible_brands": "isomiso2avc1mp41",
+      "encoder": "Lavf63.1.102"
+    }
+  }
+}

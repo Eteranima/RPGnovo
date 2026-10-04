@@ -1,0 +1,1407 @@
+{
+  "schema": 2,
+  "source": "art-source/v33/opening/clips/07-ava.mp4",
+  "sourceSHA256": "76eac49519be831386b3e4efdb12e55e0070625c830cc81471d35d659d90f0c6",
+  "sourceBytes": 4627850,
+  "actualDecodedFrames": 192,
+  "sourceResolution": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 24,
+  "videoDurationSeconds": 8,
+  "containerDurationSeconds": 8,
+  "audio": [
+    {
+      "codec": "aac",
+      "sampleRate": "48000",
+      "channels": 2,
+      "duration": "8.000000"
+    }
+  ],
+  "full": [
+    {
+      "sample": 0,
+      "seconds": 0,
+      "sourceIndex": 0,
+      "sourceTime": 0,
+      "relativeTime": 0,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/ava-source/full/frame-00.png",
+      "pngSHA256": "37dbe21c5e9bfd83dbbe9b1071634955eb967f13a863dbd6239dd48eb46b04cd"
+    },
+    {
+      "sample": 1,
+      "seconds": 0.5,
+      "sourceIndex": 12,
+      "sourceTime": 0.5,
+      "relativeTime": 0.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/ava-source/full/frame-01.png",
+      "pngSHA256": "cd3cf04a30289e13363fdb0703c5732168ac88ed36a6f2ec242352d457b0951c"
+    },
+    {
+      "sample": 2,
+      "seconds": 1,
+      "sourceIndex": 24,
+      "sourceTime": 1,
+      "relativeTime": 1,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/ava-source/full/frame-02.png",
+      "pngSHA256": "85be79dbe446c826808683bbcf6cb547bae1b1b05bcabaaf15a6425c6dc88ee1"
+    },
+    {
+      "sample": 3,
+      "seconds": 1.5,
+      "sourceIndex": 36,
+      "sourceTime": 1.5,
+      "relativeTime": 1.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/ava-source/full/frame-03.png",
+      "pngSHA256": "c157a75f36b74742098c5e990e4b77edc3bdd2314525847d480e6d72f0ac5fdb"
+    },
+    {
+      "sample": 4,
+      "seconds": 2,
+      "sourceIndex": 48,
+      "sourceTime": 2,
+      "relativeTime": 2,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/ava-source/full/frame-04.png",
+      "pngSHA256": "20bcef433de349534969f51697379211e17e427ca2d57a786f9d98f374e004a8"
+    },
+    {
+      "sample": 5,
+      "seconds": 2.5,
+      "sourceIndex": 60,
+      "sourceTime": 2.5,
+      "relativeTime": 2.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/ava-source/full/frame-05.png",
+      "pngSHA256": "2cb66582dd622066b46e257c41be59547485992a96c0cd6b29be5e5f2d09375a"
+    },
+    {
+      "sample": 6,
+      "seconds": 3,
+      "sourceIndex": 72,
+      "sourceTime": 3,
+      "relativeTime": 3,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/ava-source/full/frame-06.png",
+      "pngSHA256": "c47e4df1d79f8371e844bfc3c1001e84afd882a6ab018018d9d8e09904e58f50"
+    },
+    {
+      "sample": 7,
+      "seconds": 3.5,
+      "sourceIndex": 84,
+      "sourceTime": 3.5,
+      "relativeTime": 3.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/ava-source/full/frame-07.png",
+      "pngSHA256": "8ad0af3ea968db3080f0a2e83966d8de30563b971d683a0300458672d17e1c6e"
+    },
+    {
+      "sample": 8,
+      "seconds": 4,
+      "sourceIndex": 96,
+      "sourceTime": 4,
+      "relativeTime": 4,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/ava-source/full/frame-08.png",
+      "pngSHA256": "f08aa8fb51ff4d479befe7361528c62ffa8a4ab630910b6748ffa6c9476dbf7a"
+    },
+    {
+      "sample": 9,
+      "seconds": 4.5,
+      "sourceIndex": 108,
+      "sourceTime": 4.5,
+      "relativeTime": 4.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/ava-source/full/frame-09.png",
+      "pngSHA256": "6440c8679e492fea1c1ac79dd0c03ec2bdd48b80e7dc99cddda9c7fd6c8f6845"
+    },
+    {
+      "sample": 10,
+      "seconds": 5,
+      "sourceIndex": 120,
+      "sourceTime": 5,
+      "relativeTime": 5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/ava-source/full/frame-10.png",
+      "pngSHA256": "e5572473052a67b8e624414d8512e3cf037d39df7f60d4c0553b51769609b0e1"
+    },
+    {
+      "sample": 11,
+      "seconds": 5.5,
+      "sourceIndex": 132,
+      "sourceTime": 5.5,
+      "relativeTime": 5.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/ava-source/full/frame-11.png",
+      "pngSHA256": "790257508fa8247771be4a2a6b5e8d514615c237fc69907379219963aae08ae5"
+    },
+    {
+      "sample": 12,
+      "seconds": 6,
+      "sourceIndex": 144,
+      "sourceTime": 6,
+      "relativeTime": 6,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/ava-source/full/frame-12.png",
+      "pngSHA256": "3e3e0c71a6dcf5239056e21828d5475dae63295eaa1f011ea5d12f48d6f7bcfa"
+    },
+    {
+      "sample": 13,
+      "seconds": 6.5,
+      "sourceIndex": 156,
+      "sourceTime": 6.5,
+      "relativeTime": 6.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/ava-source/full/frame-13.png",
+      "pngSHA256": "de5234ba407ee9035db2a147af163a5241a5b423fd5fdbac8cbba2695754eae5"
+    },
+    {
+      "sample": 14,
+      "seconds": 7,
+      "sourceIndex": 168,
+      "sourceTime": 7,
+      "relativeTime": 7,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/ava-source/full/frame-14.png",
+      "pngSHA256": "1beacbe1acb6f2a760113aee3d694cf8c8efbe6f09798520ed1198c48131552c"
+    },
+    {
+      "sample": 15,
+      "seconds": 7.5,
+      "sourceIndex": 180,
+      "sourceTime": 7.5,
+      "relativeTime": 7.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/ava-source/full/frame-15.png",
+      "pngSHA256": "fe6315454a1ef5068d7290edafd0b743105af881d741c440ac68181fc7489936"
+    }
+  ],
+  "cropped": {
+    "id": "ava-arms",
+    "character": "Ava — braços e mãos",
+    "crop": {
+      "x": 370,
+      "y": 115,
+      "width": 405,
+      "height": 290
+    },
+    "frames": [
+      {
+        "sample": 0,
+        "seconds": 0,
+        "sourceIndex": 0,
+        "sourceTime": 0,
+        "relativeTime": 0,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-00.png",
+        "pngSHA256": "297a62344bc23e63ea9d9e1da77cd88c3a7f4644e6e0610a5c3e6fc454e4ec73"
+      },
+      {
+        "sample": 1,
+        "seconds": 0.25,
+        "sourceIndex": 6,
+        "sourceTime": 0.25,
+        "relativeTime": 0.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-01.png",
+        "pngSHA256": "556cb58c6bdc57abe55254daa9e508a4f2727ae756e314517032561dc6c27439"
+      },
+      {
+        "sample": 2,
+        "seconds": 0.5,
+        "sourceIndex": 12,
+        "sourceTime": 0.5,
+        "relativeTime": 0.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-02.png",
+        "pngSHA256": "891fd705aa3d1e673c3b683ff6b4b5411ba621cac4f95cf37211f9ec3bb66121"
+      },
+      {
+        "sample": 3,
+        "seconds": 0.75,
+        "sourceIndex": 18,
+        "sourceTime": 0.75,
+        "relativeTime": 0.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-03.png",
+        "pngSHA256": "598d7f6f3ccfdaf7c482b6fb6a29d9e80e3eadd822ba63d36523b74356b47588"
+      },
+      {
+        "sample": 4,
+        "seconds": 1,
+        "sourceIndex": 24,
+        "sourceTime": 1,
+        "relativeTime": 1,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-04.png",
+        "pngSHA256": "63f74f68c25a6f2cf482285b530cb52b4750abe906d602d64d3331e776300d2c"
+      },
+      {
+        "sample": 5,
+        "seconds": 1.25,
+        "sourceIndex": 30,
+        "sourceTime": 1.25,
+        "relativeTime": 1.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-05.png",
+        "pngSHA256": "7ba92590f623c0a932ec8da87eb078b27fc83c03ba613c1bc5078c6b19a91cf9"
+      },
+      {
+        "sample": 6,
+        "seconds": 1.5,
+        "sourceIndex": 36,
+        "sourceTime": 1.5,
+        "relativeTime": 1.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-06.png",
+        "pngSHA256": "c9ee198763ecb87b9e3acf6b6085aa106fb2e25a830571242048ca47fe8388b3"
+      },
+      {
+        "sample": 7,
+        "seconds": 1.75,
+        "sourceIndex": 42,
+        "sourceTime": 1.75,
+        "relativeTime": 1.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-07.png",
+        "pngSHA256": "5df834b7d2be47e823f059519550fefd33c5f36d2c012cd8602b4ce668b77367"
+      },
+      {
+        "sample": 8,
+        "seconds": 2,
+        "sourceIndex": 48,
+        "sourceTime": 2,
+        "relativeTime": 2,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-08.png",
+        "pngSHA256": "1020dc48b08bb92e9c5b0f3ad4cfdab259512c576ffdd13a51c9c05edf5b132c"
+      },
+      {
+        "sample": 9,
+        "seconds": 2.25,
+        "sourceIndex": 54,
+        "sourceTime": 2.25,
+        "relativeTime": 2.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-09.png",
+        "pngSHA256": "b2cfacfbc022e728d355f8b5596a9e3c1f3bf73560e01f0a18df77618c0b243c"
+      },
+      {
+        "sample": 10,
+        "seconds": 2.5,
+        "sourceIndex": 60,
+        "sourceTime": 2.5,
+        "relativeTime": 2.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-10.png",
+        "pngSHA256": "0eaf27eefd897187e5151b2fc9b260fd9d4670571b7ec0639d5d0a3bed1cd124"
+      },
+      {
+        "sample": 11,
+        "seconds": 2.75,
+        "sourceIndex": 66,
+        "sourceTime": 2.75,
+        "relativeTime": 2.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-11.png",
+        "pngSHA256": "b7f0ee4cac9f483212437cb9efc1ea92b4cec6291bd4975c20402d4be4b3330f"
+      },
+      {
+        "sample": 12,
+        "seconds": 3,
+        "sourceIndex": 72,
+        "sourceTime": 3,
+        "relativeTime": 3,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-12.png",
+        "pngSHA256": "b31deb703236325c6faad23b19d3f7fecb6a8f2d82daa9309e32d3df00c02d1c"
+      },
+      {
+        "sample": 13,
+        "seconds": 3.25,
+        "sourceIndex": 78,
+        "sourceTime": 3.25,
+        "relativeTime": 3.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-13.png",
+        "pngSHA256": "d6efee48e9d369ac147be2b2c0044852dd2143acea85899d9a2a5a0890108f58"
+      },
+      {
+        "sample": 14,
+        "seconds": 3.5,
+        "sourceIndex": 84,
+        "sourceTime": 3.5,
+        "relativeTime": 3.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-14.png",
+        "pngSHA256": "5a290dbe6bd972615863665a15e41ba07a0f20dd61aa99341e5e9aacad628caa"
+      },
+      {
+        "sample": 15,
+        "seconds": 3.75,
+        "sourceIndex": 90,
+        "sourceTime": 3.75,
+        "relativeTime": 3.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-15.png",
+        "pngSHA256": "6f2278a35a218842b77f6ac571bd55145ab6d0978a18d4631b60601bc69606e1"
+      },
+      {
+        "sample": 16,
+        "seconds": 4,
+        "sourceIndex": 96,
+        "sourceTime": 4,
+        "relativeTime": 4,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-16.png",
+        "pngSHA256": "b72941cee181e535c1d54bd7e228ac91261bceb27aa61a6b7bfaf52b2916b8f3"
+      },
+      {
+        "sample": 17,
+        "seconds": 4.25,
+        "sourceIndex": 102,
+        "sourceTime": 4.25,
+        "relativeTime": 4.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-17.png",
+        "pngSHA256": "9f20da6f866f4b0dfc0253eb7778d48d6f602716f6c644a714d3a49f71be04d1"
+      },
+      {
+        "sample": 18,
+        "seconds": 4.5,
+        "sourceIndex": 108,
+        "sourceTime": 4.5,
+        "relativeTime": 4.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-18.png",
+        "pngSHA256": "87a1839d0521992e841c6a24158f1656b89f43e4ab9846311d6610f2d8bf42d9"
+      },
+      {
+        "sample": 19,
+        "seconds": 4.75,
+        "sourceIndex": 114,
+        "sourceTime": 4.75,
+        "relativeTime": 4.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-19.png",
+        "pngSHA256": "964d2b6f035945a1ffda9257a7744bce9761166e7e6fa3d4d551d76d004dda8a"
+      },
+      {
+        "sample": 20,
+        "seconds": 5,
+        "sourceIndex": 120,
+        "sourceTime": 5,
+        "relativeTime": 5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-20.png",
+        "pngSHA256": "34de29f1f58026be60ec2e655687c9a4fe8d8f7b365c53207c7e7df5322c4423"
+      },
+      {
+        "sample": 21,
+        "seconds": 5.25,
+        "sourceIndex": 126,
+        "sourceTime": 5.25,
+        "relativeTime": 5.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-21.png",
+        "pngSHA256": "011259c7b73c6cc5f770a6acebc4719d6c6ceefd3531d05b9e6e829814ace261"
+      },
+      {
+        "sample": 22,
+        "seconds": 5.5,
+        "sourceIndex": 132,
+        "sourceTime": 5.5,
+        "relativeTime": 5.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-22.png",
+        "pngSHA256": "858425cffe56c3f5bc9ec3cd697ad6481bbc3e5d4e2f6b78d6edb566562baef7"
+      },
+      {
+        "sample": 23,
+        "seconds": 5.75,
+        "sourceIndex": 138,
+        "sourceTime": 5.75,
+        "relativeTime": 5.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-23.png",
+        "pngSHA256": "e42120a7eea1a2732b2eb64429d6d171bfe2404a3e671427ae54073b719c0306"
+      },
+      {
+        "sample": 24,
+        "seconds": 6,
+        "sourceIndex": 144,
+        "sourceTime": 6,
+        "relativeTime": 6,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-24.png",
+        "pngSHA256": "42e3284bfd4b988e5c4a2268683d3557ada60c58d7168dd5e77da81d7271c199"
+      },
+      {
+        "sample": 25,
+        "seconds": 6.25,
+        "sourceIndex": 150,
+        "sourceTime": 6.25,
+        "relativeTime": 6.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-25.png",
+        "pngSHA256": "fbad90d8321e0e392caef8c8f4a22b5d9b534088fc42b5659dad510d8c4a2dff"
+      },
+      {
+        "sample": 26,
+        "seconds": 6.5,
+        "sourceIndex": 156,
+        "sourceTime": 6.5,
+        "relativeTime": 6.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-26.png",
+        "pngSHA256": "2b039644bf617949278dad7f8a0e22cba802dcfd1645cb796c2b37683f9ec85f"
+      },
+      {
+        "sample": 27,
+        "seconds": 6.75,
+        "sourceIndex": 162,
+        "sourceTime": 6.75,
+        "relativeTime": 6.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-27.png",
+        "pngSHA256": "101063753bd76d3485e5991ccacdd44dc09c4950d23b361b0011eebc25ccf61a"
+      },
+      {
+        "sample": 28,
+        "seconds": 7,
+        "sourceIndex": 168,
+        "sourceTime": 7,
+        "relativeTime": 7,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-28.png",
+        "pngSHA256": "571b6a5ef972b79cfdc88af10660c86e978e1c19cbe4da10dee8548eabd472ff"
+      },
+      {
+        "sample": 29,
+        "seconds": 7.25,
+        "sourceIndex": 174,
+        "sourceTime": 7.25,
+        "relativeTime": 7.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-29.png",
+        "pngSHA256": "2dbfb10b31fef34de156e1b31e84aed71a471424f98491b9d4b3724d1bd09563"
+      },
+      {
+        "sample": 30,
+        "seconds": 7.5,
+        "sourceIndex": 180,
+        "sourceTime": 7.5,
+        "relativeTime": 7.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-30.png",
+        "pngSHA256": "2b5e635cf39e72ad8e7861a10c1afb652366192fadbc04bc2910a1e6f55c502a"
+      },
+      {
+        "sample": 31,
+        "seconds": 7.75,
+        "sourceIndex": 186,
+        "sourceTime": 7.75,
+        "relativeTime": 7.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-31.png",
+        "pngSHA256": "4fcef0d36d0673bb512907b7dba221fefbaa942dba1df5409709c738d28ded80"
+      }
+    ],
+    "nativePixels": true
+  },
+  "crops": [
+    {
+      "id": "ava-arms",
+      "character": "Ava — braços e mãos",
+      "crop": {
+        "x": 370,
+        "y": 115,
+        "width": 405,
+        "height": 290
+      },
+      "frames": [
+        {
+          "sample": 0,
+          "seconds": 0,
+          "sourceIndex": 0,
+          "sourceTime": 0,
+          "relativeTime": 0,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-00.png",
+          "pngSHA256": "297a62344bc23e63ea9d9e1da77cd88c3a7f4644e6e0610a5c3e6fc454e4ec73"
+        },
+        {
+          "sample": 1,
+          "seconds": 0.25,
+          "sourceIndex": 6,
+          "sourceTime": 0.25,
+          "relativeTime": 0.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-01.png",
+          "pngSHA256": "556cb58c6bdc57abe55254daa9e508a4f2727ae756e314517032561dc6c27439"
+        },
+        {
+          "sample": 2,
+          "seconds": 0.5,
+          "sourceIndex": 12,
+          "sourceTime": 0.5,
+          "relativeTime": 0.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-02.png",
+          "pngSHA256": "891fd705aa3d1e673c3b683ff6b4b5411ba621cac4f95cf37211f9ec3bb66121"
+        },
+        {
+          "sample": 3,
+          "seconds": 0.75,
+          "sourceIndex": 18,
+          "sourceTime": 0.75,
+          "relativeTime": 0.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-03.png",
+          "pngSHA256": "598d7f6f3ccfdaf7c482b6fb6a29d9e80e3eadd822ba63d36523b74356b47588"
+        },
+        {
+          "sample": 4,
+          "seconds": 1,
+          "sourceIndex": 24,
+          "sourceTime": 1,
+          "relativeTime": 1,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-04.png",
+          "pngSHA256": "63f74f68c25a6f2cf482285b530cb52b4750abe906d602d64d3331e776300d2c"
+        },
+        {
+          "sample": 5,
+          "seconds": 1.25,
+          "sourceIndex": 30,
+          "sourceTime": 1.25,
+          "relativeTime": 1.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-05.png",
+          "pngSHA256": "7ba92590f623c0a932ec8da87eb078b27fc83c03ba613c1bc5078c6b19a91cf9"
+        },
+        {
+          "sample": 6,
+          "seconds": 1.5,
+          "sourceIndex": 36,
+          "sourceTime": 1.5,
+          "relativeTime": 1.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-06.png",
+          "pngSHA256": "c9ee198763ecb87b9e3acf6b6085aa106fb2e25a830571242048ca47fe8388b3"
+        },
+        {
+          "sample": 7,
+          "seconds": 1.75,
+          "sourceIndex": 42,
+          "sourceTime": 1.75,
+          "relativeTime": 1.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-07.png",
+          "pngSHA256": "5df834b7d2be47e823f059519550fefd33c5f36d2c012cd8602b4ce668b77367"
+        },
+        {
+          "sample": 8,
+          "seconds": 2,
+          "sourceIndex": 48,
+          "sourceTime": 2,
+          "relativeTime": 2,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-08.png",
+          "pngSHA256": "1020dc48b08bb92e9c5b0f3ad4cfdab259512c576ffdd13a51c9c05edf5b132c"
+        },
+        {
+          "sample": 9,
+          "seconds": 2.25,
+          "sourceIndex": 54,
+          "sourceTime": 2.25,
+          "relativeTime": 2.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-09.png",
+          "pngSHA256": "b2cfacfbc022e728d355f8b5596a9e3c1f3bf73560e01f0a18df77618c0b243c"
+        },
+        {
+          "sample": 10,
+          "seconds": 2.5,
+          "sourceIndex": 60,
+          "sourceTime": 2.5,
+          "relativeTime": 2.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-10.png",
+          "pngSHA256": "0eaf27eefd897187e5151b2fc9b260fd9d4670571b7ec0639d5d0a3bed1cd124"
+        },
+        {
+          "sample": 11,
+          "seconds": 2.75,
+          "sourceIndex": 66,
+          "sourceTime": 2.75,
+          "relativeTime": 2.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-11.png",
+          "pngSHA256": "b7f0ee4cac9f483212437cb9efc1ea92b4cec6291bd4975c20402d4be4b3330f"
+        },
+        {
+          "sample": 12,
+          "seconds": 3,
+          "sourceIndex": 72,
+          "sourceTime": 3,
+          "relativeTime": 3,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-12.png",
+          "pngSHA256": "b31deb703236325c6faad23b19d3f7fecb6a8f2d82daa9309e32d3df00c02d1c"
+        },
+        {
+          "sample": 13,
+          "seconds": 3.25,
+          "sourceIndex": 78,
+          "sourceTime": 3.25,
+          "relativeTime": 3.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-13.png",
+          "pngSHA256": "d6efee48e9d369ac147be2b2c0044852dd2143acea85899d9a2a5a0890108f58"
+        },
+        {
+          "sample": 14,
+          "seconds": 3.5,
+          "sourceIndex": 84,
+          "sourceTime": 3.5,
+          "relativeTime": 3.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-14.png",
+          "pngSHA256": "5a290dbe6bd972615863665a15e41ba07a0f20dd61aa99341e5e9aacad628caa"
+        },
+        {
+          "sample": 15,
+          "seconds": 3.75,
+          "sourceIndex": 90,
+          "sourceTime": 3.75,
+          "relativeTime": 3.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-15.png",
+          "pngSHA256": "6f2278a35a218842b77f6ac571bd55145ab6d0978a18d4631b60601bc69606e1"
+        },
+        {
+          "sample": 16,
+          "seconds": 4,
+          "sourceIndex": 96,
+          "sourceTime": 4,
+          "relativeTime": 4,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-16.png",
+          "pngSHA256": "b72941cee181e535c1d54bd7e228ac91261bceb27aa61a6b7bfaf52b2916b8f3"
+        },
+        {
+          "sample": 17,
+          "seconds": 4.25,
+          "sourceIndex": 102,
+          "sourceTime": 4.25,
+          "relativeTime": 4.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-17.png",
+          "pngSHA256": "9f20da6f866f4b0dfc0253eb7778d48d6f602716f6c644a714d3a49f71be04d1"
+        },
+        {
+          "sample": 18,
+          "seconds": 4.5,
+          "sourceIndex": 108,
+          "sourceTime": 4.5,
+          "relativeTime": 4.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-18.png",
+          "pngSHA256": "87a1839d0521992e841c6a24158f1656b89f43e4ab9846311d6610f2d8bf42d9"
+        },
+        {
+          "sample": 19,
+          "seconds": 4.75,
+          "sourceIndex": 114,
+          "sourceTime": 4.75,
+          "relativeTime": 4.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-19.png",
+          "pngSHA256": "964d2b6f035945a1ffda9257a7744bce9761166e7e6fa3d4d551d76d004dda8a"
+        },
+        {
+          "sample": 20,
+          "seconds": 5,
+          "sourceIndex": 120,
+          "sourceTime": 5,
+          "relativeTime": 5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-20.png",
+          "pngSHA256": "34de29f1f58026be60ec2e655687c9a4fe8d8f7b365c53207c7e7df5322c4423"
+        },
+        {
+          "sample": 21,
+          "seconds": 5.25,
+          "sourceIndex": 126,
+          "sourceTime": 5.25,
+          "relativeTime": 5.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-21.png",
+          "pngSHA256": "011259c7b73c6cc5f770a6acebc4719d6c6ceefd3531d05b9e6e829814ace261"
+        },
+        {
+          "sample": 22,
+          "seconds": 5.5,
+          "sourceIndex": 132,
+          "sourceTime": 5.5,
+          "relativeTime": 5.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-22.png",
+          "pngSHA256": "858425cffe56c3f5bc9ec3cd697ad6481bbc3e5d4e2f6b78d6edb566562baef7"
+        },
+        {
+          "sample": 23,
+          "seconds": 5.75,
+          "sourceIndex": 138,
+          "sourceTime": 5.75,
+          "relativeTime": 5.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-23.png",
+          "pngSHA256": "e42120a7eea1a2732b2eb64429d6d171bfe2404a3e671427ae54073b719c0306"
+        },
+        {
+          "sample": 24,
+          "seconds": 6,
+          "sourceIndex": 144,
+          "sourceTime": 6,
+          "relativeTime": 6,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-24.png",
+          "pngSHA256": "42e3284bfd4b988e5c4a2268683d3557ada60c58d7168dd5e77da81d7271c199"
+        },
+        {
+          "sample": 25,
+          "seconds": 6.25,
+          "sourceIndex": 150,
+          "sourceTime": 6.25,
+          "relativeTime": 6.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-25.png",
+          "pngSHA256": "fbad90d8321e0e392caef8c8f4a22b5d9b534088fc42b5659dad510d8c4a2dff"
+        },
+        {
+          "sample": 26,
+          "seconds": 6.5,
+          "sourceIndex": 156,
+          "sourceTime": 6.5,
+          "relativeTime": 6.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-26.png",
+          "pngSHA256": "2b039644bf617949278dad7f8a0e22cba802dcfd1645cb796c2b37683f9ec85f"
+        },
+        {
+          "sample": 27,
+          "seconds": 6.75,
+          "sourceIndex": 162,
+          "sourceTime": 6.75,
+          "relativeTime": 6.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-27.png",
+          "pngSHA256": "101063753bd76d3485e5991ccacdd44dc09c4950d23b361b0011eebc25ccf61a"
+        },
+        {
+          "sample": 28,
+          "seconds": 7,
+          "sourceIndex": 168,
+          "sourceTime": 7,
+          "relativeTime": 7,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-28.png",
+          "pngSHA256": "571b6a5ef972b79cfdc88af10660c86e978e1c19cbe4da10dee8548eabd472ff"
+        },
+        {
+          "sample": 29,
+          "seconds": 7.25,
+          "sourceIndex": 174,
+          "sourceTime": 7.25,
+          "relativeTime": 7.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-29.png",
+          "pngSHA256": "2dbfb10b31fef34de156e1b31e84aed71a471424f98491b9d4b3724d1bd09563"
+        },
+        {
+          "sample": 30,
+          "seconds": 7.5,
+          "sourceIndex": 180,
+          "sourceTime": 7.5,
+          "relativeTime": 7.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-30.png",
+          "pngSHA256": "2b5e635cf39e72ad8e7861a10c1afb652366192fadbc04bc2910a1e6f55c502a"
+        },
+        {
+          "sample": 31,
+          "seconds": 7.75,
+          "sourceIndex": 186,
+          "sourceTime": 7.75,
+          "relativeTime": 7.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-arms/frame-31.png",
+          "pngSHA256": "4fcef0d36d0673bb512907b7dba221fefbaa942dba1df5409709c738d28ded80"
+        }
+      ],
+      "nativePixels": true
+    },
+    {
+      "id": "ava-feet",
+      "character": "Ava — pernas, pés e Terra",
+      "crop": {
+        "x": 235,
+        "y": 470,
+        "width": 505,
+        "height": 245
+      },
+      "frames": [
+        {
+          "sample": 0,
+          "seconds": 0,
+          "sourceIndex": 0,
+          "sourceTime": 0,
+          "relativeTime": 0,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-feet/frame-00.png",
+          "pngSHA256": "b339ad1f6f9313d9c07c57fa3de83774a89f05a4d1b9ad890a6970bc8c1dc4c6"
+        },
+        {
+          "sample": 1,
+          "seconds": 0.25,
+          "sourceIndex": 6,
+          "sourceTime": 0.25,
+          "relativeTime": 0.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-feet/frame-01.png",
+          "pngSHA256": "39cb3d89a72676ff7234b98113cf444a9979877a8beef9dba57abf382758c606"
+        },
+        {
+          "sample": 2,
+          "seconds": 0.5,
+          "sourceIndex": 12,
+          "sourceTime": 0.5,
+          "relativeTime": 0.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-feet/frame-02.png",
+          "pngSHA256": "531a2d6b8ed034192e99bd7a3a3590fe4ebc6792ac850abcd61a1de3753e5c5b"
+        },
+        {
+          "sample": 3,
+          "seconds": 0.75,
+          "sourceIndex": 18,
+          "sourceTime": 0.75,
+          "relativeTime": 0.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-feet/frame-03.png",
+          "pngSHA256": "affb7352990b4adea1561559ee2eeb690f2759b47c770527b2088ffabd19d564"
+        },
+        {
+          "sample": 4,
+          "seconds": 1,
+          "sourceIndex": 24,
+          "sourceTime": 1,
+          "relativeTime": 1,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-feet/frame-04.png",
+          "pngSHA256": "ab8f249fd40f48f6f982c80eff562fa90b09ce114268ec1d46f816ef5715ba57"
+        },
+        {
+          "sample": 5,
+          "seconds": 1.25,
+          "sourceIndex": 30,
+          "sourceTime": 1.25,
+          "relativeTime": 1.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-feet/frame-05.png",
+          "pngSHA256": "47b8b9b47dbc6cd0d8edfbfd66e5c671f53d5245d3a57fd5048039bbab028472"
+        },
+        {
+          "sample": 6,
+          "seconds": 1.5,
+          "sourceIndex": 36,
+          "sourceTime": 1.5,
+          "relativeTime": 1.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-feet/frame-06.png",
+          "pngSHA256": "c809213dc708e231e5b8b262de53a789eb2fa24dfd9daeb06faf8701b7edf704"
+        },
+        {
+          "sample": 7,
+          "seconds": 1.75,
+          "sourceIndex": 42,
+          "sourceTime": 1.75,
+          "relativeTime": 1.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-feet/frame-07.png",
+          "pngSHA256": "042689aa643baa53b8e00c21811071cd00ebdfcde49910103a5fd4ddf92a31e9"
+        },
+        {
+          "sample": 8,
+          "seconds": 2,
+          "sourceIndex": 48,
+          "sourceTime": 2,
+          "relativeTime": 2,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-feet/frame-08.png",
+          "pngSHA256": "cd1cd5f5b6ff793f0efb9846960719c58612d8ac158260ad0bc9fc803fa6be5c"
+        },
+        {
+          "sample": 9,
+          "seconds": 2.25,
+          "sourceIndex": 54,
+          "sourceTime": 2.25,
+          "relativeTime": 2.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-feet/frame-09.png",
+          "pngSHA256": "05e34b4bc40aab9699993b1d46aa6b6ae92635bcc9f434bf6d2fbdf1b4a90d36"
+        },
+        {
+          "sample": 10,
+          "seconds": 2.5,
+          "sourceIndex": 60,
+          "sourceTime": 2.5,
+          "relativeTime": 2.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-feet/frame-10.png",
+          "pngSHA256": "201ff57cf0bbc1ef06a483257a2276bf60786f8946010551b88cb6827baf21a8"
+        },
+        {
+          "sample": 11,
+          "seconds": 2.75,
+          "sourceIndex": 66,
+          "sourceTime": 2.75,
+          "relativeTime": 2.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-feet/frame-11.png",
+          "pngSHA256": "1caa3af2b586324e47bf03695059badb39f2850b5f80ccc026252eb3895fc45e"
+        },
+        {
+          "sample": 12,
+          "seconds": 3,
+          "sourceIndex": 72,
+          "sourceTime": 3,
+          "relativeTime": 3,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-feet/frame-12.png",
+          "pngSHA256": "67ad1d42eeed30f9f47971acd5b0cd958320cf815af41a527594e9b4158421bd"
+        },
+        {
+          "sample": 13,
+          "seconds": 3.25,
+          "sourceIndex": 78,
+          "sourceTime": 3.25,
+          "relativeTime": 3.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-feet/frame-13.png",
+          "pngSHA256": "52da8122c77b5bbbf46b3d7f87c08193699c8e17a606f280111ab0906093f2a3"
+        },
+        {
+          "sample": 14,
+          "seconds": 3.5,
+          "sourceIndex": 84,
+          "sourceTime": 3.5,
+          "relativeTime": 3.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-feet/frame-14.png",
+          "pngSHA256": "1aa5ded30fd4033dd364cab0e87d86493874154e4050abb64e9e5e6c9a759d6f"
+        },
+        {
+          "sample": 15,
+          "seconds": 3.75,
+          "sourceIndex": 90,
+          "sourceTime": 3.75,
+          "relativeTime": 3.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-feet/frame-15.png",
+          "pngSHA256": "04c9f645862145aaccb254e9da35d2cd39037a4e48b2f5ecadd01c023a371a1d"
+        },
+        {
+          "sample": 16,
+          "seconds": 4,
+          "sourceIndex": 96,
+          "sourceTime": 4,
+          "relativeTime": 4,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-feet/frame-16.png",
+          "pngSHA256": "46b63d6d5b918b4e53f6df817ce747f00ef28fea6e60d114bafecfb96695b90d"
+        },
+        {
+          "sample": 17,
+          "seconds": 4.25,
+          "sourceIndex": 102,
+          "sourceTime": 4.25,
+          "relativeTime": 4.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-feet/frame-17.png",
+          "pngSHA256": "76aad22b4505baa0f260a145f7b842187a4c283a506a782f33159bff5e6a24d0"
+        },
+        {
+          "sample": 18,
+          "seconds": 4.5,
+          "sourceIndex": 108,
+          "sourceTime": 4.5,
+          "relativeTime": 4.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-feet/frame-18.png",
+          "pngSHA256": "39937a9044fd193290aed225ed435528da99167cc2c40ae57b56f5e8a14f98be"
+        },
+        {
+          "sample": 19,
+          "seconds": 4.75,
+          "sourceIndex": 114,
+          "sourceTime": 4.75,
+          "relativeTime": 4.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-feet/frame-19.png",
+          "pngSHA256": "3c3b2d10cd5760e8aa2e81449b9dffa3f77f9882375da7ad609c3e78fc228e48"
+        },
+        {
+          "sample": 20,
+          "seconds": 5,
+          "sourceIndex": 120,
+          "sourceTime": 5,
+          "relativeTime": 5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-feet/frame-20.png",
+          "pngSHA256": "92380f105dc39d6eb4c7eb597a4cabf557b03c26a9a84d230fa0d59d15ef9f1e"
+        },
+        {
+          "sample": 21,
+          "seconds": 5.25,
+          "sourceIndex": 126,
+          "sourceTime": 5.25,
+          "relativeTime": 5.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-feet/frame-21.png",
+          "pngSHA256": "664c631edfed7ddccfb0f992e9f662134f56022bcf503ca87168da1cf4b89698"
+        },
+        {
+          "sample": 22,
+          "seconds": 5.5,
+          "sourceIndex": 132,
+          "sourceTime": 5.5,
+          "relativeTime": 5.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-feet/frame-22.png",
+          "pngSHA256": "4fc6fa289bef8b82562e50c5c137a35be87d4685874a89db5c069cc3a2605b7f"
+        },
+        {
+          "sample": 23,
+          "seconds": 5.75,
+          "sourceIndex": 138,
+          "sourceTime": 5.75,
+          "relativeTime": 5.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-feet/frame-23.png",
+          "pngSHA256": "60f2ed21e6af22caf762a8c4dbf365db3de47a24b63603b8e2ac184d250f9644"
+        },
+        {
+          "sample": 24,
+          "seconds": 6,
+          "sourceIndex": 144,
+          "sourceTime": 6,
+          "relativeTime": 6,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-feet/frame-24.png",
+          "pngSHA256": "0561514f941565070093ed9f0d4126f7b44932fcdc142b5aaec8bff4c01459d4"
+        },
+        {
+          "sample": 25,
+          "seconds": 6.25,
+          "sourceIndex": 150,
+          "sourceTime": 6.25,
+          "relativeTime": 6.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-feet/frame-25.png",
+          "pngSHA256": "36125f84989ec246c4573d63426f67eba09ae2386442811d1a4e4f835208a2a2"
+        },
+        {
+          "sample": 26,
+          "seconds": 6.5,
+          "sourceIndex": 156,
+          "sourceTime": 6.5,
+          "relativeTime": 6.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-feet/frame-26.png",
+          "pngSHA256": "b32cd5a6dec2001b962f51f92186c3eb53ccdf5817a954484a05b029e3b3011c"
+        },
+        {
+          "sample": 27,
+          "seconds": 6.75,
+          "sourceIndex": 162,
+          "sourceTime": 6.75,
+          "relativeTime": 6.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-feet/frame-27.png",
+          "pngSHA256": "614b73014902c3f0a13121c99d0bd800911d255f51a9827ecd77bdec1fff9752"
+        },
+        {
+          "sample": 28,
+          "seconds": 7,
+          "sourceIndex": 168,
+          "sourceTime": 7,
+          "relativeTime": 7,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-feet/frame-28.png",
+          "pngSHA256": "98ed4cd7784b72876adea1d6205f9c4bb25db2a6785c3d18575b178f42b541ad"
+        },
+        {
+          "sample": 29,
+          "seconds": 7.25,
+          "sourceIndex": 174,
+          "sourceTime": 7.25,
+          "relativeTime": 7.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-feet/frame-29.png",
+          "pngSHA256": "020b578497725640824b3954cada058689e9d41ecedc500aef95a0ae2ea8c7f0"
+        },
+        {
+          "sample": 30,
+          "seconds": 7.5,
+          "sourceIndex": 180,
+          "sourceTime": 7.5,
+          "relativeTime": 7.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-feet/frame-30.png",
+          "pngSHA256": "d20eb116a3359d96077404d1428640e35893504f083a98ff070704050b565885"
+        },
+        {
+          "sample": 31,
+          "seconds": 7.75,
+          "sourceIndex": 186,
+          "sourceTime": 7.75,
+          "relativeTime": 7.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/ava-source/ava-feet/frame-31.png",
+          "pngSHA256": "33c45faefa8aad6f8016ea9e164d3cdcbda23e9cd31c6593660037a47321f853"
+        }
+      ],
+      "nativePixels": true
+    }
+  ],
+  "extraction": "FFmpeg decoded original source indices, rgb24 PNG. Character crops are native rectangles without repainting/resizing; only contact thumbnails are resized.",
+  "visualReview": "approved-sampled-window",
+  "commands": [
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffprobe.exe",
+      "args": [
+        "-v",
+        "error",
+        "-count_frames",
+        "-show_streams",
+        "-show_format",
+        "-of",
+        "json",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v33\\opening\\clips\\07-ava.mp4"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffprobe.exe",
+      "args": [
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_frames",
+        "-show_entries",
+        "frame=best_effort_timestamp_time",
+        "-of",
+        "json",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v33\\opening\\clips\\07-ava.mp4"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v33\\opening\\clips\\07-ava.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-vf",
+        "select='eq(n,0)+eq(n,12)+eq(n,24)+eq(n,36)+eq(n,48)+eq(n,60)+eq(n,72)+eq(n,84)+eq(n,96)+eq(n,108)+eq(n,120)+eq(n,132)+eq(n,144)+eq(n,156)+eq(n,168)+eq(n,180)',format=rgb24",
+        "-fps_mode",
+        "passthrough",
+        "-frames:v",
+        "16",
+        "-start_number",
+        "0",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\ava-source\\full\\frame-%02d.png"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "0",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\ava-source\\full\\frame-%02d.png",
+        "-vf",
+        "scale=320:180,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\ava-source\\full-contact.jpg"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v33\\opening\\clips\\07-ava.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-vf",
+        "select='eq(n,0)+eq(n,6)+eq(n,12)+eq(n,18)+eq(n,24)+eq(n,30)+eq(n,36)+eq(n,42)+eq(n,48)+eq(n,54)+eq(n,60)+eq(n,66)+eq(n,72)+eq(n,78)+eq(n,84)+eq(n,90)+eq(n,96)+eq(n,102)+eq(n,108)+eq(n,114)+eq(n,120)+eq(n,126)+eq(n,132)+eq(n,138)+eq(n,144)+eq(n,150)+eq(n,156)+eq(n,162)+eq(n,168)+eq(n,174)+eq(n,180)+eq(n,186)',format=rgb24,crop=405:290:370:115",
+        "-fps_mode",
+        "passthrough",
+        "-frames:v",
+        "32",
+        "-start_number",
+        "0",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\ava-source\\ava-arms\\frame-%02d.png"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "0",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\ava-source\\ava-arms\\frame-%02d.png",
+        "-vf",
+        "scale=320:229,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\ava-source\\ava-arms-contact-1.jpg"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "16",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\ava-source\\ava-arms\\frame-%02d.png",
+        "-vf",
+        "scale=320:229,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\ava-source\\ava-arms-contact-2.jpg"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v33\\opening\\clips\\07-ava.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-vf",
+        "select='eq(n,0)+eq(n,6)+eq(n,12)+eq(n,18)+eq(n,24)+eq(n,30)+eq(n,36)+eq(n,42)+eq(n,48)+eq(n,54)+eq(n,60)+eq(n,66)+eq(n,72)+eq(n,78)+eq(n,84)+eq(n,90)+eq(n,96)+eq(n,102)+eq(n,108)+eq(n,114)+eq(n,120)+eq(n,126)+eq(n,132)+eq(n,138)+eq(n,144)+eq(n,150)+eq(n,156)+eq(n,162)+eq(n,168)+eq(n,174)+eq(n,180)+eq(n,186)',format=rgb24,crop=505:245:235:470",
+        "-fps_mode",
+        "passthrough",
+        "-frames:v",
+        "32",
+        "-start_number",
+        "0",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\ava-source\\ava-feet\\frame-%02d.png"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "0",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\ava-source\\ava-feet\\frame-%02d.png",
+        "-vf",
+        "scale=320:155,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\ava-source\\ava-feet-contact-1.jpg"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "16",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\ava-source\\ava-feet\\frame-%02d.png",
+        "-vf",
+        "scale=320:155,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\ava-source\\ava-feet-contact-2.jpg"
+      ]
+    }
+  ],
+  "rootReview": "A raiz revisou full16, Terra ocre/flores e contagem de membros.",
+  "approvedWindows": [
+    {
+      "sourceIndices": [
+        0,
+        119
+      ],
+      "frames": 120,
+      "startSeconds": 0
+    },
+    {
+      "sourceIndices": [
+        120,
+        145
+      ],
+      "frames": 26,
+      "startSeconds": 5
+    }
+  ]
+}

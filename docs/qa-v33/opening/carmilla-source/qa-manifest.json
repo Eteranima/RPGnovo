@@ -1,0 +1,1399 @@
+{
+  "schema": 2,
+  "source": "art-source/v33/opening/clips/09-carmilla.mp4",
+  "sourceSHA256": "d936240d1a87a9ae0ab991334c50ff530d4c29bb4d4f1b40b2473cec26081e9b",
+  "sourceBytes": 4200972,
+  "actualDecodedFrames": 192,
+  "sourceResolution": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 24,
+  "videoDurationSeconds": 8,
+  "containerDurationSeconds": 8,
+  "audio": [
+    {
+      "codec": "aac",
+      "sampleRate": "48000",
+      "channels": 2,
+      "duration": "8.000000"
+    }
+  ],
+  "full": [
+    {
+      "sample": 0,
+      "seconds": 0,
+      "sourceIndex": 0,
+      "sourceTime": 0,
+      "relativeTime": 0,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/carmilla-source/full/frame-00.png",
+      "pngSHA256": "01d3eb83529e14ca9e483fd52bedb203dfbcf1b30d74da3dc3106118b7a225aa"
+    },
+    {
+      "sample": 1,
+      "seconds": 0.5,
+      "sourceIndex": 12,
+      "sourceTime": 0.5,
+      "relativeTime": 0.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/carmilla-source/full/frame-01.png",
+      "pngSHA256": "f31175f9a2a026fa8c04099214dfbf7f6160487d399f38007fa74238edd3d0b6"
+    },
+    {
+      "sample": 2,
+      "seconds": 1,
+      "sourceIndex": 24,
+      "sourceTime": 1,
+      "relativeTime": 1,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/carmilla-source/full/frame-02.png",
+      "pngSHA256": "b44191b4238dfa77f5d692672832a68a68cec84e4d50491ed5afde3ecef301fe"
+    },
+    {
+      "sample": 3,
+      "seconds": 1.5,
+      "sourceIndex": 36,
+      "sourceTime": 1.5,
+      "relativeTime": 1.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/carmilla-source/full/frame-03.png",
+      "pngSHA256": "73b70b7a75868b71639f162e003c47d44c1b976392744d61638b5911d03e9da5"
+    },
+    {
+      "sample": 4,
+      "seconds": 2,
+      "sourceIndex": 48,
+      "sourceTime": 2,
+      "relativeTime": 2,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/carmilla-source/full/frame-04.png",
+      "pngSHA256": "9936c20ac2053485ba3451ed32c345831acdea4f5a4cb41493c77272b79037bc"
+    },
+    {
+      "sample": 5,
+      "seconds": 2.5,
+      "sourceIndex": 60,
+      "sourceTime": 2.5,
+      "relativeTime": 2.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/carmilla-source/full/frame-05.png",
+      "pngSHA256": "c6fa2e2424c99468a1eab30160b9f9b591a327773c250f350541f0a53c380266"
+    },
+    {
+      "sample": 6,
+      "seconds": 3,
+      "sourceIndex": 72,
+      "sourceTime": 3,
+      "relativeTime": 3,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/carmilla-source/full/frame-06.png",
+      "pngSHA256": "03ab9dc6c500bb18079315f6fe0499cd279c1f3b05160ff1dc2819698cbc88c7"
+    },
+    {
+      "sample": 7,
+      "seconds": 3.5,
+      "sourceIndex": 84,
+      "sourceTime": 3.5,
+      "relativeTime": 3.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/carmilla-source/full/frame-07.png",
+      "pngSHA256": "f6de0ee2d0523e84b53a33b79d412f588392b15217d7f17e2c7491447a352008"
+    },
+    {
+      "sample": 8,
+      "seconds": 4,
+      "sourceIndex": 96,
+      "sourceTime": 4,
+      "relativeTime": 4,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/carmilla-source/full/frame-08.png",
+      "pngSHA256": "21dd5301c887f48d3dae6a1aedbff37f69f28d4a90d9a4bfa869ab9605651a00"
+    },
+    {
+      "sample": 9,
+      "seconds": 4.5,
+      "sourceIndex": 108,
+      "sourceTime": 4.5,
+      "relativeTime": 4.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/carmilla-source/full/frame-09.png",
+      "pngSHA256": "4c3cf079cfa0de0eafce38c6f473caa4cd2da75e4a71fcc1a570f6eb342fe5b8"
+    },
+    {
+      "sample": 10,
+      "seconds": 5,
+      "sourceIndex": 120,
+      "sourceTime": 5,
+      "relativeTime": 5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/carmilla-source/full/frame-10.png",
+      "pngSHA256": "43c45c3dbc82edfcd62dbc28c39281d83c005129375c0a0b41a5734f875e2e0c"
+    },
+    {
+      "sample": 11,
+      "seconds": 5.5,
+      "sourceIndex": 132,
+      "sourceTime": 5.5,
+      "relativeTime": 5.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/carmilla-source/full/frame-11.png",
+      "pngSHA256": "2f0846000bd699bf5f51ea03f97ee5dad0ce1c11970035a7d4f4856ffef17319"
+    },
+    {
+      "sample": 12,
+      "seconds": 6,
+      "sourceIndex": 144,
+      "sourceTime": 6,
+      "relativeTime": 6,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/carmilla-source/full/frame-12.png",
+      "pngSHA256": "fe190c739f9f021fcb151f9e59367e10ff9502360a84d0994b457bd69efb2421"
+    },
+    {
+      "sample": 13,
+      "seconds": 6.5,
+      "sourceIndex": 156,
+      "sourceTime": 6.5,
+      "relativeTime": 6.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/carmilla-source/full/frame-13.png",
+      "pngSHA256": "df9436d4279133af4b6cdeb8bed2f608e87fbd4b147273d1ba10837f71dca91b"
+    },
+    {
+      "sample": 14,
+      "seconds": 7,
+      "sourceIndex": 168,
+      "sourceTime": 7,
+      "relativeTime": 7,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/carmilla-source/full/frame-14.png",
+      "pngSHA256": "92f9ec01be903d0ed785e59b1a3120a942f4dee31ae04352b8bb894a5e7dc274"
+    },
+    {
+      "sample": 15,
+      "seconds": 7.5,
+      "sourceIndex": 180,
+      "sourceTime": 7.5,
+      "relativeTime": 7.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/carmilla-source/full/frame-15.png",
+      "pngSHA256": "6a8986a64564cd9576d645beb0beac85f18d8313d9044568da82d2a974bb0fdf"
+    }
+  ],
+  "cropped": {
+    "id": "carmilla-hand-high",
+    "character": "Carmilla — mão e agulha altas",
+    "crop": {
+      "x": 535,
+      "y": 115,
+      "width": 205,
+      "height": 165
+    },
+    "frames": [
+      {
+        "sample": 0,
+        "seconds": 0,
+        "sourceIndex": 0,
+        "sourceTime": 0,
+        "relativeTime": 0,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-00.png",
+        "pngSHA256": "f81ba2cd7d8f5a42045d635ec31bb93faceb0252fb48f361032f295245df8148"
+      },
+      {
+        "sample": 1,
+        "seconds": 0.25,
+        "sourceIndex": 6,
+        "sourceTime": 0.25,
+        "relativeTime": 0.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-01.png",
+        "pngSHA256": "fee98f0a8ea9c1af904d5528b7a709f645e28fec3721205202e32e99842410a8"
+      },
+      {
+        "sample": 2,
+        "seconds": 0.5,
+        "sourceIndex": 12,
+        "sourceTime": 0.5,
+        "relativeTime": 0.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-02.png",
+        "pngSHA256": "190794ad6a564b118f8902c40e613d20ec41cfea9664fa8d8637ee1ea194a8a9"
+      },
+      {
+        "sample": 3,
+        "seconds": 0.75,
+        "sourceIndex": 18,
+        "sourceTime": 0.75,
+        "relativeTime": 0.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-03.png",
+        "pngSHA256": "bae3c0e2cd0d050045e2b75bf645b2a678e97cdfbc50e29994a60d83929acbc0"
+      },
+      {
+        "sample": 4,
+        "seconds": 1,
+        "sourceIndex": 24,
+        "sourceTime": 1,
+        "relativeTime": 1,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-04.png",
+        "pngSHA256": "4142fa089e4b54695709370cff0e8bc062570e921cd53ee45255ac6dd3fdddbb"
+      },
+      {
+        "sample": 5,
+        "seconds": 1.25,
+        "sourceIndex": 30,
+        "sourceTime": 1.25,
+        "relativeTime": 1.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-05.png",
+        "pngSHA256": "36145e76c57fcdea625e927510cf56d72a4a3c1a7ae81698c5d95d3262402fee"
+      },
+      {
+        "sample": 6,
+        "seconds": 1.5,
+        "sourceIndex": 36,
+        "sourceTime": 1.5,
+        "relativeTime": 1.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-06.png",
+        "pngSHA256": "4e33151d5d6c843ecc0234f51d0140f10d18d9f2a9b47a70db643af832515737"
+      },
+      {
+        "sample": 7,
+        "seconds": 1.75,
+        "sourceIndex": 42,
+        "sourceTime": 1.75,
+        "relativeTime": 1.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-07.png",
+        "pngSHA256": "8c7270165ea5ebd0210a396afb1dc6f28ed6147f99d3282fd2d788a390346cca"
+      },
+      {
+        "sample": 8,
+        "seconds": 2,
+        "sourceIndex": 48,
+        "sourceTime": 2,
+        "relativeTime": 2,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-08.png",
+        "pngSHA256": "e08ac27dcbb695c418541a985e2a9eb86541223836ee7e6c046ab71446c4eae1"
+      },
+      {
+        "sample": 9,
+        "seconds": 2.25,
+        "sourceIndex": 54,
+        "sourceTime": 2.25,
+        "relativeTime": 2.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-09.png",
+        "pngSHA256": "903267e57874333f8993e419d5984a8ce11993d45b1d85fc0f37436740f76638"
+      },
+      {
+        "sample": 10,
+        "seconds": 2.5,
+        "sourceIndex": 60,
+        "sourceTime": 2.5,
+        "relativeTime": 2.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-10.png",
+        "pngSHA256": "a0f102a80ed26f0757f1dae5164437a1c3e809ad2dc3159d017a1b3491ed98b0"
+      },
+      {
+        "sample": 11,
+        "seconds": 2.75,
+        "sourceIndex": 66,
+        "sourceTime": 2.75,
+        "relativeTime": 2.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-11.png",
+        "pngSHA256": "cf9053192ad95e5771f9fc42f00d228f4d818da376fd607259f1d0f6a042a843"
+      },
+      {
+        "sample": 12,
+        "seconds": 3,
+        "sourceIndex": 72,
+        "sourceTime": 3,
+        "relativeTime": 3,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-12.png",
+        "pngSHA256": "f1e54179000508749ad1ef936a905114b52ed31d1db6b316926347630a8b6e26"
+      },
+      {
+        "sample": 13,
+        "seconds": 3.25,
+        "sourceIndex": 78,
+        "sourceTime": 3.25,
+        "relativeTime": 3.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-13.png",
+        "pngSHA256": "50ef2f20ff5bf7277262223e742013de5e65a7d3acb767e9d575a42c9187522f"
+      },
+      {
+        "sample": 14,
+        "seconds": 3.5,
+        "sourceIndex": 84,
+        "sourceTime": 3.5,
+        "relativeTime": 3.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-14.png",
+        "pngSHA256": "83fe14d499cc15b73456fe8174f47b4e101c5116e720d0c009e08b46e89f4ffe"
+      },
+      {
+        "sample": 15,
+        "seconds": 3.75,
+        "sourceIndex": 90,
+        "sourceTime": 3.75,
+        "relativeTime": 3.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-15.png",
+        "pngSHA256": "d97b59c823f7a1b7df22fcedb79fadbbea08b68c9fb120e2fb7ec64484d235fc"
+      },
+      {
+        "sample": 16,
+        "seconds": 4,
+        "sourceIndex": 96,
+        "sourceTime": 4,
+        "relativeTime": 4,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-16.png",
+        "pngSHA256": "6355ad1a451769bed1724584839936cea40a1ccde2e3a68547b0147a79167f82"
+      },
+      {
+        "sample": 17,
+        "seconds": 4.25,
+        "sourceIndex": 102,
+        "sourceTime": 4.25,
+        "relativeTime": 4.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-17.png",
+        "pngSHA256": "17a7835bc91e4ee8bc3ad4544fff8ef999dd3098f44ba134fe703164e2c74ead"
+      },
+      {
+        "sample": 18,
+        "seconds": 4.5,
+        "sourceIndex": 108,
+        "sourceTime": 4.5,
+        "relativeTime": 4.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-18.png",
+        "pngSHA256": "f48972ac23eafb82df7596107fa5efa04efa27692dcb1705f718f9d2ca57a2bc"
+      },
+      {
+        "sample": 19,
+        "seconds": 4.75,
+        "sourceIndex": 114,
+        "sourceTime": 4.75,
+        "relativeTime": 4.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-19.png",
+        "pngSHA256": "e81e940557cdc1fc9ac791afb0f7410ea94847e800c8603e2f4fd6b78deb6420"
+      },
+      {
+        "sample": 20,
+        "seconds": 5,
+        "sourceIndex": 120,
+        "sourceTime": 5,
+        "relativeTime": 5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-20.png",
+        "pngSHA256": "a22f27a51ef00ea435586e6e4c2d34e580114d16e904506d55776f8f2b32e85a"
+      },
+      {
+        "sample": 21,
+        "seconds": 5.25,
+        "sourceIndex": 126,
+        "sourceTime": 5.25,
+        "relativeTime": 5.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-21.png",
+        "pngSHA256": "50eb70ca609eb543f48ed3e83d6c60beaf40b6d5a50a7b6a38b9db52e2020614"
+      },
+      {
+        "sample": 22,
+        "seconds": 5.5,
+        "sourceIndex": 132,
+        "sourceTime": 5.5,
+        "relativeTime": 5.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-22.png",
+        "pngSHA256": "5a4668645330e7c37322ebefe07642e9992eaf7f71ce88ec45df924900b88c25"
+      },
+      {
+        "sample": 23,
+        "seconds": 5.75,
+        "sourceIndex": 138,
+        "sourceTime": 5.75,
+        "relativeTime": 5.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-23.png",
+        "pngSHA256": "f18da5368d71b45477538b23c29ee66d656639b71d5d0d2d159396b760b3fe32"
+      },
+      {
+        "sample": 24,
+        "seconds": 6,
+        "sourceIndex": 144,
+        "sourceTime": 6,
+        "relativeTime": 6,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-24.png",
+        "pngSHA256": "7db6379272fc98f5750148c274ec2648c51b709216e6ebb9033ac5033d1748a8"
+      },
+      {
+        "sample": 25,
+        "seconds": 6.25,
+        "sourceIndex": 150,
+        "sourceTime": 6.25,
+        "relativeTime": 6.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-25.png",
+        "pngSHA256": "c373786248d61acfd0a0d645a607e6b2352a79b16f5b09bdfe59aa64d2700d64"
+      },
+      {
+        "sample": 26,
+        "seconds": 6.5,
+        "sourceIndex": 156,
+        "sourceTime": 6.5,
+        "relativeTime": 6.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-26.png",
+        "pngSHA256": "56cf7f8ebed693ff193b476d41b5a7b1281c69ea6984ecdccbf649efec9eaae7"
+      },
+      {
+        "sample": 27,
+        "seconds": 6.75,
+        "sourceIndex": 162,
+        "sourceTime": 6.75,
+        "relativeTime": 6.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-27.png",
+        "pngSHA256": "19d622f65240c3c50c7432d7628c7a1fe35b6f678f31863aea911053c2567870"
+      },
+      {
+        "sample": 28,
+        "seconds": 7,
+        "sourceIndex": 168,
+        "sourceTime": 7,
+        "relativeTime": 7,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-28.png",
+        "pngSHA256": "a7e080ed3c0263275007589a574144ec04fc331dc21655905ad8fef32ca91883"
+      },
+      {
+        "sample": 29,
+        "seconds": 7.25,
+        "sourceIndex": 174,
+        "sourceTime": 7.25,
+        "relativeTime": 7.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-29.png",
+        "pngSHA256": "07db6c9b0bbf4aa433900944fa119029206e6787bef4b115c7c7284a8d2dbbdc"
+      },
+      {
+        "sample": 30,
+        "seconds": 7.5,
+        "sourceIndex": 180,
+        "sourceTime": 7.5,
+        "relativeTime": 7.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-30.png",
+        "pngSHA256": "2aa253ddc23f7ce436fb145627eb595806d255076085880786e797ae60047454"
+      },
+      {
+        "sample": 31,
+        "seconds": 7.75,
+        "sourceIndex": 186,
+        "sourceTime": 7.75,
+        "relativeTime": 7.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-31.png",
+        "pngSHA256": "980ba67c0191fd0e0144d8a5d272e3858855e36e3285389842d70a69d9d0ee5a"
+      }
+    ],
+    "nativePixels": true
+  },
+  "crops": [
+    {
+      "id": "carmilla-hand-high",
+      "character": "Carmilla — mão e agulha altas",
+      "crop": {
+        "x": 535,
+        "y": 115,
+        "width": 205,
+        "height": 165
+      },
+      "frames": [
+        {
+          "sample": 0,
+          "seconds": 0,
+          "sourceIndex": 0,
+          "sourceTime": 0,
+          "relativeTime": 0,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-00.png",
+          "pngSHA256": "f81ba2cd7d8f5a42045d635ec31bb93faceb0252fb48f361032f295245df8148"
+        },
+        {
+          "sample": 1,
+          "seconds": 0.25,
+          "sourceIndex": 6,
+          "sourceTime": 0.25,
+          "relativeTime": 0.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-01.png",
+          "pngSHA256": "fee98f0a8ea9c1af904d5528b7a709f645e28fec3721205202e32e99842410a8"
+        },
+        {
+          "sample": 2,
+          "seconds": 0.5,
+          "sourceIndex": 12,
+          "sourceTime": 0.5,
+          "relativeTime": 0.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-02.png",
+          "pngSHA256": "190794ad6a564b118f8902c40e613d20ec41cfea9664fa8d8637ee1ea194a8a9"
+        },
+        {
+          "sample": 3,
+          "seconds": 0.75,
+          "sourceIndex": 18,
+          "sourceTime": 0.75,
+          "relativeTime": 0.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-03.png",
+          "pngSHA256": "bae3c0e2cd0d050045e2b75bf645b2a678e97cdfbc50e29994a60d83929acbc0"
+        },
+        {
+          "sample": 4,
+          "seconds": 1,
+          "sourceIndex": 24,
+          "sourceTime": 1,
+          "relativeTime": 1,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-04.png",
+          "pngSHA256": "4142fa089e4b54695709370cff0e8bc062570e921cd53ee45255ac6dd3fdddbb"
+        },
+        {
+          "sample": 5,
+          "seconds": 1.25,
+          "sourceIndex": 30,
+          "sourceTime": 1.25,
+          "relativeTime": 1.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-05.png",
+          "pngSHA256": "36145e76c57fcdea625e927510cf56d72a4a3c1a7ae81698c5d95d3262402fee"
+        },
+        {
+          "sample": 6,
+          "seconds": 1.5,
+          "sourceIndex": 36,
+          "sourceTime": 1.5,
+          "relativeTime": 1.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-06.png",
+          "pngSHA256": "4e33151d5d6c843ecc0234f51d0140f10d18d9f2a9b47a70db643af832515737"
+        },
+        {
+          "sample": 7,
+          "seconds": 1.75,
+          "sourceIndex": 42,
+          "sourceTime": 1.75,
+          "relativeTime": 1.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-07.png",
+          "pngSHA256": "8c7270165ea5ebd0210a396afb1dc6f28ed6147f99d3282fd2d788a390346cca"
+        },
+        {
+          "sample": 8,
+          "seconds": 2,
+          "sourceIndex": 48,
+          "sourceTime": 2,
+          "relativeTime": 2,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-08.png",
+          "pngSHA256": "e08ac27dcbb695c418541a985e2a9eb86541223836ee7e6c046ab71446c4eae1"
+        },
+        {
+          "sample": 9,
+          "seconds": 2.25,
+          "sourceIndex": 54,
+          "sourceTime": 2.25,
+          "relativeTime": 2.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-09.png",
+          "pngSHA256": "903267e57874333f8993e419d5984a8ce11993d45b1d85fc0f37436740f76638"
+        },
+        {
+          "sample": 10,
+          "seconds": 2.5,
+          "sourceIndex": 60,
+          "sourceTime": 2.5,
+          "relativeTime": 2.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-10.png",
+          "pngSHA256": "a0f102a80ed26f0757f1dae5164437a1c3e809ad2dc3159d017a1b3491ed98b0"
+        },
+        {
+          "sample": 11,
+          "seconds": 2.75,
+          "sourceIndex": 66,
+          "sourceTime": 2.75,
+          "relativeTime": 2.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-11.png",
+          "pngSHA256": "cf9053192ad95e5771f9fc42f00d228f4d818da376fd607259f1d0f6a042a843"
+        },
+        {
+          "sample": 12,
+          "seconds": 3,
+          "sourceIndex": 72,
+          "sourceTime": 3,
+          "relativeTime": 3,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-12.png",
+          "pngSHA256": "f1e54179000508749ad1ef936a905114b52ed31d1db6b316926347630a8b6e26"
+        },
+        {
+          "sample": 13,
+          "seconds": 3.25,
+          "sourceIndex": 78,
+          "sourceTime": 3.25,
+          "relativeTime": 3.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-13.png",
+          "pngSHA256": "50ef2f20ff5bf7277262223e742013de5e65a7d3acb767e9d575a42c9187522f"
+        },
+        {
+          "sample": 14,
+          "seconds": 3.5,
+          "sourceIndex": 84,
+          "sourceTime": 3.5,
+          "relativeTime": 3.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-14.png",
+          "pngSHA256": "83fe14d499cc15b73456fe8174f47b4e101c5116e720d0c009e08b46e89f4ffe"
+        },
+        {
+          "sample": 15,
+          "seconds": 3.75,
+          "sourceIndex": 90,
+          "sourceTime": 3.75,
+          "relativeTime": 3.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-15.png",
+          "pngSHA256": "d97b59c823f7a1b7df22fcedb79fadbbea08b68c9fb120e2fb7ec64484d235fc"
+        },
+        {
+          "sample": 16,
+          "seconds": 4,
+          "sourceIndex": 96,
+          "sourceTime": 4,
+          "relativeTime": 4,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-16.png",
+          "pngSHA256": "6355ad1a451769bed1724584839936cea40a1ccde2e3a68547b0147a79167f82"
+        },
+        {
+          "sample": 17,
+          "seconds": 4.25,
+          "sourceIndex": 102,
+          "sourceTime": 4.25,
+          "relativeTime": 4.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-17.png",
+          "pngSHA256": "17a7835bc91e4ee8bc3ad4544fff8ef999dd3098f44ba134fe703164e2c74ead"
+        },
+        {
+          "sample": 18,
+          "seconds": 4.5,
+          "sourceIndex": 108,
+          "sourceTime": 4.5,
+          "relativeTime": 4.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-18.png",
+          "pngSHA256": "f48972ac23eafb82df7596107fa5efa04efa27692dcb1705f718f9d2ca57a2bc"
+        },
+        {
+          "sample": 19,
+          "seconds": 4.75,
+          "sourceIndex": 114,
+          "sourceTime": 4.75,
+          "relativeTime": 4.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-19.png",
+          "pngSHA256": "e81e940557cdc1fc9ac791afb0f7410ea94847e800c8603e2f4fd6b78deb6420"
+        },
+        {
+          "sample": 20,
+          "seconds": 5,
+          "sourceIndex": 120,
+          "sourceTime": 5,
+          "relativeTime": 5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-20.png",
+          "pngSHA256": "a22f27a51ef00ea435586e6e4c2d34e580114d16e904506d55776f8f2b32e85a"
+        },
+        {
+          "sample": 21,
+          "seconds": 5.25,
+          "sourceIndex": 126,
+          "sourceTime": 5.25,
+          "relativeTime": 5.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-21.png",
+          "pngSHA256": "50eb70ca609eb543f48ed3e83d6c60beaf40b6d5a50a7b6a38b9db52e2020614"
+        },
+        {
+          "sample": 22,
+          "seconds": 5.5,
+          "sourceIndex": 132,
+          "sourceTime": 5.5,
+          "relativeTime": 5.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-22.png",
+          "pngSHA256": "5a4668645330e7c37322ebefe07642e9992eaf7f71ce88ec45df924900b88c25"
+        },
+        {
+          "sample": 23,
+          "seconds": 5.75,
+          "sourceIndex": 138,
+          "sourceTime": 5.75,
+          "relativeTime": 5.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-23.png",
+          "pngSHA256": "f18da5368d71b45477538b23c29ee66d656639b71d5d0d2d159396b760b3fe32"
+        },
+        {
+          "sample": 24,
+          "seconds": 6,
+          "sourceIndex": 144,
+          "sourceTime": 6,
+          "relativeTime": 6,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-24.png",
+          "pngSHA256": "7db6379272fc98f5750148c274ec2648c51b709216e6ebb9033ac5033d1748a8"
+        },
+        {
+          "sample": 25,
+          "seconds": 6.25,
+          "sourceIndex": 150,
+          "sourceTime": 6.25,
+          "relativeTime": 6.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-25.png",
+          "pngSHA256": "c373786248d61acfd0a0d645a607e6b2352a79b16f5b09bdfe59aa64d2700d64"
+        },
+        {
+          "sample": 26,
+          "seconds": 6.5,
+          "sourceIndex": 156,
+          "sourceTime": 6.5,
+          "relativeTime": 6.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-26.png",
+          "pngSHA256": "56cf7f8ebed693ff193b476d41b5a7b1281c69ea6984ecdccbf649efec9eaae7"
+        },
+        {
+          "sample": 27,
+          "seconds": 6.75,
+          "sourceIndex": 162,
+          "sourceTime": 6.75,
+          "relativeTime": 6.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-27.png",
+          "pngSHA256": "19d622f65240c3c50c7432d7628c7a1fe35b6f678f31863aea911053c2567870"
+        },
+        {
+          "sample": 28,
+          "seconds": 7,
+          "sourceIndex": 168,
+          "sourceTime": 7,
+          "relativeTime": 7,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-28.png",
+          "pngSHA256": "a7e080ed3c0263275007589a574144ec04fc331dc21655905ad8fef32ca91883"
+        },
+        {
+          "sample": 29,
+          "seconds": 7.25,
+          "sourceIndex": 174,
+          "sourceTime": 7.25,
+          "relativeTime": 7.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-29.png",
+          "pngSHA256": "07db6c9b0bbf4aa433900944fa119029206e6787bef4b115c7c7284a8d2dbbdc"
+        },
+        {
+          "sample": 30,
+          "seconds": 7.5,
+          "sourceIndex": 180,
+          "sourceTime": 7.5,
+          "relativeTime": 7.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-30.png",
+          "pngSHA256": "2aa253ddc23f7ce436fb145627eb595806d255076085880786e797ae60047454"
+        },
+        {
+          "sample": 31,
+          "seconds": 7.75,
+          "sourceIndex": 186,
+          "sourceTime": 7.75,
+          "relativeTime": 7.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-high/frame-31.png",
+          "pngSHA256": "980ba67c0191fd0e0144d8a5d272e3858855e36e3285389842d70a69d9d0ee5a"
+        }
+      ],
+      "nativePixels": true
+    },
+    {
+      "id": "carmilla-hand-low",
+      "character": "Carmilla — mão e agulha baixas",
+      "crop": {
+        "x": 710,
+        "y": 245,
+        "width": 200,
+        "height": 180
+      },
+      "frames": [
+        {
+          "sample": 0,
+          "seconds": 0,
+          "sourceIndex": 0,
+          "sourceTime": 0,
+          "relativeTime": 0,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-low/frame-00.png",
+          "pngSHA256": "bba79ff8b34d95f1dd19fb58a0e8a5a2b0977a48f452dd971af14ef00381f102"
+        },
+        {
+          "sample": 1,
+          "seconds": 0.25,
+          "sourceIndex": 6,
+          "sourceTime": 0.25,
+          "relativeTime": 0.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-low/frame-01.png",
+          "pngSHA256": "f858e6505142a3030d42894f21de814ba32018ee1367c9e25173e1f132d9ce7e"
+        },
+        {
+          "sample": 2,
+          "seconds": 0.5,
+          "sourceIndex": 12,
+          "sourceTime": 0.5,
+          "relativeTime": 0.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-low/frame-02.png",
+          "pngSHA256": "e6bd658ffda8757d57c054bb161da9ee2f617b5183743df9e6d3b63aab663432"
+        },
+        {
+          "sample": 3,
+          "seconds": 0.75,
+          "sourceIndex": 18,
+          "sourceTime": 0.75,
+          "relativeTime": 0.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-low/frame-03.png",
+          "pngSHA256": "c883e61e11204ce3a0103a12c4d0c8cd8b6cd1abcfcac9cfd4ebbfc2006506fd"
+        },
+        {
+          "sample": 4,
+          "seconds": 1,
+          "sourceIndex": 24,
+          "sourceTime": 1,
+          "relativeTime": 1,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-low/frame-04.png",
+          "pngSHA256": "02d45e6eea05ead4edb7f0561f0e19af23e805beb910e55fb4cc2644701a0424"
+        },
+        {
+          "sample": 5,
+          "seconds": 1.25,
+          "sourceIndex": 30,
+          "sourceTime": 1.25,
+          "relativeTime": 1.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-low/frame-05.png",
+          "pngSHA256": "bfd60c16414e4cd95e95e3cb055776da1363d00c16a2334db04b90f9436fc70c"
+        },
+        {
+          "sample": 6,
+          "seconds": 1.5,
+          "sourceIndex": 36,
+          "sourceTime": 1.5,
+          "relativeTime": 1.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-low/frame-06.png",
+          "pngSHA256": "f710d2c2e62b3e1bfb13cc54ca67b2524f9ac07d29a329ae8eaf87786b369f71"
+        },
+        {
+          "sample": 7,
+          "seconds": 1.75,
+          "sourceIndex": 42,
+          "sourceTime": 1.75,
+          "relativeTime": 1.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-low/frame-07.png",
+          "pngSHA256": "ec585b0b86185b780f0eb56ada48aadcbd818f1d020af1522677d1d784da2cab"
+        },
+        {
+          "sample": 8,
+          "seconds": 2,
+          "sourceIndex": 48,
+          "sourceTime": 2,
+          "relativeTime": 2,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-low/frame-08.png",
+          "pngSHA256": "8236b6712ddb5a7b25e7cde1daef0d0c9e1985ef14817900ee69d6bc1991ab4a"
+        },
+        {
+          "sample": 9,
+          "seconds": 2.25,
+          "sourceIndex": 54,
+          "sourceTime": 2.25,
+          "relativeTime": 2.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-low/frame-09.png",
+          "pngSHA256": "ede254db21cb2a532edc0b2c0711c19e7acd8edf68f1104e67545eede08584b0"
+        },
+        {
+          "sample": 10,
+          "seconds": 2.5,
+          "sourceIndex": 60,
+          "sourceTime": 2.5,
+          "relativeTime": 2.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-low/frame-10.png",
+          "pngSHA256": "115cb19fb10fa2dc59f76e6e4a9c139b57c4a72978050e310ef44707d8caf81c"
+        },
+        {
+          "sample": 11,
+          "seconds": 2.75,
+          "sourceIndex": 66,
+          "sourceTime": 2.75,
+          "relativeTime": 2.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-low/frame-11.png",
+          "pngSHA256": "c23bd84250b8514c838740e2ee9b1528a91e39f6ce5e00dba973910e3c6dd484"
+        },
+        {
+          "sample": 12,
+          "seconds": 3,
+          "sourceIndex": 72,
+          "sourceTime": 3,
+          "relativeTime": 3,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-low/frame-12.png",
+          "pngSHA256": "7ac4afa9257f68b1d0fe3584d4f7d6c3697ef5858ced8022200dcdc144b070bf"
+        },
+        {
+          "sample": 13,
+          "seconds": 3.25,
+          "sourceIndex": 78,
+          "sourceTime": 3.25,
+          "relativeTime": 3.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-low/frame-13.png",
+          "pngSHA256": "b6add7d1ca02ce3e2ba568e8b3f7e093c237998e10d71e8edfc81ef026eb79e0"
+        },
+        {
+          "sample": 14,
+          "seconds": 3.5,
+          "sourceIndex": 84,
+          "sourceTime": 3.5,
+          "relativeTime": 3.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-low/frame-14.png",
+          "pngSHA256": "04356ed9bf780ce32bb1e36ab25c7f2604ba4331df38c3a15139e1ad298eb498"
+        },
+        {
+          "sample": 15,
+          "seconds": 3.75,
+          "sourceIndex": 90,
+          "sourceTime": 3.75,
+          "relativeTime": 3.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-low/frame-15.png",
+          "pngSHA256": "14e50b1b5469f1bb7f4474004b5703289fa621f8d12427babfdc386a414feda8"
+        },
+        {
+          "sample": 16,
+          "seconds": 4,
+          "sourceIndex": 96,
+          "sourceTime": 4,
+          "relativeTime": 4,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-low/frame-16.png",
+          "pngSHA256": "d7b99fb28655f19ad45b2b268a1d06d03e558c3f105621250b80921c5a648646"
+        },
+        {
+          "sample": 17,
+          "seconds": 4.25,
+          "sourceIndex": 102,
+          "sourceTime": 4.25,
+          "relativeTime": 4.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-low/frame-17.png",
+          "pngSHA256": "4247902032aa80482a32fe0b605b1b47866c29bfc9b8c9d2e8be694b27c708ec"
+        },
+        {
+          "sample": 18,
+          "seconds": 4.5,
+          "sourceIndex": 108,
+          "sourceTime": 4.5,
+          "relativeTime": 4.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-low/frame-18.png",
+          "pngSHA256": "f431210ab48e786ced0da068a567d8981525906fa89060002dd02626fb1e1174"
+        },
+        {
+          "sample": 19,
+          "seconds": 4.75,
+          "sourceIndex": 114,
+          "sourceTime": 4.75,
+          "relativeTime": 4.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-low/frame-19.png",
+          "pngSHA256": "641c1467c8ebf3db1b6649e7d87ed1adeb20028c284e28b56b0175195dd8bf02"
+        },
+        {
+          "sample": 20,
+          "seconds": 5,
+          "sourceIndex": 120,
+          "sourceTime": 5,
+          "relativeTime": 5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-low/frame-20.png",
+          "pngSHA256": "6723fd48afc0da6dac8898dec9953d48ad80b15fc842534c4639018780fa6e4d"
+        },
+        {
+          "sample": 21,
+          "seconds": 5.25,
+          "sourceIndex": 126,
+          "sourceTime": 5.25,
+          "relativeTime": 5.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-low/frame-21.png",
+          "pngSHA256": "b42cdc732f326bfd4adea2444f1faeef8610030cfd95a17f7ec48069cbc66912"
+        },
+        {
+          "sample": 22,
+          "seconds": 5.5,
+          "sourceIndex": 132,
+          "sourceTime": 5.5,
+          "relativeTime": 5.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-low/frame-22.png",
+          "pngSHA256": "f4deda654ea05cb3d52922832a4b3ac562a03888cbbe403fa2b668c4bd638450"
+        },
+        {
+          "sample": 23,
+          "seconds": 5.75,
+          "sourceIndex": 138,
+          "sourceTime": 5.75,
+          "relativeTime": 5.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-low/frame-23.png",
+          "pngSHA256": "47ad6224071a412ca29544ab0439edcab0b7c8987ab8f70dcd504e700e2e2068"
+        },
+        {
+          "sample": 24,
+          "seconds": 6,
+          "sourceIndex": 144,
+          "sourceTime": 6,
+          "relativeTime": 6,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-low/frame-24.png",
+          "pngSHA256": "4f28a07e79e9c00ae2a1170d308f77f66f7511dd6f4a5a7224cee17eb34c4de3"
+        },
+        {
+          "sample": 25,
+          "seconds": 6.25,
+          "sourceIndex": 150,
+          "sourceTime": 6.25,
+          "relativeTime": 6.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-low/frame-25.png",
+          "pngSHA256": "0aad628a33e2bfe45fef1f7f2666a5b2ad2c2279836f0a3d584b9ed8199affbc"
+        },
+        {
+          "sample": 26,
+          "seconds": 6.5,
+          "sourceIndex": 156,
+          "sourceTime": 6.5,
+          "relativeTime": 6.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-low/frame-26.png",
+          "pngSHA256": "1e9b8907f271d01986d2e0e893f998a7d5b51271497a5746c95d650ebfb02b4f"
+        },
+        {
+          "sample": 27,
+          "seconds": 6.75,
+          "sourceIndex": 162,
+          "sourceTime": 6.75,
+          "relativeTime": 6.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-low/frame-27.png",
+          "pngSHA256": "10b768e4a7cdd0f5d9125d3aa045efb93e895eacdab4037046539cde272994c5"
+        },
+        {
+          "sample": 28,
+          "seconds": 7,
+          "sourceIndex": 168,
+          "sourceTime": 7,
+          "relativeTime": 7,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-low/frame-28.png",
+          "pngSHA256": "10d5d708e605f183a5c9bb29bf85b9831b829ce32b9bdac87524e38e64cdfd29"
+        },
+        {
+          "sample": 29,
+          "seconds": 7.25,
+          "sourceIndex": 174,
+          "sourceTime": 7.25,
+          "relativeTime": 7.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-low/frame-29.png",
+          "pngSHA256": "a84cfd171a6e40dc34babd5aa58f3f3d3c31e1cf9e0ec3aef2b8ccdcd4df2ef5"
+        },
+        {
+          "sample": 30,
+          "seconds": 7.5,
+          "sourceIndex": 180,
+          "sourceTime": 7.5,
+          "relativeTime": 7.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-low/frame-30.png",
+          "pngSHA256": "39f62091cd70820b74f4514b8bda65d7de46a93eba85b2ac81c04ab9397da898"
+        },
+        {
+          "sample": 31,
+          "seconds": 7.75,
+          "sourceIndex": 186,
+          "sourceTime": 7.75,
+          "relativeTime": 7.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/carmilla-source/carmilla-hand-low/frame-31.png",
+          "pngSHA256": "8275ca806e420fca888f98337e1bc12101cc32fcb7917d82209d48318fc4f26e"
+        }
+      ],
+      "nativePixels": true
+    }
+  ],
+  "extraction": "FFmpeg decoded original source indices, rgb24 PNG. Character crops are native rectangles without repainting/resizing; only contact thumbnails are resized.",
+  "visualReview": "approved-sampled-window",
+  "commands": [
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffprobe.exe",
+      "args": [
+        "-v",
+        "error",
+        "-count_frames",
+        "-show_streams",
+        "-show_format",
+        "-of",
+        "json",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v33\\opening\\clips\\09-carmilla.mp4"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffprobe.exe",
+      "args": [
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_frames",
+        "-show_entries",
+        "frame=best_effort_timestamp_time",
+        "-of",
+        "json",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v33\\opening\\clips\\09-carmilla.mp4"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v33\\opening\\clips\\09-carmilla.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-vf",
+        "select='eq(n,0)+eq(n,12)+eq(n,24)+eq(n,36)+eq(n,48)+eq(n,60)+eq(n,72)+eq(n,84)+eq(n,96)+eq(n,108)+eq(n,120)+eq(n,132)+eq(n,144)+eq(n,156)+eq(n,168)+eq(n,180)',format=rgb24",
+        "-fps_mode",
+        "passthrough",
+        "-frames:v",
+        "16",
+        "-start_number",
+        "0",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\carmilla-source\\full\\frame-%02d.png"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "0",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\carmilla-source\\full\\frame-%02d.png",
+        "-vf",
+        "scale=320:180,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\carmilla-source\\full-contact.jpg"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v33\\opening\\clips\\09-carmilla.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-vf",
+        "select='eq(n,0)+eq(n,6)+eq(n,12)+eq(n,18)+eq(n,24)+eq(n,30)+eq(n,36)+eq(n,42)+eq(n,48)+eq(n,54)+eq(n,60)+eq(n,66)+eq(n,72)+eq(n,78)+eq(n,84)+eq(n,90)+eq(n,96)+eq(n,102)+eq(n,108)+eq(n,114)+eq(n,120)+eq(n,126)+eq(n,132)+eq(n,138)+eq(n,144)+eq(n,150)+eq(n,156)+eq(n,162)+eq(n,168)+eq(n,174)+eq(n,180)+eq(n,186)',format=rgb24,crop=205:165:535:115",
+        "-fps_mode",
+        "passthrough",
+        "-frames:v",
+        "32",
+        "-start_number",
+        "0",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\carmilla-source\\carmilla-hand-high\\frame-%02d.png"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "0",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\carmilla-source\\carmilla-hand-high\\frame-%02d.png",
+        "-vf",
+        "scale=320:258,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\carmilla-source\\carmilla-hand-high-contact-1.jpg"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "16",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\carmilla-source\\carmilla-hand-high\\frame-%02d.png",
+        "-vf",
+        "scale=320:258,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\carmilla-source\\carmilla-hand-high-contact-2.jpg"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v33\\opening\\clips\\09-carmilla.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-vf",
+        "select='eq(n,0)+eq(n,6)+eq(n,12)+eq(n,18)+eq(n,24)+eq(n,30)+eq(n,36)+eq(n,42)+eq(n,48)+eq(n,54)+eq(n,60)+eq(n,66)+eq(n,72)+eq(n,78)+eq(n,84)+eq(n,90)+eq(n,96)+eq(n,102)+eq(n,108)+eq(n,114)+eq(n,120)+eq(n,126)+eq(n,132)+eq(n,138)+eq(n,144)+eq(n,150)+eq(n,156)+eq(n,162)+eq(n,168)+eq(n,174)+eq(n,180)+eq(n,186)',format=rgb24,crop=200:180:710:245",
+        "-fps_mode",
+        "passthrough",
+        "-frames:v",
+        "32",
+        "-start_number",
+        "0",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\carmilla-source\\carmilla-hand-low\\frame-%02d.png"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "0",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\carmilla-source\\carmilla-hand-low\\frame-%02d.png",
+        "-vf",
+        "scale=320:288,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\carmilla-source\\carmilla-hand-low-contact-1.jpg"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "16",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\carmilla-source\\carmilla-hand-low\\frame-%02d.png",
+        "-vf",
+        "scale=320:288,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\carmilla-source\\carmilla-hand-low-contact-2.jpg"
+      ]
+    }
+  ],
+  "rootReview": "A raiz revisou e aprovou as contact sheets completas/janelas selecionadas; montagem autorizada após QA dos crops.",
+  "approvedWindows": [
+    {
+      "sourceIndices": [
+        0,
+        119
+      ],
+      "frames": 120,
+      "startSeconds": 0
+    }
+  ]
+}

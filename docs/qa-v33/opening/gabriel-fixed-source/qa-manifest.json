@@ -1,0 +1,2201 @@
+{
+  "schema": 2,
+  "source": "art-source/v33/opening/clips/05-gabriel-fixed.mp4",
+  "sourceSHA256": "57c925e10cee9f6a6b87c0d1d8ab96d01a1310dab23335e3d497339582d8f507",
+  "sourceBytes": 9472935,
+  "actualDecodedFrames": 192,
+  "sourceResolution": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 24,
+  "videoDurationSeconds": 8,
+  "containerDurationSeconds": 8,
+  "audio": [
+    {
+      "codec": "aac",
+      "sampleRate": "48000",
+      "channels": 2,
+      "duration": "8.000000"
+    }
+  ],
+  "full": [
+    {
+      "sample": 0,
+      "seconds": 0,
+      "sourceIndex": 0,
+      "sourceTime": 0,
+      "relativeTime": 0,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/gabriel-fixed-source/full/frame-00.png",
+      "pngSHA256": "8b0820e62a47e008bfcdee1e121a74a7a73e657fb5913c2ea3fe124af91ce3a8"
+    },
+    {
+      "sample": 1,
+      "seconds": 0.5,
+      "sourceIndex": 12,
+      "sourceTime": 0.5,
+      "relativeTime": 0.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/gabriel-fixed-source/full/frame-01.png",
+      "pngSHA256": "02fdea69a285e0738d3e35b0fcc1a9db1f71aa7ec8bc650fbd7a7c15f7af9703"
+    },
+    {
+      "sample": 2,
+      "seconds": 1,
+      "sourceIndex": 24,
+      "sourceTime": 1,
+      "relativeTime": 1,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/gabriel-fixed-source/full/frame-02.png",
+      "pngSHA256": "87f31aeedc73831ceb5166f65ea1aebef21f9dea14b6c4e96fef4a549fa88d82"
+    },
+    {
+      "sample": 3,
+      "seconds": 1.5,
+      "sourceIndex": 36,
+      "sourceTime": 1.5,
+      "relativeTime": 1.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/gabriel-fixed-source/full/frame-03.png",
+      "pngSHA256": "231116e17f5df8fc25f99447ecd54c3e79b8c34bc77e4c1aaace2c0f2cbbeb02"
+    },
+    {
+      "sample": 4,
+      "seconds": 2,
+      "sourceIndex": 48,
+      "sourceTime": 2,
+      "relativeTime": 2,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/gabriel-fixed-source/full/frame-04.png",
+      "pngSHA256": "d799b97b7b176a8b0924cce5780162e115d58a857f71b4fa3fd7ad80f21dfdc1"
+    },
+    {
+      "sample": 5,
+      "seconds": 2.5,
+      "sourceIndex": 60,
+      "sourceTime": 2.5,
+      "relativeTime": 2.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/gabriel-fixed-source/full/frame-05.png",
+      "pngSHA256": "892ee7296fed1d5c376ba9675ffda0b6abb78aecb56395ad7fe96522c4107fa1"
+    },
+    {
+      "sample": 6,
+      "seconds": 3,
+      "sourceIndex": 72,
+      "sourceTime": 3,
+      "relativeTime": 3,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/gabriel-fixed-source/full/frame-06.png",
+      "pngSHA256": "b3786bebdc8c0e6ed1ee7745fb701fb84dd07e329089824e7bb8650b9c56924d"
+    },
+    {
+      "sample": 7,
+      "seconds": 3.5,
+      "sourceIndex": 84,
+      "sourceTime": 3.5,
+      "relativeTime": 3.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/gabriel-fixed-source/full/frame-07.png",
+      "pngSHA256": "dcd5d77deb44dfdf728aea0a62ba9da6ae12456d5b6130df6f39b6cd302ea88e"
+    },
+    {
+      "sample": 8,
+      "seconds": 4,
+      "sourceIndex": 96,
+      "sourceTime": 4,
+      "relativeTime": 4,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/gabriel-fixed-source/full/frame-08.png",
+      "pngSHA256": "01146b5a059dae98530c002b5f1c0da15c7d2f25ad3db0ddf635203ac684db40"
+    },
+    {
+      "sample": 9,
+      "seconds": 4.5,
+      "sourceIndex": 108,
+      "sourceTime": 4.5,
+      "relativeTime": 4.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/gabriel-fixed-source/full/frame-09.png",
+      "pngSHA256": "bd64490250f9ddf7318467f508aa928b0e33b0dabd943c7d8fec99f86ed3ce47"
+    },
+    {
+      "sample": 10,
+      "seconds": 5,
+      "sourceIndex": 120,
+      "sourceTime": 5,
+      "relativeTime": 5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/gabriel-fixed-source/full/frame-10.png",
+      "pngSHA256": "ac42aefa06b7375c4f85851f249e6a5a0a708dbe438ecab7e2fa12f9d49989f4"
+    },
+    {
+      "sample": 11,
+      "seconds": 5.5,
+      "sourceIndex": 132,
+      "sourceTime": 5.5,
+      "relativeTime": 5.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/gabriel-fixed-source/full/frame-11.png",
+      "pngSHA256": "4c025b7f6d7580bc0825e86b98a6efcb3a837b1999f7ccc458e8b1d980ed3f52"
+    },
+    {
+      "sample": 12,
+      "seconds": 6,
+      "sourceIndex": 144,
+      "sourceTime": 6,
+      "relativeTime": 6,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/gabriel-fixed-source/full/frame-12.png",
+      "pngSHA256": "e48316b2733517a35daba235056fe09dce65281328db6099c8271d5d20779ed9"
+    },
+    {
+      "sample": 13,
+      "seconds": 6.5,
+      "sourceIndex": 156,
+      "sourceTime": 6.5,
+      "relativeTime": 6.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/gabriel-fixed-source/full/frame-13.png",
+      "pngSHA256": "f117914084e44c359ef7b712aef9ea7f6fe6ff37c01385d8d2e5739e2be0d71f"
+    },
+    {
+      "sample": 14,
+      "seconds": 7,
+      "sourceIndex": 168,
+      "sourceTime": 7,
+      "relativeTime": 7,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/gabriel-fixed-source/full/frame-14.png",
+      "pngSHA256": "f0ef38832de95972611542d2ec492f238899fcf767b2f0ef101516c6e3a35c93"
+    },
+    {
+      "sample": 15,
+      "seconds": 7.5,
+      "sourceIndex": 180,
+      "sourceTime": 7.5,
+      "relativeTime": 7.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/gabriel-fixed-source/full/frame-15.png",
+      "pngSHA256": "03acf5ef1d8ac33c97b58afd0fcf1d0174a2520273430c2a2924b854c0d2549e"
+    }
+  ],
+  "cropped": {
+    "id": "dante-wings",
+    "character": "Dante, visible wings/body/tail; the right edge matches the original frame",
+    "crop": {
+      "x": 570,
+      "y": 0,
+      "width": 710,
+      "height": 710
+    },
+    "frames": [
+      {
+        "sample": 0,
+        "seconds": 0,
+        "sourceIndex": 0,
+        "sourceTime": 0,
+        "relativeTime": 0,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-00.png",
+        "pngSHA256": "7fbe40029d77867bcb7a0b99ad63695af30bf500e3d533a890e4ed72f219733d"
+      },
+      {
+        "sample": 1,
+        "seconds": 0.25,
+        "sourceIndex": 6,
+        "sourceTime": 0.25,
+        "relativeTime": 0.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-01.png",
+        "pngSHA256": "c70bb405d3874910ba15c3485522ef8e3cb94bb43a9599b3797a3fc27192dc3a"
+      },
+      {
+        "sample": 2,
+        "seconds": 0.5,
+        "sourceIndex": 12,
+        "sourceTime": 0.5,
+        "relativeTime": 0.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-02.png",
+        "pngSHA256": "2daeae093ea5393dff121b6d5517b8935e79ba83d5ff5a1499f32d86a60aa8b7"
+      },
+      {
+        "sample": 3,
+        "seconds": 0.75,
+        "sourceIndex": 18,
+        "sourceTime": 0.75,
+        "relativeTime": 0.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-03.png",
+        "pngSHA256": "0a7f85098a03b71e42a355cbbd5f357f87d1ba4807fe27652a71accd5b46edd4"
+      },
+      {
+        "sample": 4,
+        "seconds": 1,
+        "sourceIndex": 24,
+        "sourceTime": 1,
+        "relativeTime": 1,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-04.png",
+        "pngSHA256": "1c8146becdb68a73f74e3d7e81eb64810732ad7be4f899e22e5356fe17fddd99"
+      },
+      {
+        "sample": 5,
+        "seconds": 1.25,
+        "sourceIndex": 30,
+        "sourceTime": 1.25,
+        "relativeTime": 1.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-05.png",
+        "pngSHA256": "6eb20c0f338804f0d55655816d702cd9186d254ece1fab74a64e684933697c2d"
+      },
+      {
+        "sample": 6,
+        "seconds": 1.5,
+        "sourceIndex": 36,
+        "sourceTime": 1.5,
+        "relativeTime": 1.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-06.png",
+        "pngSHA256": "13c5006f0425bdb2ce7038099db705be5c71d908460a6db1f76fd94ad420d1a8"
+      },
+      {
+        "sample": 7,
+        "seconds": 1.75,
+        "sourceIndex": 42,
+        "sourceTime": 1.75,
+        "relativeTime": 1.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-07.png",
+        "pngSHA256": "b9748d811dfd89c26afa001cbcef113b64a985487159202b0e800f6d7e0d12a0"
+      },
+      {
+        "sample": 8,
+        "seconds": 2,
+        "sourceIndex": 48,
+        "sourceTime": 2,
+        "relativeTime": 2,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-08.png",
+        "pngSHA256": "4e82bb1023a45f15bf51de65da88563c9f2bebb91ced8c654a7435c21a6b2f19"
+      },
+      {
+        "sample": 9,
+        "seconds": 2.25,
+        "sourceIndex": 54,
+        "sourceTime": 2.25,
+        "relativeTime": 2.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-09.png",
+        "pngSHA256": "90a6a7e25ed49b2d2edbe71fae43c99c7a3ff400cd5bd2df7ffad3d669910aeb"
+      },
+      {
+        "sample": 10,
+        "seconds": 2.5,
+        "sourceIndex": 60,
+        "sourceTime": 2.5,
+        "relativeTime": 2.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-10.png",
+        "pngSHA256": "5067e6dddb39d0ec40615043fd99a86b05fea2f64a387c978ecf7198632da07a"
+      },
+      {
+        "sample": 11,
+        "seconds": 2.75,
+        "sourceIndex": 66,
+        "sourceTime": 2.75,
+        "relativeTime": 2.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-11.png",
+        "pngSHA256": "0c3aee4d5d7e57d2ffb6792b02119119fc9c92d5f92046e3bcd7c43e4959b12a"
+      },
+      {
+        "sample": 12,
+        "seconds": 3,
+        "sourceIndex": 72,
+        "sourceTime": 3,
+        "relativeTime": 3,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-12.png",
+        "pngSHA256": "8f88d233a2dde010bdf36dd54302cbc4c34bd5098df239311678b8f74da8eea7"
+      },
+      {
+        "sample": 13,
+        "seconds": 3.25,
+        "sourceIndex": 78,
+        "sourceTime": 3.25,
+        "relativeTime": 3.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-13.png",
+        "pngSHA256": "5b913ee2fa1e1a8282f92983361ea9781220a1b364735af5f82677f433682856"
+      },
+      {
+        "sample": 14,
+        "seconds": 3.5,
+        "sourceIndex": 84,
+        "sourceTime": 3.5,
+        "relativeTime": 3.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-14.png",
+        "pngSHA256": "ea544da8bb30bafa608adc7ec6213992067b42aef3c4db66ee7ff339a671cc1b"
+      },
+      {
+        "sample": 15,
+        "seconds": 3.75,
+        "sourceIndex": 90,
+        "sourceTime": 3.75,
+        "relativeTime": 3.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-15.png",
+        "pngSHA256": "77a98820b6faf63cf4eafa9d69c2972821c03fbb62ae3154e4afc6a147250837"
+      },
+      {
+        "sample": 16,
+        "seconds": 4,
+        "sourceIndex": 96,
+        "sourceTime": 4,
+        "relativeTime": 4,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-16.png",
+        "pngSHA256": "dcf7247314c376a292c19bcea11a2a59e2bc311d73f6094575aae57ab1961c42"
+      },
+      {
+        "sample": 17,
+        "seconds": 4.25,
+        "sourceIndex": 102,
+        "sourceTime": 4.25,
+        "relativeTime": 4.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-17.png",
+        "pngSHA256": "edaaa58377eb4b8a9cfb922b11f82b3a6c6a7b61ad131adc6399adec3afe50a0"
+      },
+      {
+        "sample": 18,
+        "seconds": 4.5,
+        "sourceIndex": 108,
+        "sourceTime": 4.5,
+        "relativeTime": 4.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-18.png",
+        "pngSHA256": "f6c42312f57cd3b01de181658971d5663681a1bc411253900c3b6151afa8a888"
+      },
+      {
+        "sample": 19,
+        "seconds": 4.75,
+        "sourceIndex": 114,
+        "sourceTime": 4.75,
+        "relativeTime": 4.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-19.png",
+        "pngSHA256": "3d257faf0ec98db9c3e38ee99863c013bd426d4c755dd6aa3c0cc3419208618e"
+      },
+      {
+        "sample": 20,
+        "seconds": 5,
+        "sourceIndex": 120,
+        "sourceTime": 5,
+        "relativeTime": 5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-20.png",
+        "pngSHA256": "3edb6dfd87e29d1d808c3aebbda8723d09775efe78d11d37b7b00ef86df3cf66"
+      },
+      {
+        "sample": 21,
+        "seconds": 5.25,
+        "sourceIndex": 126,
+        "sourceTime": 5.25,
+        "relativeTime": 5.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-21.png",
+        "pngSHA256": "7a7b702544be8e6937a90d35abd597bb94831684f687008cee44f21cdaa9e50e"
+      },
+      {
+        "sample": 22,
+        "seconds": 5.5,
+        "sourceIndex": 132,
+        "sourceTime": 5.5,
+        "relativeTime": 5.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-22.png",
+        "pngSHA256": "30a83496d824427d95a7c348884a683947dbb3927b7097925422e21940a41381"
+      },
+      {
+        "sample": 23,
+        "seconds": 5.75,
+        "sourceIndex": 138,
+        "sourceTime": 5.75,
+        "relativeTime": 5.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-23.png",
+        "pngSHA256": "3e9ba9262732be6660d3e6473e4cf17772459eb81bdb9d737afec5732f0fff16"
+      },
+      {
+        "sample": 24,
+        "seconds": 6,
+        "sourceIndex": 144,
+        "sourceTime": 6,
+        "relativeTime": 6,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-24.png",
+        "pngSHA256": "98d80ae959e5cadccd62ce4f1ecd4bea58b5a471d279aa7bd9affbd8c323d208"
+      },
+      {
+        "sample": 25,
+        "seconds": 6.25,
+        "sourceIndex": 150,
+        "sourceTime": 6.25,
+        "relativeTime": 6.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-25.png",
+        "pngSHA256": "efefb63cae4fe63cad35242d19131a638c7a05a5b223069862d3b91e155beccd"
+      },
+      {
+        "sample": 26,
+        "seconds": 6.5,
+        "sourceIndex": 156,
+        "sourceTime": 6.5,
+        "relativeTime": 6.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-26.png",
+        "pngSHA256": "40b1932614276b4654fb86ac57587a6d23a60f0992fbc83e1c2263c370d97087"
+      },
+      {
+        "sample": 27,
+        "seconds": 6.75,
+        "sourceIndex": 162,
+        "sourceTime": 6.75,
+        "relativeTime": 6.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-27.png",
+        "pngSHA256": "385a261c8bca3a44c12033c77acd9e8f2d9449843cc1881fc76fdce9fa83d774"
+      },
+      {
+        "sample": 28,
+        "seconds": 7,
+        "sourceIndex": 168,
+        "sourceTime": 7,
+        "relativeTime": 7,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-28.png",
+        "pngSHA256": "5dce02a855d2cd90121d90cac3e7493c3ef1b030f62266f135d39d3eb54d99bb"
+      },
+      {
+        "sample": 29,
+        "seconds": 7.25,
+        "sourceIndex": 174,
+        "sourceTime": 7.25,
+        "relativeTime": 7.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-29.png",
+        "pngSHA256": "f457dc2f16533542dd4f25bc6a3ab556fe54d583eae10b04eec9215331ef5326"
+      },
+      {
+        "sample": 30,
+        "seconds": 7.5,
+        "sourceIndex": 180,
+        "sourceTime": 7.5,
+        "relativeTime": 7.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-30.png",
+        "pngSHA256": "14349ab203b95045ae89da5ad52625751b38684fffeab5cf90a65e6c58cd3807"
+      },
+      {
+        "sample": 31,
+        "seconds": 7.75,
+        "sourceIndex": 186,
+        "sourceTime": 7.75,
+        "relativeTime": 7.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-31.png",
+        "pngSHA256": "723a9111bd73c0d999f2e2468744b3e364c4cdd130b10ac776ead507ffedac35"
+      }
+    ],
+    "nativePixels": true
+  },
+  "crops": [
+    {
+      "id": "dante-wings",
+      "character": "Dante, visible wings/body/tail; the right edge matches the original frame",
+      "crop": {
+        "x": 570,
+        "y": 0,
+        "width": 710,
+        "height": 710
+      },
+      "frames": [
+        {
+          "sample": 0,
+          "seconds": 0,
+          "sourceIndex": 0,
+          "sourceTime": 0,
+          "relativeTime": 0,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-00.png",
+          "pngSHA256": "7fbe40029d77867bcb7a0b99ad63695af30bf500e3d533a890e4ed72f219733d"
+        },
+        {
+          "sample": 1,
+          "seconds": 0.25,
+          "sourceIndex": 6,
+          "sourceTime": 0.25,
+          "relativeTime": 0.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-01.png",
+          "pngSHA256": "c70bb405d3874910ba15c3485522ef8e3cb94bb43a9599b3797a3fc27192dc3a"
+        },
+        {
+          "sample": 2,
+          "seconds": 0.5,
+          "sourceIndex": 12,
+          "sourceTime": 0.5,
+          "relativeTime": 0.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-02.png",
+          "pngSHA256": "2daeae093ea5393dff121b6d5517b8935e79ba83d5ff5a1499f32d86a60aa8b7"
+        },
+        {
+          "sample": 3,
+          "seconds": 0.75,
+          "sourceIndex": 18,
+          "sourceTime": 0.75,
+          "relativeTime": 0.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-03.png",
+          "pngSHA256": "0a7f85098a03b71e42a355cbbd5f357f87d1ba4807fe27652a71accd5b46edd4"
+        },
+        {
+          "sample": 4,
+          "seconds": 1,
+          "sourceIndex": 24,
+          "sourceTime": 1,
+          "relativeTime": 1,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-04.png",
+          "pngSHA256": "1c8146becdb68a73f74e3d7e81eb64810732ad7be4f899e22e5356fe17fddd99"
+        },
+        {
+          "sample": 5,
+          "seconds": 1.25,
+          "sourceIndex": 30,
+          "sourceTime": 1.25,
+          "relativeTime": 1.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-05.png",
+          "pngSHA256": "6eb20c0f338804f0d55655816d702cd9186d254ece1fab74a64e684933697c2d"
+        },
+        {
+          "sample": 6,
+          "seconds": 1.5,
+          "sourceIndex": 36,
+          "sourceTime": 1.5,
+          "relativeTime": 1.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-06.png",
+          "pngSHA256": "13c5006f0425bdb2ce7038099db705be5c71d908460a6db1f76fd94ad420d1a8"
+        },
+        {
+          "sample": 7,
+          "seconds": 1.75,
+          "sourceIndex": 42,
+          "sourceTime": 1.75,
+          "relativeTime": 1.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-07.png",
+          "pngSHA256": "b9748d811dfd89c26afa001cbcef113b64a985487159202b0e800f6d7e0d12a0"
+        },
+        {
+          "sample": 8,
+          "seconds": 2,
+          "sourceIndex": 48,
+          "sourceTime": 2,
+          "relativeTime": 2,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-08.png",
+          "pngSHA256": "4e82bb1023a45f15bf51de65da88563c9f2bebb91ced8c654a7435c21a6b2f19"
+        },
+        {
+          "sample": 9,
+          "seconds": 2.25,
+          "sourceIndex": 54,
+          "sourceTime": 2.25,
+          "relativeTime": 2.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-09.png",
+          "pngSHA256": "90a6a7e25ed49b2d2edbe71fae43c99c7a3ff400cd5bd2df7ffad3d669910aeb"
+        },
+        {
+          "sample": 10,
+          "seconds": 2.5,
+          "sourceIndex": 60,
+          "sourceTime": 2.5,
+          "relativeTime": 2.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-10.png",
+          "pngSHA256": "5067e6dddb39d0ec40615043fd99a86b05fea2f64a387c978ecf7198632da07a"
+        },
+        {
+          "sample": 11,
+          "seconds": 2.75,
+          "sourceIndex": 66,
+          "sourceTime": 2.75,
+          "relativeTime": 2.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-11.png",
+          "pngSHA256": "0c3aee4d5d7e57d2ffb6792b02119119fc9c92d5f92046e3bcd7c43e4959b12a"
+        },
+        {
+          "sample": 12,
+          "seconds": 3,
+          "sourceIndex": 72,
+          "sourceTime": 3,
+          "relativeTime": 3,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-12.png",
+          "pngSHA256": "8f88d233a2dde010bdf36dd54302cbc4c34bd5098df239311678b8f74da8eea7"
+        },
+        {
+          "sample": 13,
+          "seconds": 3.25,
+          "sourceIndex": 78,
+          "sourceTime": 3.25,
+          "relativeTime": 3.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-13.png",
+          "pngSHA256": "5b913ee2fa1e1a8282f92983361ea9781220a1b364735af5f82677f433682856"
+        },
+        {
+          "sample": 14,
+          "seconds": 3.5,
+          "sourceIndex": 84,
+          "sourceTime": 3.5,
+          "relativeTime": 3.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-14.png",
+          "pngSHA256": "ea544da8bb30bafa608adc7ec6213992067b42aef3c4db66ee7ff339a671cc1b"
+        },
+        {
+          "sample": 15,
+          "seconds": 3.75,
+          "sourceIndex": 90,
+          "sourceTime": 3.75,
+          "relativeTime": 3.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-15.png",
+          "pngSHA256": "77a98820b6faf63cf4eafa9d69c2972821c03fbb62ae3154e4afc6a147250837"
+        },
+        {
+          "sample": 16,
+          "seconds": 4,
+          "sourceIndex": 96,
+          "sourceTime": 4,
+          "relativeTime": 4,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-16.png",
+          "pngSHA256": "dcf7247314c376a292c19bcea11a2a59e2bc311d73f6094575aae57ab1961c42"
+        },
+        {
+          "sample": 17,
+          "seconds": 4.25,
+          "sourceIndex": 102,
+          "sourceTime": 4.25,
+          "relativeTime": 4.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-17.png",
+          "pngSHA256": "edaaa58377eb4b8a9cfb922b11f82b3a6c6a7b61ad131adc6399adec3afe50a0"
+        },
+        {
+          "sample": 18,
+          "seconds": 4.5,
+          "sourceIndex": 108,
+          "sourceTime": 4.5,
+          "relativeTime": 4.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-18.png",
+          "pngSHA256": "f6c42312f57cd3b01de181658971d5663681a1bc411253900c3b6151afa8a888"
+        },
+        {
+          "sample": 19,
+          "seconds": 4.75,
+          "sourceIndex": 114,
+          "sourceTime": 4.75,
+          "relativeTime": 4.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-19.png",
+          "pngSHA256": "3d257faf0ec98db9c3e38ee99863c013bd426d4c755dd6aa3c0cc3419208618e"
+        },
+        {
+          "sample": 20,
+          "seconds": 5,
+          "sourceIndex": 120,
+          "sourceTime": 5,
+          "relativeTime": 5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-20.png",
+          "pngSHA256": "3edb6dfd87e29d1d808c3aebbda8723d09775efe78d11d37b7b00ef86df3cf66"
+        },
+        {
+          "sample": 21,
+          "seconds": 5.25,
+          "sourceIndex": 126,
+          "sourceTime": 5.25,
+          "relativeTime": 5.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-21.png",
+          "pngSHA256": "7a7b702544be8e6937a90d35abd597bb94831684f687008cee44f21cdaa9e50e"
+        },
+        {
+          "sample": 22,
+          "seconds": 5.5,
+          "sourceIndex": 132,
+          "sourceTime": 5.5,
+          "relativeTime": 5.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-22.png",
+          "pngSHA256": "30a83496d824427d95a7c348884a683947dbb3927b7097925422e21940a41381"
+        },
+        {
+          "sample": 23,
+          "seconds": 5.75,
+          "sourceIndex": 138,
+          "sourceTime": 5.75,
+          "relativeTime": 5.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-23.png",
+          "pngSHA256": "3e9ba9262732be6660d3e6473e4cf17772459eb81bdb9d737afec5732f0fff16"
+        },
+        {
+          "sample": 24,
+          "seconds": 6,
+          "sourceIndex": 144,
+          "sourceTime": 6,
+          "relativeTime": 6,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-24.png",
+          "pngSHA256": "98d80ae959e5cadccd62ce4f1ecd4bea58b5a471d279aa7bd9affbd8c323d208"
+        },
+        {
+          "sample": 25,
+          "seconds": 6.25,
+          "sourceIndex": 150,
+          "sourceTime": 6.25,
+          "relativeTime": 6.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-25.png",
+          "pngSHA256": "efefb63cae4fe63cad35242d19131a638c7a05a5b223069862d3b91e155beccd"
+        },
+        {
+          "sample": 26,
+          "seconds": 6.5,
+          "sourceIndex": 156,
+          "sourceTime": 6.5,
+          "relativeTime": 6.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-26.png",
+          "pngSHA256": "40b1932614276b4654fb86ac57587a6d23a60f0992fbc83e1c2263c370d97087"
+        },
+        {
+          "sample": 27,
+          "seconds": 6.75,
+          "sourceIndex": 162,
+          "sourceTime": 6.75,
+          "relativeTime": 6.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-27.png",
+          "pngSHA256": "385a261c8bca3a44c12033c77acd9e8f2d9449843cc1881fc76fdce9fa83d774"
+        },
+        {
+          "sample": 28,
+          "seconds": 7,
+          "sourceIndex": 168,
+          "sourceTime": 7,
+          "relativeTime": 7,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-28.png",
+          "pngSHA256": "5dce02a855d2cd90121d90cac3e7493c3ef1b030f62266f135d39d3eb54d99bb"
+        },
+        {
+          "sample": 29,
+          "seconds": 7.25,
+          "sourceIndex": 174,
+          "sourceTime": 7.25,
+          "relativeTime": 7.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-29.png",
+          "pngSHA256": "f457dc2f16533542dd4f25bc6a3ab556fe54d583eae10b04eec9215331ef5326"
+        },
+        {
+          "sample": 30,
+          "seconds": 7.5,
+          "sourceIndex": 180,
+          "sourceTime": 7.5,
+          "relativeTime": 7.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-30.png",
+          "pngSHA256": "14349ab203b95045ae89da5ad52625751b38684fffeab5cf90a65e6c58cd3807"
+        },
+        {
+          "sample": 31,
+          "seconds": 7.75,
+          "sourceIndex": 186,
+          "sourceTime": 7.75,
+          "relativeTime": 7.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-wings/frame-31.png",
+          "pngSHA256": "723a9111bd73c0d999f2e2468744b3e364c4cdd130b10ac776ead507ffedac35"
+        }
+      ],
+      "nativePixels": true
+    },
+    {
+      "id": "dante-claws",
+      "character": "Dante, feet and perch",
+      "crop": {
+        "x": 650,
+        "y": 280,
+        "width": 270,
+        "height": 170
+      },
+      "frames": [
+        {
+          "sample": 0,
+          "seconds": 0,
+          "sourceIndex": 0,
+          "sourceTime": 0,
+          "relativeTime": 0,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-claws/frame-00.png",
+          "pngSHA256": "f4bafa29676ce3e4ffbd97ce02e510cae355bd7e5fd7dcd72b15a8efb2aed405"
+        },
+        {
+          "sample": 1,
+          "seconds": 0.25,
+          "sourceIndex": 6,
+          "sourceTime": 0.25,
+          "relativeTime": 0.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-claws/frame-01.png",
+          "pngSHA256": "a87454feee31c59d5ad2cbfcb7d5d719306bd2954c73420506c7cb9fd9669c9f"
+        },
+        {
+          "sample": 2,
+          "seconds": 0.5,
+          "sourceIndex": 12,
+          "sourceTime": 0.5,
+          "relativeTime": 0.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-claws/frame-02.png",
+          "pngSHA256": "7c7fb25105577dcd97da00b3154495bad49190dd322a78e81fa7b55eba359055"
+        },
+        {
+          "sample": 3,
+          "seconds": 0.75,
+          "sourceIndex": 18,
+          "sourceTime": 0.75,
+          "relativeTime": 0.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-claws/frame-03.png",
+          "pngSHA256": "87aa403eca861d1e4284bcda1401586f000439b57df6a1cf4de148023433c928"
+        },
+        {
+          "sample": 4,
+          "seconds": 1,
+          "sourceIndex": 24,
+          "sourceTime": 1,
+          "relativeTime": 1,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-claws/frame-04.png",
+          "pngSHA256": "5c8a3888dc5086d2499b7459c2027960888c4ce7cd72d544cb0dc440253964cb"
+        },
+        {
+          "sample": 5,
+          "seconds": 1.25,
+          "sourceIndex": 30,
+          "sourceTime": 1.25,
+          "relativeTime": 1.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-claws/frame-05.png",
+          "pngSHA256": "602c80ef12fd73e49a4335dd1826754f65a9e8dc1970f3dea756d2f7f8d6dfbd"
+        },
+        {
+          "sample": 6,
+          "seconds": 1.5,
+          "sourceIndex": 36,
+          "sourceTime": 1.5,
+          "relativeTime": 1.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-claws/frame-06.png",
+          "pngSHA256": "518e5ae642ffcea49f1ff5a6362619aa2537a27a22f66f3e8d4efc663c6bd813"
+        },
+        {
+          "sample": 7,
+          "seconds": 1.75,
+          "sourceIndex": 42,
+          "sourceTime": 1.75,
+          "relativeTime": 1.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-claws/frame-07.png",
+          "pngSHA256": "2220ae2d2ce2a7db89c671a731fc93070e5272d4e659803aef872dadd2c5a8d2"
+        },
+        {
+          "sample": 8,
+          "seconds": 2,
+          "sourceIndex": 48,
+          "sourceTime": 2,
+          "relativeTime": 2,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-claws/frame-08.png",
+          "pngSHA256": "895241b7d1faccf341453200950b6f67d7f2cb9cc7feff01571284aa45119a4a"
+        },
+        {
+          "sample": 9,
+          "seconds": 2.25,
+          "sourceIndex": 54,
+          "sourceTime": 2.25,
+          "relativeTime": 2.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-claws/frame-09.png",
+          "pngSHA256": "b9a39700d6b08a14cc3f372c30211379f983c87539200da0ef9f918345acefd9"
+        },
+        {
+          "sample": 10,
+          "seconds": 2.5,
+          "sourceIndex": 60,
+          "sourceTime": 2.5,
+          "relativeTime": 2.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-claws/frame-10.png",
+          "pngSHA256": "d45032326b76b03b088059cf2d48a835a52394b3ce1f908651f58ca505ac097d"
+        },
+        {
+          "sample": 11,
+          "seconds": 2.75,
+          "sourceIndex": 66,
+          "sourceTime": 2.75,
+          "relativeTime": 2.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-claws/frame-11.png",
+          "pngSHA256": "19d08bb78dd103e5011a5f6ea9382e5a2996ae2d8cab9f4b409ebaa614d400fd"
+        },
+        {
+          "sample": 12,
+          "seconds": 3,
+          "sourceIndex": 72,
+          "sourceTime": 3,
+          "relativeTime": 3,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-claws/frame-12.png",
+          "pngSHA256": "7d149e00b122aba129fceb136b0b252edbfa6fbfeec0ccde5f1a5b443ec73f7f"
+        },
+        {
+          "sample": 13,
+          "seconds": 3.25,
+          "sourceIndex": 78,
+          "sourceTime": 3.25,
+          "relativeTime": 3.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-claws/frame-13.png",
+          "pngSHA256": "17cb956544bc870686372d284445c35e3d3fa6fd42f4d78b7796ab44fd13c71c"
+        },
+        {
+          "sample": 14,
+          "seconds": 3.5,
+          "sourceIndex": 84,
+          "sourceTime": 3.5,
+          "relativeTime": 3.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-claws/frame-14.png",
+          "pngSHA256": "c7acd848f4ea2b61248eafb6a2988d743bb38911219da6e03672a5fbf680941d"
+        },
+        {
+          "sample": 15,
+          "seconds": 3.75,
+          "sourceIndex": 90,
+          "sourceTime": 3.75,
+          "relativeTime": 3.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-claws/frame-15.png",
+          "pngSHA256": "9b0e396b2af6fbf509ba0d9b755dcb7326dae3c1234284865cc99fa40d934896"
+        },
+        {
+          "sample": 16,
+          "seconds": 4,
+          "sourceIndex": 96,
+          "sourceTime": 4,
+          "relativeTime": 4,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-claws/frame-16.png",
+          "pngSHA256": "2b09b90e79fe0aeeb8cfcd1d0b191b14fa3fc1eb476aad3befffa26743af4040"
+        },
+        {
+          "sample": 17,
+          "seconds": 4.25,
+          "sourceIndex": 102,
+          "sourceTime": 4.25,
+          "relativeTime": 4.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-claws/frame-17.png",
+          "pngSHA256": "43bc14f26abcf0b06c48df8c5c626b6bf3bea0ccffd0060cc901248531dbdf61"
+        },
+        {
+          "sample": 18,
+          "seconds": 4.5,
+          "sourceIndex": 108,
+          "sourceTime": 4.5,
+          "relativeTime": 4.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-claws/frame-18.png",
+          "pngSHA256": "ed316fadc8f0d21e29bb3a40ab33ab0e55dc1daa405a8d9afc8c8081531f81db"
+        },
+        {
+          "sample": 19,
+          "seconds": 4.75,
+          "sourceIndex": 114,
+          "sourceTime": 4.75,
+          "relativeTime": 4.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-claws/frame-19.png",
+          "pngSHA256": "15887181dc945603c22ea62b56fb1bcf3584175c41ef0deccaf14beab011be61"
+        },
+        {
+          "sample": 20,
+          "seconds": 5,
+          "sourceIndex": 120,
+          "sourceTime": 5,
+          "relativeTime": 5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-claws/frame-20.png",
+          "pngSHA256": "d546979bc198ded04b0a40ba97a6b6280ff79421b161b1aba0d5fd44a82c8a69"
+        },
+        {
+          "sample": 21,
+          "seconds": 5.25,
+          "sourceIndex": 126,
+          "sourceTime": 5.25,
+          "relativeTime": 5.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-claws/frame-21.png",
+          "pngSHA256": "dc18c61aed87d910b7e585a81a2b6ab58efede6850f350ca60177a9b2011522c"
+        },
+        {
+          "sample": 22,
+          "seconds": 5.5,
+          "sourceIndex": 132,
+          "sourceTime": 5.5,
+          "relativeTime": 5.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-claws/frame-22.png",
+          "pngSHA256": "9fb3f9a3406576bcbc2547bbbbcf38821237bc2a0aeac3fc378d13554a8cd872"
+        },
+        {
+          "sample": 23,
+          "seconds": 5.75,
+          "sourceIndex": 138,
+          "sourceTime": 5.75,
+          "relativeTime": 5.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-claws/frame-23.png",
+          "pngSHA256": "d8b1d8ccaeaec6bb418b6de6baf6346d278ccd68dec0b989b98e0d8c6d404fb1"
+        },
+        {
+          "sample": 24,
+          "seconds": 6,
+          "sourceIndex": 144,
+          "sourceTime": 6,
+          "relativeTime": 6,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-claws/frame-24.png",
+          "pngSHA256": "02201438c43a472cfded6233687b7485a231fa7659a453352de41a466d9b28c1"
+        },
+        {
+          "sample": 25,
+          "seconds": 6.25,
+          "sourceIndex": 150,
+          "sourceTime": 6.25,
+          "relativeTime": 6.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-claws/frame-25.png",
+          "pngSHA256": "c8de45949d6b47284c587823b35d8ca74320ac38f67fa2bf270c68cccb627fe0"
+        },
+        {
+          "sample": 26,
+          "seconds": 6.5,
+          "sourceIndex": 156,
+          "sourceTime": 6.5,
+          "relativeTime": 6.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-claws/frame-26.png",
+          "pngSHA256": "9d5809e758369ae586fd2ef26b056a30d859bef8abaa9872a26b540acf94fd5a"
+        },
+        {
+          "sample": 27,
+          "seconds": 6.75,
+          "sourceIndex": 162,
+          "sourceTime": 6.75,
+          "relativeTime": 6.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-claws/frame-27.png",
+          "pngSHA256": "b0ae908a5c6fd2d3916fe563dc46a82767586d763f45ba8e735bb07a7fc00984"
+        },
+        {
+          "sample": 28,
+          "seconds": 7,
+          "sourceIndex": 168,
+          "sourceTime": 7,
+          "relativeTime": 7,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-claws/frame-28.png",
+          "pngSHA256": "5496e8260ba0ea7f19f5c13a5cedad50735f99da5a0de0aaaba65e3d6cd80256"
+        },
+        {
+          "sample": 29,
+          "seconds": 7.25,
+          "sourceIndex": 174,
+          "sourceTime": 7.25,
+          "relativeTime": 7.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-claws/frame-29.png",
+          "pngSHA256": "3a29e230188df30c28280edc78ada9ec57fd2dac286576da8c0fae53b11f6987"
+        },
+        {
+          "sample": 30,
+          "seconds": 7.5,
+          "sourceIndex": 180,
+          "sourceTime": 7.5,
+          "relativeTime": 7.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-claws/frame-30.png",
+          "pngSHA256": "13363b2314ecff514f7a95e55b09711afd44f4f96617c5e1cdce6353f679a367"
+        },
+        {
+          "sample": 31,
+          "seconds": 7.75,
+          "sourceIndex": 186,
+          "sourceTime": 7.75,
+          "relativeTime": 7.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/dante-claws/frame-31.png",
+          "pngSHA256": "16297ecc9987ab8ade4d411bf1bfe384a8025a56f6e34addc24cf671dc8b5b4d"
+        }
+      ],
+      "nativePixels": true
+    },
+    {
+      "id": "gabriel-hand-left",
+      "character": "Gabriel, hand in left image region at waist",
+      "crop": {
+        "x": 350,
+        "y": 210,
+        "width": 170,
+        "height": 130
+      },
+      "frames": [
+        {
+          "sample": 0,
+          "seconds": 0,
+          "sourceIndex": 0,
+          "sourceTime": 0,
+          "relativeTime": 0,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-left/frame-00.png",
+          "pngSHA256": "1e8b3bb234e6bf528d6f71fc8983f92d480d459f6faea6461181bd8b317c3918"
+        },
+        {
+          "sample": 1,
+          "seconds": 0.25,
+          "sourceIndex": 6,
+          "sourceTime": 0.25,
+          "relativeTime": 0.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-left/frame-01.png",
+          "pngSHA256": "9b681aae009a295d2a21c1cf04b003eb47932e65a37c15120264a3a8185326b6"
+        },
+        {
+          "sample": 2,
+          "seconds": 0.5,
+          "sourceIndex": 12,
+          "sourceTime": 0.5,
+          "relativeTime": 0.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-left/frame-02.png",
+          "pngSHA256": "f06400f52121438cd5463f60385733090c16ab8ca923a36f26269b47768440eb"
+        },
+        {
+          "sample": 3,
+          "seconds": 0.75,
+          "sourceIndex": 18,
+          "sourceTime": 0.75,
+          "relativeTime": 0.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-left/frame-03.png",
+          "pngSHA256": "40736bf504d98b90ef427fd86eab0a319f8df1c1b594371c958513802ed2f805"
+        },
+        {
+          "sample": 4,
+          "seconds": 1,
+          "sourceIndex": 24,
+          "sourceTime": 1,
+          "relativeTime": 1,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-left/frame-04.png",
+          "pngSHA256": "d4884f0ec391c32c3f95910cb75e54016e446fc50434822b7fbb388ab20ac2e8"
+        },
+        {
+          "sample": 5,
+          "seconds": 1.25,
+          "sourceIndex": 30,
+          "sourceTime": 1.25,
+          "relativeTime": 1.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-left/frame-05.png",
+          "pngSHA256": "f35caf2253aeba148665adfc84cf0dc76994c4ee0832ede14541d189e075c75e"
+        },
+        {
+          "sample": 6,
+          "seconds": 1.5,
+          "sourceIndex": 36,
+          "sourceTime": 1.5,
+          "relativeTime": 1.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-left/frame-06.png",
+          "pngSHA256": "d0eb6a4414664b7c6aea692407d04b1be3ba7b4bc4b8100550ea3424f17a8ada"
+        },
+        {
+          "sample": 7,
+          "seconds": 1.75,
+          "sourceIndex": 42,
+          "sourceTime": 1.75,
+          "relativeTime": 1.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-left/frame-07.png",
+          "pngSHA256": "75e38b6034c1ffb8fd3e68404abb8d18dcd8bac49edbc706bcd89e7b82bee1c0"
+        },
+        {
+          "sample": 8,
+          "seconds": 2,
+          "sourceIndex": 48,
+          "sourceTime": 2,
+          "relativeTime": 2,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-left/frame-08.png",
+          "pngSHA256": "d18265c2bbe12bc9b4fcbca4b7bd936eacbe25b853f26fafd13f229a1fb5da98"
+        },
+        {
+          "sample": 9,
+          "seconds": 2.25,
+          "sourceIndex": 54,
+          "sourceTime": 2.25,
+          "relativeTime": 2.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-left/frame-09.png",
+          "pngSHA256": "9ae7f529306b7aa355101545a83b80961f26596b804d774ca9bd14ffa7d77d05"
+        },
+        {
+          "sample": 10,
+          "seconds": 2.5,
+          "sourceIndex": 60,
+          "sourceTime": 2.5,
+          "relativeTime": 2.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-left/frame-10.png",
+          "pngSHA256": "51b896d9d7b14278a5702cfa9883e9ba1ab15b5f0cb43df7d97cc7a373d11c62"
+        },
+        {
+          "sample": 11,
+          "seconds": 2.75,
+          "sourceIndex": 66,
+          "sourceTime": 2.75,
+          "relativeTime": 2.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-left/frame-11.png",
+          "pngSHA256": "a197eb4dcbc3b663d9578461fb02b5b6e0943db5a4e5796e6c691e4f90a60bca"
+        },
+        {
+          "sample": 12,
+          "seconds": 3,
+          "sourceIndex": 72,
+          "sourceTime": 3,
+          "relativeTime": 3,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-left/frame-12.png",
+          "pngSHA256": "e48040b0dc5adaedfc4f5510b300733885dbfb48ec6a5be7b92207cd271bca2f"
+        },
+        {
+          "sample": 13,
+          "seconds": 3.25,
+          "sourceIndex": 78,
+          "sourceTime": 3.25,
+          "relativeTime": 3.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-left/frame-13.png",
+          "pngSHA256": "58be22cc8dfa37d95247af90673cb3006315cd7c02da1e2de203ace64f11a61d"
+        },
+        {
+          "sample": 14,
+          "seconds": 3.5,
+          "sourceIndex": 84,
+          "sourceTime": 3.5,
+          "relativeTime": 3.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-left/frame-14.png",
+          "pngSHA256": "bd02a949c461c7553a0e2e1d571b481f9f7c7e58de9788bc160b857e8789249c"
+        },
+        {
+          "sample": 15,
+          "seconds": 3.75,
+          "sourceIndex": 90,
+          "sourceTime": 3.75,
+          "relativeTime": 3.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-left/frame-15.png",
+          "pngSHA256": "a3780297e7eafddb1a662218baeab42619c7d150f918639352a5587fd9bb0ffe"
+        },
+        {
+          "sample": 16,
+          "seconds": 4,
+          "sourceIndex": 96,
+          "sourceTime": 4,
+          "relativeTime": 4,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-left/frame-16.png",
+          "pngSHA256": "c1215c7232ae13798e31e3f8664f1ee664c2e33976188034ef66d43cdc6c4967"
+        },
+        {
+          "sample": 17,
+          "seconds": 4.25,
+          "sourceIndex": 102,
+          "sourceTime": 4.25,
+          "relativeTime": 4.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-left/frame-17.png",
+          "pngSHA256": "d2276e0b4699c9a637cfa7e3ad4a8b71fcd0bdb6ea92454a3b3d712917fead12"
+        },
+        {
+          "sample": 18,
+          "seconds": 4.5,
+          "sourceIndex": 108,
+          "sourceTime": 4.5,
+          "relativeTime": 4.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-left/frame-18.png",
+          "pngSHA256": "4c1f48f53fdccacafba68593aeaf0779a682b64d49b65dbaf0ba4cd0349c3254"
+        },
+        {
+          "sample": 19,
+          "seconds": 4.75,
+          "sourceIndex": 114,
+          "sourceTime": 4.75,
+          "relativeTime": 4.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-left/frame-19.png",
+          "pngSHA256": "193cf84ab074d753d285eb00faa91ae9b8a4569a057023724640b61fa03ca0f8"
+        },
+        {
+          "sample": 20,
+          "seconds": 5,
+          "sourceIndex": 120,
+          "sourceTime": 5,
+          "relativeTime": 5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-left/frame-20.png",
+          "pngSHA256": "910411728f7d0bb86a4238820795ee300d683055e1403e7569bde2aaa1b09fd0"
+        },
+        {
+          "sample": 21,
+          "seconds": 5.25,
+          "sourceIndex": 126,
+          "sourceTime": 5.25,
+          "relativeTime": 5.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-left/frame-21.png",
+          "pngSHA256": "5f49f1a909b54ee517f92e538cc7c7101e2304b69cf128cfc2a91dd7f4f3e3f8"
+        },
+        {
+          "sample": 22,
+          "seconds": 5.5,
+          "sourceIndex": 132,
+          "sourceTime": 5.5,
+          "relativeTime": 5.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-left/frame-22.png",
+          "pngSHA256": "4138a26140d587afb72955022b50d79961e15df20a2c1cbf302e1a26bc15b1e9"
+        },
+        {
+          "sample": 23,
+          "seconds": 5.75,
+          "sourceIndex": 138,
+          "sourceTime": 5.75,
+          "relativeTime": 5.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-left/frame-23.png",
+          "pngSHA256": "5c7440caaa9da70741dc659859686856febd5314218e41b05116addc563b9e20"
+        },
+        {
+          "sample": 24,
+          "seconds": 6,
+          "sourceIndex": 144,
+          "sourceTime": 6,
+          "relativeTime": 6,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-left/frame-24.png",
+          "pngSHA256": "425556e13c342553687de64468653f642e01e488d688fb6dcbefe0ade37ca996"
+        },
+        {
+          "sample": 25,
+          "seconds": 6.25,
+          "sourceIndex": 150,
+          "sourceTime": 6.25,
+          "relativeTime": 6.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-left/frame-25.png",
+          "pngSHA256": "0bb4b473512623f21c9e45cb4a833684acf977d4273a5d698dfbaeb0eb710aea"
+        },
+        {
+          "sample": 26,
+          "seconds": 6.5,
+          "sourceIndex": 156,
+          "sourceTime": 6.5,
+          "relativeTime": 6.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-left/frame-26.png",
+          "pngSHA256": "cab53fbdfe4b0d6180ecedafb9edd83fa1fa4970ac52b550ae63c080a66d937f"
+        },
+        {
+          "sample": 27,
+          "seconds": 6.75,
+          "sourceIndex": 162,
+          "sourceTime": 6.75,
+          "relativeTime": 6.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-left/frame-27.png",
+          "pngSHA256": "65eadbdf95980bb659bc5f94719e629a12e88f05e0f397ef8d207c5b48a5fec5"
+        },
+        {
+          "sample": 28,
+          "seconds": 7,
+          "sourceIndex": 168,
+          "sourceTime": 7,
+          "relativeTime": 7,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-left/frame-28.png",
+          "pngSHA256": "f3e9539fed6de885887e862cc499a2badc560358519b072b5251055bfecc83c5"
+        },
+        {
+          "sample": 29,
+          "seconds": 7.25,
+          "sourceIndex": 174,
+          "sourceTime": 7.25,
+          "relativeTime": 7.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-left/frame-29.png",
+          "pngSHA256": "4a1280866170fb1acec479b998f6f385fe7b6af480f32b0e40e9fa76c30788d0"
+        },
+        {
+          "sample": 30,
+          "seconds": 7.5,
+          "sourceIndex": 180,
+          "sourceTime": 7.5,
+          "relativeTime": 7.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-left/frame-30.png",
+          "pngSHA256": "45aaaafe99b1e6d69d05c657412c076409d868d43b26396df33e986b1f70693d"
+        },
+        {
+          "sample": 31,
+          "seconds": 7.75,
+          "sourceIndex": 186,
+          "sourceTime": 7.75,
+          "relativeTime": 7.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-left/frame-31.png",
+          "pngSHA256": "fd9488c5725f3a7c3f410a8b8993ac2a3cec629b8b78bb34ec0d23557d7e7e40"
+        }
+      ],
+      "nativePixels": true
+    },
+    {
+      "id": "gabriel-hand-right",
+      "character": "Gabriel, raised hand in right image region",
+      "crop": {
+        "x": 485,
+        "y": 110,
+        "width": 165,
+        "height": 145
+      },
+      "frames": [
+        {
+          "sample": 0,
+          "seconds": 0,
+          "sourceIndex": 0,
+          "sourceTime": 0,
+          "relativeTime": 0,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-right/frame-00.png",
+          "pngSHA256": "38fc0f3a769194a863f56fd70a32b7ed27e4edfa865c9a4b5352b1e7e5db2204"
+        },
+        {
+          "sample": 1,
+          "seconds": 0.25,
+          "sourceIndex": 6,
+          "sourceTime": 0.25,
+          "relativeTime": 0.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-right/frame-01.png",
+          "pngSHA256": "dde92e6da3d7d7361823605473d1b12c89615db8b1ec2a066a861f963b6b521d"
+        },
+        {
+          "sample": 2,
+          "seconds": 0.5,
+          "sourceIndex": 12,
+          "sourceTime": 0.5,
+          "relativeTime": 0.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-right/frame-02.png",
+          "pngSHA256": "54972c0d04520a45ef2c65d59accb2e7ec3b22b7efa2b709e2d54ccc3048719f"
+        },
+        {
+          "sample": 3,
+          "seconds": 0.75,
+          "sourceIndex": 18,
+          "sourceTime": 0.75,
+          "relativeTime": 0.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-right/frame-03.png",
+          "pngSHA256": "e84248c24f63426c2f231c60302628625f353fbb83b85bccbb8000f1ede58779"
+        },
+        {
+          "sample": 4,
+          "seconds": 1,
+          "sourceIndex": 24,
+          "sourceTime": 1,
+          "relativeTime": 1,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-right/frame-04.png",
+          "pngSHA256": "730d3b728aabc318f83a9a664844b1a7f59924712fabdb9b2b8151a9c2d48668"
+        },
+        {
+          "sample": 5,
+          "seconds": 1.25,
+          "sourceIndex": 30,
+          "sourceTime": 1.25,
+          "relativeTime": 1.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-right/frame-05.png",
+          "pngSHA256": "728f30ed91f168749e047480781ed19ee7b2c255e2e39c1a6e426802a9596502"
+        },
+        {
+          "sample": 6,
+          "seconds": 1.5,
+          "sourceIndex": 36,
+          "sourceTime": 1.5,
+          "relativeTime": 1.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-right/frame-06.png",
+          "pngSHA256": "2f2e6e0c8c0fd24c825a6cb3792734e57b8cfa7eb83572e003b6ca13685af998"
+        },
+        {
+          "sample": 7,
+          "seconds": 1.75,
+          "sourceIndex": 42,
+          "sourceTime": 1.75,
+          "relativeTime": 1.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-right/frame-07.png",
+          "pngSHA256": "8dc5bd6887857da5c9bd9311713aa9c45928afcd45c583736573b9365d596c13"
+        },
+        {
+          "sample": 8,
+          "seconds": 2,
+          "sourceIndex": 48,
+          "sourceTime": 2,
+          "relativeTime": 2,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-right/frame-08.png",
+          "pngSHA256": "f82a6b84c58f07fabd8a6a5b6cabf98856ddb02476cb4eca0485bdc84471de9b"
+        },
+        {
+          "sample": 9,
+          "seconds": 2.25,
+          "sourceIndex": 54,
+          "sourceTime": 2.25,
+          "relativeTime": 2.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-right/frame-09.png",
+          "pngSHA256": "8b21e50262a7a97e8b2b73d3ab783d3acf1d3d044f987b4cb7747cdbac82d7d7"
+        },
+        {
+          "sample": 10,
+          "seconds": 2.5,
+          "sourceIndex": 60,
+          "sourceTime": 2.5,
+          "relativeTime": 2.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-right/frame-10.png",
+          "pngSHA256": "795cdb33db9293358f61a5c1981dc78293e03dce380b4e34aefedc5f352bfea5"
+        },
+        {
+          "sample": 11,
+          "seconds": 2.75,
+          "sourceIndex": 66,
+          "sourceTime": 2.75,
+          "relativeTime": 2.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-right/frame-11.png",
+          "pngSHA256": "7b2f03ff693ca77ce7a1dd5d562d47280bcdd192c4bafeaf962ffea4706e583f"
+        },
+        {
+          "sample": 12,
+          "seconds": 3,
+          "sourceIndex": 72,
+          "sourceTime": 3,
+          "relativeTime": 3,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-right/frame-12.png",
+          "pngSHA256": "ead23cb69845cd3f203658c2f23d5399022e867fb8c1fb13935337b5bc18b944"
+        },
+        {
+          "sample": 13,
+          "seconds": 3.25,
+          "sourceIndex": 78,
+          "sourceTime": 3.25,
+          "relativeTime": 3.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-right/frame-13.png",
+          "pngSHA256": "9191a318edf91dcc751643076f18c3d3266fb28d54ee2c8f49d5474abb7807b6"
+        },
+        {
+          "sample": 14,
+          "seconds": 3.5,
+          "sourceIndex": 84,
+          "sourceTime": 3.5,
+          "relativeTime": 3.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-right/frame-14.png",
+          "pngSHA256": "10a53e1f869d861f6b3105113da5036fcaece35fd2481d53d2db5a7592bf64b4"
+        },
+        {
+          "sample": 15,
+          "seconds": 3.75,
+          "sourceIndex": 90,
+          "sourceTime": 3.75,
+          "relativeTime": 3.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-right/frame-15.png",
+          "pngSHA256": "861435a7c500b262bea1eaaef9251384b413a6fe83177a0909a6a3df5fc330b0"
+        },
+        {
+          "sample": 16,
+          "seconds": 4,
+          "sourceIndex": 96,
+          "sourceTime": 4,
+          "relativeTime": 4,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-right/frame-16.png",
+          "pngSHA256": "f8ed7942e19e144a72580990381f6b978d7d2299fb71829c1d09e9b59cd0edae"
+        },
+        {
+          "sample": 17,
+          "seconds": 4.25,
+          "sourceIndex": 102,
+          "sourceTime": 4.25,
+          "relativeTime": 4.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-right/frame-17.png",
+          "pngSHA256": "b671bef6a191a4c9a8bfb030c6391493cee2a8409598646a70c38b3902e15848"
+        },
+        {
+          "sample": 18,
+          "seconds": 4.5,
+          "sourceIndex": 108,
+          "sourceTime": 4.5,
+          "relativeTime": 4.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-right/frame-18.png",
+          "pngSHA256": "d3b130aab9336c440dcd8ff05caf6145bbae5d9a5d50ad8c262fd21667d996b8"
+        },
+        {
+          "sample": 19,
+          "seconds": 4.75,
+          "sourceIndex": 114,
+          "sourceTime": 4.75,
+          "relativeTime": 4.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-right/frame-19.png",
+          "pngSHA256": "081875ab69fd1f09464ac48fe367aa2aa7ecae0ad9f068ec594a794f6d1f1f53"
+        },
+        {
+          "sample": 20,
+          "seconds": 5,
+          "sourceIndex": 120,
+          "sourceTime": 5,
+          "relativeTime": 5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-right/frame-20.png",
+          "pngSHA256": "903fa15b1449d8ca8676dcc30498bcae1805a65905945dac95b8a17a70a26fbd"
+        },
+        {
+          "sample": 21,
+          "seconds": 5.25,
+          "sourceIndex": 126,
+          "sourceTime": 5.25,
+          "relativeTime": 5.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-right/frame-21.png",
+          "pngSHA256": "cce188373b85cec42ee7ee3dbb0d19bd1fa016e089a5b5923f139fde07d85803"
+        },
+        {
+          "sample": 22,
+          "seconds": 5.5,
+          "sourceIndex": 132,
+          "sourceTime": 5.5,
+          "relativeTime": 5.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-right/frame-22.png",
+          "pngSHA256": "d9979498eedef2ac631795997a492d31d653681961b201f86f5cdd54d05ab08c"
+        },
+        {
+          "sample": 23,
+          "seconds": 5.75,
+          "sourceIndex": 138,
+          "sourceTime": 5.75,
+          "relativeTime": 5.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-right/frame-23.png",
+          "pngSHA256": "1a300671a92a73f67c2043ef496225c3f062d01588f53842055e2ba375f93eec"
+        },
+        {
+          "sample": 24,
+          "seconds": 6,
+          "sourceIndex": 144,
+          "sourceTime": 6,
+          "relativeTime": 6,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-right/frame-24.png",
+          "pngSHA256": "38379948ee438e99d6a96405e9f1fc5b0a11c49edf9d603ec547b7bb47763f37"
+        },
+        {
+          "sample": 25,
+          "seconds": 6.25,
+          "sourceIndex": 150,
+          "sourceTime": 6.25,
+          "relativeTime": 6.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-right/frame-25.png",
+          "pngSHA256": "f0f067ad01315d3a2220e89f38197a9016816690a1562b617820e6082480b4f5"
+        },
+        {
+          "sample": 26,
+          "seconds": 6.5,
+          "sourceIndex": 156,
+          "sourceTime": 6.5,
+          "relativeTime": 6.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-right/frame-26.png",
+          "pngSHA256": "a51d76bef33d3e2e2bf4cb41d7264b89dcf10b1283798007eefdc03a39ee9ec7"
+        },
+        {
+          "sample": 27,
+          "seconds": 6.75,
+          "sourceIndex": 162,
+          "sourceTime": 6.75,
+          "relativeTime": 6.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-right/frame-27.png",
+          "pngSHA256": "e2fba0d012736cd4b2c4da81a9fc64b6ffca78d1b42a42399fb952488f6c57a9"
+        },
+        {
+          "sample": 28,
+          "seconds": 7,
+          "sourceIndex": 168,
+          "sourceTime": 7,
+          "relativeTime": 7,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-right/frame-28.png",
+          "pngSHA256": "328bbcdb6c64ef87620f26fd824ea903db0b3da8709e2325e5f99c749fc9aefa"
+        },
+        {
+          "sample": 29,
+          "seconds": 7.25,
+          "sourceIndex": 174,
+          "sourceTime": 7.25,
+          "relativeTime": 7.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-right/frame-29.png",
+          "pngSHA256": "6f9a41c8cc27e91f98f33831ee21cfd2dc3a85a2501c226453117bb078c7df93"
+        },
+        {
+          "sample": 30,
+          "seconds": 7.5,
+          "sourceIndex": 180,
+          "sourceTime": 7.5,
+          "relativeTime": 7.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-right/frame-30.png",
+          "pngSHA256": "c945026cefbc1baa39c43c21ab178eaf5656ea27b5dc8d36036b87e80bd458b1"
+        },
+        {
+          "sample": 31,
+          "seconds": 7.75,
+          "sourceIndex": 186,
+          "sourceTime": 7.75,
+          "relativeTime": 7.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/gabriel-fixed-source/gabriel-hand-right/frame-31.png",
+          "pngSHA256": "1bc45188881cf2f712db5be215363f2a6488a07d9c43cca11fea2ef7a6e448d4"
+        }
+      ],
+      "nativePixels": true
+    }
+  ],
+  "extraction": "FFmpeg decoded original source indices, rgb24 PNG. Character crops are native rectangles without repainting/resizing; only contact thumbnails are resized.",
+  "visualReview": "approved-sampled-window",
+  "commands": [
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffprobe.exe",
+      "args": [
+        "-v",
+        "error",
+        "-count_frames",
+        "-show_streams",
+        "-show_format",
+        "-of",
+        "json",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v33\\opening\\clips\\05-gabriel-fixed.mp4"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffprobe.exe",
+      "args": [
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_frames",
+        "-show_entries",
+        "frame=best_effort_timestamp_time",
+        "-of",
+        "json",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v33\\opening\\clips\\05-gabriel-fixed.mp4"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v33\\opening\\clips\\05-gabriel-fixed.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-vf",
+        "select='eq(n,0)+eq(n,12)+eq(n,24)+eq(n,36)+eq(n,48)+eq(n,60)+eq(n,72)+eq(n,84)+eq(n,96)+eq(n,108)+eq(n,120)+eq(n,132)+eq(n,144)+eq(n,156)+eq(n,168)+eq(n,180)',format=rgb24",
+        "-fps_mode",
+        "passthrough",
+        "-frames:v",
+        "16",
+        "-start_number",
+        "0",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\gabriel-fixed-source\\full\\frame-%02d.png"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "0",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\gabriel-fixed-source\\full\\frame-%02d.png",
+        "-vf",
+        "scale=320:180,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\gabriel-fixed-source\\full-contact.jpg"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v33\\opening\\clips\\05-gabriel-fixed.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-vf",
+        "select='eq(n,0)+eq(n,6)+eq(n,12)+eq(n,18)+eq(n,24)+eq(n,30)+eq(n,36)+eq(n,42)+eq(n,48)+eq(n,54)+eq(n,60)+eq(n,66)+eq(n,72)+eq(n,78)+eq(n,84)+eq(n,90)+eq(n,96)+eq(n,102)+eq(n,108)+eq(n,114)+eq(n,120)+eq(n,126)+eq(n,132)+eq(n,138)+eq(n,144)+eq(n,150)+eq(n,156)+eq(n,162)+eq(n,168)+eq(n,174)+eq(n,180)+eq(n,186)',format=rgb24,crop=710:710:570:0",
+        "-fps_mode",
+        "passthrough",
+        "-frames:v",
+        "32",
+        "-start_number",
+        "0",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\gabriel-fixed-source\\dante-wings\\frame-%02d.png"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "0",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\gabriel-fixed-source\\dante-wings\\frame-%02d.png",
+        "-vf",
+        "scale=320:320,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\gabriel-fixed-source\\dante-wings-contact-1.jpg"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "16",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\gabriel-fixed-source\\dante-wings\\frame-%02d.png",
+        "-vf",
+        "scale=320:320,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\gabriel-fixed-source\\dante-wings-contact-2.jpg"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v33\\opening\\clips\\05-gabriel-fixed.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-vf",
+        "select='eq(n,0)+eq(n,6)+eq(n,12)+eq(n,18)+eq(n,24)+eq(n,30)+eq(n,36)+eq(n,42)+eq(n,48)+eq(n,54)+eq(n,60)+eq(n,66)+eq(n,72)+eq(n,78)+eq(n,84)+eq(n,90)+eq(n,96)+eq(n,102)+eq(n,108)+eq(n,114)+eq(n,120)+eq(n,126)+eq(n,132)+eq(n,138)+eq(n,144)+eq(n,150)+eq(n,156)+eq(n,162)+eq(n,168)+eq(n,174)+eq(n,180)+eq(n,186)',format=rgb24,crop=270:170:650:280",
+        "-fps_mode",
+        "passthrough",
+        "-frames:v",
+        "32",
+        "-start_number",
+        "0",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\gabriel-fixed-source\\dante-claws\\frame-%02d.png"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "0",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\gabriel-fixed-source\\dante-claws\\frame-%02d.png",
+        "-vf",
+        "scale=320:201,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\gabriel-fixed-source\\dante-claws-contact-1.jpg"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "16",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\gabriel-fixed-source\\dante-claws\\frame-%02d.png",
+        "-vf",
+        "scale=320:201,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\gabriel-fixed-source\\dante-claws-contact-2.jpg"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v33\\opening\\clips\\05-gabriel-fixed.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-vf",
+        "select='eq(n,0)+eq(n,6)+eq(n,12)+eq(n,18)+eq(n,24)+eq(n,30)+eq(n,36)+eq(n,42)+eq(n,48)+eq(n,54)+eq(n,60)+eq(n,66)+eq(n,72)+eq(n,78)+eq(n,84)+eq(n,90)+eq(n,96)+eq(n,102)+eq(n,108)+eq(n,114)+eq(n,120)+eq(n,126)+eq(n,132)+eq(n,138)+eq(n,144)+eq(n,150)+eq(n,156)+eq(n,162)+eq(n,168)+eq(n,174)+eq(n,180)+eq(n,186)',format=rgb24,crop=170:130:350:210",
+        "-fps_mode",
+        "passthrough",
+        "-frames:v",
+        "32",
+        "-start_number",
+        "0",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\gabriel-fixed-source\\gabriel-hand-left\\frame-%02d.png"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "0",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\gabriel-fixed-source\\gabriel-hand-left\\frame-%02d.png",
+        "-vf",
+        "scale=320:245,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\gabriel-fixed-source\\gabriel-hand-left-contact-1.jpg"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "16",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\gabriel-fixed-source\\gabriel-hand-left\\frame-%02d.png",
+        "-vf",
+        "scale=320:245,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\gabriel-fixed-source\\gabriel-hand-left-contact-2.jpg"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v33\\opening\\clips\\05-gabriel-fixed.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-vf",
+        "select='eq(n,0)+eq(n,6)+eq(n,12)+eq(n,18)+eq(n,24)+eq(n,30)+eq(n,36)+eq(n,42)+eq(n,48)+eq(n,54)+eq(n,60)+eq(n,66)+eq(n,72)+eq(n,78)+eq(n,84)+eq(n,90)+eq(n,96)+eq(n,102)+eq(n,108)+eq(n,114)+eq(n,120)+eq(n,126)+eq(n,132)+eq(n,138)+eq(n,144)+eq(n,150)+eq(n,156)+eq(n,162)+eq(n,168)+eq(n,174)+eq(n,180)+eq(n,186)',format=rgb24,crop=165:145:485:110",
+        "-fps_mode",
+        "passthrough",
+        "-frames:v",
+        "32",
+        "-start_number",
+        "0",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\gabriel-fixed-source\\gabriel-hand-right\\frame-%02d.png"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "0",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\gabriel-fixed-source\\gabriel-hand-right\\frame-%02d.png",
+        "-vf",
+        "scale=320:281,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\gabriel-fixed-source\\gabriel-hand-right-contact-1.jpg"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "16",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\gabriel-fixed-source\\gabriel-hand-right\\frame-%02d.png",
+        "-vf",
+        "scale=320:281,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\gabriel-fixed-source\\gabriel-hand-right-contact-2.jpg"
+      ]
+    }
+  ],
+  "rootReview": "A raiz revisou e aprovou as contact sheets completas/janelas selecionadas; montagem autorizada após QA dos crops.",
+  "approvedWindows": [
+    {
+      "frames": 120,
+      "startSeconds": 0,
+      "sourceIndices": [
+        0,
+        119
+      ]
+    },
+    {
+      "frames": 26,
+      "startSeconds": 5,
+      "sourceIndices": [
+        120,
+        145
+      ]
+    }
+  ]
+}

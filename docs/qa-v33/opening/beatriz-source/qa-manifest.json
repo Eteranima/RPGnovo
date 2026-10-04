@@ -1,0 +1,1796 @@
+{
+  "schema": 2,
+  "source": "art-source/v33/opening/clips/10-beatriz.mp4",
+  "sourceSHA256": "88359931c5b1da5d88c3f3d81142dccef36a2d24e3cf5067a00965d86e8b1366",
+  "sourceBytes": 4917490,
+  "actualDecodedFrames": 192,
+  "sourceResolution": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 24,
+  "videoDurationSeconds": 8,
+  "containerDurationSeconds": 8,
+  "audio": [
+    {
+      "codec": "aac",
+      "sampleRate": "48000",
+      "channels": 2,
+      "duration": "8.000000"
+    }
+  ],
+  "full": [
+    {
+      "sample": 0,
+      "seconds": 0,
+      "sourceIndex": 0,
+      "sourceTime": 0,
+      "relativeTime": 0,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/beatriz-source/full/frame-00.png",
+      "pngSHA256": "c2b15450961d6ddd96d406623732a723bc6ba2effe11ca2e392f62116f1ca71e"
+    },
+    {
+      "sample": 1,
+      "seconds": 0.5,
+      "sourceIndex": 12,
+      "sourceTime": 0.5,
+      "relativeTime": 0.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/beatriz-source/full/frame-01.png",
+      "pngSHA256": "063e97159df19da70d1921814e4be9c2ad948da0f83f0cc1f5604b05d9e076ef"
+    },
+    {
+      "sample": 2,
+      "seconds": 1,
+      "sourceIndex": 24,
+      "sourceTime": 1,
+      "relativeTime": 1,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/beatriz-source/full/frame-02.png",
+      "pngSHA256": "63dfb42c69fa945ad4451481d10643aedc6f600a0f860cc8e8cecb8eece03280"
+    },
+    {
+      "sample": 3,
+      "seconds": 1.5,
+      "sourceIndex": 36,
+      "sourceTime": 1.5,
+      "relativeTime": 1.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/beatriz-source/full/frame-03.png",
+      "pngSHA256": "7ee0258d46d89715636a8ce8cc564e27d144419c9f81f39fe8d4189bdd7e98c4"
+    },
+    {
+      "sample": 4,
+      "seconds": 2,
+      "sourceIndex": 48,
+      "sourceTime": 2,
+      "relativeTime": 2,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/beatriz-source/full/frame-04.png",
+      "pngSHA256": "127e38773217ab96793c336740b845a2e2fbe87325ca57b618d681aede27b4b2"
+    },
+    {
+      "sample": 5,
+      "seconds": 2.5,
+      "sourceIndex": 60,
+      "sourceTime": 2.5,
+      "relativeTime": 2.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/beatriz-source/full/frame-05.png",
+      "pngSHA256": "c63bfd51af652966de7d8d9a65210e62e001b7ab7a4dbfcbeb4ab8887fe79adf"
+    },
+    {
+      "sample": 6,
+      "seconds": 3,
+      "sourceIndex": 72,
+      "sourceTime": 3,
+      "relativeTime": 3,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/beatriz-source/full/frame-06.png",
+      "pngSHA256": "dc9e8f44cfdab44b1ef3fbdcff3b1c37a78e8867cc2732a0b1e6f82d6f1d7d79"
+    },
+    {
+      "sample": 7,
+      "seconds": 3.5,
+      "sourceIndex": 84,
+      "sourceTime": 3.5,
+      "relativeTime": 3.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/beatriz-source/full/frame-07.png",
+      "pngSHA256": "69dda5cc9c2261cd01784d3b932c40016cee79a1b536991bd7060f6b9905e9c2"
+    },
+    {
+      "sample": 8,
+      "seconds": 4,
+      "sourceIndex": 96,
+      "sourceTime": 4,
+      "relativeTime": 4,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/beatriz-source/full/frame-08.png",
+      "pngSHA256": "c3d6e096ac4a42f7e7b0ae4895e4d85632bd615b156f55dc0da9672cb5c88b4f"
+    },
+    {
+      "sample": 9,
+      "seconds": 4.5,
+      "sourceIndex": 108,
+      "sourceTime": 4.5,
+      "relativeTime": 4.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/beatriz-source/full/frame-09.png",
+      "pngSHA256": "f47d1dc428b1a29780325ad8ad14e1651425d7e0af4eb1025b944167e6aef60b"
+    },
+    {
+      "sample": 10,
+      "seconds": 5,
+      "sourceIndex": 120,
+      "sourceTime": 5,
+      "relativeTime": 5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/beatriz-source/full/frame-10.png",
+      "pngSHA256": "079572b5733afca4b406bcbe59c2601e2ada1311441ba8fec63101653afb5dfb"
+    },
+    {
+      "sample": 11,
+      "seconds": 5.5,
+      "sourceIndex": 132,
+      "sourceTime": 5.5,
+      "relativeTime": 5.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/beatriz-source/full/frame-11.png",
+      "pngSHA256": "04f079ef9b44eca7e51fcf0c59dc4247716c673731364f52bcad638da7116a07"
+    },
+    {
+      "sample": 12,
+      "seconds": 6,
+      "sourceIndex": 144,
+      "sourceTime": 6,
+      "relativeTime": 6,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/beatriz-source/full/frame-12.png",
+      "pngSHA256": "4f6ce409380122c8ffbdba814602fcc3740fc5cf1e01ec79d61e2e413f281161"
+    },
+    {
+      "sample": 13,
+      "seconds": 6.5,
+      "sourceIndex": 156,
+      "sourceTime": 6.5,
+      "relativeTime": 6.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/beatriz-source/full/frame-13.png",
+      "pngSHA256": "893a62ef00346172e2c8521d8f38455a16355cbb883a23e9dc027bdd55772ed3"
+    },
+    {
+      "sample": 14,
+      "seconds": 7,
+      "sourceIndex": 168,
+      "sourceTime": 7,
+      "relativeTime": 7,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/beatriz-source/full/frame-14.png",
+      "pngSHA256": "55225c62e41b261e03863822564be5d9e1c7f392a6fbf1301300174c5cc522f7"
+    },
+    {
+      "sample": 15,
+      "seconds": 7.5,
+      "sourceIndex": 180,
+      "sourceTime": 7.5,
+      "relativeTime": 7.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/beatriz-source/full/frame-15.png",
+      "pngSHA256": "cdd7237418edd903e742e7d1f673abc20795b25c9aa74545c9bb33388a5fc6b3"
+    }
+  ],
+  "cropped": {
+    "id": "beatriz-blade",
+    "character": "Beatriz — mão e lâmina completas",
+    "crop": {
+      "x": 455,
+      "y": 275,
+      "width": 260,
+      "height": 440
+    },
+    "frames": [
+      {
+        "sample": 0,
+        "seconds": 0,
+        "sourceIndex": 0,
+        "sourceTime": 0,
+        "relativeTime": 0,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-00.png",
+        "pngSHA256": "efc1f8f0d6868435938e22aa9120a71c12f6f60e08e0b62f30acfac4d58916c6"
+      },
+      {
+        "sample": 1,
+        "seconds": 0.25,
+        "sourceIndex": 6,
+        "sourceTime": 0.25,
+        "relativeTime": 0.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-01.png",
+        "pngSHA256": "0d5eb56b88240b1d11a5dd7447ae36f54c1f339b1c8f4118efab792d80592492"
+      },
+      {
+        "sample": 2,
+        "seconds": 0.5,
+        "sourceIndex": 12,
+        "sourceTime": 0.5,
+        "relativeTime": 0.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-02.png",
+        "pngSHA256": "f7736f2dd779caf8b2edc7d9aa11a2579d9e38915afe23938624174fd8838269"
+      },
+      {
+        "sample": 3,
+        "seconds": 0.75,
+        "sourceIndex": 18,
+        "sourceTime": 0.75,
+        "relativeTime": 0.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-03.png",
+        "pngSHA256": "04e2045afe28eb89e1ba142206d0c077205c85128dcbcf48276bd01729846388"
+      },
+      {
+        "sample": 4,
+        "seconds": 1,
+        "sourceIndex": 24,
+        "sourceTime": 1,
+        "relativeTime": 1,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-04.png",
+        "pngSHA256": "b7f83228007a66f21488911a4030bbac951e75f7f08a0422ee97fd1a0f641e42"
+      },
+      {
+        "sample": 5,
+        "seconds": 1.25,
+        "sourceIndex": 30,
+        "sourceTime": 1.25,
+        "relativeTime": 1.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-05.png",
+        "pngSHA256": "25fdc6bce138e3e5f512f85627335a73e869dbc1c813daeb3c9c263fc72c4c66"
+      },
+      {
+        "sample": 6,
+        "seconds": 1.5,
+        "sourceIndex": 36,
+        "sourceTime": 1.5,
+        "relativeTime": 1.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-06.png",
+        "pngSHA256": "080a4face4b7a51c1c0e34588c3939e7a996ad26bc56c64a7b7855ddbd98ba30"
+      },
+      {
+        "sample": 7,
+        "seconds": 1.75,
+        "sourceIndex": 42,
+        "sourceTime": 1.75,
+        "relativeTime": 1.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-07.png",
+        "pngSHA256": "04f76d8fcedf72bd204676e8c641d3be22259f15a6cf0aa6b1b3e6f6f8375648"
+      },
+      {
+        "sample": 8,
+        "seconds": 2,
+        "sourceIndex": 48,
+        "sourceTime": 2,
+        "relativeTime": 2,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-08.png",
+        "pngSHA256": "0e8ef9aa3dd514ab49bef0c624f30e9aeece540e195bea8e222e16ef62b84eaf"
+      },
+      {
+        "sample": 9,
+        "seconds": 2.25,
+        "sourceIndex": 54,
+        "sourceTime": 2.25,
+        "relativeTime": 2.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-09.png",
+        "pngSHA256": "6b90f1a48e66d5f4a432c067c75f64beb28b96bc46a56009b952e773b32de78e"
+      },
+      {
+        "sample": 10,
+        "seconds": 2.5,
+        "sourceIndex": 60,
+        "sourceTime": 2.5,
+        "relativeTime": 2.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-10.png",
+        "pngSHA256": "7d832d9e5cf746e7dd0d2e096436fffc56059850de68f191a6ebb0210de938eb"
+      },
+      {
+        "sample": 11,
+        "seconds": 2.75,
+        "sourceIndex": 66,
+        "sourceTime": 2.75,
+        "relativeTime": 2.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-11.png",
+        "pngSHA256": "cdc827659f86ac74fb4f635fb14624fd1c66b0e4bbcddf4b38c5ea409de5f005"
+      },
+      {
+        "sample": 12,
+        "seconds": 3,
+        "sourceIndex": 72,
+        "sourceTime": 3,
+        "relativeTime": 3,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-12.png",
+        "pngSHA256": "71d72f4524a5953c33658bdb6f0b3c5b20569ed13b232759774329044ff67550"
+      },
+      {
+        "sample": 13,
+        "seconds": 3.25,
+        "sourceIndex": 78,
+        "sourceTime": 3.25,
+        "relativeTime": 3.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-13.png",
+        "pngSHA256": "e7942517a8d328f06c0aa60232c78b11da891bcb4a6bf7f5e47182a30562bd41"
+      },
+      {
+        "sample": 14,
+        "seconds": 3.5,
+        "sourceIndex": 84,
+        "sourceTime": 3.5,
+        "relativeTime": 3.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-14.png",
+        "pngSHA256": "ed93e3596ab9b10a57ff7bd902540fbf8fc79532cc3c5d6c50fcc6b266bc41b6"
+      },
+      {
+        "sample": 15,
+        "seconds": 3.75,
+        "sourceIndex": 90,
+        "sourceTime": 3.75,
+        "relativeTime": 3.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-15.png",
+        "pngSHA256": "72cde640509bba00428a502d84cfa252d2abb8365067d58498c97690801dce20"
+      },
+      {
+        "sample": 16,
+        "seconds": 4,
+        "sourceIndex": 96,
+        "sourceTime": 4,
+        "relativeTime": 4,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-16.png",
+        "pngSHA256": "02bce0f64547cc3f7d04f5a1d43ec1e69013ac1fb76de970fd6d6a9aaacd6684"
+      },
+      {
+        "sample": 17,
+        "seconds": 4.25,
+        "sourceIndex": 102,
+        "sourceTime": 4.25,
+        "relativeTime": 4.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-17.png",
+        "pngSHA256": "269904158597a6ea553564d2de47c04581db8da7c43df3b25b80223b6bc02c80"
+      },
+      {
+        "sample": 18,
+        "seconds": 4.5,
+        "sourceIndex": 108,
+        "sourceTime": 4.5,
+        "relativeTime": 4.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-18.png",
+        "pngSHA256": "6fd0e93ee5cd01d7d568358afd3aa079fa8dcbbfa1f55f8e4d4b183fb888113d"
+      },
+      {
+        "sample": 19,
+        "seconds": 4.75,
+        "sourceIndex": 114,
+        "sourceTime": 4.75,
+        "relativeTime": 4.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-19.png",
+        "pngSHA256": "dfd44994484d87cfdaf2f55170bb5e58eb8d83a9af1ce68f3ae9d1907129e2ab"
+      },
+      {
+        "sample": 20,
+        "seconds": 5,
+        "sourceIndex": 120,
+        "sourceTime": 5,
+        "relativeTime": 5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-20.png",
+        "pngSHA256": "3309edc37722498de5f43c37d0b8def5d8aa0e972172e08c11a981da19b6b68f"
+      },
+      {
+        "sample": 21,
+        "seconds": 5.25,
+        "sourceIndex": 126,
+        "sourceTime": 5.25,
+        "relativeTime": 5.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-21.png",
+        "pngSHA256": "b97c039f7662a0ebb48dc5bfd811625f51b1ad30842b1c783e21193994b4fc1b"
+      },
+      {
+        "sample": 22,
+        "seconds": 5.5,
+        "sourceIndex": 132,
+        "sourceTime": 5.5,
+        "relativeTime": 5.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-22.png",
+        "pngSHA256": "7b406a1e3dea836e79331636499cc5e9f1e9d73d4781ac1596e9bda24aab391d"
+      },
+      {
+        "sample": 23,
+        "seconds": 5.75,
+        "sourceIndex": 138,
+        "sourceTime": 5.75,
+        "relativeTime": 5.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-23.png",
+        "pngSHA256": "703805a7e1e29ddba814d9c9d6bb90bf1f74fcdd08c5dc8c42a6ca6675d7c2ad"
+      },
+      {
+        "sample": 24,
+        "seconds": 6,
+        "sourceIndex": 144,
+        "sourceTime": 6,
+        "relativeTime": 6,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-24.png",
+        "pngSHA256": "107edad496e08408508ecd9d38ae28f7bd6067ffa264ae443ceabebfb43cbb2d"
+      },
+      {
+        "sample": 25,
+        "seconds": 6.25,
+        "sourceIndex": 150,
+        "sourceTime": 6.25,
+        "relativeTime": 6.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-25.png",
+        "pngSHA256": "4523d17d3065c015aca744db5526424455cac172deac6923deb844ad576cdf88"
+      },
+      {
+        "sample": 26,
+        "seconds": 6.5,
+        "sourceIndex": 156,
+        "sourceTime": 6.5,
+        "relativeTime": 6.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-26.png",
+        "pngSHA256": "cceeab68a826426280ee9cfa97c206a641536bbf32951d602279cc0283ce6b2e"
+      },
+      {
+        "sample": 27,
+        "seconds": 6.75,
+        "sourceIndex": 162,
+        "sourceTime": 6.75,
+        "relativeTime": 6.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-27.png",
+        "pngSHA256": "90fc85c3ac565f1ee7b105866d1e90786a1b1cd93cdc4f2a68dc2c7a2b4a62cd"
+      },
+      {
+        "sample": 28,
+        "seconds": 7,
+        "sourceIndex": 168,
+        "sourceTime": 7,
+        "relativeTime": 7,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-28.png",
+        "pngSHA256": "7a1031d8ad150d81b2335c1e8a87fbc2b9d29e567b28d75f4ed37e0279565308"
+      },
+      {
+        "sample": 29,
+        "seconds": 7.25,
+        "sourceIndex": 174,
+        "sourceTime": 7.25,
+        "relativeTime": 7.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-29.png",
+        "pngSHA256": "62034cac602b1791e3b8b5ffcf1eed9ca12a57c162e11375ac313cc37601562f"
+      },
+      {
+        "sample": 30,
+        "seconds": 7.5,
+        "sourceIndex": 180,
+        "sourceTime": 7.5,
+        "relativeTime": 7.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-30.png",
+        "pngSHA256": "8f6666b1ebb39bbcece0a62c19ac56d70d5db6b4457825974b99567d551c807f"
+      },
+      {
+        "sample": 31,
+        "seconds": 7.75,
+        "sourceIndex": 186,
+        "sourceTime": 7.75,
+        "relativeTime": 7.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-31.png",
+        "pngSHA256": "10e8c38bd5e986bf59a981f5ee81a06a9bd867ffaa2c029c284aafefc9270419"
+      }
+    ],
+    "nativePixels": true
+  },
+  "crops": [
+    {
+      "id": "beatriz-blade",
+      "character": "Beatriz — mão e lâmina completas",
+      "crop": {
+        "x": 455,
+        "y": 275,
+        "width": 260,
+        "height": 440
+      },
+      "frames": [
+        {
+          "sample": 0,
+          "seconds": 0,
+          "sourceIndex": 0,
+          "sourceTime": 0,
+          "relativeTime": 0,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-00.png",
+          "pngSHA256": "efc1f8f0d6868435938e22aa9120a71c12f6f60e08e0b62f30acfac4d58916c6"
+        },
+        {
+          "sample": 1,
+          "seconds": 0.25,
+          "sourceIndex": 6,
+          "sourceTime": 0.25,
+          "relativeTime": 0.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-01.png",
+          "pngSHA256": "0d5eb56b88240b1d11a5dd7447ae36f54c1f339b1c8f4118efab792d80592492"
+        },
+        {
+          "sample": 2,
+          "seconds": 0.5,
+          "sourceIndex": 12,
+          "sourceTime": 0.5,
+          "relativeTime": 0.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-02.png",
+          "pngSHA256": "f7736f2dd779caf8b2edc7d9aa11a2579d9e38915afe23938624174fd8838269"
+        },
+        {
+          "sample": 3,
+          "seconds": 0.75,
+          "sourceIndex": 18,
+          "sourceTime": 0.75,
+          "relativeTime": 0.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-03.png",
+          "pngSHA256": "04e2045afe28eb89e1ba142206d0c077205c85128dcbcf48276bd01729846388"
+        },
+        {
+          "sample": 4,
+          "seconds": 1,
+          "sourceIndex": 24,
+          "sourceTime": 1,
+          "relativeTime": 1,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-04.png",
+          "pngSHA256": "b7f83228007a66f21488911a4030bbac951e75f7f08a0422ee97fd1a0f641e42"
+        },
+        {
+          "sample": 5,
+          "seconds": 1.25,
+          "sourceIndex": 30,
+          "sourceTime": 1.25,
+          "relativeTime": 1.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-05.png",
+          "pngSHA256": "25fdc6bce138e3e5f512f85627335a73e869dbc1c813daeb3c9c263fc72c4c66"
+        },
+        {
+          "sample": 6,
+          "seconds": 1.5,
+          "sourceIndex": 36,
+          "sourceTime": 1.5,
+          "relativeTime": 1.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-06.png",
+          "pngSHA256": "080a4face4b7a51c1c0e34588c3939e7a996ad26bc56c64a7b7855ddbd98ba30"
+        },
+        {
+          "sample": 7,
+          "seconds": 1.75,
+          "sourceIndex": 42,
+          "sourceTime": 1.75,
+          "relativeTime": 1.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-07.png",
+          "pngSHA256": "04f76d8fcedf72bd204676e8c641d3be22259f15a6cf0aa6b1b3e6f6f8375648"
+        },
+        {
+          "sample": 8,
+          "seconds": 2,
+          "sourceIndex": 48,
+          "sourceTime": 2,
+          "relativeTime": 2,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-08.png",
+          "pngSHA256": "0e8ef9aa3dd514ab49bef0c624f30e9aeece540e195bea8e222e16ef62b84eaf"
+        },
+        {
+          "sample": 9,
+          "seconds": 2.25,
+          "sourceIndex": 54,
+          "sourceTime": 2.25,
+          "relativeTime": 2.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-09.png",
+          "pngSHA256": "6b90f1a48e66d5f4a432c067c75f64beb28b96bc46a56009b952e773b32de78e"
+        },
+        {
+          "sample": 10,
+          "seconds": 2.5,
+          "sourceIndex": 60,
+          "sourceTime": 2.5,
+          "relativeTime": 2.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-10.png",
+          "pngSHA256": "7d832d9e5cf746e7dd0d2e096436fffc56059850de68f191a6ebb0210de938eb"
+        },
+        {
+          "sample": 11,
+          "seconds": 2.75,
+          "sourceIndex": 66,
+          "sourceTime": 2.75,
+          "relativeTime": 2.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-11.png",
+          "pngSHA256": "cdc827659f86ac74fb4f635fb14624fd1c66b0e4bbcddf4b38c5ea409de5f005"
+        },
+        {
+          "sample": 12,
+          "seconds": 3,
+          "sourceIndex": 72,
+          "sourceTime": 3,
+          "relativeTime": 3,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-12.png",
+          "pngSHA256": "71d72f4524a5953c33658bdb6f0b3c5b20569ed13b232759774329044ff67550"
+        },
+        {
+          "sample": 13,
+          "seconds": 3.25,
+          "sourceIndex": 78,
+          "sourceTime": 3.25,
+          "relativeTime": 3.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-13.png",
+          "pngSHA256": "e7942517a8d328f06c0aa60232c78b11da891bcb4a6bf7f5e47182a30562bd41"
+        },
+        {
+          "sample": 14,
+          "seconds": 3.5,
+          "sourceIndex": 84,
+          "sourceTime": 3.5,
+          "relativeTime": 3.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-14.png",
+          "pngSHA256": "ed93e3596ab9b10a57ff7bd902540fbf8fc79532cc3c5d6c50fcc6b266bc41b6"
+        },
+        {
+          "sample": 15,
+          "seconds": 3.75,
+          "sourceIndex": 90,
+          "sourceTime": 3.75,
+          "relativeTime": 3.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-15.png",
+          "pngSHA256": "72cde640509bba00428a502d84cfa252d2abb8365067d58498c97690801dce20"
+        },
+        {
+          "sample": 16,
+          "seconds": 4,
+          "sourceIndex": 96,
+          "sourceTime": 4,
+          "relativeTime": 4,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-16.png",
+          "pngSHA256": "02bce0f64547cc3f7d04f5a1d43ec1e69013ac1fb76de970fd6d6a9aaacd6684"
+        },
+        {
+          "sample": 17,
+          "seconds": 4.25,
+          "sourceIndex": 102,
+          "sourceTime": 4.25,
+          "relativeTime": 4.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-17.png",
+          "pngSHA256": "269904158597a6ea553564d2de47c04581db8da7c43df3b25b80223b6bc02c80"
+        },
+        {
+          "sample": 18,
+          "seconds": 4.5,
+          "sourceIndex": 108,
+          "sourceTime": 4.5,
+          "relativeTime": 4.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-18.png",
+          "pngSHA256": "6fd0e93ee5cd01d7d568358afd3aa079fa8dcbbfa1f55f8e4d4b183fb888113d"
+        },
+        {
+          "sample": 19,
+          "seconds": 4.75,
+          "sourceIndex": 114,
+          "sourceTime": 4.75,
+          "relativeTime": 4.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-19.png",
+          "pngSHA256": "dfd44994484d87cfdaf2f55170bb5e58eb8d83a9af1ce68f3ae9d1907129e2ab"
+        },
+        {
+          "sample": 20,
+          "seconds": 5,
+          "sourceIndex": 120,
+          "sourceTime": 5,
+          "relativeTime": 5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-20.png",
+          "pngSHA256": "3309edc37722498de5f43c37d0b8def5d8aa0e972172e08c11a981da19b6b68f"
+        },
+        {
+          "sample": 21,
+          "seconds": 5.25,
+          "sourceIndex": 126,
+          "sourceTime": 5.25,
+          "relativeTime": 5.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-21.png",
+          "pngSHA256": "b97c039f7662a0ebb48dc5bfd811625f51b1ad30842b1c783e21193994b4fc1b"
+        },
+        {
+          "sample": 22,
+          "seconds": 5.5,
+          "sourceIndex": 132,
+          "sourceTime": 5.5,
+          "relativeTime": 5.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-22.png",
+          "pngSHA256": "7b406a1e3dea836e79331636499cc5e9f1e9d73d4781ac1596e9bda24aab391d"
+        },
+        {
+          "sample": 23,
+          "seconds": 5.75,
+          "sourceIndex": 138,
+          "sourceTime": 5.75,
+          "relativeTime": 5.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-23.png",
+          "pngSHA256": "703805a7e1e29ddba814d9c9d6bb90bf1f74fcdd08c5dc8c42a6ca6675d7c2ad"
+        },
+        {
+          "sample": 24,
+          "seconds": 6,
+          "sourceIndex": 144,
+          "sourceTime": 6,
+          "relativeTime": 6,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-24.png",
+          "pngSHA256": "107edad496e08408508ecd9d38ae28f7bd6067ffa264ae443ceabebfb43cbb2d"
+        },
+        {
+          "sample": 25,
+          "seconds": 6.25,
+          "sourceIndex": 150,
+          "sourceTime": 6.25,
+          "relativeTime": 6.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-25.png",
+          "pngSHA256": "4523d17d3065c015aca744db5526424455cac172deac6923deb844ad576cdf88"
+        },
+        {
+          "sample": 26,
+          "seconds": 6.5,
+          "sourceIndex": 156,
+          "sourceTime": 6.5,
+          "relativeTime": 6.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-26.png",
+          "pngSHA256": "cceeab68a826426280ee9cfa97c206a641536bbf32951d602279cc0283ce6b2e"
+        },
+        {
+          "sample": 27,
+          "seconds": 6.75,
+          "sourceIndex": 162,
+          "sourceTime": 6.75,
+          "relativeTime": 6.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-27.png",
+          "pngSHA256": "90fc85c3ac565f1ee7b105866d1e90786a1b1cd93cdc4f2a68dc2c7a2b4a62cd"
+        },
+        {
+          "sample": 28,
+          "seconds": 7,
+          "sourceIndex": 168,
+          "sourceTime": 7,
+          "relativeTime": 7,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-28.png",
+          "pngSHA256": "7a1031d8ad150d81b2335c1e8a87fbc2b9d29e567b28d75f4ed37e0279565308"
+        },
+        {
+          "sample": 29,
+          "seconds": 7.25,
+          "sourceIndex": 174,
+          "sourceTime": 7.25,
+          "relativeTime": 7.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-29.png",
+          "pngSHA256": "62034cac602b1791e3b8b5ffcf1eed9ca12a57c162e11375ac313cc37601562f"
+        },
+        {
+          "sample": 30,
+          "seconds": 7.5,
+          "sourceIndex": 180,
+          "sourceTime": 7.5,
+          "relativeTime": 7.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-30.png",
+          "pngSHA256": "8f6666b1ebb39bbcece0a62c19ac56d70d5db6b4457825974b99567d551c807f"
+        },
+        {
+          "sample": 31,
+          "seconds": 7.75,
+          "sourceIndex": 186,
+          "sourceTime": 7.75,
+          "relativeTime": 7.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-blade/frame-31.png",
+          "pngSHA256": "10e8c38bd5e986bf59a981f5ee81a06a9bd867ffaa2c029c284aafefc9270419"
+        }
+      ],
+      "nativePixels": true
+    },
+    {
+      "id": "beatriz-palm",
+      "character": "Beatriz — palma e água/escuridão",
+      "crop": {
+        "x": 855,
+        "y": 65,
+        "width": 285,
+        "height": 230
+      },
+      "frames": [
+        {
+          "sample": 0,
+          "seconds": 0,
+          "sourceIndex": 0,
+          "sourceTime": 0,
+          "relativeTime": 0,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-palm/frame-00.png",
+          "pngSHA256": "c155f8ec7cba764cedc58cd6b747470f6922153d81277e6c9aa962482fb335f6"
+        },
+        {
+          "sample": 1,
+          "seconds": 0.25,
+          "sourceIndex": 6,
+          "sourceTime": 0.25,
+          "relativeTime": 0.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-palm/frame-01.png",
+          "pngSHA256": "fbdd63c08598169cf68784673808f91ad71221aacbaa4ac8334babf2c1311bb1"
+        },
+        {
+          "sample": 2,
+          "seconds": 0.5,
+          "sourceIndex": 12,
+          "sourceTime": 0.5,
+          "relativeTime": 0.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-palm/frame-02.png",
+          "pngSHA256": "15a551ecd2f549b960b31abd1ff8e39e365f42db0d361b1f93bc54fa493bbf71"
+        },
+        {
+          "sample": 3,
+          "seconds": 0.75,
+          "sourceIndex": 18,
+          "sourceTime": 0.75,
+          "relativeTime": 0.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-palm/frame-03.png",
+          "pngSHA256": "485adf6b02e56e2561be1598c75cc5b25de75722901b7e5b6a0fc26ac6548c31"
+        },
+        {
+          "sample": 4,
+          "seconds": 1,
+          "sourceIndex": 24,
+          "sourceTime": 1,
+          "relativeTime": 1,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-palm/frame-04.png",
+          "pngSHA256": "1c6c017899616913e676013802905b64bab5a51c8ee4cd16bd53998d7496ad48"
+        },
+        {
+          "sample": 5,
+          "seconds": 1.25,
+          "sourceIndex": 30,
+          "sourceTime": 1.25,
+          "relativeTime": 1.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-palm/frame-05.png",
+          "pngSHA256": "8245409c83249e090e3e33bc96c016ed94748ddee87f7efe5fe24dd75e430a4c"
+        },
+        {
+          "sample": 6,
+          "seconds": 1.5,
+          "sourceIndex": 36,
+          "sourceTime": 1.5,
+          "relativeTime": 1.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-palm/frame-06.png",
+          "pngSHA256": "dcef2c297e1cbb99c4c6ca22a1b44bdab688c7930aa28e235c3172b7150a1763"
+        },
+        {
+          "sample": 7,
+          "seconds": 1.75,
+          "sourceIndex": 42,
+          "sourceTime": 1.75,
+          "relativeTime": 1.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-palm/frame-07.png",
+          "pngSHA256": "cf9f7486f3f1cc42a121852ea9c1a37891e92bf8147e3918c5207639c960be0e"
+        },
+        {
+          "sample": 8,
+          "seconds": 2,
+          "sourceIndex": 48,
+          "sourceTime": 2,
+          "relativeTime": 2,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-palm/frame-08.png",
+          "pngSHA256": "727bf2a971b480d11a940a5055e8da19934afb4817405792e0c9b9fcc721aea3"
+        },
+        {
+          "sample": 9,
+          "seconds": 2.25,
+          "sourceIndex": 54,
+          "sourceTime": 2.25,
+          "relativeTime": 2.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-palm/frame-09.png",
+          "pngSHA256": "96fc4db0e589268e78095b9f90ec244b72a4036c3bf595f6b1507237bd1da5ea"
+        },
+        {
+          "sample": 10,
+          "seconds": 2.5,
+          "sourceIndex": 60,
+          "sourceTime": 2.5,
+          "relativeTime": 2.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-palm/frame-10.png",
+          "pngSHA256": "e852de95270e819c27b3190e01ad1653faa15a5001cbf0a3f9fc08919340c0e3"
+        },
+        {
+          "sample": 11,
+          "seconds": 2.75,
+          "sourceIndex": 66,
+          "sourceTime": 2.75,
+          "relativeTime": 2.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-palm/frame-11.png",
+          "pngSHA256": "a218cc582b42b69aff22fe01fec37015f6259a17597ca7ecdd1a6d57c1ef3900"
+        },
+        {
+          "sample": 12,
+          "seconds": 3,
+          "sourceIndex": 72,
+          "sourceTime": 3,
+          "relativeTime": 3,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-palm/frame-12.png",
+          "pngSHA256": "bc8e168af249dc55c9e63a13438048a1c14947d9698f3e20f535122230057dd2"
+        },
+        {
+          "sample": 13,
+          "seconds": 3.25,
+          "sourceIndex": 78,
+          "sourceTime": 3.25,
+          "relativeTime": 3.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-palm/frame-13.png",
+          "pngSHA256": "2f10cbb9d2542d749cc8cfa67f427199c7e013933cab7ca05c4ce4c3c57f4ad1"
+        },
+        {
+          "sample": 14,
+          "seconds": 3.5,
+          "sourceIndex": 84,
+          "sourceTime": 3.5,
+          "relativeTime": 3.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-palm/frame-14.png",
+          "pngSHA256": "18c0fd66c3fb71bb5dd93e6dcee052c73903a8575aafe0388b0a68c4eecb69cf"
+        },
+        {
+          "sample": 15,
+          "seconds": 3.75,
+          "sourceIndex": 90,
+          "sourceTime": 3.75,
+          "relativeTime": 3.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-palm/frame-15.png",
+          "pngSHA256": "72b6f10aace638ff912d09ecef7a6bdea0602d8dd3b082a13472262172e3073e"
+        },
+        {
+          "sample": 16,
+          "seconds": 4,
+          "sourceIndex": 96,
+          "sourceTime": 4,
+          "relativeTime": 4,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-palm/frame-16.png",
+          "pngSHA256": "9c22d6d66d19f5a781d2eb55d34ed5406a84741ba264379976a339ae9dfb79b8"
+        },
+        {
+          "sample": 17,
+          "seconds": 4.25,
+          "sourceIndex": 102,
+          "sourceTime": 4.25,
+          "relativeTime": 4.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-palm/frame-17.png",
+          "pngSHA256": "f1b25de54e7fc51986cdd5d5b28f975168458a51bb1b854caab586eed908b4dc"
+        },
+        {
+          "sample": 18,
+          "seconds": 4.5,
+          "sourceIndex": 108,
+          "sourceTime": 4.5,
+          "relativeTime": 4.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-palm/frame-18.png",
+          "pngSHA256": "899d0f0673f39776de53e8d9ccef5cbe95cb999503b1faa9993b790fc791b0df"
+        },
+        {
+          "sample": 19,
+          "seconds": 4.75,
+          "sourceIndex": 114,
+          "sourceTime": 4.75,
+          "relativeTime": 4.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-palm/frame-19.png",
+          "pngSHA256": "c560675796e17b320ac283275e65086b796249a94e187fa780d4631d3931944e"
+        },
+        {
+          "sample": 20,
+          "seconds": 5,
+          "sourceIndex": 120,
+          "sourceTime": 5,
+          "relativeTime": 5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-palm/frame-20.png",
+          "pngSHA256": "8940b766624d857539517f3acc3c2c29ad21e515ad3aae7165c00011cb1c6e48"
+        },
+        {
+          "sample": 21,
+          "seconds": 5.25,
+          "sourceIndex": 126,
+          "sourceTime": 5.25,
+          "relativeTime": 5.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-palm/frame-21.png",
+          "pngSHA256": "e0512aef1409ba9cae12e624481af0e6813c17daf7052a4925c68a7b769ab15f"
+        },
+        {
+          "sample": 22,
+          "seconds": 5.5,
+          "sourceIndex": 132,
+          "sourceTime": 5.5,
+          "relativeTime": 5.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-palm/frame-22.png",
+          "pngSHA256": "99a0e94ef06057e76d0a48353b4e1eb7c40a07cbe9fd412ea3a5826de61d2493"
+        },
+        {
+          "sample": 23,
+          "seconds": 5.75,
+          "sourceIndex": 138,
+          "sourceTime": 5.75,
+          "relativeTime": 5.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-palm/frame-23.png",
+          "pngSHA256": "7e0a9acc00b6cbf4ea40d732334308665d5678daf7c7dc09b10f166c4a1865f5"
+        },
+        {
+          "sample": 24,
+          "seconds": 6,
+          "sourceIndex": 144,
+          "sourceTime": 6,
+          "relativeTime": 6,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-palm/frame-24.png",
+          "pngSHA256": "62cd31ac419de5fdabb3b2fee9c6ecbc1248984ad12c08f63d62590774e9e878"
+        },
+        {
+          "sample": 25,
+          "seconds": 6.25,
+          "sourceIndex": 150,
+          "sourceTime": 6.25,
+          "relativeTime": 6.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-palm/frame-25.png",
+          "pngSHA256": "af3f816a0a8cdc97cdaa574d4ca9d75116b00db021f2a7e19c29058aa5eb6270"
+        },
+        {
+          "sample": 26,
+          "seconds": 6.5,
+          "sourceIndex": 156,
+          "sourceTime": 6.5,
+          "relativeTime": 6.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-palm/frame-26.png",
+          "pngSHA256": "92569756cfcef3d3dd477165454cc03ceebf9e034d53fdf9e038dd4598268c32"
+        },
+        {
+          "sample": 27,
+          "seconds": 6.75,
+          "sourceIndex": 162,
+          "sourceTime": 6.75,
+          "relativeTime": 6.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-palm/frame-27.png",
+          "pngSHA256": "46a47b87de4156d5750d79fb49e7a25e1417648395da790779e838a5f25a63b5"
+        },
+        {
+          "sample": 28,
+          "seconds": 7,
+          "sourceIndex": 168,
+          "sourceTime": 7,
+          "relativeTime": 7,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-palm/frame-28.png",
+          "pngSHA256": "5c82085aafe2723280822ad6dcef163bf83348b564c442ade7ea95d0be516e99"
+        },
+        {
+          "sample": 29,
+          "seconds": 7.25,
+          "sourceIndex": 174,
+          "sourceTime": 7.25,
+          "relativeTime": 7.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-palm/frame-29.png",
+          "pngSHA256": "3330c3c9c16fcc4a17629fd34401a19e8e4805a8ba70d8bac6cef8ae4a389d3f"
+        },
+        {
+          "sample": 30,
+          "seconds": 7.5,
+          "sourceIndex": 180,
+          "sourceTime": 7.5,
+          "relativeTime": 7.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-palm/frame-30.png",
+          "pngSHA256": "e9e4e1f1631552e5142e0ffef10c26623d9aba9355921d6bcac247bf7a5ef58f"
+        },
+        {
+          "sample": 31,
+          "seconds": 7.75,
+          "sourceIndex": 186,
+          "sourceTime": 7.75,
+          "relativeTime": 7.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-palm/frame-31.png",
+          "pngSHA256": "9a78799497094abaf8b66381cb45e6ac4e0d34c8ad0010576eae83120c6ddfd9"
+        }
+      ],
+      "nativePixels": true
+    },
+    {
+      "id": "beatriz-face",
+      "character": "Beatriz — rosto, olhos e chapéu",
+      "crop": {
+        "x": 650,
+        "y": 0,
+        "width": 315,
+        "height": 240
+      },
+      "frames": [
+        {
+          "sample": 0,
+          "seconds": 0,
+          "sourceIndex": 0,
+          "sourceTime": 0,
+          "relativeTime": 0,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-face/frame-00.png",
+          "pngSHA256": "aef2e2c24be48d841a131b86522dd0d96ed1aacbc2adaf22f1054aaf8646b73d"
+        },
+        {
+          "sample": 1,
+          "seconds": 0.25,
+          "sourceIndex": 6,
+          "sourceTime": 0.25,
+          "relativeTime": 0.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-face/frame-01.png",
+          "pngSHA256": "ca60d846865b6b29d1fb47386847e48938992af49b578635fc53d4f43c753b2b"
+        },
+        {
+          "sample": 2,
+          "seconds": 0.5,
+          "sourceIndex": 12,
+          "sourceTime": 0.5,
+          "relativeTime": 0.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-face/frame-02.png",
+          "pngSHA256": "a284635b25487323e4b8a39f9089d42f817b3fee9cb6be6db53ac49743edde8d"
+        },
+        {
+          "sample": 3,
+          "seconds": 0.75,
+          "sourceIndex": 18,
+          "sourceTime": 0.75,
+          "relativeTime": 0.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-face/frame-03.png",
+          "pngSHA256": "da071289bc4dd3c1cba920aef719c6446ee179107dcb3437453c1515f16a5832"
+        },
+        {
+          "sample": 4,
+          "seconds": 1,
+          "sourceIndex": 24,
+          "sourceTime": 1,
+          "relativeTime": 1,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-face/frame-04.png",
+          "pngSHA256": "655c0813ea8e41a2180751bf45f722887869a6f81da3fa22073ceaaaedee82d6"
+        },
+        {
+          "sample": 5,
+          "seconds": 1.25,
+          "sourceIndex": 30,
+          "sourceTime": 1.25,
+          "relativeTime": 1.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-face/frame-05.png",
+          "pngSHA256": "5ff88b22eb522c7063e04ad9beda1203d580a92efe9a9f180529972de7c9a675"
+        },
+        {
+          "sample": 6,
+          "seconds": 1.5,
+          "sourceIndex": 36,
+          "sourceTime": 1.5,
+          "relativeTime": 1.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-face/frame-06.png",
+          "pngSHA256": "aacc039124d6b26ae2a9113ed2736eecb2b70e069602a890ca33cefc42f55959"
+        },
+        {
+          "sample": 7,
+          "seconds": 1.75,
+          "sourceIndex": 42,
+          "sourceTime": 1.75,
+          "relativeTime": 1.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-face/frame-07.png",
+          "pngSHA256": "0ae4c5b220fc7e8bca851d05c4c7362bef889cd1b45e2869005fb241204b1c0b"
+        },
+        {
+          "sample": 8,
+          "seconds": 2,
+          "sourceIndex": 48,
+          "sourceTime": 2,
+          "relativeTime": 2,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-face/frame-08.png",
+          "pngSHA256": "c753bf78f432f347bbe20ec9b278aca18f34a0fe531cffa618ea2301074e6d4d"
+        },
+        {
+          "sample": 9,
+          "seconds": 2.25,
+          "sourceIndex": 54,
+          "sourceTime": 2.25,
+          "relativeTime": 2.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-face/frame-09.png",
+          "pngSHA256": "3b485db78bf1434b84052b6b17cd4e47cf1512eee8c853e321a0ffbde12d49ea"
+        },
+        {
+          "sample": 10,
+          "seconds": 2.5,
+          "sourceIndex": 60,
+          "sourceTime": 2.5,
+          "relativeTime": 2.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-face/frame-10.png",
+          "pngSHA256": "501f6d56f1ecd346cad97c767e2e56732d8ffc40f18a7aef409a8f317b36b27f"
+        },
+        {
+          "sample": 11,
+          "seconds": 2.75,
+          "sourceIndex": 66,
+          "sourceTime": 2.75,
+          "relativeTime": 2.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-face/frame-11.png",
+          "pngSHA256": "87603ba153e2cde1fb3a1686ce5d96a6a23ab59aa19b4ba38b2662d1ad9b544c"
+        },
+        {
+          "sample": 12,
+          "seconds": 3,
+          "sourceIndex": 72,
+          "sourceTime": 3,
+          "relativeTime": 3,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-face/frame-12.png",
+          "pngSHA256": "9b2c5976d076d0d6fad0298cd2cbab44bb044ab1a4b00387a6f3d6a1f3e4aa0b"
+        },
+        {
+          "sample": 13,
+          "seconds": 3.25,
+          "sourceIndex": 78,
+          "sourceTime": 3.25,
+          "relativeTime": 3.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-face/frame-13.png",
+          "pngSHA256": "19ccf11a595a17181da6bfaf9b1186bc2636d0424a7c8a596dc4fad951af8e61"
+        },
+        {
+          "sample": 14,
+          "seconds": 3.5,
+          "sourceIndex": 84,
+          "sourceTime": 3.5,
+          "relativeTime": 3.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-face/frame-14.png",
+          "pngSHA256": "54b6bddeee15d5a40bdb15ba5bb5bf44d62d27c50c65b8e7b1f4210f93ce0f59"
+        },
+        {
+          "sample": 15,
+          "seconds": 3.75,
+          "sourceIndex": 90,
+          "sourceTime": 3.75,
+          "relativeTime": 3.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-face/frame-15.png",
+          "pngSHA256": "6b402514fd51d0072234f13280de99f43aa8b1ec0b0d1da7744d7ad0992c1cde"
+        },
+        {
+          "sample": 16,
+          "seconds": 4,
+          "sourceIndex": 96,
+          "sourceTime": 4,
+          "relativeTime": 4,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-face/frame-16.png",
+          "pngSHA256": "745e8ecb2e097cfc1b2e72355083df6a447b230428d22615d073a2f4bf270908"
+        },
+        {
+          "sample": 17,
+          "seconds": 4.25,
+          "sourceIndex": 102,
+          "sourceTime": 4.25,
+          "relativeTime": 4.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-face/frame-17.png",
+          "pngSHA256": "c69df4217c0eff682d46430b23d71a81ebc92fdb8d95c42a2c44a07d2e42a953"
+        },
+        {
+          "sample": 18,
+          "seconds": 4.5,
+          "sourceIndex": 108,
+          "sourceTime": 4.5,
+          "relativeTime": 4.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-face/frame-18.png",
+          "pngSHA256": "d03638d2c54ef91804e73afe339390181d17e1f18f1c10bc7a5366f4e66b666f"
+        },
+        {
+          "sample": 19,
+          "seconds": 4.75,
+          "sourceIndex": 114,
+          "sourceTime": 4.75,
+          "relativeTime": 4.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-face/frame-19.png",
+          "pngSHA256": "2b606933839ae6df3d2ef7ef39a1fedd8b2bd00e58ad8e514432cf8294e5ef07"
+        },
+        {
+          "sample": 20,
+          "seconds": 5,
+          "sourceIndex": 120,
+          "sourceTime": 5,
+          "relativeTime": 5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-face/frame-20.png",
+          "pngSHA256": "d4fb8c1cf5eb0ca42f19649f6c638001ec345fcd578fdd436e4c202f8587fadb"
+        },
+        {
+          "sample": 21,
+          "seconds": 5.25,
+          "sourceIndex": 126,
+          "sourceTime": 5.25,
+          "relativeTime": 5.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-face/frame-21.png",
+          "pngSHA256": "f00d888fdbd1fd25097773d6d061c6f04d4cf1cadc15aff96ab2048a81522ab6"
+        },
+        {
+          "sample": 22,
+          "seconds": 5.5,
+          "sourceIndex": 132,
+          "sourceTime": 5.5,
+          "relativeTime": 5.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-face/frame-22.png",
+          "pngSHA256": "1e3ae728944066e9541c5be677a0fc06f394b2e6d826b46e95adb467af0fee72"
+        },
+        {
+          "sample": 23,
+          "seconds": 5.75,
+          "sourceIndex": 138,
+          "sourceTime": 5.75,
+          "relativeTime": 5.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-face/frame-23.png",
+          "pngSHA256": "2b71d91d9a796bd782563e3b6270c37b26d8dbfd976a29f74ba5a9f3b91f8767"
+        },
+        {
+          "sample": 24,
+          "seconds": 6,
+          "sourceIndex": 144,
+          "sourceTime": 6,
+          "relativeTime": 6,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-face/frame-24.png",
+          "pngSHA256": "e00cf389ba29dc9b7849a0912f145b6465a72792fbc0c7883b8117a68a482388"
+        },
+        {
+          "sample": 25,
+          "seconds": 6.25,
+          "sourceIndex": 150,
+          "sourceTime": 6.25,
+          "relativeTime": 6.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-face/frame-25.png",
+          "pngSHA256": "6bc72cf65bf1c5bcc871608114ed4d4f57b56ed401f32c8eafd8844b3b195ddb"
+        },
+        {
+          "sample": 26,
+          "seconds": 6.5,
+          "sourceIndex": 156,
+          "sourceTime": 6.5,
+          "relativeTime": 6.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-face/frame-26.png",
+          "pngSHA256": "811f1f4f7eae779c3907ef34a8fcf2456dd1ce82b365e6872e4d3a066cf79cb0"
+        },
+        {
+          "sample": 27,
+          "seconds": 6.75,
+          "sourceIndex": 162,
+          "sourceTime": 6.75,
+          "relativeTime": 6.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-face/frame-27.png",
+          "pngSHA256": "dfcf4f44151ef6beeef5587efd134a21beb8b320238cef586a38ec2e9dc2fab4"
+        },
+        {
+          "sample": 28,
+          "seconds": 7,
+          "sourceIndex": 168,
+          "sourceTime": 7,
+          "relativeTime": 7,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-face/frame-28.png",
+          "pngSHA256": "2200f03f745dcf19026d5020fab025a0a6eb1a0fb41f0a1d88a13dc5c47c09cc"
+        },
+        {
+          "sample": 29,
+          "seconds": 7.25,
+          "sourceIndex": 174,
+          "sourceTime": 7.25,
+          "relativeTime": 7.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-face/frame-29.png",
+          "pngSHA256": "acffbf4edacc91137db70f4a8c982e32414b08bb6be56fd2a9367220009b0b92"
+        },
+        {
+          "sample": 30,
+          "seconds": 7.5,
+          "sourceIndex": 180,
+          "sourceTime": 7.5,
+          "relativeTime": 7.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-face/frame-30.png",
+          "pngSHA256": "def12fba31dccc0992558cd63f13289b22d3d561a74e186aaac90ade735638be"
+        },
+        {
+          "sample": 31,
+          "seconds": 7.75,
+          "sourceIndex": 186,
+          "sourceTime": 7.75,
+          "relativeTime": 7.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/beatriz-source/beatriz-face/frame-31.png",
+          "pngSHA256": "1008155c94cb6a33895dbd42eca9d67c98c0a4aea5ae6a577e954194be98d7dc"
+        }
+      ],
+      "nativePixels": true
+    }
+  ],
+  "extraction": "FFmpeg decoded original source indices, rgb24 PNG. Character crops are native rectangles without repainting/resizing; only contact thumbnails are resized.",
+  "visualReview": "approved-sampled-window",
+  "commands": [
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffprobe.exe",
+      "args": [
+        "-v",
+        "error",
+        "-count_frames",
+        "-show_streams",
+        "-show_format",
+        "-of",
+        "json",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v33\\opening\\clips\\10-beatriz.mp4"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffprobe.exe",
+      "args": [
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_frames",
+        "-show_entries",
+        "frame=best_effort_timestamp_time",
+        "-of",
+        "json",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v33\\opening\\clips\\10-beatriz.mp4"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v33\\opening\\clips\\10-beatriz.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-vf",
+        "select='eq(n,0)+eq(n,12)+eq(n,24)+eq(n,36)+eq(n,48)+eq(n,60)+eq(n,72)+eq(n,84)+eq(n,96)+eq(n,108)+eq(n,120)+eq(n,132)+eq(n,144)+eq(n,156)+eq(n,168)+eq(n,180)',format=rgb24",
+        "-fps_mode",
+        "passthrough",
+        "-frames:v",
+        "16",
+        "-start_number",
+        "0",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\beatriz-source\\full\\frame-%02d.png"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "0",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\beatriz-source\\full\\frame-%02d.png",
+        "-vf",
+        "scale=320:180,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\beatriz-source\\full-contact.jpg"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v33\\opening\\clips\\10-beatriz.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-vf",
+        "select='eq(n,0)+eq(n,6)+eq(n,12)+eq(n,18)+eq(n,24)+eq(n,30)+eq(n,36)+eq(n,42)+eq(n,48)+eq(n,54)+eq(n,60)+eq(n,66)+eq(n,72)+eq(n,78)+eq(n,84)+eq(n,90)+eq(n,96)+eq(n,102)+eq(n,108)+eq(n,114)+eq(n,120)+eq(n,126)+eq(n,132)+eq(n,138)+eq(n,144)+eq(n,150)+eq(n,156)+eq(n,162)+eq(n,168)+eq(n,174)+eq(n,180)+eq(n,186)',format=rgb24,crop=260:440:455:275",
+        "-fps_mode",
+        "passthrough",
+        "-frames:v",
+        "32",
+        "-start_number",
+        "0",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\beatriz-source\\beatriz-blade\\frame-%02d.png"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "0",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\beatriz-source\\beatriz-blade\\frame-%02d.png",
+        "-vf",
+        "scale=320:542,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\beatriz-source\\beatriz-blade-contact-1.jpg"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "16",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\beatriz-source\\beatriz-blade\\frame-%02d.png",
+        "-vf",
+        "scale=320:542,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\beatriz-source\\beatriz-blade-contact-2.jpg"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v33\\opening\\clips\\10-beatriz.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-vf",
+        "select='eq(n,0)+eq(n,6)+eq(n,12)+eq(n,18)+eq(n,24)+eq(n,30)+eq(n,36)+eq(n,42)+eq(n,48)+eq(n,54)+eq(n,60)+eq(n,66)+eq(n,72)+eq(n,78)+eq(n,84)+eq(n,90)+eq(n,96)+eq(n,102)+eq(n,108)+eq(n,114)+eq(n,120)+eq(n,126)+eq(n,132)+eq(n,138)+eq(n,144)+eq(n,150)+eq(n,156)+eq(n,162)+eq(n,168)+eq(n,174)+eq(n,180)+eq(n,186)',format=rgb24,crop=285:230:855:65",
+        "-fps_mode",
+        "passthrough",
+        "-frames:v",
+        "32",
+        "-start_number",
+        "0",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\beatriz-source\\beatriz-palm\\frame-%02d.png"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "0",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\beatriz-source\\beatriz-palm\\frame-%02d.png",
+        "-vf",
+        "scale=320:258,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\beatriz-source\\beatriz-palm-contact-1.jpg"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "16",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\beatriz-source\\beatriz-palm\\frame-%02d.png",
+        "-vf",
+        "scale=320:258,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\beatriz-source\\beatriz-palm-contact-2.jpg"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v33\\opening\\clips\\10-beatriz.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-vf",
+        "select='eq(n,0)+eq(n,6)+eq(n,12)+eq(n,18)+eq(n,24)+eq(n,30)+eq(n,36)+eq(n,42)+eq(n,48)+eq(n,54)+eq(n,60)+eq(n,66)+eq(n,72)+eq(n,78)+eq(n,84)+eq(n,90)+eq(n,96)+eq(n,102)+eq(n,108)+eq(n,114)+eq(n,120)+eq(n,126)+eq(n,132)+eq(n,138)+eq(n,144)+eq(n,150)+eq(n,156)+eq(n,162)+eq(n,168)+eq(n,174)+eq(n,180)+eq(n,186)',format=rgb24,crop=315:240:650:0",
+        "-fps_mode",
+        "passthrough",
+        "-frames:v",
+        "32",
+        "-start_number",
+        "0",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\beatriz-source\\beatriz-face\\frame-%02d.png"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "0",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\beatriz-source\\beatriz-face\\frame-%02d.png",
+        "-vf",
+        "scale=320:244,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\beatriz-source\\beatriz-face-contact-1.jpg"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "16",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\beatriz-source\\beatriz-face\\frame-%02d.png",
+        "-vf",
+        "scale=320:244,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\beatriz-source\\beatriz-face-contact-2.jpg"
+      ]
+    }
+  ],
+  "rootReview": "A raiz revisou e aprovou as contact sheets completas/janelas selecionadas; montagem autorizada após QA dos crops.",
+  "approvedWindows": [
+    {
+      "sourceIndices": [
+        0,
+        119
+      ],
+      "frames": 120,
+      "startSeconds": 0
+    }
+  ]
+}

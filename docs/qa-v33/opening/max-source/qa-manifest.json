@@ -1,0 +1,1407 @@
+{
+  "schema": 2,
+  "source": "art-source/v33/opening/clips/06-max.mp4",
+  "sourceSHA256": "81b3e1ccad42a1554976982d7c8502cadf4809bd372cf32b686874d68c5d2866",
+  "sourceBytes": 4614497,
+  "actualDecodedFrames": 192,
+  "sourceResolution": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 24,
+  "videoDurationSeconds": 8,
+  "containerDurationSeconds": 8,
+  "audio": [
+    {
+      "codec": "aac",
+      "sampleRate": "48000",
+      "channels": 2,
+      "duration": "8.000000"
+    }
+  ],
+  "full": [
+    {
+      "sample": 0,
+      "seconds": 0,
+      "sourceIndex": 0,
+      "sourceTime": 0,
+      "relativeTime": 0,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/max-source/full/frame-00.png",
+      "pngSHA256": "6148db6d6c1b5da1f2cdcb9e907eea71f2d0a1dbcdad31946e1ecb2d3200a270"
+    },
+    {
+      "sample": 1,
+      "seconds": 0.5,
+      "sourceIndex": 12,
+      "sourceTime": 0.5,
+      "relativeTime": 0.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/max-source/full/frame-01.png",
+      "pngSHA256": "48b08770483231dc982e7b3cf6768fc4146902bf89b649615aab6f99f023b899"
+    },
+    {
+      "sample": 2,
+      "seconds": 1,
+      "sourceIndex": 24,
+      "sourceTime": 1,
+      "relativeTime": 1,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/max-source/full/frame-02.png",
+      "pngSHA256": "850cd5709afd523b57b62098fe2b3250c2eb64e917e2f614e9eb8ca07cb97ea9"
+    },
+    {
+      "sample": 3,
+      "seconds": 1.5,
+      "sourceIndex": 36,
+      "sourceTime": 1.5,
+      "relativeTime": 1.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/max-source/full/frame-03.png",
+      "pngSHA256": "2caef56c5d117713b3cade25998357b5aa6f296db3320d928cb5d51e73c1c32f"
+    },
+    {
+      "sample": 4,
+      "seconds": 2,
+      "sourceIndex": 48,
+      "sourceTime": 2,
+      "relativeTime": 2,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/max-source/full/frame-04.png",
+      "pngSHA256": "bd2008b55a1e3056f82d3c08893fe857b5ef275240e1b635f13f9987d61e9788"
+    },
+    {
+      "sample": 5,
+      "seconds": 2.5,
+      "sourceIndex": 60,
+      "sourceTime": 2.5,
+      "relativeTime": 2.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/max-source/full/frame-05.png",
+      "pngSHA256": "92ec84c00c78ae2034f7985542e5aaf484988578511a4408fc0c4aaaa2bd269d"
+    },
+    {
+      "sample": 6,
+      "seconds": 3,
+      "sourceIndex": 72,
+      "sourceTime": 3,
+      "relativeTime": 3,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/max-source/full/frame-06.png",
+      "pngSHA256": "b71f50d440792c45f2a20060a9bb6b1dede6b403687ca68839cdc272fece0a9f"
+    },
+    {
+      "sample": 7,
+      "seconds": 3.5,
+      "sourceIndex": 84,
+      "sourceTime": 3.5,
+      "relativeTime": 3.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/max-source/full/frame-07.png",
+      "pngSHA256": "e6436864dd31acfd9d382f676e040c1d9e5b31bdf1014b1b11d58f5681ad13b7"
+    },
+    {
+      "sample": 8,
+      "seconds": 4,
+      "sourceIndex": 96,
+      "sourceTime": 4,
+      "relativeTime": 4,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/max-source/full/frame-08.png",
+      "pngSHA256": "7a62d8c6acd4c6bd5b0d72221dd791c0ec7734e3ca00963f606bb44f6118c3be"
+    },
+    {
+      "sample": 9,
+      "seconds": 4.5,
+      "sourceIndex": 108,
+      "sourceTime": 4.5,
+      "relativeTime": 4.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/max-source/full/frame-09.png",
+      "pngSHA256": "11140f120648bc2f6d8650f0122bfa7a98c26d87f9a179df126b0bd75d07caaa"
+    },
+    {
+      "sample": 10,
+      "seconds": 5,
+      "sourceIndex": 120,
+      "sourceTime": 5,
+      "relativeTime": 5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/max-source/full/frame-10.png",
+      "pngSHA256": "760884af064f971a2e859fd38bc2faa2207aaa9e7335a71951279d500e887cc7"
+    },
+    {
+      "sample": 11,
+      "seconds": 5.5,
+      "sourceIndex": 132,
+      "sourceTime": 5.5,
+      "relativeTime": 5.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/max-source/full/frame-11.png",
+      "pngSHA256": "8c99a1021935c3c885248ae3f7a4e42db9c13e3546bcc6d463fa67338c06c7f1"
+    },
+    {
+      "sample": 12,
+      "seconds": 6,
+      "sourceIndex": 144,
+      "sourceTime": 6,
+      "relativeTime": 6,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/max-source/full/frame-12.png",
+      "pngSHA256": "260a9defb7ad01e91fb7f55cccf42f80e2b8a30f925222dff6b7992ae4bc0625"
+    },
+    {
+      "sample": 13,
+      "seconds": 6.5,
+      "sourceIndex": 156,
+      "sourceTime": 6.5,
+      "relativeTime": 6.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/max-source/full/frame-13.png",
+      "pngSHA256": "be0af3876d58e0a1f52f9b19b173c8c103935dc3f4437b0eaa1915095c58dea4"
+    },
+    {
+      "sample": 14,
+      "seconds": 7,
+      "sourceIndex": 168,
+      "sourceTime": 7,
+      "relativeTime": 7,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/max-source/full/frame-14.png",
+      "pngSHA256": "50a25e4c89196bef34459fd71826085bb7dfdaf7b98e35021878ad2e223401f7"
+    },
+    {
+      "sample": 15,
+      "seconds": 7.5,
+      "sourceIndex": 180,
+      "sourceTime": 7.5,
+      "relativeTime": 7.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/max-source/full/frame-15.png",
+      "pngSHA256": "1b216d9e9e467ab95a242550adffa9cc559faf8ba66ec7f2de41981993b7fb19"
+    }
+  ],
+  "cropped": {
+    "id": "vajra",
+    "character": "Vajra",
+    "crop": {
+      "x": 730,
+      "y": 240,
+      "width": 300,
+      "height": 470
+    },
+    "frames": [
+      {
+        "sample": 0,
+        "seconds": 0,
+        "sourceIndex": 0,
+        "sourceTime": 0,
+        "relativeTime": 0,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/max-source/vajra/frame-00.png",
+        "pngSHA256": "ef881a5bcd5b3a6322a880228778085ab9fc72d8e8bfc43853913d9c43ed8dd3"
+      },
+      {
+        "sample": 1,
+        "seconds": 0.25,
+        "sourceIndex": 6,
+        "sourceTime": 0.25,
+        "relativeTime": 0.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/max-source/vajra/frame-01.png",
+        "pngSHA256": "fa4a3fb98df2f3129605a0dc3d7f4697755647cde240e8389cee7d3f733bf68d"
+      },
+      {
+        "sample": 2,
+        "seconds": 0.5,
+        "sourceIndex": 12,
+        "sourceTime": 0.5,
+        "relativeTime": 0.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/max-source/vajra/frame-02.png",
+        "pngSHA256": "1b1241852a713f049cbd3b32350f1bc4099d81e766387ce1464fa97146a59fd2"
+      },
+      {
+        "sample": 3,
+        "seconds": 0.75,
+        "sourceIndex": 18,
+        "sourceTime": 0.75,
+        "relativeTime": 0.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/max-source/vajra/frame-03.png",
+        "pngSHA256": "d3d90a6c8f78d9e6f0afa61ebcbd3f2c55a0187da7731d57281cd9e773865946"
+      },
+      {
+        "sample": 4,
+        "seconds": 1,
+        "sourceIndex": 24,
+        "sourceTime": 1,
+        "relativeTime": 1,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/max-source/vajra/frame-04.png",
+        "pngSHA256": "255dba966e2a9250fa3bb2b91dcd463755ea68b9353d867410454e2bb7ed2220"
+      },
+      {
+        "sample": 5,
+        "seconds": 1.25,
+        "sourceIndex": 30,
+        "sourceTime": 1.25,
+        "relativeTime": 1.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/max-source/vajra/frame-05.png",
+        "pngSHA256": "1e52b1eba2b58d4d20eedcfad0564d27cc4780377e54cbe39c8f9dd9e2a2295a"
+      },
+      {
+        "sample": 6,
+        "seconds": 1.5,
+        "sourceIndex": 36,
+        "sourceTime": 1.5,
+        "relativeTime": 1.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/max-source/vajra/frame-06.png",
+        "pngSHA256": "a4ded9f9b7b0064cfe81a49bdb8c7a23e2db1a21c3f1141da5a6e0281d71dec3"
+      },
+      {
+        "sample": 7,
+        "seconds": 1.75,
+        "sourceIndex": 42,
+        "sourceTime": 1.75,
+        "relativeTime": 1.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/max-source/vajra/frame-07.png",
+        "pngSHA256": "ab002ab0ba3470645c8dcaf6e6f479027d265fa9a592dc913aa0ad1bcf2640a1"
+      },
+      {
+        "sample": 8,
+        "seconds": 2,
+        "sourceIndex": 48,
+        "sourceTime": 2,
+        "relativeTime": 2,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/max-source/vajra/frame-08.png",
+        "pngSHA256": "fb49d1e89ff424d69df9f0e104b8225469e7e6f2d7af73526f343207f93bef1e"
+      },
+      {
+        "sample": 9,
+        "seconds": 2.25,
+        "sourceIndex": 54,
+        "sourceTime": 2.25,
+        "relativeTime": 2.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/max-source/vajra/frame-09.png",
+        "pngSHA256": "8047ad35a2a1c4d5a5608cac893be7d5a47ca63ed93d90dda1dfe709477a3879"
+      },
+      {
+        "sample": 10,
+        "seconds": 2.5,
+        "sourceIndex": 60,
+        "sourceTime": 2.5,
+        "relativeTime": 2.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/max-source/vajra/frame-10.png",
+        "pngSHA256": "c386402e2e162c31d1b84b237f9c05e6fd724ab78dbe6832ef9d513adbb1088e"
+      },
+      {
+        "sample": 11,
+        "seconds": 2.75,
+        "sourceIndex": 66,
+        "sourceTime": 2.75,
+        "relativeTime": 2.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/max-source/vajra/frame-11.png",
+        "pngSHA256": "b07c4501aa7afe1e76b1701cb40381cf3db25d9c109f705ba1ffa031f18ba8e9"
+      },
+      {
+        "sample": 12,
+        "seconds": 3,
+        "sourceIndex": 72,
+        "sourceTime": 3,
+        "relativeTime": 3,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/max-source/vajra/frame-12.png",
+        "pngSHA256": "2a2eb054e307ac95a93f90bc98b1738d0ef259f4dde2da67c3e8755b565baace"
+      },
+      {
+        "sample": 13,
+        "seconds": 3.25,
+        "sourceIndex": 78,
+        "sourceTime": 3.25,
+        "relativeTime": 3.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/max-source/vajra/frame-13.png",
+        "pngSHA256": "bd31dd36a1c122f0b2b6f39d02076390e2a19743474208be78dddd05b4890728"
+      },
+      {
+        "sample": 14,
+        "seconds": 3.5,
+        "sourceIndex": 84,
+        "sourceTime": 3.5,
+        "relativeTime": 3.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/max-source/vajra/frame-14.png",
+        "pngSHA256": "729120c1a76af5a00b41333161306ecab274cd1abee4dc74aeabd470c8eaee7b"
+      },
+      {
+        "sample": 15,
+        "seconds": 3.75,
+        "sourceIndex": 90,
+        "sourceTime": 3.75,
+        "relativeTime": 3.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/max-source/vajra/frame-15.png",
+        "pngSHA256": "4b4df2c4da1a5e05cc6e91c2916d76830a7bacc4b18314349449cc8bf7e427b0"
+      },
+      {
+        "sample": 16,
+        "seconds": 4,
+        "sourceIndex": 96,
+        "sourceTime": 4,
+        "relativeTime": 4,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/max-source/vajra/frame-16.png",
+        "pngSHA256": "7435690dc8a79d6926ec6735889de8e3f50910ccc1d4be911c43b13202150c3b"
+      },
+      {
+        "sample": 17,
+        "seconds": 4.25,
+        "sourceIndex": 102,
+        "sourceTime": 4.25,
+        "relativeTime": 4.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/max-source/vajra/frame-17.png",
+        "pngSHA256": "ce2ac6cadace5fb4e87c5f14c14ea2d064c1fb8ccb2c2b09c9b59bd312df5447"
+      },
+      {
+        "sample": 18,
+        "seconds": 4.5,
+        "sourceIndex": 108,
+        "sourceTime": 4.5,
+        "relativeTime": 4.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/max-source/vajra/frame-18.png",
+        "pngSHA256": "e189f52845eceb51f0daa0a4a87e9585b55023ac73aa675892ca21e5930a7f3e"
+      },
+      {
+        "sample": 19,
+        "seconds": 4.75,
+        "sourceIndex": 114,
+        "sourceTime": 4.75,
+        "relativeTime": 4.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/max-source/vajra/frame-19.png",
+        "pngSHA256": "630c7d4df495abf1b57486dd05f7126b07c412fb79f07cb13f6e7d1f1d9104f0"
+      },
+      {
+        "sample": 20,
+        "seconds": 5,
+        "sourceIndex": 120,
+        "sourceTime": 5,
+        "relativeTime": 5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/max-source/vajra/frame-20.png",
+        "pngSHA256": "3d01deb3399250265d3e1846af97bf175d1ece447b57d3091db413a89e5a436f"
+      },
+      {
+        "sample": 21,
+        "seconds": 5.25,
+        "sourceIndex": 126,
+        "sourceTime": 5.25,
+        "relativeTime": 5.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/max-source/vajra/frame-21.png",
+        "pngSHA256": "b0b7975e1f8adeb6bae17fe8845be24226582eafcbf6632d21789463b0ccb06e"
+      },
+      {
+        "sample": 22,
+        "seconds": 5.5,
+        "sourceIndex": 132,
+        "sourceTime": 5.5,
+        "relativeTime": 5.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/max-source/vajra/frame-22.png",
+        "pngSHA256": "7f15597ef433fca21e36a3c094e0d9a951e52804aade291b64bb9caa151b68aa"
+      },
+      {
+        "sample": 23,
+        "seconds": 5.75,
+        "sourceIndex": 138,
+        "sourceTime": 5.75,
+        "relativeTime": 5.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/max-source/vajra/frame-23.png",
+        "pngSHA256": "3da6ad28864e2d608d0e096bf0ee5bf4b5034ecec348dcc9008be530be4c2786"
+      },
+      {
+        "sample": 24,
+        "seconds": 6,
+        "sourceIndex": 144,
+        "sourceTime": 6,
+        "relativeTime": 6,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/max-source/vajra/frame-24.png",
+        "pngSHA256": "0b8b44ec08ae81bb4d39fa052cdec471a343c91d45105d0e165b8f9e1a6c3d4f"
+      },
+      {
+        "sample": 25,
+        "seconds": 6.25,
+        "sourceIndex": 150,
+        "sourceTime": 6.25,
+        "relativeTime": 6.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/max-source/vajra/frame-25.png",
+        "pngSHA256": "a9904e341c1156dfb1e94aa0cf49c978275f0d576115cc2c9b14e14abc9bf5cb"
+      },
+      {
+        "sample": 26,
+        "seconds": 6.5,
+        "sourceIndex": 156,
+        "sourceTime": 6.5,
+        "relativeTime": 6.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/max-source/vajra/frame-26.png",
+        "pngSHA256": "fb30a88c505dbc1b93e8a937b31dafc13912d55c8f49813b2b66cac8343a9012"
+      },
+      {
+        "sample": 27,
+        "seconds": 6.75,
+        "sourceIndex": 162,
+        "sourceTime": 6.75,
+        "relativeTime": 6.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/max-source/vajra/frame-27.png",
+        "pngSHA256": "d73816a3b9f476e8162d6a03bcfb1699d21a8578a860e25584cb7bac2f4b9da3"
+      },
+      {
+        "sample": 28,
+        "seconds": 7,
+        "sourceIndex": 168,
+        "sourceTime": 7,
+        "relativeTime": 7,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/max-source/vajra/frame-28.png",
+        "pngSHA256": "be57da2fdb52ecb12d62c2ef863e9365fb4ccffb17d86b92ac2b3ee2dd7c0e48"
+      },
+      {
+        "sample": 29,
+        "seconds": 7.25,
+        "sourceIndex": 174,
+        "sourceTime": 7.25,
+        "relativeTime": 7.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/max-source/vajra/frame-29.png",
+        "pngSHA256": "4618f54a96bcd6b92d1f4d4e2b57256b6f93b796b29849903b01865fff4418f6"
+      },
+      {
+        "sample": 30,
+        "seconds": 7.5,
+        "sourceIndex": 180,
+        "sourceTime": 7.5,
+        "relativeTime": 7.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/max-source/vajra/frame-30.png",
+        "pngSHA256": "c95f18315b54fd984813816c7177d31270efe995aeaa118fee90264d350dc17f"
+      },
+      {
+        "sample": 31,
+        "seconds": 7.75,
+        "sourceIndex": 186,
+        "sourceTime": 7.75,
+        "relativeTime": 7.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/max-source/vajra/frame-31.png",
+        "pngSHA256": "64a757b7f8719206b6ac803c7a52bc79c5fbd658e3735907175beff22f88ce72"
+      }
+    ],
+    "nativePixels": true
+  },
+  "crops": [
+    {
+      "id": "vajra",
+      "character": "Vajra",
+      "crop": {
+        "x": 730,
+        "y": 240,
+        "width": 300,
+        "height": 470
+      },
+      "frames": [
+        {
+          "sample": 0,
+          "seconds": 0,
+          "sourceIndex": 0,
+          "sourceTime": 0,
+          "relativeTime": 0,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/vajra/frame-00.png",
+          "pngSHA256": "ef881a5bcd5b3a6322a880228778085ab9fc72d8e8bfc43853913d9c43ed8dd3"
+        },
+        {
+          "sample": 1,
+          "seconds": 0.25,
+          "sourceIndex": 6,
+          "sourceTime": 0.25,
+          "relativeTime": 0.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/vajra/frame-01.png",
+          "pngSHA256": "fa4a3fb98df2f3129605a0dc3d7f4697755647cde240e8389cee7d3f733bf68d"
+        },
+        {
+          "sample": 2,
+          "seconds": 0.5,
+          "sourceIndex": 12,
+          "sourceTime": 0.5,
+          "relativeTime": 0.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/vajra/frame-02.png",
+          "pngSHA256": "1b1241852a713f049cbd3b32350f1bc4099d81e766387ce1464fa97146a59fd2"
+        },
+        {
+          "sample": 3,
+          "seconds": 0.75,
+          "sourceIndex": 18,
+          "sourceTime": 0.75,
+          "relativeTime": 0.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/vajra/frame-03.png",
+          "pngSHA256": "d3d90a6c8f78d9e6f0afa61ebcbd3f2c55a0187da7731d57281cd9e773865946"
+        },
+        {
+          "sample": 4,
+          "seconds": 1,
+          "sourceIndex": 24,
+          "sourceTime": 1,
+          "relativeTime": 1,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/vajra/frame-04.png",
+          "pngSHA256": "255dba966e2a9250fa3bb2b91dcd463755ea68b9353d867410454e2bb7ed2220"
+        },
+        {
+          "sample": 5,
+          "seconds": 1.25,
+          "sourceIndex": 30,
+          "sourceTime": 1.25,
+          "relativeTime": 1.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/vajra/frame-05.png",
+          "pngSHA256": "1e52b1eba2b58d4d20eedcfad0564d27cc4780377e54cbe39c8f9dd9e2a2295a"
+        },
+        {
+          "sample": 6,
+          "seconds": 1.5,
+          "sourceIndex": 36,
+          "sourceTime": 1.5,
+          "relativeTime": 1.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/vajra/frame-06.png",
+          "pngSHA256": "a4ded9f9b7b0064cfe81a49bdb8c7a23e2db1a21c3f1141da5a6e0281d71dec3"
+        },
+        {
+          "sample": 7,
+          "seconds": 1.75,
+          "sourceIndex": 42,
+          "sourceTime": 1.75,
+          "relativeTime": 1.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/vajra/frame-07.png",
+          "pngSHA256": "ab002ab0ba3470645c8dcaf6e6f479027d265fa9a592dc913aa0ad1bcf2640a1"
+        },
+        {
+          "sample": 8,
+          "seconds": 2,
+          "sourceIndex": 48,
+          "sourceTime": 2,
+          "relativeTime": 2,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/vajra/frame-08.png",
+          "pngSHA256": "fb49d1e89ff424d69df9f0e104b8225469e7e6f2d7af73526f343207f93bef1e"
+        },
+        {
+          "sample": 9,
+          "seconds": 2.25,
+          "sourceIndex": 54,
+          "sourceTime": 2.25,
+          "relativeTime": 2.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/vajra/frame-09.png",
+          "pngSHA256": "8047ad35a2a1c4d5a5608cac893be7d5a47ca63ed93d90dda1dfe709477a3879"
+        },
+        {
+          "sample": 10,
+          "seconds": 2.5,
+          "sourceIndex": 60,
+          "sourceTime": 2.5,
+          "relativeTime": 2.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/vajra/frame-10.png",
+          "pngSHA256": "c386402e2e162c31d1b84b237f9c05e6fd724ab78dbe6832ef9d513adbb1088e"
+        },
+        {
+          "sample": 11,
+          "seconds": 2.75,
+          "sourceIndex": 66,
+          "sourceTime": 2.75,
+          "relativeTime": 2.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/vajra/frame-11.png",
+          "pngSHA256": "b07c4501aa7afe1e76b1701cb40381cf3db25d9c109f705ba1ffa031f18ba8e9"
+        },
+        {
+          "sample": 12,
+          "seconds": 3,
+          "sourceIndex": 72,
+          "sourceTime": 3,
+          "relativeTime": 3,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/vajra/frame-12.png",
+          "pngSHA256": "2a2eb054e307ac95a93f90bc98b1738d0ef259f4dde2da67c3e8755b565baace"
+        },
+        {
+          "sample": 13,
+          "seconds": 3.25,
+          "sourceIndex": 78,
+          "sourceTime": 3.25,
+          "relativeTime": 3.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/vajra/frame-13.png",
+          "pngSHA256": "bd31dd36a1c122f0b2b6f39d02076390e2a19743474208be78dddd05b4890728"
+        },
+        {
+          "sample": 14,
+          "seconds": 3.5,
+          "sourceIndex": 84,
+          "sourceTime": 3.5,
+          "relativeTime": 3.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/vajra/frame-14.png",
+          "pngSHA256": "729120c1a76af5a00b41333161306ecab274cd1abee4dc74aeabd470c8eaee7b"
+        },
+        {
+          "sample": 15,
+          "seconds": 3.75,
+          "sourceIndex": 90,
+          "sourceTime": 3.75,
+          "relativeTime": 3.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/vajra/frame-15.png",
+          "pngSHA256": "4b4df2c4da1a5e05cc6e91c2916d76830a7bacc4b18314349449cc8bf7e427b0"
+        },
+        {
+          "sample": 16,
+          "seconds": 4,
+          "sourceIndex": 96,
+          "sourceTime": 4,
+          "relativeTime": 4,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/vajra/frame-16.png",
+          "pngSHA256": "7435690dc8a79d6926ec6735889de8e3f50910ccc1d4be911c43b13202150c3b"
+        },
+        {
+          "sample": 17,
+          "seconds": 4.25,
+          "sourceIndex": 102,
+          "sourceTime": 4.25,
+          "relativeTime": 4.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/vajra/frame-17.png",
+          "pngSHA256": "ce2ac6cadace5fb4e87c5f14c14ea2d064c1fb8ccb2c2b09c9b59bd312df5447"
+        },
+        {
+          "sample": 18,
+          "seconds": 4.5,
+          "sourceIndex": 108,
+          "sourceTime": 4.5,
+          "relativeTime": 4.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/vajra/frame-18.png",
+          "pngSHA256": "e189f52845eceb51f0daa0a4a87e9585b55023ac73aa675892ca21e5930a7f3e"
+        },
+        {
+          "sample": 19,
+          "seconds": 4.75,
+          "sourceIndex": 114,
+          "sourceTime": 4.75,
+          "relativeTime": 4.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/vajra/frame-19.png",
+          "pngSHA256": "630c7d4df495abf1b57486dd05f7126b07c412fb79f07cb13f6e7d1f1d9104f0"
+        },
+        {
+          "sample": 20,
+          "seconds": 5,
+          "sourceIndex": 120,
+          "sourceTime": 5,
+          "relativeTime": 5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/vajra/frame-20.png",
+          "pngSHA256": "3d01deb3399250265d3e1846af97bf175d1ece447b57d3091db413a89e5a436f"
+        },
+        {
+          "sample": 21,
+          "seconds": 5.25,
+          "sourceIndex": 126,
+          "sourceTime": 5.25,
+          "relativeTime": 5.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/vajra/frame-21.png",
+          "pngSHA256": "b0b7975e1f8adeb6bae17fe8845be24226582eafcbf6632d21789463b0ccb06e"
+        },
+        {
+          "sample": 22,
+          "seconds": 5.5,
+          "sourceIndex": 132,
+          "sourceTime": 5.5,
+          "relativeTime": 5.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/vajra/frame-22.png",
+          "pngSHA256": "7f15597ef433fca21e36a3c094e0d9a951e52804aade291b64bb9caa151b68aa"
+        },
+        {
+          "sample": 23,
+          "seconds": 5.75,
+          "sourceIndex": 138,
+          "sourceTime": 5.75,
+          "relativeTime": 5.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/vajra/frame-23.png",
+          "pngSHA256": "3da6ad28864e2d608d0e096bf0ee5bf4b5034ecec348dcc9008be530be4c2786"
+        },
+        {
+          "sample": 24,
+          "seconds": 6,
+          "sourceIndex": 144,
+          "sourceTime": 6,
+          "relativeTime": 6,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/vajra/frame-24.png",
+          "pngSHA256": "0b8b44ec08ae81bb4d39fa052cdec471a343c91d45105d0e165b8f9e1a6c3d4f"
+        },
+        {
+          "sample": 25,
+          "seconds": 6.25,
+          "sourceIndex": 150,
+          "sourceTime": 6.25,
+          "relativeTime": 6.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/vajra/frame-25.png",
+          "pngSHA256": "a9904e341c1156dfb1e94aa0cf49c978275f0d576115cc2c9b14e14abc9bf5cb"
+        },
+        {
+          "sample": 26,
+          "seconds": 6.5,
+          "sourceIndex": 156,
+          "sourceTime": 6.5,
+          "relativeTime": 6.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/vajra/frame-26.png",
+          "pngSHA256": "fb30a88c505dbc1b93e8a937b31dafc13912d55c8f49813b2b66cac8343a9012"
+        },
+        {
+          "sample": 27,
+          "seconds": 6.75,
+          "sourceIndex": 162,
+          "sourceTime": 6.75,
+          "relativeTime": 6.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/vajra/frame-27.png",
+          "pngSHA256": "d73816a3b9f476e8162d6a03bcfb1699d21a8578a860e25584cb7bac2f4b9da3"
+        },
+        {
+          "sample": 28,
+          "seconds": 7,
+          "sourceIndex": 168,
+          "sourceTime": 7,
+          "relativeTime": 7,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/vajra/frame-28.png",
+          "pngSHA256": "be57da2fdb52ecb12d62c2ef863e9365fb4ccffb17d86b92ac2b3ee2dd7c0e48"
+        },
+        {
+          "sample": 29,
+          "seconds": 7.25,
+          "sourceIndex": 174,
+          "sourceTime": 7.25,
+          "relativeTime": 7.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/vajra/frame-29.png",
+          "pngSHA256": "4618f54a96bcd6b92d1f4d4e2b57256b6f93b796b29849903b01865fff4418f6"
+        },
+        {
+          "sample": 30,
+          "seconds": 7.5,
+          "sourceIndex": 180,
+          "sourceTime": 7.5,
+          "relativeTime": 7.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/vajra/frame-30.png",
+          "pngSHA256": "c95f18315b54fd984813816c7177d31270efe995aeaa118fee90264d350dc17f"
+        },
+        {
+          "sample": 31,
+          "seconds": 7.75,
+          "sourceIndex": 186,
+          "sourceTime": 7.75,
+          "relativeTime": 7.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/vajra/frame-31.png",
+          "pngSHA256": "64a757b7f8719206b6ac803c7a52bc79c5fbd658e3735907175beff22f88ce72"
+        }
+      ],
+      "nativePixels": true
+    },
+    {
+      "id": "max-hands",
+      "character": "Max, both hand trajectories",
+      "crop": {
+        "x": 340,
+        "y": 70,
+        "width": 320,
+        "height": 340
+      },
+      "frames": [
+        {
+          "sample": 0,
+          "seconds": 0,
+          "sourceIndex": 0,
+          "sourceTime": 0,
+          "relativeTime": 0,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/max-hands/frame-00.png",
+          "pngSHA256": "0d816313a49d77f37cecc68a403e915b8aacd525b8d2abdab9a5d92a71322ada"
+        },
+        {
+          "sample": 1,
+          "seconds": 0.25,
+          "sourceIndex": 6,
+          "sourceTime": 0.25,
+          "relativeTime": 0.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/max-hands/frame-01.png",
+          "pngSHA256": "ba301df6fd8e9cd6fc10bb863bde489d76f90ce9a8cc6c52b8f1d0b81125f979"
+        },
+        {
+          "sample": 2,
+          "seconds": 0.5,
+          "sourceIndex": 12,
+          "sourceTime": 0.5,
+          "relativeTime": 0.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/max-hands/frame-02.png",
+          "pngSHA256": "6f418302f540d6b8c413f6a5b10841a702e8c7b3da1469e0f8b3bac3ac13028b"
+        },
+        {
+          "sample": 3,
+          "seconds": 0.75,
+          "sourceIndex": 18,
+          "sourceTime": 0.75,
+          "relativeTime": 0.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/max-hands/frame-03.png",
+          "pngSHA256": "850f8f0a101c5488680077322a07bb1fe4edbcf060b2649b4970be3fc4c1da1c"
+        },
+        {
+          "sample": 4,
+          "seconds": 1,
+          "sourceIndex": 24,
+          "sourceTime": 1,
+          "relativeTime": 1,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/max-hands/frame-04.png",
+          "pngSHA256": "f955732350a2d9c25067dc7a498e6585e34b582fda76574efe200b45b86d60a1"
+        },
+        {
+          "sample": 5,
+          "seconds": 1.25,
+          "sourceIndex": 30,
+          "sourceTime": 1.25,
+          "relativeTime": 1.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/max-hands/frame-05.png",
+          "pngSHA256": "d4cb587c372676d9e1e290d89245de16a8e63590d42d53fefc3987a3a226ad1a"
+        },
+        {
+          "sample": 6,
+          "seconds": 1.5,
+          "sourceIndex": 36,
+          "sourceTime": 1.5,
+          "relativeTime": 1.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/max-hands/frame-06.png",
+          "pngSHA256": "167686ad87922fd0e06e86e77fba5a01bd00423b4f2f41d99d994653c4a18594"
+        },
+        {
+          "sample": 7,
+          "seconds": 1.75,
+          "sourceIndex": 42,
+          "sourceTime": 1.75,
+          "relativeTime": 1.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/max-hands/frame-07.png",
+          "pngSHA256": "96bc13909c2ad2b158edb0463ff65240de68e9b99044c4e190bda742bbcfe293"
+        },
+        {
+          "sample": 8,
+          "seconds": 2,
+          "sourceIndex": 48,
+          "sourceTime": 2,
+          "relativeTime": 2,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/max-hands/frame-08.png",
+          "pngSHA256": "a3884f2c72bceb16117584ebc3515f65571f9a987c8b06905ead951b7db3ffa5"
+        },
+        {
+          "sample": 9,
+          "seconds": 2.25,
+          "sourceIndex": 54,
+          "sourceTime": 2.25,
+          "relativeTime": 2.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/max-hands/frame-09.png",
+          "pngSHA256": "9794fb3d95fe66298c091e815e544804bc8494702932c5b8f9e51533cbae1113"
+        },
+        {
+          "sample": 10,
+          "seconds": 2.5,
+          "sourceIndex": 60,
+          "sourceTime": 2.5,
+          "relativeTime": 2.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/max-hands/frame-10.png",
+          "pngSHA256": "d1764aa5df549185306d542aed854c0abbc7a3cc51d053c9ed312cfaf99ab9f2"
+        },
+        {
+          "sample": 11,
+          "seconds": 2.75,
+          "sourceIndex": 66,
+          "sourceTime": 2.75,
+          "relativeTime": 2.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/max-hands/frame-11.png",
+          "pngSHA256": "911f273d27a207ad056c32669ee3b4d374793519b8d619d69b7f16e2da25c52e"
+        },
+        {
+          "sample": 12,
+          "seconds": 3,
+          "sourceIndex": 72,
+          "sourceTime": 3,
+          "relativeTime": 3,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/max-hands/frame-12.png",
+          "pngSHA256": "c7ce76f4f3e064743e35faa6b9f8ed2542b5ef3992e9b0110322c30835922d4d"
+        },
+        {
+          "sample": 13,
+          "seconds": 3.25,
+          "sourceIndex": 78,
+          "sourceTime": 3.25,
+          "relativeTime": 3.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/max-hands/frame-13.png",
+          "pngSHA256": "48a7bc04fecd0067299295a67d1d6c21c33f90b2394d8386fd8089c0550db9a7"
+        },
+        {
+          "sample": 14,
+          "seconds": 3.5,
+          "sourceIndex": 84,
+          "sourceTime": 3.5,
+          "relativeTime": 3.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/max-hands/frame-14.png",
+          "pngSHA256": "d3403678faf1383d2a3050847129b3aca809a9b25bbd6a04d6125b9d6ca5ba86"
+        },
+        {
+          "sample": 15,
+          "seconds": 3.75,
+          "sourceIndex": 90,
+          "sourceTime": 3.75,
+          "relativeTime": 3.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/max-hands/frame-15.png",
+          "pngSHA256": "6ecfbeddce25e5928a31c52000244169b74fcd9b8283d90fd5ef2cac66694d47"
+        },
+        {
+          "sample": 16,
+          "seconds": 4,
+          "sourceIndex": 96,
+          "sourceTime": 4,
+          "relativeTime": 4,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/max-hands/frame-16.png",
+          "pngSHA256": "f08a6727bacaa5726ac3b162bf617f58bcd57777dfab8cec4f68254ac52c0caf"
+        },
+        {
+          "sample": 17,
+          "seconds": 4.25,
+          "sourceIndex": 102,
+          "sourceTime": 4.25,
+          "relativeTime": 4.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/max-hands/frame-17.png",
+          "pngSHA256": "0743a56850ee1b5941467100544198343f9a298b21381e6a7a495982003c4a29"
+        },
+        {
+          "sample": 18,
+          "seconds": 4.5,
+          "sourceIndex": 108,
+          "sourceTime": 4.5,
+          "relativeTime": 4.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/max-hands/frame-18.png",
+          "pngSHA256": "468a5dc4ab5d7afa2b2486e1dfe94d01d0eb8e1c0774fb56957d69e58da8d8e6"
+        },
+        {
+          "sample": 19,
+          "seconds": 4.75,
+          "sourceIndex": 114,
+          "sourceTime": 4.75,
+          "relativeTime": 4.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/max-hands/frame-19.png",
+          "pngSHA256": "cf36acded2c5f63d819b1793c177a34af1d4e69674cb76b47365b44725f31d21"
+        },
+        {
+          "sample": 20,
+          "seconds": 5,
+          "sourceIndex": 120,
+          "sourceTime": 5,
+          "relativeTime": 5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/max-hands/frame-20.png",
+          "pngSHA256": "972bc04502eecea10a3671f60aaf0eca11f46ff0186b67299d3e50d1d76e0382"
+        },
+        {
+          "sample": 21,
+          "seconds": 5.25,
+          "sourceIndex": 126,
+          "sourceTime": 5.25,
+          "relativeTime": 5.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/max-hands/frame-21.png",
+          "pngSHA256": "bddbea716e383bbf913d2df46297663a77e6fbaa2823649b9df5518cc538445c"
+        },
+        {
+          "sample": 22,
+          "seconds": 5.5,
+          "sourceIndex": 132,
+          "sourceTime": 5.5,
+          "relativeTime": 5.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/max-hands/frame-22.png",
+          "pngSHA256": "9c726408e81c8affd2b3245d9355237ca0e13e4e540d2ed08d13b5a2629caae7"
+        },
+        {
+          "sample": 23,
+          "seconds": 5.75,
+          "sourceIndex": 138,
+          "sourceTime": 5.75,
+          "relativeTime": 5.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/max-hands/frame-23.png",
+          "pngSHA256": "783d405e0011eab5dd792eb9358d12dff1a5fec6cee79bcfab3dec1c09b57b94"
+        },
+        {
+          "sample": 24,
+          "seconds": 6,
+          "sourceIndex": 144,
+          "sourceTime": 6,
+          "relativeTime": 6,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/max-hands/frame-24.png",
+          "pngSHA256": "b9436cbabe2147bf39b7513026fd7abdf9da267b3aa0e254c5b97313f5ac53c9"
+        },
+        {
+          "sample": 25,
+          "seconds": 6.25,
+          "sourceIndex": 150,
+          "sourceTime": 6.25,
+          "relativeTime": 6.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/max-hands/frame-25.png",
+          "pngSHA256": "79d4694a66f418d648dd3b9db743b6f27e09a60437f6137bccc975ec4e9ed333"
+        },
+        {
+          "sample": 26,
+          "seconds": 6.5,
+          "sourceIndex": 156,
+          "sourceTime": 6.5,
+          "relativeTime": 6.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/max-hands/frame-26.png",
+          "pngSHA256": "8973e3c55dfcb7eb525d509f6c6b040b97497fb86dd4ca6d86715e8c6c6c0318"
+        },
+        {
+          "sample": 27,
+          "seconds": 6.75,
+          "sourceIndex": 162,
+          "sourceTime": 6.75,
+          "relativeTime": 6.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/max-hands/frame-27.png",
+          "pngSHA256": "7ec332e973ac8ffe3cd685b8a08bcda5bc06b891112b18905cfbd9335e041f59"
+        },
+        {
+          "sample": 28,
+          "seconds": 7,
+          "sourceIndex": 168,
+          "sourceTime": 7,
+          "relativeTime": 7,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/max-hands/frame-28.png",
+          "pngSHA256": "eaa16c9246f9e94c97c523a4fc5653fca8950638b7a52128a02ac60a1a6a3f9b"
+        },
+        {
+          "sample": 29,
+          "seconds": 7.25,
+          "sourceIndex": 174,
+          "sourceTime": 7.25,
+          "relativeTime": 7.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/max-hands/frame-29.png",
+          "pngSHA256": "feee193960cd287037ef578abf9340eecf26520e59d13fe0b81aec0f321dbe55"
+        },
+        {
+          "sample": 30,
+          "seconds": 7.5,
+          "sourceIndex": 180,
+          "sourceTime": 7.5,
+          "relativeTime": 7.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/max-hands/frame-30.png",
+          "pngSHA256": "97d0264de0a1713758f9349db4ff98c8759a7f0720a617eaddc93bb0c5c14569"
+        },
+        {
+          "sample": 31,
+          "seconds": 7.75,
+          "sourceIndex": 186,
+          "sourceTime": 7.75,
+          "relativeTime": 7.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/max-source/max-hands/frame-31.png",
+          "pngSHA256": "65873af64fb97a985309b613567338635986dcae389dad189d7780d644e9efa0"
+        }
+      ],
+      "nativePixels": true
+    }
+  ],
+  "extraction": "FFmpeg decoded original source indices, rgb24 PNG. Character crops are native rectangles without repainting/resizing; only contact thumbnails are resized.",
+  "visualReview": "approved-sampled-window",
+  "commands": [
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffprobe.exe",
+      "args": [
+        "-v",
+        "error",
+        "-count_frames",
+        "-show_streams",
+        "-show_format",
+        "-of",
+        "json",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v33\\opening\\clips\\06-max.mp4"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffprobe.exe",
+      "args": [
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_frames",
+        "-show_entries",
+        "frame=best_effort_timestamp_time",
+        "-of",
+        "json",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v33\\opening\\clips\\06-max.mp4"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v33\\opening\\clips\\06-max.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-vf",
+        "select='eq(n,0)+eq(n,12)+eq(n,24)+eq(n,36)+eq(n,48)+eq(n,60)+eq(n,72)+eq(n,84)+eq(n,96)+eq(n,108)+eq(n,120)+eq(n,132)+eq(n,144)+eq(n,156)+eq(n,168)+eq(n,180)',format=rgb24",
+        "-fps_mode",
+        "passthrough",
+        "-frames:v",
+        "16",
+        "-start_number",
+        "0",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\max-source\\full\\frame-%02d.png"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "0",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\max-source\\full\\frame-%02d.png",
+        "-vf",
+        "scale=320:180,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\max-source\\full-contact.jpg"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v33\\opening\\clips\\06-max.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-vf",
+        "select='eq(n,0)+eq(n,6)+eq(n,12)+eq(n,18)+eq(n,24)+eq(n,30)+eq(n,36)+eq(n,42)+eq(n,48)+eq(n,54)+eq(n,60)+eq(n,66)+eq(n,72)+eq(n,78)+eq(n,84)+eq(n,90)+eq(n,96)+eq(n,102)+eq(n,108)+eq(n,114)+eq(n,120)+eq(n,126)+eq(n,132)+eq(n,138)+eq(n,144)+eq(n,150)+eq(n,156)+eq(n,162)+eq(n,168)+eq(n,174)+eq(n,180)+eq(n,186)',format=rgb24,crop=300:470:730:240",
+        "-fps_mode",
+        "passthrough",
+        "-frames:v",
+        "32",
+        "-start_number",
+        "0",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\max-source\\vajra\\frame-%02d.png"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "0",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\max-source\\vajra\\frame-%02d.png",
+        "-vf",
+        "scale=320:501,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\max-source\\vajra-contact-1.jpg"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "16",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\max-source\\vajra\\frame-%02d.png",
+        "-vf",
+        "scale=320:501,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\max-source\\vajra-contact-2.jpg"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v33\\opening\\clips\\06-max.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-vf",
+        "select='eq(n,0)+eq(n,6)+eq(n,12)+eq(n,18)+eq(n,24)+eq(n,30)+eq(n,36)+eq(n,42)+eq(n,48)+eq(n,54)+eq(n,60)+eq(n,66)+eq(n,72)+eq(n,78)+eq(n,84)+eq(n,90)+eq(n,96)+eq(n,102)+eq(n,108)+eq(n,114)+eq(n,120)+eq(n,126)+eq(n,132)+eq(n,138)+eq(n,144)+eq(n,150)+eq(n,156)+eq(n,162)+eq(n,168)+eq(n,174)+eq(n,180)+eq(n,186)',format=rgb24,crop=320:340:340:70",
+        "-fps_mode",
+        "passthrough",
+        "-frames:v",
+        "32",
+        "-start_number",
+        "0",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\max-source\\max-hands\\frame-%02d.png"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "0",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\max-source\\max-hands\\frame-%02d.png",
+        "-vf",
+        "scale=320:340,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\max-source\\max-hands-contact-1.jpg"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "16",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\max-source\\max-hands\\frame-%02d.png",
+        "-vf",
+        "scale=320:340,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\max-source\\max-hands-contact-2.jpg"
+      ]
+    }
+  ],
+  "rootReview": "A raiz revisou a folha completa; a faixa branca de Vajra é tecido, não uma terceira perna.",
+  "approvedWindows": [
+    {
+      "frames": 120,
+      "startSeconds": 0,
+      "sourceIndices": [
+        0,
+        119
+      ]
+    },
+    {
+      "frames": 26,
+      "startSeconds": 5,
+      "sourceIndices": [
+        120,
+        145
+      ]
+    }
+  ]
+}

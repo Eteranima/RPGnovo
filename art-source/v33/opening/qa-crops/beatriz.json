@@ -1,0 +1,5 @@
+[
+  { "id": "beatriz-blade", "character": "Beatriz — mão e lâmina completas", "crop": { "x": 455, "y": 275, "width": 260, "height": 440 } },
+  { "id": "beatriz-palm", "character": "Beatriz — palma e água/escuridão", "crop": { "x": 855, "y": 65, "width": 285, "height": 230 } },
+  { "id": "beatriz-face", "character": "Beatriz — rosto, olhos e chapéu", "crop": { "x": 650, "y": 0, "width": 315, "height": 240 } }
+]

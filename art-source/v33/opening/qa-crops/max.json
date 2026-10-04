@@ -1,0 +1,4 @@
+[
+  { "id": "vajra", "character": "Vajra", "crop": { "x": 730, "y": 240, "width": 300, "height": 470 } },
+  { "id": "max-hands", "character": "Max, both hand trajectories", "crop": { "x": 340, "y": 70, "width": 320, "height": 340 } }
+]

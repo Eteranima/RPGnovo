@@ -1,0 +1,279 @@
+{
+  "schema": 1,
+  "source": "art-source/v33/opening/clips/01-academy.mp4",
+  "sourceSHA256": "1dfd057105d9ee6fe1d232dc89ebdefc148d2a8ebb3b7001d34a23819eb5714e",
+  "sourceBytes": 7748005,
+  "actualDecodedFrames": 192,
+  "sourceResolution": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 24,
+  "videoDurationSeconds": 8,
+  "containerDurationSeconds": 8,
+  "audio": [
+    {
+      "codec": "aac",
+      "sampleRate": "48000",
+      "channels": 2,
+      "duration": "8.000000"
+    }
+  ],
+  "full": [
+    {
+      "sample": 0,
+      "seconds": 0,
+      "sourceIndex": 0,
+      "sourceTime": 0,
+      "relativeTime": 0,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/academy-source/full/frame-00.png",
+      "pngSHA256": "12e64c44f0d99df6a8bc3e0cb31215fac9e5263b6bc6775b8c670ef178d66c51"
+    },
+    {
+      "sample": 1,
+      "seconds": 0.5,
+      "sourceIndex": 12,
+      "sourceTime": 0.5,
+      "relativeTime": 0.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/academy-source/full/frame-01.png",
+      "pngSHA256": "375e6e6dd859157d8acb196a987685cacf54cf27c1d97c4f7796045d7c9ef5c5"
+    },
+    {
+      "sample": 2,
+      "seconds": 1,
+      "sourceIndex": 24,
+      "sourceTime": 1,
+      "relativeTime": 1,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/academy-source/full/frame-02.png",
+      "pngSHA256": "af75b0a800d78c9eff4e005ee30c169ca9072285ee4340f3cd70d06ed6bdca77"
+    },
+    {
+      "sample": 3,
+      "seconds": 1.5,
+      "sourceIndex": 36,
+      "sourceTime": 1.5,
+      "relativeTime": 1.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/academy-source/full/frame-03.png",
+      "pngSHA256": "e3808c76ee5fbd49e0fc5c6507075d4da70ba7a9dc56036bfb3c85edfdf464c3"
+    },
+    {
+      "sample": 4,
+      "seconds": 2,
+      "sourceIndex": 48,
+      "sourceTime": 2,
+      "relativeTime": 2,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/academy-source/full/frame-04.png",
+      "pngSHA256": "ebab81f15be9d4c5238f37f3d9396f38cca1ba780951a9e800fab9fe2a45ba8a"
+    },
+    {
+      "sample": 5,
+      "seconds": 2.5,
+      "sourceIndex": 60,
+      "sourceTime": 2.5,
+      "relativeTime": 2.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/academy-source/full/frame-05.png",
+      "pngSHA256": "5531de83d829b97365ccf2f2db48974580e3bf62be85b7d76dfb4be7f804fa12"
+    },
+    {
+      "sample": 6,
+      "seconds": 3,
+      "sourceIndex": 72,
+      "sourceTime": 3,
+      "relativeTime": 3,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/academy-source/full/frame-06.png",
+      "pngSHA256": "4fb5f6f42fea179135210359353a6f428f8bb7c9f43bae24ebbe905b0a8f4b92"
+    },
+    {
+      "sample": 7,
+      "seconds": 3.5,
+      "sourceIndex": 84,
+      "sourceTime": 3.5,
+      "relativeTime": 3.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/academy-source/full/frame-07.png",
+      "pngSHA256": "c1bfbc0b5aefad769b3843802e5ff0a0a5d50b39e9f1b0340b51ed27a8d2af07"
+    },
+    {
+      "sample": 8,
+      "seconds": 4,
+      "sourceIndex": 96,
+      "sourceTime": 4,
+      "relativeTime": 4,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/academy-source/full/frame-08.png",
+      "pngSHA256": "1719f36468c0201e39520e95360c798e87b4d189273c65515fba7a7ecd3ccaba"
+    },
+    {
+      "sample": 9,
+      "seconds": 4.5,
+      "sourceIndex": 108,
+      "sourceTime": 4.5,
+      "relativeTime": 4.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/academy-source/full/frame-09.png",
+      "pngSHA256": "bb35cf924eb1eb78874597696a1859fdc3d49b2856d7a5e549ec4612d7fd0967"
+    },
+    {
+      "sample": 10,
+      "seconds": 5,
+      "sourceIndex": 120,
+      "sourceTime": 5,
+      "relativeTime": 5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/academy-source/full/frame-10.png",
+      "pngSHA256": "30f131d4c8cb90b817989e77e60f3dc2e799dc787331f9c332545344c5b7aa93"
+    },
+    {
+      "sample": 11,
+      "seconds": 5.5,
+      "sourceIndex": 132,
+      "sourceTime": 5.5,
+      "relativeTime": 5.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/academy-source/full/frame-11.png",
+      "pngSHA256": "c0344911509aa614c691c6a95090bea0d611a6a1348cc48c74f05bee6ab34bf1"
+    },
+    {
+      "sample": 12,
+      "seconds": 6,
+      "sourceIndex": 144,
+      "sourceTime": 6,
+      "relativeTime": 6,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/academy-source/full/frame-12.png",
+      "pngSHA256": "0e247518b08ce844b04ad286865735e29653a2959772ae6e4c7a3053fb3987f4"
+    },
+    {
+      "sample": 13,
+      "seconds": 6.5,
+      "sourceIndex": 156,
+      "sourceTime": 6.5,
+      "relativeTime": 6.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/academy-source/full/frame-13.png",
+      "pngSHA256": "673026f112e3919bbc3a24728ecd703c2f144102df6dbd020dfba3e1cc6662d7"
+    },
+    {
+      "sample": 14,
+      "seconds": 7,
+      "sourceIndex": 168,
+      "sourceTime": 7,
+      "relativeTime": 7,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/academy-source/full/frame-14.png",
+      "pngSHA256": "d21d1492d4e66a2a96f989f97052267a21d996665048e0c8d347c0ab6dbff7a5"
+    },
+    {
+      "sample": 15,
+      "seconds": 7.5,
+      "sourceIndex": 180,
+      "sourceTime": 7.5,
+      "relativeTime": 7.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/academy-source/full/frame-15.png",
+      "pngSHA256": "4495291d514718846005e325aaaa6bd7242013dcdee03240e9e19e5aa8a494f0"
+    }
+  ],
+  "cropped": null,
+  "extraction": "FFmpeg decoded original source indices, rgb24 PNG. Character crops are native rectangles without repainting/resizing; only contact thumbnails are resized.",
+  "visualReview": {
+    "status": "approved-window-by-root",
+    "fullPNGs": 16,
+    "recommendedStartSeconds": 1.5,
+    "recommendedFrames": 144,
+    "approvedMainSourceIndices": [
+      36,
+      179
+    ],
+    "approvedClosingSourceIndices": [
+      180,
+      191
+    ],
+    "excludedSourceIntervalSeconds": [
+      0,
+      1.5
+    ],
+    "editorialApproval": "root-reviewed-contact-sheet",
+    "note": "Usar 1,5–7,5 s. Excluir surgimento semitransparente do arco no início; encerramento somente 180–191 ou dispensar Academia."
+  },
+  "commands": [
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffprobe.exe",
+      "args": [
+        "-v",
+        "error",
+        "-count_frames",
+        "-show_streams",
+        "-show_format",
+        "-of",
+        "json",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v33\\opening\\clips\\01-academy.mp4"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffprobe.exe",
+      "args": [
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_frames",
+        "-show_entries",
+        "frame=best_effort_timestamp_time",
+        "-of",
+        "json",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v33\\opening\\clips\\01-academy.mp4"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v33\\opening\\clips\\01-academy.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-vf",
+        "select='eq(n,0)+eq(n,12)+eq(n,24)+eq(n,36)+eq(n,48)+eq(n,60)+eq(n,72)+eq(n,84)+eq(n,96)+eq(n,108)+eq(n,120)+eq(n,132)+eq(n,144)+eq(n,156)+eq(n,168)+eq(n,180)',format=rgb24",
+        "-fps_mode",
+        "passthrough",
+        "-frames:v",
+        "16",
+        "-start_number",
+        "0",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\academy-source\\full\\frame-%02d.png"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "0",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\academy-source\\full\\frame-%02d.png",
+        "-vf",
+        "scale=320:180,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\academy-source\\full-contact.jpg"
+      ]
+    }
+  ]
+}

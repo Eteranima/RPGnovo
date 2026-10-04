@@ -1,0 +1,48 @@
+{
+  "origin": "http://127.0.0.1:5175",
+  "productionBuild": true,
+  "source": "CompiledVinext/WranglerLocal",
+  "duration": 62.5,
+  "resolution": [
+    1280,
+    720
+  ],
+  "end": {
+    "currentTime": 62.5,
+    "ended": true,
+    "paused": true,
+    "nativeFrame": 1499,
+    "muted": true
+  },
+  "reducedMotionObserved": true,
+  "initiallyPausedRespectingReducedMotion": true,
+  "manualPlaySucceeded": true,
+  "replaySucceeded": true,
+  "pause": {
+    "currentTime": 34.318378,
+    "duration": 62.5,
+    "muted": true,
+    "nativeFrame": "823",
+    "paused": true
+  },
+  "fullscreen": {
+    "startedUsingGameControl": true,
+    "atEnd": false,
+    "note": "Player remained functional across fullscreen exit; exact exit cause was not observed."
+  },
+  "keysContained": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "p"
+  ],
+  "stateUnchanged": true,
+  "baseline": "{\"map\":\"patio\",\"stage\":0,\"mode\":\"start\",\"position\":{\"x\":14,\"y\":12},\"objective\":\"Encontre Beatriz no pátio e descubra o que está acontecendo.\",\"heroes\":[{\"id\":\"seiji\",\"name\":\"Seiji\",\"element\":\"Tinta\",\"role\":\"Escriba\",\"maxHp\":85,\"hp\":85,\"maxMp\":40,\"mp\":40,\"atk\":18,\"spd\":15,\"guard\":false},{\"id\":\"ophelia\",\"name\":\"Ophelia\",\"element\":\"Gelo\",\"role\":\"Curandeira\",\"maxHp\":70,\"hp\":70,\"maxMp\":55,\"mp\":55,\"atk\":14,\"spd\":13,\"guard\":false}]}",
+  "finalState": "{\"map\":\"patio\",\"stage\":0,\"mode\":\"start\",\"position\":{\"x\":14,\"y\":12},\"objective\":\"Encontre Beatriz no pátio e descubra o que está acontecendo.\",\"heroes\":[{\"id\":\"seiji\",\"name\":\"Seiji\",\"element\":\"Tinta\",\"role\":\"Escriba\",\"maxHp\":85,\"hp\":85,\"maxMp\":40,\"mp\":40,\"atk\":18,\"spd\":15,\"guard\":false},{\"id\":\"ophelia\",\"name\":\"Ophelia\",\"element\":\"Gelo\",\"role\":\"Curandeira\",\"maxHp\":70,\"hp\":70,\"maxMp\":55,\"mp\":55,\"atk\":14,\"spd\":13,\"guard\":false}]}",
+  "proof": "player-proof.png",
+  "recoveryTest": "browser-recovery-test.json",
+  "limits": "Anatomy and compression were reviewed through native frame sampling; mobile viewport was not browser-tested.",
+  "mainLocalServer": "http://127.0.0.1:5173 restored with approved compiled assets"
+}

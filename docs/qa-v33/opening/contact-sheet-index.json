@@ -1,0 +1,1150 @@
+{
+  "columns": 5,
+  "rows": 12,
+  "thumbnail": {
+    "width": 320,
+    "height": 180
+  },
+  "samples": [
+    {
+      "sample": 0,
+      "shot": "shot-01",
+      "column": 0,
+      "localFrame": 0,
+      "filmFrame": 0,
+      "seconds": 0,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/01-academy.mp4",
+        "sourceSHA256": "1dfd057105d9ee6fe1d232dc89ebdefc148d2a8ebb3b7001d34a23819eb5714e",
+        "segment": "shot-01-segment-01",
+        "sourceIndex": 36,
+        "sourceTime": 1.5,
+        "pngSHA256": "ef6f0c476b34a90aea7eb0fe5e528fd29d7bb558a51e696fef44bb9d464ffd25",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-000.png"
+      },
+      "pngSHA256": "e28464702e5a63c2b40f743674c947b0b585599b22dedee4df1cdda60b636229",
+      "path": "docs/qa-v33/opening/frames/frame-000.png"
+    },
+    {
+      "sample": 1,
+      "shot": "shot-01",
+      "column": 1,
+      "localFrame": 36,
+      "filmFrame": 36,
+      "seconds": 1.5,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/01-academy.mp4",
+        "sourceSHA256": "1dfd057105d9ee6fe1d232dc89ebdefc148d2a8ebb3b7001d34a23819eb5714e",
+        "segment": "shot-01-segment-01",
+        "sourceIndex": 72,
+        "sourceTime": 3,
+        "pngSHA256": "67b29fb56c1e03084661d34591a437fbb940ca5116b0d784c8a412a137284c4d",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-001.png"
+      },
+      "pngSHA256": "17faa67044ac307a260b7470d556be1a3ac587d8a2167bfd4e1ee66cc6324ba2",
+      "path": "docs/qa-v33/opening/frames/frame-001.png"
+    },
+    {
+      "sample": 2,
+      "shot": "shot-01",
+      "column": 2,
+      "localFrame": 72,
+      "filmFrame": 72,
+      "seconds": 3,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/01-academy.mp4",
+        "sourceSHA256": "1dfd057105d9ee6fe1d232dc89ebdefc148d2a8ebb3b7001d34a23819eb5714e",
+        "segment": "shot-01-segment-01",
+        "sourceIndex": 108,
+        "sourceTime": 4.5,
+        "pngSHA256": "dbae9acf9daf4603bda15b8ff57d7e82af2e017608bfa50e90fe697df47e9c1a",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-002.png"
+      },
+      "pngSHA256": "83d8e42af0b9c40bbbf998ebb7dbc8e86cf7560eb17a6e439f1e3a4e7023082f",
+      "path": "docs/qa-v33/opening/frames/frame-002.png"
+    },
+    {
+      "sample": 3,
+      "shot": "shot-01",
+      "column": 3,
+      "localFrame": 108,
+      "filmFrame": 108,
+      "seconds": 4.5,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/01-academy.mp4",
+        "sourceSHA256": "1dfd057105d9ee6fe1d232dc89ebdefc148d2a8ebb3b7001d34a23819eb5714e",
+        "segment": "shot-01-segment-01",
+        "sourceIndex": 144,
+        "sourceTime": 6,
+        "pngSHA256": "356b536ba1b3dfcecd73e76f1f39c132aafad2972f65ca6954e313938ac79876",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-003.png"
+      },
+      "pngSHA256": "13d5804f946c26b7bc2527901aab28917e09c527725647ce3d92f09eb9035685",
+      "path": "docs/qa-v33/opening/frames/frame-003.png"
+    },
+    {
+      "sample": 4,
+      "shot": "shot-01",
+      "column": 4,
+      "localFrame": 143,
+      "filmFrame": 143,
+      "seconds": 5.958333333333333,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/01-academy.mp4",
+        "sourceSHA256": "1dfd057105d9ee6fe1d232dc89ebdefc148d2a8ebb3b7001d34a23819eb5714e",
+        "segment": "shot-01-segment-01",
+        "sourceIndex": 179,
+        "sourceTime": 7.458333,
+        "pngSHA256": "06e8b0c7c277df4709e65dcd8bc5b748259de0e5a045843687bd02d6883fa68a",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-004.png"
+      },
+      "pngSHA256": "e3807a8ef13a084b658a5475aa6a90b82ff366300c731aaa158fbeb1d02e0804",
+      "path": "docs/qa-v33/opening/frames/frame-004.png"
+    },
+    {
+      "sample": 5,
+      "shot": "shot-02",
+      "column": 0,
+      "localFrame": 0,
+      "filmFrame": 144,
+      "seconds": 6,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/02-seiji-corrected.mp4",
+        "sourceSHA256": "532324c6e66ff71263dbacf70f291465543496239bcb070a12fefacc838a8a0c",
+        "segment": "shot-02-segment-01",
+        "sourceIndex": 0,
+        "sourceTime": 0,
+        "pngSHA256": "c5f96c02a795351be2e17d5bc4f0db1d892699c10c3a78a726f8616041a40582",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-005.png"
+      },
+      "pngSHA256": "139d326da8b6fc0d1fb2e7a2578372b692c8c2cce6cfb063af79629bd6c1f90d",
+      "path": "docs/qa-v33/opening/frames/frame-005.png"
+    },
+    {
+      "sample": 6,
+      "shot": "shot-02",
+      "column": 1,
+      "localFrame": 30,
+      "filmFrame": 174,
+      "seconds": 7.25,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/02-seiji-corrected.mp4",
+        "sourceSHA256": "532324c6e66ff71263dbacf70f291465543496239bcb070a12fefacc838a8a0c",
+        "segment": "shot-02-segment-01",
+        "sourceIndex": 30,
+        "sourceTime": 1.25,
+        "pngSHA256": "570848feb8da9cd5c21070f1803cdfb5fc2f82c19803902873a636721fd6d41f",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-006.png"
+      },
+      "pngSHA256": "e987fa16bc5175f7de966dbc8ffa8e14aa98a2b4e04f90608dafe8c2b9372611",
+      "path": "docs/qa-v33/opening/frames/frame-006.png"
+    },
+    {
+      "sample": 7,
+      "shot": "shot-02",
+      "column": 2,
+      "localFrame": 60,
+      "filmFrame": 204,
+      "seconds": 8.5,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/02-seiji-corrected.mp4",
+        "sourceSHA256": "532324c6e66ff71263dbacf70f291465543496239bcb070a12fefacc838a8a0c",
+        "segment": "shot-02-segment-01",
+        "sourceIndex": 60,
+        "sourceTime": 2.5,
+        "pngSHA256": "47bc0550813df1efe14b19731bb3a315629dd1b2dd6d3ceeae74b2203a071cda",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-007.png"
+      },
+      "pngSHA256": "5473bfaefa6e1a77dc3163f5788414fe0b93cab1a04c4c361f0cf16f44700432",
+      "path": "docs/qa-v33/opening/frames/frame-007.png"
+    },
+    {
+      "sample": 8,
+      "shot": "shot-02",
+      "column": 3,
+      "localFrame": 90,
+      "filmFrame": 234,
+      "seconds": 9.75,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/02-seiji-corrected.mp4",
+        "sourceSHA256": "532324c6e66ff71263dbacf70f291465543496239bcb070a12fefacc838a8a0c",
+        "segment": "shot-02-segment-01",
+        "sourceIndex": 90,
+        "sourceTime": 3.75,
+        "pngSHA256": "2cd780a76d94175c1d97e776673c1dc62fa8802dccb0fd9b447512d6993b1e39",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-008.png"
+      },
+      "pngSHA256": "81779bcbd378f3578c85689d3671b0b601d6e97bc267bd456f4277db5b15a766",
+      "path": "docs/qa-v33/opening/frames/frame-008.png"
+    },
+    {
+      "sample": 9,
+      "shot": "shot-02",
+      "column": 4,
+      "localFrame": 119,
+      "filmFrame": 263,
+      "seconds": 10.958333333333334,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/02-seiji-corrected.mp4",
+        "sourceSHA256": "532324c6e66ff71263dbacf70f291465543496239bcb070a12fefacc838a8a0c",
+        "segment": "shot-02-segment-01",
+        "sourceIndex": 119,
+        "sourceTime": 4.958333,
+        "pngSHA256": "799c56152f18688ff2772e779371988398fd284add2fad1f4ea12640ce8f9a91",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-009.png"
+      },
+      "pngSHA256": "26f0863b016573e53ee5e633771037ecd9c46afc3600eb577c88b8219e8d7b3c",
+      "path": "docs/qa-v33/opening/frames/frame-009.png"
+    },
+    {
+      "sample": 10,
+      "shot": "shot-03",
+      "column": 0,
+      "localFrame": 0,
+      "filmFrame": 264,
+      "seconds": 11,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/03-ophelia-fixed.mp4",
+        "sourceSHA256": "1b07d387adba2ff62c8f9ef69861abd520ce42c85c54437bae9ff1bd3c7c4bfd",
+        "segment": "shot-03-segment-01",
+        "sourceIndex": 0,
+        "sourceTime": 0,
+        "pngSHA256": "0c6b7ed99899099601efbae724a086789c882c534a1fd869690470cbf6debeef",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-010.png"
+      },
+      "pngSHA256": "d5a9eac6cea07b0a03f254a634be901bf2ce6a097f20e34b930b2eb2ed8db366",
+      "path": "docs/qa-v33/opening/frames/frame-010.png"
+    },
+    {
+      "sample": 11,
+      "shot": "shot-03",
+      "column": 1,
+      "localFrame": 30,
+      "filmFrame": 294,
+      "seconds": 12.25,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/03-ophelia-fixed.mp4",
+        "sourceSHA256": "1b07d387adba2ff62c8f9ef69861abd520ce42c85c54437bae9ff1bd3c7c4bfd",
+        "segment": "shot-03-segment-01",
+        "sourceIndex": 30,
+        "sourceTime": 1.25,
+        "pngSHA256": "bbd738c63fc028d91b8eec9dcd804b0a1f29969443030b4e3a63e87076449d95",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-011.png"
+      },
+      "pngSHA256": "63e0d766338ab816bde00aeda76f3e153350eaa500874987b81419a96b60930a",
+      "path": "docs/qa-v33/opening/frames/frame-011.png"
+    },
+    {
+      "sample": 12,
+      "shot": "shot-03",
+      "column": 2,
+      "localFrame": 60,
+      "filmFrame": 324,
+      "seconds": 13.5,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/03-ophelia-fixed.mp4",
+        "sourceSHA256": "1b07d387adba2ff62c8f9ef69861abd520ce42c85c54437bae9ff1bd3c7c4bfd",
+        "segment": "shot-03-segment-01",
+        "sourceIndex": 60,
+        "sourceTime": 2.5,
+        "pngSHA256": "247990284e3f2d86905ac70eef0d60ca314f9e8e0da7a6d447f4cd8e78c89b8c",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-012.png"
+      },
+      "pngSHA256": "a08528faa9a19bd2a9dcb481fcbaf3c425b72a4adb8fa9ec93de11a6e4169a9e",
+      "path": "docs/qa-v33/opening/frames/frame-012.png"
+    },
+    {
+      "sample": 13,
+      "shot": "shot-03",
+      "column": 3,
+      "localFrame": 90,
+      "filmFrame": 354,
+      "seconds": 14.75,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/03-ophelia-fixed.mp4",
+        "sourceSHA256": "1b07d387adba2ff62c8f9ef69861abd520ce42c85c54437bae9ff1bd3c7c4bfd",
+        "segment": "shot-03-segment-01",
+        "sourceIndex": 90,
+        "sourceTime": 3.75,
+        "pngSHA256": "e69bac98b3f5105a20b94637211c5efe082cf8362134ceca4594aa56cc546907",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-013.png"
+      },
+      "pngSHA256": "88c2f3b1165e00e2eac37a10ce06071d710cf211c15141bc5842887854ceed16",
+      "path": "docs/qa-v33/opening/frames/frame-013.png"
+    },
+    {
+      "sample": 14,
+      "shot": "shot-03",
+      "column": 4,
+      "localFrame": 119,
+      "filmFrame": 383,
+      "seconds": 15.958333333333334,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/03-ophelia-fixed.mp4",
+        "sourceSHA256": "1b07d387adba2ff62c8f9ef69861abd520ce42c85c54437bae9ff1bd3c7c4bfd",
+        "segment": "shot-03-segment-01",
+        "sourceIndex": 119,
+        "sourceTime": 4.958333,
+        "pngSHA256": "3349e8c204335aa0180d09cf5b11d18c01019bd895a914e6f8957079e304c26a",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-014.png"
+      },
+      "pngSHA256": "1601a2a97f4c7934f3ad53eaec461088f55948ae19647dbd7aa6be11b6fcd54c",
+      "path": "docs/qa-v33/opening/frames/frame-014.png"
+    },
+    {
+      "sample": 15,
+      "shot": "shot-04",
+      "column": 0,
+      "localFrame": 0,
+      "filmFrame": 384,
+      "seconds": 16,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/04-marin-fixed.mp4",
+        "sourceSHA256": "186d4962c7f96910bd53b806dae6853ef5e05952f557afa59a5ccf7b4143a89c",
+        "segment": "shot-04-segment-01",
+        "sourceIndex": 0,
+        "sourceTime": 0,
+        "pngSHA256": "d9d94f4a7611911d298ca2d05b971472c5e943873e571d3fc0430af02c1a5f9b",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-015.png"
+      },
+      "pngSHA256": "2f52289b6411f7408a95d36969233a65f474d06b66cfe3d200c45c465b9705fb",
+      "path": "docs/qa-v33/opening/frames/frame-015.png"
+    },
+    {
+      "sample": 16,
+      "shot": "shot-04",
+      "column": 1,
+      "localFrame": 30,
+      "filmFrame": 414,
+      "seconds": 17.25,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/04-marin-fixed.mp4",
+        "sourceSHA256": "186d4962c7f96910bd53b806dae6853ef5e05952f557afa59a5ccf7b4143a89c",
+        "segment": "shot-04-segment-01",
+        "sourceIndex": 30,
+        "sourceTime": 1.25,
+        "pngSHA256": "794fcc96873e31ac16de313ba375f74ff4c41a9e2d3a9c57b903c71a33bcdfd6",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-016.png"
+      },
+      "pngSHA256": "4d62cf62b791b2a0acca25599b3d095872e6534a61611d575b5be2b81ec2722d",
+      "path": "docs/qa-v33/opening/frames/frame-016.png"
+    },
+    {
+      "sample": 17,
+      "shot": "shot-04",
+      "column": 2,
+      "localFrame": 60,
+      "filmFrame": 444,
+      "seconds": 18.5,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/04-marin-fixed.mp4",
+        "sourceSHA256": "186d4962c7f96910bd53b806dae6853ef5e05952f557afa59a5ccf7b4143a89c",
+        "segment": "shot-04-segment-01",
+        "sourceIndex": 60,
+        "sourceTime": 2.5,
+        "pngSHA256": "fbf694f387cd64aa0b01b1bb8ef00212d7b7e638ec724933e259d0cd67f2c3c0",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-017.png"
+      },
+      "pngSHA256": "cc27d614b4811199cb665a46fef463ad820bbebb22642747f604ac3359669573",
+      "path": "docs/qa-v33/opening/frames/frame-017.png"
+    },
+    {
+      "sample": 18,
+      "shot": "shot-04",
+      "column": 3,
+      "localFrame": 90,
+      "filmFrame": 474,
+      "seconds": 19.75,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/04-marin-fixed.mp4",
+        "sourceSHA256": "186d4962c7f96910bd53b806dae6853ef5e05952f557afa59a5ccf7b4143a89c",
+        "segment": "shot-04-segment-01",
+        "sourceIndex": 90,
+        "sourceTime": 3.75,
+        "pngSHA256": "9ce3d64e24d440c109a7117b58229f1dfb9f721e34757d5503f747daa0ceeed9",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-018.png"
+      },
+      "pngSHA256": "1bc9f10632966e32763bff7669195036264609489ce7c76851c07d618fbca0c7",
+      "path": "docs/qa-v33/opening/frames/frame-018.png"
+    },
+    {
+      "sample": 19,
+      "shot": "shot-04",
+      "column": 4,
+      "localFrame": 119,
+      "filmFrame": 503,
+      "seconds": 20.958333333333332,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/04-marin-fixed.mp4",
+        "sourceSHA256": "186d4962c7f96910bd53b806dae6853ef5e05952f557afa59a5ccf7b4143a89c",
+        "segment": "shot-04-segment-01",
+        "sourceIndex": 119,
+        "sourceTime": 4.958333,
+        "pngSHA256": "3824378172d71176a44158e0ee08c489f0c5de762b52bc362afb00d337fd3576",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-019.png"
+      },
+      "pngSHA256": "172e4d1d39f4ded79394f672a127aff3de69ccc95a697069f4127e17ca660663",
+      "path": "docs/qa-v33/opening/frames/frame-019.png"
+    },
+    {
+      "sample": 20,
+      "shot": "shot-05",
+      "column": 0,
+      "localFrame": 0,
+      "filmFrame": 504,
+      "seconds": 21,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/05-gabriel-fixed.mp4",
+        "sourceSHA256": "57c925e10cee9f6a6b87c0d1d8ab96d01a1310dab23335e3d497339582d8f507",
+        "segment": "shot-05-segment-01",
+        "sourceIndex": 0,
+        "sourceTime": 0,
+        "pngSHA256": "137fdff783bb71bc7896121d4f56736c958cc96a91005141a25244129baa8474",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-020.png"
+      },
+      "pngSHA256": "9909fdb3c0d77ebadb8dade45806d768a42db0b9a5e4863182c9db653f92fe88",
+      "path": "docs/qa-v33/opening/frames/frame-020.png"
+    },
+    {
+      "sample": 21,
+      "shot": "shot-05",
+      "column": 1,
+      "localFrame": 30,
+      "filmFrame": 534,
+      "seconds": 22.25,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/05-gabriel-fixed.mp4",
+        "sourceSHA256": "57c925e10cee9f6a6b87c0d1d8ab96d01a1310dab23335e3d497339582d8f507",
+        "segment": "shot-05-segment-01",
+        "sourceIndex": 30,
+        "sourceTime": 1.25,
+        "pngSHA256": "fe41847e4f9ddd5c945b28c061571b6985d21751c084aa6f44bc1a940a770bd1",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-021.png"
+      },
+      "pngSHA256": "de883a80ffe31438cffb29866093d3de665d3df2519a703fc63815b6bb018ca8",
+      "path": "docs/qa-v33/opening/frames/frame-021.png"
+    },
+    {
+      "sample": 22,
+      "shot": "shot-05",
+      "column": 2,
+      "localFrame": 60,
+      "filmFrame": 564,
+      "seconds": 23.5,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/05-gabriel-fixed.mp4",
+        "sourceSHA256": "57c925e10cee9f6a6b87c0d1d8ab96d01a1310dab23335e3d497339582d8f507",
+        "segment": "shot-05-segment-01",
+        "sourceIndex": 60,
+        "sourceTime": 2.5,
+        "pngSHA256": "a4fdb8bbcea343466d48817b953d394d36da1ca8d9127a48b7cbd1a92603c91c",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-022.png"
+      },
+      "pngSHA256": "a2f4d80103dac8995c2eeacc9acb2daecd00866c83f5a791aefe9a1f7f3d327d",
+      "path": "docs/qa-v33/opening/frames/frame-022.png"
+    },
+    {
+      "sample": 23,
+      "shot": "shot-05",
+      "column": 3,
+      "localFrame": 90,
+      "filmFrame": 594,
+      "seconds": 24.75,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/05-gabriel-fixed.mp4",
+        "sourceSHA256": "57c925e10cee9f6a6b87c0d1d8ab96d01a1310dab23335e3d497339582d8f507",
+        "segment": "shot-05-segment-01",
+        "sourceIndex": 90,
+        "sourceTime": 3.75,
+        "pngSHA256": "6b2b6d5b618c6c226d514d2f49c9ea7115ed3637ac83226f5e80045f4a390d2e",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-023.png"
+      },
+      "pngSHA256": "de3dff74a496fba75cd345dde186fec9eec49f0972d2bef5941eb861a1494e5c",
+      "path": "docs/qa-v33/opening/frames/frame-023.png"
+    },
+    {
+      "sample": 24,
+      "shot": "shot-05",
+      "column": 4,
+      "localFrame": 119,
+      "filmFrame": 623,
+      "seconds": 25.958333333333332,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/05-gabriel-fixed.mp4",
+        "sourceSHA256": "57c925e10cee9f6a6b87c0d1d8ab96d01a1310dab23335e3d497339582d8f507",
+        "segment": "shot-05-segment-01",
+        "sourceIndex": 119,
+        "sourceTime": 4.958333,
+        "pngSHA256": "ab3a5653caafd4f5815a64f47a44d489769b8e6a967479558e38a26c1991d34a",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-024.png"
+      },
+      "pngSHA256": "1dcbea078a91b1f15714afee7be1f8aa9a95777900b7bce5fe8fdda3f6949df2",
+      "path": "docs/qa-v33/opening/frames/frame-024.png"
+    },
+    {
+      "sample": 25,
+      "shot": "shot-06",
+      "column": 0,
+      "localFrame": 0,
+      "filmFrame": 624,
+      "seconds": 26,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/06-max.mp4",
+        "sourceSHA256": "81b3e1ccad42a1554976982d7c8502cadf4809bd372cf32b686874d68c5d2866",
+        "segment": "shot-06-segment-01",
+        "sourceIndex": 0,
+        "sourceTime": 0,
+        "pngSHA256": "6e3637bd21c9cf0152070e7aee666d70f3e44e47a10b136d4f6b38e2673adfcd",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-025.png"
+      },
+      "pngSHA256": "8e871c59ba093210cc6356690d59db733dc38f0de423b2a1b6332cfc787be0cb",
+      "path": "docs/qa-v33/opening/frames/frame-025.png"
+    },
+    {
+      "sample": 26,
+      "shot": "shot-06",
+      "column": 1,
+      "localFrame": 30,
+      "filmFrame": 654,
+      "seconds": 27.25,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/06-max.mp4",
+        "sourceSHA256": "81b3e1ccad42a1554976982d7c8502cadf4809bd372cf32b686874d68c5d2866",
+        "segment": "shot-06-segment-01",
+        "sourceIndex": 30,
+        "sourceTime": 1.25,
+        "pngSHA256": "c980e66c9e870b452a16f200aa5d6b8f3210d1e7aee46870b2c67d26f70e908f",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-026.png"
+      },
+      "pngSHA256": "8fb9450fc59b2e51129fb93b913c1a429218d5d8c4d08f540d98e3bcdc282250",
+      "path": "docs/qa-v33/opening/frames/frame-026.png"
+    },
+    {
+      "sample": 27,
+      "shot": "shot-06",
+      "column": 2,
+      "localFrame": 60,
+      "filmFrame": 684,
+      "seconds": 28.5,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/06-max.mp4",
+        "sourceSHA256": "81b3e1ccad42a1554976982d7c8502cadf4809bd372cf32b686874d68c5d2866",
+        "segment": "shot-06-segment-01",
+        "sourceIndex": 60,
+        "sourceTime": 2.5,
+        "pngSHA256": "152128afde93a45d76191d7def1a7af6f49966bc996665ce42f812e39ae3739e",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-027.png"
+      },
+      "pngSHA256": "6dceafade9dcb83178caef575ed2d25ba51ba726f9ab1399af9cd1bd1b24e45f",
+      "path": "docs/qa-v33/opening/frames/frame-027.png"
+    },
+    {
+      "sample": 28,
+      "shot": "shot-06",
+      "column": 3,
+      "localFrame": 90,
+      "filmFrame": 714,
+      "seconds": 29.75,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/06-max.mp4",
+        "sourceSHA256": "81b3e1ccad42a1554976982d7c8502cadf4809bd372cf32b686874d68c5d2866",
+        "segment": "shot-06-segment-01",
+        "sourceIndex": 90,
+        "sourceTime": 3.75,
+        "pngSHA256": "e5107ab6e60786074f7ef630f64f583ab9090fadad93fd423e407fdb467d0f3a",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-028.png"
+      },
+      "pngSHA256": "eb852b018417992cb7023b0d361514e2b459695c4a4cfb9b9328b0e615ac6ab2",
+      "path": "docs/qa-v33/opening/frames/frame-028.png"
+    },
+    {
+      "sample": 29,
+      "shot": "shot-06",
+      "column": 4,
+      "localFrame": 119,
+      "filmFrame": 743,
+      "seconds": 30.958333333333332,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/06-max.mp4",
+        "sourceSHA256": "81b3e1ccad42a1554976982d7c8502cadf4809bd372cf32b686874d68c5d2866",
+        "segment": "shot-06-segment-01",
+        "sourceIndex": 119,
+        "sourceTime": 4.958333,
+        "pngSHA256": "845fb9e8da35131b168135b97d8eef9367376917376297b7c2b364ae081390ed",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-029.png"
+      },
+      "pngSHA256": "eb272a645009e38ab33b9c16e0b8d119c719521ee9caa18c45be669a22572de0",
+      "path": "docs/qa-v33/opening/frames/frame-029.png"
+    },
+    {
+      "sample": 30,
+      "shot": "shot-07",
+      "column": 0,
+      "localFrame": 0,
+      "filmFrame": 744,
+      "seconds": 31,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/07-ava.mp4",
+        "sourceSHA256": "76eac49519be831386b3e4efdb12e55e0070625c830cc81471d35d659d90f0c6",
+        "segment": "shot-07-segment-01",
+        "sourceIndex": 0,
+        "sourceTime": 0,
+        "pngSHA256": "bc83f17b631238e5ed5016a6f1f38e1492bceb6114f5f6f25cad8cc105c09940",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-030.png"
+      },
+      "pngSHA256": "730d634820eb7642ad3fb1dbfa1513c86aeb2c5a0db2f6ef4c91ae00e7e00c84",
+      "path": "docs/qa-v33/opening/frames/frame-030.png"
+    },
+    {
+      "sample": 31,
+      "shot": "shot-07",
+      "column": 1,
+      "localFrame": 30,
+      "filmFrame": 774,
+      "seconds": 32.25,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/07-ava.mp4",
+        "sourceSHA256": "76eac49519be831386b3e4efdb12e55e0070625c830cc81471d35d659d90f0c6",
+        "segment": "shot-07-segment-01",
+        "sourceIndex": 30,
+        "sourceTime": 1.25,
+        "pngSHA256": "00db9d3e02e9f6a2f0f2e1d79eadd681adeeafdda3d78165fa74ca997089f0cd",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-031.png"
+      },
+      "pngSHA256": "65ae10009f73ea7359f1ddcd61cdd688a92d4b198dd4c23a3de26a77bd53d986",
+      "path": "docs/qa-v33/opening/frames/frame-031.png"
+    },
+    {
+      "sample": 32,
+      "shot": "shot-07",
+      "column": 2,
+      "localFrame": 60,
+      "filmFrame": 804,
+      "seconds": 33.5,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/07-ava.mp4",
+        "sourceSHA256": "76eac49519be831386b3e4efdb12e55e0070625c830cc81471d35d659d90f0c6",
+        "segment": "shot-07-segment-01",
+        "sourceIndex": 60,
+        "sourceTime": 2.5,
+        "pngSHA256": "d2ddfd842e2f7e772b0f48128f04ad454e50fcbd3d9ea9a7e59b3c9431714f7f",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-032.png"
+      },
+      "pngSHA256": "85ad4e0f1949e6b79abf8f32e1088ca33d2673bad0f91ba55ee39393234fcd99",
+      "path": "docs/qa-v33/opening/frames/frame-032.png"
+    },
+    {
+      "sample": 33,
+      "shot": "shot-07",
+      "column": 3,
+      "localFrame": 90,
+      "filmFrame": 834,
+      "seconds": 34.75,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/07-ava.mp4",
+        "sourceSHA256": "76eac49519be831386b3e4efdb12e55e0070625c830cc81471d35d659d90f0c6",
+        "segment": "shot-07-segment-01",
+        "sourceIndex": 90,
+        "sourceTime": 3.75,
+        "pngSHA256": "909f606761a462e7450de491f10877422deda83d340960ec785d41ccf31deb3a",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-033.png"
+      },
+      "pngSHA256": "2c1e19bd5af2c7420653a0ea0140323c49a3c313358e773473efbcfe6addafa3",
+      "path": "docs/qa-v33/opening/frames/frame-033.png"
+    },
+    {
+      "sample": 34,
+      "shot": "shot-07",
+      "column": 4,
+      "localFrame": 119,
+      "filmFrame": 863,
+      "seconds": 35.958333333333336,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/07-ava.mp4",
+        "sourceSHA256": "76eac49519be831386b3e4efdb12e55e0070625c830cc81471d35d659d90f0c6",
+        "segment": "shot-07-segment-01",
+        "sourceIndex": 119,
+        "sourceTime": 4.958333,
+        "pngSHA256": "623870c7e2c6b00e71490d4cf6194bf6369b76b540fa02fe3fe9debff3adff63",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-034.png"
+      },
+      "pngSHA256": "90fe5f784aa4ca41052334ce75a2e6cfea3d868476ac8008f0eaccdb251f3af8",
+      "path": "docs/qa-v33/opening/frames/frame-034.png"
+    },
+    {
+      "sample": 35,
+      "shot": "shot-08",
+      "column": 0,
+      "localFrame": 0,
+      "filmFrame": 864,
+      "seconds": 36,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/08-orfeu.mp4",
+        "sourceSHA256": "ff6974d1bd6285c81d9adc2582a3c0d161c63d873ba2c18b402731ac016645a8",
+        "segment": "shot-08-segment-01",
+        "sourceIndex": 0,
+        "sourceTime": 0,
+        "pngSHA256": "3af3db80943deed6458b6742b5311d133e75217cd729c7743c4f4de406069c93",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-035.png"
+      },
+      "pngSHA256": "8d2cf66eb0a317207ce43d3de8da8dc6d8070275250146ce89bd434c0e301959",
+      "path": "docs/qa-v33/opening/frames/frame-035.png"
+    },
+    {
+      "sample": 36,
+      "shot": "shot-08",
+      "column": 1,
+      "localFrame": 30,
+      "filmFrame": 894,
+      "seconds": 37.25,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/08-orfeu.mp4",
+        "sourceSHA256": "ff6974d1bd6285c81d9adc2582a3c0d161c63d873ba2c18b402731ac016645a8",
+        "segment": "shot-08-segment-01",
+        "sourceIndex": 30,
+        "sourceTime": 1.25,
+        "pngSHA256": "7a71767bf7c4e67c0841492d021d09cad8a3f277c67009728ab0d5b221ea20be",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-036.png"
+      },
+      "pngSHA256": "45c945cc0f59c2b9c8aa3c08aec5fa3b15a2c99f9809bca64db86e6336d84ff4",
+      "path": "docs/qa-v33/opening/frames/frame-036.png"
+    },
+    {
+      "sample": 37,
+      "shot": "shot-08",
+      "column": 2,
+      "localFrame": 60,
+      "filmFrame": 924,
+      "seconds": 38.5,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/08-orfeu.mp4",
+        "sourceSHA256": "ff6974d1bd6285c81d9adc2582a3c0d161c63d873ba2c18b402731ac016645a8",
+        "segment": "shot-08-segment-01",
+        "sourceIndex": 60,
+        "sourceTime": 2.5,
+        "pngSHA256": "02c1f35567f05b1d2d90ec292b6bda7e51e5e476dfb7e8610beef612bac2dec8",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-037.png"
+      },
+      "pngSHA256": "997228665dc8d632f381aa58b6fec2daf9e677285f6a097ce94c2eeba625e79b",
+      "path": "docs/qa-v33/opening/frames/frame-037.png"
+    },
+    {
+      "sample": 38,
+      "shot": "shot-08",
+      "column": 3,
+      "localFrame": 90,
+      "filmFrame": 954,
+      "seconds": 39.75,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/08-orfeu.mp4",
+        "sourceSHA256": "ff6974d1bd6285c81d9adc2582a3c0d161c63d873ba2c18b402731ac016645a8",
+        "segment": "shot-08-segment-01",
+        "sourceIndex": 90,
+        "sourceTime": 3.75,
+        "pngSHA256": "89220f8ab200060de80650bef458cf50c06a4be8ad04a770e30d8f7bee28d64d",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-038.png"
+      },
+      "pngSHA256": "1366fda6ee577ceb88bcca4cfb431012e3ffa27bcd4c9859ab771da369a83a43",
+      "path": "docs/qa-v33/opening/frames/frame-038.png"
+    },
+    {
+      "sample": 39,
+      "shot": "shot-08",
+      "column": 4,
+      "localFrame": 119,
+      "filmFrame": 983,
+      "seconds": 40.958333333333336,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/08-orfeu.mp4",
+        "sourceSHA256": "ff6974d1bd6285c81d9adc2582a3c0d161c63d873ba2c18b402731ac016645a8",
+        "segment": "shot-08-segment-01",
+        "sourceIndex": 119,
+        "sourceTime": 4.958333,
+        "pngSHA256": "e969bf0754ed7bac2012d36f7f741f4a9ba6b9cc3d82ea0a7f3a5efd566754b3",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-039.png"
+      },
+      "pngSHA256": "2eb2920797a88a3989f6a7075f08961077d0d588fdb513828a8dabbe1b18ccd0",
+      "path": "docs/qa-v33/opening/frames/frame-039.png"
+    },
+    {
+      "sample": 40,
+      "shot": "shot-09",
+      "column": 0,
+      "localFrame": 0,
+      "filmFrame": 984,
+      "seconds": 41,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/09-carmilla.mp4",
+        "sourceSHA256": "d936240d1a87a9ae0ab991334c50ff530d4c29bb4d4f1b40b2473cec26081e9b",
+        "segment": "shot-09-segment-01",
+        "sourceIndex": 0,
+        "sourceTime": 0,
+        "pngSHA256": "0d197862b085432694c3c8a6ed70d8763ace38e7f8a317e4289034282249525f",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-040.png"
+      },
+      "pngSHA256": "b99217db79675db9c4d26d341af4727c4004fb257cbe52e55297ae86edb34d6e",
+      "path": "docs/qa-v33/opening/frames/frame-040.png"
+    },
+    {
+      "sample": 41,
+      "shot": "shot-09",
+      "column": 1,
+      "localFrame": 30,
+      "filmFrame": 1014,
+      "seconds": 42.25,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/09-carmilla.mp4",
+        "sourceSHA256": "d936240d1a87a9ae0ab991334c50ff530d4c29bb4d4f1b40b2473cec26081e9b",
+        "segment": "shot-09-segment-01",
+        "sourceIndex": 30,
+        "sourceTime": 1.25,
+        "pngSHA256": "5592ddcdbaaa694f5d4fee376f546b4fd7316aa1e939c246fa2f44633c1ee1b0",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-041.png"
+      },
+      "pngSHA256": "6d4f153c6e647ec381015b20ef15288ecf6064416a26a6fb332d15d1869ba35e",
+      "path": "docs/qa-v33/opening/frames/frame-041.png"
+    },
+    {
+      "sample": 42,
+      "shot": "shot-09",
+      "column": 2,
+      "localFrame": 60,
+      "filmFrame": 1044,
+      "seconds": 43.5,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/09-carmilla.mp4",
+        "sourceSHA256": "d936240d1a87a9ae0ab991334c50ff530d4c29bb4d4f1b40b2473cec26081e9b",
+        "segment": "shot-09-segment-01",
+        "sourceIndex": 60,
+        "sourceTime": 2.5,
+        "pngSHA256": "07c04db2d5afa6a24194c33b6777a10dd2b55760c4dc46f26cad08c5a371a371",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-042.png"
+      },
+      "pngSHA256": "17955e6226bea783edd653812c92e88256ec4dca6ca91439ba6aa84ae8e25d57",
+      "path": "docs/qa-v33/opening/frames/frame-042.png"
+    },
+    {
+      "sample": 43,
+      "shot": "shot-09",
+      "column": 3,
+      "localFrame": 90,
+      "filmFrame": 1074,
+      "seconds": 44.75,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/09-carmilla.mp4",
+        "sourceSHA256": "d936240d1a87a9ae0ab991334c50ff530d4c29bb4d4f1b40b2473cec26081e9b",
+        "segment": "shot-09-segment-01",
+        "sourceIndex": 90,
+        "sourceTime": 3.75,
+        "pngSHA256": "fdbc2a2238bb617336ebbbbab9dfe233855c65e03581942b7f95b0a90c8cacc9",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-043.png"
+      },
+      "pngSHA256": "f2f380968055b4f368a588024ef5855cc2ac70d31f2bd81dc5a654042153d89d",
+      "path": "docs/qa-v33/opening/frames/frame-043.png"
+    },
+    {
+      "sample": 44,
+      "shot": "shot-09",
+      "column": 4,
+      "localFrame": 119,
+      "filmFrame": 1103,
+      "seconds": 45.958333333333336,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/09-carmilla.mp4",
+        "sourceSHA256": "d936240d1a87a9ae0ab991334c50ff530d4c29bb4d4f1b40b2473cec26081e9b",
+        "segment": "shot-09-segment-01",
+        "sourceIndex": 119,
+        "sourceTime": 4.958333,
+        "pngSHA256": "d4e51151631e3b136106ef77237f6f4ffd36d6a475da9ba4144b11c4c198ae2d",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-044.png"
+      },
+      "pngSHA256": "ad01368ff229342233a9b6aeaa559c5eaee80dee0dfcccfbc84cdc22659a6d5e",
+      "path": "docs/qa-v33/opening/frames/frame-044.png"
+    },
+    {
+      "sample": 45,
+      "shot": "shot-10",
+      "column": 0,
+      "localFrame": 0,
+      "filmFrame": 1104,
+      "seconds": 46,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/10-beatriz.mp4",
+        "sourceSHA256": "88359931c5b1da5d88c3f3d81142dccef36a2d24e3cf5067a00965d86e8b1366",
+        "segment": "shot-10-segment-01",
+        "sourceIndex": 0,
+        "sourceTime": 0,
+        "pngSHA256": "84029ea91ac8dd20c2e5ef0adf36c5126008e5a6a037cdafbc3afc17af407131",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-045.png"
+      },
+      "pngSHA256": "6f054c5453fa9a83c59b05a65e15b1a908e9321b98b081e8393c2228830af2da",
+      "path": "docs/qa-v33/opening/frames/frame-045.png"
+    },
+    {
+      "sample": 46,
+      "shot": "shot-10",
+      "column": 1,
+      "localFrame": 30,
+      "filmFrame": 1134,
+      "seconds": 47.25,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/10-beatriz.mp4",
+        "sourceSHA256": "88359931c5b1da5d88c3f3d81142dccef36a2d24e3cf5067a00965d86e8b1366",
+        "segment": "shot-10-segment-01",
+        "sourceIndex": 30,
+        "sourceTime": 1.25,
+        "pngSHA256": "fdd7760879be57ec44d7cdcdfa4a85cc327d8620f65d52a0177dfb1eac2b489a",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-046.png"
+      },
+      "pngSHA256": "ccecde89d07037ce5fe7a4e24a00bb5dddd5a98bdfc2ecfd13d202d8719e3040",
+      "path": "docs/qa-v33/opening/frames/frame-046.png"
+    },
+    {
+      "sample": 47,
+      "shot": "shot-10",
+      "column": 2,
+      "localFrame": 60,
+      "filmFrame": 1164,
+      "seconds": 48.5,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/10-beatriz.mp4",
+        "sourceSHA256": "88359931c5b1da5d88c3f3d81142dccef36a2d24e3cf5067a00965d86e8b1366",
+        "segment": "shot-10-segment-01",
+        "sourceIndex": 60,
+        "sourceTime": 2.5,
+        "pngSHA256": "b3eb05a05b48b9736202500f173c94a8ef93d478d777c91b9c7a69669d6d68c7",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-047.png"
+      },
+      "pngSHA256": "41f624c20a6d8349729202105ec7604427e8cdf260c5030989779f71aa8d7f56",
+      "path": "docs/qa-v33/opening/frames/frame-047.png"
+    },
+    {
+      "sample": 48,
+      "shot": "shot-10",
+      "column": 3,
+      "localFrame": 90,
+      "filmFrame": 1194,
+      "seconds": 49.75,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/10-beatriz.mp4",
+        "sourceSHA256": "88359931c5b1da5d88c3f3d81142dccef36a2d24e3cf5067a00965d86e8b1366",
+        "segment": "shot-10-segment-01",
+        "sourceIndex": 90,
+        "sourceTime": 3.75,
+        "pngSHA256": "9b4daebe6b2294ec6cc47a756c5ab51a643e33fe1c404e933dfb5aff958881ea",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-048.png"
+      },
+      "pngSHA256": "baaf618c8952318160c8c2db744b385d7e14642a9384c239cf8285899e90ab88",
+      "path": "docs/qa-v33/opening/frames/frame-048.png"
+    },
+    {
+      "sample": 49,
+      "shot": "shot-10",
+      "column": 4,
+      "localFrame": 119,
+      "filmFrame": 1223,
+      "seconds": 50.958333333333336,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/10-beatriz.mp4",
+        "sourceSHA256": "88359931c5b1da5d88c3f3d81142dccef36a2d24e3cf5067a00965d86e8b1366",
+        "segment": "shot-10-segment-01",
+        "sourceIndex": 119,
+        "sourceTime": 4.958333,
+        "pngSHA256": "92ef30dfcf3c5e3311d55b89e42cf45feee03f3785541d3a9cdef44a1bb72494",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-049.png"
+      },
+      "pngSHA256": "33094c2380a2011ff221664921134070f9c30badb6d936a7abc5811eca0bbb5a",
+      "path": "docs/qa-v33/opening/frames/frame-049.png"
+    },
+    {
+      "sample": 50,
+      "shot": "shot-11",
+      "column": 0,
+      "localFrame": 0,
+      "filmFrame": 1224,
+      "seconds": 51,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/11-abel.mp4",
+        "sourceSHA256": "d1e7f708ecae1c0a9cabf3e86d7a39ea2d1b914243df354c59364f5b4a630554",
+        "segment": "shot-11-segment-01",
+        "sourceIndex": 0,
+        "sourceTime": 0,
+        "pngSHA256": "4102ed376996fc9aa94473f6ebaedae6ba1595761e5e177ae70616e32dbe18ac",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-050.png"
+      },
+      "pngSHA256": "e6bceeade815ffe9a28014fa3dad67b21bf190ac8f3d395bd2d80df9206f1929",
+      "path": "docs/qa-v33/opening/frames/frame-050.png"
+    },
+    {
+      "sample": 51,
+      "shot": "shot-11",
+      "column": 1,
+      "localFrame": 30,
+      "filmFrame": 1254,
+      "seconds": 52.25,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/11-abel.mp4",
+        "sourceSHA256": "d1e7f708ecae1c0a9cabf3e86d7a39ea2d1b914243df354c59364f5b4a630554",
+        "segment": "shot-11-segment-01",
+        "sourceIndex": 30,
+        "sourceTime": 1.25,
+        "pngSHA256": "71bcfe4192e302c868536b500cd29c417b9f10dd55e51b94355b7f25ffd547f8",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-051.png"
+      },
+      "pngSHA256": "8fca69a48dbf8a29bd9569ba0ab0f2da31e04dbcde66231fd0cfcb4f90c8cd39",
+      "path": "docs/qa-v33/opening/frames/frame-051.png"
+    },
+    {
+      "sample": 52,
+      "shot": "shot-11",
+      "column": 2,
+      "localFrame": 60,
+      "filmFrame": 1284,
+      "seconds": 53.5,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/11-abel.mp4",
+        "sourceSHA256": "d1e7f708ecae1c0a9cabf3e86d7a39ea2d1b914243df354c59364f5b4a630554",
+        "segment": "shot-11-segment-01",
+        "sourceIndex": 60,
+        "sourceTime": 2.5,
+        "pngSHA256": "d769b4f6fdb552a3c9c5b4799c8818df343b234030d88e0aa4bbc91164f03032",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-052.png"
+      },
+      "pngSHA256": "6f1aacecfd85fd105185311cb6604b76b94a6b8a3ce0db91c08cc856aff556cd",
+      "path": "docs/qa-v33/opening/frames/frame-052.png"
+    },
+    {
+      "sample": 53,
+      "shot": "shot-11",
+      "column": 3,
+      "localFrame": 90,
+      "filmFrame": 1314,
+      "seconds": 54.75,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/11-abel.mp4",
+        "sourceSHA256": "d1e7f708ecae1c0a9cabf3e86d7a39ea2d1b914243df354c59364f5b4a630554",
+        "segment": "shot-11-segment-01",
+        "sourceIndex": 90,
+        "sourceTime": 3.75,
+        "pngSHA256": "ae4d955f220bc84171bb0f04664519b3db0fcf861c5990418f3f0ee1f3a25adb",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-053.png"
+      },
+      "pngSHA256": "d3233d0911883c271703c3a15a34344e0e43da74f85bd4f5aa23d1ed11b4b608",
+      "path": "docs/qa-v33/opening/frames/frame-053.png"
+    },
+    {
+      "sample": 54,
+      "shot": "shot-11",
+      "column": 4,
+      "localFrame": 119,
+      "filmFrame": 1343,
+      "seconds": 55.958333333333336,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/11-abel.mp4",
+        "sourceSHA256": "d1e7f708ecae1c0a9cabf3e86d7a39ea2d1b914243df354c59364f5b4a630554",
+        "segment": "shot-11-segment-01",
+        "sourceIndex": 119,
+        "sourceTime": 4.958333,
+        "pngSHA256": "b78fbc70ae4f32b4c73ff95425feacf17dfa8716b1b83f619debae9e4264e2de",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-054.png"
+      },
+      "pngSHA256": "ae41d0b90918cbfd5f4386507953d3cb2db918c699f8a96925b72f2d278b732f",
+      "path": "docs/qa-v33/opening/frames/frame-054.png"
+    },
+    {
+      "sample": 55,
+      "shot": "shot-12",
+      "column": 0,
+      "localFrame": 0,
+      "filmFrame": 1344,
+      "seconds": 56,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/02-seiji-corrected.mp4",
+        "sourceSHA256": "532324c6e66ff71263dbacf70f291465543496239bcb070a12fefacc838a8a0c",
+        "segment": "shot-12-segment-01",
+        "sourceIndex": 120,
+        "sourceTime": 5,
+        "pngSHA256": "eaa0efbc56b6c4c57de6f2ce7079e8020d9e8dd79e78e575a7e949aabc82a9b9",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-055.png"
+      },
+      "pngSHA256": "cec929482a0d06451dec3fdff568eb021ea7ab5fadee2a19b470b7b3fb40d638",
+      "path": "docs/qa-v33/opening/frames/frame-055.png"
+    },
+    {
+      "sample": 56,
+      "shot": "shot-12",
+      "column": 1,
+      "localFrame": 39,
+      "filmFrame": 1383,
+      "seconds": 57.625,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/03-ophelia-fixed.mp4",
+        "sourceSHA256": "1b07d387adba2ff62c8f9ef69861abd520ce42c85c54437bae9ff1bd3c7c4bfd",
+        "segment": "shot-12-segment-02",
+        "sourceIndex": 133,
+        "sourceTime": 5.541667,
+        "pngSHA256": "1634c8e72c2861d630cc28710b3777a2d439d31e44ba255db31cddb82212e9a6",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-056.png"
+      },
+      "pngSHA256": "6a315bcee2e29523462342d1407361e698bb303db90cb86430483c079fd16e1b",
+      "path": "docs/qa-v33/opening/frames/frame-056.png"
+    },
+    {
+      "sample": 57,
+      "shot": "shot-12",
+      "column": 2,
+      "localFrame": 78,
+      "filmFrame": 1422,
+      "seconds": 59.25,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/05-gabriel-fixed.mp4",
+        "sourceSHA256": "57c925e10cee9f6a6b87c0d1d8ab96d01a1310dab23335e3d497339582d8f507",
+        "segment": "shot-12-segment-04",
+        "sourceIndex": 120,
+        "sourceTime": 5,
+        "pngSHA256": "fd03e3efed9f9517a8073a4e5db5d80179dd3f033d75e8ae3f239134ad2cac8c",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-057.png"
+      },
+      "pngSHA256": "446284b0af20bfa000db024782749a7d81e95429c36075a8cf098cad99c89fd5",
+      "path": "docs/qa-v33/opening/frames/frame-057.png"
+    },
+    {
+      "sample": 58,
+      "shot": "shot-12",
+      "column": 3,
+      "localFrame": 117,
+      "filmFrame": 1461,
+      "seconds": 60.875,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/06-max.mp4",
+        "sourceSHA256": "81b3e1ccad42a1554976982d7c8502cadf4809bd372cf32b686874d68c5d2866",
+        "segment": "shot-12-segment-05",
+        "sourceIndex": 133,
+        "sourceTime": 5.541667,
+        "pngSHA256": "7ad7a4b876afd449a018dc7008476f94ba7a9b61ee8b562383c24a138629e7ad",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-058.png"
+      },
+      "pngSHA256": "7af9d616dbd87140f2b797a4759f02bbb06019061d25c8370f5dc1548f510a3d",
+      "path": "docs/qa-v33/opening/frames/frame-058.png"
+    },
+    {
+      "sample": 59,
+      "shot": "shot-12",
+      "column": 4,
+      "localFrame": 155,
+      "filmFrame": 1499,
+      "seconds": 62.458333333333336,
+      "source": {
+        "sourcePath": "art-source/v33/opening/clips/07-ava.mp4",
+        "sourceSHA256": "76eac49519be831386b3e4efdb12e55e0070625c830cc81471d35d659d90f0c6",
+        "segment": "shot-12-segment-06",
+        "sourceIndex": 145,
+        "sourceTime": 6.041667,
+        "pngSHA256": "aba55c1d87a7e051fb02da72421f257300845d748a42254912cff7b8ac106698",
+        "pngPath": "docs/qa-v33/opening/source-frames/frame-059.png"
+      },
+      "pngSHA256": "884ada96efb8a8a5a179e66d9295f922763ee5beaaf2aa05bce770d179fa5aec",
+      "path": "docs/qa-v33/opening/frames/frame-059.png"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+[
+  { "id": "umbra", "character": "Umbra", "crop": { "x": 700, "y": 240, "width": 340, "height": 460 } },
+  { "id": "marin-hands-left", "character": "Marin, left image region; both arm trajectories overlap when crossed", "crop": { "x": 330, "y": 100, "width": 290, "height": 320 } },
+  { "id": "marin-hands-right", "character": "Marin, right image region; both arm trajectories overlap when crossed", "crop": { "x": 460, "y": 100, "width": 285, "height": 320 } }
+]

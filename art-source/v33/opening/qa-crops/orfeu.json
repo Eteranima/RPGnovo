@@ -1,0 +1,4 @@
+[
+  { "id": "orfeu-fists", "character": "Orfeu — dois punhos", "crop": { "x": 355, "y": 105, "width": 495, "height": 230 } },
+  { "id": "orfeu-feet", "character": "Orfeu — pernas e pés", "crop": { "x": 235, "y": 490, "width": 615, "height": 205 } }
+]

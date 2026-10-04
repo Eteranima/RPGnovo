@@ -45,3 +45,10 @@ next-env.d.ts
 /.codex/
 /outputs/
 /work/
+
+# Native decoded review frames are preserved locally and reproducible from the
+# versioned source clips. Keep review sheets, hashes and reports in Git.
+/docs/qa-v33/**/*.png
+!/docs/qa-v33/opening/*-proof.png
+# Preserve raw encoder logs locally; version the structured reports and reviews.
+/docs/qa-v33/**/*.log

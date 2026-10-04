@@ -1,0 +1,4 @@
+[
+  { "id": "carmilla-hand-high", "character": "Carmilla — mão e agulha altas", "crop": { "x": 535, "y": 115, "width": 205, "height": 165 } },
+  { "id": "carmilla-hand-low", "character": "Carmilla — mão e agulha baixas", "crop": { "x": 710, "y": 245, "width": 200, "height": 180 } }
+]

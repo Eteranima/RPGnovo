@@ -1,0 +1,21 @@
+Verification of Academy 01 and Ophelia 03 source QA.
+Read-only verifier: art-source/v33/opening/verify-source-qa.py
+Runtime: bundled Codex Python with Pillow. No images written by verification.
+
+PASS docs/qa-v33/opening/academy-source:
+Source SHA-256/bytes agree with inspected local source.
+16 native full PNGs, 1280x720 RGB; PNG hashes agree with manifest.
+
+PASS docs/qa-v33/opening/ophelia-source:
+Source SHA-256/bytes agree with the copied download.
+16 native full PNGs, 1280x720 RGB.
+32 native Mika crops, 430x540 RGB, x650/y180, source indices 0, 6, ..., 186.
+16 source frames shared with full PNGs.
+3,715,200 crop pixels identical to the corresponding rectangles of full PNGs.
+This verifies crop integrity, not visual perfection.
+
+Visual findings:
+Academy: root approved source 1.5-7.5 s (36-179) to avoid initial translucent arch appearance.
+Closing montage: only source indices 180-191 (12 unused frames), or omit Academy.
+Ophelia: rejected-enquadramento; no complete 5 s window approved. SHA blocked in assembler.
+No opening film assembled; no public movie exported.

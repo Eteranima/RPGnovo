@@ -1,0 +1,30 @@
+{
+  "fps": 24,
+  "width": 1280,
+  "height": 720,
+  "shots": [
+    { "id": "shot-01", "path": "raw/shot-01.mp4", "startSeconds": 0, "frames": 144 },
+    { "id": "shot-02", "path": "raw/shot-02.mp4", "startSeconds": 0, "frames": 120 },
+    { "id": "shot-03", "path": "raw/shot-03.mp4", "startSeconds": 0, "frames": 120 },
+    { "id": "shot-04", "path": "raw/shot-04.mp4", "startSeconds": 0, "frames": 120 },
+    { "id": "shot-05", "path": "raw/shot-05.mp4", "startSeconds": 0, "frames": 120 },
+    { "id": "shot-06", "path": "raw/shot-06.mp4", "startSeconds": 0, "frames": 120 },
+    { "id": "shot-07", "path": "raw/shot-07.mp4", "startSeconds": 0, "frames": 120 },
+    { "id": "shot-08", "path": "raw/shot-08.mp4", "startSeconds": 0, "frames": 120 },
+    { "id": "shot-09", "path": "raw/shot-09.mp4", "startSeconds": 0, "frames": 120 },
+    { "id": "shot-10", "path": "raw/shot-10.mp4", "startSeconds": 0, "frames": 120 },
+    { "id": "shot-11", "path": "raw/shot-11.mp4", "startSeconds": 0, "frames": 120 },
+    {
+      "id": "shot-12",
+      "frames": 156,
+      "segments": [
+        { "path": "raw/shot-01.mp4", "startSeconds": 6, "frames": 26 },
+        { "path": "raw/shot-02.mp4", "startSeconds": 5, "frames": 26 },
+        { "path": "raw/shot-03.mp4", "startSeconds": 5, "frames": 26 },
+        { "path": "raw/shot-04.mp4", "startSeconds": 5, "frames": 26 },
+        { "path": "raw/shot-05.mp4", "startSeconds": 5, "frames": 26 },
+        { "path": "raw/shot-06.mp4", "startSeconds": 5, "frames": 26 }
+      ]
+    }
+  ]
+}

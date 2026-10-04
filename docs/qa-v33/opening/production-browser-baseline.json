@@ -1,0 +1,5 @@
+{
+  "origin": "http://127.0.0.1:5175",
+  "state": "{\"map\":\"patio\",\"stage\":0,\"mode\":\"start\",\"position\":{\"x\":14,\"y\":12},\"objective\":\"Encontre Beatriz no pátio e descubra o que está acontecendo.\",\"heroes\":[{\"id\":\"seiji\",\"name\":\"Seiji\",\"element\":\"Tinta\",\"role\":\"Escriba\",\"maxHp\":85,\"hp\":85,\"maxMp\":40,\"mp\":40,\"atk\":18,\"spd\":15,\"guard\":false},{\"id\":\"ophelia\",\"name\":\"Ophelia\",\"element\":\"Gelo\",\"role\":\"Curandeira\",\"maxHp\":70,\"hp\":70,\"maxMp\":55,\"mp\":55,\"atk\":14,\"spd\":13,\"guard\":false}]}",
+  "sound": "muted"
+}

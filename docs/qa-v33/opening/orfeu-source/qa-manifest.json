@@ -1,0 +1,1399 @@
+{
+  "schema": 2,
+  "source": "art-source/v33/opening/clips/08-orfeu.mp4",
+  "sourceSHA256": "ff6974d1bd6285c81d9adc2582a3c0d161c63d873ba2c18b402731ac016645a8",
+  "sourceBytes": 4513157,
+  "actualDecodedFrames": 192,
+  "sourceResolution": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 24,
+  "videoDurationSeconds": 8,
+  "containerDurationSeconds": 8,
+  "audio": [
+    {
+      "codec": "aac",
+      "sampleRate": "48000",
+      "channels": 2,
+      "duration": "8.000000"
+    }
+  ],
+  "full": [
+    {
+      "sample": 0,
+      "seconds": 0,
+      "sourceIndex": 0,
+      "sourceTime": 0,
+      "relativeTime": 0,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/orfeu-source/full/frame-00.png",
+      "pngSHA256": "91d569934d4372c9fad14997e2dd1045d976d319f7be45598b892cfded11688d"
+    },
+    {
+      "sample": 1,
+      "seconds": 0.5,
+      "sourceIndex": 12,
+      "sourceTime": 0.5,
+      "relativeTime": 0.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/orfeu-source/full/frame-01.png",
+      "pngSHA256": "f6a35882b49aa6d811956cb86f06e69254347ff9de303e7da04ef6ddb2ba397f"
+    },
+    {
+      "sample": 2,
+      "seconds": 1,
+      "sourceIndex": 24,
+      "sourceTime": 1,
+      "relativeTime": 1,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/orfeu-source/full/frame-02.png",
+      "pngSHA256": "a9dd77f7bc9eb987f6d153c27ca9d7016ff097a9a4328ee73a5d376ee17e5afb"
+    },
+    {
+      "sample": 3,
+      "seconds": 1.5,
+      "sourceIndex": 36,
+      "sourceTime": 1.5,
+      "relativeTime": 1.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/orfeu-source/full/frame-03.png",
+      "pngSHA256": "f9188e5ad7ae9be2f6e0601f9b0fef5ba259f73e7488dfaff3df82d19907477e"
+    },
+    {
+      "sample": 4,
+      "seconds": 2,
+      "sourceIndex": 48,
+      "sourceTime": 2,
+      "relativeTime": 2,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/orfeu-source/full/frame-04.png",
+      "pngSHA256": "d83203192cf1fc4eadb98ae77b49e9a6c764548492a1d39f1987992b96925a0f"
+    },
+    {
+      "sample": 5,
+      "seconds": 2.5,
+      "sourceIndex": 60,
+      "sourceTime": 2.5,
+      "relativeTime": 2.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/orfeu-source/full/frame-05.png",
+      "pngSHA256": "14de170df82d6f22577382ad321bfd64b4bc2ead24c007755f19c79536fb97e2"
+    },
+    {
+      "sample": 6,
+      "seconds": 3,
+      "sourceIndex": 72,
+      "sourceTime": 3,
+      "relativeTime": 3,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/orfeu-source/full/frame-06.png",
+      "pngSHA256": "e2a590ca5da60071da84b2d83cbbe0b9e2ab9bed2c2918910005e5e9882873e6"
+    },
+    {
+      "sample": 7,
+      "seconds": 3.5,
+      "sourceIndex": 84,
+      "sourceTime": 3.5,
+      "relativeTime": 3.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/orfeu-source/full/frame-07.png",
+      "pngSHA256": "29fce4d95259e750314daa356169d5b5529fc77da86437c822a3370e86d4c3a0"
+    },
+    {
+      "sample": 8,
+      "seconds": 4,
+      "sourceIndex": 96,
+      "sourceTime": 4,
+      "relativeTime": 4,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/orfeu-source/full/frame-08.png",
+      "pngSHA256": "ae6c7855084205e094b97beca6a07e88dd5a6d0d2a983e7431f2571db016cd58"
+    },
+    {
+      "sample": 9,
+      "seconds": 4.5,
+      "sourceIndex": 108,
+      "sourceTime": 4.5,
+      "relativeTime": 4.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/orfeu-source/full/frame-09.png",
+      "pngSHA256": "ee1b61a659bee4fae595440976ae12d72a526c47c78d7981aceabe1fefb32b74"
+    },
+    {
+      "sample": 10,
+      "seconds": 5,
+      "sourceIndex": 120,
+      "sourceTime": 5,
+      "relativeTime": 5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/orfeu-source/full/frame-10.png",
+      "pngSHA256": "d29f775eaaaa0513cba83a2d43ac40d9e69974f3716eef93fd2c0e211d6dd88b"
+    },
+    {
+      "sample": 11,
+      "seconds": 5.5,
+      "sourceIndex": 132,
+      "sourceTime": 5.5,
+      "relativeTime": 5.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/orfeu-source/full/frame-11.png",
+      "pngSHA256": "57cd433c58a86a51aad84adeaf93a3e99f421ce3490962da38c604d65097c636"
+    },
+    {
+      "sample": 12,
+      "seconds": 6,
+      "sourceIndex": 144,
+      "sourceTime": 6,
+      "relativeTime": 6,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/orfeu-source/full/frame-12.png",
+      "pngSHA256": "901bba309224f1499a5e2744e117b0363e69034a038af606646c73f5d98ec1db"
+    },
+    {
+      "sample": 13,
+      "seconds": 6.5,
+      "sourceIndex": 156,
+      "sourceTime": 6.5,
+      "relativeTime": 6.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/orfeu-source/full/frame-13.png",
+      "pngSHA256": "42f00e1ccbe556e30cb3876ce69fd6679d718d05c62fcbcaef4b78ae3929923b"
+    },
+    {
+      "sample": 14,
+      "seconds": 7,
+      "sourceIndex": 168,
+      "sourceTime": 7,
+      "relativeTime": 7,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/orfeu-source/full/frame-14.png",
+      "pngSHA256": "6351b55e9699b1d10629f26191a42e66b421163f6c80c07c36cfdcd970796f9a"
+    },
+    {
+      "sample": 15,
+      "seconds": 7.5,
+      "sourceIndex": 180,
+      "sourceTime": 7.5,
+      "relativeTime": 7.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/orfeu-source/full/frame-15.png",
+      "pngSHA256": "52b0002dff3a4a7a2d0d051665e6abea6aa3bd630b99a4d459a5a01e1f95973d"
+    }
+  ],
+  "cropped": {
+    "id": "orfeu-fists",
+    "character": "Orfeu — dois punhos",
+    "crop": {
+      "x": 355,
+      "y": 105,
+      "width": 495,
+      "height": 230
+    },
+    "frames": [
+      {
+        "sample": 0,
+        "seconds": 0,
+        "sourceIndex": 0,
+        "sourceTime": 0,
+        "relativeTime": 0,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-00.png",
+        "pngSHA256": "82e238b496e1d548c8b47eec52e952b13dcfcb6d40009840045507c2134c0600"
+      },
+      {
+        "sample": 1,
+        "seconds": 0.25,
+        "sourceIndex": 6,
+        "sourceTime": 0.25,
+        "relativeTime": 0.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-01.png",
+        "pngSHA256": "108f059e7e2f85d1e18dde8fd616c10a21e9df770a9d5ae6989d14a197e611b8"
+      },
+      {
+        "sample": 2,
+        "seconds": 0.5,
+        "sourceIndex": 12,
+        "sourceTime": 0.5,
+        "relativeTime": 0.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-02.png",
+        "pngSHA256": "fa4bf58701c06d399b8ef7758835b7bd65a2c8c117818ff6347a4113e19ab8e4"
+      },
+      {
+        "sample": 3,
+        "seconds": 0.75,
+        "sourceIndex": 18,
+        "sourceTime": 0.75,
+        "relativeTime": 0.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-03.png",
+        "pngSHA256": "3e5f0b896e264dfd11a077c3057e10b11f567535cdd59c2c481fe0162da80c99"
+      },
+      {
+        "sample": 4,
+        "seconds": 1,
+        "sourceIndex": 24,
+        "sourceTime": 1,
+        "relativeTime": 1,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-04.png",
+        "pngSHA256": "4516b048831a66dc62f1da30429f238ed935bf0f4fe5a7b4171d101e9abe4c80"
+      },
+      {
+        "sample": 5,
+        "seconds": 1.25,
+        "sourceIndex": 30,
+        "sourceTime": 1.25,
+        "relativeTime": 1.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-05.png",
+        "pngSHA256": "c6525b3214907a49a74cf2861e981aea7f96dbc5cd66163d2125e64361a79a8b"
+      },
+      {
+        "sample": 6,
+        "seconds": 1.5,
+        "sourceIndex": 36,
+        "sourceTime": 1.5,
+        "relativeTime": 1.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-06.png",
+        "pngSHA256": "f2bc8d6af0c97428c10a946f260ffaf579162989009cb96f60a0b817c775a3eb"
+      },
+      {
+        "sample": 7,
+        "seconds": 1.75,
+        "sourceIndex": 42,
+        "sourceTime": 1.75,
+        "relativeTime": 1.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-07.png",
+        "pngSHA256": "77edb9e5a3cd7caa1690043332f4686bcaf88212a9640b6433ffc8639c8205c5"
+      },
+      {
+        "sample": 8,
+        "seconds": 2,
+        "sourceIndex": 48,
+        "sourceTime": 2,
+        "relativeTime": 2,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-08.png",
+        "pngSHA256": "53c7d3bea044923f2864764f61f3b3e72aab0b844fd865a5a37417f9504f183e"
+      },
+      {
+        "sample": 9,
+        "seconds": 2.25,
+        "sourceIndex": 54,
+        "sourceTime": 2.25,
+        "relativeTime": 2.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-09.png",
+        "pngSHA256": "65dc529ee7bc94e27274c49511da1bf9b946459be36442bc5dca0a09c86c8134"
+      },
+      {
+        "sample": 10,
+        "seconds": 2.5,
+        "sourceIndex": 60,
+        "sourceTime": 2.5,
+        "relativeTime": 2.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-10.png",
+        "pngSHA256": "6b4db7c7c4cea55af7ad346ab34595670251f092bf5ea1d665e5ef886b7cd4c5"
+      },
+      {
+        "sample": 11,
+        "seconds": 2.75,
+        "sourceIndex": 66,
+        "sourceTime": 2.75,
+        "relativeTime": 2.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-11.png",
+        "pngSHA256": "d9c3a8d226ef8f8bdb75f4f038e18a50b571e621f8b52f8b2a2f05838ba7699c"
+      },
+      {
+        "sample": 12,
+        "seconds": 3,
+        "sourceIndex": 72,
+        "sourceTime": 3,
+        "relativeTime": 3,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-12.png",
+        "pngSHA256": "90cacc14cf07046d777749d09aa0f6aedc1174c289ecd84247a1583b6c349da4"
+      },
+      {
+        "sample": 13,
+        "seconds": 3.25,
+        "sourceIndex": 78,
+        "sourceTime": 3.25,
+        "relativeTime": 3.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-13.png",
+        "pngSHA256": "2727fafbca949f66b157b3a3b4eec32421e0e5543e84daddead7c58a1bb57e65"
+      },
+      {
+        "sample": 14,
+        "seconds": 3.5,
+        "sourceIndex": 84,
+        "sourceTime": 3.5,
+        "relativeTime": 3.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-14.png",
+        "pngSHA256": "8a399ad3008c6a6dd601431a8f149395d8cd58e7bbbf40b95c49eab85c6a1561"
+      },
+      {
+        "sample": 15,
+        "seconds": 3.75,
+        "sourceIndex": 90,
+        "sourceTime": 3.75,
+        "relativeTime": 3.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-15.png",
+        "pngSHA256": "4af36d992523587bc7bc3842021d89e9dcfcdeaba6ffd15867c9000013965d77"
+      },
+      {
+        "sample": 16,
+        "seconds": 4,
+        "sourceIndex": 96,
+        "sourceTime": 4,
+        "relativeTime": 4,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-16.png",
+        "pngSHA256": "f29e004999d7e904a000fac1f29673ea2f69afe3eefbbe52b42bb37882bd40c2"
+      },
+      {
+        "sample": 17,
+        "seconds": 4.25,
+        "sourceIndex": 102,
+        "sourceTime": 4.25,
+        "relativeTime": 4.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-17.png",
+        "pngSHA256": "6320c6fb1084375fea4de63a45d74595de3e390e966aae1c24f064c4c24b05f4"
+      },
+      {
+        "sample": 18,
+        "seconds": 4.5,
+        "sourceIndex": 108,
+        "sourceTime": 4.5,
+        "relativeTime": 4.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-18.png",
+        "pngSHA256": "eb8829418b95c08498611ad48c735a5adffd5e4fd167742fd33185fc20d0c38d"
+      },
+      {
+        "sample": 19,
+        "seconds": 4.75,
+        "sourceIndex": 114,
+        "sourceTime": 4.75,
+        "relativeTime": 4.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-19.png",
+        "pngSHA256": "fab960cc3d2c4a3a6f2bb2a0afb6d4b9a34d2e9c75720625123cce8bbac200a4"
+      },
+      {
+        "sample": 20,
+        "seconds": 5,
+        "sourceIndex": 120,
+        "sourceTime": 5,
+        "relativeTime": 5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-20.png",
+        "pngSHA256": "f950275e0d16bebd7317e8dc2e1eeb338383cbc66dad6f2d1db8e5dc3263cd0d"
+      },
+      {
+        "sample": 21,
+        "seconds": 5.25,
+        "sourceIndex": 126,
+        "sourceTime": 5.25,
+        "relativeTime": 5.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-21.png",
+        "pngSHA256": "c0093c4601e184a247d28b83349a6f3b6519c032ce27ae4df23a914d4c524a3d"
+      },
+      {
+        "sample": 22,
+        "seconds": 5.5,
+        "sourceIndex": 132,
+        "sourceTime": 5.5,
+        "relativeTime": 5.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-22.png",
+        "pngSHA256": "bb02f077795ea36c22cb6b271e4e258389eb62912be581d448168bec7635decc"
+      },
+      {
+        "sample": 23,
+        "seconds": 5.75,
+        "sourceIndex": 138,
+        "sourceTime": 5.75,
+        "relativeTime": 5.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-23.png",
+        "pngSHA256": "95e9be0230f62859113b2dd8b8824dc19ebe1288eb3b52f31ea7ec887bc5bd02"
+      },
+      {
+        "sample": 24,
+        "seconds": 6,
+        "sourceIndex": 144,
+        "sourceTime": 6,
+        "relativeTime": 6,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-24.png",
+        "pngSHA256": "4a680dfde3023b56feb1983d627b42b858b931b7b42acad851b3b4c15ce7cffb"
+      },
+      {
+        "sample": 25,
+        "seconds": 6.25,
+        "sourceIndex": 150,
+        "sourceTime": 6.25,
+        "relativeTime": 6.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-25.png",
+        "pngSHA256": "a7780e877cd2a7a8bb38829cd69209b8a879282718c842270ddcd174a678b59b"
+      },
+      {
+        "sample": 26,
+        "seconds": 6.5,
+        "sourceIndex": 156,
+        "sourceTime": 6.5,
+        "relativeTime": 6.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-26.png",
+        "pngSHA256": "122ff331e075459270c5c1dca75def843253093cb7ed9252fc93cf53efa55ab7"
+      },
+      {
+        "sample": 27,
+        "seconds": 6.75,
+        "sourceIndex": 162,
+        "sourceTime": 6.75,
+        "relativeTime": 6.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-27.png",
+        "pngSHA256": "d369f9384a635424389704569a329877e09033c78e2c518113f9d5cb2bf1157b"
+      },
+      {
+        "sample": 28,
+        "seconds": 7,
+        "sourceIndex": 168,
+        "sourceTime": 7,
+        "relativeTime": 7,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-28.png",
+        "pngSHA256": "b73110ee3eef93219fe1dac5764d9a773201e7a427de953935ab2178a0dacc3f"
+      },
+      {
+        "sample": 29,
+        "seconds": 7.25,
+        "sourceIndex": 174,
+        "sourceTime": 7.25,
+        "relativeTime": 7.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-29.png",
+        "pngSHA256": "c94311e2b3c6356e1e0613849b0e0f9cfcbb0b62f645116490acfab9221bc463"
+      },
+      {
+        "sample": 30,
+        "seconds": 7.5,
+        "sourceIndex": 180,
+        "sourceTime": 7.5,
+        "relativeTime": 7.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-30.png",
+        "pngSHA256": "9f118b3e7f9a0707a7304d2c74cc6867604dbae25ff8d92861f0e28f28019773"
+      },
+      {
+        "sample": 31,
+        "seconds": 7.75,
+        "sourceIndex": 186,
+        "sourceTime": 7.75,
+        "relativeTime": 7.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-31.png",
+        "pngSHA256": "7fedc23e7c9f26d0ae15f349049ddc2cb5a38617b2674bb94626fb2430223537"
+      }
+    ],
+    "nativePixels": true
+  },
+  "crops": [
+    {
+      "id": "orfeu-fists",
+      "character": "Orfeu — dois punhos",
+      "crop": {
+        "x": 355,
+        "y": 105,
+        "width": 495,
+        "height": 230
+      },
+      "frames": [
+        {
+          "sample": 0,
+          "seconds": 0,
+          "sourceIndex": 0,
+          "sourceTime": 0,
+          "relativeTime": 0,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-00.png",
+          "pngSHA256": "82e238b496e1d548c8b47eec52e952b13dcfcb6d40009840045507c2134c0600"
+        },
+        {
+          "sample": 1,
+          "seconds": 0.25,
+          "sourceIndex": 6,
+          "sourceTime": 0.25,
+          "relativeTime": 0.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-01.png",
+          "pngSHA256": "108f059e7e2f85d1e18dde8fd616c10a21e9df770a9d5ae6989d14a197e611b8"
+        },
+        {
+          "sample": 2,
+          "seconds": 0.5,
+          "sourceIndex": 12,
+          "sourceTime": 0.5,
+          "relativeTime": 0.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-02.png",
+          "pngSHA256": "fa4bf58701c06d399b8ef7758835b7bd65a2c8c117818ff6347a4113e19ab8e4"
+        },
+        {
+          "sample": 3,
+          "seconds": 0.75,
+          "sourceIndex": 18,
+          "sourceTime": 0.75,
+          "relativeTime": 0.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-03.png",
+          "pngSHA256": "3e5f0b896e264dfd11a077c3057e10b11f567535cdd59c2c481fe0162da80c99"
+        },
+        {
+          "sample": 4,
+          "seconds": 1,
+          "sourceIndex": 24,
+          "sourceTime": 1,
+          "relativeTime": 1,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-04.png",
+          "pngSHA256": "4516b048831a66dc62f1da30429f238ed935bf0f4fe5a7b4171d101e9abe4c80"
+        },
+        {
+          "sample": 5,
+          "seconds": 1.25,
+          "sourceIndex": 30,
+          "sourceTime": 1.25,
+          "relativeTime": 1.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-05.png",
+          "pngSHA256": "c6525b3214907a49a74cf2861e981aea7f96dbc5cd66163d2125e64361a79a8b"
+        },
+        {
+          "sample": 6,
+          "seconds": 1.5,
+          "sourceIndex": 36,
+          "sourceTime": 1.5,
+          "relativeTime": 1.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-06.png",
+          "pngSHA256": "f2bc8d6af0c97428c10a946f260ffaf579162989009cb96f60a0b817c775a3eb"
+        },
+        {
+          "sample": 7,
+          "seconds": 1.75,
+          "sourceIndex": 42,
+          "sourceTime": 1.75,
+          "relativeTime": 1.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-07.png",
+          "pngSHA256": "77edb9e5a3cd7caa1690043332f4686bcaf88212a9640b6433ffc8639c8205c5"
+        },
+        {
+          "sample": 8,
+          "seconds": 2,
+          "sourceIndex": 48,
+          "sourceTime": 2,
+          "relativeTime": 2,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-08.png",
+          "pngSHA256": "53c7d3bea044923f2864764f61f3b3e72aab0b844fd865a5a37417f9504f183e"
+        },
+        {
+          "sample": 9,
+          "seconds": 2.25,
+          "sourceIndex": 54,
+          "sourceTime": 2.25,
+          "relativeTime": 2.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-09.png",
+          "pngSHA256": "65dc529ee7bc94e27274c49511da1bf9b946459be36442bc5dca0a09c86c8134"
+        },
+        {
+          "sample": 10,
+          "seconds": 2.5,
+          "sourceIndex": 60,
+          "sourceTime": 2.5,
+          "relativeTime": 2.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-10.png",
+          "pngSHA256": "6b4db7c7c4cea55af7ad346ab34595670251f092bf5ea1d665e5ef886b7cd4c5"
+        },
+        {
+          "sample": 11,
+          "seconds": 2.75,
+          "sourceIndex": 66,
+          "sourceTime": 2.75,
+          "relativeTime": 2.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-11.png",
+          "pngSHA256": "d9c3a8d226ef8f8bdb75f4f038e18a50b571e621f8b52f8b2a2f05838ba7699c"
+        },
+        {
+          "sample": 12,
+          "seconds": 3,
+          "sourceIndex": 72,
+          "sourceTime": 3,
+          "relativeTime": 3,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-12.png",
+          "pngSHA256": "90cacc14cf07046d777749d09aa0f6aedc1174c289ecd84247a1583b6c349da4"
+        },
+        {
+          "sample": 13,
+          "seconds": 3.25,
+          "sourceIndex": 78,
+          "sourceTime": 3.25,
+          "relativeTime": 3.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-13.png",
+          "pngSHA256": "2727fafbca949f66b157b3a3b4eec32421e0e5543e84daddead7c58a1bb57e65"
+        },
+        {
+          "sample": 14,
+          "seconds": 3.5,
+          "sourceIndex": 84,
+          "sourceTime": 3.5,
+          "relativeTime": 3.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-14.png",
+          "pngSHA256": "8a399ad3008c6a6dd601431a8f149395d8cd58e7bbbf40b95c49eab85c6a1561"
+        },
+        {
+          "sample": 15,
+          "seconds": 3.75,
+          "sourceIndex": 90,
+          "sourceTime": 3.75,
+          "relativeTime": 3.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-15.png",
+          "pngSHA256": "4af36d992523587bc7bc3842021d89e9dcfcdeaba6ffd15867c9000013965d77"
+        },
+        {
+          "sample": 16,
+          "seconds": 4,
+          "sourceIndex": 96,
+          "sourceTime": 4,
+          "relativeTime": 4,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-16.png",
+          "pngSHA256": "f29e004999d7e904a000fac1f29673ea2f69afe3eefbbe52b42bb37882bd40c2"
+        },
+        {
+          "sample": 17,
+          "seconds": 4.25,
+          "sourceIndex": 102,
+          "sourceTime": 4.25,
+          "relativeTime": 4.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-17.png",
+          "pngSHA256": "6320c6fb1084375fea4de63a45d74595de3e390e966aae1c24f064c4c24b05f4"
+        },
+        {
+          "sample": 18,
+          "seconds": 4.5,
+          "sourceIndex": 108,
+          "sourceTime": 4.5,
+          "relativeTime": 4.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-18.png",
+          "pngSHA256": "eb8829418b95c08498611ad48c735a5adffd5e4fd167742fd33185fc20d0c38d"
+        },
+        {
+          "sample": 19,
+          "seconds": 4.75,
+          "sourceIndex": 114,
+          "sourceTime": 4.75,
+          "relativeTime": 4.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-19.png",
+          "pngSHA256": "fab960cc3d2c4a3a6f2bb2a0afb6d4b9a34d2e9c75720625123cce8bbac200a4"
+        },
+        {
+          "sample": 20,
+          "seconds": 5,
+          "sourceIndex": 120,
+          "sourceTime": 5,
+          "relativeTime": 5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-20.png",
+          "pngSHA256": "f950275e0d16bebd7317e8dc2e1eeb338383cbc66dad6f2d1db8e5dc3263cd0d"
+        },
+        {
+          "sample": 21,
+          "seconds": 5.25,
+          "sourceIndex": 126,
+          "sourceTime": 5.25,
+          "relativeTime": 5.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-21.png",
+          "pngSHA256": "c0093c4601e184a247d28b83349a6f3b6519c032ce27ae4df23a914d4c524a3d"
+        },
+        {
+          "sample": 22,
+          "seconds": 5.5,
+          "sourceIndex": 132,
+          "sourceTime": 5.5,
+          "relativeTime": 5.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-22.png",
+          "pngSHA256": "bb02f077795ea36c22cb6b271e4e258389eb62912be581d448168bec7635decc"
+        },
+        {
+          "sample": 23,
+          "seconds": 5.75,
+          "sourceIndex": 138,
+          "sourceTime": 5.75,
+          "relativeTime": 5.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-23.png",
+          "pngSHA256": "95e9be0230f62859113b2dd8b8824dc19ebe1288eb3b52f31ea7ec887bc5bd02"
+        },
+        {
+          "sample": 24,
+          "seconds": 6,
+          "sourceIndex": 144,
+          "sourceTime": 6,
+          "relativeTime": 6,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-24.png",
+          "pngSHA256": "4a680dfde3023b56feb1983d627b42b858b931b7b42acad851b3b4c15ce7cffb"
+        },
+        {
+          "sample": 25,
+          "seconds": 6.25,
+          "sourceIndex": 150,
+          "sourceTime": 6.25,
+          "relativeTime": 6.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-25.png",
+          "pngSHA256": "a7780e877cd2a7a8bb38829cd69209b8a879282718c842270ddcd174a678b59b"
+        },
+        {
+          "sample": 26,
+          "seconds": 6.5,
+          "sourceIndex": 156,
+          "sourceTime": 6.5,
+          "relativeTime": 6.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-26.png",
+          "pngSHA256": "122ff331e075459270c5c1dca75def843253093cb7ed9252fc93cf53efa55ab7"
+        },
+        {
+          "sample": 27,
+          "seconds": 6.75,
+          "sourceIndex": 162,
+          "sourceTime": 6.75,
+          "relativeTime": 6.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-27.png",
+          "pngSHA256": "d369f9384a635424389704569a329877e09033c78e2c518113f9d5cb2bf1157b"
+        },
+        {
+          "sample": 28,
+          "seconds": 7,
+          "sourceIndex": 168,
+          "sourceTime": 7,
+          "relativeTime": 7,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-28.png",
+          "pngSHA256": "b73110ee3eef93219fe1dac5764d9a773201e7a427de953935ab2178a0dacc3f"
+        },
+        {
+          "sample": 29,
+          "seconds": 7.25,
+          "sourceIndex": 174,
+          "sourceTime": 7.25,
+          "relativeTime": 7.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-29.png",
+          "pngSHA256": "c94311e2b3c6356e1e0613849b0e0f9cfcbb0b62f645116490acfab9221bc463"
+        },
+        {
+          "sample": 30,
+          "seconds": 7.5,
+          "sourceIndex": 180,
+          "sourceTime": 7.5,
+          "relativeTime": 7.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-30.png",
+          "pngSHA256": "9f118b3e7f9a0707a7304d2c74cc6867604dbae25ff8d92861f0e28f28019773"
+        },
+        {
+          "sample": 31,
+          "seconds": 7.75,
+          "sourceIndex": 186,
+          "sourceTime": 7.75,
+          "relativeTime": 7.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-fists/frame-31.png",
+          "pngSHA256": "7fedc23e7c9f26d0ae15f349049ddc2cb5a38617b2674bb94626fb2430223537"
+        }
+      ],
+      "nativePixels": true
+    },
+    {
+      "id": "orfeu-feet",
+      "character": "Orfeu — pernas e pés",
+      "crop": {
+        "x": 235,
+        "y": 490,
+        "width": 615,
+        "height": 205
+      },
+      "frames": [
+        {
+          "sample": 0,
+          "seconds": 0,
+          "sourceIndex": 0,
+          "sourceTime": 0,
+          "relativeTime": 0,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-feet/frame-00.png",
+          "pngSHA256": "8fabc3a6f453f444f79c394c3061943c27c2672fd993649582be83d04adc7b1a"
+        },
+        {
+          "sample": 1,
+          "seconds": 0.25,
+          "sourceIndex": 6,
+          "sourceTime": 0.25,
+          "relativeTime": 0.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-feet/frame-01.png",
+          "pngSHA256": "9ada9feee76f4f73ba809274a36ff0c3538e34d90db33db63f8efab3460e967b"
+        },
+        {
+          "sample": 2,
+          "seconds": 0.5,
+          "sourceIndex": 12,
+          "sourceTime": 0.5,
+          "relativeTime": 0.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-feet/frame-02.png",
+          "pngSHA256": "0fa006197fbe514e7742d74aa3b8d1cebcf4739b3a79cf448cfb21872f0d72b9"
+        },
+        {
+          "sample": 3,
+          "seconds": 0.75,
+          "sourceIndex": 18,
+          "sourceTime": 0.75,
+          "relativeTime": 0.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-feet/frame-03.png",
+          "pngSHA256": "e814aed214208d5ecb26a673d173529c469f8a554fd81bd64067172f0b032c27"
+        },
+        {
+          "sample": 4,
+          "seconds": 1,
+          "sourceIndex": 24,
+          "sourceTime": 1,
+          "relativeTime": 1,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-feet/frame-04.png",
+          "pngSHA256": "94feb5ed13c2c47d28ed2c6b0abca136d3cc7c17ae5d39d6be7d6c2f691a1178"
+        },
+        {
+          "sample": 5,
+          "seconds": 1.25,
+          "sourceIndex": 30,
+          "sourceTime": 1.25,
+          "relativeTime": 1.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-feet/frame-05.png",
+          "pngSHA256": "73db1ac92a7bcf40f3bb86a408e9d8005cb423f362a2a1d5c91c3a788619c4b5"
+        },
+        {
+          "sample": 6,
+          "seconds": 1.5,
+          "sourceIndex": 36,
+          "sourceTime": 1.5,
+          "relativeTime": 1.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-feet/frame-06.png",
+          "pngSHA256": "24a73cc4b32b319639976bed448660d1fb2716ab157b655bb856aecb02295cc5"
+        },
+        {
+          "sample": 7,
+          "seconds": 1.75,
+          "sourceIndex": 42,
+          "sourceTime": 1.75,
+          "relativeTime": 1.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-feet/frame-07.png",
+          "pngSHA256": "47e541ac836a921136a5b9ef3324e22f3a1257a7b7e8ef5d22da64ad30119bd4"
+        },
+        {
+          "sample": 8,
+          "seconds": 2,
+          "sourceIndex": 48,
+          "sourceTime": 2,
+          "relativeTime": 2,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-feet/frame-08.png",
+          "pngSHA256": "9fd31dce3c5e82d170c16bf5e1a3dad1a122f4062ff320eae8633568d6f6c145"
+        },
+        {
+          "sample": 9,
+          "seconds": 2.25,
+          "sourceIndex": 54,
+          "sourceTime": 2.25,
+          "relativeTime": 2.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-feet/frame-09.png",
+          "pngSHA256": "47c0b572b5657d6612d9ebe65c2e21f3a3ccafcdbbc24896d3b4b142eb4de5d8"
+        },
+        {
+          "sample": 10,
+          "seconds": 2.5,
+          "sourceIndex": 60,
+          "sourceTime": 2.5,
+          "relativeTime": 2.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-feet/frame-10.png",
+          "pngSHA256": "336987891320577426c3e12b15d7d2326ab8d21c8c37dae594f8dd3cae35556e"
+        },
+        {
+          "sample": 11,
+          "seconds": 2.75,
+          "sourceIndex": 66,
+          "sourceTime": 2.75,
+          "relativeTime": 2.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-feet/frame-11.png",
+          "pngSHA256": "2a804688b3feab2728a3619da7202faedc5e46fd15b754bf3369282387cf585e"
+        },
+        {
+          "sample": 12,
+          "seconds": 3,
+          "sourceIndex": 72,
+          "sourceTime": 3,
+          "relativeTime": 3,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-feet/frame-12.png",
+          "pngSHA256": "41da2931cde3d55d7d666915013a4cce028b968456043c2ba5bd187cadf25bcd"
+        },
+        {
+          "sample": 13,
+          "seconds": 3.25,
+          "sourceIndex": 78,
+          "sourceTime": 3.25,
+          "relativeTime": 3.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-feet/frame-13.png",
+          "pngSHA256": "ec90c53f8505ffcfd77cb060568bdf48318efd03e2fb05bdbd5f759adb917b44"
+        },
+        {
+          "sample": 14,
+          "seconds": 3.5,
+          "sourceIndex": 84,
+          "sourceTime": 3.5,
+          "relativeTime": 3.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-feet/frame-14.png",
+          "pngSHA256": "a37e918f50c5b6770263a0cad6e2038848cdb49b01a2ccad08d8e0758774bc8d"
+        },
+        {
+          "sample": 15,
+          "seconds": 3.75,
+          "sourceIndex": 90,
+          "sourceTime": 3.75,
+          "relativeTime": 3.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-feet/frame-15.png",
+          "pngSHA256": "34942ffd6c5bf24ee653c66315a4803d1da6c4df45ba9b0c01ea090a9ba6b12a"
+        },
+        {
+          "sample": 16,
+          "seconds": 4,
+          "sourceIndex": 96,
+          "sourceTime": 4,
+          "relativeTime": 4,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-feet/frame-16.png",
+          "pngSHA256": "232b2543136730a417cd3e90777f2650341b7889ab6557ac59092a3e046daaae"
+        },
+        {
+          "sample": 17,
+          "seconds": 4.25,
+          "sourceIndex": 102,
+          "sourceTime": 4.25,
+          "relativeTime": 4.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-feet/frame-17.png",
+          "pngSHA256": "24a70c3ee7b79cbbf35e9d47604fae6ed4d6908f5ecb890aa32ef7a1280b93e8"
+        },
+        {
+          "sample": 18,
+          "seconds": 4.5,
+          "sourceIndex": 108,
+          "sourceTime": 4.5,
+          "relativeTime": 4.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-feet/frame-18.png",
+          "pngSHA256": "ddb9a871439325563d3c7e721ba4c052f59d3604b67b25a1c0c9e1311d4ae7b6"
+        },
+        {
+          "sample": 19,
+          "seconds": 4.75,
+          "sourceIndex": 114,
+          "sourceTime": 4.75,
+          "relativeTime": 4.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-feet/frame-19.png",
+          "pngSHA256": "c35b7dd33d53422405dd72524496c28e8b4659245d65458dbf41a3045e5cf7a5"
+        },
+        {
+          "sample": 20,
+          "seconds": 5,
+          "sourceIndex": 120,
+          "sourceTime": 5,
+          "relativeTime": 5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-feet/frame-20.png",
+          "pngSHA256": "e7dea4e50d2252b91d94b8cb21e146efd34b6cd2f03bad7267e1e666e60172c0"
+        },
+        {
+          "sample": 21,
+          "seconds": 5.25,
+          "sourceIndex": 126,
+          "sourceTime": 5.25,
+          "relativeTime": 5.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-feet/frame-21.png",
+          "pngSHA256": "99dc93045d07a0d665d76bf1761ef677999e02d59e8942ae263643cd07f209ed"
+        },
+        {
+          "sample": 22,
+          "seconds": 5.5,
+          "sourceIndex": 132,
+          "sourceTime": 5.5,
+          "relativeTime": 5.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-feet/frame-22.png",
+          "pngSHA256": "23746c0406f3d670defd855795b685c059c9d47fb370cb5c660059d573f0f9ec"
+        },
+        {
+          "sample": 23,
+          "seconds": 5.75,
+          "sourceIndex": 138,
+          "sourceTime": 5.75,
+          "relativeTime": 5.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-feet/frame-23.png",
+          "pngSHA256": "dddf6b8738bc3ea407cf732e9609fff3f4c6b0ca632e76efeec65a6706cefe6c"
+        },
+        {
+          "sample": 24,
+          "seconds": 6,
+          "sourceIndex": 144,
+          "sourceTime": 6,
+          "relativeTime": 6,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-feet/frame-24.png",
+          "pngSHA256": "200bf85e08e7b54de4d4e84f897701ba21cca47fa4554afe584a0b1763f65db1"
+        },
+        {
+          "sample": 25,
+          "seconds": 6.25,
+          "sourceIndex": 150,
+          "sourceTime": 6.25,
+          "relativeTime": 6.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-feet/frame-25.png",
+          "pngSHA256": "c6973d62e91d9059cc55776cc9193cd7f3202a95fdee82e3391ff5241391c895"
+        },
+        {
+          "sample": 26,
+          "seconds": 6.5,
+          "sourceIndex": 156,
+          "sourceTime": 6.5,
+          "relativeTime": 6.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-feet/frame-26.png",
+          "pngSHA256": "5405dc42aa1f1183928bf79ab40fe9f466384ae52c838465976af3aa23d0ed86"
+        },
+        {
+          "sample": 27,
+          "seconds": 6.75,
+          "sourceIndex": 162,
+          "sourceTime": 6.75,
+          "relativeTime": 6.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-feet/frame-27.png",
+          "pngSHA256": "659df7ec9f042a182cf0a34edaf63fa8b7d2e906f9402aa599bd4eb5bdc0cb92"
+        },
+        {
+          "sample": 28,
+          "seconds": 7,
+          "sourceIndex": 168,
+          "sourceTime": 7,
+          "relativeTime": 7,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-feet/frame-28.png",
+          "pngSHA256": "2c8046396350efc4e0e24a9a43c7807004c44de03a4a9db675f7303b2bace918"
+        },
+        {
+          "sample": 29,
+          "seconds": 7.25,
+          "sourceIndex": 174,
+          "sourceTime": 7.25,
+          "relativeTime": 7.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-feet/frame-29.png",
+          "pngSHA256": "b30941d18539d16dbb9700988737e0eb98c300ca4a79218273ba1dccdcc7afca"
+        },
+        {
+          "sample": 30,
+          "seconds": 7.5,
+          "sourceIndex": 180,
+          "sourceTime": 7.5,
+          "relativeTime": 7.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-feet/frame-30.png",
+          "pngSHA256": "b2b37e50c34d1b37d04bec83d3e4e693e005e6c8c46196c92c5e3dbe491956d7"
+        },
+        {
+          "sample": 31,
+          "seconds": 7.75,
+          "sourceIndex": 186,
+          "sourceTime": 7.75,
+          "relativeTime": 7.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/orfeu-source/orfeu-feet/frame-31.png",
+          "pngSHA256": "f37486ccbf7c8daf52c58cbb443ec64c513317239c69b8a39af6718f9073d2e1"
+        }
+      ],
+      "nativePixels": true
+    }
+  ],
+  "extraction": "FFmpeg decoded original source indices, rgb24 PNG. Character crops are native rectangles without repainting/resizing; only contact thumbnails are resized.",
+  "visualReview": "approved-sampled-window",
+  "commands": [
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffprobe.exe",
+      "args": [
+        "-v",
+        "error",
+        "-count_frames",
+        "-show_streams",
+        "-show_format",
+        "-of",
+        "json",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v33\\opening\\clips\\08-orfeu.mp4"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffprobe.exe",
+      "args": [
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_frames",
+        "-show_entries",
+        "frame=best_effort_timestamp_time",
+        "-of",
+        "json",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v33\\opening\\clips\\08-orfeu.mp4"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v33\\opening\\clips\\08-orfeu.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-vf",
+        "select='eq(n,0)+eq(n,12)+eq(n,24)+eq(n,36)+eq(n,48)+eq(n,60)+eq(n,72)+eq(n,84)+eq(n,96)+eq(n,108)+eq(n,120)+eq(n,132)+eq(n,144)+eq(n,156)+eq(n,168)+eq(n,180)',format=rgb24",
+        "-fps_mode",
+        "passthrough",
+        "-frames:v",
+        "16",
+        "-start_number",
+        "0",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\orfeu-source\\full\\frame-%02d.png"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "0",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\orfeu-source\\full\\frame-%02d.png",
+        "-vf",
+        "scale=320:180,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\orfeu-source\\full-contact.jpg"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v33\\opening\\clips\\08-orfeu.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-vf",
+        "select='eq(n,0)+eq(n,6)+eq(n,12)+eq(n,18)+eq(n,24)+eq(n,30)+eq(n,36)+eq(n,42)+eq(n,48)+eq(n,54)+eq(n,60)+eq(n,66)+eq(n,72)+eq(n,78)+eq(n,84)+eq(n,90)+eq(n,96)+eq(n,102)+eq(n,108)+eq(n,114)+eq(n,120)+eq(n,126)+eq(n,132)+eq(n,138)+eq(n,144)+eq(n,150)+eq(n,156)+eq(n,162)+eq(n,168)+eq(n,174)+eq(n,180)+eq(n,186)',format=rgb24,crop=495:230:355:105",
+        "-fps_mode",
+        "passthrough",
+        "-frames:v",
+        "32",
+        "-start_number",
+        "0",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\orfeu-source\\orfeu-fists\\frame-%02d.png"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "0",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\orfeu-source\\orfeu-fists\\frame-%02d.png",
+        "-vf",
+        "scale=320:149,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\orfeu-source\\orfeu-fists-contact-1.jpg"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "16",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\orfeu-source\\orfeu-fists\\frame-%02d.png",
+        "-vf",
+        "scale=320:149,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\orfeu-source\\orfeu-fists-contact-2.jpg"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v33\\opening\\clips\\08-orfeu.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-vf",
+        "select='eq(n,0)+eq(n,6)+eq(n,12)+eq(n,18)+eq(n,24)+eq(n,30)+eq(n,36)+eq(n,42)+eq(n,48)+eq(n,54)+eq(n,60)+eq(n,66)+eq(n,72)+eq(n,78)+eq(n,84)+eq(n,90)+eq(n,96)+eq(n,102)+eq(n,108)+eq(n,114)+eq(n,120)+eq(n,126)+eq(n,132)+eq(n,138)+eq(n,144)+eq(n,150)+eq(n,156)+eq(n,162)+eq(n,168)+eq(n,174)+eq(n,180)+eq(n,186)',format=rgb24,crop=615:205:235:490",
+        "-fps_mode",
+        "passthrough",
+        "-frames:v",
+        "32",
+        "-start_number",
+        "0",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\orfeu-source\\orfeu-feet\\frame-%02d.png"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "0",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\orfeu-source\\orfeu-feet\\frame-%02d.png",
+        "-vf",
+        "scale=320:107,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\orfeu-source\\orfeu-feet-contact-1.jpg"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "16",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\orfeu-source\\orfeu-feet\\frame-%02d.png",
+        "-vf",
+        "scale=320:107,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\orfeu-source\\orfeu-feet-contact-2.jpg"
+      ]
+    }
+  ],
+  "rootReview": "A raiz revisou full16, dois punhos/pés e efeito físico de antimagia.",
+  "approvedWindows": [
+    {
+      "sourceIndices": [
+        0,
+        119
+      ],
+      "frames": 120,
+      "startSeconds": 0
+    }
+  ]
+}

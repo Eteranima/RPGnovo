@@ -1,0 +1,24 @@
+{
+  "origin": "http://127.0.0.1:5174",
+  "isolation": "Separate test origin; user17save on5173 not reset",
+  "state": {
+    "map": "patio",
+    "stage": 0,
+    "mode": "start",
+    "position": {
+      "x": 14,
+      "y": 12
+    },
+    "heroes": [
+      "seiji",
+      "ophelia"
+    ]
+  },
+  "soundPreference": "muted using game control before opening",
+  "build": "pnpm build passed exit0",
+  "unitTests": {
+    "openingChecks": 1634,
+    "partyHotkeyChecks": 250,
+    "exitCode": 0
+  }
+}

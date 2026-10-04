@@ -1,0 +1,6 @@
+[
+  { "id": "dante-wings", "character": "Dante, visible wings/body/tail; the right edge matches the original frame", "crop": { "x": 570, "y": 0, "width": 710, "height": 710 } },
+  { "id": "dante-claws", "character": "Dante, feet and perch", "crop": { "x": 650, "y": 280, "width": 270, "height": 170 } },
+  { "id": "gabriel-hand-left", "character": "Gabriel, hand in left image region at waist", "crop": { "x": 350, "y": 210, "width": 170, "height": 130 } },
+  { "id": "gabriel-hand-right", "character": "Gabriel, raised hand in right image region", "crop": { "x": 485, "y": 110, "width": 165, "height": 145 } }
+]

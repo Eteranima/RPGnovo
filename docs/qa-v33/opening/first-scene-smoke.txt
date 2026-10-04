@@ -1,0 +1,18 @@
+Smoke scene01 pass1: 144 real frames...
+Smoke scene01 pass2: 144 real frames...
+{
+  "source": "clips/01-academy.mp4",
+  "sourceSHA256": "1dfd057105d9ee6fe1d232dc89ebdefc148d2a8ebb3b7001d34a23819eb5714e",
+  "sourceIndices": [
+    36,
+    179
+  ],
+  "frames": 144,
+  "fps": "24/1",
+  "seconds": 6,
+  "width": 1280,
+  "height": 720,
+  "audioStreams": 0,
+  "filter": "select='between(n,36,179)',settb=1/24,setpts=N,scale=1280:720:force_original_aspect_ratio=increase:flags=lanczos,crop=1280:720,setsar=1,format=yuv420p",
+  "output": "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\.agents\\v33-opening-renders\\smoke-1791119498487\\shot-01.mp4"
+}

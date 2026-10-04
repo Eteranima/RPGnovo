@@ -1,0 +1,5 @@
+[
+  { "id": "abel-staff-hand", "character": "Abel — mão no cajado único", "crop": { "x": 325, "y": 125, "width": 165, "height": 205 } },
+  { "id": "abel-free-hand", "character": "Abel — mão livre", "crop": { "x": 600, "y": 140, "width": 220, "height": 200 } },
+  { "id": "abel-fire-lion", "character": "Abel — cabeça de leão de fogo", "crop": { "x": 725, "y": 0, "width": 385, "height": 430 } }
+]

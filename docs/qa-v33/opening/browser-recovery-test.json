@@ -1,0 +1,17 @@
+{
+  "scenario": "Local export not yet present during a controlled loading test",
+  "expectedError": "404 for pending MP4",
+  "result": "Recovery screen showed Retry and Skip; Escape returned to title",
+  "gameStateUnchanged": true,
+  "keysContained": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "p",
+    "Enter"
+  ],
+  "focusAfterThreeTabs": "Tentar novamente within cinematic dialog",
+  "mutedPreferenceAfterExit": true
+}

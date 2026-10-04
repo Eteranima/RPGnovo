@@ -37,11 +37,24 @@ const page=ts.createSourceFile('app/page.tsx',readFileSync('app/page.tsx','utf8'
 let down;
 function visit(node){if(ts.isVariableDeclaration(node)&&node.name.getText(page)==='down'&&ts.isArrowFunction(node.initializer))down=node.initializer;ts.forEachChild(node,visit);}visit(page);
 check(down,'production keydown handler found');
-const handlerSource=`const bind=(engine,panelRef,setTarget,loadingState=null)=>{const renderer={current:{getLoadingState:()=>loadingState}};let masterSequence=emptyMasterSequence();const loadedRef={current:false},armedRef={current:false};const setPanel=()=>{},activateTitle=()=>{},openMenu=()=>{},toggleMusic=()=>{};const down=${down.getText(page)};return down;};`;
+const handlerSource=`const bind=(engine,panelRef,openingRef,setTarget,loadingState=null)=>{const renderer={current:{getLoadingState:()=>loadingState}};let masterSequence=emptyMasterSequence();const loadedRef={current:false},armedRef={current:false};const setPanel=()=>{},activateTitle=()=>{},openMenu=()=>{},toggleMusic=()=>{};const down=${down.getText(page)};return down;};`;
 const handlerJs=ts.transpileModule(handlerSource,{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.None}}).outputText;
 class TestElement{constructor(selector=''){this.selector=selector;}closest(selector){return this.selector&&selector.includes(this.selector)?this:null;}}
 const bindHandler=new Function('Element','advanceMasterSequence','emptyMasterSequence',`${handlerJs};return bind;`)(TestElement,advanceMasterSequence,emptyMasterSequence);
-function keyboard(game,loadingState=null){const targets=[],panelRef={current:null},down=bindHandler(game,panelRef,id=>targets.push(id),loadingState);return {targets,panelRef,press(key,{repeat=false,target=null}={}){let prevented=0;down({key,repeat,target,preventDefault:()=>prevented++});return prevented;}};}
+function keyboard(game,loadingState=null){const targets=[],panelRef={current:null},openingRef={current:false},down=bindHandler(game,panelRef,openingRef,id=>targets.push(id),loadingState);return {targets,panelRef,openingRef,press(key,{repeat=false,target=null}={}){let prevented=0;down({key,repeat,target,preventDefault:()=>prevented++});return prevented;}};}
+
+// The synchronous opening ref protects the gap before the modal's capture
+// listener mounts and before React applies the engine's paused state.
+{
+ const game=fresh(),before=partyState(game),keys=keyboard(game);keys.openingRef.current=true;
+ game.keys.add('w');game.path=[{x:15,y:12}];game.pending='library';
+ for(const key of ['1','2','3','4','5','Tab','w','e','q','r','g','p',' ','Enter','Escape'])equal(keys.press(key),1,'opening consumes gameplay input before modal listeners mount');
+ equal(game.state.mode,'world','opening input never starts or exits adventure');equal(game.leader().id,'seiji','opening cannot change exploration leader');equal(partyState(game),before,'opening preserves slots, vitals, limits and reserve');equal(keys.targets,[],'opening cannot select a battle target');
+ check(!game.keys.size&&!game.path.length&&!game.pending,'opening removes held movement, pending interaction and path');equal(keys.press('F5'),0,'browser refresh remains available while opening is visible');
+ keys.openingRef.current=false;keys.press('3');equal(game.leader().id,before.party[2],'closing opening restores normal party shortcuts');
+ game.beginBattle({id:'opening-input-isolation',kind:'mob',label:'Fila de teste',asset:'shadow',family:'sombra',hp:5000,damage:1,x:1,y:1});keys.openingRef.current=true;
+ const battleBefore=structuredClone(game.state.battle),targetsBefore=keys.targets.length;keys.press('2');keys.press('Tab');equal(game.state.battle,battleBefore,'opening cannot alter a battle queue or actor');equal(keys.targets.length,targetsBefore,'opening cannot change the selected healing/item target');
+}
 
 for(const status of [{loading:true,error:null},{loading:false,error:'asset failed'}]){
  const game=fresh(),before=partyState(game),keys=keyboard(game,status);game.keys.add('w');game.path=[{x:15,y:12}];

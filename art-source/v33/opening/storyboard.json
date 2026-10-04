@@ -1,0 +1,859 @@
+{
+  "schemaVersion": 1,
+  "update": "v33",
+  "title": "Éter Anima — abertura de Stone Reach",
+  "productionStatus": "in-production",
+  "statusNote": "Roteiro e referências preparados. Este documento não comprova geração de clips, revisão anatômica final, integração nem exportação do vídeo.",
+  "repoRoot": "C:/Users/Diego/OneDrive/Documentos/GitHub/RPGnovo",
+  "fps": 24,
+  "totalFrames": 1500,
+  "durationSeconds": 62.5,
+  "frameConvention": "Zero-based inclusive bounds: frames 0 through 1499.",
+  "generationPlan": {
+    "shotCount": 12,
+    "nominalActionSecondsPerPrompt": 5,
+    "note": "Five seconds describes each principal action. Final editorial budgets include six seconds for shot 01 and six and a half seconds for shot 12. Actual tool durations and final timing must be recorded after generation; do not claim 1500 independently hand-drawn/generated images.",
+    "titlePresentation": "DOM overlay after export; no baked text in generated key art or video.",
+    "finalCastAssembly": "Reuse approved individual shots through editing/montage; do not generate all 15 figures simultaneously."
+  },
+  "artDirection": {
+    "language": "Japanese 2D fantasy anime",
+    "finish": "Crisp fine ink contours, controlled 2–3 tone cel shading, mature heroes, canonical chibi companions, refined costume details.",
+    "references": "Established Seiji, Ophelia, Carmilla, Ava and Orfeu art; Mushoku Tensei and Fate Series are the repository's visual direction references.",
+    "anatomy": "Two arms, two legs per human; coherent joints, wrists and hands; no extra limb. Shin must have exactly two distinct legs and boots. Dante has two avian legs.",
+    "motion": "Gentle camera, single physically plausible action per hero shot; no bright flashes/strobes, excessive shake or sudden white-out.",
+    "elements": "Ava earth; Ophelia ice/healing; Seiji ink; Marin darkness; Gabriel fire; Max electricity and iron nails; Carmilla blood/threads; Beatriz water and darkness; Abel primordial fire/lion; Orfeu neutral physical anti-magic."
+  },
+  "loreGuardrails": {
+    "openingContext": "A quiet academy conceals an unexplained noise. Beatriz asks the party to investigate a record in the archive.",
+    "allowed": "Suggest stone vibration, erased writing, curiosity, care, solidarity and the desire to remember.",
+    "excluded": "Do not reveal the sealed stair's destination, the Selo resolution, final enemy identity, quest endings or long-quest memory revelations.",
+    "teachers": "Ava, Orfeu, Beatriz, Abel and Carmilla receive no invented companions.",
+    "rosterNote": "Abel is currently an exploration/workshop NPC, separate from the nine playable heroes. Presenting him here does not change gameplay or recruitment.",
+    "marinNote": "Use the approved v29 adult androgynous male visual identity. Legacy feminine text is inconsistent and must not silently change his approved body design."
+  },
+  "identities": [
+    {
+      "id": "seiji",
+      "name": "Seiji",
+      "role": "Escriba",
+      "reference": "C:/Users/Diego/OneDrive/Documentos/GitHub/RPGnovo/public/assets/v29/seiji/portrait.png",
+      "elements": [
+        "ink"
+      ],
+      "companion": "shin",
+      "identityEn": "Adult lean male calligraphy swordsman; long silver-white hair with thin red ribbons, red eyes, ivory Japanese haori with red lining and red emblems over a layered black robe, red sash and tassels, black boots, sheathed katana and a black/gold calligraphy brush. Ink is black/navy with ivory paper talismans, never flames."
+    },
+    {
+      "id": "ophelia",
+      "name": "Ophelia",
+      "role": "Curandeira",
+      "reference": "C:/Users/Diego/OneDrive/Documentos/GitHub/RPGnovo/public/assets/v29/ophelia/portrait.png",
+      "elements": [
+        "ice",
+        "healing"
+      ],
+      "companion": "mika",
+      "identityEn": "Elegant adult female ice healer; violet eyes, long black hair with violet ends and straight bangs, ornate gold monocle on her left eye, white lace veil/headdress with violet roses and pearls, ornate violet/lavender gothic dress and purple boots. Preserve purple costume; ice and healing use translucent blue-white snowflakes/crystals, never fire."
+    },
+    {
+      "id": "marin",
+      "name": "Marin",
+      "role": "Combatente de Trevas",
+      "reference": "C:/Users/Diego/OneDrive/Documentos/GitHub/RPGnovo/public/assets/v29/marin/portrait.png",
+      "elements": [
+        "darkness"
+      ],
+      "companion": "umbra",
+      "identityEn": "Adult slender androgynous male; wavy layered black hair, grey-blue eyes, blue dangling earring, black noble long coat with gold embroidery and blue lining, blue waistcoat, white high collar and full white sleeves, gold chains, fitted black trousers and boots. Exactly two curved violet-black daggers, one per hand. Darkness is violet/near-black."
+    },
+    {
+      "id": "gabriel",
+      "name": "Gabriel",
+      "role": "Guardião",
+      "reference": "C:/Users/Diego/OneDrive/Documentos/GitHub/RPGnovo/public/assets/v29/gabriel/portrait.png",
+      "elements": [
+        "fire"
+      ],
+      "companion": "dante",
+      "identityEn": "Adult athletic male; short spiky white hair, amber eyes, warm skin, fitted black/gold long coat with crimson lining and orange flame-like collar, white open-collar shirt, belts and gold chains with red gems, dark trousers, black tall boots and gloves. Unarmed fire fists; no sword. Keep human form in this opening shot."
+    },
+    {
+      "id": "max",
+      "name": "Max",
+      "role": "Vanguarda",
+      "reference": "C:/Users/Diego/OneDrive/Documentos/GitHub/RPGnovo/public/assets/v29/max/portrait.png",
+      "elements": [
+        "lightning",
+        "iron-nails"
+      ],
+      "companion": "vajra",
+      "identityEn": "Adult slender lanky male; pale stitched skin, short tousled black hair, amber eyes, black hooded coat with orange lining/stitches, distressed off-white shirt, dark fitted trousers, chains and black boots/gloves. Iron nails have broad flat round heads and pointed shafts. Yellow/cyan electric arcs. Preserve the small black orange-eyed shoulder rodent as a costume detail; it is not Vajra."
+    },
+    {
+      "id": "ava",
+      "name": "Ava Rosa Groot",
+      "role": "Professora do Domo",
+      "reference": "C:/Users/Diego/OneDrive/Documentos/GitHub/RPGnovo/public/assets/v26/ava/ava-anime-portrait.png",
+      "elements": [
+        "earth"
+      ],
+      "companion": null,
+      "identityEn": "Athletic adult female earth martial artist; long auburn wavy hair with tiny white/pink flowers, green eyes, olive-green sleeveless cross-wrap crop top, long deep-green sash, loose ivory trousers, white forearm wraps and green crisscross shoes. Grounded unarmed martial movement. Earth is layered ochre sandstone/granite, restrained mineral dust and gold mineral glints. Floral costume details are decorative, not plant attacks."
+    },
+    {
+      "id": "orfeu",
+      "name": "Orfeu Bauss",
+      "role": "Professor da Biblioteca",
+      "reference": "C:/Users/Diego/OneDrive/Documentos/GitHub/RPGnovo/public/assets/v22/orfeu-5star.webp",
+      "additionalReferences": [
+        "C:/Users/Diego/OneDrive/Documentos/GitHub/RPGnovo/public/assets/v25/orfeu/orfeu-antimagic-combat.png"
+      ],
+      "directionSourceDocument": "C:/Users/Diego/OneDrive/Documentos/GitHub/RPGnovo/art-source/v30/orfeu/cast-prompt.txt",
+      "elements": [
+        "physical-antimagic"
+      ],
+      "companion": null,
+      "identityEn": "Adult athletic/slender brown-skinned martial artist man; medium-short tousled silver-white hair, dark focused eyes, black sleeveless Chinese-collar vest with fine gold fasteners/trim, narrow black/gold upper-arm bands, white wrist/palm/forearm wraps with naturally bare fingers, asymmetric deep-blue embroidered waist sash, loose dark trousers and low navy/gold martial shoes. Unarmed physical anti-magic: slate-grey/white pressure, dark fractures and dust. Ignore the old portrait's blue/gold magical rings; use the v25 combat costume and current v30 neutral-effects direction."
+    },
+    {
+      "id": "carmilla",
+      "name": "Carmilla",
+      "role": "Professora vampira",
+      "reference": "C:/Users/Diego/OneDrive/Documentos/GitHub/RPGnovo/public/assets/v29/carmilla/portrait.png",
+      "elements": [
+        "blood",
+        "sewing-threads"
+      ],
+      "companion": null,
+      "identityEn": "Elegant tall adult female vampire professor; long straight blonde hair below hips, subtle pointed ears, ruby-red eyes, black high-collar academic robe with wine-red lining and gold stitch/web filigree, ruby jewelry, fitted black dress and tall laced boots. Exactly two dark-metal sewing needles with ruby grips, carmine threads and small red droplets. No gore."
+    },
+    {
+      "id": "beatriz",
+      "name": "Beatriz Demeter",
+      "role": "Mestra do Pátio Central",
+      "reference": "C:/Users/Diego/OneDrive/Documentos/GitHub/RPGnovo/public/assets/v29/beatriz/portrait.png",
+      "elements": [
+        "water",
+        "darkness"
+      ],
+      "companion": null,
+      "identityEn": "Adult black-haired violet-eyed witch sword professor; large black witch hat with gold/purple clasp, white high-collar academic coat with gold trim and dark-blue lining, white gloves, black belt with potion vials and white strapped boots. One slim straight pale-blue sword with gold/purple hilt. Water is blue fluid ribbon; darkness is a separate near-black/violet wisp, not ice."
+    },
+    {
+      "id": "abel",
+      "name": "Abel Nomikos",
+      "role": "Professor da Forja Antiga; visitante NPC",
+      "reference": "C:/Users/Diego/OneDrive/Documentos/GitHub/RPGnovo/public/assets/v29/abel/portrait.png",
+      "elements": [
+        "primordial-fire",
+        "lion"
+      ],
+      "companion": null,
+      "identityEn": "Adult medium-brown-skinned male professor; short wavy ginger-red hair, narrow round gold-rim glasses, crimson hooded academic cloak with gold embroidery, tailored black high-collar outfit, dark gold-trimmed boots, belts/chain and dark gold-trimmed waist book. One bronze-gold staff with pointed red crystal head. Ruby/amber primordial fire carries a stylized lion motif."
+    }
+  ],
+  "companions": [
+    {
+      "id": "shin",
+      "hero": "seiji",
+      "reference": "C:/Users/Diego/OneDrive/Documentos/GitHub/RPGnovo/public/assets/v31/companions/shin/fullbody.png",
+      "identityEn": "Canonical chibi boy with white/silver iridescent pastel hair, bright blue eyes, white broad-sleeved kimono with black ink patterns and gold edging, black/gold sash and two black/gold boots, one fine black/gold brush. Exactly two anatomical legs and two feet; cloth must never look like a third leg."
+    },
+    {
+      "id": "mika",
+      "hero": "ophelia",
+      "reference": "C:/Users/Diego/OneDrive/Documentos/GitHub/RPGnovo/public/assets/v31/companions/mika/fullbody.png",
+      "identityEn": "Canonical blond chibi boy with blue eyes and round dark-blue/gold glasses, blue academic winter coat with white fur collar/cuffs/hem and gold embroidery, blue trousers/boots and black winter gloves. Not an animal and not adult Ophelia."
+    },
+    {
+      "id": "umbra",
+      "hero": "marin",
+      "reference": "C:/Users/Diego/OneDrive/Documentos/GitHub/RPGnovo/public/assets/v31/companions/umbra/fullbody.png",
+      "identityEn": "Canonical chibi boy with tousled dark black/red-brown hair, dark-red eyes, crimson noble frock coat with black/gold brocade, white ruffled cravat, black/gold waistcoat, dark shorts, black gloves and tall gold-trimmed boots. Not a cat, raven or dog."
+    },
+    {
+      "id": "vajra",
+      "hero": "max",
+      "reference": "C:/Users/Diego/OneDrive/Documentos/GitHub/RPGnovo/public/assets/v31/companions/vajra/fullbody.png",
+      "identityEn": "Canonical chibi boy with spiky gold/blond and black hair, golden eyes, black/gold sleeveless hooded adventurer outfit, white waist layer, black shorts, fingerless gloves and gold-trimmed boots. Tiny embroidered electric motifs. Not Max's shoulder rodent."
+    },
+    {
+      "id": "dante",
+      "hero": "gabriel",
+      "reference": "C:/Users/Diego/OneDrive/Documentos/GitHub/RPGnovo/public/assets/v31/companions/dante/fullbody.png",
+      "identityEn": "Canonical crimson/red-orange and gold PHOENIX: gold swept feather crown and beak, amber eyes, thin ornate gold breast harness with one red ruby, orange/gold inner wings and long layered fiery tail feathers. Exactly two avian legs/taloned feet. Not a wolf, griffin, dragon or other pet."
+    }
+  ],
+  "shots": [
+    {
+      "id": "shot-01",
+      "name": "Stone Reach desperta",
+      "frames": {
+        "first": 0,
+        "last": 143,
+        "count": 144
+      },
+      "targetDurationSeconds": 6,
+      "nominalActionSeconds": 5,
+      "heroId": null,
+      "companionId": null,
+      "emotion": "Beleza e inquietação",
+      "location": "Academia de Stone Reach junto ao lago, noite iluminada pela lua",
+      "references": [],
+      "keyArtStatus": "approved-static-keyart",
+      "videoStatus": "not-recorded",
+      "exportStatus": "pending",
+      "videoPromptEn": "A continuous five-second shot in polished original Japanese 2D fantasy anime, crisp fine ink contours, controlled cel shading, rich costume detail and coherent adult anatomy for the heroes and exact canonical chibi proportions for the companions. Preserve the attached key art's exact faces, hair, costumes, props and silhouettes throughout. Keep camera motion gentle and character movement physically plausible. Exactly two arms and two legs for each human, coherent wrists and five fingers per hand; no limb duplication, body morphing or third leg. No bright flashes, strobe, sudden white-out, frantic camera shake, text, subtitles, logo or watermark. No dialogue or generated music.\n\n\nUse an empty architectural establishing composition of Stone Reach, no new characters. Camera slowly advances across the courtyard toward warm academy windows. One loose ivory page drifts steadily through the lower foreground while a faint, localized vibration disturbs dust near a sealed stone seam; no visible monster or revealed passage. Moonlit night illumination remains stable and readable; preserve the key art's blue night sky, moon, warm window lights, lake, waterfalls and academy architecture.",
+      "editorialNotes": "Plano arquitetônico de abertura. Duração final de 6 s depende da edição temporal do clipe aprovado.",
+      "keyArtReview": {
+        "status": "approved-static-keyart",
+        "image": "art-source/v33/opening/keyframes/01-academy.png",
+        "sha256": "33a1c3ebd286d71edd8c901027d935cb5aaf3d632a3ef77487cc09e523128873",
+        "reviewMethod": "Direct independent visual inspection.",
+        "reviewer": "opening_identity_audit",
+        "findings": "Detailed moonlit anime-fantasy architecture, lake reflections, waterfalls, mountains and lanterns; one foreground ivory page. No characters, extra limbs, square placeholder shadows or final-story revelation. Composition is suitable for a restrained opening camera move.",
+        "approvedForVideoGeneration": true,
+        "videoContinuityReviewed": false,
+        "limits": "Still-image approval only. Camera movement, water behavior and temporal stability must be reviewed after video generation."
+      },
+      "keyArtApprovedForVideoGeneration": true
+    },
+    {
+      "id": "shot-02",
+      "name": "Seiji e Shin — o traço",
+      "frames": {
+        "first": 144,
+        "last": 263,
+        "count": 120
+      },
+      "targetDurationSeconds": 5,
+      "nominalActionSeconds": 5,
+      "heroId": "seiji",
+      "companionId": "shin",
+      "emotion": "Curiosidade e memória",
+      "location": "Arquivo da Academia",
+      "references": [
+        "C:/Users/Diego/OneDrive/Documentos/GitHub/RPGnovo/public/assets/v29/seiji/portrait.png",
+        "C:/Users/Diego/OneDrive/Documentos/GitHub/RPGnovo/public/assets/v31/companions/shin/fullbody.png"
+      ],
+      "keyArtStatus": "approved-static-keyart-after-repair",
+      "videoStatus": "not-recorded",
+      "exportStatus": "pending",
+      "videoPromptEn": "A continuous five-second shot in polished original Japanese 2D fantasy anime, crisp fine ink contours, controlled cel shading, rich costume detail and coherent adult anatomy for the heroes and exact canonical chibi proportions for the companions. Preserve the attached key art's exact faces, hair, costumes, props and silhouettes throughout. Keep camera motion gentle and character movement physically plausible. Exactly two arms and two legs for each human, coherent wrists and five fingers per hand; no limb duplication, body morphing or third leg. No bright flashes, strobe, sudden white-out, frantic camera shake, text, subtitles, logo or watermark. No dialogue or generated music.\n\nAdult lean male calligraphy swordsman; long silver-white hair with thin red ribbons, red eyes, ivory Japanese haori with red lining and red emblems over a layered black robe, red sash and tassels, black boots, sheathed katana and a black/gold calligraphy brush. Ink is black/navy with ivory paper talismans, never flames.\nCanonical chibi boy with white/silver iridescent pastel hair, bright blue eyes, white broad-sleeved kimono with black ink patterns and gold edging, black/gold sash and two black/gold boots, one fine black/gold brush. Exactly two anatomical legs and two feet; cloth must never look like a third leg.\n\nMedium-wide three-quarter view of Seiji and his canonical chibi companion Shin in the academy archive, with both feet safely framed. Slow lateral camera drift. Seiji makes ONE calm, continuous brush stroke across an ivory page held on a reading stand; a restrained black/navy ink ribbon rises alongside it. Shin watches the stroke with a small attentive head turn, maintaining two clearly separated legs. The sheathed katana stays at Seiji's waist.",
+      "editorialNotes": "Uma ação principal por plano. Preservar margem para cabelo, mãos, acessórios e pés; editar o clipe aprovado para o orçamento final de quadros.",
+      "keyArtRejections": [
+        {
+          "status": "rejected",
+          "image": "art-source/v33/opening/keyframes/02-seiji.png",
+          "sha256": "f36f8198d6ad08d607116cd574e57e31c2d0bf2f1303e237cf2a4c09df1a6720",
+          "reviewMethod": "Independent direct visual inspection of the image, not prompt-only inspection.",
+          "reportedBy": "User; independently confirmed by opening_identity_audit.",
+          "reason": "Shin has three visible arms/hands: one holds a brush, one supports his chin, and one rests on his knee.",
+          "visibleShinArms": 3,
+          "visibleShinHands": 3,
+          "visibleShinLegs": 2,
+          "visibleShinBoots": 2,
+          "validReference": false,
+          "approvedForVideoGeneration": false,
+          "repairRequested": "Remove the chin-supporting arm and hand; retain only the brush hand and the hand resting on the knee.",
+          "replacementStatus": "The corrected image was independently visually reviewed and approved as a static video reference. The original hash remains rejected."
+        }
+      ],
+      "keyArtApprovedForVideoGeneration": true,
+      "keyArtReview": {
+        "status": "approved-static-keyart",
+        "image": "art-source/v33/opening/keyframes/02-seiji-corrected.png",
+        "sha256": "105788e22a5c6f1dd614d306c9be7f15ec53be5bd3411bef8a12e7d688ba5f2d",
+        "reviewMethod": "Direct independent visual inspection, compared with the rejected original.",
+        "reviewer": "opening_identity_audit",
+        "visibleShinArms": 2,
+        "visibleShinHands": 2,
+        "visibleShinKnees": 2,
+        "visibleShinLegs": 2,
+        "visibleShinBoots": 2,
+        "handPlacement": "One hand holds the brush; the other rests on his knee. The chin-supporting hand and forearm are removed, leaving clean collar/chest/face.",
+        "visibleSeijiArms": 2,
+        "visibleSeijiHands": 2,
+        "seijiLegVisibility": "One raised bent knee and one complete foreground boot are unambiguous; the remaining lower-body anatomy is covered by layered clothing. No extra limb is observed, but hidden anatomy is not counted as fully visible.",
+        "identityCheck": "Seiji retains silver hair/red ribbons, ivory-red-black costume, sheathed katana and ink; Shin retains iridescent white hair, blue eyes, white-black-gold kimono and chibi proportions.",
+        "approvedForVideoGeneration": true,
+        "videoContinuityReviewed": false,
+        "limits": "Approval covers this static image only. It is not a guarantee of defect-free anatomy in future generated video frames."
+      }
+    },
+    {
+      "id": "shot-03",
+      "name": "Ophelia e Mika — cuidado",
+      "frames": {
+        "first": 264,
+        "last": 383,
+        "count": 120
+      },
+      "targetDurationSeconds": 5,
+      "nominalActionSeconds": 5,
+      "heroId": "ophelia",
+      "companionId": "mika",
+      "emotion": "Cuidado e serenidade",
+      "location": "Arcada da Academia junto a uma fonte sob o luar",
+      "references": [
+        "C:/Users/Diego/OneDrive/Documentos/GitHub/RPGnovo/public/assets/v29/ophelia/portrait.png",
+        "C:/Users/Diego/OneDrive/Documentos/GitHub/RPGnovo/public/assets/v31/companions/mika/fullbody.png"
+      ],
+      "keyArtStatus": "approved-static-keyart",
+      "videoStatus": "rejected-framing-remake-pending",
+      "exportStatus": "pending",
+      "videoPromptEn": "A continuous five-second shot in polished original Japanese 2D fantasy anime, crisp fine ink contours, controlled cel shading, rich costume detail and coherent adult anatomy for the heroes and exact canonical chibi proportions for the companions. Preserve the attached key art's exact faces, hair, costumes, props and silhouettes throughout. Fixed locked camera for the entire shot: no dolly, pan, tilt, zoom, push, track or crop change. Preserve the source image framing with heads, hands, feet, accessories and props inside the frame throughout; character movement remains minimal and physically plausible. Exactly two arms and two legs for each human, coherent wrists and five fingers per hand; no limb duplication, body morphing or third leg. No bright flashes, strobe, sudden white-out, frantic camera shake, text, subtitles, logo or watermark. No dialogue or generated music.\n\nElegant adult female ice healer; violet eyes, long black hair with violet ends and straight bangs, ornate gold monocle on her left eye, white lace veil/headdress with violet roses and pearls, ornate violet/lavender gothic dress and purple boots. Preserve purple costume; ice and healing use translucent blue-white snowflakes/crystals, never fire.\nCanonical blond chibi boy with blue eyes and round dark-blue/gold glasses, blue academic winter coat with white fur collar/cuffs/hem and gold embroidery, blue trousers/boots and black winter gloves. Not an animal and not adult Ophelia.\n\nMedium-wide view of Ophelia and her canonical chibi companion Mika by frosted academy glass. Keep the camera and framing fully locked. Ophelia slowly raises ONE open hand supporting a small translucent blue-white healing ice crystal; localized delicate snowflakes spiral calmly without covering her face or fingers. Mika quietly looks up at the crystal through his round glasses. Violet clothes remain violet. No flame, orange glow or sudden flash.",
+      "editorialNotes": "Uma ação principal por plano. Preservar margem para cabelo, mãos, acessórios e pés; editar o clipe aprovado para o orçamento final de quadros.",
+      "keyArtReview": {
+        "status": "approved-static-keyart",
+        "image": "art-source/v33/opening/keyframes/03-ophelia.png",
+        "sha256": "ebd46ef6b9ea5ce0aac2f2301f15f06d170c7a32e24019595f5ebb16de1ec295",
+        "reviewMethod": "Direct independent visual inspection; explicit visible member/prop counts and identity/element comparison.",
+        "reviewer": "opening_identity_audit",
+        "visibleMemberCounts": {
+          "ophelia": {
+            "arms": 2,
+            "hands": 2,
+            "legs": 2,
+            "boots": 2
+          },
+          "mika": {
+            "arms": 2,
+            "hands": 2,
+            "legs": 2,
+            "boots": 2
+          }
+        },
+        "visiblePropCounts": null,
+        "identityCheck": "Adult Ophelia retains black/violet hair, violet eyes, left gold monocle, lace veil and violet/lavender gothic dress. Canonical chibi boy Mika retains blond hair, glasses and blue/gold fur-lined winter coat.",
+        "elementCheck": "Blue-white ice crystals and snowflakes/healing light; purple costume remains purple. No fire effect.",
+        "visibilityNotes": "Ophelia has two hands, one open beneath the ice and one near her waist; two boots are visible, one partly covered by the dress hem. Mika has two hands and distinct legs/boots.",
+        "recommendedVideoActionEn": "Ophelia gently sustains the existing blue-white ice/healing effect with her open hand while Mika watches; retain exactly two arms/hands per character and avoid creating new gestures.",
+        "approvedForVideoGeneration": true,
+        "videoContinuityReviewed": false,
+        "limits": "Approval covers this static image only. Future generated video anatomy, props, effects, crop and temporal continuity still require visual review; no claim of absolute defect absence."
+      },
+      "keyArtApprovedForVideoGeneration": true,
+      "videoRejections": [
+        {
+          "pipeline": "Flow Quality",
+          "status": "rejected",
+          "reason": "Camera zoom cropped character bodies before the five-second action ended.",
+          "reportedBy": "root",
+          "reviewMethod": "Temporal framing rejection reported by the production lead; this agent independently approved the static key art only.",
+          "sourcePath": null,
+          "sourceSha256": null,
+          "staticKeyArtApprovalChanged": false,
+          "requiredRemake": "Fixed locked camera and original full-body framing throughout."
+        }
+      ]
+    },
+    {
+      "id": "shot-04",
+      "name": "Marin e Umbra — confiança",
+      "frames": {
+        "first": 384,
+        "last": 503,
+        "count": 120
+      },
+      "targetDurationSeconds": 5,
+      "nominalActionSeconds": 5,
+      "heroId": "marin",
+      "companionId": "umbra",
+      "emotion": "Mistério e confiança",
+      "location": "Galeria externa sob o luar",
+      "references": [
+        "C:/Users/Diego/OneDrive/Documentos/GitHub/RPGnovo/public/assets/v29/marin/portrait.png",
+        "C:/Users/Diego/OneDrive/Documentos/GitHub/RPGnovo/public/assets/v31/companions/umbra/fullbody.png"
+      ],
+      "keyArtStatus": "approved-static-keyart",
+      "videoStatus": "not-recorded",
+      "exportStatus": "pending",
+      "videoPromptEn": "A continuous five-second shot in polished original Japanese 2D fantasy anime, crisp fine ink contours, controlled cel shading, rich costume detail and coherent adult anatomy for the heroes and exact canonical chibi proportions for the companions. Preserve the attached key art's exact faces, hair, costumes, props and silhouettes throughout. Fixed locked camera for the entire shot: no dolly, pan, tilt, zoom, push, track or crop change. Preserve the source image framing with heads, hands, feet, accessories and props inside the frame throughout; character movement remains minimal and physically plausible. Exactly two arms and two legs for each human, coherent wrists and five fingers per hand; no limb duplication, body morphing or third leg. No bright flashes, strobe, sudden white-out, frantic camera shake, text, subtitles, logo or watermark. No dialogue or generated music.\n\nAdult slender androgynous male; wavy layered black hair, grey-blue eyes, blue dangling earring, black noble long coat with gold embroidery and blue lining, blue waistcoat, white high collar and full white sleeves, gold chains, fitted black trousers and boots. Exactly two curved violet-black daggers, one per hand. Darkness is violet/near-black.\nCanonical chibi boy with tousled dark black/red-brown hair, dark-red eyes, crimson noble frock coat with black/gold brocade, white ruffled cravat, black/gold waistcoat, dark shorts, black gloves and tall gold-trimmed boots. Not a cat, raven or dog.\n\nMedium-wide three-quarter view of adult androgynous male Marin and his canonical chibi companion Umbra under a moonlit academy arcade. Keep the camera and framing fully locked. Marin slowly raises ONE of his two curved violet daggers by a few centimeters while keeping the other hand and dagger low; narrow violet-black wisps follow the blades without hiding their grips. Umbra remains beside him, subtly turning his gaze toward the same path. No gender change or duplicate blade.",
+      "editorialNotes": "Uma ação principal por plano. Preservar margem para cabelo, mãos, acessórios e pés; editar o clipe aprovado para o orçamento final de quadros.",
+      "keyArtReview": {
+        "status": "approved-static-keyart",
+        "image": "art-source/v33/opening/keyframes/04-marin.png",
+        "prompt": "art-source/v33/opening/keyframes/04-marin-prompt.txt",
+        "generationTool": "built-in image_gen",
+        "originalGeneratedFile": "C:/Users/Diego/.codex/generated_images/01a10659-e0bf-7250-bfaa-279fc3b70c80/exec-6bd10cb0-3dda-45b7-b52c-edbed2d19641.png",
+        "sha256": "ae3b3a7c05415496dd7496afd3ca55ddc0d1140aecafa702e750222964fc6577",
+        "nativeCopyByteIdentical": true,
+        "referenceImages": [
+          "public/assets/v29/marin/portrait.png",
+          "public/assets/v31/companions/umbra/fullbody.png",
+          "art-source/v33/opening/keyframes/02-seiji-corrected.png"
+        ],
+        "reviewMethod": "Direct visual inspection of the generated image, comparing canonical identity references and explicitly counting visible limbs.",
+        "reviewer": "opening_identity_audit",
+        "visibleMarinArms": 2,
+        "visibleMarinHands": 2,
+        "visibleMarinLegs": 2,
+        "visibleMarinBoots": 2,
+        "visibleMarinDaggers": 2,
+        "visibleUmbraArms": 2,
+        "visibleUmbraHands": 2,
+        "visibleUmbraLegs": 2,
+        "visibleUmbraBoots": 2,
+        "handPlacement": "Marin grips exactly one curved violet dagger in each low hand. Umbra has two relaxed gloved hands below his torso, one attached to each sleeve; no chin/cheek gesture or third arm.",
+        "identityCheck": "Adult androgynous male Marin retains black hair, blue earring, black/gold long coat with blue lining, blue waistcoat and white sleeves. Canonical chibi Umbra retains dark hair, red eyes, crimson/black/gold noble outfit, white cravat and two black/gold boots.",
+        "elementCheck": "Restrained violet/near-black shadow wisps, no unrelated elemental effect and no human-shaped shadow duplicate.",
+        "compositionCheck": "Two whole figures with distinct readable silhouettes, complete weapon tips and footwear, detailed moonlit Stone Reach arcade matching the approved cinematic atmosphere.",
+        "recommendedVideoActionEn": "Marin slowly raises ONLY ONE dagger from the lowered starting pose while the other hand remains lowered and still. Umbra quietly watches the nearby shadow wisps, keeping both arms relaxed down. Camera drifts gently sideways; no new gestures or limb multiplication.",
+        "approvedForVideoGeneration": true,
+        "videoContinuityReviewed": false,
+        "limits": "Approval covers this static key art only. Future generated video anatomy, weapon continuity and motion still require visual review; no claim of absolute defect absence."
+      },
+      "keyArtApprovedForVideoGeneration": true
+    },
+    {
+      "id": "shot-05",
+      "name": "Gabriel e Dante — proteção",
+      "frames": {
+        "first": 504,
+        "last": 623,
+        "count": 120
+      },
+      "targetDurationSeconds": 5,
+      "nominalActionSeconds": 5,
+      "heroId": "gabriel",
+      "companionId": "dante",
+      "emotion": "Proteção e coragem",
+      "location": "Arcada externa da Academia, junto à balaustrada",
+      "references": [
+        "C:/Users/Diego/OneDrive/Documentos/GitHub/RPGnovo/public/assets/v29/gabriel/portrait.png",
+        "C:/Users/Diego/OneDrive/Documentos/GitHub/RPGnovo/public/assets/v31/companions/dante/fullbody.png"
+      ],
+      "keyArtStatus": "approved-static-keyart",
+      "videoStatus": "not-recorded",
+      "exportStatus": "pending",
+      "videoPromptEn": "A continuous five-second shot in polished original Japanese 2D fantasy anime, crisp fine ink contours, controlled cel shading, rich costume detail and coherent adult anatomy for the heroes and exact canonical chibi proportions for the companions. Preserve the attached key art's exact faces, hair, costumes, props and silhouettes throughout. Fixed locked camera for the entire shot: no dolly, pan, tilt, zoom, push, track or crop change. Preserve the source image framing with heads, hands, feet, accessories and props inside the frame throughout; character movement remains minimal and physically plausible. Exactly two arms and two legs for each human, coherent wrists and five fingers per hand; no limb duplication, body morphing or third leg. No bright flashes, strobe, sudden white-out, frantic camera shake, text, subtitles, logo or watermark. No dialogue or generated music.\n\nAdult athletic male; short spiky white hair, amber eyes, warm skin, fitted black/gold long coat with crimson lining and orange flame-like collar, white open-collar shirt, belts and gold chains with red gems, dark trousers, black tall boots and gloves. Unarmed fire fists; no sword. Keep human form in this opening shot.\nCanonical crimson/red-orange and gold PHOENIX: gold swept feather crown and beak, amber eyes, thin ornate gold breast harness with one red ruby, orange/gold inner wings and long layered fiery tail feathers. Exactly two avian legs/taloned feet. Not a wolf, griffin, dragon or other pet.\n\nWide view of human Gabriel in front of the academy gate and canonical phoenix Dante just behind and above him. Keep the camera and framing fully locked. Gabriel brings his TWO gloved fists into ONE grounded protective guard while compact amber fire curls outside the fists. Dante slowly opens both feathered wings in a single controlled motion; his red/gold crown, ruby harness, tail and exactly two bird legs remain consistent. No transformation in this shot, no wolf, no full-screen blaze.",
+      "editorialNotes": "Uma ação principal por plano. Preservar margem para cabelo, mãos, acessórios e pés; editar o clipe aprovado para o orçamento final de quadros.",
+      "keyArtReview": {
+        "status": "approved-static-keyart",
+        "image": "art-source/v33/opening/keyframes/05-gabriel.png",
+        "sha256": "ab6defd530d75e00e8332e1ec552d3c140721f5457c4b9591992ded28ddedcc2",
+        "reviewMethod": "Direct independent visual inspection; explicit visible member/prop counts and identity/element comparison.",
+        "reviewer": "opening_identity_audit",
+        "visibleMemberCounts": {
+          "gabriel": {
+            "arms": 2,
+            "hands": 2,
+            "legs": 2,
+            "boots": 2
+          },
+          "dante": {
+            "avianLegs": 2,
+            "talonedFeet": 2,
+            "wings": 2
+          }
+        },
+        "visiblePropCounts": null,
+        "identityCheck": "Adult white-haired amber-eyed Gabriel retains black/gold/crimson costume and unarmed fists. Dante remains a red/orange/gold phoenix with crown, ruby harness, feathered wings and long tail, not a lycan, dragon or other companion.",
+        "elementCheck": "Amber/orange fire belongs to Gabriel and his phoenix motif, with no unrelated element.",
+        "visibilityNotes": "Gabriel's two fists and two separate boots are readable. Dante has two leg/talon groups perched on the balustrade; wings have different exposure in profile, and the complete long tail remains inside the frame.",
+        "recommendedVideoActionEn": "Gabriel maintains a grounded two-fist guard while Dante makes one gentle wing-opening movement; preserve exactly two bird legs/taloned feet and the complete tail, with no white-out fire flash.",
+        "approvedForVideoGeneration": true,
+        "videoContinuityReviewed": false,
+        "limits": "Approval covers this static image only. Future generated video anatomy, props, effects, crop and temporal continuity still require visual review; no claim of absolute defect absence."
+      },
+      "keyArtApprovedForVideoGeneration": true
+    },
+    {
+      "id": "shot-06",
+      "name": "Max e Vajra — o pulso",
+      "frames": {
+        "first": 624,
+        "last": 743,
+        "count": 120
+      },
+      "targetDurationSeconds": 5,
+      "nominalActionSeconds": 5,
+      "heroId": "max",
+      "companionId": "vajra",
+      "emotion": "Energia e cumplicidade",
+      "location": "Oficina da Academia, junto a uma janela sob o luar",
+      "references": [
+        "C:/Users/Diego/OneDrive/Documentos/GitHub/RPGnovo/public/assets/v29/max/portrait.png",
+        "C:/Users/Diego/OneDrive/Documentos/GitHub/RPGnovo/public/assets/v31/companions/vajra/fullbody.png"
+      ],
+      "keyArtStatus": "approved-static-keyart",
+      "videoStatus": "not-recorded",
+      "exportStatus": "pending",
+      "videoPromptEn": "A continuous five-second shot in polished original Japanese 2D fantasy anime, crisp fine ink contours, controlled cel shading, rich costume detail and coherent adult anatomy for the heroes and exact canonical chibi proportions for the companions. Preserve the attached key art's exact faces, hair, costumes, props and silhouettes throughout. Fixed locked camera for the entire shot: no dolly, pan, tilt, zoom, push, track or crop change. Preserve the source image framing with heads, hands, feet, accessories and props inside the frame throughout; character movement remains minimal and physically plausible. Exactly two arms and two legs for each human, coherent wrists and five fingers per hand; no limb duplication, body morphing or third leg. No bright flashes, strobe, sudden white-out, frantic camera shake, text, subtitles, logo or watermark. No dialogue or generated music.\n\nAdult slender lanky male; pale stitched skin, short tousled black hair, amber eyes, black hooded coat with orange lining/stitches, distressed off-white shirt, dark fitted trousers, chains and black boots/gloves. Iron nails have broad flat round heads and pointed shafts. Yellow/cyan electric arcs. Preserve the small black orange-eyed shoulder rodent as a costume detail; it is not Vajra.\nCanonical chibi boy with spiky gold/blond and black hair, golden eyes, black/gold sleeveless hooded adventurer outfit, white waist layer, black shorts, fingerless gloves and gold-trimmed boots. Tiny embroidered electric motifs. Not Max's shoulder rodent.\n\nMedium-wide view of Max and canonical chibi Vajra inside the Academy workshop beside a moonlit window. Keep the camera and framing fully locked. Max raises ONE flat-headed iron nail between thumb and index finger; three already hovering iron nails form a stable small circuit, with thin yellow/cyan arcs flowing steadily between them. Vajra leans his gaze toward the circuit with a restrained excited smile. Keep Max's tiny shoulder rodent unchanged and distinct from Vajra. No hammer, screws, flashing lightning or explosive impact.",
+      "editorialNotes": "Uma ação principal por plano. Preservar margem para cabelo, mãos, acessórios e pés; editar o clipe aprovado para o orçamento final de quadros.",
+      "keyArtReview": {
+        "status": "approved-static-keyart",
+        "image": "art-source/v33/opening/keyframes/06-max.png",
+        "prompt": "art-source/v33/opening/keyframes/06-max-prompt.txt",
+        "generationTool": "built-in image_gen",
+        "originalGeneratedFile": "C:/Users/Diego/.codex/generated_images/01a10659-e0bf-7250-bfaa-279fc3b70c80/exec-094a8760-2caf-4fca-b7e1-45336ebf915b.png",
+        "sha256": "ab5579c0790dcfb38ba3c60054d0d5a46dc30bdbfc05e6f834df6daf2c9accee",
+        "nativeCopyByteIdentical": true,
+        "referenceImages": [
+          "public/assets/v29/max/portrait.png",
+          "public/assets/v31/companions/vajra/fullbody.png",
+          "art-source/v33/opening/keyframes/02-seiji-corrected.png"
+        ],
+        "reviewMethod": "Direct visual inspection of generated image with canonical references and explicit count of visible human limbs and nails.",
+        "reviewer": "opening_identity_audit",
+        "visibleMaxArms": 2,
+        "visibleMaxHands": 2,
+        "visibleMaxLegs": 2,
+        "visibleMaxBoots": 2,
+        "heldNails": 1,
+        "hoveringNails": 3,
+        "visibleVajraArms": 2,
+        "visibleVajraHands": 2,
+        "visibleVajraLegs": 2,
+        "visibleVajraBoots": 2,
+        "handPlacement": "Max pinches one flat-headed nail in his raised hand; the other gloved hand is relaxed beside his hip. Vajra keeps two loosely curled gloved hands low beside his shorts. Hands and limbs are distinct; no extra gesture or detached hand.",
+        "identityCheck": "Adult slender pale stitched Max retains black hair, amber eyes, black/orange distressed coat, worn shirt, chains, dark trousers and black boots. Canonical chibi boy Vajra retains gold/black spiky hair, golden eyes, black/gold hooded outfit, shorts, white cloth sash and two gold-trimmed boots. One tiny existing shoulder rodent is preserved on Max, separate from Vajra.",
+        "elementCheck": "One held iron nail and three separate hovering iron nails with broad flat round heads and pointed shafts. Controlled yellow/cyan electricity remains away from visible wrists/joints and does not obscure fingers. No unrelated elemental effect.",
+        "compositionCheck": "Two full humanoid figures separated in a detailed academy workshop, hands and feet clear; background benches remain to the sides and do not cut silhouettes. Moonlit window maintains cinematic environment continuity.",
+        "recommendedVideoActionEn": "Max slowly raises ONLY the single nail already pinched between thumb and index finger a few centimeters. His other hand stays lowered. The three hovering nails remain stable while narrow yellow/cyan arcs flow without bright flashes. Vajra watches with both arms relaxed down; the small shoulder rodent stays stationary. Gentle camera drift, no added limbs or nails.",
+        "approvedForVideoGeneration": true,
+        "videoContinuityReviewed": false,
+        "limits": "Approval covers this static image only. Future video fingers, rodent, nail count, electric intensity and temporal continuity still require visual review; no claim of absolute defect absence."
+      },
+      "keyArtApprovedForVideoGeneration": true
+    },
+    {
+      "id": "shot-07",
+      "name": "Ava — terra que sustenta",
+      "frames": {
+        "first": 744,
+        "last": 863,
+        "count": 120
+      },
+      "targetDurationSeconds": 5,
+      "nominalActionSeconds": 5,
+      "heroId": "ava",
+      "companionId": null,
+      "emotion": "Força enraizada",
+      "location": "Pátio ajardinado da Academia sob o luar",
+      "references": [
+        "C:/Users/Diego/OneDrive/Documentos/GitHub/RPGnovo/public/assets/v26/ava/ava-anime-portrait.png"
+      ],
+      "keyArtStatus": "approved-static-keyart",
+      "videoStatus": "not-recorded",
+      "exportStatus": "pending",
+      "videoPromptEn": "A continuous five-second shot in polished original Japanese 2D fantasy anime, crisp fine ink contours, controlled cel shading, rich costume detail and coherent adult anatomy for the heroes and exact canonical chibi proportions for the companions. Preserve the attached key art's exact faces, hair, costumes, props and silhouettes throughout. Fixed locked camera for the entire shot: no dolly, pan, tilt, zoom, push, track or crop change. Preserve the source image framing with heads, hands, feet, accessories and props inside the frame throughout; character movement remains minimal and physically plausible. Exactly two arms and two legs for each human, coherent wrists and five fingers per hand; no limb duplication, body morphing or third leg. No bright flashes, strobe, sudden white-out, frantic camera shake, text, subtitles, logo or watermark. No dialogue or generated music.\n\nAthletic adult female earth martial artist; long auburn wavy hair with tiny white/pink flowers, green eyes, olive-green sleeveless cross-wrap crop top, long deep-green sash, loose ivory trousers, white forearm wraps and green crisscross shoes. Grounded unarmed martial movement. Earth is layered ochre sandstone/granite, restrained mineral dust and gold mineral glints. Floral costume details are decorative, not plant attacks.\n\nFull-body three-quarter view of Ava in the Domo courtyard, feet and both hands visible. Keep the camera and framing fully locked. Ava performs ONE grounded straight punch with a physically coherent shoulder-elbow-wrist line and a modest forward weight shift. A short layered ochre sandstone ridge rises beside the forward foot and settles; restrained mineral dust drifts away. Her long auburn hair and deep-green sash respond to the movement. Flowers stay costume decoration. No vines, plant attacks, fire or ice.",
+      "editorialNotes": "Uma ação principal por plano. Preservar margem para cabelo, mãos, acessórios e pés; editar o clipe aprovado para o orçamento final de quadros.",
+      "keyArtReview": {
+        "status": "approved-static-keyart",
+        "image": "art-source/v33/opening/keyframes/07-ava.png",
+        "sha256": "d80dbaf5a15c6c4fbb39cd133482f307a044e19d0b1c6cf24288c6ac5a826fcb",
+        "reviewMethod": "Direct independent visual inspection; explicit visible member/prop counts and identity/element comparison.",
+        "reviewer": "opening_identity_audit",
+        "visibleMemberCounts": {
+          "ava": {
+            "arms": 2,
+            "hands": 2,
+            "legs": 2,
+            "boots": 2
+          }
+        },
+        "visiblePropCounts": null,
+        "identityCheck": "Athletic adult Ava retains auburn wavy hair with flowers, green eyes, green crossed top and sash, loose ivory trousers, white forearm wraps and green crisscross footwear.",
+        "elementCheck": "Layered ochre/brown earth slabs and mineral chips, no flame, ice or plant attack. Flowers remain costume/scenery decoration.",
+        "visibilityNotes": "Two wrapped fists, two complete distinct trouser legs and two planted green shoes are visible. Stone fragments stay separate from joints and do not create extra limbs.",
+        "recommendedVideoActionEn": "One controlled grounded straight punch and a modest rise/settling of the existing ochre earth fragments; preserve complete shoes and coherent joints.",
+        "approvedForVideoGeneration": true,
+        "videoContinuityReviewed": false,
+        "limits": "Approval covers this static image only. Future generated video anatomy, props, effects, crop and temporal continuity still require visual review; no claim of absolute defect absence."
+      },
+      "keyArtApprovedForVideoGeneration": true
+    },
+    {
+      "id": "shot-08",
+      "name": "Orfeu — silêncio da magia",
+      "frames": {
+        "first": 864,
+        "last": 983,
+        "count": 120
+      },
+      "targetDurationSeconds": 5,
+      "nominalActionSeconds": 5,
+      "heroId": "orfeu",
+      "companionId": null,
+      "emotion": "Disciplina e segurança",
+      "location": "Arcada da Biblioteca na Academia, sob o luar",
+      "references": [
+        "C:/Users/Diego/OneDrive/Documentos/GitHub/RPGnovo/public/assets/v25/orfeu/orfeu-antimagic-combat.png",
+        "C:/Users/Diego/OneDrive/Documentos/GitHub/RPGnovo/public/assets/v22/orfeu-5star.webp"
+      ],
+      "keyArtStatus": "approved-static-keyart",
+      "videoStatus": "not-recorded",
+      "exportStatus": "pending",
+      "videoPromptEn": "A continuous five-second shot in polished original Japanese 2D fantasy anime, crisp fine ink contours, controlled cel shading, rich costume detail and coherent adult anatomy for the heroes and exact canonical chibi proportions for the companions. Preserve the attached key art's exact faces, hair, costumes, props and silhouettes throughout. Fixed locked camera for the entire shot: no dolly, pan, tilt, zoom, push, track or crop change. Preserve the source image framing with heads, hands, feet, accessories and props inside the frame throughout; character movement remains minimal and physically plausible. Exactly two arms and two legs for each human, coherent wrists and five fingers per hand; no limb duplication, body morphing or third leg. No bright flashes, strobe, sudden white-out, frantic camera shake, text, subtitles, logo or watermark. No dialogue or generated music.\n\nAdult athletic/slender brown-skinned martial artist man; medium-short tousled silver-white hair, dark focused eyes, black sleeveless Chinese-collar vest with fine gold fasteners/trim, narrow black/gold upper-arm bands, white wrist/palm/forearm wraps with naturally bare fingers, asymmetric deep-blue embroidered waist sash, loose dark trousers and low navy/gold martial shoes. Unarmed physical anti-magic: slate-grey/white pressure, dark fractures and dust. Ignore the old portrait's blue/gold magical rings; use the v25 combat costume and current v30 neutral-effects direction.\n\nFull-body three-quarter view of Orfeu in his exact navy/black/gold sleeveless martial costume near library stonework. Keep the camera and framing fully locked. Orfeu performs ONE controlled straight closed-fist punch from a planted stance; a small suspended slate-grey geometric spell fracture breaks into grey-white chips and fades as pressure dust. Exactly two arms and two legs, naturally grouped bare fingers with white wraps. Entire sash and feet remain stable. No blue/gold rings, colored energy sphere, weapon, elemental flame or spinning acrobatics.",
+      "editorialNotes": "Uma ação principal por plano. Preservar margem para cabelo, mãos, acessórios e pés; editar o clipe aprovado para o orçamento final de quadros.",
+      "keyArtReview": {
+        "status": "approved-static-keyart",
+        "image": "art-source/v33/opening/keyframes/08-orfeu.png",
+        "sha256": "26c88a03ab74246c796196b29e0f710f34d3765155665b6917e58b48ad16013c",
+        "reviewMethod": "Direct independent visual inspection; explicit visible member/prop counts and identity/element comparison.",
+        "reviewer": "opening_identity_audit",
+        "visibleMemberCounts": {
+          "orfeu": {
+            "arms": 2,
+            "hands": 2,
+            "legs": 2,
+            "boots": 2
+          }
+        },
+        "visiblePropCounts": null,
+        "identityCheck": "Adult brown-skinned white-haired Orfeu retains black/gold sleeveless martial vest, white forearm wraps, asymmetric embroidered blue sash, dark trousers and low navy/gold shoes.",
+        "elementCheck": "Neutral physical anti-magic: broken grey/slate geometry, grey-white dust and pressure. No blue/gold magic rings or elemental fire/lightning/ice.",
+        "visibilityNotes": "Two complete arms end in CLOSED FISTS, two distinct trouser legs and two planted shoes are visible. The actual key art depicts a straight punch, not an open-palm strike.",
+        "recommendedVideoActionEn": "Use ONE controlled CLOSED-FIST straight punch matching this key art, with the other fist near the chest. The grey fractured geometry scatters gently; do not morph the fist into an open palm.",
+        "approvedForVideoGeneration": true,
+        "videoContinuityReviewed": false,
+        "limits": "Approval covers this static image only. Future generated video anatomy, props, effects, crop and temporal continuity still require visual review; no claim of absolute defect absence."
+      },
+      "keyArtApprovedForVideoGeneration": true
+    },
+    {
+      "id": "shot-09",
+      "name": "Carmilla — fio de cuidado",
+      "frames": {
+        "first": 984,
+        "last": 1103,
+        "count": 120
+      },
+      "targetDurationSeconds": 5,
+      "nominalActionSeconds": 5,
+      "heroId": "carmilla",
+      "companionId": null,
+      "emotion": "Compaixão e responsabilidade",
+      "location": "Arquivo interno da Academia: estantes de madeira, arcos de pedra, janela lunar e velas",
+      "references": [
+        "C:/Users/Diego/OneDrive/Documentos/GitHub/RPGnovo/public/assets/v29/carmilla/portrait.png"
+      ],
+      "keyArtStatus": "approved-static-keyart-after-pose-repair",
+      "videoStatus": "not-recorded",
+      "exportStatus": "pending",
+      "videoPromptEn": "A continuous five-second shot in polished original Japanese 2D fantasy anime, crisp fine ink contours, controlled cel shading, rich costume detail and coherent adult anatomy for the heroes and exact canonical chibi proportions for the companions. Preserve the attached key art's exact faces, hair, costumes, props and silhouettes throughout. Fixed locked camera for the entire shot: no dolly, pan, tilt, zoom, push, track or crop change. Preserve the source image framing with heads, hands, feet, accessories and props inside the frame throughout; character movement remains minimal and physically plausible. Exactly two arms and two legs for each human, coherent wrists and five fingers per hand; no limb duplication, body morphing or third leg. No bright flashes, strobe, sudden white-out, frantic camera shake, text, subtitles, logo or watermark. No dialogue or generated music.\n\nElegant tall adult female vampire professor; long straight blonde hair below hips, subtle pointed ears, ruby-red eyes, black high-collar academic robe with wine-red lining and gold stitch/web filigree, ruby jewelry, fitted black dress and tall laced boots. Exactly two dark-metal sewing needles with ruby grips, carmine threads and small red droplets. No gore.\n\nMedium-wide view of Carmilla, her long blonde hair and complete black/wine/gold academic silhouette clearly readable. Keep the camera and framing fully locked. She makes ONE small, careful drawing-apart movement with exactly two dark sewing needles, one per hand; a fine carmine thread joins three small ruby droplets in a delicate arc and settles. No injury, blood spray or gore. Keep calm mature face, ruby eyes, correct wrists and coherent fingers; lighting stays warm and stable.",
+      "editorialNotes": "Uma ação principal por plano. Preservar margem para cabelo, mãos, acessórios e pés; editar o clipe aprovado para o orçamento final de quadros.",
+      "keyArtReview": {
+        "status": "approved-static-keyart-after-pose-repair",
+        "image": "art-source/v33/opening/keyframes/09-carmilla-corrected.png",
+        "originalGenerationPrompt": "art-source/v33/opening/keyframes/09-carmilla-prompt.txt",
+        "repairPrompt": "art-source/v33/opening/keyframes/09-carmilla-repair-prompt.txt",
+        "generationTool": "built-in image_gen",
+        "originalGeneratedFile": "C:/Users/Diego/.codex/generated_images/01a10659-e0bf-7250-bfaa-279fc3b70c80/exec-5fd85d34-debb-4b44-8e13-9fd7dd7d1cd1.png",
+        "sha256": "2a55de67186b43fb2c0c206d2c82c91670f92927acf8714cd1518f7b9c92eada",
+        "nativeCopyByteIdentical": true,
+        "referenceImages": [
+          "public/assets/v29/carmilla/portrait.png",
+          "art-source/v33/opening/keyframes/02-seiji-corrected.png"
+        ],
+        "reviewMethod": "Direct inspection of both first result and corrected result; explicit count of visible arms, hands, needles and boots, with the obscured-leg limitation stated.",
+        "reviewer": "opening_identity_audit",
+        "visibleArms": 2,
+        "visibleHands": 2,
+        "visibleLowerLegContours": 2,
+        "visibleBoots": 2,
+        "visibleNeedles": 2,
+        "legVisibilityNote": "Two separate lower-leg/boot silhouettes are clear. The robe covers the thighs and part of the shins; concealed anatomy is not described as completely exposed.",
+        "handPlacement": "One hand holds a fine gold-decorated dark needle at sternum/chest level; the other holds the second needle below the waist belt near the hip. No old head-level hand, third arm or duplicate grip remains.",
+        "identityCheck": "Adult blonde vampire professor with ruby-red eyes and subtle pointed ears, exact black/wine/gold academic costume, two dark-metal gold/ruby-decorated sewing needles and fine carmine thread. No gore or injury.",
+        "compositionCheck": "One full figure with complete hair/robe/needle tips/boots inside a different interior archive setting: carved wood shelves, books, stone arches, moonlit window and warm candles. No companion invented.",
+        "recommendedVideoActionEn": "Carmilla makes one small careful drawing-apart motion with the two existing sewing needles, keeping one hand near chest level and the other below waist. A single fine carmine thread follows gently without wrapping joints or covering fingers. Slow camera push, stable candle/moon light, no extra hand, needle or thread duplication.",
+        "approvedForVideoGeneration": true,
+        "videoContinuityReviewed": false,
+        "limits": "Approval is limited to this corrected static key art. Video fingers, needle count, thread continuity and lighting still require visual review; no guarantee of absolute defect absence."
+      },
+      "keyArtRejections": [
+        {
+          "status": "rejected-pose",
+          "image": "art-source/v33/opening/keyframes/09-carmilla.png",
+          "sha256": "8a83e9c4fd99e79ad3f45dbdba7b958a0bc31a53fb5d87e274f57c0d34be11dc",
+          "reason": "Static anatomy had two arms/hands, but one hand was high near the head/shoulder and the other remained above the waist, contrary to the requested chest-level plus below-waist arrangement.",
+          "validReference": false,
+          "approvedForVideoGeneration": false,
+          "replacementStatus": "Corrected image independently visually reviewed and approved as the selected static video reference."
+        }
+      ],
+      "keyArtApprovedForVideoGeneration": true
+    },
+    {
+      "id": "shot-10",
+      "name": "Beatriz — a direção",
+      "frames": {
+        "first": 1104,
+        "last": 1223,
+        "count": 120
+      },
+      "targetDurationSeconds": 5,
+      "nominalActionSeconds": 5,
+      "heroId": "beatriz",
+      "companionId": null,
+      "emotion": "Liderança e chamado",
+      "location": "Sala de estudos/Arquivo da Academia com janela lunar",
+      "references": [
+        "C:/Users/Diego/OneDrive/Documentos/GitHub/RPGnovo/public/assets/v29/beatriz/portrait.png"
+      ],
+      "keyArtStatus": "approved-static-keyart",
+      "videoStatus": "not-recorded",
+      "exportStatus": "pending",
+      "videoPromptEn": "A continuous five-second shot in polished original Japanese 2D fantasy anime, crisp fine ink contours, controlled cel shading, rich costume detail and coherent adult anatomy for the heroes and exact canonical chibi proportions for the companions. Preserve the attached key art's exact faces, hair, costumes, props and silhouettes throughout. Fixed locked camera for the entire shot: no dolly, pan, tilt, zoom, push, track or crop change. Preserve the source image framing with heads, hands, feet, accessories and props inside the frame throughout; character movement remains minimal and physically plausible. Exactly two arms and two legs for each human, coherent wrists and five fingers per hand; no limb duplication, body morphing or third leg. No bright flashes, strobe, sudden white-out, frantic camera shake, text, subtitles, logo or watermark. No dialogue or generated music.\n\nAdult black-haired violet-eyed witch sword professor; large black witch hat with gold/purple clasp, white high-collar academic coat with gold trim and dark-blue lining, white gloves, black belt with potion vials and white strapped boots. One slim straight pale-blue sword with gold/purple hilt. Water is blue fluid ribbon; darkness is a separate near-black/violet wisp, not ice.\n\nMedium-wide three-quarter view of Beatriz in the central courtyard, large black hat, white/gold academic coat, potion vials and pale-blue sword fully recognizable. Keep the camera and framing fully locked. She turns her head and upper torso ONCE toward the academy while keeping the sword lowered safely; a blue liquid-water ribbon flows beside one arm and a separate near-black/violet shadow wisp flows beside the other. Keep the two elements distinct, no ice crystals or flames. Hat, hands and anatomy stay consistent.",
+      "editorialNotes": "Uma ação principal por plano. Preservar margem para cabelo, mãos, acessórios e pés; editar o clipe aprovado para o orçamento final de quadros.",
+      "keyArtReview": {
+        "status": "approved-static-keyart",
+        "image": "art-source/v33/opening/keyframes/10-beatriz.png",
+        "sha256": "1128d4644388b4ce6c754650d1197c0b083707f4d856705b167cafa436c3e9cf",
+        "reviewMethod": "Direct independent visual inspection; explicit visible member/prop counts and identity/element comparison.",
+        "reviewer": "opening_identity_audit",
+        "visibleMemberCounts": {
+          "beatriz": {
+            "arms": 2,
+            "hands": 2,
+            "legs": 2,
+            "boots": 2
+          }
+        },
+        "visiblePropCounts": {
+          "swords": 1
+        },
+        "identityCheck": "Adult black-haired violet-eyed Beatriz retains complete black witch hat, white/gold academic coat, potion vials, white gloves and strapped white boots, and one pale-blue straight sword with gold/purple hilt.",
+        "elementCheck": "Blue liquid water ribbon and droplets plus distinct violet/near-black darkness wisps; neither is confused with ice or fire.",
+        "visibilityNotes": "One hand grips the lowered sword; the other is open beneath the magic. Two legs/boots are distinct. Hat and sword tip fit in the frame, but the sword tip is close to the bottom edge.",
+        "recommendedVideoActionEn": "Keep the lowered sword stable and the two water/darkness strands separate while Beatriz makes one slight composed head turn. Gentle lateral camera only; preserve sword tip and hat without aggressive zoom/crop.",
+        "approvedForVideoGeneration": true,
+        "videoContinuityReviewed": false,
+        "limits": "Approval covers this static image only. Future generated video anatomy, props, effects, crop and temporal continuity still require visual review; no claim of absolute defect absence."
+      },
+      "keyArtApprovedForVideoGeneration": true
+    },
+    {
+      "id": "shot-11",
+      "name": "Abel — legado da forja",
+      "frames": {
+        "first": 1224,
+        "last": 1343,
+        "count": 120
+      },
+      "targetDurationSeconds": 5,
+      "nominalActionSeconds": 5,
+      "heroId": "abel",
+      "companionId": null,
+      "emotion": "Conhecimento e legado",
+      "location": "Forja Antiga da Academia junto a uma janela lunar",
+      "references": [
+        "C:/Users/Diego/OneDrive/Documentos/GitHub/RPGnovo/public/assets/v29/abel/portrait.png"
+      ],
+      "keyArtStatus": "approved-static-keyart",
+      "videoStatus": "not-recorded",
+      "exportStatus": "pending",
+      "videoPromptEn": "A continuous five-second shot in polished original Japanese 2D fantasy anime, crisp fine ink contours, controlled cel shading, rich costume detail and coherent adult anatomy for the heroes and exact canonical chibi proportions for the companions. Preserve the attached key art's exact faces, hair, costumes, props and silhouettes throughout. Fixed locked camera for the entire shot: no dolly, pan, tilt, zoom, push, track or crop change. Preserve the source image framing with heads, hands, feet, accessories and props inside the frame throughout; character movement remains minimal and physically plausible. Exactly two arms and two legs for each human, coherent wrists and five fingers per hand; no limb duplication, body morphing or third leg. No bright flashes, strobe, sudden white-out, frantic camera shake, text, subtitles, logo or watermark. No dialogue or generated music.\n\nAdult medium-brown-skinned male professor; short wavy ginger-red hair, narrow round gold-rim glasses, crimson hooded academic cloak with gold embroidery, tailored black high-collar outfit, dark gold-trimmed boots, belts/chain and dark gold-trimmed waist book. One bronze-gold staff with pointed red crystal head. Ruby/amber primordial fire carries a stylized lion motif.\n\nMedium-wide view of brown-skinned red-haired Abel with his narrow gold glasses and crimson/gold academic cloak at an old forge. Keep the camera and framing fully locked. Abel inclines his bronze-gold red-crystal staff ONCE toward a cold brazier, awakening one restrained ruby/amber flame that briefly takes a stylized lion-mane shape before settling. His other hand remains naturally open and still. No giant summoned monster, lightning, final boss or destructive explosion.",
+      "editorialNotes": "Uma ação principal por plano. Preservar margem para cabelo, mãos, acessórios e pés; editar o clipe aprovado para o orçamento final de quadros.",
+      "keyArtReview": {
+        "status": "approved-static-keyart",
+        "image": "art-source/v33/opening/keyframes/11-abel.png",
+        "sha256": "2f0afbf73990191cd3bea8f14dd17a5f5f270a1bff85353d0cc937f973896906",
+        "reviewMethod": "Direct independent visual inspection; explicit visible member/prop counts and identity/element comparison.",
+        "reviewer": "opening_identity_audit",
+        "visibleMemberCounts": {
+          "abel": {
+            "arms": 2,
+            "hands": 2,
+            "legs": 2,
+            "boots": 2
+          }
+        },
+        "visiblePropCounts": {
+          "staffs": 1
+        },
+        "identityCheck": "Adult medium-brown-skinned red-haired Abel retains gold glasses, crimson/gold academic mantle, black tailored outfit, belt/book and one bronze-gold staff with red crystal.",
+        "elementCheck": "Ruby/amber primordial fire forms a recognizable stylized LION HEAD/MANE rising over the forge brazier. It is an elemental shape, not a newly invented animal companion.",
+        "visibilityNotes": "One hand grips the staff and the other open hand directs the flame. Two lower legs/boots are distinct below the robe. Staff/crystal, flame lion and complete boots remain inside the image.",
+        "recommendedVideoActionEn": "One small restrained staff/hand directing gesture makes the existing flame-lion mane flow and settle; avoid large new animals, added limbs, excessive fire brightness or flashing.",
+        "approvedForVideoGeneration": true,
+        "videoContinuityReviewed": false,
+        "limits": "Approval covers this static image only. Future generated video anatomy, props, effects, crop and temporal continuity still require visual review; no claim of absolute defect absence."
+      },
+      "keyArtApprovedForVideoGeneration": true
+    },
+    {
+      "id": "shot-12",
+      "name": "Stone Reach — pertencimento",
+      "frames": {
+        "first": 1344,
+        "last": 1499,
+        "count": 156
+      },
+      "targetDurationSeconds": 6.5,
+      "nominalActionSeconds": 5,
+      "heroId": null,
+      "companionId": null,
+      "emotion": "Pertencimento e início da jornada",
+      "location": "Academia e céu noturno",
+      "references": [],
+      "keyArtStatus": "editorial-montage-no-new-keyart",
+      "videoStatus": "not-recorded",
+      "exportStatus": "pending",
+      "videoPromptEn": "A continuous five-second shot in polished original Japanese 2D fantasy anime, crisp fine ink contours, controlled cel shading, rich costume detail and coherent adult anatomy for the heroes and exact canonical chibi proportions for the companions. Preserve the attached key art's exact faces, hair, costumes, props and silhouettes throughout. Keep camera motion gentle and character movement physically plausible. Exactly two arms and two legs for each human, coherent wrists and five fingers per hand; no limb duplication, body morphing or third leg. No bright flashes, strobe, sudden white-out, frantic camera shake, text, subtitles, logo or watermark. No dialogue or generated music.\n\n\nUse an empty, elegant Stone Reach architecture-and-sky plate with a clear quiet central area and no newly generated cast. Camera gently eases upward as small warm window lights and restrained blue-white ether motes remain steady. No text, title, logo, subtitles or watermark inside the generated image/video; no silhouette crowd or fifteen simultaneous characters. This plate will support an editorial montage assembled from the already approved individual character clips, preserving their exact identity and keeping elements separate.",
+      "editorialNotes": "Montagem do elenco feita na edição a partir dos planos 2–11; não gerar quinze personagens simultâneos. Título apenas na interface DOM após a exportação. Duração final 6,5 s.",
+      "keyArtRequired": false,
+      "editorialMontage": {
+        "status": "planned-not-exported",
+        "backgroundPlate": "art-source/v33/opening/keyframes/01-academy.png",
+        "sourceShots": [
+          "shot-02",
+          "shot-03",
+          "shot-04",
+          "shot-05",
+          "shot-06",
+          "shot-07",
+          "shot-08",
+          "shot-09",
+          "shot-10",
+          "shot-11"
+        ],
+        "requireCorrectedSelectedImages": [
+          "art-source/v33/opening/keyframes/02-seiji-corrected.png",
+          "art-source/v33/opening/keyframes/09-carmilla-corrected.png"
+        ],
+        "note": "Assemble from approved individual sources; no new 15-person generated art. DOM title only. No final montage/export is approved by static image review."
+      }
+    }
+  ],
+  "verification": {
+    "storyboardFrameCount": 1500,
+    "contiguousRanges": true,
+    "storyboardDurationSeconds": 62.5,
+    "allReferencedCharacterImagesInspected": true,
+    "generatedVideosReviewed": false,
+    "finalExportFrameCount": null,
+    "finalExportFps": null,
+    "finalExportDurationSeconds": null,
+    "gameIntegrationVerified": false,
+    "keyArtAnatomyRejections": [
+      "shot-02: rejected original; Shin has three visible arms/hands."
+    ],
+    "approvedStaticKeyArts": [
+      "shot-01: art-source/v33/opening/keyframes/01-academy.png",
+      "shot-02: art-source/v33/opening/keyframes/02-seiji-corrected.png",
+      "shot-03: art-source/v33/opening/keyframes/03-ophelia.png",
+      "shot-04: art-source/v33/opening/keyframes/04-marin.png",
+      "shot-05: art-source/v33/opening/keyframes/05-gabriel.png",
+      "shot-06: art-source/v33/opening/keyframes/06-max.png",
+      "shot-07: art-source/v33/opening/keyframes/07-ava.png",
+      "shot-08: art-source/v33/opening/keyframes/08-orfeu.png",
+      "shot-09: art-source/v33/opening/keyframes/09-carmilla-corrected.png",
+      "shot-10: art-source/v33/opening/keyframes/10-beatriz.png",
+      "shot-11: art-source/v33/opening/keyframes/11-abel.png"
+    ],
+    "staticKeyArtsRequired": 11,
+    "staticKeyArtsApproved": 11,
+    "editorialMontageShots": 1,
+    "rejectedStaticCandidates": 2
+  },
+  "characterVideoCameraPolicy": {
+    "appliesTo": "All upcoming character scenes and character remakes, including shot-03.",
+    "requirement": "Camera fully locked; no zoom, crop change, dolly, push, pan, tilt or tracking. Preserve heads, hands, feet, accessories and props within the original image framing.",
+    "reason": "Shot-03 Flow Quality clip rejected for zoom/body cropping before five seconds."
+  }
+}

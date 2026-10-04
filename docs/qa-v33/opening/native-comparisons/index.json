@@ -1,0 +1,95 @@
+{
+  "layout": "Source left; delivery right. Native pixel crops with no resize or repaint.",
+  "regions": [
+    {
+      "id": "ava-character",
+      "sample": 32,
+      "x": 200,
+      "y": 0,
+      "width": 650,
+      "height": 720
+    },
+    {
+      "id": "orfeu-character",
+      "sample": 37,
+      "x": 200,
+      "y": 0,
+      "width": 700,
+      "height": 720
+    },
+    {
+      "id": "carmilla-character",
+      "sample": 42,
+      "x": 485,
+      "y": 0,
+      "width": 500,
+      "height": 720
+    },
+    {
+      "id": "beatriz-character",
+      "sample": 47,
+      "x": 430,
+      "y": 0,
+      "width": 750,
+      "height": 720
+    },
+    {
+      "id": "abel-character",
+      "sample": 52,
+      "x": 290,
+      "y": 0,
+      "width": 680,
+      "height": 720
+    },
+    {
+      "id": "montage-shin",
+      "sample": 55,
+      "x": 730,
+      "y": 155,
+      "width": 500,
+      "height": 550
+    },
+    {
+      "id": "montage-mika",
+      "sample": 56,
+      "x": 650,
+      "y": 180,
+      "width": 430,
+      "height": 540
+    },
+    {
+      "id": "montage-dante",
+      "sample": 57,
+      "x": 570,
+      "y": 0,
+      "width": 710,
+      "height": 710
+    },
+    {
+      "id": "montage-vajra",
+      "sample": 58,
+      "x": 730,
+      "y": 240,
+      "width": 300,
+      "height": 470
+    },
+    {
+      "id": "montage-ava",
+      "sample": 59,
+      "x": 200,
+      "y": 0,
+      "width": 650,
+      "height": 720
+    },
+    {
+      "id": "montage-umbra",
+      "filmFrame": 1409,
+      "sourceFrame": 133,
+      "source": "art-source/v33/opening/clips/04-marin-fixed.mp4",
+      "x": 700,
+      "y": 240,
+      "width": 340,
+      "height": 460
+    }
+  ]
+}

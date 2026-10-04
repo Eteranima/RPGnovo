@@ -1,0 +1,127 @@
+{
+  "fps": 24,
+  "width": 1280,
+  "height": 720,
+  "editorialReview": "Janelas aprovadas pela raiz e por revisão de amostras nativas; filme comprimido ainda requer QA visual.",
+  "shots": [
+    {
+      "id": "shot-01",
+      "path": "clips/01-academy.mp4",
+      "startSeconds": 1.5,
+      "frames": 144,
+      "sourceSHA256": "1dfd057105d9ee6fe1d232dc89ebdefc148d2a8ebb3b7001d34a23819eb5714e"
+    },
+    {
+      "id": "shot-02",
+      "path": "clips/02-seiji-corrected.mp4",
+      "startSeconds": 0,
+      "frames": 120,
+      "sourceSHA256": "532324c6e66ff71263dbacf70f291465543496239bcb070a12fefacc838a8a0c"
+    },
+    {
+      "id": "shot-03",
+      "path": "clips/03-ophelia-fixed.mp4",
+      "startSeconds": 0,
+      "frames": 120,
+      "sourceSHA256": "1b07d387adba2ff62c8f9ef69861abd520ce42c85c54437bae9ff1bd3c7c4bfd"
+    },
+    {
+      "id": "shot-04",
+      "path": "clips/04-marin-fixed.mp4",
+      "startSeconds": 0,
+      "frames": 120,
+      "sourceSHA256": "186d4962c7f96910bd53b806dae6853ef5e05952f557afa59a5ccf7b4143a89c"
+    },
+    {
+      "id": "shot-05",
+      "path": "clips/05-gabriel-fixed.mp4",
+      "startSeconds": 0,
+      "frames": 120,
+      "sourceSHA256": "57c925e10cee9f6a6b87c0d1d8ab96d01a1310dab23335e3d497339582d8f507"
+    },
+    {
+      "id": "shot-06",
+      "path": "clips/06-max.mp4",
+      "startSeconds": 0,
+      "frames": 120,
+      "sourceSHA256": "81b3e1ccad42a1554976982d7c8502cadf4809bd372cf32b686874d68c5d2866"
+    },
+    {
+      "id": "shot-07",
+      "path": "clips/07-ava.mp4",
+      "startSeconds": 0,
+      "frames": 120,
+      "sourceSHA256": "76eac49519be831386b3e4efdb12e55e0070625c830cc81471d35d659d90f0c6"
+    },
+    {
+      "id": "shot-08",
+      "path": "clips/08-orfeu.mp4",
+      "startSeconds": 0,
+      "frames": 120,
+      "sourceSHA256": "ff6974d1bd6285c81d9adc2582a3c0d161c63d873ba2c18b402731ac016645a8"
+    },
+    {
+      "id": "shot-09",
+      "path": "clips/09-carmilla.mp4",
+      "startSeconds": 0,
+      "frames": 120,
+      "sourceSHA256": "d936240d1a87a9ae0ab991334c50ff530d4c29bb4d4f1b40b2473cec26081e9b"
+    },
+    {
+      "id": "shot-10",
+      "path": "clips/10-beatriz.mp4",
+      "startSeconds": 0,
+      "frames": 120,
+      "sourceSHA256": "88359931c5b1da5d88c3f3d81142dccef36a2d24e3cf5067a00965d86e8b1366"
+    },
+    {
+      "id": "shot-11",
+      "path": "clips/11-abel.mp4",
+      "startSeconds": 0,
+      "frames": 120,
+      "sourceSHA256": "d1e7f708ecae1c0a9cabf3e86d7a39ea2d1b914243df354c59364f5b4a630554"
+    },
+    {
+      "id": "shot-12",
+      "frames": 156,
+      "segments": [
+        {
+          "path": "clips/02-seiji-corrected.mp4",
+          "startSeconds": 5,
+          "frames": 26,
+          "sourceSHA256": "532324c6e66ff71263dbacf70f291465543496239bcb070a12fefacc838a8a0c"
+        },
+        {
+          "path": "clips/03-ophelia-fixed.mp4",
+          "startSeconds": 5,
+          "frames": 26,
+          "sourceSHA256": "1b07d387adba2ff62c8f9ef69861abd520ce42c85c54437bae9ff1bd3c7c4bfd"
+        },
+        {
+          "path": "clips/04-marin-fixed.mp4",
+          "startSeconds": 5,
+          "frames": 26,
+          "sourceSHA256": "186d4962c7f96910bd53b806dae6853ef5e05952f557afa59a5ccf7b4143a89c"
+        },
+        {
+          "path": "clips/05-gabriel-fixed.mp4",
+          "startSeconds": 5,
+          "frames": 26,
+          "sourceSHA256": "57c925e10cee9f6a6b87c0d1d8ab96d01a1310dab23335e3d497339582d8f507"
+        },
+        {
+          "path": "clips/06-max.mp4",
+          "startSeconds": 5,
+          "frames": 26,
+          "sourceSHA256": "81b3e1ccad42a1554976982d7c8502cadf4809bd372cf32b686874d68c5d2866"
+        },
+        {
+          "path": "clips/07-ava.mp4",
+          "startSeconds": 5,
+          "frames": 26,
+          "sourceSHA256": "76eac49519be831386b3e4efdb12e55e0070625c830cc81471d35d659d90f0c6"
+        }
+      ]
+    }
+  ]
+}

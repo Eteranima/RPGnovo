@@ -1,0 +1,10 @@
+PASS docs/qa-v33/opening/ophelia-fixed-source: source hash/bytes, 16 native full PNGs, 32 native crops, 16 matching frames/3,715,200 identical crop pixels; no images written.
+PASS docs/qa-v33/opening/marin-source: source hash/bytes, 16 native full PNGs, 96 native crops, 48 matching frames/5,446,400 identical crop pixels; no images written.
+PASS docs/qa-v33/opening/marin-fixed-source: source hash/bytes, 16 native full PNGs, 96 native crops, 48 matching frames/5,446,400 identical crop pixels; no images written.
+PASS docs/qa-v33/opening/gabriel-source: source hash/bytes, 16 native full PNGs, 128 native crops, 64 matching frames/9,536,400 identical crop pixels; no images written.
+PASS docs/qa-v33/opening/gabriel-fixed-source: source hash/bytes, 16 native full PNGs, 128 native crops, 64 matching frames/9,536,400 identical crop pixels; no images written.
+PASS docs/qa-v33/opening/max-source: source hash/bytes, 16 native full PNGs, 64 native crops, 32 matching frames/3,996,800 identical crop pixels; no images written.
+PASS docs/qa-v33/opening/ava-source: source hash/bytes, 16 native full PNGs, 64 native crops, 32 matching frames/3,858,800 identical crop pixels; no images written.
+PASS docs/qa-v33/opening/orfeu-source: source hash/bytes, 16 native full PNGs, 64 native crops, 32 matching frames/3,838,800 identical crop pixels; no images written.
+PASS docs/qa-v33/opening/carmilla-source: source hash/bytes, 16 native full PNGs, 64 native crops, 32 matching frames/1,117,200 identical crop pixels; no images written.
+PASS docs/qa-v33/opening/beatriz-source: source hash/bytes, 16 native full PNGs, 96 native crops, 48 matching frames/4,088,800 identical crop pixels; no images written.

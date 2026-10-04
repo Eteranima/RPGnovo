@@ -1,0 +1,251 @@
+{
+  "schemaVersion": 1,
+  "status": "approved-local-delivery",
+  "target": {
+    "frames": 1500,
+    "fps": 24,
+    "seconds": 62.5
+  },
+  "sources": [
+    {
+      "shot": "02-seiji",
+      "version": "rejected-three-arms",
+      "provider": "Gemini",
+      "conversation": "https://gemini.google.com/app/887c950c8054597e",
+      "keyArt": "keyframes/02-seiji.png",
+      "clip": "rejected/02-seiji-three-arms.mp4",
+      "status": "rejected-anatomy",
+      "reason": "Shin has three arms/hands in input artwork. Excluded from film; SHA-256 blocked by assembler."
+    },
+    {
+      "shot": "02-seiji",
+      "version": "corrected",
+      "provider": "Gemini",
+      "conversation": "https://gemini.google.com/app/2c18de71b5d55601",
+      "keyArt": "keyframes/02-seiji-corrected.png",
+      "clip": "clips/02-seiji-corrected.mp4",
+      "status": "sampled-visual-review-passed",
+      "review": "Corrected key art independently inspected: two hands, arms, knees and boots for Shin. Root inspected 20 full frames and 48 Shin crops; no extra limb observed in those samples. Sampling does not assert every frame is anatomically perfect.",
+      "plannedEdit": {
+        "startSeconds": 0,
+        "frames": 120
+      },
+      "qa": "../../../docs/qa-v33/opening/seiji-source"
+    },
+    {
+      "shot": "01-academy",
+      "provider": "Google Flow",
+      "clip": "clips/01-academy.mp4",
+      "keyArt": "keyframes/01-academy.png",
+      "editor": "https://flow.google.com/project/2817ddc2-dc36-49db-b2d9-5ed7731b4b77/edit/607e516a-ee19-4b45-8b01-5f45c705bc78",
+      "status": "sampled-visual-review-passed",
+      "plannedEdit": {
+        "startSeconds": 1.5,
+        "frames": 144
+      },
+      "reason": "Initial 0–1.5 seconds excluded due to foreground arch materialization."
+    },
+    {
+      "shot": "03-ophelia",
+      "version": "rejected-framing",
+      "provider": "Google Flow",
+      "clip": "clips/03-ophelia.mp4",
+      "status": "rejected-enquadramento",
+      "reason": "Zoom cuts head and boots; SHA blocked."
+    },
+    {
+      "shot": "03-ophelia",
+      "version": "fixed-camera",
+      "provider": "Google Flow",
+      "clip": "clips/03-ophelia-fixed.mp4",
+      "editor": "https://flow.google.com/project/2817ddc2-dc36-49db-b2d9-5ed7731b4b77/edit/22e267c1-2a15-4eab-b858-67bb29e13067",
+      "status": "sampled-visual-review-passed"
+    },
+    {
+      "shot": "04-marin",
+      "version": "rejected-three-hands",
+      "provider": "Google Flow",
+      "clip": "clips/04-marin.mp4",
+      "editor": "https://flow.google.com/project/2817ddc2-dc36-49db-b2d9-5ed7731b4b77/edit/950ea1aa-2446-4d1f-82bd-676b416e6f4e",
+      "status": "rejected-anatomy",
+      "reason": "Third hand observed at3s and5s, crosses arms retaining dagger hand; excluded."
+    },
+    {
+      "shot": "04-marin",
+      "version": "fixed-hands",
+      "provider": "Google Flow",
+      "clip": "clips/04-marin-fixed.mp4",
+      "status": "sampled-visual-review-passed",
+      "editor": "https://flow.google.com/project/2817ddc2-dc36-49db-b2d9-5ed7731b4b77/edit/46f9db5e-6b3c-43d1-934a-cd6d30f7eff0"
+    },
+    {
+      "shot": "05-gabriel",
+      "version": "rejected-wing-framing",
+      "provider": "Google Flow",
+      "clip": "clips/05-gabriel.mp4",
+      "status": "rejected-enquadramento",
+      "reason": "Dante wing tips cut at2.5s and6.5s. SHA blocked."
+    },
+    {
+      "shot": "05-gabriel",
+      "version": "folded-wings",
+      "provider": "Google Flow",
+      "clip": "clips/05-gabriel-fixed.mp4",
+      "status": "sampled-visual-review-passed",
+      "editor": "https://flow.google.com/project/2817ddc2-dc36-49db-b2d9-5ed7731b4b77/edit/4829dcc7-6771-4617-92ae-16417315d32a"
+    },
+    {
+      "shot": "06-max",
+      "provider": "Google Flow",
+      "clip": "clips/06-max.mp4",
+      "status": "sampled-visual-review-passed",
+      "editor": "https://flow.google.com/project/2817ddc2-dc36-49db-b2d9-5ed7731b4b77/edit/9931d178-775a-4198-8d2a-efd45d5356ff"
+    },
+    {
+      "shot": "07-ava",
+      "provider": "Google Flow",
+      "clip": "clips/07-ava.mp4",
+      "status": "sampled-visual-review-passed",
+      "editor": "https://flow.google.com/project/2817ddc2-dc36-49db-b2d9-5ed7731b4b77/edit/d3fe171c-3f57-474a-aa7e-c484ac51b65d"
+    },
+    {
+      "shot": "08-orfeu",
+      "provider": "Google Flow",
+      "clip": "clips/08-orfeu.mp4",
+      "status": "sampled-visual-review-passed",
+      "editor": "https://flow.google.com/project/2817ddc2-dc36-49db-b2d9-5ed7731b4b77/edit/aafadc00-5fdd-44d0-8660-64dec3755032"
+    },
+    {
+      "shot": "09-carmilla",
+      "provider": "Google Flow",
+      "clip": "clips/09-carmilla.mp4",
+      "status": "sampled-visual-review-passed",
+      "editor": "https://flow.google.com/project/2817ddc2-dc36-49db-b2d9-5ed7731b4b77/edit/77cd8a9b-d0b1-4572-a755-c71349ebc578"
+    },
+    {
+      "shot": "10-beatriz",
+      "provider": "Google Flow",
+      "clip": "clips/10-beatriz.mp4",
+      "editor": "https://flow.google.com/project/2817ddc2-dc36-49db-b2d9-5ed7731b4b77/edit/9711cb11-43ab-41ac-b10f-fc9dc8878839",
+      "status": "sampled-visual-review-passed",
+      "plannedEdit": {
+        "startSeconds": 0,
+        "frames": 120
+      }
+    },
+    {
+      "shot": "11-abel",
+      "provider": "Google Flow",
+      "clip": "clips/11-abel.mp4",
+      "editor": "https://flow.google.com/project/2817ddc2-dc36-49db-b2d9-5ed7731b4b77/edit/eb9192bc-f026-4fa4-9fe0-71598c268e39",
+      "status": "sampled-visual-review-passed",
+      "plannedEdit": {
+        "startSeconds": 0,
+        "frames": 120
+      }
+    }
+  ],
+  "subscription": {
+    "gemini": {
+      "observedCurrentUsagePercent": 96,
+      "observedResetLocalTime": "10:38",
+      "observedWeeklyUsagePercent": 6
+    },
+    "flow": {
+      "authorizedByUser": true,
+      "purchasesAuthorized": false,
+      "observedInitialCredits": 1050,
+      "approvedCreditCosts": [
+        {
+          "shot": "01",
+          "credits": 100,
+          "model": "Veo3.1 Quality"
+        },
+        {
+          "shot": "03-rejected",
+          "credits": 100,
+          "model": "Veo3.1 Quality"
+        },
+        {
+          "shot": "04-rejected",
+          "credits": 100,
+          "model": "Veo3.1 Quality"
+        },
+        {
+          "shot": "03-fixed",
+          "credits": 20,
+          "model": "Veo3.1 Fast"
+        },
+        {
+          "shot": "05",
+          "credits": 100,
+          "model": "Veo3.1 Quality"
+        },
+        {
+          "shot": "06",
+          "credits": 20,
+          "model": "Veo3.1 Fast"
+        },
+        {
+          "shot": "07",
+          "credits": 100,
+          "model": "Veo3.1 Quality"
+        },
+        {
+          "shot": "04-fixed",
+          "credits": 20,
+          "model": "Veo3.1 Fast"
+        },
+        {
+          "shot": "08",
+          "credits": 100,
+          "model": "Veo3.1 Quality"
+        },
+        {
+          "shot": "05-fixed",
+          "credits": 20,
+          "model": "Veo3.1 Fast"
+        },
+        {
+          "shot": "09",
+          "credits": 100,
+          "model": "Veo3.1 Quality"
+        },
+        {
+          "shot": "10",
+          "credits": 100,
+          "model": "Veo3.1 Quality"
+        },
+        {
+          "shot": "11",
+          "credits": 100,
+          "model": "Veo3.1 Quality"
+        }
+      ],
+      "totalApprovedCreditCosts": 980,
+      "estimatedRemainingCredits": 70,
+      "estimatedRemainingNote": "1050 observed initial minus980 UI-approved costs; final account balance not separately observed.",
+      "observedRemainingCredits": 70,
+      "remainingBalanceEvidence": "Google Flow account panel displayed70credits after the final source11generation; read-only observation."
+    }
+  },
+  "delivery": {
+    "path": "public/assets/v33/opening/eter-anima-opening-24fps.mp4",
+    "sha256": "3f0fd3217c57b7dc1db4490179241df58c68d4c4045885ba8e24f4cb1bbe18d8",
+    "bytes": 21681228,
+    "width": 1280,
+    "height": 720,
+    "frames": 1500,
+    "fps": 24,
+    "durationSeconds": 62.5,
+    "audioStreams": 0,
+    "uniqueDecodedFrameHashes": 1500,
+    "sourceFrameReuse": 0,
+    "compressionReview": "approved-by-sampling",
+    "continuousBrowserPlayback": "passed",
+    "verification": "docs/qa-v33/opening/verification.json",
+    "browserReview": "docs/qa-v33/opening/browser-review.json",
+    "distributionSHA256Matches": true,
+    "publishing": "Local version approved; cloud deployment not performed in this task"
+  }
+}

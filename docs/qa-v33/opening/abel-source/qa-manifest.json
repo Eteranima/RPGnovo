@@ -1,0 +1,1796 @@
+{
+  "schema": 2,
+  "source": "art-source/v33/opening/clips/11-abel.mp4",
+  "sourceSHA256": "d1e7f708ecae1c0a9cabf3e86d7a39ea2d1b914243df354c59364f5b4a630554",
+  "sourceBytes": 7326081,
+  "actualDecodedFrames": 192,
+  "sourceResolution": {
+    "width": 1280,
+    "height": 720
+  },
+  "fps": 24,
+  "videoDurationSeconds": 8,
+  "containerDurationSeconds": 8,
+  "audio": [
+    {
+      "codec": "aac",
+      "sampleRate": "48000",
+      "channels": 2,
+      "duration": "8.000000"
+    }
+  ],
+  "full": [
+    {
+      "sample": 0,
+      "seconds": 0,
+      "sourceIndex": 0,
+      "sourceTime": 0,
+      "relativeTime": 0,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/abel-source/full/frame-00.png",
+      "pngSHA256": "77bf45b37483b65093671da8a33f5b0a32e2d42987229e2a4186d1e542894d87"
+    },
+    {
+      "sample": 1,
+      "seconds": 0.5,
+      "sourceIndex": 12,
+      "sourceTime": 0.5,
+      "relativeTime": 0.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/abel-source/full/frame-01.png",
+      "pngSHA256": "4c5c84e31249352cb34d6a933f2b9ba5c9817df21ba00ab25dacde8cdc1c485e"
+    },
+    {
+      "sample": 2,
+      "seconds": 1,
+      "sourceIndex": 24,
+      "sourceTime": 1,
+      "relativeTime": 1,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/abel-source/full/frame-02.png",
+      "pngSHA256": "0cb3c6f281939c660bb36f49da5e1af299518c5fca8a156bbfa67f081ee1886a"
+    },
+    {
+      "sample": 3,
+      "seconds": 1.5,
+      "sourceIndex": 36,
+      "sourceTime": 1.5,
+      "relativeTime": 1.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/abel-source/full/frame-03.png",
+      "pngSHA256": "7c5fdc1b4885df9dad5757172862271060ad643fea491aa9be2a9ba14c52f5b8"
+    },
+    {
+      "sample": 4,
+      "seconds": 2,
+      "sourceIndex": 48,
+      "sourceTime": 2,
+      "relativeTime": 2,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/abel-source/full/frame-04.png",
+      "pngSHA256": "ccf18df33efb66e550e1420d7c0e46bfd22962383e6515a9c48ea5883f9af5a1"
+    },
+    {
+      "sample": 5,
+      "seconds": 2.5,
+      "sourceIndex": 60,
+      "sourceTime": 2.5,
+      "relativeTime": 2.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/abel-source/full/frame-05.png",
+      "pngSHA256": "772b747a7eb2d4c7a3f48ee84d33bea3b23fb571b560d357318d7f81dd24c961"
+    },
+    {
+      "sample": 6,
+      "seconds": 3,
+      "sourceIndex": 72,
+      "sourceTime": 3,
+      "relativeTime": 3,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/abel-source/full/frame-06.png",
+      "pngSHA256": "25ef160b14467bda9a1ab31ebee652c2abaae3488bffe7aff212aa807e443bee"
+    },
+    {
+      "sample": 7,
+      "seconds": 3.5,
+      "sourceIndex": 84,
+      "sourceTime": 3.5,
+      "relativeTime": 3.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/abel-source/full/frame-07.png",
+      "pngSHA256": "68c388b9d30782e189dda652a1aa78293becf3ced764f7dddddc534b57951d26"
+    },
+    {
+      "sample": 8,
+      "seconds": 4,
+      "sourceIndex": 96,
+      "sourceTime": 4,
+      "relativeTime": 4,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/abel-source/full/frame-08.png",
+      "pngSHA256": "233e47b53c586ff3a4777e4e87103372dbc847e0b036fa912eb8ad5e7e3f4402"
+    },
+    {
+      "sample": 9,
+      "seconds": 4.5,
+      "sourceIndex": 108,
+      "sourceTime": 4.5,
+      "relativeTime": 4.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/abel-source/full/frame-09.png",
+      "pngSHA256": "4180859692f20615f37422d61c926b2e8ee0cb26da33c31445cabd53c1c62830"
+    },
+    {
+      "sample": 10,
+      "seconds": 5,
+      "sourceIndex": 120,
+      "sourceTime": 5,
+      "relativeTime": 5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/abel-source/full/frame-10.png",
+      "pngSHA256": "ec4de246b7ddf17c5757a6853ec7881c04e234b1c84b6ee439dc7fc41c13ab19"
+    },
+    {
+      "sample": 11,
+      "seconds": 5.5,
+      "sourceIndex": 132,
+      "sourceTime": 5.5,
+      "relativeTime": 5.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/abel-source/full/frame-11.png",
+      "pngSHA256": "2942356a9d662f56e214b4f633340509483db0c393cc4b469dc6031616d9af22"
+    },
+    {
+      "sample": 12,
+      "seconds": 6,
+      "sourceIndex": 144,
+      "sourceTime": 6,
+      "relativeTime": 6,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/abel-source/full/frame-12.png",
+      "pngSHA256": "83b012dad3c96a8567480bd7e842ef67cf8007a48a1542c1ba6aa863de5af363"
+    },
+    {
+      "sample": 13,
+      "seconds": 6.5,
+      "sourceIndex": 156,
+      "sourceTime": 6.5,
+      "relativeTime": 6.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/abel-source/full/frame-13.png",
+      "pngSHA256": "626d55135ff1fba1b1c05ed7912f551703dd4440215e4ce13cb713a1f6c5a8f1"
+    },
+    {
+      "sample": 14,
+      "seconds": 7,
+      "sourceIndex": 168,
+      "sourceTime": 7,
+      "relativeTime": 7,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/abel-source/full/frame-14.png",
+      "pngSHA256": "cfc948ed72bad77fb86341cd71d92a6819363f20cea643574547ade3d4f631cf"
+    },
+    {
+      "sample": 15,
+      "seconds": 7.5,
+      "sourceIndex": 180,
+      "sourceTime": 7.5,
+      "relativeTime": 7.5,
+      "outputTime": 0,
+      "path": "docs/qa-v33/opening/abel-source/full/frame-15.png",
+      "pngSHA256": "f9391a89781559efe7182dae48aa495c7f87cba249700a314bf614c40ec48ab4"
+    }
+  ],
+  "cropped": {
+    "id": "abel-staff-hand",
+    "character": "Abel — mão no cajado único",
+    "crop": {
+      "x": 325,
+      "y": 125,
+      "width": 165,
+      "height": 205
+    },
+    "frames": [
+      {
+        "sample": 0,
+        "seconds": 0,
+        "sourceIndex": 0,
+        "sourceTime": 0,
+        "relativeTime": 0,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-00.png",
+        "pngSHA256": "a17cb335921f21522160e6e9ff6f1c0d700edc4bf8313ff5a64454e56a1ce695"
+      },
+      {
+        "sample": 1,
+        "seconds": 0.25,
+        "sourceIndex": 6,
+        "sourceTime": 0.25,
+        "relativeTime": 0.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-01.png",
+        "pngSHA256": "64e4b400481839433bf2ddd147421e36bcc7925efa8e34bae977a6a54682dae3"
+      },
+      {
+        "sample": 2,
+        "seconds": 0.5,
+        "sourceIndex": 12,
+        "sourceTime": 0.5,
+        "relativeTime": 0.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-02.png",
+        "pngSHA256": "7af488b29eb76c67c1f4bd52b476a550600eee7b7fb28a4984209289c20ef382"
+      },
+      {
+        "sample": 3,
+        "seconds": 0.75,
+        "sourceIndex": 18,
+        "sourceTime": 0.75,
+        "relativeTime": 0.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-03.png",
+        "pngSHA256": "8da31b0ab80e837efdd1abe43fd067e95c7b7de9b9f303e6a60f1707e17b8aa0"
+      },
+      {
+        "sample": 4,
+        "seconds": 1,
+        "sourceIndex": 24,
+        "sourceTime": 1,
+        "relativeTime": 1,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-04.png",
+        "pngSHA256": "505d40b5eb70b5bc4180a0bb88c19c27203fa43a9ef6b8241a7fe7f62b242e14"
+      },
+      {
+        "sample": 5,
+        "seconds": 1.25,
+        "sourceIndex": 30,
+        "sourceTime": 1.25,
+        "relativeTime": 1.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-05.png",
+        "pngSHA256": "6796e629930c1e825fd550db19ab1dabffd067edc7d3522fd4563a1145762ee2"
+      },
+      {
+        "sample": 6,
+        "seconds": 1.5,
+        "sourceIndex": 36,
+        "sourceTime": 1.5,
+        "relativeTime": 1.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-06.png",
+        "pngSHA256": "1889cc699b960ff52867612981da6d29bb2748f42bf5916cc4dfe218b12ca79c"
+      },
+      {
+        "sample": 7,
+        "seconds": 1.75,
+        "sourceIndex": 42,
+        "sourceTime": 1.75,
+        "relativeTime": 1.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-07.png",
+        "pngSHA256": "dd4baa20f0a4c94032429105ec615373c2f696d36499c24af06303b4d1a3e214"
+      },
+      {
+        "sample": 8,
+        "seconds": 2,
+        "sourceIndex": 48,
+        "sourceTime": 2,
+        "relativeTime": 2,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-08.png",
+        "pngSHA256": "0c3d1ea8a29c019959e60141d8186e84bd2a13fd1798c879a39d9f32ecd65e0e"
+      },
+      {
+        "sample": 9,
+        "seconds": 2.25,
+        "sourceIndex": 54,
+        "sourceTime": 2.25,
+        "relativeTime": 2.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-09.png",
+        "pngSHA256": "211115e84fde99fbc65833b568c7c981b7f55e51cf483b8238137a9088a07ab7"
+      },
+      {
+        "sample": 10,
+        "seconds": 2.5,
+        "sourceIndex": 60,
+        "sourceTime": 2.5,
+        "relativeTime": 2.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-10.png",
+        "pngSHA256": "04350b82fe528453a98f38d9ddf471f1ed62ab0567078f0e522281bad7f7fcb0"
+      },
+      {
+        "sample": 11,
+        "seconds": 2.75,
+        "sourceIndex": 66,
+        "sourceTime": 2.75,
+        "relativeTime": 2.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-11.png",
+        "pngSHA256": "e3d973cf2a6f07399bb18b49b228424b234976abd4b36a00fcbdf6d7b9c40e19"
+      },
+      {
+        "sample": 12,
+        "seconds": 3,
+        "sourceIndex": 72,
+        "sourceTime": 3,
+        "relativeTime": 3,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-12.png",
+        "pngSHA256": "29a16b56e7807de1699563f05d0417b485562a868867b9ce4b2518211f4aa410"
+      },
+      {
+        "sample": 13,
+        "seconds": 3.25,
+        "sourceIndex": 78,
+        "sourceTime": 3.25,
+        "relativeTime": 3.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-13.png",
+        "pngSHA256": "3a84d0bdbd5be0857212a23756ba3872d057d1cf7b6d3b6d81183358f1362b94"
+      },
+      {
+        "sample": 14,
+        "seconds": 3.5,
+        "sourceIndex": 84,
+        "sourceTime": 3.5,
+        "relativeTime": 3.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-14.png",
+        "pngSHA256": "11cc0c45df71c2f436b08b940592195855821efe6e93fa7cd222f186c2c61850"
+      },
+      {
+        "sample": 15,
+        "seconds": 3.75,
+        "sourceIndex": 90,
+        "sourceTime": 3.75,
+        "relativeTime": 3.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-15.png",
+        "pngSHA256": "5e1e98fc0f3de842b21f5b30750e8de1480831cdf25750c50217012be71eb36f"
+      },
+      {
+        "sample": 16,
+        "seconds": 4,
+        "sourceIndex": 96,
+        "sourceTime": 4,
+        "relativeTime": 4,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-16.png",
+        "pngSHA256": "6792e37ee125e3b01c30e28ea16945a3d48ffce05b0a9629314f19ed368b9681"
+      },
+      {
+        "sample": 17,
+        "seconds": 4.25,
+        "sourceIndex": 102,
+        "sourceTime": 4.25,
+        "relativeTime": 4.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-17.png",
+        "pngSHA256": "5e098f90bda306a19332ea746f225dfeb414411a44303047c5219f51b850a71e"
+      },
+      {
+        "sample": 18,
+        "seconds": 4.5,
+        "sourceIndex": 108,
+        "sourceTime": 4.5,
+        "relativeTime": 4.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-18.png",
+        "pngSHA256": "6c73175b87c27fb6f872f748d89bc7ebcc12a0a80f12ad2e187e5c9b4bdc04c8"
+      },
+      {
+        "sample": 19,
+        "seconds": 4.75,
+        "sourceIndex": 114,
+        "sourceTime": 4.75,
+        "relativeTime": 4.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-19.png",
+        "pngSHA256": "1db39d89a868bcc7d04d93854a4ff2cf37ba1006cd0be18a11e1e84043a77d89"
+      },
+      {
+        "sample": 20,
+        "seconds": 5,
+        "sourceIndex": 120,
+        "sourceTime": 5,
+        "relativeTime": 5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-20.png",
+        "pngSHA256": "f4f03b237399631388f46ad2a6713746e6938c7544809438eb486a48d67e4b17"
+      },
+      {
+        "sample": 21,
+        "seconds": 5.25,
+        "sourceIndex": 126,
+        "sourceTime": 5.25,
+        "relativeTime": 5.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-21.png",
+        "pngSHA256": "5f2be557ff76b68cc18faec8d009f7e14cf528c13622b40ed5d6d47546c5fcdc"
+      },
+      {
+        "sample": 22,
+        "seconds": 5.5,
+        "sourceIndex": 132,
+        "sourceTime": 5.5,
+        "relativeTime": 5.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-22.png",
+        "pngSHA256": "ab4de28b60769ac5c4623221aaa014b51aacd25d80854f372790d38d43c4c7f6"
+      },
+      {
+        "sample": 23,
+        "seconds": 5.75,
+        "sourceIndex": 138,
+        "sourceTime": 5.75,
+        "relativeTime": 5.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-23.png",
+        "pngSHA256": "fc9fa176f7e5272db2a63d535c4cf8a25a5f3240e44668de41d9dee3d18f22b1"
+      },
+      {
+        "sample": 24,
+        "seconds": 6,
+        "sourceIndex": 144,
+        "sourceTime": 6,
+        "relativeTime": 6,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-24.png",
+        "pngSHA256": "03c8d2f1522c7fdf98eee6b4a07e0b777d5d32663571e160977971ddf508ffac"
+      },
+      {
+        "sample": 25,
+        "seconds": 6.25,
+        "sourceIndex": 150,
+        "sourceTime": 6.25,
+        "relativeTime": 6.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-25.png",
+        "pngSHA256": "fafaffd360b3514c10ca1e049273d7dfebabe1fddba18b5a4e9b128bc92e9d93"
+      },
+      {
+        "sample": 26,
+        "seconds": 6.5,
+        "sourceIndex": 156,
+        "sourceTime": 6.5,
+        "relativeTime": 6.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-26.png",
+        "pngSHA256": "2fa4b68e1ce279b3760f5610bd2338019ae2e52bc16a6725c31be8b89d45fe95"
+      },
+      {
+        "sample": 27,
+        "seconds": 6.75,
+        "sourceIndex": 162,
+        "sourceTime": 6.75,
+        "relativeTime": 6.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-27.png",
+        "pngSHA256": "9d9ac6cf3a4e4dcd97bf6b64c760fec99559b07707ff1f653c7bec02479936af"
+      },
+      {
+        "sample": 28,
+        "seconds": 7,
+        "sourceIndex": 168,
+        "sourceTime": 7,
+        "relativeTime": 7,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-28.png",
+        "pngSHA256": "674fa07c61cbabd9c60af1aadf8345c37a4fc920d3bc4a9601a6a400ae45487e"
+      },
+      {
+        "sample": 29,
+        "seconds": 7.25,
+        "sourceIndex": 174,
+        "sourceTime": 7.25,
+        "relativeTime": 7.25,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-29.png",
+        "pngSHA256": "2065ffa361bfa349a5989e8850ad7707e883bc85129acee64c46ed486231e793"
+      },
+      {
+        "sample": 30,
+        "seconds": 7.5,
+        "sourceIndex": 180,
+        "sourceTime": 7.5,
+        "relativeTime": 7.5,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-30.png",
+        "pngSHA256": "0480f94457c4252764c3f6605df6529c1d9a9481775e9b343226dcc01f660a02"
+      },
+      {
+        "sample": 31,
+        "seconds": 7.75,
+        "sourceIndex": 186,
+        "sourceTime": 7.75,
+        "relativeTime": 7.75,
+        "outputTime": 0,
+        "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-31.png",
+        "pngSHA256": "e7957ac70238b4d6abc432c55711bad90d4dd6a5d92ed9e6bb38a9d4921099c4"
+      }
+    ],
+    "nativePixels": true
+  },
+  "crops": [
+    {
+      "id": "abel-staff-hand",
+      "character": "Abel — mão no cajado único",
+      "crop": {
+        "x": 325,
+        "y": 125,
+        "width": 165,
+        "height": 205
+      },
+      "frames": [
+        {
+          "sample": 0,
+          "seconds": 0,
+          "sourceIndex": 0,
+          "sourceTime": 0,
+          "relativeTime": 0,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-00.png",
+          "pngSHA256": "a17cb335921f21522160e6e9ff6f1c0d700edc4bf8313ff5a64454e56a1ce695"
+        },
+        {
+          "sample": 1,
+          "seconds": 0.25,
+          "sourceIndex": 6,
+          "sourceTime": 0.25,
+          "relativeTime": 0.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-01.png",
+          "pngSHA256": "64e4b400481839433bf2ddd147421e36bcc7925efa8e34bae977a6a54682dae3"
+        },
+        {
+          "sample": 2,
+          "seconds": 0.5,
+          "sourceIndex": 12,
+          "sourceTime": 0.5,
+          "relativeTime": 0.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-02.png",
+          "pngSHA256": "7af488b29eb76c67c1f4bd52b476a550600eee7b7fb28a4984209289c20ef382"
+        },
+        {
+          "sample": 3,
+          "seconds": 0.75,
+          "sourceIndex": 18,
+          "sourceTime": 0.75,
+          "relativeTime": 0.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-03.png",
+          "pngSHA256": "8da31b0ab80e837efdd1abe43fd067e95c7b7de9b9f303e6a60f1707e17b8aa0"
+        },
+        {
+          "sample": 4,
+          "seconds": 1,
+          "sourceIndex": 24,
+          "sourceTime": 1,
+          "relativeTime": 1,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-04.png",
+          "pngSHA256": "505d40b5eb70b5bc4180a0bb88c19c27203fa43a9ef6b8241a7fe7f62b242e14"
+        },
+        {
+          "sample": 5,
+          "seconds": 1.25,
+          "sourceIndex": 30,
+          "sourceTime": 1.25,
+          "relativeTime": 1.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-05.png",
+          "pngSHA256": "6796e629930c1e825fd550db19ab1dabffd067edc7d3522fd4563a1145762ee2"
+        },
+        {
+          "sample": 6,
+          "seconds": 1.5,
+          "sourceIndex": 36,
+          "sourceTime": 1.5,
+          "relativeTime": 1.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-06.png",
+          "pngSHA256": "1889cc699b960ff52867612981da6d29bb2748f42bf5916cc4dfe218b12ca79c"
+        },
+        {
+          "sample": 7,
+          "seconds": 1.75,
+          "sourceIndex": 42,
+          "sourceTime": 1.75,
+          "relativeTime": 1.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-07.png",
+          "pngSHA256": "dd4baa20f0a4c94032429105ec615373c2f696d36499c24af06303b4d1a3e214"
+        },
+        {
+          "sample": 8,
+          "seconds": 2,
+          "sourceIndex": 48,
+          "sourceTime": 2,
+          "relativeTime": 2,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-08.png",
+          "pngSHA256": "0c3d1ea8a29c019959e60141d8186e84bd2a13fd1798c879a39d9f32ecd65e0e"
+        },
+        {
+          "sample": 9,
+          "seconds": 2.25,
+          "sourceIndex": 54,
+          "sourceTime": 2.25,
+          "relativeTime": 2.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-09.png",
+          "pngSHA256": "211115e84fde99fbc65833b568c7c981b7f55e51cf483b8238137a9088a07ab7"
+        },
+        {
+          "sample": 10,
+          "seconds": 2.5,
+          "sourceIndex": 60,
+          "sourceTime": 2.5,
+          "relativeTime": 2.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-10.png",
+          "pngSHA256": "04350b82fe528453a98f38d9ddf471f1ed62ab0567078f0e522281bad7f7fcb0"
+        },
+        {
+          "sample": 11,
+          "seconds": 2.75,
+          "sourceIndex": 66,
+          "sourceTime": 2.75,
+          "relativeTime": 2.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-11.png",
+          "pngSHA256": "e3d973cf2a6f07399bb18b49b228424b234976abd4b36a00fcbdf6d7b9c40e19"
+        },
+        {
+          "sample": 12,
+          "seconds": 3,
+          "sourceIndex": 72,
+          "sourceTime": 3,
+          "relativeTime": 3,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-12.png",
+          "pngSHA256": "29a16b56e7807de1699563f05d0417b485562a868867b9ce4b2518211f4aa410"
+        },
+        {
+          "sample": 13,
+          "seconds": 3.25,
+          "sourceIndex": 78,
+          "sourceTime": 3.25,
+          "relativeTime": 3.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-13.png",
+          "pngSHA256": "3a84d0bdbd5be0857212a23756ba3872d057d1cf7b6d3b6d81183358f1362b94"
+        },
+        {
+          "sample": 14,
+          "seconds": 3.5,
+          "sourceIndex": 84,
+          "sourceTime": 3.5,
+          "relativeTime": 3.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-14.png",
+          "pngSHA256": "11cc0c45df71c2f436b08b940592195855821efe6e93fa7cd222f186c2c61850"
+        },
+        {
+          "sample": 15,
+          "seconds": 3.75,
+          "sourceIndex": 90,
+          "sourceTime": 3.75,
+          "relativeTime": 3.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-15.png",
+          "pngSHA256": "5e1e98fc0f3de842b21f5b30750e8de1480831cdf25750c50217012be71eb36f"
+        },
+        {
+          "sample": 16,
+          "seconds": 4,
+          "sourceIndex": 96,
+          "sourceTime": 4,
+          "relativeTime": 4,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-16.png",
+          "pngSHA256": "6792e37ee125e3b01c30e28ea16945a3d48ffce05b0a9629314f19ed368b9681"
+        },
+        {
+          "sample": 17,
+          "seconds": 4.25,
+          "sourceIndex": 102,
+          "sourceTime": 4.25,
+          "relativeTime": 4.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-17.png",
+          "pngSHA256": "5e098f90bda306a19332ea746f225dfeb414411a44303047c5219f51b850a71e"
+        },
+        {
+          "sample": 18,
+          "seconds": 4.5,
+          "sourceIndex": 108,
+          "sourceTime": 4.5,
+          "relativeTime": 4.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-18.png",
+          "pngSHA256": "6c73175b87c27fb6f872f748d89bc7ebcc12a0a80f12ad2e187e5c9b4bdc04c8"
+        },
+        {
+          "sample": 19,
+          "seconds": 4.75,
+          "sourceIndex": 114,
+          "sourceTime": 4.75,
+          "relativeTime": 4.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-19.png",
+          "pngSHA256": "1db39d89a868bcc7d04d93854a4ff2cf37ba1006cd0be18a11e1e84043a77d89"
+        },
+        {
+          "sample": 20,
+          "seconds": 5,
+          "sourceIndex": 120,
+          "sourceTime": 5,
+          "relativeTime": 5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-20.png",
+          "pngSHA256": "f4f03b237399631388f46ad2a6713746e6938c7544809438eb486a48d67e4b17"
+        },
+        {
+          "sample": 21,
+          "seconds": 5.25,
+          "sourceIndex": 126,
+          "sourceTime": 5.25,
+          "relativeTime": 5.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-21.png",
+          "pngSHA256": "5f2be557ff76b68cc18faec8d009f7e14cf528c13622b40ed5d6d47546c5fcdc"
+        },
+        {
+          "sample": 22,
+          "seconds": 5.5,
+          "sourceIndex": 132,
+          "sourceTime": 5.5,
+          "relativeTime": 5.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-22.png",
+          "pngSHA256": "ab4de28b60769ac5c4623221aaa014b51aacd25d80854f372790d38d43c4c7f6"
+        },
+        {
+          "sample": 23,
+          "seconds": 5.75,
+          "sourceIndex": 138,
+          "sourceTime": 5.75,
+          "relativeTime": 5.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-23.png",
+          "pngSHA256": "fc9fa176f7e5272db2a63d535c4cf8a25a5f3240e44668de41d9dee3d18f22b1"
+        },
+        {
+          "sample": 24,
+          "seconds": 6,
+          "sourceIndex": 144,
+          "sourceTime": 6,
+          "relativeTime": 6,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-24.png",
+          "pngSHA256": "03c8d2f1522c7fdf98eee6b4a07e0b777d5d32663571e160977971ddf508ffac"
+        },
+        {
+          "sample": 25,
+          "seconds": 6.25,
+          "sourceIndex": 150,
+          "sourceTime": 6.25,
+          "relativeTime": 6.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-25.png",
+          "pngSHA256": "fafaffd360b3514c10ca1e049273d7dfebabe1fddba18b5a4e9b128bc92e9d93"
+        },
+        {
+          "sample": 26,
+          "seconds": 6.5,
+          "sourceIndex": 156,
+          "sourceTime": 6.5,
+          "relativeTime": 6.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-26.png",
+          "pngSHA256": "2fa4b68e1ce279b3760f5610bd2338019ae2e52bc16a6725c31be8b89d45fe95"
+        },
+        {
+          "sample": 27,
+          "seconds": 6.75,
+          "sourceIndex": 162,
+          "sourceTime": 6.75,
+          "relativeTime": 6.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-27.png",
+          "pngSHA256": "9d9ac6cf3a4e4dcd97bf6b64c760fec99559b07707ff1f653c7bec02479936af"
+        },
+        {
+          "sample": 28,
+          "seconds": 7,
+          "sourceIndex": 168,
+          "sourceTime": 7,
+          "relativeTime": 7,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-28.png",
+          "pngSHA256": "674fa07c61cbabd9c60af1aadf8345c37a4fc920d3bc4a9601a6a400ae45487e"
+        },
+        {
+          "sample": 29,
+          "seconds": 7.25,
+          "sourceIndex": 174,
+          "sourceTime": 7.25,
+          "relativeTime": 7.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-29.png",
+          "pngSHA256": "2065ffa361bfa349a5989e8850ad7707e883bc85129acee64c46ed486231e793"
+        },
+        {
+          "sample": 30,
+          "seconds": 7.5,
+          "sourceIndex": 180,
+          "sourceTime": 7.5,
+          "relativeTime": 7.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-30.png",
+          "pngSHA256": "0480f94457c4252764c3f6605df6529c1d9a9481775e9b343226dcc01f660a02"
+        },
+        {
+          "sample": 31,
+          "seconds": 7.75,
+          "sourceIndex": 186,
+          "sourceTime": 7.75,
+          "relativeTime": 7.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-staff-hand/frame-31.png",
+          "pngSHA256": "e7957ac70238b4d6abc432c55711bad90d4dd6a5d92ed9e6bb38a9d4921099c4"
+        }
+      ],
+      "nativePixels": true
+    },
+    {
+      "id": "abel-free-hand",
+      "character": "Abel — mão livre",
+      "crop": {
+        "x": 600,
+        "y": 140,
+        "width": 220,
+        "height": 200
+      },
+      "frames": [
+        {
+          "sample": 0,
+          "seconds": 0,
+          "sourceIndex": 0,
+          "sourceTime": 0,
+          "relativeTime": 0,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-free-hand/frame-00.png",
+          "pngSHA256": "bb510591c26e074ab6a76ca3e36193c18fa10271a46af50bb2aa3480033a08f8"
+        },
+        {
+          "sample": 1,
+          "seconds": 0.25,
+          "sourceIndex": 6,
+          "sourceTime": 0.25,
+          "relativeTime": 0.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-free-hand/frame-01.png",
+          "pngSHA256": "17276095919d9ed3f700f6a30b80838f9a969363557c7cf0f7f626e73afbced1"
+        },
+        {
+          "sample": 2,
+          "seconds": 0.5,
+          "sourceIndex": 12,
+          "sourceTime": 0.5,
+          "relativeTime": 0.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-free-hand/frame-02.png",
+          "pngSHA256": "646e7226ce6cce2f0afe3243dd51d4756ee7ee42fdee4f9c1024571cf1760440"
+        },
+        {
+          "sample": 3,
+          "seconds": 0.75,
+          "sourceIndex": 18,
+          "sourceTime": 0.75,
+          "relativeTime": 0.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-free-hand/frame-03.png",
+          "pngSHA256": "0dcf355d65677b7e6e58177f24a759fb3c8cd722d091db36d49983846c1bff9e"
+        },
+        {
+          "sample": 4,
+          "seconds": 1,
+          "sourceIndex": 24,
+          "sourceTime": 1,
+          "relativeTime": 1,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-free-hand/frame-04.png",
+          "pngSHA256": "59cb9d21906c98c174b914ab01eff391a192f41bcb15b31dc23c06366c5b0014"
+        },
+        {
+          "sample": 5,
+          "seconds": 1.25,
+          "sourceIndex": 30,
+          "sourceTime": 1.25,
+          "relativeTime": 1.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-free-hand/frame-05.png",
+          "pngSHA256": "cff3b1ed5d5cc15581e8f5dcdb9b2c334bb99a7aff4f8c7e4b1cda284f371e49"
+        },
+        {
+          "sample": 6,
+          "seconds": 1.5,
+          "sourceIndex": 36,
+          "sourceTime": 1.5,
+          "relativeTime": 1.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-free-hand/frame-06.png",
+          "pngSHA256": "4a94ad889ae52dcba0fa93186692749897f7fd2075d9da75877825c225faa412"
+        },
+        {
+          "sample": 7,
+          "seconds": 1.75,
+          "sourceIndex": 42,
+          "sourceTime": 1.75,
+          "relativeTime": 1.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-free-hand/frame-07.png",
+          "pngSHA256": "46c4ab0d10d623a3aaf0a5f5bc9aa9dcf92a94fac009a158babb10d9f81073e8"
+        },
+        {
+          "sample": 8,
+          "seconds": 2,
+          "sourceIndex": 48,
+          "sourceTime": 2,
+          "relativeTime": 2,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-free-hand/frame-08.png",
+          "pngSHA256": "24375494953aff5217072a751a6901cae66ab898cddf06488dadb768613f00d7"
+        },
+        {
+          "sample": 9,
+          "seconds": 2.25,
+          "sourceIndex": 54,
+          "sourceTime": 2.25,
+          "relativeTime": 2.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-free-hand/frame-09.png",
+          "pngSHA256": "d7247938e1965a74d2c3edb22c67e9e7067f86bb08422cbbabf5e646fef6a3e2"
+        },
+        {
+          "sample": 10,
+          "seconds": 2.5,
+          "sourceIndex": 60,
+          "sourceTime": 2.5,
+          "relativeTime": 2.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-free-hand/frame-10.png",
+          "pngSHA256": "6e712592f75cb2d2f0d7881174db9358552e410bd40c620d62282981c3d402bc"
+        },
+        {
+          "sample": 11,
+          "seconds": 2.75,
+          "sourceIndex": 66,
+          "sourceTime": 2.75,
+          "relativeTime": 2.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-free-hand/frame-11.png",
+          "pngSHA256": "2e474664a63c5d88750511f5d52d6470d74efb593bc0423a7a3a0f2b6162013d"
+        },
+        {
+          "sample": 12,
+          "seconds": 3,
+          "sourceIndex": 72,
+          "sourceTime": 3,
+          "relativeTime": 3,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-free-hand/frame-12.png",
+          "pngSHA256": "a855cbb379bcee58c48378ede849e7af3362409dc6ed5708df557566cd41d764"
+        },
+        {
+          "sample": 13,
+          "seconds": 3.25,
+          "sourceIndex": 78,
+          "sourceTime": 3.25,
+          "relativeTime": 3.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-free-hand/frame-13.png",
+          "pngSHA256": "9921e3c9376afdd855b62c74ab22901f3c39540ce728cf42ff38372f323258ce"
+        },
+        {
+          "sample": 14,
+          "seconds": 3.5,
+          "sourceIndex": 84,
+          "sourceTime": 3.5,
+          "relativeTime": 3.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-free-hand/frame-14.png",
+          "pngSHA256": "45d558fa5f2bea0424b893662fb9b317a9c0d6d5fe8dd328dabeb7dd703bcc56"
+        },
+        {
+          "sample": 15,
+          "seconds": 3.75,
+          "sourceIndex": 90,
+          "sourceTime": 3.75,
+          "relativeTime": 3.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-free-hand/frame-15.png",
+          "pngSHA256": "23a563f4050bbe0e8cf52d3deea999f884b1ac0d6c9b6a61d517ae7127872328"
+        },
+        {
+          "sample": 16,
+          "seconds": 4,
+          "sourceIndex": 96,
+          "sourceTime": 4,
+          "relativeTime": 4,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-free-hand/frame-16.png",
+          "pngSHA256": "2db2c5c0a5f117ad639e0443e374221183a31ff8c5a6da186e607053e3878d01"
+        },
+        {
+          "sample": 17,
+          "seconds": 4.25,
+          "sourceIndex": 102,
+          "sourceTime": 4.25,
+          "relativeTime": 4.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-free-hand/frame-17.png",
+          "pngSHA256": "b80f7a3ae1da26df6922ef87f97d5456026fc729725ffa1e9771bfeb6ce93d63"
+        },
+        {
+          "sample": 18,
+          "seconds": 4.5,
+          "sourceIndex": 108,
+          "sourceTime": 4.5,
+          "relativeTime": 4.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-free-hand/frame-18.png",
+          "pngSHA256": "4f95dad568cfb04a6c9c33539a5f59a4332b482361c144a0a979cf80154be4dc"
+        },
+        {
+          "sample": 19,
+          "seconds": 4.75,
+          "sourceIndex": 114,
+          "sourceTime": 4.75,
+          "relativeTime": 4.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-free-hand/frame-19.png",
+          "pngSHA256": "05481fb8ebcad33d35ce44dcad4df50d05909d9b45992fc46c43885ac605898e"
+        },
+        {
+          "sample": 20,
+          "seconds": 5,
+          "sourceIndex": 120,
+          "sourceTime": 5,
+          "relativeTime": 5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-free-hand/frame-20.png",
+          "pngSHA256": "1a133a37b39280e195fc35ceebd1790ac7648fb470c27c4c25c0cf17886aa7fc"
+        },
+        {
+          "sample": 21,
+          "seconds": 5.25,
+          "sourceIndex": 126,
+          "sourceTime": 5.25,
+          "relativeTime": 5.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-free-hand/frame-21.png",
+          "pngSHA256": "b36ee276ece821b6524b51297c8731faf52316e6faeb1f73a31b0758f669d515"
+        },
+        {
+          "sample": 22,
+          "seconds": 5.5,
+          "sourceIndex": 132,
+          "sourceTime": 5.5,
+          "relativeTime": 5.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-free-hand/frame-22.png",
+          "pngSHA256": "117f14f5befd0b983ae06972822026b91e93022d557565a253fad2d762bc85d6"
+        },
+        {
+          "sample": 23,
+          "seconds": 5.75,
+          "sourceIndex": 138,
+          "sourceTime": 5.75,
+          "relativeTime": 5.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-free-hand/frame-23.png",
+          "pngSHA256": "9d8825a661311acf779c256442cea497d8f7004e91216bfdf2f3b64a4486f1ed"
+        },
+        {
+          "sample": 24,
+          "seconds": 6,
+          "sourceIndex": 144,
+          "sourceTime": 6,
+          "relativeTime": 6,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-free-hand/frame-24.png",
+          "pngSHA256": "a3700dd3c52c8ed349e101ed62a9faed55773a3af483f9e6d8df4849085d18f2"
+        },
+        {
+          "sample": 25,
+          "seconds": 6.25,
+          "sourceIndex": 150,
+          "sourceTime": 6.25,
+          "relativeTime": 6.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-free-hand/frame-25.png",
+          "pngSHA256": "b9e6bb2cff57b0c0bbe609101203244c9a4b0b838db4009cb0b0fe5b22a57b66"
+        },
+        {
+          "sample": 26,
+          "seconds": 6.5,
+          "sourceIndex": 156,
+          "sourceTime": 6.5,
+          "relativeTime": 6.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-free-hand/frame-26.png",
+          "pngSHA256": "2ecbf29bfe5029ed49d64e3c1b9eb13b11fcf07365387c85bbf171b080e83eb2"
+        },
+        {
+          "sample": 27,
+          "seconds": 6.75,
+          "sourceIndex": 162,
+          "sourceTime": 6.75,
+          "relativeTime": 6.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-free-hand/frame-27.png",
+          "pngSHA256": "9946ef70c023c24439ae27a6182456eaa2be5fc5ae39cf9485524cfd7d3189fa"
+        },
+        {
+          "sample": 28,
+          "seconds": 7,
+          "sourceIndex": 168,
+          "sourceTime": 7,
+          "relativeTime": 7,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-free-hand/frame-28.png",
+          "pngSHA256": "76eae236552a5e063d0c114c54d6f2250edacbaae97f95ad2fcbad41749bc106"
+        },
+        {
+          "sample": 29,
+          "seconds": 7.25,
+          "sourceIndex": 174,
+          "sourceTime": 7.25,
+          "relativeTime": 7.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-free-hand/frame-29.png",
+          "pngSHA256": "288fdaff0a147378433a4846745269b14ad4bc414986d671b0dfeff33e6d5609"
+        },
+        {
+          "sample": 30,
+          "seconds": 7.5,
+          "sourceIndex": 180,
+          "sourceTime": 7.5,
+          "relativeTime": 7.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-free-hand/frame-30.png",
+          "pngSHA256": "1984f100d8ca0b57f9a5bacfa17f4ed91b49f3cdf8ca432c4b2603ba614b4268"
+        },
+        {
+          "sample": 31,
+          "seconds": 7.75,
+          "sourceIndex": 186,
+          "sourceTime": 7.75,
+          "relativeTime": 7.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-free-hand/frame-31.png",
+          "pngSHA256": "a7f454f4cec58c1b89ad649c60e6602db3e7b85cf6aabae88d2bdf5302e4d8db"
+        }
+      ],
+      "nativePixels": true
+    },
+    {
+      "id": "abel-fire-lion",
+      "character": "Abel — cabeça de leão de fogo",
+      "crop": {
+        "x": 725,
+        "y": 0,
+        "width": 385,
+        "height": 430
+      },
+      "frames": [
+        {
+          "sample": 0,
+          "seconds": 0,
+          "sourceIndex": 0,
+          "sourceTime": 0,
+          "relativeTime": 0,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-fire-lion/frame-00.png",
+          "pngSHA256": "b9669aaf4cd3c5ccba391428fc4c641e3d0be76f0f8fd2bc8a89851c763ca35c"
+        },
+        {
+          "sample": 1,
+          "seconds": 0.25,
+          "sourceIndex": 6,
+          "sourceTime": 0.25,
+          "relativeTime": 0.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-fire-lion/frame-01.png",
+          "pngSHA256": "64792bdcfeaed33701e10f97d1acff9c8de160a3b332c5d972b13a0a30c584ad"
+        },
+        {
+          "sample": 2,
+          "seconds": 0.5,
+          "sourceIndex": 12,
+          "sourceTime": 0.5,
+          "relativeTime": 0.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-fire-lion/frame-02.png",
+          "pngSHA256": "1a96b4fef21f9f20bd9081e1fcaa31c543c69f328d5429e6f5c74f2d36307f68"
+        },
+        {
+          "sample": 3,
+          "seconds": 0.75,
+          "sourceIndex": 18,
+          "sourceTime": 0.75,
+          "relativeTime": 0.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-fire-lion/frame-03.png",
+          "pngSHA256": "16b096ca79dee3838afb445b316220656e45769de5e99d66e538c77ab52393ba"
+        },
+        {
+          "sample": 4,
+          "seconds": 1,
+          "sourceIndex": 24,
+          "sourceTime": 1,
+          "relativeTime": 1,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-fire-lion/frame-04.png",
+          "pngSHA256": "236330f668c3057428dba41ae57cc1a20ee1cba1a798b18c665b3c5e9206ca10"
+        },
+        {
+          "sample": 5,
+          "seconds": 1.25,
+          "sourceIndex": 30,
+          "sourceTime": 1.25,
+          "relativeTime": 1.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-fire-lion/frame-05.png",
+          "pngSHA256": "b81edc6bc2808bb9aefdeebbfe74ee9372b39a3c18d93f3e06bd5bbcbf63901d"
+        },
+        {
+          "sample": 6,
+          "seconds": 1.5,
+          "sourceIndex": 36,
+          "sourceTime": 1.5,
+          "relativeTime": 1.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-fire-lion/frame-06.png",
+          "pngSHA256": "74ab52d3a5e1a40eb927eb6fefcdde956084b7e910860f1f15bc8d60a0e7e727"
+        },
+        {
+          "sample": 7,
+          "seconds": 1.75,
+          "sourceIndex": 42,
+          "sourceTime": 1.75,
+          "relativeTime": 1.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-fire-lion/frame-07.png",
+          "pngSHA256": "fd3621dc6f5ede1e36669f2e467aaa8343047f79926e554a631e30cab1b0dc25"
+        },
+        {
+          "sample": 8,
+          "seconds": 2,
+          "sourceIndex": 48,
+          "sourceTime": 2,
+          "relativeTime": 2,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-fire-lion/frame-08.png",
+          "pngSHA256": "7843b47de115f7670a619227bd7dd5e984d25f96aa32b67a1d00e6e9e438c416"
+        },
+        {
+          "sample": 9,
+          "seconds": 2.25,
+          "sourceIndex": 54,
+          "sourceTime": 2.25,
+          "relativeTime": 2.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-fire-lion/frame-09.png",
+          "pngSHA256": "f5eae38c9df66c4dacc97ebf07113eed1878b181574b27472447a08ce2dcdfa7"
+        },
+        {
+          "sample": 10,
+          "seconds": 2.5,
+          "sourceIndex": 60,
+          "sourceTime": 2.5,
+          "relativeTime": 2.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-fire-lion/frame-10.png",
+          "pngSHA256": "29bdae7a158dab30f304c39a33c2c05e4c51066e1d3d5d8dcacde57102220d58"
+        },
+        {
+          "sample": 11,
+          "seconds": 2.75,
+          "sourceIndex": 66,
+          "sourceTime": 2.75,
+          "relativeTime": 2.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-fire-lion/frame-11.png",
+          "pngSHA256": "7c8535eaf5a404c4eb93c01c0bf0993ea4a57af9e4632b5271fa01fc06922a48"
+        },
+        {
+          "sample": 12,
+          "seconds": 3,
+          "sourceIndex": 72,
+          "sourceTime": 3,
+          "relativeTime": 3,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-fire-lion/frame-12.png",
+          "pngSHA256": "562690d92d16c88ce8b712860cdb8dd77b09bc0533b1f79b6a1c9a82e078fdd4"
+        },
+        {
+          "sample": 13,
+          "seconds": 3.25,
+          "sourceIndex": 78,
+          "sourceTime": 3.25,
+          "relativeTime": 3.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-fire-lion/frame-13.png",
+          "pngSHA256": "ed42d199b4b856991bb1546bbea13d56b75ef59570a2c3fa45fe33cc5c376182"
+        },
+        {
+          "sample": 14,
+          "seconds": 3.5,
+          "sourceIndex": 84,
+          "sourceTime": 3.5,
+          "relativeTime": 3.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-fire-lion/frame-14.png",
+          "pngSHA256": "dc7b6a0810078f817b0674e91c30b069dc88c03a994495ef018770a1d1704814"
+        },
+        {
+          "sample": 15,
+          "seconds": 3.75,
+          "sourceIndex": 90,
+          "sourceTime": 3.75,
+          "relativeTime": 3.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-fire-lion/frame-15.png",
+          "pngSHA256": "c4b6adf62928e058fb9c0b036f3bd461a0074f37a9e8959e4d5004a142524d25"
+        },
+        {
+          "sample": 16,
+          "seconds": 4,
+          "sourceIndex": 96,
+          "sourceTime": 4,
+          "relativeTime": 4,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-fire-lion/frame-16.png",
+          "pngSHA256": "c668f274951fbd31df750a70f61bcb99bc5ce30fb417f51bc1e78550c9cb0548"
+        },
+        {
+          "sample": 17,
+          "seconds": 4.25,
+          "sourceIndex": 102,
+          "sourceTime": 4.25,
+          "relativeTime": 4.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-fire-lion/frame-17.png",
+          "pngSHA256": "056ac3031a49c2f7e35bfa2b7f2a8dd8e6ff40bb96bd3844a0d08205db6c11a4"
+        },
+        {
+          "sample": 18,
+          "seconds": 4.5,
+          "sourceIndex": 108,
+          "sourceTime": 4.5,
+          "relativeTime": 4.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-fire-lion/frame-18.png",
+          "pngSHA256": "f472531d9f5fecd2635960ba8a37882cf2f623fdbd96019dab0bfcde5a0d86b2"
+        },
+        {
+          "sample": 19,
+          "seconds": 4.75,
+          "sourceIndex": 114,
+          "sourceTime": 4.75,
+          "relativeTime": 4.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-fire-lion/frame-19.png",
+          "pngSHA256": "8e9a4e5ec0ae4dde777a34291d48ce561294e24eb999d64f2bdcce6aead8b402"
+        },
+        {
+          "sample": 20,
+          "seconds": 5,
+          "sourceIndex": 120,
+          "sourceTime": 5,
+          "relativeTime": 5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-fire-lion/frame-20.png",
+          "pngSHA256": "59fe05bc07257ab59c4bc6865e55a3887a9c09efe29432fec1221bd7fcf71e83"
+        },
+        {
+          "sample": 21,
+          "seconds": 5.25,
+          "sourceIndex": 126,
+          "sourceTime": 5.25,
+          "relativeTime": 5.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-fire-lion/frame-21.png",
+          "pngSHA256": "11625c573a061a0fff7b6fdb548a30c7be162be3c505de904e7334602758eb9f"
+        },
+        {
+          "sample": 22,
+          "seconds": 5.5,
+          "sourceIndex": 132,
+          "sourceTime": 5.5,
+          "relativeTime": 5.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-fire-lion/frame-22.png",
+          "pngSHA256": "770499c086906586e4e67fd2531617c2c3ac5160449943f01a57524eda662004"
+        },
+        {
+          "sample": 23,
+          "seconds": 5.75,
+          "sourceIndex": 138,
+          "sourceTime": 5.75,
+          "relativeTime": 5.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-fire-lion/frame-23.png",
+          "pngSHA256": "eb7e5bc93af91d4b835a87e18849d5754d331f4fd2f8f9b7a7134778c11e01d2"
+        },
+        {
+          "sample": 24,
+          "seconds": 6,
+          "sourceIndex": 144,
+          "sourceTime": 6,
+          "relativeTime": 6,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-fire-lion/frame-24.png",
+          "pngSHA256": "08135299e84afe7e230afdf45fa6e0f2bdb41b75103fc3b0cd69a277c50bdd66"
+        },
+        {
+          "sample": 25,
+          "seconds": 6.25,
+          "sourceIndex": 150,
+          "sourceTime": 6.25,
+          "relativeTime": 6.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-fire-lion/frame-25.png",
+          "pngSHA256": "df6c41ebb8d24cc2eebfb200027f135bd55a5a0591c81791880562bc7a355365"
+        },
+        {
+          "sample": 26,
+          "seconds": 6.5,
+          "sourceIndex": 156,
+          "sourceTime": 6.5,
+          "relativeTime": 6.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-fire-lion/frame-26.png",
+          "pngSHA256": "eb0bf5f40864c5f65847f0f3ea0d39f3e9903052e6e431bc9c2107b5ff8aaf39"
+        },
+        {
+          "sample": 27,
+          "seconds": 6.75,
+          "sourceIndex": 162,
+          "sourceTime": 6.75,
+          "relativeTime": 6.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-fire-lion/frame-27.png",
+          "pngSHA256": "19712e575ed3d20161a2a2f5746ac0b5dca3fd85da157b7387b537349813f4c5"
+        },
+        {
+          "sample": 28,
+          "seconds": 7,
+          "sourceIndex": 168,
+          "sourceTime": 7,
+          "relativeTime": 7,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-fire-lion/frame-28.png",
+          "pngSHA256": "349c9336f435bdc0307d3e38881f2741d0e5480d2290db6a580f169ef28dc79b"
+        },
+        {
+          "sample": 29,
+          "seconds": 7.25,
+          "sourceIndex": 174,
+          "sourceTime": 7.25,
+          "relativeTime": 7.25,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-fire-lion/frame-29.png",
+          "pngSHA256": "cdc5880b021750651f598425d06919a48c95a980e55589344389948e9a309526"
+        },
+        {
+          "sample": 30,
+          "seconds": 7.5,
+          "sourceIndex": 180,
+          "sourceTime": 7.5,
+          "relativeTime": 7.5,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-fire-lion/frame-30.png",
+          "pngSHA256": "ee739d48b1d960b213132f633542ac6f2bad02e15ad2f752b748db32cc870bf4"
+        },
+        {
+          "sample": 31,
+          "seconds": 7.75,
+          "sourceIndex": 186,
+          "sourceTime": 7.75,
+          "relativeTime": 7.75,
+          "outputTime": 0,
+          "path": "docs/qa-v33/opening/abel-source/abel-fire-lion/frame-31.png",
+          "pngSHA256": "71d96222d879a150f0ccab5805380af0c50c2a9668239ba9caf209dec4fa5744"
+        }
+      ],
+      "nativePixels": true
+    }
+  ],
+  "extraction": "FFmpeg decoded original source indices, rgb24 PNG. Character crops are native rectangles without repainting/resizing; only contact thumbnails are resized.",
+  "visualReview": "approved-sampled-window",
+  "commands": [
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffprobe.exe",
+      "args": [
+        "-v",
+        "error",
+        "-count_frames",
+        "-show_streams",
+        "-show_format",
+        "-of",
+        "json",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v33\\opening\\clips\\11-abel.mp4"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffprobe.exe",
+      "args": [
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_frames",
+        "-show_entries",
+        "frame=best_effort_timestamp_time",
+        "-of",
+        "json",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v33\\opening\\clips\\11-abel.mp4"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v33\\opening\\clips\\11-abel.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-vf",
+        "select='eq(n,0)+eq(n,12)+eq(n,24)+eq(n,36)+eq(n,48)+eq(n,60)+eq(n,72)+eq(n,84)+eq(n,96)+eq(n,108)+eq(n,120)+eq(n,132)+eq(n,144)+eq(n,156)+eq(n,168)+eq(n,180)',format=rgb24",
+        "-fps_mode",
+        "passthrough",
+        "-frames:v",
+        "16",
+        "-start_number",
+        "0",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\abel-source\\full\\frame-%02d.png"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "0",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\abel-source\\full\\frame-%02d.png",
+        "-vf",
+        "scale=320:180,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\abel-source\\full-contact.jpg"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v33\\opening\\clips\\11-abel.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-vf",
+        "select='eq(n,0)+eq(n,6)+eq(n,12)+eq(n,18)+eq(n,24)+eq(n,30)+eq(n,36)+eq(n,42)+eq(n,48)+eq(n,54)+eq(n,60)+eq(n,66)+eq(n,72)+eq(n,78)+eq(n,84)+eq(n,90)+eq(n,96)+eq(n,102)+eq(n,108)+eq(n,114)+eq(n,120)+eq(n,126)+eq(n,132)+eq(n,138)+eq(n,144)+eq(n,150)+eq(n,156)+eq(n,162)+eq(n,168)+eq(n,174)+eq(n,180)+eq(n,186)',format=rgb24,crop=165:205:325:125",
+        "-fps_mode",
+        "passthrough",
+        "-frames:v",
+        "32",
+        "-start_number",
+        "0",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\abel-source\\abel-staff-hand\\frame-%02d.png"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "0",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\abel-source\\abel-staff-hand\\frame-%02d.png",
+        "-vf",
+        "scale=320:398,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\abel-source\\abel-staff-hand-contact-1.jpg"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "16",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\abel-source\\abel-staff-hand\\frame-%02d.png",
+        "-vf",
+        "scale=320:398,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\abel-source\\abel-staff-hand-contact-2.jpg"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v33\\opening\\clips\\11-abel.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-vf",
+        "select='eq(n,0)+eq(n,6)+eq(n,12)+eq(n,18)+eq(n,24)+eq(n,30)+eq(n,36)+eq(n,42)+eq(n,48)+eq(n,54)+eq(n,60)+eq(n,66)+eq(n,72)+eq(n,78)+eq(n,84)+eq(n,90)+eq(n,96)+eq(n,102)+eq(n,108)+eq(n,114)+eq(n,120)+eq(n,126)+eq(n,132)+eq(n,138)+eq(n,144)+eq(n,150)+eq(n,156)+eq(n,162)+eq(n,168)+eq(n,174)+eq(n,180)+eq(n,186)',format=rgb24,crop=220:200:600:140",
+        "-fps_mode",
+        "passthrough",
+        "-frames:v",
+        "32",
+        "-start_number",
+        "0",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\abel-source\\abel-free-hand\\frame-%02d.png"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "0",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\abel-source\\abel-free-hand\\frame-%02d.png",
+        "-vf",
+        "scale=320:291,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\abel-source\\abel-free-hand-contact-1.jpg"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "16",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\abel-source\\abel-free-hand\\frame-%02d.png",
+        "-vf",
+        "scale=320:291,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\abel-source\\abel-free-hand-contact-2.jpg"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v33\\opening\\clips\\11-abel.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-vf",
+        "select='eq(n,0)+eq(n,6)+eq(n,12)+eq(n,18)+eq(n,24)+eq(n,30)+eq(n,36)+eq(n,42)+eq(n,48)+eq(n,54)+eq(n,60)+eq(n,66)+eq(n,72)+eq(n,78)+eq(n,84)+eq(n,90)+eq(n,96)+eq(n,102)+eq(n,108)+eq(n,114)+eq(n,120)+eq(n,126)+eq(n,132)+eq(n,138)+eq(n,144)+eq(n,150)+eq(n,156)+eq(n,162)+eq(n,168)+eq(n,174)+eq(n,180)+eq(n,186)',format=rgb24,crop=385:430:725:0",
+        "-fps_mode",
+        "passthrough",
+        "-frames:v",
+        "32",
+        "-start_number",
+        "0",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\abel-source\\abel-fire-lion\\frame-%02d.png"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "0",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\abel-source\\abel-fire-lion\\frame-%02d.png",
+        "-vf",
+        "scale=320:357,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\abel-source\\abel-fire-lion-contact-1.jpg"
+      ]
+    },
+    {
+      "executable": ".agents/v33-ffmpeg/package-9.0.2/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-nostdin",
+        "-y",
+        "-framerate",
+        "1",
+        "-start_number",
+        "16",
+        "-i",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\abel-source\\abel-fire-lion\\frame-%02d.png",
+        "-vf",
+        "scale=320:357,tile=4x4:padding=8:margin=8",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\docs\\qa-v33\\opening\\abel-source\\abel-fire-lion-contact-2.jpg"
+      ]
+    }
+  ],
+  "rootReview": "A raiz revisou e aprovou as contact sheets completas/janelas selecionadas; montagem autorizada após QA dos crops.",
+  "approvedWindows": [
+    {
+      "sourceIndices": [
+        0,
+        119
+      ],
+      "startSeconds": 0,
+      "frames": 120
+    }
+  ]
+}

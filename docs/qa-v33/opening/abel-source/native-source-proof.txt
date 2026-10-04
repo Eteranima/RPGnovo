@@ -1,0 +1,1 @@
+PASS docs/qa-v33/opening/abel-source: source hash/bytes, 16 native full PNGs, 96 native crops, 48 matching frames/3,894,000 identical crop pixels; no images written.

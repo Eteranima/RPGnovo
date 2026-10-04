@@ -1,0 +1,4 @@
+[
+  { "id": "ava-arms", "character": "Ava — braços e mãos", "crop": { "x": 370, "y": 115, "width": 405, "height": 290 } },
+  { "id": "ava-feet", "character": "Ava — pernas, pés e Terra", "crop": { "x": 235, "y": 470, "width": 505, "height": 245 } }
+]
