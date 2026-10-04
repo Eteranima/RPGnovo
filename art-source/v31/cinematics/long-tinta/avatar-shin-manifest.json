@@ -1,0 +1,13 @@
+{
+  "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-b2753c97-4829-4bd6-9598-9d58cc3c09fb.png",
+  "sourceSha256": "923fa3ea7c26631e566aff318ba592538f8fa6f53a7dc1e5e51baecdbf1df53d",
+  "runtime": "public/assets/v31/cinematics/long-tinta/avatar-shin.png",
+  "crop": {
+    "left": 941,
+    "top": 477,
+    "width": 307,
+    "height": 227
+  },
+  "allRgbaBytesPreserved": true,
+  "runtimeSha256": "4242e9738776242c19794b54abdd1aa8dc96a1435d7863925e13c5cb52855820"
+}

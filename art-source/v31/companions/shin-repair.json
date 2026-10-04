@@ -1,0 +1,7 @@
+{
+  "transparent_background": true,
+  "referenced_image_paths": [
+    "C:/Users/Diego/OneDrive/Documentos/GitHub/RPGnovo/art-source/v31/companions/shin-source.png"
+  ],
+  "prompt": "Use case: precise-object-edit. Edit target: Shin companion fullbody transparent PNG. Preserve the exact canonical character identity, white iridescent rainbow hair, blue eyes, white-black-gold ink kimono, brush, face, two hands and two boots, chibi proportions and same pose. Change ONLY framing/containment: pull camera back and center the complete character, so ALL flowing hair tips, the entire brush tip on the left, both sleeve edges, both boots and tassels are enclosed by at least8% clean transparent margin on ALL four edges. No part touches canvas. Do not clip the brush or hair. Maintain clean anime cel shading, correct fingers and two legs. Remove any background matte to actual RGBA alpha0 transparency (not drawn checkerboard). No text, no other character, no props beyond his brush."
+}

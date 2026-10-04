@@ -1,4 +1,7 @@
 import {ENEMY_ASSETS_V30} from './enemyArtV30';
+import {QUEST_WORLD_ASSETS_V31} from './questArtV31';
+import {EXPLORATION_ASSETS_V31} from './explorationArtV31';
+import {ABEL_NPC_V31} from './abelNpcV31';
 import {REMAKE_ASSETS} from './remakeArt';
 import {ORFEU_ASSETS_V30} from './orfeuArtV30';
 import {EXPANSION_MAPS_V30,EXPANSION_GATEWAYS_V30,ENEMY_ULTIMATES_V30,EXPANSION_BATTLE_BACKGROUNDS_V30} from './expansionV30';
@@ -129,6 +132,7 @@ export const OBJECTIVES = [
 ];
 export const HERO_IDS=['seiji','ophelia','marin','gabriel','max'] as const;
 export type BaseHeroId=typeof HERO_IDS[number];
+export const STARTING_HERO_IDS:readonly BaseHeroId[]=['seiji','marin','gabriel','ophelia','max'];
 export type HeroId=BaseHeroId|'beatriz'|'orfeu'|'ava'|'carmilla';
 export const PLAYABLE_HERO_IDS:readonly HeroId[]=[...HERO_IDS,'beatriz','orfeu','ava','carmilla'];
 export type CombatElement='ink'|'ice'|'dark'|'fire'|'lightning'|'water'|'water-dark'|'neutral'|'earth'|'blood';
@@ -204,6 +208,7 @@ export const ORIGINS:Record<HeroId,{title:string;map:MapId;position:Point;lore:s
 };
 MAPS.arquivo.entities.push({id:'seiji',label:'Seiji · Escriba da Tinta',kind:'npc',x:8,y:12,asset:'seiji'});
 MAPS.domo.entities.push({id:'ophelia',label:'Ophelia · Guardiã do Inverno',kind:'npc',x:8,y:11,asset:'ophelia'});
+MAPS.ashpyre.entities.push(ABEL_NPC_V31);
 
 for(const hero of HERO_IDS)ASSETS[`battle_${hero}_ultimate`]=`/assets/characters/${hero}-ultimate-v17.webp`;
 
@@ -251,3 +256,7 @@ Object.assign(ASSETS,REMAKE_ASSETS);
 Object.assign(ASSETS,ORFEU_ASSETS_V30);
 
 Object.assign(ASSETS,ENEMY_ASSETS_V30);
+
+Object.assign(ASSETS,QUEST_WORLD_ASSETS_V31);
+
+Object.assign(ASSETS,EXPLORATION_ASSETS_V31);

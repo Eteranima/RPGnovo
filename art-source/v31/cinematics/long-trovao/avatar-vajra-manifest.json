@@ -1,0 +1,13 @@
+{
+  "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-c3e9503b-7b0c-42b1-8057-90eff3f0f9d1.png",
+  "sourceSha256": "ede7366800ffcfd75b6de751139b099fe76584f552950b9bd2ce9306cc876d1c",
+  "runtime": "public/assets/v31/cinematics/long-trovao/avatar-vajra.png",
+  "crop": {
+    "left": 1316,
+    "top": 252,
+    "width": 261,
+    "height": 211
+  },
+  "allRgbaBytesPreserved": true,
+  "runtimeSha256": "d9802623036bad27035a995e1cc705093e7b69791f64c0dc55ebc3e36478d08d"
+}

@@ -1,0 +1,13 @@
+{
+  "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-2ce7e2c3-092b-4b5f-97c3-fe4788611a84.png",
+  "sourceSha256": "7454ab73346ee156da89af1f677073b302fe63242b125abae1a9cf6506894a1c",
+  "runtime": "public/assets/v31/cinematics/long-geada/avatar-mika.png",
+  "crop": {
+    "left": 47,
+    "top": 714,
+    "width": 291,
+    "height": 217
+  },
+  "allRgbaBytesPreserved": true,
+  "runtimeSha256": "dad4be14a57dc6aaf631ef52cd8c6fdb16607698c9b9ed4091f50f5825f63562"
+}

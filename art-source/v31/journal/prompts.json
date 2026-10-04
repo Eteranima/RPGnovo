@@ -1,0 +1,12 @@
+{
+  "tool": "built-in imagegen",
+  "reference": "public/assets/v30/ui/menu-library.png",
+  "brief": "Four final fantasy anime quest emblems for Éter Anima, matching the approved navy, antique gold, crystal and engraved book UI. Native transparent RGBA, four isolated icons in an equal 2×2 grid, no letters or raster text. Tutorial: open book and blue guiding star. Short: sealed letter and silver quill. Medium: violet astrolabe. Long: gold crystal, quill, open book and laurel. High detail, readable silhouettes, no neighboring overlap, complete ornament silhouettes.",
+  "initialSource": "quest-emblems-rejected-tight.png",
+  "initialGeneratedFile": "exec-35dad1b1-2336-44b5-b929-972bf74baf32.png",
+  "rejection": "44 visible pixels reached a source-cell edge; tutorial ornament invaded the center gutter.",
+  "repairBrief": "Preserve the four existing emblem designs and their quality. Add approximately 15 percent clear safety margin within each equal cell and a fully transparent central gutter. Show each ornament whole without clipping. Maintain native transparency, no text, no redesign or scaling performed afterward by code.",
+  "approvedSource": "quest-emblems-source.png",
+  "approvedGeneratedFile": "exec-55e99f14-0052-4255-ae51-f0ce199b86bf.png",
+  "export": "export-native.mjs performs only measured native crops. manifest.json records source hashes, cell bounds, border visibility and exact RGBA preservation."
+}

@@ -1,0 +1,3 @@
+2026-10-04 — TypeScript v31
+pnpm exec tsc --noEmit --incremental false
+Saída vazia; código de saída 0. Verificação feita após integrar a rota final de Abel e o consumidor no WorldRenderer.

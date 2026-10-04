@@ -2,6 +2,8 @@ import { ASSETS, MAPS, OBJECTIVES, ELEMENT_COLORS, type Entity, type MapData, ty
 import { GameEngine } from './engine';
 import {CUTSCENES} from './progression';
 import {SPRITE_FRAMES} from './sprites';
+import {explorationWalkFrame} from './explorationArtV31';
+import {abelPatrolV31} from './abelNpcV31';
 import {cosmeticOf} from './cosmetics';
 import {drawAura} from './aura';
 import {ENVIRONMENT_ASSETS,ENVIRONMENT_THEMES,ENVIRONMENT_CROPS,environmentScenery,environmentObject,paintEnvironmentTile,paintEnvironmentEdges,blendEnvironmentSeams} from './environment';
@@ -38,17 +40,17 @@ export class WorldRenderer{
   if(atlas!==undefined){const crop=SPRITE_FRAMES[sheet]?.[atlas];if(crop){this.ctx.drawImage(img,crop.x,crop.y,crop.w,crop.h,x-(crop.anchorX-crop.x)*w/512,y-(crop.anchorY-crop.y)*h/512,crop.w*w/512,crop.h*h/512);}else{const sw=img.width/3,sh=img.height/2;this.ctx.drawImage(img,(atlas%3)*sw,Math.floor(atlas/3)*sh,sw,sh,x-w/2,y-h,w,h);}}else this.ctx.drawImage(img,x-w/2,y-h,w,h);
  }
  glow(x:number,y:number,r:number,color:string){const c=this.ctx,g=c.createRadialGradient(x,y,0,x,y,r);g.addColorStop(0,color);g.addColorStop(1,'transparent');c.fillStyle=g;c.fillRect(x-r,y-r,r*2,r*2);}
- actor(key:string,x:number,y:number,facing:number,moving=false){const c=this.ctx,img=this.images[key];if(!img)return;const fw=img.width/3,fh=img.height/4,step=Math.floor(this.frame/155)%4;const directions=[[0,1,2,1],[5,8,5,8],[3,4,6,7],[9,10,11,10]],standard=ASSETS[key]?.startsWith('/assets/v29/')||!['seiji','ophelia'].includes(key);const cell=standard?facing*3+(moving?[0,1,2,1][step]:1):directions[facing][moving?step:1];const h=107,w=h*(fw/fh);
+ actor(key:string,x:number,y:number,facing:number,moving=false){const c=this.ctx,walk=explorationWalkFrame(key,facing,this.frame,moving),sheet=walk?.key||key,img=this.images[sheet];if(!img)return;const fw=img.width/3,fh=img.height/4,step=Math.floor(this.frame/155)%4;const directions=[[0,1,2,1],[5,8,5,8],[3,4,6,7],[9,10,11,10]],standard=ASSETS[key]?.startsWith('/assets/v29/')||!['seiji','ophelia'].includes(key);const cell=walk?.index??(standard?facing*3+(moving?[0,1,2,1][step]:1):directions[facing][moving?step:1]);const h=107,w=h*(fw/fh);
   c.save();c.fillStyle='rgba(2,8,14,.4)';c.beginPath();c.ellipse(x,y+2,18,6,0,0,Math.PI*2);c.fill();
-  const bob=moving?Math.sin(this.frame/75)*1:Math.sin(this.frame/600)*.7,crop=SPRITE_FRAMES[key]?.[cell];if(crop){const scale=h/Math.max(1,crop.anchorY-crop.y);c.drawImage(img,crop.x,crop.y,crop.w,crop.h,x-(crop.anchorX-crop.x)*scale,y-(crop.anchorY-crop.y)*scale+bob,crop.w*scale,crop.h*scale);}else c.drawImage(img,(cell%3)*fw,Math.floor(cell/3)*fh,fw,fh,x-w/2,y-h+bob,w,h);c.restore();
+  const bob=moving?Math.sin(this.frame/75)*1:Math.sin(this.frame/600)*.7,crop=walk?.crop||SPRITE_FRAMES[sheet]?.[cell];if(crop){const scale=h/Math.max(1,crop.anchorY-crop.y);c.drawImage(img,crop.x,crop.y,crop.w,crop.h,x-(crop.anchorX-crop.x)*scale,y-(crop.anchorY-crop.y)*scale+bob,crop.w*scale,crop.h*scale);}else c.drawImage(img,(cell%3)*fw,Math.floor(cell/3)*fh,fw,fh,x-w/2,y-h+bob,w,h);c.restore();
  }
- marker(e:Entity){if(this.engine.state.mode==='battle')return;const c=this.ctx,x=e.x*T,y=e.y*T;const active=OBJECTIVES[this.engine.state.stage].target===e.id;
+ marker(e:Entity){if(this.engine.state.mode==='battle'||e.id.startsWith('v31:'))return;const c=this.ctx,x=e.x*T,y=e.y*T;const active=OBJECTIVES[this.engine.state.stage].target===e.id;
   if(e.kind==='warp'){const locked=!!e.minStage&&this.engine.state.stage<e.minStage,img=this.images.env_exits,index={patio:0,arquivo:3,porto:2,domo:6,subsolo:4,camara:5,galeria:5,ashwood:1,ashpyre:7,vigilia:1,'jardim-lunar':6,observatorio:3}[e.to||'patio'],crop=ENVIRONMENT_CROPS.exits[index];c.save();this.glow(x,y-32,85,locked?'#9b80b322':'#ffe4a445');c.globalAlpha=locked?.55:1;if(img&&crop){const scale=115/crop.h;c.drawImage(img,crop.x,crop.y,crop.w,crop.h,x-(crop.anchorX-crop.x)*scale,y-(crop.anchorY-crop.y)*scale,crop.w*scale,crop.h*scale);}c.restore();}
 
   if(active||['chest','book','rune','sign','event'].includes(e.kind)){const off=e.kind==='npc'?100:e.kind==='boss'?130:e.kind==='book'?95:e.kind==='rune'?115:55;const y2=y-off+Math.sin(this.frame/450)*3;c.save();c.font='bold 24px Georgia';c.textAlign='center';c.shadowColor='#0c1b24';c.shadowBlur=8;c.fillStyle=active?'#edce91':e.kind==='event'?'#d3b3f5':'#b8e0df';c.fillText(active?'◆':e.kind==='book'||e.kind==='event'?'✧':e.kind==='chest'?'◇':'⋄',x,y2);c.restore();}
  }
  entity(e:Entity){const c=this.ctx,x=e.x*T,y=e.y*T;
-  if(e.kind==='npc')this.actor(e.asset!,x,y,e.id==='max'?2:0,false);
+  if(e.kind==='npc'){const patrol=e.asset==='abel'?abelPatrolV31(this.engine.patrolTime):null,facing=patrol?.facing??(e.id==='max'?2:0),walking=!!patrol?.moving&&this.engine.state.mode==='world'&&!this.engine.paused;this.actor(e.asset!,x,y,facing,walking);}
   if(e.kind==='mob'||e.kind==='boss'){this.glow(x,y-18,e.kind==='boss'?100:50,'rgba(162,64,215,.2)');const h=e.kind==='boss'?150:90;if(['ashwolf','moth','cinder','lunastag','runewarden','astral'].includes(e.asset!)){const img=this.images[e.asset!],crop=SPRITE_FRAMES[e.asset!]?.[0]||SPRITE_FRAMES[`battle_${e.asset}_attack`]?.[0];if(img&&crop){const scale=Math.min(h/(crop.anchorY-crop.y),h*1.5/crop.w);c.drawImage(img,crop.x,crop.y,crop.w,crop.h,x-(crop.anchorX-crop.x)*scale,y-(crop.anchorY-crop.y)*scale,crop.w*scale,crop.h*scale);}}else this.image(e.asset!,x,y+Math.sin(this.frame/550)*4,h*.85,h);}
   if(e.kind==='chest'){c.globalAlpha=this.engine.state.opened.includes(e.id)?.45:1;this.image('dungeon',x,y,75,75,1,'dungeon');c.globalAlpha=1;}
   if(e.kind==='shop')this.image('dungeon',x,y,100,100,0,'dungeon');
@@ -56,7 +58,7 @@ export class WorldRenderer{
   if(e.kind==='rune'){this.glow(x,y-48,90,'rgba(101,187,214,.16)');this.image('dungeon',x,y,134,134,2,'dungeon');}
   if(e.kind==='event'){this.glow(x,y-18,58,'#b692e644');c.save();c.strokeStyle='#ceb2ee';c.lineWidth=2;c.beginPath();c.ellipse(x,y,22+Math.sin(this.frame/650)*3,9,0,0,Math.PI*2);c.stroke();c.restore();}
   if(e.kind==='rune'||e.kind==='boss'){c.save();c.strokeStyle='#937eba';c.lineWidth=2;for(const r of [28,34]){c.beginPath();c.ellipse(x,y,r,r*.45,0,0,Math.PI*2);c.stroke();}c.restore();}
-  if(e.kind==='sign'){const img=this.images.env_signboards,crop=ENVIRONMENT_CROPS.signboards[Object.values(MAPS).flatMap(m=>m.entities).filter(v=>v.kind==='sign').findIndex(v=>v.id===e.id)%12];if(img&&crop){const scale=90/crop.h;c.drawImage(img,crop.x,crop.y,crop.w,crop.h,x-(crop.anchorX-crop.x)*scale,y-(crop.anchorY-crop.y)*scale,crop.w*scale,crop.h*scale);}}
+  if(e.kind==='sign'){if(e.id.startsWith('v31:')&&e.asset?.startsWith('quest_')){const img=this.images[e.asset];if(img){const h=67,w=h*img.width/img.height;this.glow(x,y-28,65,'#efcc8444');c.drawImage(img,x-w/2,y-h+Math.sin(this.frame/650)*2,w,h);}}else{const img=this.images.env_signboards,crop=ENVIRONMENT_CROPS.signboards[Object.values(MAPS).flatMap(m=>m.entities).filter(v=>v.kind==='sign').findIndex(v=>v.id===e.id)%12];if(img&&crop){const scale=90/crop.h;c.drawImage(img,crop.x,crop.y,crop.w,crop.h,x-(crop.anchorX-crop.x)*scale,y-(crop.anchorY-crop.y)*scale,crop.w*scale,crop.h*scale);}}}
   this.marker(e);
  }
  draw=()=>{this.raf=requestAnimationFrame(this.draw);const time=performance.now(),dt=Math.min((time-this.frame)/1000,.25);this.frame=time;this.engine.update(dt);

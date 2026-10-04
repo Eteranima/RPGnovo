@@ -1,0 +1,13 @@
+{
+  "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-da7a4cbc-f937-4243-bb2b-8deb432f0317.png",
+  "sourceSha256": "59d3e5f0b38840f3afd7ecd65cb7491a808f7f7039db233237d7b379f0c2565b",
+  "runtime": "public/assets/v31/cinematics/long-brasa/avatar-dante.png",
+  "crop": {
+    "left": 1310,
+    "top": 245,
+    "width": 279,
+    "height": 218
+  },
+  "allRgbaBytesPreserved": true,
+  "runtimeSha256": "96b0c1a8f79bf669fea42b1025a50309c7905978f963cb7d103e6260214e4730"
+}

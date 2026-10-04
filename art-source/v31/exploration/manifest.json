@@ -1,0 +1,1492 @@
+{
+  "tool": "built-in image_gen",
+  "processing": "Whole native PNG byte copy; alpha measurement only; no repaint, resizing or mirroring.",
+  "order": [
+    "south",
+    "west",
+    "east",
+    "north"
+  ],
+  "framesPerDirection": 8,
+  "totalFrames": 64,
+  "anchorMethod": "Manual torso axis; measured lowest boot baseline minus2 native pixels.",
+  "checks": 360,
+  "sheets": [
+    {
+      "hero": "abel",
+      "direction": "south",
+      "source": "abel-south-source.png",
+      "runtime": "/assets/v31/exploration/abel-south-walk.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha0Percent": 48.78,
+      "sourceSha256": "b5cb8a6d890e63b1e02b7d8beb91b21f8166158b64e173f70592df7dd02be289",
+      "runtimeSha256": "b5cb8a6d890e63b1e02b7d8beb91b21f8166158b64e173f70592df7dd02be289",
+      "frames": [
+        {
+          "index": 0,
+          "body": {
+            "x": 44,
+            "y": 13,
+            "w": 341,
+            "h": 490,
+            "pixels": 87809
+          },
+          "crop": {
+            "x": 40,
+            "y": 9,
+            "w": 349,
+            "h": 498,
+            "anchorX": 210,
+            "anchorY": 501
+          },
+          "alpha0": 73115,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "1675dc40f12043ed77d4e96621a5ce3830d713071b32a6ddc1763fa01c8fd64e"
+        },
+        {
+          "index": 1,
+          "body": {
+            "x": 418,
+            "y": 25,
+            "w": 341,
+            "h": 475,
+            "pixels": 87411
+          },
+          "crop": {
+            "x": 414,
+            "y": 21,
+            "w": 349,
+            "h": 483,
+            "anchorX": 582,
+            "anchorY": 498
+          },
+          "alpha0": 67922,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "fe6470a97998445c351bc0fc32d4fd80d1109f55511be59d037d2fda11fae283"
+        },
+        {
+          "index": 2,
+          "body": {
+            "x": 784,
+            "y": 17,
+            "w": 339,
+            "h": 481,
+            "pixels": 85330
+          },
+          "crop": {
+            "x": 780,
+            "y": 13,
+            "w": 347,
+            "h": 489,
+            "anchorX": 953,
+            "anchorY": 496
+          },
+          "alpha0": 70318,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "38c9c11f0458a184000d18b3dbc48425e28df901ee02dc3b2fbf0eb4a26918a4"
+        },
+        {
+          "index": 3,
+          "body": {
+            "x": 1153,
+            "y": 7,
+            "w": 341,
+            "h": 491,
+            "pixels": 87600
+          },
+          "crop": {
+            "x": 1149,
+            "y": 3,
+            "w": 349,
+            "h": 499,
+            "anchorX": 1330,
+            "anchorY": 496
+          },
+          "alpha0": 72040,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "593f0c3c56b87a66cb17bda686492c84dc272baa44947294ebaf4457c94ef534"
+        },
+        {
+          "index": 4,
+          "body": {
+            "x": 35,
+            "y": 520,
+            "w": 352,
+            "h": 485,
+            "pixels": 90238
+          },
+          "crop": {
+            "x": 31,
+            "y": 516,
+            "w": 360,
+            "h": 493,
+            "anchorX": 201,
+            "anchorY": 1003
+          },
+          "alpha0": 72293,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "df1b9eec735c05799e708e21981595cf36f8bc7b489ce42a5a814eebf7650f04"
+        },
+        {
+          "index": 5,
+          "body": {
+            "x": 413,
+            "y": 535,
+            "w": 346,
+            "h": 464,
+            "pixels": 83727
+          },
+          "crop": {
+            "x": 409,
+            "y": 531,
+            "w": 354,
+            "h": 472,
+            "anchorX": 582,
+            "anchorY": 997
+          },
+          "alpha0": 69560,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "abb4c36239cedb8cacc4c834515a23d6b917316fb74c91da27c063b311b7bcde"
+        },
+        {
+          "index": 6,
+          "body": {
+            "x": 782,
+            "y": 532,
+            "w": 343,
+            "h": 471,
+            "pixels": 83082
+          },
+          "crop": {
+            "x": 778,
+            "y": 528,
+            "w": 351,
+            "h": 479,
+            "anchorX": 950,
+            "anchorY": 1001
+          },
+          "alpha0": 70490,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "4c851c5b7d97e7afc60fb3334714b47ce3d628d3345da4694326c2dc7ae05455"
+        },
+        {
+          "index": 7,
+          "body": {
+            "x": 1154,
+            "y": 518,
+            "w": 341,
+            "h": 487,
+            "pixels": 86570
+          },
+          "crop": {
+            "x": 1150,
+            "y": 514,
+            "w": 349,
+            "h": 495,
+            "anchorX": 1331,
+            "anchorY": 1003
+          },
+          "alpha0": 71544,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "578f571a875bd80020b8a98baa7322bc5cee4578ff52fc6ac2c5c4bb8b967b1a"
+        }
+      ]
+    },
+    {
+      "hero": "abel",
+      "direction": "west",
+      "source": "abel-west-source.png",
+      "runtime": "/assets/v31/exploration/abel-west-walk.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha0Percent": 68.87,
+      "sourceSha256": "20080dc18060a3a2f66020ac025cad26c759aca64fd0b35e1fc5bf1146663fa1",
+      "runtimeSha256": "20080dc18060a3a2f66020ac025cad26c759aca64fd0b35e1fc5bf1146663fa1",
+      "frames": [
+        {
+          "index": 0,
+          "body": {
+            "x": 48,
+            "y": 82,
+            "w": 317,
+            "h": 376,
+            "pixels": 52168
+          },
+          "crop": {
+            "x": 44,
+            "y": 78,
+            "w": 325,
+            "h": 384,
+            "anchorX": 168,
+            "anchorY": 456
+          },
+          "alpha0": 60215,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "4838d043ef9ac9607321818f0b85bef24e8c8a0a21c5d6b43f0805a5910296dc"
+        },
+        {
+          "index": 1,
+          "body": {
+            "x": 452,
+            "y": 83,
+            "w": 296,
+            "h": 375,
+            "pixels": 48622
+          },
+          "crop": {
+            "x": 448,
+            "y": 79,
+            "w": 304,
+            "h": 383,
+            "anchorX": 550,
+            "anchorY": 456
+          },
+          "alpha0": 56821,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "f6492ad2611c84551f5507099732f3b405255f83ca5a498b1311e30905e7d6e0"
+        },
+        {
+          "index": 2,
+          "body": {
+            "x": 832,
+            "y": 83,
+            "w": 285,
+            "h": 381,
+            "pixels": 48432
+          },
+          "crop": {
+            "x": 828,
+            "y": 79,
+            "w": 293,
+            "h": 389,
+            "anchorX": 935,
+            "anchorY": 462
+          },
+          "alpha0": 54302,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "a93445c27afeabff11f4a1c15e9cb6e9550f9f8634d879d21ce83b6198c25c67"
+        },
+        {
+          "index": 3,
+          "body": {
+            "x": 1215,
+            "y": 83,
+            "w": 295,
+            "h": 377,
+            "pixels": 49986
+          },
+          "crop": {
+            "x": 1211,
+            "y": 79,
+            "w": 303,
+            "h": 385,
+            "anchorX": 1324,
+            "anchorY": 458
+          },
+          "alpha0": 56177,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "dfe16d64497b1f0ab42fb2ac14aef7dd1034cf27112515a950d8380b26725158"
+        },
+        {
+          "index": 4,
+          "body": {
+            "x": 41,
+            "y": 574,
+            "w": 328,
+            "h": 363,
+            "pixels": 52235
+          },
+          "crop": {
+            "x": 37,
+            "y": 570,
+            "w": 336,
+            "h": 371,
+            "anchorX": 168,
+            "anchorY": 935
+          },
+          "alpha0": 57720,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "2f1839572d6e67e85a4fd404dc5f99087574ae4b66c4ffd57b1fa53280f15048"
+        },
+        {
+          "index": 5,
+          "body": {
+            "x": 451,
+            "y": 574,
+            "w": 299,
+            "h": 366,
+            "pixels": 49269
+          },
+          "crop": {
+            "x": 447,
+            "y": 570,
+            "w": 307,
+            "h": 374,
+            "anchorX": 550,
+            "anchorY": 938
+          },
+          "alpha0": 55317,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "0a6a60c713181cfed2989359113ba7ac4bf1e4f59278d7461adf28686670e24c"
+        },
+        {
+          "index": 6,
+          "body": {
+            "x": 835,
+            "y": 574,
+            "w": 300,
+            "h": 368,
+            "pixels": 46866
+          },
+          "crop": {
+            "x": 831,
+            "y": 570,
+            "w": 308,
+            "h": 376,
+            "anchorX": 935,
+            "anchorY": 940
+          },
+          "alpha0": 58168,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "fc93df736065a8c4ec4f0c93afd6f123a22506ad2f5df377d6d7eba90bad1ec2"
+        },
+        {
+          "index": 7,
+          "body": {
+            "x": 1213,
+            "y": 569,
+            "w": 287,
+            "h": 373,
+            "pixels": 47264
+          },
+          "crop": {
+            "x": 1209,
+            "y": 565,
+            "w": 295,
+            "h": 381,
+            "anchorX": 1326,
+            "anchorY": 940
+          },
+          "alpha0": 53671,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "975125e48c77475d51dc6975889e369d4b2d34e7840d06148f0243917ff25ec8"
+        }
+      ]
+    },
+    {
+      "hero": "abel",
+      "direction": "east",
+      "source": "abel-east-source.png",
+      "runtime": "/assets/v31/exploration/abel-east-walk.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha0Percent": 67.35,
+      "sourceSha256": "2e98daf9a28966ebb55ca216c328297ba94b49105348729b939d69d648188a98",
+      "runtimeSha256": "2e98daf9a28966ebb55ca216c328297ba94b49105348729b939d69d648188a98",
+      "frames": [
+        {
+          "index": 0,
+          "body": {
+            "x": 48,
+            "y": 89,
+            "w": 295,
+            "h": 376,
+            "pixels": 52293
+          },
+          "crop": {
+            "x": 44,
+            "y": 85,
+            "w": 303,
+            "h": 384,
+            "anchorX": 225,
+            "anchorY": 463
+          },
+          "alpha0": 52490,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "3bfecaeeee04497922cdfb83f4816229e710cd2ee0d31d2f0ddd5ddd9b544f9e"
+        },
+        {
+          "index": 1,
+          "body": {
+            "x": 428,
+            "y": 94,
+            "w": 271,
+            "h": 374,
+            "pixels": 52404
+          },
+          "crop": {
+            "x": 424,
+            "y": 90,
+            "w": 279,
+            "h": 382,
+            "anchorX": 615,
+            "anchorY": 466
+          },
+          "alpha0": 43022,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "757427f0620c5078b034790898e0ee24a0da8eacb5d1362c3f7061f3de276767"
+        },
+        {
+          "index": 2,
+          "body": {
+            "x": 809,
+            "y": 89,
+            "w": 281,
+            "h": 378,
+            "pixels": 52170
+          },
+          "crop": {
+            "x": 805,
+            "y": 85,
+            "w": 289,
+            "h": 386,
+            "anchorX": 999,
+            "anchorY": 465
+          },
+          "alpha0": 48135,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "bc00c7f8ce333e70d2c340485e4e2e989c2234a9e922c3301e723404fa4051f7"
+        },
+        {
+          "index": 3,
+          "body": {
+            "x": 1199,
+            "y": 89,
+            "w": 267,
+            "h": 378,
+            "pixels": 51700
+          },
+          "crop": {
+            "x": 1195,
+            "y": 85,
+            "w": 275,
+            "h": 386,
+            "anchorX": 1382,
+            "anchorY": 465
+          },
+          "alpha0": 44239,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "029364046088b0f8add190654a537c78efa59947bbaf663ed2ac8d91f893bf81"
+        },
+        {
+          "index": 4,
+          "body": {
+            "x": 32,
+            "y": 569,
+            "w": 318,
+            "h": 380,
+            "pixels": 55138
+          },
+          "crop": {
+            "x": 28,
+            "y": 565,
+            "w": 326,
+            "h": 388,
+            "anchorX": 230,
+            "anchorY": 947
+          },
+          "alpha0": 59678,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "ee2d730fb9760ed55720e2c90ae7e46054666213e4d9efff1d11beefff6f593d"
+        },
+        {
+          "index": 5,
+          "body": {
+            "x": 430,
+            "y": 573,
+            "w": 287,
+            "h": 375,
+            "pixels": 52671
+          },
+          "crop": {
+            "x": 426,
+            "y": 569,
+            "w": 295,
+            "h": 383,
+            "anchorX": 615,
+            "anchorY": 946
+          },
+          "alpha0": 49167,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "e75e5a82d1cd1f260420d472de00fa1939e3bfa7cd1da3670c6f19d79ff99a3a"
+        },
+        {
+          "index": 6,
+          "body": {
+            "x": 810,
+            "y": 569,
+            "w": 290,
+            "h": 382,
+            "pixels": 55313
+          },
+          "crop": {
+            "x": 806,
+            "y": 565,
+            "w": 298,
+            "h": 390,
+            "anchorX": 1000,
+            "anchorY": 949
+          },
+          "alpha0": 49486,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "8cab348f39ceeb480d2dac4aed905e4c50027af328fba57c002471adae3d3950"
+        },
+        {
+          "index": 7,
+          "body": {
+            "x": 1200,
+            "y": 571,
+            "w": 289,
+            "h": 383,
+            "pixels": 50909
+          },
+          "crop": {
+            "x": 1196,
+            "y": 567,
+            "w": 297,
+            "h": 391,
+            "anchorX": 1384,
+            "anchorY": 952
+          },
+          "alpha0": 54659,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "e7f4117e9b078ea1941f4a4b2afb13a1c4cff929ca9b5c0073407abda762cdf0"
+        }
+      ]
+    },
+    {
+      "hero": "abel",
+      "direction": "north",
+      "source": "abel-north-source.png",
+      "runtime": "/assets/v31/exploration/abel-north-walk.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha0Percent": 52.58,
+      "sourceSha256": "8c9faec4a5847a05a4da9a03eefe8d88bb14fa8f7288ad07dd8dab58f17cfda7",
+      "runtimeSha256": "8c9faec4a5847a05a4da9a03eefe8d88bb14fa8f7288ad07dd8dab58f17cfda7",
+      "frames": [
+        {
+          "index": 0,
+          "body": {
+            "x": 26,
+            "y": 20,
+            "w": 338,
+            "h": 471,
+            "pixels": 77556
+          },
+          "crop": {
+            "x": 22,
+            "y": 16,
+            "w": 346,
+            "h": 479,
+            "anchorX": 199,
+            "anchorY": 489
+          },
+          "alpha0": 73979,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "1dc57f8289466127bfd17e0c13c499ebb1e5c26ecd929a081d81332611b0f9a0"
+        },
+        {
+          "index": 1,
+          "body": {
+            "x": 428,
+            "y": 30,
+            "w": 333,
+            "h": 467,
+            "pixels": 79842
+          },
+          "crop": {
+            "x": 424,
+            "y": 26,
+            "w": 341,
+            "h": 475,
+            "anchorX": 599,
+            "anchorY": 495
+          },
+          "alpha0": 66625,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "3ac1fdd8c8fb80a6537cb3258be4e48adcae930e56c57d09cc7c648310729157"
+        },
+        {
+          "index": 2,
+          "body": {
+            "x": 834,
+            "y": 21,
+            "w": 321,
+            "h": 477,
+            "pixels": 77327
+          },
+          "crop": {
+            "x": 830,
+            "y": 17,
+            "w": 329,
+            "h": 485,
+            "anchorX": 973,
+            "anchorY": 496
+          },
+          "alpha0": 67518,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "a67a0ced3a4fff3f9e7724805a2a60b0fec116a29e9f6a08e2003e59a4cad4af"
+        },
+        {
+          "index": 3,
+          "body": {
+            "x": 1208,
+            "y": 13,
+            "w": 301,
+            "h": 490,
+            "pixels": 78010
+          },
+          "crop": {
+            "x": 1204,
+            "y": 9,
+            "w": 309,
+            "h": 498,
+            "anchorX": 1349,
+            "anchorY": 501
+          },
+          "alpha0": 61789,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "5ad61e6b22979d626f61dd109242b77a370531cc948f0e0023986f95f1b8000d"
+        },
+        {
+          "index": 4,
+          "body": {
+            "x": 12,
+            "y": 515,
+            "w": 343,
+            "h": 478,
+            "pixels": 79013
+          },
+          "crop": {
+            "x": 8,
+            "y": 511,
+            "w": 351,
+            "h": 486,
+            "anchorX": 205,
+            "anchorY": 991
+          },
+          "alpha0": 74956,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "b9ab6b1c67fe4744db05542d3ac49de9aa2ee2fdfd805fbcca5b72cfaee809d2"
+        },
+        {
+          "index": 5,
+          "body": {
+            "x": 412,
+            "y": 518,
+            "w": 356,
+            "h": 475,
+            "pixels": 80693
+          },
+          "crop": {
+            "x": 408,
+            "y": 514,
+            "w": 364,
+            "h": 483,
+            "anchorX": 601,
+            "anchorY": 991
+          },
+          "alpha0": 80444,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "27dc1face8663d03e5db067f82c6bca21c3cf3b14e9107b1ee37758b8f2f6769"
+        },
+        {
+          "index": 6,
+          "body": {
+            "x": 835,
+            "y": 517,
+            "w": 311,
+            "h": 476,
+            "pixels": 75154
+          },
+          "crop": {
+            "x": 831,
+            "y": 513,
+            "w": 319,
+            "h": 484,
+            "anchorX": 978,
+            "anchorY": 991
+          },
+          "alpha0": 62967,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "09885c8f49bf06115c29a323528083a29554cff047bdcefef7424892a0dd743e"
+        },
+        {
+          "index": 7,
+          "body": {
+            "x": 1190,
+            "y": 511,
+            "w": 333,
+            "h": 476,
+            "pixels": 75141
+          },
+          "crop": {
+            "x": 1186,
+            "y": 507,
+            "w": 341,
+            "h": 484,
+            "anchorX": 1343,
+            "anchorY": 985
+          },
+          "alpha0": 73587,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "15b2584d0675a5cfb9d7a076e3808c37b336e9ab26074ca0cf579a61a71fa73d"
+        }
+      ]
+    },
+    {
+      "hero": "orfeu",
+      "direction": "south",
+      "source": "orfeu-south-source.png",
+      "runtime": "/assets/v31/exploration/orfeu-south-walk.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha0Percent": 68.18,
+      "sourceSha256": "77dd76e91366e91fa7af0b92db504a8d668adfc08fa5d138458584b7e429e495",
+      "runtimeSha256": "77dd76e91366e91fa7af0b92db504a8d668adfc08fa5d138458584b7e429e495",
+      "frames": [
+        {
+          "index": 0,
+          "body": {
+            "x": 100,
+            "y": 6,
+            "w": 219,
+            "h": 494,
+            "pixels": 54927
+          },
+          "crop": {
+            "x": 96,
+            "y": 2,
+            "w": 227,
+            "h": 502,
+            "anchorX": 205,
+            "anchorY": 498
+          },
+          "alpha0": 49302,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "d370d7123cf265568b5bd94f15f844c0a6cd386a5cf7dae654b0b03e21246094"
+        },
+        {
+          "index": 1,
+          "body": {
+            "x": 479,
+            "y": 26,
+            "w": 219,
+            "h": 469,
+            "pixels": 53566
+          },
+          "crop": {
+            "x": 475,
+            "y": 22,
+            "w": 227,
+            "h": 477,
+            "anchorX": 580,
+            "anchorY": 493
+          },
+          "alpha0": 45870,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "5bf7fe406d2c63a09656405f8f5b5a39add1f8595cce75d15b7d542b978efc28"
+        },
+        {
+          "index": 2,
+          "body": {
+            "x": 858,
+            "y": 10,
+            "w": 207,
+            "h": 489,
+            "pixels": 54934
+          },
+          "crop": {
+            "x": 854,
+            "y": 6,
+            "w": 215,
+            "h": 497,
+            "anchorX": 960,
+            "anchorY": 497
+          },
+          "alpha0": 43679,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "390d454d601ea9e5b9c3ec2a698fe057caf1ab6ba64a003b61aa377473447ad2"
+        },
+        {
+          "index": 3,
+          "body": {
+            "x": 1231,
+            "y": 5,
+            "w": 208,
+            "h": 494,
+            "pixels": 50530
+          },
+          "crop": {
+            "x": 1227,
+            "y": 1,
+            "w": 216,
+            "h": 502,
+            "anchorX": 1333,
+            "anchorY": 497
+          },
+          "alpha0": 48616,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "83d325d920bfb2d4d20ec13e8f5a3846bc1d39d144438d62ba0269895a66daad"
+        },
+        {
+          "index": 4,
+          "body": {
+            "x": 92,
+            "y": 514,
+            "w": 217,
+            "h": 489,
+            "pixels": 53991
+          },
+          "crop": {
+            "x": 88,
+            "y": 510,
+            "w": 225,
+            "h": 497,
+            "anchorX": 201,
+            "anchorY": 1001
+          },
+          "alpha0": 49035,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "afb16e2dc3653e863351ae90b84ea160e64144065cbb14cae71433089ad7db52"
+        },
+        {
+          "index": 5,
+          "body": {
+            "x": 480,
+            "y": 518,
+            "w": 215,
+            "h": 486,
+            "pixels": 55155
+          },
+          "crop": {
+            "x": 476,
+            "y": 514,
+            "w": 223,
+            "h": 494,
+            "anchorX": 582,
+            "anchorY": 1002
+          },
+          "alpha0": 45768,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "864c721f7ffb3409d40bc431f440ca051fac7e2128ba6dcfa4a585f250c66fdf"
+        },
+        {
+          "index": 6,
+          "body": {
+            "x": 862,
+            "y": 517,
+            "w": 200,
+            "h": 484,
+            "pixels": 51952
+          },
+          "crop": {
+            "x": 858,
+            "y": 513,
+            "w": 208,
+            "h": 492,
+            "anchorX": 960,
+            "anchorY": 999
+          },
+          "alpha0": 42245,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "3343ea34abdfae634a786a307c1c0488ce4c5c98ee007d1e132b6f867f644378"
+        },
+        {
+          "index": 7,
+          "body": {
+            "x": 1232,
+            "y": 514,
+            "w": 201,
+            "h": 491,
+            "pixels": 51954
+          },
+          "crop": {
+            "x": 1228,
+            "y": 510,
+            "w": 209,
+            "h": 499,
+            "anchorX": 1334,
+            "anchorY": 1003
+          },
+          "alpha0": 43120,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "fe6bb5816fc31c107c5d50c89fa4d41d5fb1533677a6eb436ace3085074748ef"
+        }
+      ]
+    },
+    {
+      "hero": "orfeu",
+      "direction": "west",
+      "source": "orfeu-west-source.png",
+      "runtime": "/assets/v31/exploration/orfeu-west-walk.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha0Percent": 66.99,
+      "sourceSha256": "5b8e0a9622dae94f705c242214bf9583ab23e782f8a9f005ab6dc53a615670f2",
+      "runtimeSha256": "5b8e0a9622dae94f705c242214bf9583ab23e782f8a9f005ab6dc53a615670f2",
+      "frames": [
+        {
+          "index": 0,
+          "body": {
+            "x": 23,
+            "y": 11,
+            "w": 337,
+            "h": 486,
+            "pixels": 57909
+          },
+          "crop": {
+            "x": 19,
+            "y": 7,
+            "w": 345,
+            "h": 494,
+            "anchorX": 204,
+            "anchorY": 495
+          },
+          "alpha0": 102435,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "177b4cb778e50281bd9900edbb018893f3872262b1f0abf07bd7eddf38678bf2"
+        },
+        {
+          "index": 1,
+          "body": {
+            "x": 473,
+            "y": 20,
+            "w": 270,
+            "h": 479,
+            "pixels": 53510
+          },
+          "crop": {
+            "x": 469,
+            "y": 16,
+            "w": 278,
+            "h": 487,
+            "anchorX": 574,
+            "anchorY": 497
+          },
+          "alpha0": 72253,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "e964ade646c161e14885babd85735b45be97f9b199605e249b11611e429a1c7e"
+        },
+        {
+          "index": 2,
+          "body": {
+            "x": 848,
+            "y": 21,
+            "w": 240,
+            "h": 479,
+            "pixels": 52234
+          },
+          "crop": {
+            "x": 844,
+            "y": 17,
+            "w": 248,
+            "h": 487,
+            "anchorX": 948,
+            "anchorY": 498
+          },
+          "alpha0": 58910,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "774c1b0fb4852bbae36985725cf905ae1c7739613b6e958aadded36b8d768124"
+        },
+        {
+          "index": 3,
+          "body": {
+            "x": 1228,
+            "y": 10,
+            "w": 248,
+            "h": 489,
+            "pixels": 53742
+          },
+          "crop": {
+            "x": 1224,
+            "y": 6,
+            "w": 256,
+            "h": 497,
+            "anchorX": 1342,
+            "anchorY": 497
+          },
+          "alpha0": 60821,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "65fc2859942e1e3c91d1e8bf45c088cb6dff3ec8a2fd76754154f184f886d5ed"
+        },
+        {
+          "index": 4,
+          "body": {
+            "x": 16,
+            "y": 517,
+            "w": 355,
+            "h": 479,
+            "pixels": 57529
+          },
+          "crop": {
+            "x": 12,
+            "y": 513,
+            "w": 363,
+            "h": 487,
+            "anchorX": 202,
+            "anchorY": 994
+          },
+          "alpha0": 107050,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "cca22a010a60fc8caab86fc8d24cced99f1b895eb9d093310fd261f6411c7d8b"
+        },
+        {
+          "index": 5,
+          "body": {
+            "x": 498,
+            "y": 528,
+            "w": 233,
+            "h": 471,
+            "pixels": 50851
+          },
+          "crop": {
+            "x": 494,
+            "y": 524,
+            "w": 241,
+            "h": 479,
+            "anchorX": 583,
+            "anchorY": 997
+          },
+          "alpha0": 54928,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "4e54b1de2cf346f3107cce08e901a83f839851db8b9d8e57f4aa6d59e84280dd"
+        },
+        {
+          "index": 6,
+          "body": {
+            "x": 812,
+            "y": 527,
+            "w": 300,
+            "h": 475,
+            "pixels": 53606
+          },
+          "crop": {
+            "x": 808,
+            "y": 523,
+            "w": 308,
+            "h": 483,
+            "anchorX": 955,
+            "anchorY": 1000
+          },
+          "alpha0": 84650,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "b567fcddfff861990390bda88f902d6f5aa9b8b96e99965316680b85209440bc"
+        },
+        {
+          "index": 7,
+          "body": {
+            "x": 1238,
+            "y": 517,
+            "w": 250,
+            "h": 485,
+            "pixels": 52558
+          },
+          "crop": {
+            "x": 1234,
+            "y": 513,
+            "w": 258,
+            "h": 493,
+            "anchorX": 1341,
+            "anchorY": 1000
+          },
+          "alpha0": 64198,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "9c96cd8a89c5c40be014bc105cfd8d98fedf04809bd5a020c3f209056925aa53"
+        }
+      ]
+    },
+    {
+      "hero": "orfeu",
+      "direction": "east",
+      "source": "orfeu-east-source.png",
+      "runtime": "/assets/v31/exploration/orfeu-east-walk.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha0Percent": 65.38,
+      "sourceSha256": "4591661cb45db638abb4017c297ab07782f81c5d137851573a36ae58a368cd74",
+      "runtimeSha256": "4591661cb45db638abb4017c297ab07782f81c5d137851573a36ae58a368cd74",
+      "frames": [
+        {
+          "index": 0,
+          "body": {
+            "x": 50,
+            "y": 15,
+            "w": 339,
+            "h": 489,
+            "pixels": 65267
+          },
+          "crop": {
+            "x": 46,
+            "y": 11,
+            "w": 347,
+            "h": 497,
+            "anchorX": 201,
+            "anchorY": 502
+          },
+          "alpha0": 95806,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "e524c012b317080acb09063fbc1e309eb73c75e81efc0384a55a6000e3c04bab"
+        },
+        {
+          "index": 1,
+          "body": {
+            "x": 452,
+            "y": 17,
+            "w": 287,
+            "h": 481,
+            "pixels": 62631
+          },
+          "crop": {
+            "x": 448,
+            "y": 13,
+            "w": 295,
+            "h": 489,
+            "anchorX": 599,
+            "anchorY": 496
+          },
+          "alpha0": 70211,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "61d126c277abaa2e15dbbe57c1b14f8d0513abac355aebcc661612ad9dcb1e6d"
+        },
+        {
+          "index": 2,
+          "body": {
+            "x": 867,
+            "y": 12,
+            "w": 220,
+            "h": 490,
+            "pixels": 51732
+          },
+          "crop": {
+            "x": 863,
+            "y": 8,
+            "w": 228,
+            "h": 498,
+            "anchorX": 967,
+            "anchorY": 500
+          },
+          "alpha0": 53268,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "035561070473b920e4998e4544d99d7bf9a5bc201a6347331956e36686ae9633"
+        },
+        {
+          "index": 3,
+          "body": {
+            "x": 1241,
+            "y": 12,
+            "w": 254,
+            "h": 493,
+            "pixels": 55270
+          },
+          "crop": {
+            "x": 1237,
+            "y": 8,
+            "w": 262,
+            "h": 501,
+            "anchorX": 1360,
+            "anchorY": 503
+          },
+          "alpha0": 66861,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "0d16645d58002686f596392f0daf9ea5ead43816e347431337f5ec46b3225a14"
+        },
+        {
+          "index": 4,
+          "body": {
+            "x": 46,
+            "y": 521,
+            "w": 355,
+            "h": 484,
+            "pixels": 64108
+          },
+          "crop": {
+            "x": 42,
+            "y": 517,
+            "w": 363,
+            "h": 492,
+            "anchorX": 199,
+            "anchorY": 1003
+          },
+          "alpha0": 102727,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "b6238f9df61604a42e2e5182e9090751a104cfa71397f8c637f357b74f055f58"
+        },
+        {
+          "index": 5,
+          "body": {
+            "x": 453,
+            "y": 522,
+            "w": 296,
+            "h": 480,
+            "pixels": 61165
+          },
+          "crop": {
+            "x": 449,
+            "y": 518,
+            "w": 304,
+            "h": 488,
+            "anchorX": 604,
+            "anchorY": 1000
+          },
+          "alpha0": 75804,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "ff2c080a06ea8d02eabc5f3b2120bca16852f004ba2dd0c7da4c7dfdf7130139"
+        },
+        {
+          "index": 6,
+          "body": {
+            "x": 875,
+            "y": 521,
+            "w": 188,
+            "h": 484,
+            "pixels": 48351
+          },
+          "crop": {
+            "x": 871,
+            "y": 517,
+            "w": 196,
+            "h": 492,
+            "anchorX": 966,
+            "anchorY": 1003
+          },
+          "alpha0": 40416,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "71f292b81fb4b3506e0d04fe19c590444feefd841cfdca7d8225a57f85010943"
+        },
+        {
+          "index": 7,
+          "body": {
+            "x": 1242,
+            "y": 520,
+            "w": 243,
+            "h": 485,
+            "pixels": 52043
+          },
+          "crop": {
+            "x": 1238,
+            "y": 516,
+            "w": 251,
+            "h": 493,
+            "anchorX": 1360,
+            "anchorY": 1003
+          },
+          "alpha0": 62197,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "148cee70c03ff3af45cf5fd8366e05b0557306f5466309247e4101b301250f40"
+        }
+      ]
+    },
+    {
+      "hero": "orfeu",
+      "direction": "north",
+      "source": "orfeu-north-source.png",
+      "runtime": "/assets/v31/exploration/orfeu-north-walk.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha0Percent": 68.38,
+      "sourceSha256": "79656156582c3fae61b2810ce221d8d6644935545fb103115d0c00a2fae7fb5d",
+      "runtimeSha256": "79656156582c3fae61b2810ce221d8d6644935545fb103115d0c00a2fae7fb5d",
+      "frames": [
+        {
+          "index": 0,
+          "body": {
+            "x": 112,
+            "y": 14,
+            "w": 214,
+            "h": 485,
+            "pixels": 52474
+          },
+          "crop": {
+            "x": 108,
+            "y": 10,
+            "w": 222,
+            "h": 493,
+            "anchorX": 208,
+            "anchorY": 497
+          },
+          "alpha0": 48020,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "25e0a4a5696f22539da75a002d99916f774037bddd60e61ef448aeb1a5a274dd"
+        },
+        {
+          "index": 1,
+          "body": {
+            "x": 486,
+            "y": 15,
+            "w": 224,
+            "h": 483,
+            "pixels": 52440
+          },
+          "crop": {
+            "x": 482,
+            "y": 11,
+            "w": 232,
+            "h": 491,
+            "anchorX": 593,
+            "anchorY": 496
+          },
+          "alpha0": 52573,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "a9d723e6b976f1fa9337e4421fed4a7efb8a3d7ede8a5a286aeafd6db37f102b"
+        },
+        {
+          "index": 2,
+          "body": {
+            "x": 845,
+            "y": 15,
+            "w": 238,
+            "h": 484,
+            "pixels": 51783
+          },
+          "crop": {
+            "x": 841,
+            "y": 11,
+            "w": 246,
+            "h": 492,
+            "anchorX": 958,
+            "anchorY": 497
+          },
+          "alpha0": 60290,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "8194d914ae3dd7eea659c5466b26d8c2d8011ca80686e07221095a2cc08e1e14"
+        },
+        {
+          "index": 3,
+          "body": {
+            "x": 1229,
+            "y": 12,
+            "w": 213,
+            "h": 487,
+            "pixels": 52337
+          },
+          "crop": {
+            "x": 1225,
+            "y": 8,
+            "w": 221,
+            "h": 495,
+            "anchorX": 1338,
+            "anchorY": 497
+          },
+          "alpha0": 46852,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "60f7106fa575c1566d3a42ff4bc36f157026c498588bf6e840c5c510d34ced58"
+        },
+        {
+          "index": 4,
+          "body": {
+            "x": 98,
+            "y": 519,
+            "w": 224,
+            "h": 482,
+            "pixels": 52779
+          },
+          "crop": {
+            "x": 94,
+            "y": 515,
+            "w": 232,
+            "h": 490,
+            "anchorX": 201,
+            "anchorY": 999
+          },
+          "alpha0": 49732,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "393d830bd23e5cccfe551b6f11d2e6f2d93189c99b72fcc2abf3d4d2726bdd51"
+        },
+        {
+          "index": 5,
+          "body": {
+            "x": 475,
+            "y": 520,
+            "w": 226,
+            "h": 472,
+            "pixels": 52250
+          },
+          "crop": {
+            "x": 471,
+            "y": 516,
+            "w": 234,
+            "h": 480,
+            "anchorX": 593,
+            "anchorY": 990
+          },
+          "alpha0": 49635,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "05932d2f317b846909316970f72dde537c9e46630892e0a06ce7f5f6a8f9fd16"
+        },
+        {
+          "index": 6,
+          "body": {
+            "x": 853,
+            "y": 520,
+            "w": 230,
+            "h": 482,
+            "pixels": 52556
+          },
+          "crop": {
+            "x": 849,
+            "y": 516,
+            "w": 238,
+            "h": 490,
+            "anchorX": 959,
+            "anchorY": 1000
+          },
+          "alpha0": 54217,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "f248c8589a32e0e52cc53b5cb85ac002eaf929ed0d10413d5c34438f6ffb158c"
+        },
+        {
+          "index": 7,
+          "body": {
+            "x": 1227,
+            "y": 518,
+            "w": 211,
+            "h": 484,
+            "pixels": 49511
+          },
+          "crop": {
+            "x": 1223,
+            "y": 514,
+            "w": 219,
+            "h": 492,
+            "anchorX": 1338,
+            "anchorY": 1000
+          },
+          "alpha0": 48208,
+          "visibleEdgePixels": 0,
+          "rgbaSha256": "f7d6b2eacebcb57869608b412cdae40723825099a301d97c3545a8dc9cb56e38"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    "First32-frame sheets repeated stride; replaced by directional eight-phase sources.",
+    "First Abel side sheets had insufficient rectangular gutters; replaced via imagegen spacing edits."
+  ]
+}

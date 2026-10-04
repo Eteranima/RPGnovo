@@ -1,0 +1,13 @@
+{
+  "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-b2753c97-4829-4bd6-9598-9d58cc3c09fb.png",
+  "sourceSha256": "923fa3ea7c26631e566aff318ba592538f8fa6f53a7dc1e5e51baecdbf1df53d",
+  "runtime": "public/assets/v31/cinematics/long-tinta/avatar-umbra.png",
+  "crop": {
+    "left": 548,
+    "top": 490,
+    "width": 222,
+    "height": 209
+  },
+  "allRgbaBytesPreserved": true,
+  "runtimeSha256": "a45abeafdb4857deb95f1d570760845203be7181e54c57f2cc48207235a76a78"
+}

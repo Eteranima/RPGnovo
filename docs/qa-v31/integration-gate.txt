@@ -1,0 +1,24 @@
+Ecos que Escolhem — gate de integração do motor / saves / arte
+Diretório: C:\Users\Diego\OneDrive\Documentos\GitHub\RPGnovo
+
+PASS game: 884 verificações — campanha completa, colisões, combates, inventário, save/resume, derrota e respawn.
+PASS progression: 84 verificações — migração, loja, árvore, técnicas de campo, missões anteriores, conquistas, equipamento e estados.
+PASS origins: 202 verificações — cinco origens solo, saída alcançável, recrutamento, capacidade do Grupo, identidade salva.
+PASS expansion: 170 verificações — áudio, mapas anteriores, equipamento, pedidos, encontros únicos, boss opcional e saves.
+PASS echoes: 189 verificações — minimapa lógico, viagem, eventos e cosméticos.
+PASS recruit-mail-carmilla — MAIL único, 30 tiros, seletor 5★, cinco duelos recrutáveis, combate/save Carmilla.
+PASS carmilla — menor proporção HP, empates, transferência 15%, ausência de ressurreição.
+PASS orfeu: 201 verificações — anti-magia neutra, impacto, recursos, controle, saves, FX e 26 recortes nativos.
+PASS elements — nove jogáveis, básicos/técnicas/ultimates, Terra, Gelo, saves antigos.
+PASS audio — escolha de mute/volume persistente, título/mapas/batalha/remount, autoplay nativo, fades, play atrasado, SFX/WebAudio.
+PASS battle-layout: 2047 verificações — 300 posições idle, 1–5 aliados, nove heróis + Lycan, dois canvases, sway ±1,5 px, nomes e separação inimiga.
+PASS environment: 33206 verificações — 12 mapas, pisos/objetos próprios, recortes isolados, paredes contínuas, variação e invalidação da ponte.
+PASS remake — oito técnicas de assinatura, timing, custo/silêncio, alvos vivos, sete ultimates renovadas e IDs antigos.
+PASS remake-art: 2111 verificações — 448 recortes nativos isolados, kits, ícones/rostos, timing, catálogo e exceções aprovadas.
+
+Os carregadores estáticos de 12 suítes foram substituídos por descoberta transitiva de imports via tests/game-module-loader.mjs. Nenhum assert de mecânicas foi alterado.
+A única expectativa de arte atualizada foi a antiga proibição de caminhada Abel: o pedido v31 exige agora quatro folhas direcionais de 8 poses cada (32 no total), enquanto alias Abel/Orfeu mantém 8 poses de sul. O teste exige os oito caminhos finais, pixels RGBA transparentes, 64 recortes dentro das fontes, âncoras dentro dos crops, contorno visível sem tocar bordas, quatro arquivos distintos por personagem e ausência de Abel em PLAYABLE_HERO_IDS. Não houve redução de rigor.
+
+Novo motor: tests/quests-v31.test.mjs PASS 2575 verificações (relatório quests-test.txt).
+Regressões complementares anteriores após hooks: gacha-v30 PASS 1231 e party-hotkeys-v30 PASS 214.
+Sem build/TSC global nesta etapa; artes/cenas em integração paralela. Sem commit/push.

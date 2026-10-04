@@ -1,0 +1,24 @@
+[
+  {
+    "id": "abel",
+    "direction": "west",
+    "args": {
+      "transparent_background": true,
+      "referenced_image_paths": [
+        "C:/Users/Diego/OneDrive/Documentos/GitHub/RPGnovo/art-source/v31/exploration/abel-west-source.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Edit target: Abel eight-frame west walking sheet. Preserve all eight phases, the LEFT profile facing of EVERY pose, adult anatomy, identity and approved red/gold cloak, black boots and golden ruby staff. Change ONLY spacing/containment: within the existing4 columns x2 rows layout, pull the camera back around every figure so each complete silhouette is no more than80% as tall as now and centered fully inside its OWN cell, with at least45 pixels of actually transparent space left AND right of each figure and at least30 pixels top/bottom. Keep exactly8 fullbody sprites, chronological gait unchanged, pronounced visible alternation of two legs and heel contact/pass/knee lift. The capes, staffs and toes of adjacent cells must NEVER enter each other's rectangular crop; preserve large clear empty transparent gutters horizontally and vertically. Absolutely no clipping on canvas, no extra figures, no painted background or ground, no shadow. Keep original high detail anime ink/cel shading; do not simplify or alter costume. The sheet is a transparent RGBA PNG with each frame independently enclosed by clean empty alpha margins."
+    }
+  },
+  {
+    "id": "abel",
+    "direction": "east",
+    "args": {
+      "transparent_background": true,
+      "referenced_image_paths": [
+        "C:/Users/Diego/OneDrive/Documentos/GitHub/RPGnovo/art-source/v31/exploration/abel-east-source.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Edit target: Abel eight-frame east walking sheet. Preserve all eight phases, the RIGHT profile facing of EVERY pose, adult anatomy, identity and approved red/gold cloak, black boots and golden ruby staff. Change ONLY spacing/containment: within the existing4 columns x2 rows layout, pull the camera back around every figure so each complete silhouette is no more than80% as tall as now and centered fully inside its OWN cell, with at least45 pixels of actually transparent space left AND right of each figure and at least30 pixels top/bottom. Keep exactly8 fullbody sprites, chronological gait unchanged, pronounced visible alternation of two legs and heel contact/pass/knee lift. The capes, staffs and toes of adjacent cells must NEVER enter each other's rectangular crop; preserve large clear empty transparent gutters horizontally and vertically. Absolutely no clipping on canvas, no extra figures, no painted background or ground, no shadow. Keep original high detail anime ink/cel shading; do not simplify or alter costume. The sheet is a transparent RGBA PNG with each frame independently enclosed by clean empty alpha margins."
+    }
+  }
+]

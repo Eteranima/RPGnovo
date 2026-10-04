@@ -1,3 +1,4 @@
+import {compileGameModules} from './game-module-loader.mjs';
 import assert from 'node:assert/strict';
 import {readFileSync,writeFileSync,mkdtempSync} from 'node:fs';
 import {tmpdir} from 'node:os';
@@ -11,10 +12,7 @@ const projectRequire=createRequire(import.meta.url);
 const wranglerRequire=createRequire(projectRequire.resolve('wrangler'));
 const sharp=createRequire(wranglerRequire.resolve('miniflare'))('sharp');
 const out=mkdtempSync(join(tmpdir(),'eter-battle-layout-'));
-for(const name of ['remakeArt','remakeArtSeijiOphelia','remakeArtGabrielMarinMax','remakeArtCarmillaBeatrizAbel','expansionV30','enemyArtV30','orfeuArtV30','gachaSequence','data','sprites','battleFormation']){
- const source=readFileSync(`lib/game/${name}.ts`,'utf8').replace(/from '\.\/(\w+)'/g,"from './$1.js'");
- writeFileSync(join(out,`${name}.js`),ts.transpileModule(source,{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.ES2022}}).outputText);
-}
+compileGameModules(out,['remakeArt','remakeArtSeijiOphelia','remakeArtGabrielMarinMax','remakeArtCarmillaBeatrizAbel','expansionV30','enemyArtV30','orfeuArtV30','gachaSequence','data','sprites','battleFormation']);
 const {ASSETS,PLAYABLE_HERO_IDS}=await import(pathToFileURL(join(out,'data.js')).href);
 const {battleCrop}=await import(pathToFileURL(join(out,'sprites.js')).href);
 const {battleFormation,battleActorScale}=await import(pathToFileURL(join(out,'battleFormation.js')).href);

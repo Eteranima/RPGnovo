@@ -1,0 +1,27 @@
+'use client';
+// Temporary review route. It never reads or writes the user's game save.
+import Home from '../page';
+import {GameEngine} from '@/lib/game/engine';
+import {freshProgression,deriveHeroes,TREE} from '@/lib/game/progression';
+import {PLAYABLE_HERO_IDS,type HeroId} from '@/lib/game/data';
+import {QUESTS_V31} from '@/lib/game/questsV31';
+
+GameEngine.prototype.hydrate=function(){
+ const args=new URLSearchParams(window.location.search),hero=PLAYABLE_HERO_IDS.find(id=>id===args.get('hero'))||'seiji';
+ const p=freshProgression();p.recruited=[...PLAYABLE_HERO_IDS];p.party=args.get('solo')==='1'?[hero]:['seiji','marin','gabriel','ophelia','max'];
+ if(!p.party.includes(hero))p.party[0]=hero;
+ p.learned=TREE.map(node=>node.id);p.xp=80;p.seen=['arrival','harbor','roots','ashwood-arrival'];p.masterMode=false;
+ this.saved=null;this.save=()=>false;this.state.hasSave=false;
+ this.state.progress=p;this.state.heroes=deriveHeroes(p);this.state.stage=5;this.state.map=(args.get('map') as typeof this.state.map)||'patio';this.state.position={x:14,y:12};
+ this.state.mode=args.get('mode')==='selection'?'selection':'world';this.state.cutscene=null;this.state.questCinematic=null;this.state.battle=null;this.state.dialogue=null;this.state.overlay=null;
+ const id=args.get('quest'),q=QUESTS_V31.find(q=>q.id===id);
+ if(q){
+  const counts:Record<string,number>={},choices:Record<string,string>={};
+  for(let i=0;i<q.steps.length;i++)for(const o of q.steps[i].objectives)counts[`${i}:${o.id}`]=o.goal;
+  for(const step of q.steps)for(const site of step.sites){const choice=site.choices?.find(c=>c.correct!==false);if(choice)choices[site.id]=choice.id;}
+  p.questsV31.records[q.id]={step:q.steps.length,counts,choices,cinematicSeen:false,claimed:false};p.questsV31.tracked=q.id;
+  if(args.get('mode')==='cinema'){this.state.mode='cutscene';this.state.questCinematic={questId:q.id,caption:q.name};}
+ }
+ this.clearMovement();this.emit();
+};
+export default Home;

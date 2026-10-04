@@ -1,0 +1,120 @@
+{
+  "tool": "built-in image_gen",
+  "processing": "Byte-copy original RGBA; only native rectangular crops for faces. No repaint/resize/recolour.",
+  "canonicalReferences": [
+    "public/assets/v30/ui/opening-companions.png",
+    "public/assets/v30/ui/opening-ink-garden.png",
+    "public/assets/v30/ui/opening-star-watch.png"
+  ],
+  "heroMapping": {
+    "seiji": "shin",
+    "ophelia": "mika",
+    "marin": "umbra",
+    "max": "vajra",
+    "gabriel": "dante"
+  },
+  "checks": 30,
+  "entries": [
+    {
+      "id": "umbra",
+      "source": "umbra-source.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "faceCrop": {
+        "x": 270,
+        "y": 20,
+        "w": 650,
+        "h": 650
+      },
+      "alpha0Percent": 51.33,
+      "visibleCanvasEdgePixels": 0,
+      "sourceSha256": "4cf0b1161188d34041680055a62b1db2c4f5a34f346797873ff9f470ef1fed27",
+      "fullbody": "/assets/v31/companions/umbra/fullbody.png",
+      "face": "/assets/v31/companions/umbra/face.png",
+      "faceNativeRgbaExact": true
+    },
+    {
+      "id": "mika",
+      "source": "mika-source.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "faceCrop": {
+        "x": 275,
+        "y": 35,
+        "w": 565,
+        "h": 565
+      },
+      "alpha0Percent": 54.62,
+      "visibleCanvasEdgePixels": 0,
+      "sourceSha256": "62a0e6b7697875432910032b15b6406d07de3cf0b88c630836e4ba289be3fbef",
+      "fullbody": "/assets/v31/companions/mika/fullbody.png",
+      "face": "/assets/v31/companions/mika/face.png",
+      "faceNativeRgbaExact": true
+    },
+    {
+      "id": "shin",
+      "source": "shin-source.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "faceCrop": {
+        "x": 180,
+        "y": 90,
+        "w": 600,
+        "h": 600
+      },
+      "alpha0Percent": 46.92,
+      "visibleCanvasEdgePixels": 0,
+      "sourceSha256": "8193bc5969da508259a26924a87b91bbc83ba7a9b6a4f9499f18e0a935cfc19f",
+      "fullbody": "/assets/v31/companions/shin/fullbody.png",
+      "face": "/assets/v31/companions/shin/face.png",
+      "faceNativeRgbaExact": true
+    },
+    {
+      "id": "vajra",
+      "source": "vajra-source.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "faceCrop": {
+        "x": 150,
+        "y": 35,
+        "w": 620,
+        "h": 620
+      },
+      "alpha0Percent": 56.04,
+      "visibleCanvasEdgePixels": 0,
+      "sourceSha256": "5b04122752337b89442d58a8c8c1045e31a96fd462cf41d81ff39646045a5f15",
+      "fullbody": "/assets/v31/companions/vajra/fullbody.png",
+      "face": "/assets/v31/companions/vajra/face.png",
+      "faceNativeRgbaExact": true
+    },
+    {
+      "id": "dante",
+      "source": "dante-source.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "faceCrop": {
+        "x": 380,
+        "y": 12,
+        "w": 520,
+        "h": 520
+      },
+      "alpha0Percent": 40.64,
+      "visibleCanvasEdgePixels": 0,
+      "sourceSha256": "7419833211e112fcce1588944494d71d7fcb10d4e3ce6411809f3ec1939a93ed",
+      "fullbody": "/assets/v31/companions/dante/fullbody.png",
+      "face": "/assets/v31/companions/dante/face.png",
+      "faceNativeRgbaExact": true
+    }
+  ],
+  "rejection": "Original Shin clipped left brush/right hair; repaired through built-in imagegen. Rejected source archived."
+}

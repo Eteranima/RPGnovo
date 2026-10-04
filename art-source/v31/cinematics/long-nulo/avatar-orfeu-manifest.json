@@ -1,0 +1,13 @@
+{
+  "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-b5439c75-9dc4-49b2-82b5-10e2a6e4299d.png",
+  "sourceSha256": "f43c0a49e2aec45756e7cea662af9751e779d3819c731dc993e1dcfdb4404759",
+  "runtime": "public/assets/v31/cinematics/long-nulo/avatar-orfeu.png",
+  "crop": {
+    "left": 897,
+    "top": 708,
+    "width": 324,
+    "height": 231
+  },
+  "allRgbaBytesPreserved": true,
+  "runtimeSha256": "9debf549234a65bcc632d0b0be75f54ab46c8159bd52677ebc70dc8ce8286d61"
+}

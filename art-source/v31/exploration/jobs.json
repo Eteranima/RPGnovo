@@ -1,0 +1,50 @@
+[
+  {
+    "id": "abel",
+    "direction": "south",
+    "key": "walk_abel_south",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-9b21-72d3-8e15-95755c88bbda\\exec-0777d1a9-9ed6-4ae3-90c4-61b33a0a1c8d.png"
+  },
+  {
+    "id": "abel",
+    "direction": "west",
+    "key": "walk_abel_west",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-9b21-72d3-8e15-95755c88bbda\\exec-b5cbc3b0-61c0-4761-be73-55558f032b9e.png"
+  },
+  {
+    "id": "abel",
+    "direction": "east",
+    "key": "walk_abel_east",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-9b21-72d3-8e15-95755c88bbda\\exec-eb806c83-203c-4dcb-a13e-b2d97696c19a.png"
+  },
+  {
+    "id": "abel",
+    "direction": "north",
+    "key": "walk_abel_north",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-9b21-72d3-8e15-95755c88bbda\\exec-a1c18163-e8b5-4b01-9bea-8eeeb40fbfcc.png"
+  },
+  {
+    "id": "orfeu",
+    "direction": "south",
+    "key": "walk_orfeu_south",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-9b21-72d3-8e15-95755c88bbda\\exec-9f42f006-641f-4c58-bf1b-1e4982a85211.png"
+  },
+  {
+    "id": "orfeu",
+    "direction": "west",
+    "key": "walk_orfeu_west",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-9b21-72d3-8e15-95755c88bbda\\exec-a7a83052-feb1-4826-8d6b-dd54a7753872.png"
+  },
+  {
+    "id": "orfeu",
+    "direction": "east",
+    "key": "walk_orfeu_east",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-9b21-72d3-8e15-95755c88bbda\\exec-db2f6891-62e8-4411-830c-f619f95591e8.png"
+  },
+  {
+    "id": "orfeu",
+    "direction": "north",
+    "key": "walk_orfeu_north",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-9b21-72d3-8e15-95755c88bbda\\exec-a6708c17-d20d-4f26-b542-d7a9958d2148.png"
+  }
+]

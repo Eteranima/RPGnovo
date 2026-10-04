@@ -1,0 +1,88 @@
+{
+  "source": "quest-emblems-source.png",
+  "width": 1254,
+  "height": 1254,
+  "channels": 4,
+  "exports": [
+    {
+      "id": "tutorial",
+      "sourceCell": {
+        "x": 0,
+        "y": 0,
+        "w": 627,
+        "h": 627
+      },
+      "crop": {
+        "left": 93,
+        "top": 108,
+        "width": 445,
+        "height": 416
+      },
+      "visible": 86225,
+      "borderVisible": 0,
+      "nativePixelMismatches": 0,
+      "sourceHash": "ca2d1d5b27d2e3610f6cfd269e15c8b954307493e32dec749398c0f13b6b4179",
+      "runtime": "/assets/v31/journal/quest-tutorial.png"
+    },
+    {
+      "id": "short",
+      "sourceCell": {
+        "x": 627,
+        "y": 0,
+        "w": 627,
+        "h": 627
+      },
+      "crop": {
+        "left": 738,
+        "top": 93,
+        "width": 415,
+        "height": 426
+      },
+      "visible": 96330,
+      "borderVisible": 0,
+      "nativePixelMismatches": 0,
+      "sourceHash": "ca2d1d5b27d2e3610f6cfd269e15c8b954307493e32dec749398c0f13b6b4179",
+      "runtime": "/assets/v31/journal/quest-short.png"
+    },
+    {
+      "id": "medium",
+      "sourceCell": {
+        "x": 0,
+        "y": 627,
+        "w": 627,
+        "h": 627
+      },
+      "crop": {
+        "left": 87,
+        "top": 713,
+        "width": 449,
+        "height": 456
+      },
+      "visible": 98098,
+      "borderVisible": 0,
+      "nativePixelMismatches": 0,
+      "sourceHash": "ca2d1d5b27d2e3610f6cfd269e15c8b954307493e32dec749398c0f13b6b4179",
+      "runtime": "/assets/v31/journal/quest-medium.png"
+    },
+    {
+      "id": "long",
+      "sourceCell": {
+        "x": 627,
+        "y": 627,
+        "w": 627,
+        "h": 627
+      },
+      "crop": {
+        "left": 751,
+        "top": 713,
+        "width": 411,
+        "height": 454
+      },
+      "visible": 96764,
+      "borderVisible": 0,
+      "nativePixelMismatches": 0,
+      "sourceHash": "ca2d1d5b27d2e3610f6cfd269e15c8b954307493e32dec749398c0f13b6b4179",
+      "runtime": "/assets/v31/journal/quest-long.png"
+    }
+  ]
+}

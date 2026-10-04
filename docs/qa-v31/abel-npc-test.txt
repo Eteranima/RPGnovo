@@ -1,0 +1,9 @@
+Abel NPC v31 — PASS (5428 checks)
+
+Location: Clareira da Pira (ashpyre), anchor (8,11). Professor da Forja Antiga is Abel's title, not a renamed map. Gate: porta-pira stays minStage5; real interaction blocks stage4 and admits stage5.
+Patrol: (7,11)→(9,11)→(9,10) and back; 0.75 tile/s, 0.45s pauses, four real facings. 393 collision/reachability samples; no overlap with crystals, doors, boss or ashpyre quest sites. Route was moved two rows north to separate Abel from the floating exit label.
+Interaction: real click approach opens Abel dialogue, pause/distance guards hold, route freezes in dialogue, both long-brasa choices are acknowledged with no resource or recruitment changes. Save parses.
+Renderer: four final RGBA sheets × eight measured crops consumed by WorldRenderer.actor. WorldRenderer.entity follows actual patrol facing, chooses the idle frame for pauses/menus, and preserves native foot anchors.
+Exit-label regression: every route point has feet y≤11; all32 rendered crop bounds retain at least 79.29px vertical clearance above pira-retorno's label in world coordinates.
+
+Before this change, approved Abel walking assets had no NPC in MAPS. This adds the actual world consumer; Abel remains a collection character outside PLAYABLE_HERO_IDS.
