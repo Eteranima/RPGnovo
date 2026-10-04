@@ -1,0 +1,43 @@
+{
+  "id": "mika-frame-test-v35",
+  "date": "2026-10-04",
+  "mode": "built-in image_gen",
+  "method": "Four illustrated twelve-cell atlases; deterministic native cropping and sequence assembly. No Google Flow, AI-generated video, frame interpolation or duplicate frame holds.",
+  "scope": "One short preview; five released mission films remain unchanged.",
+  "selected": [
+    {
+      "file": "a.png",
+      "generated": "exec-3e03c6a2-c3ae-47a2-ac6d-9e7712ac0e8b.png",
+      "prompt": "a-prompt.txt",
+      "reference": "art-source/v34/quest-cinematics/keyframes/long-geada.png",
+      "original": "C:/Users/Diego/.codex/generated_images/01a0fe9c-5a05-7ae0-b816-392e2a3c966b/exec-3e03c6a2-c3ae-47a2-ac6d-9e7712ac0e8b.png"
+    },
+    {
+      "file": "b.png",
+      "generated": "exec-0559b6c9-e2fa-454c-bf37-fecd9713042d.png",
+      "prompt": "b-prompt.txt",
+      "reference": "art-source/v35/frame-test/a.png",
+      "original": "C:/Users/Diego/.codex/generated_images/01a0fe9c-5a05-7ae0-b816-392e2a3c966b/exec-0559b6c9-e2fa-454c-bf37-fecd9713042d.png"
+    },
+    {
+      "file": "c.png",
+      "generated": "exec-319493fb-5747-42a7-b9cd-b2fa8e0001aa.png",
+      "prompt": "c-prompt.txt",
+      "reference": "art-source/v35/frame-test/b.png",
+      "original": "C:/Users/Diego/.codex/generated_images/01a0fe9c-5a05-7ae0-b816-392e2a3c966b/exec-319493fb-5747-42a7-b9cd-b2fa8e0001aa.png"
+    },
+    {
+      "file": "d.png",
+      "generated": "exec-86780c13-748a-41f0-97b3-27024040c5e8.png",
+      "prompt": "d-prompt.txt",
+      "reference": "art-source/v35/frame-test/c.png",
+      "original": "C:/Users/Diego/.codex/generated_images/01a0fe9c-5a05-7ae0-b816-392e2a3c966b/exec-86780c13-748a-41f0-97b3-27024040c5e8.png"
+    }
+  ],
+  "rejected": {
+    "generated": "exec-18005f3e-fe0f-471a-a131-9d4775732824.png",
+    "reason": "Changed framing and cell aspect ratio; excluded from the 48-frame sequence.",
+    "retainedPrivately": ".agents/v35-frame-test/rejected/c-rejected.png"
+  },
+  "review": "docs/qa-v35/visual-review.md"
+}

@@ -1,0 +1,20 @@
+Use case: illustration-story.
+Asset type: continuation animation atlas B containing exactly twelve consecutive inked/cel-painted frames of the SAME shot.
+Input image 1 is the preceding 12-frame animation atlas A. It is the strict visual/style/framing/background reference. Continue from its LAST cell (bottom-right) into the first cell of the new atlas. The new image must use the SAME four columns by three rows layout and SAME cell positions, canvas ratio 64:27, requested 3840x1620 pixels, no borders/gutters/padding/text. Twelve equal16:9 cells edge-to-edge. Temporal order left-right then next row. Do not use the source whole grid as a scene inside any cell.
+This atlas B is frames12–23 of one2-second/48-frame shot at24fps. Every new cell is a consecutive slight redraw of the same Mika action, NOT different camera angles or a storyboard.
+Preserve Mika's chibi BOY face, blond tousled hair, blue eyes behind round black glasses, blue/gold embroidered winter coat/pants/boots, white fur trims, black gloves. Preserve scale and exact pose/framing of reference last cell, with all hair/boots in frame. Exactly TWO arms and TWO hands and TWO legs. Image-left black-gloved hand holds same silver bowl at lap, image-right black-gloved hand rests on same tree root. Both hands and bowl fixed. Frozen crystalline blue flower stays at same point on right, botanical book at left, moon/arches/lanterns/branches in exactly same positions. No extra arm near face, no hand on chin.
+Draw this specific tiny continuous motion across the12cells:
+cell1 keeps the last source pose, eyes fully open;
+cell2 slight eyelid lowering;
+cell3 eyelids one-third lowered;
+cell4 eyelids halfway lowered;
+cell5 almost closed;
+cell6 fully closed for a gentle blink;
+cell7 fully closed, slight gentle smile;
+cell8 eyes begin reopening;
+cell9 half open;
+cell10 three-quarter open;
+cell11 fully open;
+cell12 fully open and warm small smile.
+Preserve glasses shape throughout the blink. Head and shoulders barely move, at the gentle inhalation peak. A cyan healing ribbon advances along the root in tiny successive increments; a small bud beside the crystalline flower gradually gains blue light and unfurls a LITTLE (start closed, final barely opened). The main ice flower remains stable. Hair tips subtly follow the breathing. Every frame must be a coherent increment, no jumps or sudden shape changes. Background and rigid props exactly registered.
+Medium: elegant traditional2D fantasy anime ink lines and layered cel paint, fine watercolor-like backgrounds, warm lantern gold/cold moon blue, NOT CGI, NOT photorealism, NOT Disney. Retain detailed garment and exact identity. No frame numbers, text, watermarks, UI.

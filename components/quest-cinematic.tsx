@@ -2,17 +2,17 @@
 
 import {useEffect,useId,useRef,useState} from 'react';
 import {createPortal} from 'react-dom';
-import {getQuestCinematicV34,questVideoRangeV34,questVideoFrameV34,questVideoDurationMatchesV34,questVideoCaptionV34,questVideoClockV34,questVideoCapturesKeyV34,questVideoTabTargetV34,type QuestCinematicId,type SceneAct} from '@/lib/art/questCinematicsV34';
+import {getQuestCinematicV34,questVideoRangeV34,questVideoFrameV34,questVideoDurationMatchesV34,questVideoCaptionV34,questVideoClockV34,questVideoCapturesKeyV34,questVideoTabTargetV34,type QuestCinematicId,type SceneAct,type CinematicFilmSpec} from '@/lib/art/questCinematicsV34';
 import styles from './quest-cinematic.module.css';
 
-export type QuestCinematicProps={questId:QuestCinematicId|string;caption?:string;sceneAct?:SceneAct;replay?:boolean;onComplete:()=>void;onSkip:()=>void};
+export type QuestCinematicProps={questId:QuestCinematicId|string;filmSpec?:CinematicFilmSpec;caption?:string;sceneAct?:SceneAct;replay?:boolean;onComplete:()=>void;onSkip:()=>void};
 type PlayerView={ready:boolean;failed:boolean;playing:boolean;buffering:boolean;finished:boolean;reduced:boolean;elapsed:number;blocked:boolean};
 const initialView:PlayerView={ready:false,failed:false,playing:false,buffering:false,finished:false,reduced:false,elapsed:0,blocked:false};
 type PlaybackControls={play:()=>void;pause:()=>void};
 
 /** Only the selected native film is requested; completion never happens from a timer or Enter alone. */
-export function QuestCinematic({questId,caption,sceneAct,replay=false,onComplete,onSkip}:QuestCinematicProps){
- const scene=getQuestCinematicV34(questId),video=useRef<HTMLVideoElement>(null),dialog=useRef<HTMLDivElement>(null),playButton=useRef<HTMLButtonElement>(null);
+export function QuestCinematic({questId,filmSpec,caption,sceneAct,replay=false,onComplete,onSkip}:QuestCinematicProps){
+ const scene=filmSpec??getQuestCinematicV34(questId),video=useRef<HTMLVideoElement>(null),dialog=useRef<HTMLDivElement>(null),playButton=useRef<HTMLButtonElement>(null);
  const [portalTarget,setPortalTarget]=useState<HTMLElement|null>(null),[view,setView]=useState<PlayerView>(initialView),[retry,setRetry]=useState(0);
  const viewRef=useRef(view),callbacks=useRef({onComplete,onSkip}),resolved=useRef(false),controls=useRef<PlaybackControls|null>(null);
  const titleId=useId(),captionId=useId(),hintId=useId();viewRef.current=view;callbacks.current={onComplete,onSkip};
@@ -121,9 +121,9 @@ export function QuestCinematic({questId,caption,sceneAct,replay=false,onComplete
  if(!scene)return createPortal(<div className={styles.overlay}><div ref={dialog} tabIndex={-1} className={styles.dialog} role="dialog" aria-modal="true" aria-labelledby={titleId}><header className={styles.header}><h2 id={titleId}>Cena indisponível</h2></header><div className={styles.screen}><p className={styles.loading}>Esta cena não está no registro atual.</p></div><footer className={styles.footer}><button type="button" onClick={()=>finish(true)}>{replay?'Voltar a Cenas':'Voltar à missão'}</button></footer></div></div>,portalTarget);
  const range=questVideoRangeV34(scene,sceneAct),elapsed=Math.max(0,view.elapsed-range.startSeconds),progress=Math.min(100,elapsed/range.durationSeconds*100);
  const hint=view.failed?'Você pode tentar novamente ou voltar.':view.finished?replay?'Reveja a cena ou volte a Cenas.':'Relato concluído. Continue sua aventura.':view.blocked?'Selecione Reproduzir para iniciar a cena.':view.reduced&&!view.playing?'Movimento reduzido: reproduza quando quiser.':!view.playing&&view.ready?'Cena pausada. Espaço para reproduzir.':'Espaço para pausar · Esc para voltar';
- return createPortal(<div className={styles.overlay} data-quest-cinematic="v34" data-quest={scene.id}>
+ return createPortal(<div className={styles.overlay} data-quest-cinematic="v34" data-quest={filmSpec?undefined:scene.id} data-film-test={filmSpec?.id}>
   <div ref={dialog} tabIndex={-1} className={styles.dialog} role="dialog" aria-modal="true" aria-labelledby={titleId} aria-describedby={captionId+' '+hintId}>
-   <header className={styles.header}><div><span className={styles.eyebrow}>Ecos que Escolhem</span><h2 id={titleId}>{scene.title}</h2></div><span className={styles.counter}>{questVideoClockV34(range.durationSeconds)}</span></header>
+   <header className={styles.header}><div><span className={styles.eyebrow}>{filmSpec?'Prévia de animação':'Ecos que Escolhem'}</span><h2 id={titleId}>{scene.title}</h2></div><span className={styles.counter}>{questVideoClockV34(range.durationSeconds)}</span></header>
    <div className={styles.screen} aria-busy={(!view.ready||view.buffering)&&!view.failed}>
     <video ref={video} className={styles.video} src={scene.src} poster={scene.poster} muted playsInline preload="auto" controls={false} disablePictureInPicture data-native-frame={range.startFrame} data-fps={scene.fps} aria-label={'Cena: '+scene.title}>Seu navegador não conseguiu reproduzir este vídeo.</video>
     {(!view.ready||view.failed)&&<div className={styles.loading} role={view.failed?'alert':'status'}><p>{view.failed?'Não foi possível preparar esta cena.':'Preparando a cena…'}</p>{view.failed&&<button type="button" onClick={()=>setRetry(v=>v+1)}>Tentar novamente</button>}</div>}

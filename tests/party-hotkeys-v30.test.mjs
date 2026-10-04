@@ -37,7 +37,7 @@ const page=ts.createSourceFile('app/page.tsx',readFileSync('app/page.tsx','utf8'
 let down;
 function visit(node){if(ts.isVariableDeclaration(node)&&node.name.getText(page)==='down'&&ts.isArrowFunction(node.initializer))down=node.initializer;ts.forEachChild(node,visit);}visit(page);
 check(down,'production keydown handler found');
-const handlerSource=`const bind=(engine,panelRef,openingRef,setTarget,loadingState=null)=>{const renderer={current:{getLoadingState:()=>loadingState}};let masterSequence=emptyMasterSequence();const loadedRef={current:false},armedRef={current:false};const setPanel=()=>{},activateTitle=()=>{},openMenu=()=>{},toggleMusic=()=>{};const down=${down.getText(page)};return down;};`;
+const handlerSource=`const bind=(engine,panelRef,openingRef,setTarget,loadingState=null)=>{const frameTestRef={current:false},renderer={current:{getLoadingState:()=>loadingState}};let masterSequence=emptyMasterSequence();const loadedRef={current:false},armedRef={current:false};const setPanel=()=>{},activateTitle=()=>{},openMenu=()=>{},toggleMusic=()=>{};const down=${down.getText(page)};return down;};`;
 const handlerJs=ts.transpileModule(handlerSource,{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.None}}).outputText;
 class TestElement{constructor(selector=''){this.selector=selector;}closest(selector){return this.selector&&selector.includes(this.selector)?this:null;}}
 const bindHandler=new Function('Element','advanceMasterSequence','emptyMasterSequence',`${handlerJs};return bind;`)(TestElement,advanceMasterSequence,emptyMasterSequence);
