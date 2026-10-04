@@ -1,130 +1,139 @@
 'use client';
 
-import {useEffect, useRef, useState} from 'react';
+import {useEffect,useId,useRef,useState} from 'react';
 import {createPortal} from 'react-dom';
-import {getQuestCinematic, cinematicFrameAt, cinematicPlaybackStep, cinematicRange, cinematicTabTarget, type QuestCinematicId, type SceneAct} from '@/lib/art/questCinematicsV31';
+import {getQuestCinematicV34,questVideoRangeV34,questVideoFrameV34,questVideoDurationMatchesV34,questVideoCaptionV34,questVideoClockV34,questVideoCapturesKeyV34,questVideoTabTargetV34,type QuestCinematicId,type SceneAct} from '@/lib/art/questCinematicsV34';
 import styles from './quest-cinematic.module.css';
 
-export type QuestCinematicProps = {
- questId: QuestCinematicId | string;
- caption?: string;
- sceneAct?: SceneAct;
- onComplete: () => void;
- onSkip: () => void;
-};
+export type QuestCinematicProps={questId:QuestCinematicId|string;caption?:string;sceneAct?:SceneAct;replay?:boolean;onComplete:()=>void;onSkip:()=>void};
+type PlayerView={ready:boolean;failed:boolean;playing:boolean;buffering:boolean;finished:boolean;reduced:boolean;elapsed:number;blocked:boolean};
+const initialView:PlayerView={ready:false,failed:false,playing:false,buffering:false,finished:false,reduced:false,elapsed:0,blocked:false};
+type PlaybackControls={play:()=>void;pause:()=>void};
 
-/** Loads just the active film. Completion is an explicit action after its last native frame. */
-export function QuestCinematic({questId, caption, sceneAct, onComplete, onSkip}: QuestCinematicProps) {
- const scene = getQuestCinematic(questId);
- const canvas = useRef<HTMLCanvasElement>(null), dialog = useRef<HTMLDivElement>(null), playButton = useRef<HTMLButtonElement>(null);
- const playback = useRef({elapsedMs: 0, paused: false, finished: false}), resolved = useRef(false);
- const [view, setView] = useState({frame: 0, ready: false, failed: false, paused: false, finished: false, reduced: false});
- const [retry, setRetry] = useState(0);
- const [portalTarget, setPortalTarget] = useState<HTMLElement | null>(null);
+/** Only the selected native film is requested; completion never happens from a timer or Enter alone. */
+export function QuestCinematic({questId,caption,sceneAct,replay=false,onComplete,onSkip}:QuestCinematicProps){
+ const scene=getQuestCinematicV34(questId),video=useRef<HTMLVideoElement>(null),dialog=useRef<HTMLDivElement>(null),playButton=useRef<HTMLButtonElement>(null);
+ const [portalTarget,setPortalTarget]=useState<HTMLElement|null>(null),[view,setView]=useState<PlayerView>(initialView),[retry,setRetry]=useState(0);
+ const viewRef=useRef(view),callbacks=useRef({onComplete,onSkip}),resolved=useRef(false),controls=useRef<PlaybackControls|null>(null);
+ const titleId=useId(),captionId=useId(),hintId=useId();viewRef.current=view;callbacks.current={onComplete,onSkip};
 
- useEffect(() => {setPortalTarget(document.body);}, []);
+ useEffect(()=>{
+  // Keep the same portal/video node while the game enters or leaves fullscreen.
+  const host=document.createElement('div');host.dataset.questCinematicHost='v34';
+  const attach=()=>{
+   const fullscreen=document.fullscreenElement||(document as Document&{webkitFullscreenElement?:Element}).webkitFullscreenElement;
+   const parent=fullscreen instanceof HTMLElement&&!host.contains(fullscreen)?fullscreen:document.body;
+   if(host.parentElement===parent)return;
+   const focused=document.activeElement instanceof HTMLElement&&host.contains(document.activeElement)?document.activeElement:null;
+   parent.appendChild(host);if(focused?.isConnected)focused.focus({preventScroll:true});
+  };
+  attach();setPortalTarget(host);document.addEventListener('fullscreenchange',attach);document.addEventListener('webkitfullscreenchange',attach);
+  return()=>{document.removeEventListener('fullscreenchange',attach);document.removeEventListener('webkitfullscreenchange',attach);host.remove();};
+ },[]);
 
- useEffect(() => {
-  if (!scene || !portalTarget) return;
-  let disposed = false, raf = 0, previous = 0;
-  const restoreFocus = document.activeElement instanceof HTMLElement ? document.activeElement : null;
-  const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
-  const range = cinematicRange(scene, sceneAct);
-  resolved.current = false;
-  playback.current = {elapsedMs: 0, paused: reduced, finished: false};
-  setView({frame: range.start, ready: false, failed: false, paused: reduced, finished: false, reduced});
+ const finish=(skip:boolean)=>{
+  if(resolved.current||!skip&&(!viewRef.current.finished||!viewRef.current.ready||viewRef.current.failed))return;
+  resolved.current=true;video.current?.pause();skip?callbacks.current.onSkip():callbacks.current.onComplete();
+ };
+ const togglePlayback=()=>{if(video.current&&!video.current.paused)controls.current?.pause();else controls.current?.play();};
+
+ useEffect(()=>{
+  if(!portalTarget)return;
+  const restore=document.activeElement instanceof HTMLElement?document.activeElement:null;
   dialog.current?.focus();
-  const images = new Map<number, HTMLImageElement>();
-  const requiredAtlases = [...new Set(scene.frames.slice(range.start, range.end).map(frame => frame.atlas))];
-  const paint = (index: number) => {
-   const cv = canvas.current, frame = scene.frames[index], image = images.get(frame.atlas);
-   if (!cv || !image) return;
-   const rect = cv.getBoundingClientRect(), dpr = Math.min(devicePixelRatio || 1, 2);
-   const width = Math.max(1, Math.round(rect.width * dpr)), height = Math.max(1, Math.round(rect.height * dpr));
-   if (cv.width !== width || cv.height !== height) {cv.width = width; cv.height = height;}
-   const ctx = cv.getContext('2d');
-   if (!ctx) return;
-   ctx.fillStyle = '#070a12'; ctx.fillRect(0, 0, width, height);
-   const scale = Math.min(width / frame.w, height / frame.h), dw = frame.w * scale, dh = frame.h * scale;
-   ctx.drawImage(image, frame.x, frame.y, frame.w, frame.h, (width - dw) / 2, (height - dh) / 2, dw, dh);
-   cv.dataset.nativeFrame = String(index);
-   cv.dataset.quest = scene.id;
-  };
-  let currentFrame = range.start;
-  const observer = new ResizeObserver(() => paint(currentFrame));
-  if (canvas.current) observer.observe(canvas.current);
-  const onVisibility = () => {previous = 0;};
-  document.addEventListener('visibilitychange', onVisibility);
-  const captureKey = (event: KeyboardEvent) => {
-   if (event.ctrlKey || event.metaKey || event.altKey || /^F\d+$/.test(event.key)) return;
-   if (event.key === 'Tab') {
-    const buttons = Array.from(dialog.current?.querySelectorAll<HTMLButtonElement>('button:not(:disabled)') || []);
-    if (!buttons.length) {event.preventDefault(); return;}
-    const target = cinematicTabTarget(event.type, event.shiftKey, buttons.indexOf(document.activeElement as HTMLButtonElement), buttons.length);
-    if (target !== null) {event.preventDefault(); buttons[target].focus();}
-    event.stopImmediatePropagation();
-    return;
+  const captureKey=(event:KeyboardEvent)=>{
+   if(!questVideoCapturesKeyV34(event.key,event))return;
+   if(event.key==='Tab'){
+    const buttons=Array.from(dialog.current?.querySelectorAll<HTMLButtonElement>('button:not(:disabled)')||[]);
+    const next=questVideoTabTargetV34(event.type,event.shiftKey,buttons.indexOf(document.activeElement as HTMLButtonElement),buttons.length);
+    if(!buttons.length||next!==null){event.preventDefault();if(next!==null)buttons[next].focus();}
+    event.stopImmediatePropagation();return;
    }
-   // The game uses Enter to advance dialogue. This modal consumes it before the game handler.
-   event.preventDefault(); event.stopImmediatePropagation();
-   if ((event.key === 'Enter' || event.key === ' ') && !event.repeat && event.type === 'keydown' && event.target instanceof HTMLButtonElement && dialog.current?.contains(event.target) && !event.target.disabled) event.target.click();
+   event.preventDefault();event.stopImmediatePropagation();
+   if(event.type!=='keydown'||event.repeat)return;
+   if(event.key==='Escape'){finish(true);return;}
+   if((event.key==='Enter'||event.key===' ')&&event.target instanceof HTMLButtonElement&&dialog.current?.contains(event.target)){if(!event.target.disabled)event.target.click();return;}
+   if(event.key===' '&&!viewRef.current.finished)togglePlayback();
   };
-  window.addEventListener('keydown', captureKey, true);
-  window.addEventListener('keyup', captureKey, true);
-  const load = (atlas: number) => new Promise<void>((resolve, reject) => {
-   const image = new Image(); image.decoding = 'async'; images.set(atlas, image);
-   image.onload = () => resolve(); image.onerror = () => reject(new Error('A cena não pôde ser carregada.'));
-   image.src = scene.atlases[atlas].src;
-  });
-  void Promise.all(requiredAtlases.map(load)).then(() => {
-   if (disposed) return;
-   paint(currentFrame);
-   setView(v => ({...v, ready: true}));
-   const tick = (now: number) => {
-    if (disposed) return;
-    const delta = previous ? Math.max(0, now - previous) : 0; previous = now;
-    const state = playback.current;
-    const next = cinematicPlaybackStep(state.elapsedMs, delta, range.durationMs, state.paused, document.hidden);
-    state.elapsedMs = next.elapsedMs; state.finished = next.finished;
-    const index = cinematicFrameAt(scene, state.elapsedMs, sceneAct);
-    if (index !== currentFrame || next.finished) {
-     currentFrame = index; paint(index);
-     setView(v => ({...v, frame: index, finished: next.finished}));
-    }
-    if (!next.finished) raf = requestAnimationFrame(tick);
-   };
-   raf = requestAnimationFrame(tick);
-  }).catch(() => {if (!disposed) setView(v => ({...v, failed: true}));});
-  return () => {
-   disposed = true; cancelAnimationFrame(raf); observer.disconnect();
-   document.removeEventListener('visibilitychange', onVisibility);
-   window.removeEventListener('keydown', captureKey, true); window.removeEventListener('keyup', captureKey, true);
-   for (const image of images.values()) {image.onload = null; image.onerror = null;}
-   images.clear(); restoreFocus?.focus();
+  const containFocus=(event:FocusEvent)=>{if(event.target instanceof Node&&dialog.current&&!dialog.current.contains(event.target)){const first=dialog.current.querySelector<HTMLButtonElement>('button:not(:disabled)');(first||dialog.current).focus();}};
+  window.addEventListener('keydown',captureKey,true);window.addEventListener('keyup',captureKey,true);document.addEventListener('focusin',containFocus);
+  return()=>{window.removeEventListener('keydown',captureKey,true);window.removeEventListener('keyup',captureKey,true);document.removeEventListener('focusin',containFocus);if(restore?.isConnected)restore.focus();};
+ },[portalTarget]);
+
+ useEffect(()=>{
+  if(!scene||!portalTarget||!video.current)return;
+  const media=video.current,motion=matchMedia('(prefers-reduced-motion: reduce)'),range=questVideoRangeV34(scene,sceneAct);
+  let disposed=false,failedGeneration=false,metadataValid=false,wantAutoplay=!motion.matches&&!document.hidden,watchdog=0,frameRequest=0;
+  resolved.current=false;setView({...initialView,reduced:motion.matches,elapsed:range.startSeconds});
+  media.muted=true;media.volume=0;media.playbackRate=1;
+  const clearWatchdog=()=>{window.clearTimeout(watchdog);watchdog=0;};
+  const fail=()=>{if(disposed)return;failedGeneration=true;wantAutoplay=false;clearWatchdog();media.pause();setView(v=>({...v,ready:false,failed:true,playing:false,buffering:false,finished:false}));};
+  const watchLoading=()=>{if(!watchdog)watchdog=window.setTimeout(fail,scene.loadTimeoutMs);};
+  const completeRange=()=>{
+   if(disposed||failedGeneration||!metadataValid||viewRef.current.finished)return;
+   clearWatchdog();cancelAnimationFrame(frameRequest);media.pause();
+   // A preview holds its last native frame; the full film retains the browser's decoded final frame.
+   if(sceneAct!==undefined&&!media.ended)media.currentTime=Math.max(range.startSeconds,range.endSeconds-1/scene.fps);
+   media.dataset.nativeFrame=String(range.endFrame-1);
+   setView(v=>({...v,playing:false,buffering:false,finished:true,elapsed:range.endSeconds}));
   };
- }, [scene, sceneAct, retry, portalTarget]);
+  const updateTime=()=>{
+   if(disposed||failedGeneration||!metadataValid)return;
+   if(sceneAct!==undefined&&media.currentTime>=range.endSeconds-1e-6){completeRange();return;}
+   const elapsed=viewRef.current.finished?range.endSeconds:Math.min(range.endSeconds,Math.max(range.startSeconds,media.currentTime||0));
+   media.dataset.nativeFrame=String(Math.min(range.endFrame-1,questVideoFrameV34(scene,elapsed)));
+   setView(v=>Math.abs(v.elapsed-elapsed)<.04?v:{...v,elapsed});
+  };
+  const trackFrame=()=>{updateTime();if(!disposed&&!media.paused&&!media.ended&&!viewRef.current.finished)frameRequest=requestAnimationFrame(trackFrame);};
+  const play=()=>{
+   if(disposed||failedGeneration||!viewRef.current.ready||document.hidden)return;
+   if(media.ended||viewRef.current.finished||media.currentTime<range.startSeconds||media.currentTime>=range.endSeconds){media.currentTime=range.startSeconds;setView(v=>({...v,elapsed:range.startSeconds,finished:false}));}
+   media.muted=true;media.volume=0;media.playbackRate=1;
+   void media.play().catch(()=>{if(!disposed&&!failedGeneration)setView(v=>({...v,playing:false,blocked:true}));});
+  };
+  const generationControls={play,pause:()=>media.pause()};controls.current=generationControls;
+  const loadedMetadata=()=>{
+   if(disposed||failedGeneration)return;metadataValid=questVideoDurationMatchesV34(scene,media.duration)&&media.videoWidth>0&&media.videoHeight>0;
+   if(!metadataValid){fail();return;}if(range.startSeconds>0)media.currentTime=range.startSeconds;
+  };
+  const ready=()=>{
+   if(disposed||failedGeneration||!metadataValid||media.readyState<2||media.seeking)return;
+   clearWatchdog();setView(v=>({...v,ready:true,failed:false,buffering:false}));
+   if(wantAutoplay&&!document.hidden){wantAutoplay=false;void media.play().catch(()=>{if(!disposed&&!failedGeneration)setView(v=>({...v,playing:false,blocked:true}));});}
+  };
+  const playing=()=>{
+   if(disposed)return;if(failedGeneration||!metadataValid){media.pause();return;}clearWatchdog();setView(v=>({...v,playing:true,buffering:false,blocked:false,finished:false}));cancelAnimationFrame(frameRequest);frameRequest=requestAnimationFrame(trackFrame);
+  };
+  const paused=()=>{if(disposed)return;wantAutoplay=false;cancelAnimationFrame(frameRequest);if(viewRef.current.ready)clearWatchdog();setView(v=>({...v,playing:false,buffering:false}));};
+  const waiting=()=>{if(disposed||failedGeneration||media.ended||media.paused&&viewRef.current.ready)return;setView(v=>({...v,buffering:true}));watchLoading();};
+  const ended=()=>{if(disposed||failedGeneration||!metadataValid)return;completeRange();};
+  const visibility=()=>{if(document.hidden){wantAutoplay=false;media.pause();}};
+  const reducedMotion=()=>{setView(v=>({...v,reduced:motion.matches}));if(motion.matches){wantAutoplay=false;media.pause();}};
+  const listeners:[string,EventListener][]=[['loadedmetadata',loadedMetadata],['loadeddata',ready],['canplay',ready],['seeked',ready],['playing',playing],['pause',paused],['waiting',waiting],['stalled',waiting],['ended',ended],['error',fail],['timeupdate',updateTime]];
+  for(const[name,listener]of listeners)media.addEventListener(name,listener);
+  document.addEventListener('visibilitychange',visibility);motion.addEventListener('change',reducedMotion);
+  media.load();watchLoading();
+  return()=>{disposed=true;clearWatchdog();cancelAnimationFrame(frameRequest);for(const[name,listener]of listeners)media.removeEventListener(name,listener);document.removeEventListener('visibilitychange',visibility);motion.removeEventListener('change',reducedMotion);media.pause();if(controls.current===generationControls)controls.current=null;};
+ },[scene,sceneAct,portalTarget,retry]);
 
- useEffect(() => {if (view.ready && document.activeElement === dialog.current) playButton.current?.focus();}, [view.ready]);
-
- if (!portalTarget) return null;
- if (!scene) return createPortal(<div className={styles.overlay}><div className={styles.dialog} role="dialog" aria-modal="true" aria-labelledby="quest-film-title"><header className={styles.header}><h2 id="quest-film-title">Cena indisponível</h2></header><div className={styles.narrative}><p>Esta cena não está no registro atual. Você pode voltar à missão.</p></div><footer className={styles.footer}><button autoFocus type="button" onClick={onSkip}>Voltar à missão</button></footer></div></div>, portalTarget);
- const range = cinematicRange(scene, sceneAct);
- const beat = [...scene.captions].reverse().find(beat => beat.startFrame <= view.frame);
- const togglePause = () => {playback.current.paused = !playback.current.paused; setView(v => ({...v, paused: playback.current.paused}));};
- const finish = (skip: boolean) => {if (resolved.current || (!skip && !playback.current.finished)) return; resolved.current = true; skip ? onSkip() : onComplete();};
- return createPortal(<div className={styles.overlay}>
-  <div ref={dialog} tabIndex={-1} className={styles.dialog} role="dialog" aria-modal="true" aria-labelledby="quest-film-title" aria-describedby="quest-film-caption">
-   <header className={styles.header}><div><span className={styles.eyebrow}>Ecos que Escolhem</span><h2 id="quest-film-title">{scene.title}</h2></div><span className={styles.counter} aria-hidden="true">{view.frame - range.start + 1} / {range.end - range.start}</span></header>
-   <div className={styles.screen} aria-busy={!view.ready && !view.failed}>
-    <canvas ref={canvas} aria-hidden="true"/>
-    {!view.ready && <div className={styles.loading} role="status">{view.failed ? <>Não foi possível carregar esta cena.<button type="button" onClick={() => setRetry(v => v + 1)}>Tentar novamente</button></> : 'Preparando a cena…'}</div>}
-    <span className={styles.srOnly}>Quadro {view.frame - range.start + 1} da cena {scene.title}.</span>
+ useEffect(()=>{if(view.ready&&document.activeElement===dialog.current)playButton.current?.focus();},[view.ready]);
+ if(!portalTarget)return null;
+ if(!scene)return createPortal(<div className={styles.overlay}><div ref={dialog} tabIndex={-1} className={styles.dialog} role="dialog" aria-modal="true" aria-labelledby={titleId}><header className={styles.header}><h2 id={titleId}>Cena indisponível</h2></header><div className={styles.screen}><p className={styles.loading}>Esta cena não está no registro atual.</p></div><footer className={styles.footer}><button type="button" onClick={()=>finish(true)}>{replay?'Voltar a Cenas':'Voltar à missão'}</button></footer></div></div>,portalTarget);
+ const range=questVideoRangeV34(scene,sceneAct),elapsed=Math.max(0,view.elapsed-range.startSeconds),progress=Math.min(100,elapsed/range.durationSeconds*100);
+ const hint=view.failed?'Você pode tentar novamente ou voltar.':view.finished?replay?'Reveja a cena ou volte a Cenas.':'Relato concluído. Continue sua aventura.':view.blocked?'Selecione Reproduzir para iniciar a cena.':view.reduced&&!view.playing?'Movimento reduzido: reproduza quando quiser.':!view.playing&&view.ready?'Cena pausada. Espaço para reproduzir.':'Espaço para pausar · Esc para voltar';
+ return createPortal(<div className={styles.overlay} data-quest-cinematic="v34" data-quest={scene.id}>
+  <div ref={dialog} tabIndex={-1} className={styles.dialog} role="dialog" aria-modal="true" aria-labelledby={titleId} aria-describedby={captionId+' '+hintId}>
+   <header className={styles.header}><div><span className={styles.eyebrow}>Ecos que Escolhem</span><h2 id={titleId}>{scene.title}</h2></div><span className={styles.counter}>{questVideoClockV34(range.durationSeconds)}</span></header>
+   <div className={styles.screen} aria-busy={(!view.ready||view.buffering)&&!view.failed}>
+    <video ref={video} className={styles.video} src={scene.src} poster={scene.poster} muted playsInline preload="auto" controls={false} disablePictureInPicture data-native-frame={range.startFrame} data-fps={scene.fps} aria-label={'Cena: '+scene.title}>Seu navegador não conseguiu reproduzir este vídeo.</video>
+    {(!view.ready||view.failed)&&<div className={styles.loading} role={view.failed?'alert':'status'}><p>{view.failed?'Não foi possível preparar esta cena.':'Preparando a cena…'}</p>{view.failed&&<button type="button" onClick={()=>setRetry(v=>v+1)}>Tentar novamente</button>}</div>}
+    {view.ready&&view.buffering&&<div className={styles.buffering} role="status">Preparando o próximo trecho…</div>}
    </div>
-   <div className={styles.narrative}><div className={styles.actors} aria-label={`Participação: ${scene.actors.join(', ')}`}>{scene.avatars.map(avatar => <img key={avatar.src} src={avatar.src} alt={avatar.name} width="44" height="44"/>)}</div><p id="quest-film-caption" aria-live="polite">{caption || beat?.text}</p></div>
-   <footer className={styles.footer}><div className={styles.controls}>
-    <button ref={playButton} type="button" onClick={togglePause} disabled={!view.ready || view.finished}>{view.finished ? 'Filme concluído' : view.paused ? 'Reproduzir' : 'Pausar'}</button>
-    <button type="button" onClick={() => finish(true)}>Pular cena</button>
-   </div><span className={styles.hint}>{view.reduced ? 'Quadros sem transições. Reproduza quando quiser.' : view.finished ? 'A escolha continua com você.' : 'A cena pausa quando você sai desta tela.'}</span><button className={styles.continue} type="button" onClick={() => finish(false)} disabled={!view.finished}>Continuar</button></footer>
+   <div className={styles.narrative}><div className={styles.actors} aria-label={'Participação: '+scene.actors.join(', ')}>{scene.avatars.map(avatar=><img key={avatar.src} src={avatar.src} alt={avatar.name} width="44" height="44"/>)}</div><p id={captionId} aria-live="polite">{caption||questVideoCaptionV34(scene,Math.max(range.startSeconds,view.elapsed))}</p></div>
+   <footer className={styles.footer}><div className={styles.timeline}><progress max={100} value={progress} aria-label="Progresso da cena"/><span aria-hidden="true">{questVideoClockV34(elapsed)} / {questVideoClockV34(range.durationSeconds)}</span></div><div className={styles.footerRow}><div className={styles.controls}>
+    <button ref={playButton} type="button" onClick={togglePlayback} disabled={!view.ready||view.failed}>{view.finished?'Repetir cena':view.playing?'Pausar':'Reproduzir'}</button>
+    <button type="button" onClick={()=>finish(true)}>{replay?'Voltar a Cenas':'Pular cena'}</button>
+   </div><p id={hintId} className={styles.hint} aria-live="polite">{hint}</p>{!replay&&<button className={styles.continue} type="button" onClick={()=>finish(false)} disabled={!view.finished||!view.ready||view.failed}>Continuar</button>}</div></footer>
   </div>
- </div>, portalTarget);
+ </div>,portalTarget);
 }

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "long-tinta",
+    "refs": [
+      "public/assets/v31/companions/shin/fullbody.png",
+      "public/assets/v31/companions/umbra/fullbody.png",
+      "art-source/v31/cinematics/long-tinta/act-2-source.png"
+    ],
+    "prompt": "Use case: illustration-story. Asset: first keyframe of a premium 16:9 anime cinematic for Éter Anima quest O nome que o mar apagou. Reference1 is canonical Shin, reference2 canonical Umbra; reference3 is ONLY the old quest storyboard for setting and story, do NOT reproduce a grid. Create ONE extremely detailed wide frame: Shin and Umbra beside an open weathered ferry notebook on an oak desk in the academy archive overlooking the moonlit Porto Lumina. Shin is a small chibi BOY, white iridescent hair, blue eyes, white/black/gold ink kimono and black/gold boots. He kneels left of desk with exactly two arms: right hand holds ONE ink brush above the missing ferry emblem, left hand rests plainly on desk edge. Umbra is a chibi BOY, black hair, red eyes, red/black/gold coat, white cravat, black gloves and boots. He stands at right with exactly two arms: left hand holds a blue lantern by its handle, right hand rests visibly on his hip. Both faces and complete limb connections clearly visible, feet separated. Notebook has a faded boat emblem and nonlettered ink traces. Fine black ink bead on brush, damp harbor ropes and ferry visible through arched window, elegant warm lamp/cool moon lighting, intricate brass celestial details, premium Japanese fantasy anime clean contour and precise cel shading matching approved opening. Quiet discovery, emotionally gentle. No text, no speech, no grid, no third arm/hand/leg, no malformed hands or merged figures. Do not change identities or costumes."
+  },
+  {
+    "id": "long-geada",
+    "refs": [
+      "public/assets/v31/companions/mika/fullbody.png",
+      "art-source/v31/cinematics/long-geada/act-2-source.png"
+    ],
+    "prompt": "Use case: illustration-story. Asset: ONE detailed 16:9 anime cinematic keyframe for Éter Anima quest O jardim que guardou o inverno. Reference1 locks canonical Mika identity; reference2 provides old STORY only, never reproduce atlas grid. Mika is a chibi BOY with blond hair, blue eyes, ROUND BLACK GLASSES, blue/gold winter coat with white fur trim, black gloves, two winter boots. Show him kneeling at an ancient root in a beautiful glass herbology conservatory overlooking the moonlit lunar garden, detailed iron arches and flowering branches, premium Japanese fantasy anime clean contours/cel shading. Exactly TWO arms: right gloved hand rests lightly on a frosted root near a glassy silver-blue flower, LEFT hand supports a small empty bowl beside his left knee; limb connections visible, no hidden extra glove. Roots have thin blue frost and salt crystals at their edge, narrow drainage channels, a gardening notebook lies OPEN on a nearby stone stool with botanic nonlettered drawings. Flower frozen in translucent ice, living green veins below it. White gold tiny new seed buds nearby, graceful muted healing blues, reflected lantern warmth, poignant tender mood. High detail crystal refraction and anatomy, original approved loading/cinematic style, NO Disney/3D. One single frame no text, no collage, no extra limbs, no deformed hands, no fire. Preserve canonical boy not girl."
+  },
+  {
+    "id": "long-brasa",
+    "refs": [
+      "art-source/v33/opening/keyframes/05-gabriel.png",
+      "public/assets/v31/companions/dante/fullbody.png"
+    ],
+    "prompt": "Use case: illustration-story. Asset: ONE premium anime 16:9 cinematic keyframe for Éter Anima quest A promessa sob as cinzas. Reference1 locks adult Gabriel, reference2 locks Dante phoenix. NEW environment is ruined ancient forge amid Ashwood charred forest, intact timber shelter behind a freed bronze brazier, early dawn sky, ember-lit carved stone. Gabriel adult athletic white-haired amber-eyed man, black/red/gold long coat, open white shirt, black gloves, dark pants and two boots. He stands left in natural grounded fullbody stance, exactly TWO arms, right hand holds the tip of a snapped chain linked to old brazier, left hand is plainly open near his waist. Dante RIGHT is a red-orange-gold PHOENIX BIRD with golden beak, ruby chest harness, feather crown, feather tail, exactly two AVIAN legs with claws and two folded feather wings. Not a wolf, dragon or human boy. Place a small intact green seed resting in cold ash in FOREGROUND away from active orange embers. Brazier carved abstract NONLETTERED binding pattern visibly cracked, warmth is restrained/protective, no violent explosion. Detailed anime clean contour/cel shading, fine textile/metal/feather texture, warm-cool cinematic depth equal approved v33 opening. ONE single scene no grid, no text, no logos, no supernumerary limbs, no fused hands, no gore."
+  },
+  {
+    "id": "long-trovao",
+    "refs": [
+      "art-source/v33/opening/keyframes/06-max.png",
+      "public/assets/v31/companions/vajra/fullbody.png"
+    ],
+    "prompt": "Use case: illustration-story. Asset: ONE premium detailed 16:9 anime cinematic first frame for Éter Anima quest O sino que não aceitava o silêncio. Reference1 locks adult Max and reference2 canonical chibi BOY Vajra. NEW setting: ruined astronomical observatory at the last hour of night, huge bronze bell, astrolabe of concentric rings, two copper signal conduits fork toward harbor and family houses in distant skyline. Max on LEFT adult pale stitched man, messy black hair amber eyes black/orange ragged longcoat open white shirt gloves darkpants boots. His RIGHT hand grips ONE flat-headed iron nail beside the damaged signal junction; his LEFT arm hangs visibly at his side. Vajra RIGHT boy with blond/black spiky hair golden eyes black/gold sleeveless outfit shorts white sash yellow cape gloves boots. His RIGHT hand steadies a simple copper grounding contact on pedestal and LEFT hand rests on hip. Exactly two arms/hands/legs each, separated silhouettes, no overlap in limbs. Thin contained gold/cyan current present at junction, no wall of lightning, brass signal lanterns dark awaiting restored rhythm; a sealed NONLETTERED envelope beside two transmission branches. Rich anime clean line/cel shade, precise believable anatomy, ornate ruined stone and metal, violet night/gentle dawn contrast. ONE frame no collage, text, extra fingers/limbs or identity drift. Exclude shoulder pet from this shot to focus Max and Vajra."
+  },
+  {
+    "id": "long-nulo",
+    "refs": [
+      "art-source/v33/opening/keyframes/08-orfeu.png"
+    ],
+    "prompt": "Use case: illustration-story. Asset: ONE premium Japanese fantasy anime 16:9 keyframe for Éter Anima quest A última página em branco. Reference locks canonical adult Orfeu. NEW setting is a quiet underground archive vault, ancient stone lectern supporting an open ivory book bound by two rigid chains, pale violet mineral reflections and warm lamps, bright gallery doorway behind. Orfeu brown skin short WHITE hair dark focused eyes athletic muscular adult build, BLACK/GOLD sleeveless martial vest, bandaged forearms, asymmetrical BLUE/GOLD sash, dark pants, two low black/gold shoes. Exactly TWO arms and TWO hands: left bandaged hand rests flat on open book left page, right bandaged hand holds one broken chain link above right page, natural correct anatomy/joint connections. Open page has a rigid abstract black path diagram that is partially canceled by a thin gray-white line, NO letters. His anti-magic is subtle mineral-gray/white cancellation, never blue lightning or fire. A pristine BLANK final ivory leaf peeks beyond the prescribed diagram, intact book memories preserved. Gentle resolve/hope, precise hands, richly detailed paper, stone and textile, clean contour/cel shading equal v33 opening. ONE continuous scene no storyboard grid, no text, no logos, no third arm or leg, no duplicated character."
+  }
+]

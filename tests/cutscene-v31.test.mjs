@@ -1,3 +1,5 @@
+// Historical v31 atlas provenance/timeline checks. These48 painted frames are not a24fps video claim.
+// The SSR smoke additionally loads today's v34 player; no historical asset assertions are replaced.
 import assert from 'node:assert/strict';
 import {readFileSync, writeFileSync, mkdtempSync, existsSync} from 'node:fs';
 import {tmpdir} from 'node:os';
@@ -79,7 +81,8 @@ for(const name of ['react/jsx-runtime','react','react-dom']){
  const url=pathToFileURL(require.resolve(name)).href;
  componentSource=componentSource.replaceAll(`from '${name}'`,`from '${url}'`).replaceAll(`from "${name}"`,`from "${url}"`);
 }
-componentSource=componentSource.replace(/from\s+['"]@\/lib\/art\/questCinematicsV31['"]/g,"from './registry.mjs'").replace(/from\s+['"]\.\/quest-cinematic\.module\.css['"]/g,"from './styles.mjs'");
+writeFileSync(join(out,'registry-v34.mjs'),ts.transpileModule(readFileSync('lib/art/questCinematicsV34.ts','utf8'),{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.ES2022}}).outputText);
+componentSource=componentSource.replace(/from\s+['"]@\/lib\/art\/questCinematicsV31['"]/g,"from './registry.mjs'").replace(/from\s+['"]@\/lib\/art\/questCinematicsV34['"]/g,"from './registry-v34.mjs'").replace(/from\s+['"]\.\/quest-cinematic\.module\.css['"]/g,"from './styles.mjs'");
 writeFileSync(join(out,'styles.mjs'),'export default {};');writeFileSync(join(out,'component.mjs'),componentSource);
 const {QuestCinematic}=await import(pathToFileURL(join(out,'component.mjs')).href);
 for(const questId of [...Object.keys(QUEST_CINEMATICS_V31),'missing-film'])equal(renderToString(createElement(QuestCinematic,{questId,onComplete:()=>{},onSkip:()=>{}})),'','Portal renders safely without browser globals duringSSR');
