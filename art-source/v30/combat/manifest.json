@@ -1,0 +1,242 @@
+{
+  "tool": "built-in imagegen",
+  "pixelPolicy": "Native generated RGBA, only copy or rectangular crop; no pixel paint/resize/mask.",
+  "assets": {
+    "turn_active": {
+      "source": "turn-plates-source.png",
+      "nativeSourceBox": [
+        2,
+        168,
+        1021,
+        342
+      ],
+      "size": [
+        1021,
+        342
+      ],
+      "sha256": "0cf5126576bbc29be54c1b8dca31d0e16f91d20e28b86805c5675a98c7cb3be4",
+      "alpha0Percent": 34.43,
+      "edgePixelsAbove20": 0
+    },
+    "turn_waiting": {
+      "source": "turn-plates-source.png",
+      "nativeSourceBox": [
+        4,
+        617,
+        1017,
+        333
+      ],
+      "size": [
+        1017,
+        333
+      ],
+      "sha256": "ab27128fd27065d44f9c7c74e4aeed18a6421711392b9372074b677452cad2e1",
+      "alpha0Percent": 36.78,
+      "edgePixelsAbove20": 0
+    },
+    "turn_enemy": {
+      "source": "turn-plates-source.png",
+      "nativeSourceBox": [
+        2,
+        1033,
+        1021,
+        339
+      ],
+      "size": [
+        1021,
+        339
+      ],
+      "sha256": "da894ae87bb70d8d269d28e13caf950ccda6010a64d079792b6d724313e24ee2",
+      "alpha0Percent": 37.37,
+      "edgePixelsAbove20": 0
+    },
+    "victory_emblem": {
+      "source": "victory-ui-source.png",
+      "nativeSourceBox": [
+        49,
+        37,
+        926,
+        995
+      ],
+      "size": [
+        926,
+        995
+      ],
+      "sha256": "191312cd41a6e68bd1c45373c15d1a9987a9f72b0d6ec5bd6210757e3da1526d",
+      "alpha0Percent": 46.27,
+      "edgePixelsAbove20": 0
+    },
+    "victory_continue": {
+      "source": "victory-ui-source.png",
+      "nativeSourceBox": [
+        12,
+        1103,
+        1000,
+        300
+      ],
+      "size": [
+        1000,
+        300
+      ],
+      "sha256": "075aaf04d7da531697b9ffd38c7a305bc9092acc5ba83ff5fc607071e0558b9f",
+      "alpha0Percent": 31.82,
+      "edgePixelsAbove20": 0
+    },
+    "victory_celebration": {
+      "source": "victory-celebration-source.png",
+      "size": [
+        1774,
+        887
+      ],
+      "frames": [
+        {
+          "x": 128,
+          "y": 104,
+          "w": 184,
+          "h": 235,
+          "anchorX": 222.0,
+          "anchorY": 222.0
+        },
+        {
+          "x": 478,
+          "y": 45,
+          "w": 352,
+          "h": 363,
+          "anchorX": 665.5,
+          "anchorY": 222.0
+        },
+        {
+          "x": 944,
+          "y": 61,
+          "w": 327,
+          "h": 337,
+          "anchorX": 1108.5,
+          "anchorY": 222.0
+        },
+        {
+          "x": 1383,
+          "y": 26,
+          "w": 329,
+          "h": 384,
+          "anchorX": 1552.0,
+          "anchorY": 222.0
+        },
+        {
+          "x": 24,
+          "y": 454,
+          "w": 409,
+          "h": 388,
+          "anchorX": 222.0,
+          "anchorY": 665.5
+        },
+        {
+          "x": 487,
+          "y": 463,
+          "w": 355,
+          "h": 372,
+          "anchorX": 665.5,
+          "anchorY": 665.5
+        },
+        {
+          "x": 936,
+          "y": 468,
+          "w": 334,
+          "h": 370,
+          "anchorX": 1108.5,
+          "anchorY": 665.5
+        },
+        {
+          "x": 1383,
+          "y": 468,
+          "w": 330,
+          "h": 370,
+          "anchorX": 1552.0,
+          "anchorY": 665.5
+        }
+      ],
+      "measurements": [
+        {
+          "nativeSourceBox": [
+            128,
+            104,
+            184,
+            235
+          ],
+          "alpha0Percent": 46.9,
+          "edgePixelsAbove20": 0
+        },
+        {
+          "nativeSourceBox": [
+            478,
+            45,
+            352,
+            363
+          ],
+          "alpha0Percent": 28.86,
+          "edgePixelsAbove20": 0
+        },
+        {
+          "nativeSourceBox": [
+            944,
+            61,
+            327,
+            337
+          ],
+          "alpha0Percent": 25.83,
+          "edgePixelsAbove20": 0
+        },
+        {
+          "nativeSourceBox": [
+            1383,
+            26,
+            329,
+            384
+          ],
+          "alpha0Percent": 21.1,
+          "edgePixelsAbove20": 0
+        },
+        {
+          "nativeSourceBox": [
+            24,
+            454,
+            409,
+            388
+          ],
+          "alpha0Percent": 9.61,
+          "edgePixelsAbove20": 0
+        },
+        {
+          "nativeSourceBox": [
+            487,
+            463,
+            355,
+            372
+          ],
+          "alpha0Percent": 17.55,
+          "edgePixelsAbove20": 0
+        },
+        {
+          "nativeSourceBox": [
+            936,
+            468,
+            334,
+            370
+          ],
+          "alpha0Percent": 23.75,
+          "edgePixelsAbove20": 0
+        },
+        {
+          "nativeSourceBox": [
+            1383,
+            468,
+            330,
+            370
+          ],
+          "alpha0Percent": 37.94,
+          "edgePixelsAbove20": 0
+        }
+      ],
+      "sha256": "46af9bd1472d8f2d35cdd063969bb17d60f701ce48031f413c2099e3503853dd"
+    }
+  }
+}

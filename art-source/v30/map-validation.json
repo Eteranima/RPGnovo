@@ -1,0 +1,23 @@
+{
+  "checks": 86,
+  "passed": true,
+  "maps": [
+    {
+      "map": "jardim-lunar",
+      "width": 32,
+      "height": 24,
+      "reachableGroundCells": 614,
+      "entities": 9,
+      "allEntitiesReachable": true
+    },
+    {
+      "map": "observatorio",
+      "width": 26,
+      "height": 23,
+      "reachableGroundCells": 455,
+      "entities": 9,
+      "allEntitiesReachable": true
+    }
+  ],
+  "walkability": "Exact engine tile rounding and solid rectangle expansion0.2; cardinal grid connectivity plus exact entity/spawn positions."
+}

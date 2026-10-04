@@ -43,13 +43,13 @@ export class WorldRenderer{
   const bob=moving?Math.sin(this.frame/75)*1:Math.sin(this.frame/600)*.7,crop=SPRITE_FRAMES[key]?.[cell];if(crop){const scale=h/Math.max(1,crop.anchorY-crop.y);c.drawImage(img,crop.x,crop.y,crop.w,crop.h,x-(crop.anchorX-crop.x)*scale,y-(crop.anchorY-crop.y)*scale+bob,crop.w*scale,crop.h*scale);}else c.drawImage(img,(cell%3)*fw,Math.floor(cell/3)*fh,fw,fh,x-w/2,y-h+bob,w,h);c.restore();
  }
  marker(e:Entity){if(this.engine.state.mode==='battle')return;const c=this.ctx,x=e.x*T,y=e.y*T;const active=OBJECTIVES[this.engine.state.stage].target===e.id;
-  if(e.kind==='warp'){const locked=!!e.minStage&&this.engine.state.stage<e.minStage,img=this.images.env_exits,index={patio:0,arquivo:3,porto:2,domo:6,subsolo:4,camara:5,galeria:5,ashwood:1,ashpyre:7,vigilia:1}[e.to||'patio'],crop=ENVIRONMENT_CROPS.exits[index];c.save();this.glow(x,y-32,85,locked?'#9b80b322':'#ffe4a445');c.globalAlpha=locked?.55:1;if(img&&crop){const scale=115/crop.h;c.drawImage(img,crop.x,crop.y,crop.w,crop.h,x-(crop.anchorX-crop.x)*scale,y-(crop.anchorY-crop.y)*scale,crop.w*scale,crop.h*scale);}c.restore();}
+  if(e.kind==='warp'){const locked=!!e.minStage&&this.engine.state.stage<e.minStage,img=this.images.env_exits,index={patio:0,arquivo:3,porto:2,domo:6,subsolo:4,camara:5,galeria:5,ashwood:1,ashpyre:7,vigilia:1,'jardim-lunar':6,observatorio:3}[e.to||'patio'],crop=ENVIRONMENT_CROPS.exits[index];c.save();this.glow(x,y-32,85,locked?'#9b80b322':'#ffe4a445');c.globalAlpha=locked?.55:1;if(img&&crop){const scale=115/crop.h;c.drawImage(img,crop.x,crop.y,crop.w,crop.h,x-(crop.anchorX-crop.x)*scale,y-(crop.anchorY-crop.y)*scale,crop.w*scale,crop.h*scale);}c.restore();}
 
   if(active||['chest','book','rune','sign','event'].includes(e.kind)){const off=e.kind==='npc'?100:e.kind==='boss'?130:e.kind==='book'?95:e.kind==='rune'?115:55;const y2=y-off+Math.sin(this.frame/450)*3;c.save();c.font='bold 24px Georgia';c.textAlign='center';c.shadowColor='#0c1b24';c.shadowBlur=8;c.fillStyle=active?'#edce91':e.kind==='event'?'#d3b3f5':'#b8e0df';c.fillText(active?'◆':e.kind==='book'||e.kind==='event'?'✧':e.kind==='chest'?'◇':'⋄',x,y2);c.restore();}
  }
  entity(e:Entity){const c=this.ctx,x=e.x*T,y=e.y*T;
   if(e.kind==='npc')this.actor(e.asset!,x,y,e.id==='max'?2:0,false);
-  if(e.kind==='mob'||e.kind==='boss'){this.glow(x,y-18,e.kind==='boss'?100:50,'rgba(162,64,215,.2)');const h=e.kind==='boss'?150:90;if(['ashwolf','moth','cinder'].includes(e.asset!)){const img=this.images[e.asset!],crop=SPRITE_FRAMES[`battle_${e.asset}_attack`]?.[0];if(img&&crop){const scale=h/(crop.anchorY-crop.y);c.drawImage(img,crop.x,crop.y,crop.w,crop.h,x-(crop.anchorX-crop.x)*scale,y-(crop.anchorY-crop.y)*scale,crop.w*scale,crop.h*scale);}}else this.image(e.asset!,x,y+Math.sin(this.frame/550)*4,h*.85,h);}
+  if(e.kind==='mob'||e.kind==='boss'){this.glow(x,y-18,e.kind==='boss'?100:50,'rgba(162,64,215,.2)');const h=e.kind==='boss'?150:90;if(['ashwolf','moth','cinder','lunastag','runewarden','astral'].includes(e.asset!)){const img=this.images[e.asset!],crop=SPRITE_FRAMES[e.asset!]?.[0]||SPRITE_FRAMES[`battle_${e.asset}_attack`]?.[0];if(img&&crop){const scale=Math.min(h/(crop.anchorY-crop.y),h*1.5/crop.w);c.drawImage(img,crop.x,crop.y,crop.w,crop.h,x-(crop.anchorX-crop.x)*scale,y-(crop.anchorY-crop.y)*scale,crop.w*scale,crop.h*scale);}}else this.image(e.asset!,x,y+Math.sin(this.frame/550)*4,h*.85,h);}
   if(e.kind==='chest'){c.globalAlpha=this.engine.state.opened.includes(e.id)?.45:1;this.image('dungeon',x,y,75,75,1,'dungeon');c.globalAlpha=1;}
   if(e.kind==='shop')this.image('dungeon',x,y,100,100,0,'dungeon');
   if(e.kind==='book')this.image('dungeon',x,y,112,112,0,'dungeon');
@@ -66,11 +66,11 @@ export class WorldRenderer{
   const wantX=Math.max(w/(2*scale),Math.min(m.width*T-w/(2*scale),focus.x*T));const wantY=Math.max(h/(2*scale),Math.min(m.height*T-h/(2*scale),focus.y*T-(compact?20:60)));
   this.camera.x+=(wantX-this.camera.x)*Math.min(1,paintDt*7);this.camera.y+=(wantY-this.camera.y)*Math.min(1,paintDt*7);
   c.save();c.translate(w/2,h/2);c.scale(scale,scale);c.translate(-this.camera.x,-this.camera.y);
-  c.drawImage(this.ground(m),-T/2,-T/2);this.canvas.dataset.environment=`v26:${m.id}`;
+  c.drawImage(this.ground(m),-T/2,-T/2);this.canvas.dataset.environment=`${['jardim-lunar','observatorio'].includes(m.id)?'v30':'v26'}:${m.id}`;
   const things:{y:number;draw:()=>void}[]=m.props.map((prop,index)=>({y:prop.y,draw:()=>this.scenery(m,prop,index)}));
   const inBattle=this.engine.state.mode==='battle',entities=this.engine.activeEntities().filter(e=>!inBattle||!['mob','boss'].includes(e.kind));things.push(...entities.map(e=>({y:e.y,draw:()=>this.entity(e)})));
   if(!inBattle){
-  things.push({y:p.y,draw:()=>{this.glow(p.x*T,p.y*T,46,'rgba(149,196,215,.12)');c.strokeStyle='rgba(186,216,212,.55)';c.lineWidth=1;c.beginPath();c.ellipse(p.x*T,p.y*T+4,24,8,0,0,Math.PI*2);c.stroke();drawAura(c,cosmeticOf(this.engine.state.progress,this.engine.state.heroes[0].id),p.x*T,p.y*T,time);this.actor(this.engine.state.heroes[0].id==='gabriel'&&this.engine.state.progress.gabrielForm==='lycan'?'gabriel_lycan':this.engine.state.heroes[0].id,p.x*T,p.y*T,this.engine.state.facing,this.engine.state.moving);}});
+  things.push({y:p.y,draw:()=>{this.glow(p.x*T,p.y*T,46,'rgba(149,196,215,.12)');c.strokeStyle='rgba(186,216,212,.55)';c.lineWidth=1;c.beginPath();c.ellipse(p.x*T,p.y*T+4,24,8,0,0,Math.PI*2);c.stroke();drawAura(c,cosmeticOf(this.engine.state.progress,this.engine.leader().id),p.x*T,p.y*T,time);this.actor(this.engine.leader().id==='gabriel'&&this.engine.state.progress.gabrielForm==='lycan'?'gabriel_lycan':this.engine.leader().id,p.x*T,p.y*T,this.engine.state.facing,this.engine.state.moving);}});
   this.canvas.dataset.auras=this.engine.state.heroes.map(h=>this.engine.state.progress.cosmeticEquipment[h.id]||'').join(',');
   }
   things.sort((a,b)=>a.y-b.y).forEach(o=>o.draw());

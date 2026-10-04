@@ -1,0 +1,27 @@
+Éter Anima — regressão dos inimigos e áreas v30
+Repositório: C:\Users\Diego\OneDrive\Documentos\GitHub\RPGnovo
+Suíte: node tests/enemy-v30.test.mjs
+Resultado final: PASS — 4494 verificações
+
+Cobertura realizada
+- As dez famílias lobo, sombra, selo, eco, ashwolf, moth, cinder, lunastag, runewarden e astral usam ultimates próprias com oito poses, fontes distintas e elementos coerentes entre registro, arte e motor.
+- Callbacks reais: carga consumida uma vez; impacto adiado; dano e alvos individual/grupo; estados reais; silêncio bloqueia a ultimate; recuperação avança a fila; congelamento perde a ação; callbacks antigos não reaplicam impacto após recuperação.
+- Contato sincronizado: o impacto real aos 3264 ms corresponde à pose 5 da folha própria. A antecipação inicial de 900 ms está incluída nesta verificação.
+- Jardim Lunar e Observatório Partido: ambas as entradas respeitam stage 5, spawns e interações são alcançáveis pelas colisões reais, fundos finais existem, baús pagam uma vez e cristais restauram vitais/ativam checkpoints e marcos persistentes.
+- Novos inimigos: interação real inicia batalha; vitória aplica XP, créditos e registro de encontro/família; conclusão repetida não duplica recompensas; mobs retornam após o cooldown existente.
+- Guardião do Astrolábio: intro astral-awakening e epílogo astral-silence pertencem ao Observatório. As duas cenas são salvas sem registrar as cenas originais do Selo. O capítulo concluído permanece no stage 5. Vitória, relíquia e cinco fichas do bestiário são concedidas uma vez.
+- As três fases do chefe seguem seus limiares reais de HP e usam corpos próprios; ataques usam seis poses e ultimate oito; fases não retrocedem.
+- Todos os 27 caminhos de assets do módulo inimigo/mundo estão registrados e presentes.
+- 101 recortes de combate (80 de ultimates, 18 de ataques novos, 3 de fases) foram lidos nos PNGs RGBA reais. Retângulos/âncoras finitos, dentro das fontes e com zero pixels alpha>24 nas bordas dos recortes.
+- Geometria de batalha: contorno opaco dos 101 recortes permanece no palco em 1310×235 e 844×205, com formações de um e cinco aliados. Alcance temporário de golpes pode cruzar a faixa do inimigo; não foi confundido com transparência do recorte.
+- Cinemática: o efeito real de UltimateCinematic foi executado a partir de sua AST com canvas simulado. Todas as oito poses de cada família aparecem, sem o antigo limite de três quadros, e o corpo completo permanece dentro do palco/letterbox depois da aproximação inicial de câmera.
+- Todos os 1366 pisos das duas áreas foram pintados pelo método de produção; cada recorte de material/variante permanece dentro da folha nativa.
+
+Regressões encontradas e corrigidas pela integração
+1. Contato dos inimigos estava em .63 do tempo após a antecipação; no impacto real ainda aparecia a pose de liberação. Metadata corrigida para .60 e testada nas dez famílias.
+2. O novo chefe reaproveitava a entrada e o encerramento do Selo original. Agora possui cenas próprias; IDs e mapa das cenas originais foram preservados e testados.
+
+Limites desta suíte
+A verificação automática comprova mecânicas, registros, alpha, recortes e geometria. Anatomia, estilo e composição artística também dependem da revisão visual das fontes e do jogo. A aproximação inicial da câmera é deliberadamente um enquadramento fechado; o teste de corpo completo começa após essa abertura.
+
+Nenhum arquivo compartilhado de produção foi alterado por esta suíte. Sem commit ou push pelo agente de verificação.

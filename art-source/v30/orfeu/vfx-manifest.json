@@ -1,0 +1,168 @@
+{
+  "source": "vfx-source.png",
+  "runtime": "/assets/v30/orfeu/vfx.png",
+  "key": "battle_fx_orfeu",
+  "sha256": "5ab6373c6eecd5d94ffc064d73e7488a3976e99e29cc3367c4ed1440fcb66799",
+  "size": [
+    1536,
+    1024
+  ],
+  "mode": "RGBA",
+  "alphaMin": 0,
+  "alphaMax": 254,
+  "fullyTransparentPixels": 831102,
+  "visibleEdgePixels": 0,
+  "visibleAlphaThreshold": 24,
+  "rowCuts": [
+    0,
+    503,
+    1024
+  ],
+  "rowEmptyCorridorsInclusive": [
+    [
+      481,
+      525
+    ]
+  ],
+  "columnEmptyCorridorsInclusive": [
+    [
+      [
+        491,
+        551
+      ],
+      [
+        1007,
+        1072
+      ]
+    ],
+    [
+      [
+        462,
+        533
+      ],
+      [
+        1011,
+        1065
+      ]
+    ]
+  ],
+  "columns": 3,
+  "rows": 2,
+  "combatFacing": null,
+  "cells": [
+    {
+      "index": 0,
+      "row": 0,
+      "col": 0,
+      "crop": {
+        "x": 23,
+        "y": 28,
+        "w": 470,
+        "h": 455,
+        "anchorX": 258.0,
+        "anchorY": 255.5
+      },
+      "visibleCropEdgePixels": 0,
+      "meaning": "impacto físico"
+    },
+    {
+      "index": 1,
+      "row": 0,
+      "col": 1,
+      "crop": {
+        "x": 550,
+        "y": 74,
+        "w": 459,
+        "h": 384,
+        "anchorX": 779.5,
+        "anchorY": 266.0
+      },
+      "visibleCropEdgePixels": 0,
+      "meaning": "Palma de Ruptura"
+    },
+    {
+      "index": 2,
+      "row": 0,
+      "col": 2,
+      "crop": {
+        "x": 1071,
+        "y": 45,
+        "w": 429,
+        "h": 433,
+        "anchorX": 1285.5,
+        "anchorY": 261.5
+      },
+      "visibleCropEdgePixels": 0,
+      "meaning": "Guarda Nula"
+    },
+    {
+      "index": 3,
+      "row": 1,
+      "col": 0,
+      "crop": {
+        "x": 40,
+        "y": 549,
+        "w": 424,
+        "h": 398,
+        "anchorX": 252.0,
+        "anchorY": 748.0
+      },
+      "visibleCropEdgePixels": 0,
+      "meaning": "silêncio antimágico"
+    },
+    {
+      "index": 4,
+      "row": 1,
+      "col": 1,
+      "crop": {
+        "x": 532,
+        "y": 539,
+        "w": 481,
+        "h": 430,
+        "anchorX": 772.5,
+        "anchorY": 754.0
+      },
+      "visibleCropEdgePixels": 0,
+      "meaning": "ruptura ampla"
+    },
+    {
+      "index": 5,
+      "row": 1,
+      "col": 2,
+      "crop": {
+        "x": 1064,
+        "y": 524,
+        "w": 434,
+        "h": 457,
+        "anchorX": 1281.0,
+        "anchorY": 752.5
+      },
+      "visibleCropEdgePixels": 0,
+      "meaning": "Domínio Nulo"
+    }
+  ],
+  "anchorMethod": "waist axis visually measured; feet from opaque bottom; VFX/icons centered",
+  "pixelTransform": "none; native RGBA copied, icons rectangle crops only",
+  "outsideArtworkAlphaSamples": [
+    {
+      "x": 0,
+      "y": 0,
+      "alpha": 0
+    },
+    {
+      "x": 1535,
+      "y": 1023,
+      "alpha": 0
+    },
+    {
+      "x": 512,
+      "y": 0,
+      "alpha": 0
+    },
+    {
+      "x": 768,
+      "y": 503,
+      "alpha": 0
+    }
+  ]
+}

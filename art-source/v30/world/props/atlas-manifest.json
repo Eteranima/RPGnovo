@@ -1,0 +1,308 @@
+{
+  "id": "props",
+  "kind": "atlas",
+  "group": "world",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-b3043451-fdb3-411e-ae11-781414a2dd7f.png",
+  "selected": "art-source/v30/world/props/atlas-source.png",
+  "runtime": "public/assets/v30/world/props/atlas.png",
+  "width": 1774,
+  "height": 887,
+  "cols": 4,
+  "rows": 2,
+  "sourceSha256": "954591cfd2536f88332d5b4b7c59e79754e8c1c598338130a48d40432ba27703",
+  "runtimeSha256": "954591cfd2536f88332d5b4b7c59e79754e8c1c598338130a48d40432ba27703",
+  "byteIdenticalSourceCopies": true,
+  "alphaZeroPixels": 1092274,
+  "alphaVisibleThresholdForMeasurementOnly": 24,
+  "outerVisible": 0,
+  "rowCuts": [
+    0,
+    441,
+    887
+  ],
+  "frames": [
+    {
+      "x": 67,
+      "y": 64,
+      "w": 357,
+      "h": 357,
+      "anchorX": 248.8,
+      "anchorY": 412
+    },
+    {
+      "x": 508,
+      "y": 65,
+      "w": 345,
+      "h": 358,
+      "anchorX": 675.4,
+      "anchorY": 414
+    },
+    {
+      "x": 920,
+      "y": 109,
+      "w": 348,
+      "h": 306,
+      "anchorX": 1118.2,
+      "anchorY": 406
+    },
+    {
+      "x": 1381,
+      "y": 164,
+      "w": 319,
+      "h": 244,
+      "anchorX": 1529.7,
+      "anchorY": 399
+    },
+    {
+      "x": 91,
+      "y": 479,
+      "w": 302,
+      "h": 345,
+      "anchorX": 274.9,
+      "anchorY": 815
+    },
+    {
+      "x": 547,
+      "y": 479,
+      "w": 257,
+      "h": 345,
+      "anchorX": 676.2,
+      "anchorY": 815
+    },
+    {
+      "x": 937,
+      "y": 515,
+      "w": 343,
+      "h": 304,
+      "anchorX": 1100.7,
+      "anchorY": 810
+    },
+    {
+      "x": 1448,
+      "y": 459,
+      "w": 185,
+      "h": 364,
+      "anchorX": 1535.9,
+      "anchorY": 814
+    }
+  ],
+  "measurements": [
+    {
+      "i": 0,
+      "row": 0,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "w": 466,
+        "h": 441
+      },
+      "visibleBounds": {
+        "x": 75,
+        "y": 72,
+        "w": 341,
+        "h": 341
+      },
+      "visibleEdge": 0,
+      "crop": {
+        "x": 67,
+        "y": 64,
+        "w": 357,
+        "h": 357,
+        "anchorX": 248.8,
+        "anchorY": 412
+      },
+      "anchorMethod": "lowest visible alpha foot band"
+    },
+    {
+      "i": 1,
+      "row": 0,
+      "col": 1,
+      "cell": {
+        "x": 466,
+        "y": 0,
+        "w": 420,
+        "h": 441
+      },
+      "visibleBounds": {
+        "x": 516,
+        "y": 73,
+        "w": 329,
+        "h": 342
+      },
+      "visibleEdge": 0,
+      "crop": {
+        "x": 508,
+        "y": 65,
+        "w": 345,
+        "h": 358,
+        "anchorX": 675.4,
+        "anchorY": 414
+      },
+      "anchorMethod": "lowest visible alpha foot band"
+    },
+    {
+      "i": 2,
+      "row": 0,
+      "col": 2,
+      "cell": {
+        "x": 886,
+        "y": 0,
+        "w": 438,
+        "h": 441
+      },
+      "visibleBounds": {
+        "x": 928,
+        "y": 117,
+        "w": 332,
+        "h": 290
+      },
+      "visibleEdge": 0,
+      "crop": {
+        "x": 920,
+        "y": 109,
+        "w": 348,
+        "h": 306,
+        "anchorX": 1118.2,
+        "anchorY": 406
+      },
+      "anchorMethod": "lowest visible alpha foot band"
+    },
+    {
+      "i": 3,
+      "row": 0,
+      "col": 3,
+      "cell": {
+        "x": 1324,
+        "y": 0,
+        "w": 450,
+        "h": 441
+      },
+      "visibleBounds": {
+        "x": 1389,
+        "y": 172,
+        "w": 303,
+        "h": 228
+      },
+      "visibleEdge": 0,
+      "crop": {
+        "x": 1381,
+        "y": 164,
+        "w": 319,
+        "h": 244,
+        "anchorX": 1529.7,
+        "anchorY": 399
+      },
+      "anchorMethod": "lowest visible alpha foot band"
+    },
+    {
+      "i": 4,
+      "row": 1,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 441,
+        "w": 470,
+        "h": 446
+      },
+      "visibleBounds": {
+        "x": 99,
+        "y": 487,
+        "w": 286,
+        "h": 329
+      },
+      "visibleEdge": 0,
+      "crop": {
+        "x": 91,
+        "y": 479,
+        "w": 302,
+        "h": 345,
+        "anchorX": 274.9,
+        "anchorY": 815
+      },
+      "anchorMethod": "lowest visible alpha foot band"
+    },
+    {
+      "i": 5,
+      "row": 1,
+      "col": 1,
+      "cell": {
+        "x": 470,
+        "y": 441,
+        "w": 400,
+        "h": 446
+      },
+      "visibleBounds": {
+        "x": 555,
+        "y": 487,
+        "w": 241,
+        "h": 329
+      },
+      "visibleEdge": 0,
+      "crop": {
+        "x": 547,
+        "y": 479,
+        "w": 257,
+        "h": 345,
+        "anchorX": 676.2,
+        "anchorY": 815
+      },
+      "anchorMethod": "lowest visible alpha foot band"
+    },
+    {
+      "i": 6,
+      "row": 1,
+      "col": 2,
+      "cell": {
+        "x": 870,
+        "y": 441,
+        "w": 494,
+        "h": 446
+      },
+      "visibleBounds": {
+        "x": 945,
+        "y": 523,
+        "w": 327,
+        "h": 288
+      },
+      "visibleEdge": 0,
+      "crop": {
+        "x": 937,
+        "y": 515,
+        "w": 343,
+        "h": 304,
+        "anchorX": 1100.7,
+        "anchorY": 810
+      },
+      "anchorMethod": "lowest visible alpha foot band"
+    },
+    {
+      "i": 7,
+      "row": 1,
+      "col": 3,
+      "cell": {
+        "x": 1364,
+        "y": 441,
+        "w": 410,
+        "h": 446
+      },
+      "visibleBounds": {
+        "x": 1456,
+        "y": 467,
+        "w": 169,
+        "h": 348
+      },
+      "visibleEdge": 0,
+      "crop": {
+        "x": 1448,
+        "y": 459,
+        "w": 185,
+        "h": 364,
+        "anchorX": 1535.9,
+        "anchorY": 814
+      },
+      "anchorMethod": "lowest visible alpha foot band"
+    }
+  ]
+}

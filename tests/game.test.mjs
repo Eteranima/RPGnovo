@@ -6,7 +6,7 @@ import ts from 'typescript';
 import {tmpdir} from 'node:os';
 import {join} from 'node:path';
 const out=mkdtempSync(join(tmpdir(),'eter-tests-')); 
-for(const name of ['remakeArt','remakeArtSeijiOphelia','remakeArtGabrielMarinMax','remakeArtCarmillaBeatrizAbel','cosmetics','data','engine','sprites','progression','summons','master-mode','carmilla']){const source=readFileSync(`lib/game/${name}.ts`,'utf8').replace(/from '\.\/(\w+)'/g,"from './$1.js'");writeFileSync(`${out}/${name}.js`,ts.transpileModule(source,{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.ES2022}}).outputText);}
+for(const name of ['remakeArt','remakeArtSeijiOphelia','remakeArtGabrielMarinMax','remakeArtCarmillaBeatrizAbel','expansionV30','enemyArtV30','orfeuArtV30','gachaSequence','cosmetics','data','engine','sprites','progression','summons','master-mode','carmilla']){const source=readFileSync(`lib/game/${name}.ts`,'utf8').replace(/from '\.\/(\w+)'/g,"from './$1.js'");writeFileSync(`${out}/${name}.js`,ts.transpileModule(source,{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.ES2022}}).outputText);}
 const {GameEngine,isWalkable,findPath,parseSave,SAVE_KEY}=await import(pathToFileURL(join(out,'engine.js')).href);
 const {MAPS,ASSETS}=await import(pathToFileURL(join(out,'data.js')).href);
 const {ICON_CROPS,battleCrop}=await import(pathToFileURL(join(out,'sprites.js')).href);
@@ -80,6 +80,7 @@ secret=emptyMasterSequence();for(const [key,at] of [['p',100],['p',200],['a',300
 const master=new GameEngine();master.start();master.finishCutscene();master.state.progress.crystals=0;master.state.progress.tokens=0;master.state.credits=0;
 check(master.activateMasterMode()&&master.state.progress.masterMode,'master mode activates and persists in state');
 check(master.drawCharacter(10,'crystal',()=>.99),'ten character pulls work with zero crystals');check(master.state.progress.crystals===0&&master.state.progress.tokens===0,'master pulls consume no crystals or tickets');
+check(!master.drawCosmetics(5,()=>.2),'master mode still blocks aura pulls during a character sequence');while(timers.length)timers.shift()();check(!master.state.summonBusy,'character sequence completes before aura pull');
 check(master.drawCosmetics(5,()=>.2),'cosmetic pulls work with zero tickets');check(master.state.progress.tokens===0,'master cosmetic pulls consume no tickets');
 check(master.buy('potion'),'master purchase works with zero credits');check(master.state.credits===0,'master purchase consumes no credits');
 check(master.buy('shop-1-weapon')&&master.buy('shop-1-weapon'),'master can repeatedly buy equipment with zero credits');

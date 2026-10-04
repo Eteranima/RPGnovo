@@ -15,6 +15,9 @@
 - Diversifique pisos e objetos por cenário com variações estáveis, sem alterar navegação, colisões e travas de missões por razões visuais.
 - Preserve compatibilidade de saves, MAIL, recrutamento e controles acessíveis. Registre prompts, fontes, recortes e validações das novas artes.
 - Remakes de personagens incluem retrato, caminhada, ataque, habilidade, ultimate e efeitos finais do próprio elemento. Novas técnicas têm custo, alvo e impacto reais; preserve identificadores antigos de habilidades e aprendizado nos saves. Respeite as exceções de personagem indicadas pelo usuário em cada pedido.
+- Em batalha, os cinco cards devem caber sem rolagem horizontal, com HP, MP, ultimate e retratos legíveis. Ordem de turnos e vitória usam artes próprias; efeitos acompanham as poses e o momento real de dano.
+- Teclas 1–5 correspondem aos slots fixos do Grupo: na exploração trocam o líder; na batalha selecionam um alvo aliado. A escolha preserva a ordem dos turnos e dos slots.
+- Revelações de personagens e auras acompanham a maior raridade realmente obtida no lote; o resultado em destaque precisa corresponder a ela. Preserve chances, garantias, recursos, recompensas e preferência de movimento reduzido.
 - As ordens explícitas do usuário têm precedência sobre estas diretrizes.
 
 <!-- BEGIN:nextjs-agent-rules -->

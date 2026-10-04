@@ -1,0 +1,196 @@
+{
+  "checks": 3422,
+  "passed": true,
+  "selectedSources": 20,
+  "measuredSourceCells": 129,
+  "ultimateFamilies": 10,
+  "ultimateAnimationFrames": 80,
+  "newAttackFrames": 18,
+  "worldProps": 8,
+  "floorVariants": 16,
+  "bossPhases": 3,
+  "assets": [
+    {
+      "key": "ultimate_lobo",
+      "path": "/assets/v30/enemies/lobo/ultimate.png",
+      "sha256": "3c3cb66fbc9de638eca2b2ed86f1ec1ed4c9f2f36c63eb4e382191f22d9014f4"
+    },
+    {
+      "key": "ultimate_sombra",
+      "path": "/assets/v30/enemies/sombra/ultimate.png",
+      "sha256": "0ba731bf053d510927cc0710ff44c302cc051667286cee8a7f5cdca3014b39ca"
+    },
+    {
+      "key": "ultimate_selo",
+      "path": "/assets/v30/enemies/selo/ultimate.png",
+      "sha256": "90bcccdc6aa4ff9e3d39e1ec852445ce689d646c738fb401a78b0c650afd6ef4"
+    },
+    {
+      "key": "ultimate_ashwolf",
+      "path": "/assets/v30/enemies/ashwolf/ultimate.png",
+      "sha256": "76d995a74ed41cce553d89624923317f8044e9df5795bbc48a95c9f1000511a6"
+    },
+    {
+      "key": "ultimate_moth",
+      "path": "/assets/v30/enemies/moth/ultimate.png",
+      "sha256": "c768d5cd4e9b8a26f2a342668574efaa10e55c8e724afc44f1ae38fd9f048808"
+    },
+    {
+      "key": "ultimate_eco",
+      "path": "/assets/v30/enemies/eco/ultimate.png",
+      "sha256": "722b7b563fd5593a5e9513852c652ab0ab86b21793e1498fa390ea6f7a293249"
+    },
+    {
+      "key": "ultimate_cinder",
+      "path": "/assets/v30/enemies/cinder/ultimate.png",
+      "sha256": "043ff29fb494e18593f988fcae3401eafe30efb40befa344ba255297aa68e809"
+    },
+    {
+      "key": "ultimate_lunastag",
+      "path": "/assets/v30/enemies/lunastag/ultimate.png",
+      "sha256": "dde3ea280b4510d889a3a64edb15e3a948fcd06fc0282016e7606697ca13a0a9"
+    },
+    {
+      "key": "ultimate_runewarden",
+      "path": "/assets/v30/enemies/runewarden/ultimate.png",
+      "sha256": "b60b066a5330ce9cc433dc90eea46a9bdffaac07be7d33376c383c3ce32034c8"
+    },
+    {
+      "key": "ultimate_astral",
+      "path": "/assets/v30/enemies/astral/ultimate.png",
+      "sha256": "f84e554ff7e0a00a5645949c0c2cb56345e27daa934686a4fdb73b16108b8324"
+    },
+    {
+      "key": "battle_lunastag_attack",
+      "path": "/assets/v30/enemies/lunastag/attack.png",
+      "sha256": "fdc44c208ab200068f5553ff3ea603f624dae3928ffe48979fc655de56bf7abe"
+    },
+    {
+      "key": "battle_runewarden_attack",
+      "path": "/assets/v30/enemies/runewarden/attack.png",
+      "sha256": "5e57475a32832b2bf490cb3c1d5e8fcc70c157dbb057027a36b58a681089336c"
+    },
+    {
+      "key": "battle_astral_attack",
+      "path": "/assets/v30/enemies/astral/attack.png",
+      "sha256": "9da97b8beb58c50543a448709dd50fc5d8dd31773a33a7dba1c0806dd9ffc975"
+    },
+    {
+      "key": "lunastag",
+      "path": "/assets/v30/enemies/lunastag/body.png",
+      "sha256": "be4601b0fc222dcc440628dd250f749559c4adbe731ef9a606f19d6c94001424"
+    },
+    {
+      "key": "portrait_lunastag",
+      "path": "/assets/v30/enemies/lunastag/portrait.png",
+      "sha256": "e72ddd7c31fb681d8243f670bb7bb679eafbe0997cc8aa55036efcd38dce4b1f"
+    },
+    {
+      "key": "runewarden",
+      "path": "/assets/v30/enemies/runewarden/body.png",
+      "sha256": "6c24bbd2322f8132f93eaba2c06aa9472c4df5a87b7e97b66e161afa6a26d379"
+    },
+    {
+      "key": "portrait_runewarden",
+      "path": "/assets/v30/enemies/runewarden/portrait.png",
+      "sha256": "b6017e6ad1cfc11b20b730eb18c33ce15300a12ac2da1e838ad6f23291fb4b3f"
+    },
+    {
+      "key": "battle_astral_phases",
+      "path": "/assets/v30/enemies/astral/phases.png",
+      "sha256": "793aecf69f643ddfa048896f7b63ce2e9a410eeaccd986bbc1f6e2a95c453fb8"
+    },
+    {
+      "key": "battle_astral_phase_1",
+      "path": "/assets/v30/enemies/astral/phase-1.png",
+      "sha256": "9239155c21a5632481b71688b6e0528a20ce4abdb8bfff3d35ba246fe7963f1b"
+    },
+    {
+      "key": "battle_astral_phase_2",
+      "path": "/assets/v30/enemies/astral/phase-2.png",
+      "sha256": "86dbf709896a9cce59b729b6eaa0679376cc799b255cc76e296858fb6b7df0bd"
+    },
+    {
+      "key": "battle_astral_phase_3",
+      "path": "/assets/v30/enemies/astral/phase-3.png",
+      "sha256": "62a9b8b5ad363f7e7ea7df7eb31d13f78420c84f79e5513c4e7b1a2c71bef7a1"
+    },
+    {
+      "key": "astral",
+      "path": "/assets/v30/enemies/astral/phase-1.png",
+      "sha256": "9239155c21a5632481b71688b6e0528a20ce4abdb8bfff3d35ba246fe7963f1b"
+    },
+    {
+      "key": "portrait_astral",
+      "path": "/assets/v30/enemies/astral/phase-1.png",
+      "sha256": "9239155c21a5632481b71688b6e0528a20ce4abdb8bfff3d35ba246fe7963f1b"
+    },
+    {
+      "key": "env_floor_v30",
+      "path": "/assets/v30/world/floor/materials.png",
+      "sha256": "1446d5cafe5f68a9cf570fff430250537e63ef887211bf879af65ccf4a4c94e1"
+    },
+    {
+      "key": "v30_world_props",
+      "path": "/assets/v30/world/props/atlas.png",
+      "sha256": "954591cfd2536f88332d5b4b7c59e79754e8c1c598338130a48d40432ba27703"
+    },
+    {
+      "key": "battle_bg_lunar",
+      "path": "/assets/v30/world/lunar/background.png",
+      "sha256": "77dfa052378f0adeb525739a0fc66aa7893a35fa9d5e341ce5e03af3c309b753"
+    },
+    {
+      "key": "battle_bg_observatory",
+      "path": "/assets/v30/world/observatory/background.png",
+      "sha256": "9905e2f7bf86f3f7ec6fc7d56eb1b4f9d450c6879cff43fdaec492d787354e3c"
+    }
+  ],
+  "derived": [
+    {
+      "id": "lunastag",
+      "path": "public/assets/v30/enemies/lunastag/body.png",
+      "source": "art-source/v30/enemies/lunastag/portrait-source.png",
+      "crop": {
+        "x": 93,
+        "y": 1,
+        "w": 895,
+        "h": 1504,
+        "anchorX": 512,
+        "anchorY": 1496
+      },
+      "sha256": "be4601b0fc222dcc440628dd250f749559c4adbe731ef9a606f19d6c94001424",
+      "allRgbaBytesPreserved": true
+    },
+    {
+      "id": "runewarden",
+      "path": "public/assets/v30/enemies/runewarden/body.png",
+      "source": "art-source/v30/enemies/runewarden/portrait-source.png",
+      "crop": {
+        "x": 80,
+        "y": 8,
+        "w": 934,
+        "h": 1506,
+        "anchorX": 312.3,
+        "anchorY": 1505
+      },
+      "sha256": "6c24bbd2322f8132f93eaba2c06aa9472c4df5a87b7e97b66e161afa6a26d379",
+      "allRgbaBytesPreserved": true
+    },
+    {
+      "path": "public/assets/v30/enemies/astral/phase-1.png",
+      "sha256": "9239155c21a5632481b71688b6e0528a20ce4abdb8bfff3d35ba246fe7963f1b",
+      "allRgbaBytesPreserved": true
+    },
+    {
+      "path": "public/assets/v30/enemies/astral/phase-2.png",
+      "sha256": "86dbf709896a9cce59b729b6eaa0679376cc799b255cc76e296858fb6b7df0bd",
+      "allRgbaBytesPreserved": true
+    },
+    {
+      "path": "public/assets/v30/enemies/astral/phase-3.png",
+      "sha256": "62a9b8b5ad363f7e7ea7df7eb31d13f78420c84f79e5513c4e7b1a2c71bef7a1",
+      "allRgbaBytesPreserved": true
+    }
+  ]
+}

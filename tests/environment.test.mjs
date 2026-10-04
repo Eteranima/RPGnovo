@@ -6,7 +6,7 @@ import {pathToFileURL} from 'node:url';
 import ts from 'typescript';
 
 const out=mkdtempSync(join(tmpdir(),'eter-environment-'));
-for(const name of ['remakeArt','remakeArtSeijiOphelia','remakeArtGabrielMarinMax','remakeArtCarmillaBeatrizAbel','cosmetics','data','progression','summons','carmilla','engine','sprites','aura','environmentArt','environment','renderer']){
+for(const name of ['remakeArt','remakeArtSeijiOphelia','remakeArtGabrielMarinMax','remakeArtCarmillaBeatrizAbel','expansionV30','enemyArtV30','orfeuArtV30','gachaSequence','cosmetics','data','progression','summons','carmilla','engine','sprites','aura','environmentArt','environment','renderer']){
  const source=readFileSync(`lib/game/${name}.ts`,'utf8').replace(/from '\.\/(\w+)'/g,"from './$1.js'");
  writeFileSync(join(out,`${name}.js`),ts.transpileModule(source,{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.ES2022}}).outputText);
 }
@@ -15,10 +15,11 @@ const {ENVIRONMENT_ASSETS,ENVIRONMENT_THEMES,ENVIRONMENT_CROPS,FLOOR_ROWS,enviro
 const {WorldRenderer}=await import(pathToFileURL(join(out,'renderer.js')).href);
 let checks=0;const check=(condition,message)=>{assert.ok(condition,message);checks++;};
 const bounds=JSON.parse(readFileSync('art-source/v26/environment/sprite-bounds.json','utf8'));
+const v30Sources={env_floor_v30:'/assets/v30/world/floor/materials.png',v30_world_props:'/assets/v30/world/props/atlas.png'};
 const images={};
 for(const[key,src]of Object.entries(ENVIRONMENT_ASSETS)){
  check(existsSync(`public${src}`),`Generated source exists: ${src}`);
- check(src.includes('/v26/'),`Production environment source is anime v26: ${src}`);
+ check(v30Sources[key]?src===v30Sources[key]:src.includes('/v26/'),`Production source matches its approved anime v26/v30 kit: ${src}`);
  const png=readFileSync(`public${src}`);images[key]={width:png.readUInt32BE(16),height:png.readUInt32BE(20),key};
 }
 for(const[key,metadata]of Object.entries(bounds)){
@@ -30,6 +31,18 @@ for(const[key,metadata]of Object.entries(bounds)){
   for(const other of metadata.crops.slice(index+1))check(!(crop.x<other.x+other.w&&crop.x+crop.w>other.x&&crop.y<other.y+other.h&&crop.y+crop.h>other.y),`${key} source rectangle contains no adjacent sprite`);
  });
 }
+const v30Floor=JSON.parse(readFileSync('art-source/v30/world/floor/materials-manifest.json','utf8'));
+check(images.env_floor_v30.width===v30Floor.width&&images.env_floor_v30.height===v30Floor.height,'v30 floor retains its native source dimensions');
+check(JSON.stringify(FLOOR_ROWS.env_floor_v30)===JSON.stringify(v30Floor.rowCuts),'v30 floor uses all four measured native material rows');
+const v30Props=JSON.parse(readFileSync('art-source/v30/world/props/atlas-manifest.json','utf8'));
+check(images.v30_world_props.width===v30Props.width&&images.v30_world_props.height===v30Props.height,'v30 prop atlas retains its native source dimensions');
+check(v30Props.alphaZeroPixels>1000000,'v30 props have broad measured real alpha transparency');
+check(ENVIRONMENT_CROPS.v30_world_props.length===8&&JSON.stringify(ENVIRONMENT_CROPS.v30_world_props)===JSON.stringify(v30Props.frames),'all eight v30 scenery crops and anchors equal their native measurements');
+v30Props.frames.forEach((crop,index)=>{
+ check(crop.x>0&&crop.y>0&&crop.x+crop.w<v30Props.width&&crop.y+crop.h<v30Props.height,'v30 scenery stays fully inside its atlas');
+ check(v30Props.measurements[index].visibleEdge===0,'v30 scenery has transparent gutters at each measured cell edge');
+ for(const other of v30Props.frames.slice(index+1))check(!(crop.x<other.x+other.w&&crop.x+crop.w>other.x&&crop.y<other.y+other.h&&crop.y+crop.h>other.y),'v30 crop contains no neighboring scenery');
+});
 check(ENVIRONMENT_CROPS.signboards.length===12,'All twelve sign identities have separate anime artwork');
 const calls=[],fills=[];
 const context={drawImage:(...args)=>calls.push(args),fillRect:(...args)=>fills.push(args),translate:()=>{},createLinearGradient:()=>({addColorStop:()=>{}})};
@@ -78,4 +91,4 @@ check(WorldRenderer.prototype.ground.call(renderer,{...MAPS.patio,rows:bridgeRow
 check(WorldRenderer.prototype.ground.call(renderer,MAPS.patio)!==floor,'Bridge expiry repaints ground');
 for(const map of Object.values(MAPS))WorldRenderer.prototype.ground.call(renderer,map);
 check(renderer.groundCache.size===3,'Floor cache is bounded at three maps');
-console.log(`${checks} environment checks passed: 10 anime maps, 72 floor/wall-cap swatches, 75 measured transparent sprites, continuous wall caps with exposed facades, no opaque wall fill or rectangular wall shadow, complete prop coverage, stable variation and bridge cache invalidation.`);
+console.log(`${checks} environment checks passed: ${Object.keys(MAPS).length} anime maps, approved v26/v30 floor and scenery sources, isolated native crops, continuous wall caps with exposed facades, no opaque wall fill or rectangular wall shadow, complete prop coverage, stable variation and bridge cache invalidation.`);

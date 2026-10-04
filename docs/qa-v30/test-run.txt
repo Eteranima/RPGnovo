@@ -1,0 +1,88 @@
+Audio checks passed: persisted mute/volume, title/maps/battle/remount, native autoplay, crossfade cancellation, delayed play, browser gesture policy, SFX and Web Audio interruption.
+✔ C:\Users\Diego\OneDrive\Documentos\GitHub\RPGnovo\tests\audio.test.mjs (6894.0834ms)
+1978 battle-layout checks passed: 300 native-alpha idle placements, 1–5 allies, all 9 heroes plus Gabriel Lycan, two canvas sizes, ±1.5px idle sway, ground names and enemy separation. Minimum name gap 11.74px at lowest sway; enemy gap 84.51px. Temporary spell and weapon reach are outside this idle-body contract.
+✔ C:\Users\Diego\OneDrive\Documentos\GitHub\RPGnovo\tests\battle-layout.test.mjs (8645.2573ms)
+Carmilla transfer: lowest HP ratio, ties, 15% self-damage, no resurrection.
+✔ C:\Users\Diego\OneDrive\Documentos\GitHub\RPGnovo\tests\carmilla.test.mjs (2511.4918ms)
+189 verificações de minimapas lógicos, viagem, eventos e cosméticos passaram.
+✔ C:\Users\Diego\OneDrive\Documentos\GitHub\RPGnovo\tests\echoes.test.mjs (7393.1691ms)
+Element audit passed: all 9 playable heroes, basic attacks, skills, ultimates, Earth stone control, Ice control and legacy saves.
+✔ C:\Users\Diego\OneDrive\Documentos\GitHub\RPGnovo\tests\elements.test.mjs (7665.9055ms)
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: jardim-lunar paints artwork, including illustrated wall modules
+    at check (file:///C:/Users/Diego/OneDrive/Documentos/GitHub/RPGnovo/tests/environment.test.mjs:16:55)
+    at file:///C:/Users/Diego/OneDrive/Documentos/GitHub/RPGnovo/tests/environment.test.mjs:43:3 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '==',
+  diff: 'simple'
+}
+
+Node.js v24.18.1
+✖ C:\Users\Diego\OneDrive\Documentos\GitHub\RPGnovo\tests\environment.test.mjs (6461.5382ms)
+170 expansion checks passed: MP3 mapping and playback, ten maps, gear tiers, canonical NPC quests, unique encounters, optional boss and compatible saves.
+✔ C:\Users\Diego\OneDrive\Documentos\GitHub\RPGnovo\tests\expansion.test.mjs (5945.5987ms)
+1231 gacha v30 checks passed: odds/pity/rewards, stable maximum spotlight, busy/payment atomicity, reload/reset timer isolation and bounded cinematic phases.
+✔ C:\Users\Diego\OneDrive\Documentos\GitHub\RPGnovo\tests\gacha-v30.test.mjs (7024.281ms)
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: asset ultimate_lunastag exists
+    at check (file:///C:/Users/Diego/OneDrive/Documentos/GitHub/RPGnovo/tests/game.test.mjs:16:51)
+    at file:///C:/Users/Diego/OneDrive/Documentos/GitHub/RPGnovo/tests/game.test.mjs:25:48 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '==',
+  diff: 'simple'
+}
+
+Node.js v24.18.1
+✖ C:\Users\Diego\OneDrive\Documentos\GitHub\RPGnovo\tests\game.test.mjs (5835.315ms)
+201 Orfeu checks passed: neutral physical mechanics, impact/resource/control rules, compatible saves, personal FX routing and 26 isolated native frames.
+✔ C:\Users\Diego\OneDrive\Documentos\GitHub\RPGnovo\tests\orfeu.test.mjs (6884.8053ms)
+202 origin checks passed: five solo routes, lore, reachable exits, gated recruitment, party capacity, combat and saved identity.
+✔ C:\Users\Diego\OneDrive\Documentos\GitHub\RPGnovo\tests\origins.test.mjs (5927.8052ms)
+214 party hotkey v30 checks passed: real 1–5/Tab bindings, stable party order/vitals/limits, mode/menu/repeat guards, battle target/queue isolation and leader save normalization.
+✔ C:\Users\Diego\OneDrive\Documentos\GitHub\RPGnovo\tests\party-hotkeys-v30.test.mjs (5365.9055ms)
+84 progression checks passed: migration, shop, skill tree, field navigation, quests, achievements, milestones, gear, sets, statuses and cinematics.
+✔ C:\Users\Diego\OneDrive\Documentos\GitHub\RPGnovo\tests\progression.test.mjs (5025.9559ms)
+MAIL once + 30 summons + playable 5-star selector, five recruitable duels, Carmilla combat/save and rotating loading tips: OK
+✔ C:\Users\Diego\OneDrive\Documentos\GitHub\RPGnovo\tests\recruit-mail-carmilla.test.mjs (5504.2323ms)
+1760 remake-art checks passed: 384 isolated native frames, all remade kits, personal icons/faces, timing, catalog and explicit exceptions.
+✔ C:\Users\Diego\OneDrive\Documentos\GitHub\RPGnovo\tests\remake-art.test.mjs (16227.4902ms)
+Remake mechanics passed: eight signature techniques, impact timing, resource/silence gates, living targets, seven renewed ultimates and legacy learned IDs.
+✔ C:\Users\Diego\OneDrive\Documentos\GitHub\RPGnovo\tests\remake.test.mjs (5302.5725ms)
+49 v1.4 checks passed: recruitment, party, repeat purchases, auto equipment, aura, save migration and all ultimates.
+✔ C:\Users\Diego\OneDrive\Documentos\GitHub\RPGnovo\tests\v14.test.mjs (5302.8829ms)
+90 v1.7 checks passed: new bestiary sets, boss relics, real bonuses, skills, field recovery, saves and ultimate sequencing.
+✔ C:\Users\Diego\OneDrive\Documentos\GitHub\RPGnovo\tests\v17.test.mjs (6216.6183ms)
+108 v1.8 checks passed: leader, quick slots, timed exploration, safe expiry, batch gacha, contextual rewards, fast travel, boss phases and generated assets/sounds.
+✔ C:\Users\Diego\OneDrive\Documentos\GitHub\RPGnovo\tests\v18.test.mjs (5658.8832ms)
+282 v1.9 checks passed: every enemy ultimate, delayed impact, controls locked, status identity, persisted lycan, unique spell sheets and complete frame anchors.
+✔ C:\Users\Diego\OneDrive\Documentos\GitHub\RPGnovo\tests\v19.test.mjs (5787.7109ms)
+ℹ tests 20
+ℹ suites 0
+ℹ pass 18
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 36556.1247
+
+✖ failing tests:
+
+test at tests\environment.test.mjs:1:1
+✖ C:\Users\Diego\OneDrive\Documentos\GitHub\RPGnovo\tests\environment.test.mjs (6461.5382ms)
+  'test failed'
+
+test at tests\game.test.mjs:1:1
+✖ C:\Users\Diego\OneDrive\Documentos\GitHub\RPGnovo\tests\game.test.mjs (5835.315ms)
+  'test failed'

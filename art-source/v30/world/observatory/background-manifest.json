@@ -1,0 +1,62 @@
+{
+  "id": "observatory",
+  "kind": "background",
+  "group": "world",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-09d1cbf6-f8ec-447c-b560-c750c0816aec.png",
+  "selected": "art-source/v30/world/observatory/background-source.png",
+  "runtime": "public/assets/v30/world/observatory/background.png",
+  "width": 1672,
+  "height": 941,
+  "cols": 1,
+  "rows": 1,
+  "sourceSha256": "9905e2f7bf86f3f7ec6fc7d56eb1b4f9d450c6879cff43fdaec492d787354e3c",
+  "runtimeSha256": "9905e2f7bf86f3f7ec6fc7d56eb1b4f9d450c6879cff43fdaec492d787354e3c",
+  "byteIdenticalSourceCopies": true,
+  "alphaZeroPixels": 0,
+  "alphaVisibleThresholdForMeasurementOnly": 24,
+  "outerVisible": 5222,
+  "rowCuts": [
+    0,
+    941
+  ],
+  "frames": [
+    {
+      "x": 0,
+      "y": 0,
+      "w": 1672,
+      "h": 941,
+      "anchorX": 835.5,
+      "anchorY": 940
+    }
+  ],
+  "measurements": [
+    {
+      "i": 0,
+      "row": 0,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "w": 1672,
+        "h": 941
+      },
+      "visibleBounds": {
+        "x": 0,
+        "y": 0,
+        "w": 1672,
+        "h": 941
+      },
+      "visibleEdge": 5222,
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "w": 1672,
+        "h": 941,
+        "anchorX": 835.5,
+        "anchorY": 940
+      },
+      "anchorMethod": "lowest visible alpha foot band"
+    }
+  ]
+}

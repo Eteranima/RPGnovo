@@ -1,0 +1,14 @@
+2047 battle-layout checks passed: 300 native-alpha idle placements, 1–5 allies, all 9 heroes plus Gabriel Lycan, two canvas sizes, ±1.5px idle sway, ground names and enemy separation. Minimum name gap 11.74px at lowest sway; enemy gap 84.51px. Temporary spell and weapon reach are outside this idle-body contract.
+✔ tests\battle-layout.test.mjs (17422.9786ms)
+33206 environment checks passed: 12 anime maps, approved v26/v30 floor and scenery sources, isolated native crops, continuous wall caps with exposed facades, no opaque wall fill or rectangular wall shadow, complete prop coverage, stable variation and bridge cache invalidation.
+✔ tests\environment.test.mjs (17735.7396ms)
+871 baseline checks passed: navigable maps, collision, quest sequence, full chapter, combat, inventory, save/resume, defeat and respawn.
+✔ tests\game.test.mjs (18040.3088ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 18217.6503

@@ -1,0 +1,10 @@
+{
+  "id": "runewarden",
+  "kind": "attack",
+  "group": "enemies",
+  "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-806f7d08-5ab0-4215-abab-c5141b339f6f.png",
+  "prompt": "Use case: precise-object-edit. Correct reference SIX-pose attack sheet: ALL SIX helmets/blue visor noses must POINT TO THE LEFT and ALL torsos faceLEFT in consistent3/4 view. The reference's top-row visor pointsRIGHT; repair that concrete error. Preserve ivory/gold/navy ceramic knight, sapphire chest, long nib spear and rune book, clean Japanese anime/cel shading. SIX complete figures THREE columns TWO rows canvas1536x1024, sequence0neutral no particles;1anticipation;2ink gather;3 spear thrustLEFT;4 impactLEFT;5recover. Exactly TWOarms/TWOlegs, five armored fingers gripping ONE spear and ONE book. Entire body+weapon+short ink stroke inside 330x360 central box per512cell, at least80px alpha0 gutters on ALL sides. Shorten spear pose sweep rather than clipping spear or mixing cells. Same adult body height/ground baseline. Closed visor no face. Every visor pointedLEFT, NEVER right. True transparent background and gaps, no matte/cell borders/text/shadowrectangle.",
+  "reason": "Rejected intermediate repair: neighboring contact and/or inconsistent visor direction.",
+  "archive": "art-source/v30/enemies/runewarden/rejected/attack-8.png",
+  "sourceSha256": "db87b913443174b9293c5d76d53436a7ea4f4c4afd0dddf7d690c029a44ed64b"
+}

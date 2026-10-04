@@ -1,0 +1,17 @@
+{
+  "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-2b449232-4703-4ab4-9096-57a271dba049.png",
+  "reference": "C:/Users/Diego/OneDrive/Documentos/GitHub/RPGnovo/art-source/v30/enemies/runewarden/reference-left-idle.png",
+  "crop": {
+    "x": 150,
+    "y": 0,
+    "w": 340,
+    "h": 520
+  },
+  "sourceSha256": "ddf2df854757e6ecd7d1f1bfbefe2943417a48ae8b0bfc6fb029a7591b94f30f",
+  "referenceSha256": "188cece90148151d72355afab48a402e12449f9f56a7510e80c3f1c0c2b40a77",
+  "allRgbaBytesPreserved": true,
+  "usedAsSingleIdentityReferenceFor": [
+    "attack",
+    "ultimate"
+  ]
+}

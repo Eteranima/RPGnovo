@@ -1,0 +1,238 @@
+{
+  "id": "lunastag",
+  "kind": "attack",
+  "group": "enemies",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-f637de41-f7a5-4e10-a60b-e2ebe95f1445.png",
+  "selected": "art-source/v30/enemies/lunastag/attack-source.png",
+  "runtime": "public/assets/v30/enemies/lunastag/attack.png",
+  "width": 1536,
+  "height": 1024,
+  "cols": 3,
+  "rows": 2,
+  "sourceSha256": "fdc44c208ab200068f5553ff3ea603f624dae3928ffe48979fc655de56bf7abe",
+  "runtimeSha256": "fdc44c208ab200068f5553ff3ea603f624dae3928ffe48979fc655de56bf7abe",
+  "byteIdenticalSourceCopies": true,
+  "alphaZeroPixels": 1049742,
+  "alphaVisibleThresholdForMeasurementOnly": 24,
+  "outerVisible": 0,
+  "rowCuts": [
+    0,
+    535,
+    1024
+  ],
+  "frames": [
+    {
+      "x": 86,
+      "y": 48,
+      "w": 336,
+      "h": 455,
+      "anchorX": 248.7,
+      "anchorY": 494
+    },
+    {
+      "x": 563,
+      "y": 118,
+      "w": 421,
+      "h": 382,
+      "anchorX": 761,
+      "anchorY": 491
+    },
+    {
+      "x": 1085,
+      "y": 43,
+      "w": 394,
+      "h": 465,
+      "anchorX": 1304.8,
+      "anchorY": 499
+    },
+    {
+      "x": 44,
+      "y": 617,
+      "w": 477,
+      "h": 329,
+      "anchorX": 466.7,
+      "anchorY": 937
+    },
+    {
+      "x": 562,
+      "y": 595,
+      "w": 488,
+      "h": 350,
+      "anchorX": 880.3,
+      "anchorY": 936
+    },
+    {
+      "x": 1096,
+      "y": 562,
+      "w": 405,
+      "h": 385,
+      "anchorX": 1323.9,
+      "anchorY": 938
+    }
+  ],
+  "measurements": [
+    {
+      "i": 0,
+      "row": 0,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "w": 492,
+        "h": 535
+      },
+      "visibleBounds": {
+        "x": 94,
+        "y": 56,
+        "w": 320,
+        "h": 439
+      },
+      "visibleEdge": 0,
+      "crop": {
+        "x": 86,
+        "y": 48,
+        "w": 336,
+        "h": 455,
+        "anchorX": 248.7,
+        "anchorY": 494
+      },
+      "anchorMethod": "lowest visible alpha foot band"
+    },
+    {
+      "i": 1,
+      "row": 0,
+      "col": 1,
+      "cell": {
+        "x": 492,
+        "y": 0,
+        "w": 542,
+        "h": 535
+      },
+      "visibleBounds": {
+        "x": 571,
+        "y": 126,
+        "w": 405,
+        "h": 366
+      },
+      "visibleEdge": 0,
+      "crop": {
+        "x": 563,
+        "y": 118,
+        "w": 421,
+        "h": 382,
+        "anchorX": 761,
+        "anchorY": 491
+      },
+      "anchorMethod": "lowest visible alpha foot band"
+    },
+    {
+      "i": 2,
+      "row": 0,
+      "col": 2,
+      "cell": {
+        "x": 1034,
+        "y": 0,
+        "w": 502,
+        "h": 535
+      },
+      "visibleBounds": {
+        "x": 1093,
+        "y": 51,
+        "w": 378,
+        "h": 449
+      },
+      "visibleEdge": 0,
+      "crop": {
+        "x": 1085,
+        "y": 43,
+        "w": 394,
+        "h": 465,
+        "anchorX": 1304.8,
+        "anchorY": 499
+      },
+      "anchorMethod": "lowest visible alpha foot band"
+    },
+    {
+      "i": 3,
+      "row": 1,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 535,
+        "w": 541,
+        "h": 489
+      },
+      "visibleBounds": {
+        "x": 52,
+        "y": 625,
+        "w": 461,
+        "h": 313
+      },
+      "visibleEdge": 0,
+      "crop": {
+        "x": 44,
+        "y": 617,
+        "w": 477,
+        "h": 329,
+        "anchorX": 466.7,
+        "anchorY": 937
+      },
+      "anchorMethod": "lowest visible alpha foot band"
+    },
+    {
+      "i": 4,
+      "row": 1,
+      "col": 1,
+      "cell": {
+        "x": 541,
+        "y": 535,
+        "w": 532,
+        "h": 489
+      },
+      "visibleBounds": {
+        "x": 570,
+        "y": 603,
+        "w": 472,
+        "h": 334
+      },
+      "visibleEdge": 0,
+      "crop": {
+        "x": 562,
+        "y": 595,
+        "w": 488,
+        "h": 350,
+        "anchorX": 880.3,
+        "anchorY": 936
+      },
+      "anchorMethod": "lowest visible alpha foot band"
+    },
+    {
+      "i": 5,
+      "row": 1,
+      "col": 2,
+      "cell": {
+        "x": 1073,
+        "y": 535,
+        "w": 463,
+        "h": 489
+      },
+      "visibleBounds": {
+        "x": 1104,
+        "y": 570,
+        "w": 389,
+        "h": 369
+      },
+      "visibleEdge": 0,
+      "crop": {
+        "x": 1096,
+        "y": 562,
+        "w": 405,
+        "h": 385,
+        "anchorX": 1323.9,
+        "anchorY": 938
+      },
+      "anchorMethod": "lowest visible alpha foot band"
+    }
+  ]
+}

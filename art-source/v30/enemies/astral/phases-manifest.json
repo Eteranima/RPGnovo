@@ -1,0 +1,147 @@
+{
+  "id": "astral",
+  "kind": "phases",
+  "group": "enemies",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-79ba2d90-116c-4901-b4b2-6347f160f10b.png",
+  "selected": "art-source/v30/enemies/astral/phases-source.png",
+  "runtime": "public/assets/v30/enemies/astral/phases.png",
+  "width": 1536,
+  "height": 1024,
+  "cols": 3,
+  "rows": 1,
+  "sourceSha256": "793aecf69f643ddfa048896f7b63ce2e9a410eeaccd986bbc1f6e2a95c453fb8",
+  "runtimeSha256": "793aecf69f643ddfa048896f7b63ce2e9a410eeaccd986bbc1f6e2a95c453fb8",
+  "byteIdenticalSourceCopies": true,
+  "alphaZeroPixels": 818213,
+  "alphaVisibleThresholdForMeasurementOnly": 24,
+  "outerVisible": 0,
+  "rowCuts": [
+    0,
+    1024
+  ],
+  "frames": [
+    {
+      "x": 49,
+      "y": 0,
+      "w": 423,
+      "h": 1024,
+      "anchorX": 412.5,
+      "anchorY": 1015
+    },
+    {
+      "x": 472,
+      "y": 0,
+      "w": 510,
+      "h": 1024,
+      "anchorX": 906.3,
+      "anchorY": 1015
+    },
+    {
+      "x": 982,
+      "y": 0,
+      "w": 539,
+      "h": 1024,
+      "anchorX": 1441.1,
+      "anchorY": 1016
+    }
+  ],
+  "measurements": [
+    {
+      "i": 0,
+      "row": 0,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "w": 472,
+        "h": 1024
+      },
+      "visibleBounds": {
+        "x": 57,
+        "y": 6,
+        "w": 414,
+        "h": 1010
+      },
+      "visibleEdge": 0,
+      "crop": {
+        "x": 49,
+        "y": 0,
+        "w": 423,
+        "h": 1024,
+        "anchorX": 412.5,
+        "anchorY": 1015
+      },
+      "anchorMethod": "lowest visible alpha foot band",
+      "nativeCrop": {
+        "path": "public/assets/v30/enemies/astral/phase-1.png",
+        "sha256": "9239155c21a5632481b71688b6e0528a20ce4abdb8bfff3d35ba246fe7963f1b",
+        "allRgbaBytesPreserved": true
+      }
+    },
+    {
+      "i": 1,
+      "row": 0,
+      "col": 1,
+      "cell": {
+        "x": 472,
+        "y": 0,
+        "w": 510,
+        "h": 1024
+      },
+      "visibleBounds": {
+        "x": 474,
+        "y": 6,
+        "w": 504,
+        "h": 1010
+      },
+      "visibleEdge": 0,
+      "crop": {
+        "x": 472,
+        "y": 0,
+        "w": 510,
+        "h": 1024,
+        "anchorX": 906.3,
+        "anchorY": 1015
+      },
+      "anchorMethod": "lowest visible alpha foot band",
+      "nativeCrop": {
+        "path": "public/assets/v30/enemies/astral/phase-2.png",
+        "sha256": "86dbf709896a9cce59b729b6eaa0679376cc799b255cc76e296858fb6b7df0bd",
+        "allRgbaBytesPreserved": true
+      }
+    },
+    {
+      "i": 2,
+      "row": 0,
+      "col": 2,
+      "cell": {
+        "x": 982,
+        "y": 0,
+        "w": 554,
+        "h": 1024
+      },
+      "visibleBounds": {
+        "x": 986,
+        "y": 6,
+        "w": 527,
+        "h": 1011
+      },
+      "visibleEdge": 0,
+      "crop": {
+        "x": 982,
+        "y": 0,
+        "w": 539,
+        "h": 1024,
+        "anchorX": 1441.1,
+        "anchorY": 1016
+      },
+      "anchorMethod": "lowest visible alpha foot band",
+      "nativeCrop": {
+        "path": "public/assets/v30/enemies/astral/phase-3.png",
+        "sha256": "62a9b8b5ad363f7e7ea7df7eb31d13f78420c84f79e5513c4e7b1a2c71bef7a1",
+        "allRgbaBytesPreserved": true
+      }
+    }
+  ]
+}

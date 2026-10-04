@@ -1,0 +1,162 @@
+{
+  "source": "cast-source.png",
+  "runtime": "/assets/v30/orfeu/cast.png",
+  "key": "battle_orfeu_cast",
+  "sha256": "ef70156990e04156911bf4d4b9c7a0d963e344c882fa7bde20d00c6952b840e8",
+  "size": [
+    1536,
+    1024
+  ],
+  "mode": "RGBA",
+  "alphaMin": 0,
+  "alphaMax": 254,
+  "fullyTransparentPixels": 988034,
+  "visibleEdgePixels": 0,
+  "visibleAlphaThreshold": 24,
+  "rowCuts": [
+    0,
+    516,
+    1024
+  ],
+  "rowEmptyCorridorsInclusive": [
+    [
+      486,
+      545
+    ]
+  ],
+  "columnEmptyCorridorsInclusive": [
+    [
+      [
+        448,
+        550
+      ],
+      [
+        953,
+        1038
+      ]
+    ],
+    [
+      [
+        464,
+        547
+      ],
+      [
+        1011,
+        1085
+      ]
+    ]
+  ],
+  "columns": 3,
+  "rows": 2,
+  "combatFacing": "right",
+  "cells": [
+    {
+      "index": 0,
+      "row": 0,
+      "col": 0,
+      "crop": {
+        "x": 56,
+        "y": 90,
+        "w": 394,
+        "h": 397,
+        "anchorX": 230,
+        "anchorY": 484
+      },
+      "visibleCropEdgePixels": 0
+    },
+    {
+      "index": 1,
+      "row": 0,
+      "col": 1,
+      "crop": {
+        "x": 549,
+        "y": 112,
+        "w": 406,
+        "h": 370,
+        "anchorX": 750,
+        "anchorY": 479
+      },
+      "visibleCropEdgePixels": 0
+    },
+    {
+      "index": 2,
+      "row": 0,
+      "col": 2,
+      "crop": {
+        "x": 1037,
+        "y": 103,
+        "w": 486,
+        "h": 385,
+        "anchorX": 1250,
+        "anchorY": 485
+      },
+      "visibleCropEdgePixels": 0
+    },
+    {
+      "index": 3,
+      "row": 1,
+      "col": 0,
+      "crop": {
+        "x": 61,
+        "y": 579,
+        "w": 405,
+        "h": 372,
+        "anchorX": 235,
+        "anchorY": 948
+      },
+      "visibleCropEdgePixels": 0
+    },
+    {
+      "index": 4,
+      "row": 1,
+      "col": 1,
+      "crop": {
+        "x": 546,
+        "y": 544,
+        "w": 467,
+        "h": 406,
+        "anchorX": 740,
+        "anchorY": 947
+      },
+      "visibleCropEdgePixels": 0
+    },
+    {
+      "index": 5,
+      "row": 1,
+      "col": 2,
+      "crop": {
+        "x": 1084,
+        "y": 565,
+        "w": 418,
+        "h": 386,
+        "anchorX": 1250,
+        "anchorY": 948
+      },
+      "visibleCropEdgePixels": 0
+    }
+  ],
+  "anchorMethod": "waist axis visually measured; feet from opaque bottom; VFX/icons centered",
+  "pixelTransform": "none; native RGBA copied, icons rectangle crops only",
+  "outsideArtworkAlphaSamples": [
+    {
+      "x": 0,
+      "y": 0,
+      "alpha": 0
+    },
+    {
+      "x": 1535,
+      "y": 1023,
+      "alpha": 0
+    },
+    {
+      "x": 512,
+      "y": 0,
+      "alpha": 0
+    },
+    {
+      "x": 768,
+      "y": 516,
+      "alpha": 0
+    }
+  ]
+}

@@ -1,4 +1,6 @@
+import {ENEMY_FRAMES_V30} from './enemyArtV30';
 import {REMAKE_FRAMES} from './remakeArt';
+import {ORFEU_FRAMES_V30} from './orfeuArtV30';
 
 export type SpriteCrop={x:number;y:number;w:number;h:number;anchorX:number;anchorY:number};
 // Whole generated sheets, measured source rectangles and consistent ground anchors.
@@ -80,3 +82,7 @@ SPRITE_FRAMES.battle_ava_cast=[{"x":0,"y":0,"w":512,"h":512,"anchorX":268,"ancho
 SPRITE_FRAMES.battle_ava_ultimate=[{"x":0,"y":0,"w":384,"h":512,"anchorX":194,"anchorY":490},{"x":384,"y":0,"w":384,"h":512,"anchorX":581,"anchorY":483},{"x":768,"y":0,"w":384,"h":512,"anchorX":1007,"anchorY":484},{"x":1152,"y":0,"w":384,"h":512,"anchorX":1338,"anchorY":488},{"x":0,"y":512,"w":384,"h":512,"anchorX":188,"anchorY":990},{"x":384,"y":512,"w":384,"h":512,"anchorX":575,"anchorY":990},{"x":768,"y":512,"w":384,"h":512,"anchorX":955,"anchorY":990},{"x":1152,"y":512,"w":384,"h":512,"anchorX":1365,"anchorY":990}];
 
 Object.assign(SPRITE_FRAMES,REMAKE_FRAMES);
+
+Object.assign(SPRITE_FRAMES,ORFEU_FRAMES_V30);
+
+Object.assign(SPRITE_FRAMES,ENEMY_FRAMES_V30);

@@ -1,0 +1,10 @@
+{
+  "id": "runewarden",
+  "kind": "attack",
+  "group": "enemies",
+  "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-6ea71931-bc3d-499b-9be4-2921a0402dfa.png",
+  "prompt": "Use case: stylized-concept. Create a NEW production2D anime JRPG sprite sheet from Image1, the SINGLE LEFT-FACING knight identity. Exact ivory/gold/navy armor, sapphirechest, closedblue visor projectingLEFT, goldrearhornssweptRIGHT, nib spear andrunebook. Clean Japanesefantasy anime/celshading Fate/Mushoku, twoarmstwolegs fivefingers coherentgrips. NONE ofthe reference background: useTRUEalpha0 whereverfigureabsent. Allheadstorsos FACELEFT. Critically SPACIOUS: fullfigure+ENTIREweapon+FX drawnonly inside central280x300 of EACH512squarecell, big 110px transparent horizontal/verticalgutters; keep everyfigure SAMEscale/groundbaseline. Allweapons held mostlydiagonal or vertical, close tobody; LEFTrelease is compact inkdart near hand, NOT longhorizontalshaft/sweepinglongbeam. Completefeet/helmets/speartips, no overlap/cutlimbs. NOT background/matte/borders/text/checkerboard/grid/groundshadow. Canvas1024x1536 tall; EXACTLYSIX poses TWO columns THREE rows. Rowmajor0neutralrestwithclosedbooknoFX;1shortcrouchanticipation;2compactbookgather;3compactdiagonalLEFTjab;4smallLEFTinkimpact;5restrecovery. Emptyclearspacebetweenallfigures at least100px.",
+  "reason": "Rejected vertical attack intermediate: middle-right spear crosses visible gutter.",
+  "archive": "art-source/v30/enemies/runewarden/rejected/attack-12.png",
+  "sourceSha256": "5a30e0c572b47cec65f1fbecb7cb3583d8d617a9d95ca75787b13e6daeb32e3c"
+}

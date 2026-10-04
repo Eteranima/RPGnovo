@@ -5,14 +5,16 @@ import {tmpdir} from 'node:os';
 import {join} from 'node:path';
 import ts from 'typescript';
 const out=mkdtempSync(join(tmpdir(),'eter-expansion-'));
-for(const name of ['remakeArt','remakeArtSeijiOphelia','remakeArtGabrielMarinMax','remakeArtCarmillaBeatrizAbel','cosmetics','data','engine','progression','music','sprites','summons','carmilla'])writeFileSync(`${out}/${name}.js`,ts.transpileModule(readFileSync(`lib/game/${name}.ts`,'utf8').replace(/from '\.\/(\w+)'/g,"from './$1.js'"),{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.ES2022}}).outputText);
+for(const name of ['remakeArt','remakeArtSeijiOphelia','remakeArtGabrielMarinMax','remakeArtCarmillaBeatrizAbel','expansionV30','enemyArtV30','orfeuArtV30','gachaSequence','cosmetics','data','engine','progression','music','sprites','summons','carmilla'])writeFileSync(`${out}/${name}.js`,ts.transpileModule(readFileSync(`lib/game/${name}.ts`,'utf8').replace(/from '\.\/(\w+)'/g,"from './$1.js'"),{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.ES2022}}).outputText);
 const {GameEngine,parseSave}=await import(pathToFileURL(join(out,'engine.js')).href),{MAPS,ASSETS}=await import(pathToFileURL(join(out,'data.js')).href),{SHOP,GEAR,QUESTS,level,spellBonus}=await import(pathToFileURL(join(out,'progression.js')).href),{musicFor,MUSIC,MusicDirector}=await import(pathToFileURL(join(out,'music.js')).href),{SPRITE_FRAMES}=await import(pathToFileURL(join(out,'sprites.js')).href);
 let checks=0;const check=(ok,msg)=>{assert.ok(ok,msg);checks++;};
 const saved=new Map();global.localStorage={setItem:(k,v)=>saved.set(k,v),getItem:k=>saved.get(k)||null};
 const timers=[];global.setTimeout=cb=>{timers.push(cb);return 1;};const flush=()=>{let n=0;while(timers.length&&n++<200)timers.shift()();check(n<200,'animation settles');};
 const fresh=()=>{const g=new GameEngine();g.start();g.finishCutscene();return g;};
 const dialogue=g=>{let n=0;while(g.state.mode==='dialogue'&&n++<12)g.nextDialogue();check(n<12,'NPC dialogue resolves');};
-check(Object.keys(MAPS).sort().join(',')===['patio','arquivo','subsolo','camara','porto','domo','galeria','ashwood','vigilia','ashpyre'].sort().join(','),'ten canonical logical maps remain available');
+const legacyMaps=['patio','arquivo','subsolo','camara','porto','domo','galeria','ashwood','vigilia','ashpyre'];
+check(legacyMaps.every(id=>MAPS[id]),'all ten legacy logical maps remain available');
+check(Object.keys(MAPS).sort().join(',')===[...legacyMaps,'jardim-lunar','observatorio'].sort().join(','),'twelve logical maps include both v30 expansion routes');
 for(const [id,track] of [['patio','academy'],['arquivo','academy'],['porto','academy'],['domo','academy'],['subsolo','below'],['camara','below'],['galeria','below']]){check(musicFor({mode:'world',map:id})===track,`${id} area music`);check(musicFor({mode:'dialogue',map:id})===track,`${id} dialogue keeps area music`);}
 check(musicFor({mode:'start',map:'galeria'})==='start','title always selects Press Start');
 check(musicFor({mode:'battle',map:'subsolo',battle:{boss:false}})==='battle','common battle theme');

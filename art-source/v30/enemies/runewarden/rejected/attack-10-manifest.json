@@ -1,0 +1,10 @@
+{
+  "id": "runewarden",
+  "kind": "attack",
+  "group": "enemies",
+  "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-2b449232-4703-4ab4-9096-57a271dba049.png",
+  "prompt": "Use case: stylized-concept. Create a NEW spacious production sprite sheet from the reference KNIGHT IDENTITY only. DO NOT copy reference sprite scale or placement; the reference has overlapping long weapons. SIX individually isolated fullbody LEFT-FACING rune knights, THREE columns TWO rows, canvas1536x1024 TRANSPARENT. Clean detailed Japanese anime fantasy cel shading. Ivory ceramic armor/goldtrim/navy cape/sapphirechest, closedblue visor beakpointsLEFT inALL6 and goldrearhornsbacktoRIGHT. Twoarmstwolegs,fivefingerhands hold ONE nibheaded spear and ONE runebook. Draw every figure at only320px TOTALheight, with entire weapon+effect widthMAX300px. Cell512x512,120px clear alpha0margin allaround EACHfigure includingouteredges. Weapons kept CLOSE to body and mostly DIAGONAL/foreshortened, not long horizontaloutstretched shafts. SIXframes:0relaxedrest holding spearvertical andclosedbook noFX;1smallcrouchready;2liftbook and compactinkgather;3compactLEFT jab spear angleddiagonallyleft(shortperspective);4smallLEFT inkdartimpact;5returnrest. Compact arm positions/anatomicallycorrect grips, preserve spearidentitybut foreshortenedin3/4perspectiveattack. Stablegroundbaseline and adultbodyheight. No spritecontactsother, no longcapsreachneighbor, all speartips complete, boots/hands complete, no cell clipping. Truealpha0free spaces, no matte/background/grid/text/shadow.",
+  "reason": "Rejected horizontal intermediate sheet for visible-alpha contact between neighbors.",
+  "archive": "art-source/v30/enemies/runewarden/rejected/attack-10.png",
+  "sourceSha256": "ddf2df854757e6ecd7d1f1bfbefe2943417a48ae8b0bfc6fb029a7591b94f30f"
+}

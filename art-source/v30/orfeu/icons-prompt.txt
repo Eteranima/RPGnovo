@@ -1,0 +1,10 @@
+Use case: stylized-concept. FINAL production unique2D animefantasy SKILL ICON atlas Orfeu Bauss SEM ELEMENTO physicalantimagic. Reference costume/style only, no fullperson/face. Sixmaturehandpainted crispclean celshaded symbols, restraineddarkmineral roundeddiamond thinchampagne rim andnavygray opaqueinterior. Motifs ivory/silver/slategray, neutralnoelements/coloredmagicglow.
+1536×1024 RGBA trulytransparentoutsidebuttons. EXACT6separatebuttons3columns×2rows, onecenteredinsideeach512×512cell, eachbuttonmax350×350px with70pxclearalpha0 gutters. Sameframesize all6, entirebuttonsvisible. Large easilyrecognizablesymbols readableat48–64px, eachdifferent.
+Rowmajor0–5:
+0 martial wrappedclosedfist with shortivory impact speedcuts, naturalfistfivefingers.
+1 Palma de Ruptura: ONE naturalwhitebandagedpalm withfivegroupedfingers striking through a fractured graydiamond plate, wristanatomical.
+2 Guarda Nula: THREE overlappingcracked ivorygray pressure-shieldplates, no palm/fist/ring.
+3 silêncio antimágico: broken nearblack geometricplaque withsingle cleanivory cancellation slash, no letter/text/rune.
+4 ruptura ampla: three layeredslate/ivory forcecrescent wedges crossingdisintegrating fragments, no circle.
+5 Domínio Nulo: irregularhexagon of sixfractured mineral pressurepanes around opencentralivorynegative sigil shape, motifdistinct fromsimpleglowingring.
+No words/numbers/labels/grid/backgroundmatte/checkerboardpainted/scenery, noelementalfire/ice/lightning etc. Alpha0 outsidebutton, paintedopaqueinside, noiconcrossboundary, noextracreatures/weapons. Beautifuloriginalgameart.

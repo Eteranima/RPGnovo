@@ -1,8 +1,11 @@
+import {ENEMY_ASSETS_V30} from './enemyArtV30';
 import {REMAKE_ASSETS} from './remakeArt';
+import {ORFEU_ASSETS_V30} from './orfeuArtV30';
+import {EXPANSION_MAPS_V30,EXPANSION_GATEWAYS_V30,ENEMY_ULTIMATES_V30,EXPANSION_BATTLE_BACKGROUNDS_V30} from './expansionV30';
 
-export type MapId = 'patio' | 'arquivo' | 'subsolo' | 'camara' | 'porto' | 'domo' | 'galeria' | 'ashwood' | 'ashpyre' | 'vigilia';
+export type MapId = 'patio' | 'arquivo' | 'subsolo' | 'camara' | 'porto' | 'domo' | 'galeria' | 'ashwood' | 'ashpyre' | 'vigilia' | 'jardim-lunar' | 'observatorio';
 export type Point = { x: number; y: number };
-export type Entity = Point & { id: string; label: string; kind: 'npc'|'warp'|'book'|'save'|'chest'|'rune'|'mob'|'boss'|'sign'|'shop'|'event'; to?: MapId; spawn?: Point; asset?: string; minStage?: number; family?: 'lobo'|'sombra'|'selo'|'eco'|'ashwolf'|'moth'|'cinder'; hp?:number; damage?:number; xp?:number; credits?:number; text?:string; eventId?:string; fieldSkill?:string; fieldRequired?:string };
+export type Entity = Point & { id: string; label: string; kind: 'npc'|'warp'|'book'|'save'|'chest'|'rune'|'mob'|'boss'|'sign'|'shop'|'event'; to?: MapId; spawn?: Point; asset?: string; minStage?: number; family?: 'lobo'|'sombra'|'selo'|'eco'|'ashwolf'|'moth'|'cinder'|'lunastag'|'runewarden'|'astral'; hp?:number; damage?:number; xp?:number; credits?:number; text?:string; eventId?:string; fieldSkill?:string; fieldRequired?:string };
 export type Prop = Point & { asset: string; w: number; h: number; solid?: [number,number,number,number]; atlas?: number; atlasSheet?: string };
 export type MapData = { id: MapId; name: string; subtitle: string; safe: boolean; width: number; height: number; rows: string[]; entities: Entity[]; props: Prop[] };
 const grid = (w:number,h:number,base:string) => Array.from({length:h},(_,y)=>Array.from({length:w},(_,x)=>x===0||y===0||x===w-1||y===h-1?'#':base));
@@ -25,6 +28,7 @@ const lamp=(x:number,y:number):Prop=>({x,y,asset:'lantern',atlas:3,w:1.2,h:2.6,s
 const shelf=(x:number,y:number):Prop=>({x,y,asset:'shelf',atlas:5,w:2.1,h:3.2});
 const column=(x:number,y:number,broken=false):Prop=>({x,y,asset:'dungeon',atlasSheet:'dungeon',atlas:broken?3:4,w:2.6,h:4.2,solid:[x-.4,y-.5,.8,.6]});
 export const MAPS: Record<MapId,MapData> = {
+ ...EXPANSION_MAPS_V30,
  patio:{id:'patio',name:'Pátio Central',subtitle:'Academia Stone Reach',safe:true,width:28,height:21,rows:patio.map(r=>r.join('')),entities:[
   {id:'beatriz',label:'Beatriz Demeter',kind:'npc',x:10.8,y:11,asset:'beatriz'},
   {id:'academia',label:'Entrar na biblioteca',kind:'warp',x:14,y:7.3,to:'arquivo',spawn:{x:11,y:14.5}},
@@ -212,7 +216,9 @@ for(const [map,skill,x,y] of [['porto','ink-glyph',9,9],['galeria','ink-glyph',7
 ASSETS.battle_vfx='/assets/v18/combat-vfx.webp';ASSETS.battle_phases='/assets/v18/boss-phases.webp';
 
 export const COMPANIONS:Record<HeroId,{name:string;column:number;line:string}>={seiji:{name:'Shin',column:2,line:'A tinta de Seiji ainda guarda caminhos.'},ophelia:{name:'Mika',column:1,line:'O frio mostra aquilo que o medo tenta esconder.'},marin:{name:'Umbra',column:0,line:'A noite é mais educada quando se aprende a ouvi-la.'},gabriel:{name:'Dante',column:3,line:'A chama não se curva. Ela conduz.'},max:{name:'Vajra',column:4,line:'Vajra: eu vi o próximo relâmpago!'},beatriz:{name:'Stone Reach',column:0,line:'Toda margem existe porque a água escolhe um caminho.'},orfeu:{name:'Stone Reach',column:0,line:'O primeiro som ainda ecoa.'},ava:{name:'Stone Reach',column:0,line:'As raízes lembram o caminho.'},carmilla:{name:'Stone Reach',column:0,line:'Carmilla mantém o grupo vivo, mesmo quando a dor recai sobre ela.'}};
-export const ENEMY_ULTIMATES:Record<string,{name:string;area:boolean;multiplier:number;status:'bleed'|'blind'|'freeze'|'silence'}>={
+for(const gateway of EXPANSION_GATEWAYS_V30)MAPS[gateway.map].entities.push(gateway.entity);
+export const battleBackground=(map:MapId)=>map in EXPANSION_BATTLE_BACKGROUNDS_V30?EXPANSION_BATTLE_BACKGROUNDS_V30[map as keyof typeof EXPANSION_BATTLE_BACKGROUNDS_V30]:['ashwood','ashpyre','vigilia'].includes(map)?'battle_bg_forest':['subsolo','camara','galeria'].includes(map)?'battle_bg_below':'battle_bg_academy';
+export const ENEMY_ULTIMATES:Record<string,{name:string;area:boolean;multiplier:number;status:'bleed'|'blind'|'freeze'|'silence';element?:CombatElement}>={
  lobo:{name:'Caçada da Alvorada',area:false,multiplier:1.65,status:'bleed'},sombra:{name:'Maré da Cegueira',area:true,multiplier:1.2,status:'blind'},ashwolf:{name:'Uivo da Cinza',area:true,multiplier:1.3,status:'bleed'},moth:{name:'Eclipse Lunar',area:true,multiplier:1.15,status:'freeze'},selo:{name:'Memória Estilhaçada',area:true,multiplier:1.5,status:'silence'},eco:{name:'Véu Sem Retorno',area:true,multiplier:1.5,status:'blind'},cinder:{name:'Sol da Pira',area:true,multiplier:1.6,status:'silence'}};
 export const SKILL_VISUALS:Record<string,{hero:HeroId;row:number;rows:number;motion:string}>={};
 for(const [hero,skills] of Object.entries({seiji:['cut','stain','blind','bleed'],ophelia:['shard','mend','freeze','cleanse'],marin:['eclipse','drain','darkveil','rupture','nightseal','shadowrest'],gabriel:['blaze','bulwark','flamewall','nova','ashseal','rekindle']}))skills.forEach((id,row)=>SKILL_VISUALS[id]={hero:hero as HeroId,row,rows:skills.length,motion:['projectile','bloom','veil','slash','seal','restore'][row]});
@@ -237,6 +243,11 @@ ASSETS.battle_carmilla_cast='/assets/v23/carmilla-in-aeternum-vive.png';
 ASSETS.battle_carmilla_ultimate='/assets/v23/carmilla-ultimate-armfix.png';
 for(const action of ['attack','cast','ultimate'])ASSETS[`battle_gabriel_lycan_${action}`]='/assets/v19/gabriel-lycan-combat.webp';
 ASSETS.companions='/assets/v20/companions.webp';ASSETS.companions_combat='/assets/v20/companions-combat.webp';ASSETS.signboards='/assets/v20/signboards.webp';ASSETS.max='/assets/v21/max-walk-slender.png';ASSETS.dlg_max='/assets/v20/max-dialogue-black.webp';ASSETS.battle_max_attack='/assets/v21/max-combat-electric.png';ASSETS.battle_max_cast='/assets/v21/max-combat-electric.png';ASSETS.battle_max_ultimate='/assets/v21/max-combat-electric.png';
+Object.assign(ENEMY_ULTIMATES,ENEMY_ULTIMATES_V30);
 for(const family of Object.keys(ENEMY_ULTIMATES))ASSETS[`ultimate_${family}`]=`/assets/v20/ultimate-${family}.webp`;
 
 Object.assign(ASSETS,REMAKE_ASSETS);
+
+Object.assign(ASSETS,ORFEU_ASSETS_V30);
+
+Object.assign(ASSETS,ENEMY_ASSETS_V30);

@@ -1,0 +1,62 @@
+{
+  "id": "lunar",
+  "kind": "background",
+  "group": "world",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-4afccc3c-a667-4395-8321-b3d73da1473b.png",
+  "selected": "art-source/v30/world/lunar/background-source.png",
+  "runtime": "public/assets/v30/world/lunar/background.png",
+  "width": 1672,
+  "height": 941,
+  "cols": 1,
+  "rows": 1,
+  "sourceSha256": "77dfa052378f0adeb525739a0fc66aa7893a35fa9d5e341ce5e03af3c309b753",
+  "runtimeSha256": "77dfa052378f0adeb525739a0fc66aa7893a35fa9d5e341ce5e03af3c309b753",
+  "byteIdenticalSourceCopies": true,
+  "alphaZeroPixels": 0,
+  "alphaVisibleThresholdForMeasurementOnly": 24,
+  "outerVisible": 5222,
+  "rowCuts": [
+    0,
+    941
+  ],
+  "frames": [
+    {
+      "x": 0,
+      "y": 0,
+      "w": 1672,
+      "h": 941,
+      "anchorX": 835.5,
+      "anchorY": 940
+    }
+  ],
+  "measurements": [
+    {
+      "i": 0,
+      "row": 0,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "w": 1672,
+        "h": 941
+      },
+      "visibleBounds": {
+        "x": 0,
+        "y": 0,
+        "w": 1672,
+        "h": 941
+      },
+      "visibleEdge": 5222,
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "w": 1672,
+        "h": 941,
+        "anchorX": 835.5,
+        "anchorY": 940
+      },
+      "anchorMethod": "lowest visible alpha foot band"
+    }
+  ]
+}

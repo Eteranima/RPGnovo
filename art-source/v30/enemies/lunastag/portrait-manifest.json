@@ -1,0 +1,62 @@
+{
+  "id": "lunastag",
+  "kind": "portrait",
+  "group": "enemies",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-74d667b1-0641-4575-8802-25d3e752c374.png",
+  "selected": "art-source/v30/enemies/lunastag/portrait-source.png",
+  "runtime": "public/assets/v30/enemies/lunastag/portrait.png",
+  "width": 1024,
+  "height": 1536,
+  "cols": 1,
+  "rows": 1,
+  "sourceSha256": "e72ddd7c31fb681d8243f670bb7bb679eafbe0997cc8aa55036efcd38dce4b1f",
+  "runtimeSha256": "e72ddd7c31fb681d8243f670bb7bb679eafbe0997cc8aa55036efcd38dce4b1f",
+  "byteIdenticalSourceCopies": true,
+  "alphaZeroPixels": 1011582,
+  "alphaVisibleThresholdForMeasurementOnly": 24,
+  "outerVisible": 0,
+  "rowCuts": [
+    0,
+    1536
+  ],
+  "frames": [
+    {
+      "x": 93,
+      "y": 1,
+      "w": 895,
+      "h": 1504,
+      "anchorX": 512,
+      "anchorY": 1496
+    }
+  ],
+  "measurements": [
+    {
+      "i": 0,
+      "row": 0,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "w": 1024,
+        "h": 1536
+      },
+      "visibleBounds": {
+        "x": 101,
+        "y": 9,
+        "w": 879,
+        "h": 1488
+      },
+      "visibleEdge": 0,
+      "crop": {
+        "x": 93,
+        "y": 1,
+        "w": 895,
+        "h": 1504,
+        "anchorX": 512,
+        "anchorY": 1496
+      },
+      "anchorMethod": "lowest visible alpha foot band"
+    }
+  ]
+}

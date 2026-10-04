@@ -24,7 +24,8 @@
 .dock :global(.battle-result){display:flex;align-items:center;justify-content:center;gap:18px;min-height:68px;padding:6px!important}
 .dock :global(.battle-result) h3{font-size:21px;margin:0!important}
 .dock :global(.battle-result) p{font-size:12px;margin:0!important}
-.commandRoot{display:grid;grid-template-columns:minmax(0,1fr) 300px 100px;grid-template-rows:30px 56px;gap:2px 8px;min-width:0;align-items:center}
+.commandRoot{display:grid;grid-template-columns:minmax(0,1fr) 260px 92px;grid-template-rows:28px 52px;gap:1px 7px;min-width:0;align-items:center}
+.commandRoot[data-target-mode=none] .commandPanel{grid-column:1/4}
 .commandTitle{grid-column:1;grid-row:1;display:flex;align-items:center;gap:10px;min-width:0;overflow:auto;scrollbar-width:none;white-space:nowrap;color:#f2dfb8}
 .commandTitle strong{font-family:Georgia,serif;font-size:14px;font-weight:600;line-height:18px}
 .activeVitals{font-size:10px;line-height:14px;color:#cfdeeb;font-variant-numeric:tabular-nums;white-space:nowrap}
@@ -38,9 +39,9 @@
 .tabButton[data-state=active]:after{content:"";position:absolute;inset:auto 18% 1px 33%;height:1px;background:#f7e8b1}
 .commandArt{position:absolute!important;inset:0!important;z-index:0;display:block;width:100%!important;height:100%!important;max-width:none!important;object-fit:contain!important;filter:none!important;pointer-events:none}
 .personalSkillArt{position:absolute!important;z-index:1;left:13px;top:6px;width:40px!important;height:36px!important;object-fit:contain!important;pointer-events:none;filter:none!important}
-.commandPanel{grid-column:1;grid-row:2;min-width:0;min-height:0;margin:0!important;height:56px;overflow:hidden}
+.commandPanel{grid-column:1;grid-row:2;min-width:0;min-height:0;margin:0!important;height:52px;overflow:hidden}
 .commandPanel[data-state=inactive]{display:none!important}
-.commandList{display:flex;align-items:center;gap:7px;height:56px;padding:2px 0;overflow-x:auto;overflow-y:hidden;scrollbar-width:thin;scrollbar-color:#c7aa63 #081523;overscroll-behavior-x:contain}
+.commandList{display:flex;align-items:center;gap:6px;height:52px;padding:2px 0;overflow-x:auto;overflow-y:hidden;scrollbar-width:thin;scrollbar-color:#c7aa63 #081523;overscroll-behavior-x:contain}
 .commandButton{position:relative;isolation:isolate;display:flex;flex:0 0 180px;align-items:center;justify-content:center;width:180px;min-width:0;min-height:48px;height:48px;padding:6px 22px 6px 58px;background:transparent!important;border:0!important;border-radius:0!important;box-shadow:none!important;color:#f6e9cf!important;font-size:12px;font-weight:600;line-height:12px;text-align:center;transform:none!important}
 .commandButton>span:not(.limitTrack){position:relative;z-index:2;display:block;max-width:100%;overflow-wrap:anywhere}
 .commandButton small{display:block;font-size:9px;line-height:10px;color:#c4dcf3;font-weight:400}
@@ -49,9 +50,9 @@
 .ultimateButton{flex-basis:220px;width:220px;padding:6px 37px 8px 76px;font-size:11px}
 .limitTrack{position:absolute;z-index:2;left:32%;right:13%;bottom:7px;height:2px;overflow:hidden;background:#04132980}
 .limitTrack i{display:block;height:100%;background:linear-gradient(90deg,#d1a140,#fff2b1)}
-.targetStrip{grid-column:2/4;grid-row:2;display:flex;align-items:center;justify-content:flex-end;gap:5px;min-width:0;height:56px;overflow-x:auto;overflow-y:hidden;scrollbar-width:thin;scrollbar-color:#c7aa63 #081523;overscroll-behavior-x:contain}
-.targetButton{position:relative;display:flex;flex-direction:column;flex:0 0 59px;align-items:center;justify-content:center;gap:0;min-height:54px;height:54px;padding:0;background:none!important;border:0!important;border-radius:0!important;color:#cfdaea;font-size:10px;line-height:12px;box-shadow:none!important}
-.targetButton>:global(.character-portrait){position:relative!important;left:auto!important;top:auto!important;width:42px!important;height:42px!important;flex:0 0 42px;transform:none!important}
+.targetStrip{grid-column:2/4;grid-row:2;display:flex;align-items:center;justify-content:flex-end;gap:5px;min-width:0;height:52px;overflow:hidden}
+.targetButton{position:relative;display:flex;flex-direction:column;flex:0 0 59px;align-items:center;justify-content:center;gap:0;min-height:50px;height:50px;padding:0;background:none!important;border:0!important;border-radius:0!important;color:#cfdaea;font-size:10px;line-height:12px;box-shadow:none!important}
+.targetButton>:global(.character-portrait){position:relative!important;left:auto!important;top:auto!important;width:36px!important;height:36px!important;flex:0 0 36px;transform:none!important}
 .targetButton>span:not(:global(.character-portrait)){position:relative;margin-top:-2px;z-index:2;white-space:nowrap;font-variant-numeric:tabular-nums}
 .targetButton small{font-size:10px;color:#9eb5ca}
 .targetSelected{color:#ffecb7}
@@ -59,7 +60,7 @@
 .targetSelected>span:not(:global(.character-portrait)){text-decoration:underline;text-underline-offset:2px}
 .fleeButton{grid-column:3;grid-row:1;width:100%;padding-left:28px!important}
 @media(max-width:1000px){
- .commandRoot{grid-template-columns:minmax(0,1fr) 270px 88px;gap:2px 5px}
+ .commandRoot{grid-template-columns:minmax(0,1fr) 244px 88px;gap:1px 5px}
  .commandWarning{display:none}
  .commandTitle{gap:6px}
  .commandTitle strong{font-size:12px}
@@ -72,11 +73,19 @@
  .statusBar :global(.turn-order)>i{gap:3px!important;padding-left:3px!important;padding-right:3px!important}
 }
 @media(orientation:landscape) and (max-height:450px){
- .battleMode:global(.game-shell) :global(.play-column) > :global(.party-footer){display:none}
  .screen:global(.battle-screen){grid-template-rows:40px minmax(0,1fr) auto!important}
  .statusBar :global(.turn-order)>i{height:29px!important}
  .statusBar :global(.turn-order)>i img,.statusBar :global(.turn-sprite){height:25px!important;width:22px!important;flex-basis:22px}
  .screen>.dock:global(.battle-console){padding:3px 8px!important}
+}
+@media(orientation:landscape) and (max-height:440px){
+ .commandRoot{grid-template-rows:24px 46px}
+ .tabList,.tabButton{height:24px!important;min-height:24px!important}
+ .commandPanel,.commandList,.targetStrip{height:46px}
+ .commandButton{height:44px;min-height:44px;padding-top:4px;padding-bottom:4px}
+ .ultimateButton{padding-top:5px;padding-bottom:5px;line-height:11px}
+ .targetButton{height:46px;min-height:46px}
+ .targetButton>:global(.character-portrait){width:32px!important;height:32px!important;flex-basis:32px}
 }
 @media(max-width:600px) and (orientation:portrait){
  .screen:global(.battle-screen){grid-template-rows:76px minmax(0,1fr) auto!important}
@@ -84,7 +93,8 @@
  .statusBar :global(.battle-heading){grid-template-columns:minmax(0,1fr) 86px auto;max-width:100%!important}
  .statusBar :global(.battle-heading) h2{max-width:none}
  .statusBar :global(.turn-order){max-width:100%;height:31px}
- .commandRoot{grid-template-columns:minmax(0,1fr) 85px;grid-template-rows:auto 30px 56px 56px;gap:3px 5px}
+ .commandRoot{grid-template-columns:minmax(0,1fr) 85px;grid-template-rows:auto 30px 52px auto;gap:3px 5px}
+ .commandRoot[data-target-mode=none] .commandPanel{grid-column:1/3}
  .commandTitle{grid-column:1/3;grid-row:1}
  .tabList{grid-column:1;grid-row:2}
  .fleeButton{grid-column:2;grid-row:2}

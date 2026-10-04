@@ -1,0 +1,95 @@
+[
+  {
+    "key": "gacha-tier1",
+    "prompt": "Create a final production sprite atlas for ÉTER ANIMA, a premium anime fantasy RPG, clean precise Fate-style linework, cel shading, exquisite gold filigree on actual illustrated objects. Transparent RGBA background, no backdrop, no lettering, no watermark, no UI mockup. Exact regular grid with wide transparent gutters, each frame centered at exactly the same scale and center, complete silhouettes and effects entirely contained within their cell. The animation is a summoning portal: jeweled octagonal sacred astrolabe opening from an ether crystal. No people. Consecutive frames progress naturally, no camera changes. Produce exactly EIGHT equal SQUARE cells in FOUR COLUMNS and TWO ROWS. Silver-white COMMON rarity: modest silver faceted crystal, first dim glow, orbit needles gathering, thin silver gate opening, gentle white energy ribbon, clear crystal reveal, quiet silver sparkles, settled open portal. No purple/gold rarity burst. Every frame distinct and clean, hand-illustrated.",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a0fe9c-5a05-7ae0-b816-392e2a3c966b\\exec-765bebc4-e2be-409f-be3a-4fd212b7b0ff.png",
+    "mode": "built-in imagegen",
+    "status": "pending native crop QA"
+  },
+  {
+    "key": "gacha-tier2",
+    "prompt": "Final production 2D animation atlas, premium anime fantasy ÉTER ANIMA. Exact grid FOUR COLUMNS TWO ROWS, EIGHT SQUARE CELLS. Crystal summoning portal with intricate astrolabe filigree, clean thin contours, cel shading, beautifully illustrated faceted gems and energy. Each cell 70% motif / 30% fully TRANSPARENT padding. Every frame isolated: gutters truly empty, NEVER touching edges, no connecting aura, no lettering, no watermark, no people. Stable center and scale per frame. Progress first crystal, awakening glow, orbit rings, gate opens, energy ribbons, reveal, sparkles, settled portal. RGBA alpha. UNCOMMON rarity JADE GREEN: silver-green astrolabe, emerald crystal, soft green energy, a delicate leaf constellation. Reserved celebration, no gold or violet.",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a0fe9c-5a05-7ae0-b816-392e2a3c966b\\exec-7f526e15-cadf-4793-ad41-d93972f13333.png",
+    "mode": "built-in imagegen",
+    "status": "pending native crop QA"
+  },
+  {
+    "key": "gacha-tier3",
+    "prompt": "Final production 2D animation atlas, premium anime fantasy ÉTER ANIMA. Exact grid FOUR COLUMNS TWO ROWS, EIGHT SQUARE CELLS. Crystal summoning portal with intricate astrolabe filigree, clean thin contours, cel shading, beautifully illustrated faceted gems and energy. Each cell 70% motif / 30% fully TRANSPARENT padding. Every frame isolated: gutters truly empty, NEVER touching edges, no connecting aura, no lettering, no watermark, no people. Stable center and scale per frame. Progress first crystal, awakening glow, orbit rings, gate opens, energy ribbons, reveal, sparkles, settled portal. RGBA alpha. RARE rarity AZURE BLUE: bright blue faceted gem, blue-silver engraved frame, crystalline blue star trails, cool cerulean portal. Dramatic but no golden or purple burst.",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a0fe9c-5a05-7ae0-b816-392e2a3c966b\\exec-fc50d675-35ec-4565-a79b-6acfa486367d.png",
+    "mode": "built-in imagegen",
+    "status": "pending native crop QA"
+  },
+  {
+    "key": "gacha-tier4",
+    "prompt": "Final production 2D animation atlas, premium anime fantasy ÉTER ANIMA. Exact grid FOUR COLUMNS TWO ROWS, EIGHT SQUARE CELLS. Crystal summoning portal with intricate astrolabe filigree, clean thin contours, cel shading, beautifully illustrated faceted gems and energy. Each cell 70% motif / 30% fully TRANSPARENT padding. Every frame isolated: gutters truly empty, NEVER touching edges, no connecting aura, no lettering, no watermark, no people. Stable center and scale per frame. Progress first crystal, awakening glow, orbit rings, gate opens, energy ribbons, reveal, sparkles, settled portal. RGBA alpha. EPIC rarity VIOLET: amethyst crystal, dark gold thin astrolabe frame, luminous rich purple energy, four shining stars and expanding violet ethereal wings. Richer energy than rare, no gold dominating.",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a0fe9c-5a05-7ae0-b816-392e2a3c966b\\exec-7d5a0285-b28e-4d3a-9429-d6bab33ff6de.png",
+    "mode": "built-in imagegen",
+    "status": "pending native crop QA"
+  },
+  {
+    "key": "gacha-tier5-cinematic",
+    "prompt": "Final production SIXTEEN FRAME CINEMATIC ATLAS for ÉTER ANIMA highest five-star legendary summon. Match the attached summoning hall's dark navy+gold anime architecture. EXACT grid FOUR COLUMNS FOUR ROWS, sixteen completely filled SQUARE film frames, row-major sequence, no border or text. This is a filmstrip, each cell has its OWN complete opaque dark hall background, effects must NEVER spill into other frames. Same locked camera and scale, center a crystalline GOLDEN ASTROLABE PORTAL. Frames1-4 gold crystal awaken, then three concentric engraved rings gather. Frames5-8 ornate gilded gate opens with bright comet trails. Frames9-12 wings made of golden light unfold with constellation-star shower. Frames13-16 crowned gate with five gold starpoints settles and a warm vertical beam rises. Precise clean cel shaded fantasy details; rich layered energy within each frame, no characters, no watermark, no lettering. NOT a transparent sprite sheet: final illustrated cinematic backgrounds in each cell, visible separation by their framing.",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a0fe9c-5a05-7ae0-b816-392e2a3c966b\\exec-91bc7fd0-3edc-44d0-a1f1-0f0e0c033c0c.png",
+    "mode": "built-in imagegen",
+    "status": "pending native crop QA"
+  },
+  {
+    "key": "gacha-sanctum",
+    "prompt": "Final wide environment illustration for ÉTER ANIMA summoning menu, 3:2 landscape high resolution. Premium hand-painted anime fantasy background with fine Fate-style architectural linework and cel shading, not photorealistic. Stone Reach's grand ivory octagonal summoning hall at night, polished slate floor with elaborate golden inlaid ASTROLABE in center, crystalline empty portal plinth at center-right, tall vaulted windows with deep blue stars, hanging pale banners, layered shelves of crystal relics to left. Clear foreground floor, open middle for animated ritual. Warm gold lamps against midnight blue and gentle turquoise crystals. Luxurious, precise craftsmanship. No people, no letters, no watermark, no UI, no painted fake buttons. Full final environment art.",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a0fe9c-5a05-7ae0-b816-392e2a3c966b\\exec-ba4a9582-e493-4676-84a8-401402a527ae.png",
+    "mode": "built-in imagegen",
+    "status": "pending native crop QA"
+  },
+  {
+    "key": "menu-library",
+    "prompt": "Final landscape 3:2 anime fantasy RPG menu background art for ÉTER ANIMA, exquisite clean anime linework and cel shading. Stone Reach library: handsome carved dark walnut shelves, old ivory books with blank spines, tiny blue glowing glass relics, desk with open blank illuminated book, gilded ink bottle, tall arched window showing nighttime garden, elegant gold lamps. Midnight blue violet warm gold cinematic harmony. Rich details at left and right edges; center and lower midsection restful dark wood and shadow so readable menu content can sit there. No lettering, no UI, no people, no photorealism, no watermark.",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a0fe9c-5a05-7ae0-b816-392e2a3c966b\\exec-a75c804b-6af8-4595-9490-f38f339a07c1.png",
+    "mode": "built-in imagegen",
+    "status": "pending native crop QA"
+  },
+  {
+    "key": "menu-armory",
+    "prompt": "Final wide 3:2 high-resolution hand-illustrated anime fantasy RPG menu background for ÉTER ANIMA. Academy's warm red-brown and gold armory workshop, detailed wrought gold weapon racks, sword sheaths, empty noble armor, shelves of polished crystals and healing bottles, engraved forge tools, embroidered deep red cloth, torchlight. Fine clean anime linework and cel shading matching premium Fate fantasy, coherent perspective, no photorealistic texture. Detail at edges and around upper arch; center kept spacious and dark for readable equipment/inventory menus. No characters, no readable letters, no UI, no watermark. Finished production art.",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a0fe9c-5a05-7ae0-b816-392e2a3c966b\\exec-03e525c6-58f7-486f-ac57-0759b7e3739e.png",
+    "mode": "built-in imagegen",
+    "status": "pending native crop QA"
+  },
+  {
+    "key": "menu-atlas",
+    "prompt": "Final wide 3:2 high-resolution anime fantasy RPG background art for ÉTER ANIMA travel/map/quests menus. Stone Reach astronomer's chart chamber overlooking moonlit ocean, ornate blue-gold celestial astrolabe near right edge, carved stone desk and old parchment maps with NO LETTERS near leftedge, distant magical garden and tower silhouettes through three gothic arched windows, luminous blue moon constellation, subtle polished slate-floor reflection. Clean controlled anime celshade and architectural linework, exquisite premium fantasy detail. Dark quiet center for menu overlays, no character, no UI, no watermark, no photorealism.",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a0fe9c-5a05-7ae0-b816-392e2a3c966b\\exec-17fa942a-320d-48bd-8da4-e207d2833586.png",
+    "mode": "built-in imagegen",
+    "status": "pending native crop QA"
+  },
+  {
+    "key": "opening-ink-garden",
+    "prompt": "Create a finished ultra-wide landscape opening-screen illustration for ÉTER ANIMA, premium anime fantasy with beautiful clean cel shading, refined linework. Use the attached approved companion sheet as identity reference ONLY (not a sheet). These are super-deformed CHIBI companions with expressive anime faces and meticulously coherent hands, feet, hair and outfits. Umbra: black messy hair, ruby eyes, crimson black gold noble coat/shorts. Mika: blond short hair, glasses, navy fur-trimmed snowcoat. Shin: long pearl-white rainbow hair, azure eyes, white black gold ink kimono. Vajra: spiky blond black-tipped hair, yellow eyes, black/gold lightning fighter outfit with white sash. Dante: fiery RED ORANGE GOLD PHOENIX bird, NOT a humanoid. Keep exact identity, do not substitute adult protagonist faces. No writing, no logo, no UI, no watermark. Leave LEFT35% quiet dark scene for title and buttons; characters only RIGHT65%, entire figures in central horizontal60% of image so wide cropping keeps faces. Rich detailed environment is final anime art; no photorealism. Scene: Umbra and Shin share a friendly playful moment at a moonlit wisteria garden bench, Umbra holds an intact tiny blue lantern with one anatomically clean hand, Shin brushes a small ink bird above a blank scroll. Indigo lavender midnight moonlight, elaborate academy arches, flowers. Two complete chibi bodies, gentle happy expressions.",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a0fe9c-5a05-7ae0-b816-392e2a3c966b\\exec-db678ec6-5a67-4a76-9cdb-70df53e4e1d2.png",
+    "mode": "built-in imagegen",
+    "status": "pending native crop QA"
+  },
+  {
+    "key": "opening-star-watch",
+    "prompt": "Create a finished ultra-wide landscape opening-screen illustration for ÉTER ANIMA, premium anime fantasy with beautiful clean cel shading, refined linework. Use the attached approved companion sheet as identity reference ONLY (not a sheet). These are super-deformed CHIBI companions with expressive anime faces and meticulously coherent hands, feet, hair and outfits. Umbra: black messy hair, ruby eyes, crimson black gold noble coat/shorts. Mika: blond short hair, glasses, navy fur-trimmed snowcoat. Shin: long pearl-white rainbow hair, azure eyes, white black gold ink kimono. Vajra: spiky blond black-tipped hair, yellow eyes, black/gold lightning fighter outfit with white sash. Dante: fiery RED ORANGE GOLD PHOENIX bird, NOT a humanoid. Keep exact identity, do not substitute adult protagonist faces. No writing, no logo, no UI, no watermark. Leave LEFT35% quiet dark scene for title and buttons; characters only RIGHT65%, entire figures in central horizontal60% of image so wide cropping keeps faces. Rich detailed environment is final anime art; no photorealism. Scene: Mika and Vajra sit together on an observatory terrace looking at stars; Mika carefully holds a gold telescope, Vajra smiles beside him with one small electric star near his open palm. Dante phoenix with clear wings and talons perches nearby on a carved column. THREE companions exactly, warm chibi comradery, blue-gold midnight observatory, luminous moons, immaculate anatomy.",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a0fe9c-5a05-7ae0-b816-392e2a3c966b\\exec-a6105f47-1da0-4077-9591-18ee94158d80.png",
+    "mode": "built-in imagegen",
+    "status": "pending native crop QA"
+  },
+  {
+    "key": "opening-companions",
+    "prompt": "Create a finished ultra-wide landscape opening-screen illustration for ÉTER ANIMA, premium anime fantasy with beautiful clean cel shading, refined linework. Use the attached approved companion sheet as identity reference ONLY (not a sheet). These are super-deformed CHIBI companions with expressive anime faces and meticulously coherent hands, feet, hair and outfits. Umbra: black messy hair, ruby eyes, crimson black gold noble coat/shorts. Mika: blond short hair, glasses, navy fur-trimmed snowcoat. Shin: long pearl-white rainbow hair, azure eyes, white black gold ink kimono. Vajra: spiky blond black-tipped hair, yellow eyes, black/gold lightning fighter outfit with white sash. Dante: fiery RED ORANGE GOLD PHOENIX bird, NOT a humanoid. Keep exact identity, do not substitute adult protagonist faces. No writing, no logo, no UI, no watermark. Leave LEFT35% quiet dark scene for title and buttons; characters only RIGHT65%, entire figures in central horizontal60% of image so wide cropping keeps faces. Rich detailed environment is final anime art; no photorealism. Scene: ALL FIVE approved companions together at the academy entrance at dawn: Umbra(left of group),Mika,Shin,Vajra and Dante redorange phoenix perched above group to right. Four complete chibi humans, friendly smiles; relaxed natural poses, normal hands no crossed complicated arms. White-gold StoneReach towers behind, emerald hedges, warm dawn-pink sky. High quality group art, no duplicate figures.",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a0fe9c-5a05-7ae0-b816-392e2a3c966b\\exec-27d12ff4-62c8-46ca-b03c-608c1fa91555.png",
+    "mode": "built-in imagegen",
+    "status": "pending native crop QA",
+    "originalSource": "C:\\Users\\Diego\\.codex\\generated_images\\01a0fe9c-5a05-7ae0-b816-392e2a3c966b\\exec-13849bcd-3fcf-408c-9e64-4ee640917b02.png",
+    "repairPrompt": "Edit this exact wide illustration, preserving its composition, landscape aspect ratio, background, all faces, outfits, phoenix and the other THREE human companions. Make ONLY the necessary anatomical correction to SHIN, the THIRD chibi human from the left, with long white/rainbow hair and white ink kimono, standing between blond glasses Mika and yellow-black Vajra. User marked the problem at x76.7%,y79.8%: Shin's lower body reads as THREE LEGS. Correct Shin to exactly TWO anatomically coherent legs and TWO gold-black boots, grounded naturally side by side. Redraw the lower white kimono/pants folds so no hanging cloth resembles an extra thigh, calf, ankle or boot. His pelvis connects naturally to exactly two knees and two ankles. Separate his two boots clearly from Vajra's boots to the right. Keep the same white-black-gold kimono identity, hand gestures, expressions and lighting. No new limbs, no extra feet, no merged anatomy, no cropped legs. Leave Umbra, Mika, Vajra and Dante as they are. No writing, no watermark. Finished clean premium anime chibi art."
+  },
+  {
+    "key": "gacha-plaques",
+    "prompt": "Final production UI sprite atlas for anime fantasy RPG ÉTER ANIMA. Exactly SIX WIDE HORIZONTAL ornamental plaques arranged TWO COLUMNS THREE ROWS. Actual alpha transparent background and large EMPTY gutters: never touching each other. Each plaque has complete ornate engraved metal border, solid opaque center blank for dynamic readable game text, tiny crystal jewel at left, restrained elegant filigree. No lettering, no fake values, no UI screenshot, no watermark. Row0col0 GOLD luxury invocation button with twin golden stars and deep navy center. Row0col1 SILVER common result frame cool gray center. Row1col0 JADE GREEN uncommon result frame dark green center. Row1col1 AZURE BLUE rare result frame deep blue center. Row2col0 AMETHYST PURPLE epic result frame dark violet center. Row2col1 GOLDEN AMBER legendary result frame dark warm brown center with FIVE tiny gold starpoints along upper border. Frames designed with clean anime contours and cel shading to match Fate-quality fantasy menus. Precisely bounded isolated native art, with 12% transparent padding in each cell.",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a0fe9c-5a05-7ae0-b816-392e2a3c966b\\exec-4c7d41fd-8735-4190-844c-51a90a74034e.png",
+    "mode": "built-in imagegen",
+    "status": "pending native crop QA"
+  }
+]

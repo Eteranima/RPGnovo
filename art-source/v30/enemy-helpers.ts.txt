@@ -1,0 +1,12 @@
+/** Frame holds share the authored contact pose, independent of atlas grid dimensions. */
+export function enemyPoseFrame(family:string,action:string,time:number,count:number){
+ const t=Math.max(0,Math.min(1,time)),presentation=ENEMY_PRESENTATION_V30[family];
+ const timing=action==='ultimate'?presentation?.ultimateTiming:presentation?.attackTiming;
+ return timing?.length===count?timing.reduce((frame,start,index)=>t>=start?index:frame,0):Math.min(count-1,Math.floor(t*count));
+}
+export function enemyBattleKey(family:string,asset:string,boss:boolean,phase:number,action?:string){
+ const presentation=ENEMY_PRESENTATION_V30[family];
+ if(action?.includes('ultimate'))return presentation?.ultimate||`ultimate_${family}`;
+ if(!action&&presentation?.phases)return presentation.phases[Math.max(0,Math.min(presentation.phases.length-1,phase-1))];
+ return presentation?.attack||`battle_${boss?'boss':asset}_attack`;
+}

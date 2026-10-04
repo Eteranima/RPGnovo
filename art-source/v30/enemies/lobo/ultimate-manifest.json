@@ -1,0 +1,308 @@
+{
+  "id": "lobo",
+  "kind": "ultimate",
+  "group": "enemies",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-c682e34d-6ed5-4c5c-85a0-a38fa0040ef2.png",
+  "selected": "art-source/v30/enemies/lobo/ultimate-source.png",
+  "runtime": "public/assets/v30/enemies/lobo/ultimate.png",
+  "width": 1774,
+  "height": 887,
+  "cols": 4,
+  "rows": 2,
+  "sourceSha256": "3c3cb66fbc9de638eca2b2ed86f1ec1ed4c9f2f36c63eb4e382191f22d9014f4",
+  "runtimeSha256": "3c3cb66fbc9de638eca2b2ed86f1ec1ed4c9f2f36c63eb4e382191f22d9014f4",
+  "byteIdenticalSourceCopies": true,
+  "alphaZeroPixels": 1032621,
+  "alphaVisibleThresholdForMeasurementOnly": 24,
+  "outerVisible": 0,
+  "rowCuts": [
+    0,
+    452,
+    887
+  ],
+  "frames": [
+    {
+      "x": 73,
+      "y": 135,
+      "w": 313,
+      "h": 269,
+      "anchorX": 230.1,
+      "anchorY": 395
+    },
+    {
+      "x": 493,
+      "y": 168,
+      "w": 357,
+      "h": 238,
+      "anchorX": 609.4,
+      "anchorY": 397
+    },
+    {
+      "x": 931,
+      "y": 109,
+      "w": 352,
+      "h": 297,
+      "anchorX": 1098.9,
+      "anchorY": 397
+    },
+    {
+      "x": 1389,
+      "y": 88,
+      "w": 336,
+      "h": 321,
+      "anchorX": 1599.6,
+      "anchorY": 400
+    },
+    {
+      "x": 44,
+      "y": 533,
+      "w": 371,
+      "h": 279,
+      "anchorX": 219.2,
+      "anchorY": 803
+    },
+    {
+      "x": 482,
+      "y": 495,
+      "w": 379,
+      "h": 321,
+      "anchorX": 691.1,
+      "anchorY": 807
+    },
+    {
+      "x": 927,
+      "y": 532,
+      "w": 366,
+      "h": 268,
+      "anchorX": 1020.7,
+      "anchorY": 791
+    },
+    {
+      "x": 1392,
+      "y": 530,
+      "w": 337,
+      "h": 264,
+      "anchorX": 1554.3,
+      "anchorY": 785
+    }
+  ],
+  "measurements": [
+    {
+      "i": 0,
+      "row": 0,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "w": 439,
+        "h": 452
+      },
+      "visibleBounds": {
+        "x": 81,
+        "y": 143,
+        "w": 297,
+        "h": 253
+      },
+      "visibleEdge": 0,
+      "crop": {
+        "x": 73,
+        "y": 135,
+        "w": 313,
+        "h": 269,
+        "anchorX": 230.1,
+        "anchorY": 395
+      },
+      "anchorMethod": "lowest visible alpha foot band"
+    },
+    {
+      "i": 1,
+      "row": 0,
+      "col": 1,
+      "cell": {
+        "x": 439,
+        "y": 0,
+        "w": 451,
+        "h": 452
+      },
+      "visibleBounds": {
+        "x": 501,
+        "y": 176,
+        "w": 341,
+        "h": 222
+      },
+      "visibleEdge": 0,
+      "crop": {
+        "x": 493,
+        "y": 168,
+        "w": 357,
+        "h": 238,
+        "anchorX": 609.4,
+        "anchorY": 397
+      },
+      "anchorMethod": "lowest visible alpha foot band"
+    },
+    {
+      "i": 2,
+      "row": 0,
+      "col": 2,
+      "cell": {
+        "x": 890,
+        "y": 0,
+        "w": 446,
+        "h": 452
+      },
+      "visibleBounds": {
+        "x": 939,
+        "y": 117,
+        "w": 336,
+        "h": 281
+      },
+      "visibleEdge": 0,
+      "crop": {
+        "x": 931,
+        "y": 109,
+        "w": 352,
+        "h": 297,
+        "anchorX": 1098.9,
+        "anchorY": 397
+      },
+      "anchorMethod": "lowest visible alpha foot band"
+    },
+    {
+      "i": 3,
+      "row": 0,
+      "col": 3,
+      "cell": {
+        "x": 1336,
+        "y": 0,
+        "w": 438,
+        "h": 452
+      },
+      "visibleBounds": {
+        "x": 1397,
+        "y": 96,
+        "w": 320,
+        "h": 305
+      },
+      "visibleEdge": 0,
+      "crop": {
+        "x": 1389,
+        "y": 88,
+        "w": 336,
+        "h": 321,
+        "anchorX": 1599.6,
+        "anchorY": 400
+      },
+      "anchorMethod": "lowest visible alpha foot band"
+    },
+    {
+      "i": 4,
+      "row": 1,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 452,
+        "w": 448,
+        "h": 435
+      },
+      "visibleBounds": {
+        "x": 52,
+        "y": 541,
+        "w": 355,
+        "h": 263
+      },
+      "visibleEdge": 0,
+      "crop": {
+        "x": 44,
+        "y": 533,
+        "w": 371,
+        "h": 279,
+        "anchorX": 219.2,
+        "anchorY": 803
+      },
+      "anchorMethod": "lowest visible alpha foot band"
+    },
+    {
+      "i": 5,
+      "row": 1,
+      "col": 1,
+      "cell": {
+        "x": 448,
+        "y": 452,
+        "w": 446,
+        "h": 435
+      },
+      "visibleBounds": {
+        "x": 490,
+        "y": 503,
+        "w": 363,
+        "h": 305
+      },
+      "visibleEdge": 0,
+      "crop": {
+        "x": 482,
+        "y": 495,
+        "w": 379,
+        "h": 321,
+        "anchorX": 691.1,
+        "anchorY": 807
+      },
+      "anchorMethod": "lowest visible alpha foot band"
+    },
+    {
+      "i": 6,
+      "row": 1,
+      "col": 2,
+      "cell": {
+        "x": 894,
+        "y": 452,
+        "w": 448,
+        "h": 435
+      },
+      "visibleBounds": {
+        "x": 935,
+        "y": 540,
+        "w": 350,
+        "h": 252
+      },
+      "visibleEdge": 0,
+      "crop": {
+        "x": 927,
+        "y": 532,
+        "w": 366,
+        "h": 268,
+        "anchorX": 1020.7,
+        "anchorY": 791
+      },
+      "anchorMethod": "lowest visible alpha foot band"
+    },
+    {
+      "i": 7,
+      "row": 1,
+      "col": 3,
+      "cell": {
+        "x": 1342,
+        "y": 452,
+        "w": 432,
+        "h": 435
+      },
+      "visibleBounds": {
+        "x": 1400,
+        "y": 538,
+        "w": 321,
+        "h": 248
+      },
+      "visibleEdge": 0,
+      "crop": {
+        "x": 1392,
+        "y": 530,
+        "w": 337,
+        "h": 264,
+        "anchorX": 1554.3,
+        "anchorY": 785
+      },
+      "anchorMethod": "lowest visible alpha foot band"
+    }
+  ]
+}

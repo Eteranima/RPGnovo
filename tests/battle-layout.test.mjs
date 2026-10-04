@@ -11,7 +11,7 @@ const projectRequire=createRequire(import.meta.url);
 const wranglerRequire=createRequire(projectRequire.resolve('wrangler'));
 const sharp=createRequire(wranglerRequire.resolve('miniflare'))('sharp');
 const out=mkdtempSync(join(tmpdir(),'eter-battle-layout-'));
-for(const name of ['remakeArt','remakeArtSeijiOphelia','remakeArtGabrielMarinMax','remakeArtCarmillaBeatrizAbel','data','sprites','battleFormation']){
+for(const name of ['remakeArt','remakeArtSeijiOphelia','remakeArtGabrielMarinMax','remakeArtCarmillaBeatrizAbel','expansionV30','enemyArtV30','orfeuArtV30','gachaSequence','data','sprites','battleFormation']){
  const source=readFileSync(`lib/game/${name}.ts`,'utf8').replace(/from '\.\/(\w+)'/g,"from './$1.js'");
  writeFileSync(join(out,`${name}.js`),ts.transpileModule(source,{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.ES2022}}).outputText);
 }
@@ -51,7 +51,7 @@ async function renderedIdle(key,slot,flip=false){
 }
 
 const heroes=[...PLAYABLE_HERO_IDS,'gabriel_lycan'];
-const enemyKeys=['wolf','shadow','boss','ashwolf','moth','cinder'].map(id=>`battle_${id}_attack`);
+const enemyKeys=['wolf','shadow','boss','ashwolf','moth','cinder','lunastag','runewarden','astral'].map(id=>`battle_${id}_attack`);
 const idleSway=1.5;
 let minimumNameGap=Infinity,minimumEnemyGap=Infinity;
 for(const [width,height] of [[1310,235],[844,205]])for(let count=1;count<=5;count++){

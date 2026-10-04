@@ -1,0 +1,47 @@
+[
+  {
+    "source": "cast-source.png",
+    "frame": 2,
+    "crop": {
+      "x": 1037,
+      "y": 103,
+      "w": 486,
+      "h": 385,
+      "anchorX": 1250,
+      "anchorY": 485
+    },
+    "proof": "cast-2.png",
+    "sha256": "3d5ca293244eaca45e867da3035e304d28be15efba37ad3e0391f00073dd9905",
+    "nativePixels": true
+  },
+  {
+    "source": "ultimate-source.png",
+    "frame": 2,
+    "crop": {
+      "x": 805,
+      "y": 189,
+      "w": 337,
+      "h": 301,
+      "anchorX": 955,
+      "anchorY": 487
+    },
+    "proof": "ultimate-2.png",
+    "sha256": "41e12c9c2e2863853ebbcec1b9d120c2847b8feb645b89afdb6857185f5aeaa2",
+    "nativePixels": true
+  },
+  {
+    "source": "vfx-source.png",
+    "frame": 5,
+    "crop": {
+      "x": 1064,
+      "y": 524,
+      "w": 434,
+      "h": 457,
+      "anchorX": 1281.0,
+      "anchorY": 752.5
+    },
+    "proof": "vfx-5.png",
+    "sha256": "6f3ac8dafbfbd214c628b40ac72d408ba8ebeea76ca74682a52d782dd67dc30a",
+    "nativePixels": true
+  }
+]

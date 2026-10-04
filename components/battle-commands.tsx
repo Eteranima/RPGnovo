@@ -1,4 +1,5 @@
 'use client';
+import {useState} from 'react';
 import {Tabs,TabsContent,TabsList,TabsTrigger} from './ui/tabs';
 import {StatusBadges} from './game-menu';
 import {HeroPortrait} from './hero-card';
@@ -16,13 +17,15 @@ function CommandArt({kind,hero,action}:{kind:CommandArtKind;hero?:HeroId;action?
 }
 
 export function BattleCommands({engine,s,target,setTarget}:{engine:GameEngine;s:Snapshot;target:HeroId;setTarget:(id:HeroId)=>void}){
+ const [tab,setTab]=useState('actions');
  const b=s.battle!,hero=engine.currentHero(),h=hero||s.heroes.find(h=>h.id===b.animation?.actor)||s.heroes.find(h=>h.id===b.queue[Math.max(0,b.index-1)])||s.heroes[0],silenced=engine.hasStatus(h.id,'silence'),ally=s.heroes.find(h=>h.id===target)||h;
+ const needsTarget=tab==='items'||tab==='skills'&&engine.skills(h.id).some(sk=>['mend','cleanse','rekindle','margem','garden-heal'].includes(sk.id)||signatureTechnique(sk.id)?.target==='ally');
  const turnText=b.busy?b.animation?.action==='frozen'?'Imobilizado pelo gelo…':b.animation?.action==='bound'?'Imobilizado pela terra…':b.animation?.actor==='enemy'?'O inimigo está agindo…':(s.heroes.find(h=>h.id===b.animation?.actor)?.name||'Herói')+' está agindo…':'Turno de '+(hero?.name||'…');
  const warning=b.boss&&b.bossCharge>=66?'Ruptura do Éter em '+b.bossCharge+'%. Prepare a guarda.':b.boss&&b.round%2===0?(b.family==='cinder'?'Pulso da Pira':'Colapso do Véu')+' nesta rodada. Guarde-se.':silenced?'Silêncio: use ataque, guarda ou Antídoto.':'Escolha uma ação.';
  const ultimate=<button className={styles.commandButton+' '+styles.ultimateButton} disabled={!hero||s.progress.limit[h.id]<100} onClick={()=>engine.action('ultimate')} title={engine.ultimateName(h.id)+' · '+s.progress.limit[h.id]+' / 100 · sem custo de MP · '+ULTIMATE_DESCRIPTIONS[h.id]}><CommandArt kind="skills" hero={h.id} action="ultimate"/><span>{engine.ultimateName(h.id)}<small>Ultimate · {s.progress.limit[h.id]} / 100</small></span><span className={styles.limitTrack} role="progressbar" aria-label={'Carga de ultimate de '+h.name} aria-valuemin={0} aria-valuemax={100} aria-valuenow={s.progress.limit[h.id]}><i style={{width:s.progress.limit[h.id]+'%'}}/></span></button>;
- return <div className={styles.commandRoot}>
+ return <div className={styles.commandRoot} data-target-mode={needsTarget?'ally':'none'}>
   <div className={styles.commandTitle} title={warning}><strong>{turnText}</strong><span className={styles.activeVitals}>{h.hp}/{h.maxHp} HP · {h.mp}/{h.maxMp} MP</span><StatusBadges states={b.statuses[h.id]}/><small className={styles.commandWarning}>{warning}</small></div>
-  <Tabs defaultValue="actions" className={styles.commandTabs}>
+  <Tabs value={tab} onValueChange={setTab} className={styles.commandTabs}>
    <TabsList className={styles.tabList} aria-label="Comandos de combate">
     <TabsTrigger className={styles.tabButton} value="actions"><CommandArt kind="actions"/><span>Ações</span></TabsTrigger>
     <TabsTrigger className={styles.tabButton} value="skills"><CommandArt kind="skills"/><span>Habilidades</span></TabsTrigger>
@@ -43,7 +46,7 @@ export function BattleCommands({engine,s,target,setTarget}:{engine:GameEngine;s:
     <button className={styles.commandButton} disabled={!hero||!s.remedies||!b.statuses[target]?.length} onClick={()=>engine.action('remedy',target)} title="Remove os estados do alvo."><CommandArt kind="items"/><span>Antídoto ×{s.remedies}<small>Remove estados</small></span></button>
    </div></TabsContent>
   </Tabs>
-  <div className={styles.targetStrip} role="group" aria-label="Alvo de cura ou item">{s.heroes.map(a=><button className={styles.targetButton+' '+(target===a.id?styles.targetSelected:'')} key={a.id} aria-label={'Selecionar '+a.name+' como alvo · '+a.hp+' de '+a.maxHp+' HP'} aria-pressed={target===a.id} onClick={()=>setTarget(a.id)}><HeroPortrait h={a} lycan={s.progress.gabrielForm==='lycan'}/><span>{a.hp}<small>/{a.maxHp}</small></span></button>)}</div>
+  {needsTarget&&<div className={styles.targetStrip} role="group" aria-label="Alvo de cura ou item">{s.heroes.map(a=><button className={styles.targetButton+' '+(target===a.id?styles.targetSelected:'')} key={a.id} aria-label={'Selecionar '+a.name+' como alvo · '+a.hp+' de '+a.maxHp+' HP'} aria-pressed={target===a.id} onClick={()=>setTarget(a.id)}><HeroPortrait h={a} lycan={s.progress.gabrielForm==='lycan'}/><span>{a.hp}<small>/{a.maxHp}</small></span></button>)}</div>}
   {!b.boss&&<button className={styles.tabButton+' '+styles.fleeButton} disabled={!hero} onClick={()=>engine.action('flee')}><CommandArt kind="flee"/><span>Recuar</span></button>}
  </div>;
 }

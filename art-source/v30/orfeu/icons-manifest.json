@@ -1,0 +1,180 @@
+{
+  "source": "icons-source.png",
+  "runtime": "/assets/v30/orfeu/icons.png",
+  "key": "skill_icons_orfeu",
+  "sha256": "e51994dd6fe5e2ffc34fb4ca2f5b412c2adaa9c9042413bb9bb9d975e42988b6",
+  "size": [
+    1536,
+    1024
+  ],
+  "mode": "RGBA",
+  "alphaMin": 0,
+  "alphaMax": 254,
+  "fullyTransparentPixels": 801320,
+  "visibleEdgePixels": 0,
+  "visibleAlphaThreshold": 24,
+  "rowCuts": [
+    0,
+    505,
+    1024
+  ],
+  "rowEmptyCorridorsInclusive": [
+    [
+      496,
+      514
+    ]
+  ],
+  "columnEmptyCorridorsInclusive": [
+    [
+      [
+        506,
+        526
+      ],
+      [
+        1008,
+        1029
+      ]
+    ],
+    [
+      [
+        506,
+        526
+      ],
+      [
+        1009,
+        1029
+      ]
+    ]
+  ],
+  "columns": 3,
+  "rows": 2,
+  "combatFacing": null,
+  "cells": [
+    {
+      "index": 0,
+      "row": 0,
+      "col": 0,
+      "crop": {
+        "x": 23,
+        "y": 15,
+        "w": 485,
+        "h": 483,
+        "anchorX": 265.5,
+        "anchorY": 256.5
+      },
+      "visibleCropEdgePixels": 0,
+      "runtime": "/assets/v30/orfeu/icons/0.png",
+      "sha256": "9f88a6c44c6691057e56c4c14c4248b0e923696120257c650f386dc89c7d716d",
+      "meaning": "ataque físico"
+    },
+    {
+      "index": 1,
+      "row": 0,
+      "col": 1,
+      "crop": {
+        "x": 525,
+        "y": 15,
+        "w": 485,
+        "h": 482,
+        "anchorX": 767.5,
+        "anchorY": 256.0
+      },
+      "visibleCropEdgePixels": 0,
+      "runtime": "/assets/v30/orfeu/icons/1.png",
+      "sha256": "c16dae08e31c41b6965f66783e21b1caba2c287b2f7a09cf235e719e431e485e",
+      "meaning": "Palma de Ruptura"
+    },
+    {
+      "index": 2,
+      "row": 0,
+      "col": 2,
+      "crop": {
+        "x": 1028,
+        "y": 15,
+        "w": 484,
+        "h": 482,
+        "anchorX": 1270.0,
+        "anchorY": 256.0
+      },
+      "visibleCropEdgePixels": 0,
+      "runtime": "/assets/v30/orfeu/icons/2.png",
+      "sha256": "990d752a1573f41f33c5db68f8f42ee734f61542f90e8f0e6ad3c454fdd0f2e8",
+      "meaning": "Guarda Nula"
+    },
+    {
+      "index": 3,
+      "row": 1,
+      "col": 0,
+      "crop": {
+        "x": 23,
+        "y": 514,
+        "w": 485,
+        "h": 481,
+        "anchorX": 265.5,
+        "anchorY": 754.5
+      },
+      "visibleCropEdgePixels": 0,
+      "runtime": "/assets/v30/orfeu/icons/3.png",
+      "sha256": "8827c3732a0c6dd98c34677e978ce3218dd618466445a7907e2d59de8b0a4e2a",
+      "meaning": "silêncio antimágico"
+    },
+    {
+      "index": 4,
+      "row": 1,
+      "col": 1,
+      "crop": {
+        "x": 525,
+        "y": 513,
+        "w": 486,
+        "h": 482,
+        "anchorX": 768.0,
+        "anchorY": 754.0
+      },
+      "visibleCropEdgePixels": 0,
+      "runtime": "/assets/v30/orfeu/icons/4.png",
+      "sha256": "8b200837f504d05603b3dfc6f46e10e49b45e4831870c48d937b47b246ef71dd",
+      "meaning": "ruptura ampla"
+    },
+    {
+      "index": 5,
+      "row": 1,
+      "col": 2,
+      "crop": {
+        "x": 1028,
+        "y": 514,
+        "w": 484,
+        "h": 481,
+        "anchorX": 1270.0,
+        "anchorY": 754.5
+      },
+      "visibleCropEdgePixels": 0,
+      "runtime": "/assets/v30/orfeu/icons/5.png",
+      "sha256": "3bd225a8b60bfe1df466523c49c033d24d107e6ce4d3e58131c04fec4c948bf7",
+      "meaning": "Domínio Nulo"
+    }
+  ],
+  "anchorMethod": "waist axis visually measured; feet from opaque bottom; VFX/icons centered",
+  "pixelTransform": "none; native RGBA copied, icons rectangle crops only",
+  "outsideArtworkAlphaSamples": [
+    {
+      "x": 0,
+      "y": 0,
+      "alpha": 0
+    },
+    {
+      "x": 1535,
+      "y": 1023,
+      "alpha": 0
+    },
+    {
+      "x": 512,
+      "y": 0,
+      "alpha": 0
+    },
+    {
+      "x": 768,
+      "y": 505,
+      "alpha": 0
+    }
+  ]
+}

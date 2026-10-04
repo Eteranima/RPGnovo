@@ -1,0 +1,10 @@
+{
+  "id": "runewarden",
+  "kind": "attack",
+  "group": "enemies",
+  "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-cd9c6111-37e2-4cd3-a8e9-072517f9e9f6.png",
+  "prompt": "Use case: stylized-concept. Final 2D anime JRPG attack sprite sheet for ETER ANIMA. Use Image1 only as exact creature identity, preserve anatomy/coloring/armor/weapon from reference, Japanese anime clean contour and cel shading. EXACTLY SIX complete chronological sprites, THREE columns TWO rows, canvas1536x1024. Entire creature with extremities/weapon and local effect stays within its own512x512 cell with72px clearalpha0 gutters. Max body/effect size70% cell width/height. FacingLEFT consistently. Frames0 neutral REST without particles;1 anticipation;2 power gather;3 leftward attack;4 brief impact;5 recovery. Stable body height and ground baseline. Real alpha0 free interior/exterior, no scenery/matte/background/text/grid/shadowrectangle. Natural coherent limbs, every hand/paw/hoof fully visible, no cell touches another. Ivory/gold navy ceramic animated knight with sapphire breastplate, nib-headed fountain-pen spear and rune book. Two arms andtwo legs coherent grips. Spear thrust LEFT, short dark navy ink stroke onframes3/4, no purple aura/fire. Bookheldsecurely throughout, no floating duplicate weapons.",
+  "reason": "Rejected for right-facing visor in part of sequence and/or neighboring cell contact.",
+  "archive": "art-source/v30/enemies/runewarden/rejected/attack-5.png",
+  "sourceSha256": "01c13706e3daedc70765723c876d7ca2270d54f662045ec0d9b35b80e2d204d2"
+}

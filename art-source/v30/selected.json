@@ -1,0 +1,267 @@
+[
+  {
+    "id": "lobo",
+    "kind": "ultimate",
+    "group": "enemies",
+    "cols": 4,
+    "rows": 2,
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-c682e34d-6ed5-4c5c-85a0-a38fa0040ef2.png",
+    "prompt": "Use case: precise-object-edit. This source is an edit target. Repair ONLY sheet layout/isolation/completeness. Preserve the original identities, silhouettes, coloring, anime cel-shaded illustration, all chronological poses/objects and their original ordering. EXACTLY EIGHT distinct complete isolated sprites, FOUR columns TWO rows on a transparent 2048x1024 canvas. VERY IMPORTANT: uniformly make ALL illustrated units (body plus effect or whole prop) SMALLER so they occupy AT MOST68% of each cell width and70% of cell height. Center each within its own cell. Every unit needs a wide clean alpha0 horizontal and vertical gutter, at least70px. No pixel/art may touch outside edges or a neighboring sprite. NO rectangular gradients or painted backgrounds. Keep real alpha0 in all free interior spaces. No grid lines, letters or numbers. CRITICAL separate bottom-row column1 claw sweep from column2 spectral wolf, and retain eight complete natural four-legged wolves.",
+    "rejectedInitial": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-ea34c75c-0427-4c13-981d-ce94485d8983.png"
+  },
+  {
+    "id": "sombra",
+    "kind": "ultimate",
+    "group": "enemies",
+    "cols": 4,
+    "rows": 2,
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-44ff1987-d498-47e8-8833-f15aa1e8aa6b.png",
+    "prompt": "Use case: stylized-concept. Asset type: production 2D enemy ultimate animation atlas for ETER ANIMA anime JRPG. Style: hand-painted Japanese fantasy anime with crisp clean ink contour, coherent cel shading inspired by Fate and Mushoku Tensei, refined illustration, NOT 3D, NOT western animation, NOT photo. Canvas 2048x1024. EXACTLY EIGHT self-contained complete sprites in FOUR columns TWO rows, equal 512x512 cells. Row-major chronological sequence. Each full body with all extremities AND its local effect must fit within its cell with 40px of empty true alpha0 gutter on every side, including outer canvas. Keep ground baseline stable; face LEFT in 3/4 side view toward player party. No cell borders, no letters, no captions, no checkerboard, no ground shadow rectangle, no opaque background or atmospheric matte. Real transparency throughout gaps and around silhouettes. Frame0 idle no effect; 1 anticipation; 2 gather power; 3 wind-up; 4 release; 5 contact peak; 6 follow-through; 7 controlled recovery. Respect creature anatomy, no extra limbs, complete paws/hands/wings. Effects small enough to stay isolated, vibrant but no broad aura behind the sheet. This is a COMPLETE STYLE REMAKE into production Japanese ANIME CEL ANIMATION. Image1 is STYLE reference, not content: use its crisp uniform outlines and 3 flat shading values per material. Image2 supplies enemy identity only; DO NOT repeat Image2's photoreal textures, dimensional render, noisy shading or painted matte. No realistic fur strands, no photographic material microtexture. Sombra Corrompida: complete floating hooded wraith with ragged pale-blue robes, gold chain belts, void face with two tiny violet eyes, two anatomically clear skeletal five-finger hands. ULTIMATE Maré da Cegueira: violet-black ribbons curl into a compact eye crest, then a leftward dark crescent wave. Robes persist in every frame. No generic flame, no extra hands."
+  },
+  {
+    "id": "selo",
+    "kind": "ultimate",
+    "group": "enemies",
+    "cols": 4,
+    "rows": 2,
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-f9ab8373-1775-48d0-b0f1-4b812af11e60.png",
+    "prompt": "Use case: stylized-concept. Asset type: production 2D enemy ultimate animation atlas for ETER ANIMA anime JRPG. Style: hand-painted Japanese fantasy anime with crisp clean ink contour, coherent cel shading inspired by Fate and Mushoku Tensei, refined illustration, NOT 3D, NOT western animation, NOT photo. Canvas 2048x1024. EXACTLY EIGHT self-contained complete sprites in FOUR columns TWO rows, equal 512x512 cells. Row-major chronological sequence. Each full body with all extremities AND its local effect must fit within its cell with 40px of empty true alpha0 gutter on every side, including outer canvas. Keep ground baseline stable; face LEFT in 3/4 side view toward player party. No cell borders, no letters, no captions, no checkerboard, no ground shadow rectangle, no opaque background or atmospheric matte. Real transparency throughout gaps and around silhouettes. Frame0 idle no effect; 1 anticipation; 2 gather power; 3 wind-up; 4 release; 5 contact peak; 6 follow-through; 7 controlled recovery. Respect creature anatomy, no extra limbs, complete paws/hands/wings. Effects small enough to stay isolated, vibrant but no broad aura behind the sheet. This is a COMPLETE STYLE REMAKE into production Japanese ANIME CEL ANIMATION. Image1 is STYLE reference, not content: use its crisp uniform outlines and 3 flat shading values per material. Image2 supplies enemy identity only; DO NOT repeat Image2's photoreal textures, dimensional render, noisy shading or painted matte. No realistic fur strands, no photographic material microtexture. O Selo Quebrado: tall floating hooded violet wraith in ornate torn blue-violet robes, gold chain collar, broken gold/violet halo behind head. Void face with two glowing violet eyes and two coherent skeletal hands. ULTIMATE Memória Estilhaçada: golden seal wheel with indigo star center fractures into 5–7 crystal shards in an arc thrown LEFT, with the full wraith visible behind its compact golden/blue effect. Preserve halo, robe and chain in every pose."
+  },
+  {
+    "id": "ashwolf",
+    "kind": "ultimate",
+    "group": "enemies",
+    "cols": 4,
+    "rows": 2,
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-c71ca31c-0515-4bea-a1e3-7b5ab332b957.png",
+    "prompt": "Use case: stylized-concept. Asset type: production 2D enemy ultimate animation atlas for ETER ANIMA anime JRPG. Style: hand-painted Japanese fantasy anime with crisp clean ink contour, coherent cel shading inspired by Fate and Mushoku Tensei, refined illustration, NOT 3D, NOT western animation, NOT photo. Canvas 2048x1024. EXACTLY EIGHT self-contained complete sprites in FOUR columns TWO rows, equal 512x512 cells. Row-major chronological sequence. Each full body with all extremities AND its local effect must fit within its cell with 40px of empty true alpha0 gutter on every side, including outer canvas. Keep ground baseline stable; face LEFT in 3/4 side view toward player party. No cell borders, no letters, no captions, no checkerboard, no ground shadow rectangle, no opaque background or atmospheric matte. Real transparency throughout gaps and around silhouettes. Frame0 idle no effect; 1 anticipation; 2 gather power; 3 wind-up; 4 release; 5 contact peak; 6 follow-through; 7 controlled recovery. Respect creature anatomy, no extra limbs, complete paws/hands/wings. Effects small enough to stay isolated, vibrant but no broad aura behind the sheet. This is a COMPLETE STYLE REMAKE into production Japanese ANIME CEL ANIMATION. Image1 is STYLE reference, not content: use its crisp uniform outlines and 3 flat shading values per material. Image2 supplies enemy identity only; DO NOT repeat Image2's photoreal textures, dimensional render, noisy shading or painted matte. No realistic fur strands, no photographic material microtexture. Lobo de Cinzas: mature charcoal and basalt wolf with ember-orange fissures, orange eyes and a plume of amber flame on the spine. Image2 top row supplies only body identity. ULTIMATE Uivo da Cinza: howl invokes a curved warm-gold crescent, forward LEFT bound wrapped in a compact amber fire arc, ash flecks. Anatomically natural four paws. No blue/ice colors."
+  },
+  {
+    "id": "moth",
+    "kind": "ultimate",
+    "group": "enemies",
+    "cols": 4,
+    "rows": 2,
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-a07db820-3e76-4cb7-b740-f269183351b6.png",
+    "prompt": "Use case: precise-object-edit. This source is an edit target. Repair ONLY sheet layout/isolation/completeness. Preserve the original identities, silhouettes, coloring, anime cel-shaded illustration, all chronological poses/objects and their original ordering. EXACTLY EIGHT distinct complete isolated sprites, FOUR columns TWO rows on a transparent 2048x1024 canvas. VERY IMPORTANT: uniformly make ALL illustrated units (body plus effect or whole prop) SMALLER so they occupy AT MOST68% of each cell width and70% of cell height. Center each within its own cell. Every unit needs a wide clean alpha0 horizontal and vertical gutter, at least70px. No pixel/art may touch outside edges or a neighboring sprite. NO rectangular gradients or painted backgrounds. Keep real alpha0 in all free interior spaces. No grid lines, letters or numbers. CRITICAL leave a generous alpha0 gutter between bottom-row column1 crystalline sweep and column2 moth. Preserve complete wing outlines and paired antennae in all eight frames.",
+    "rejectedInitial": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-6583b591-bf24-4e67-bf8a-a016c34bdd2f.png",
+    "anchors": [
+      [
+        228,
+        394
+      ],
+      [
+        664,
+        393
+      ],
+      [
+        1114,
+        390
+      ],
+      [
+        1554,
+        386
+      ],
+      [
+        260,
+        773
+      ],
+      [
+        688,
+        772
+      ],
+      [
+        1190,
+        773
+      ],
+      [
+        1570,
+        773
+      ]
+    ]
+  },
+  {
+    "id": "eco",
+    "kind": "ultimate",
+    "group": "enemies",
+    "cols": 4,
+    "rows": 2,
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-dd1065f0-1460-4ce8-bf0d-7484b183a02c.png",
+    "prompt": "Use case: stylized-concept. Asset type: production 2D enemy ultimate animation atlas for ETER ANIMA anime JRPG. Style: hand-painted Japanese fantasy anime with crisp clean ink contour, coherent cel shading inspired by Fate and Mushoku Tensei, refined illustration, NOT 3D, NOT western animation, NOT photo. Canvas 2048x1024. EXACTLY EIGHT self-contained complete sprites in FOUR columns TWO rows, equal 512x512 cells. Row-major chronological sequence. Each full body with all extremities AND its local effect must fit within its cell with 40px of empty true alpha0 gutter on every side, including outer canvas. Keep ground baseline stable; face LEFT in 3/4 side view toward player party. No cell borders, no letters, no captions, no checkerboard, no ground shadow rectangle, no opaque background or atmospheric matte. Real transparency throughout gaps and around silhouettes. Frame0 idle no effect; 1 anticipation; 2 gather power; 3 wind-up; 4 release; 5 contact peak; 6 follow-through; 7 controlled recovery. Respect creature anatomy, no extra limbs, complete paws/hands/wings. Effects small enough to stay isolated, vibrant but no broad aura behind the sheet. This is a COMPLETE STYLE REMAKE into production Japanese ANIME CEL ANIMATION. Image1 is STYLE reference, not content: use its crisp uniform outlines and 3 flat shading values per material. Image2 supplies enemy identity only; DO NOT repeat Image2's photoreal textures, dimensional render, noisy shading or painted matte. No realistic fur strands, no photographic material microtexture. Eco do Selo: floating ancient hooded violet wraith, gold chains, obscured face with two violet eyes, two coherent five-finger skeletal hands, torn dark-violet blue robes and fragmented violet halo. ULTIMATE Véu Sem Retorno: conjures 3 ornate spectral mirror door fragments behind the wraith, pushes a compact leftward violet reflection wave, then portals collapse into elegant violet ribbons. Full body remains visible; no opaque backdrop."
+  },
+  {
+    "id": "cinder",
+    "kind": "ultimate",
+    "group": "enemies",
+    "cols": 4,
+    "rows": 2,
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-40a64271-ffc4-4fbe-91b9-0a5bcb5451c3.png",
+    "prompt": "Use case: precise-object-edit. This source is an edit target. Repair ONLY sheet layout/isolation/completeness. Preserve the original identities, silhouettes, coloring, anime cel-shaded illustration, all chronological poses/objects and their original ordering. EXACTLY EIGHT distinct complete isolated sprites, FOUR columns TWO rows on a transparent 2048x1024 canvas. VERY IMPORTANT: uniformly make ALL illustrated units (body plus effect or whole prop) SMALLER so they occupy AT MOST68% of each cell width and70% of cell height. Center each within its own cell. Every unit needs a wide clean alpha0 horizontal and vertical gutter, at least70px. No pixel/art may touch outside edges or a neighboring sprite. NO rectangular gradients or painted backgrounds. Keep real alpha0 in all free interior spaces. No grid lines, letters or numbers. CRITICAL reconstruct the FULL sword TIP missing from upper row column3, and isolate bottom-row columns2/3 fire/sword effects. TWO coherent arms and legs, correctly held sword. All eight swords fully contained, never touching upper canvas.",
+    "rejectedInitial": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-cabfda33-b4cb-414a-8d91-d6062e2bf27e.png",
+    "anchors": [
+      [
+        264,
+        432
+      ],
+      [
+        707,
+        434
+      ],
+      [
+        1131,
+        438
+      ],
+      [
+        1582,
+        436
+      ],
+      [
+        331,
+        800
+      ],
+      [
+        785,
+        803
+      ],
+      [
+        1182,
+        806
+      ],
+      [
+        1594,
+        804
+      ]
+    ]
+  },
+  {
+    "id": "lunastag",
+    "kind": "portrait",
+    "group": "enemies",
+    "cols": 1,
+    "rows": 1,
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-74d667b1-0641-4575-8802-25d3e752c374.png",
+    "prompt": "Use case: stylized-concept. Asset type: final full-body enemy portrait and map body sprite for anime JRPG ETER ANIMA. Style reference Image1: crisp thin contour, Japanese fantasy anime, polished 3-tone cel shading like Fate/Mushoku Tensei, clean silhouettes and coherent proportions, not chibi, NOT realistic texture or 3D. EXACTLY ONE complete creature, centered within portrait 1024x1536 canvas, generous true alpha0 all around, character 78% canvas height. Facing LEFT in three-quarter side combat view. No ground plane, no painted atmosphere, no shadow rectangle, no scenery, no text, no decorative border. Full body entire visible, correct limbs/paws/hands/feet, no added anatomy. Subject Cervo da Geada Lunar: adult elegant silver-white stag with natural slender deer anatomy, exactly four long legs and cloven hooves, refined cervine head with black nose, luminous cyan eyes, a symmetrical pair of branching crystal-ice antlers. Silver fur is simplified cel-shaded tufts, pale-blue crystal accents on shoulder and mane, sparse frost near antlers only. Noble wild creature, mature proportions, neither cute mascot nor humanoid. No weapon, no collar, no fire. Clean true transparency in spaces between antler branches and legs."
+  },
+  {
+    "id": "runewarden",
+    "kind": "portrait",
+    "group": "enemies",
+    "cols": 1,
+    "rows": 1,
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-d1ff5360-23c6-4f27-8f3a-14c8deac0c42.png",
+    "prompt": "Use case: stylized-concept. Asset type: final full-body enemy portrait and map body sprite for anime JRPG ETER ANIMA. Style reference Image1: crisp thin contour, Japanese fantasy anime, polished 3-tone cel shading like Fate/Mushoku Tensei, clean silhouettes and coherent proportions, not chibi, NOT realistic texture or 3D. EXACTLY ONE complete creature, centered within portrait 1024x1536 canvas, generous true alpha0 all around, character 78% canvas height. Facing LEFT in three-quarter side combat view. No ground plane, no painted atmosphere, no shadow rectangle, no scenery, no text, no decorative border. Full body entire visible, correct limbs/paws/hands/feet, no added anatomy. Subject Vigia Rúnico: adult-size ceremonial animated ceramic knight automaton, ivory segmented armor with muted champagne gold fittings, navy ink channels and sapphire rune in center of breastplate. Angular closed helmet with slender blue visor. Tall humanoid anatomy two arms/five armored fingers per hand, two legs with articulated boots. One hand holds a long ivory fountain-pen spear with dark blue nib, other opens an ivory rune book. Navy short shoulder cape. Original fantasy archive sentinel, no robot tech, no gun, no gears overload. No magic effects in this portrait beyond small native crystal glint."
+  },
+  {
+    "id": "astral",
+    "kind": "phases",
+    "group": "enemies",
+    "cols": 3,
+    "rows": 1,
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-79ba2d90-116c-4901-b4b2-6347f160f10b.png",
+    "prompt": "Use case: stylized-concept. Production enemy phase atlas for anime fantasy JRPG ETER ANIMA. Image1 STYLE only crisp Japanese anime ink lines and 3-tone cel shading, Fate/Mushoku Tensei. EXACTLY THREE complete large full-body sprites in THREE equal columns ONE row, canvas1536x1024. Each stays within own 512x1024 cell with100px transparent horizontal gutters and48px vertical gutters. Subject Guardião do Astrolábio: elegant towering automaton of navy and ivory ceramic plates, champagne-gold edges, closed dark helmet with bright electric-blue star visor, two natural jointed arms and five armored fingers/two sturdy articulated legs. Silver-blue diamond core on chest; three delicate gold armillary rings behind shoulders are PART of silhouette. Original celestial academy guardian, no 3D/render/photoreal/western cartoon. ALL facingLEFT in 3/4 combat view, baseline950. Column0 dormant neutral idle with one thin armillary ring, arms lowered, no particles. Column1 awakened two rings, subtle cyan circuit highlights, open hand. Column2 three rings aligned, chest core brighter, small isolated electric sparks. Complete boots and hands, coherent anatomy identical identity, no giant weapon. True RGBA alpha0 exterior AND ring holes, no painted gradient, no scenery/ground/shadow/text.",
+    "opaque": false
+  },
+  {
+    "id": "floor",
+    "kind": "materials",
+    "group": "world",
+    "cols": 4,
+    "rows": 4,
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-b9661a67-9ed6-494c-9564-f6f22c20f67b.png",
+    "prompt": "Use case: stylized-concept. Final TOP-DOWN anime JRPG seamless floor texture atlas for ETER ANIMA expansion. Image1 style and use reference only. Square1536x1536, EXACTLY FOUR columns FOUR rows of opaque rectangular material swatches. NO gutters, NO labels, NO lines separating swatches. Four columns are restrained equal-brightness natural variations of same material, aligned tileable borders so variants avoid obvious checkerboard. Row0 muted sage/bluegreen moonlit grass with sparse tiny silver leaves and low moss, subtle no chunky stones; row1 pale ivory/blue moonstone footpath irregular worn stone, restrained moss in joints; row2 midnight slate observatory floor with fine pale chips, muted violet undertone; row3 pale gray/blue limestone astronomy courtyard pavers, subtle fine star carvings only occasional corners not giant motifs. Clean hand-painted fantasy anime outlines and flat painterly cel shading, MushokuTensei/Fate background language, not realistic/photo/3D. Orthographic overhead flat ground, no perspective, no raised prop/building, no shadows/blacksquares, no trees or creatures. Soft uniform gentle cool lighting same exposure across columns. Textures elegant readable at56px tiles and large5x5 patch; detail high but not noisy.",
+    "opaque": true
+  },
+  {
+    "id": "props",
+    "kind": "atlas",
+    "group": "world",
+    "cols": 4,
+    "rows": 2,
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-b3043451-fdb3-411e-ae11-781414a2dd7f.png",
+    "prompt": "Use case: precise-object-edit. This source is an edit target. Repair ONLY sheet layout/isolation/completeness. Preserve the original identities, silhouettes, coloring, anime cel-shaded illustration, all chronological poses/objects and their original ordering. EXACTLY EIGHT distinct complete isolated sprites, FOUR columns TWO rows on a transparent 2048x1024 canvas. VERY IMPORTANT: uniformly make ALL illustrated units (body plus effect or whole prop) SMALLER so they occupy AT MOST68% of each cell width and70% of cell height. Center each within its own cell. Every unit needs a wide clean alpha0 horizontal and vertical gutter, at least70px. No pixel/art may touch outside edges or a neighboring sprite. NO rectangular gradients or painted backgrounds. Keep real alpha0 in all free interior spaces. No grid lines, letters or numbers. CRITICAL restore entire tops of the TWO TREES in upper row columns1/2; roots and all branches complete. Keep8props in exactly same order and same perspective.",
+    "opaque": false,
+    "rejectedInitial": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-a0beabee-bcea-4ec2-8662-9947633dea91.png"
+  },
+  {
+    "id": "lunastag",
+    "kind": "attack",
+    "cols": 3,
+    "rows": 2,
+    "prompt": "Use case: precise-object-edit. Repair ONLY production sprite sheet layout/isolation of reference. Preserve EXACT silver-white ice stag identity, clean Japanese anime cel shading, all SIX attack poses in THREE columns TWO rows. All four natural legs, antlers, hooves complete. Frame0 neutral rest no particles;1 anticipation;2 gather;3 horn thrust LEFT with ice crescent;4 impact;5 recovery. ALL faceLEFT. Canvas1536x1024: each512x512 cell must contain ENTIRE creature and entire effect INSIDE a central box 330px wide and360px high (maximum 65% width/70% height), leaving at least80px FULLY TRANSPARENT alpha0 horizontal gutters around EVERY pose. Shrink the drawing scale per-cell equally if necessary, keep stable baseline. Reduce long ice crescents to short local curves. Never clip a hoof or antler or wave and never place fragments in neighboring cell. Actual alpha0 in all free spaces, no painted background/matte/ground rectangle/grid/text. Keep anatomy and costume/ice color unchanged.",
+    "group": "enemies",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-f637de41-f7a5-4e10-a60b-e2ebe95f1445.png",
+    "rejectedInitial": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-19c5477f-c4bd-4662-b467-8809f4d03b88.png",
+    "initialPrompt": "Use case: stylized-concept. Final 2D anime JRPG attack sprite sheet for ETER ANIMA. Use Image1 only as exact creature identity, preserve anatomy/coloring/armor/weapon from reference, Japanese anime clean contour and cel shading. EXACTLY SIX complete chronological sprites, THREE columns TWO rows, canvas1536x1024. Entire creature with extremities/weapon and local effect stays within its own512x512 cell with72px clearalpha0 gutters. Max body/effect size70% cell width/height. FacingLEFT consistently. Frames0 neutral REST without particles;1 anticipation;2 power gather;3 leftward attack;4 brief impact;5 recovery. Stable body height and ground baseline. Real alpha0 free interior/exterior, no scenery/matte/background/text/grid/shadowrectangle. Natural coherent limbs, every hand/paw/hoof fully visible, no cell touches another. Adult silver-white stag with crystal-ice antlers. Four natural cloven-hoof deer legs. A controlled horn thrust toLEFT and tiny ice crescent on frames3/4. No extra legs/antlers, no fire effects."
+  },
+  {
+    "id": "lunastag",
+    "kind": "ultimate",
+    "cols": 4,
+    "rows": 2,
+    "prompt": "Use case: stylized-concept. Asset type: production 2D enemy ultimate animation atlas for ETER ANIMA anime JRPG. Style: hand-painted Japanese fantasy anime with crisp clean ink contour, coherent cel shading inspired by Fate and Mushoku Tensei, refined illustration, NOT 3D, NOT western animation, NOT photo. Canvas 2048x1024. EXACTLY EIGHT self-contained complete sprites in FOUR columns TWO rows, equal 512x512 cells. Row-major chronological sequence. Each full body with all extremities AND its local effect must fit within its cell with 40px of empty true alpha0 gutter on every side, including outer canvas. Keep ground baseline stable; face LEFT in 3/4 side view toward player party. No cell borders, no letters, no captions, no checkerboard, no ground shadow rectangle, no opaque background or atmospheric matte. Real transparency throughout gaps and around silhouettes. Frame0 idle no effect; 1 anticipation; 2 gather power; 3 wind-up; 4 release; 5 contact peak; 6 follow-through; 7 controlled recovery. Respect creature anatomy, no extra limbs, complete paws/hands/wings. Effects small enough to stay isolated, vibrant but no broad aura behind the sheet. Image1 is exact enemy identity. Preserve the elegant adult silver-white stag with cyan eyes, natural FOUR long deer legs/cloven hooves and two branching crystalice antlers. Cel-shaded anime illustration, uniform black outline no fur realism. ULTIMATE Coroa da Geada Lunar: antlers gather cyan glint, compact floating blue/silver crescent crown, a leftward full-body dash wrapped in 3 narrow frost ribbons, impact burst of5 crystalline shards, graceful recovery. IMPORTANT Keep EACH whole creature+effect under68%cell width and70%cell height,72px true-alpha0 gutters. Complete antler tips+hooves visible. NO moonlight painted background or glow matte.",
+    "group": "enemies",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-e23a6f79-e31b-4e9b-bd7d-0bec6d9445f8.png"
+  },
+  {
+    "id": "runewarden",
+    "kind": "attack",
+    "cols": 2,
+    "rows": 3,
+    "prompt": "Use case: precise-object-edit. Correct ONLY the MIDDLE-RIGHT pose (row2,column2) in this SIX-pose TWO-column THREE-row transparent attack atlas. Keep ALL other5 poses/identity/colors/left-facing helmet/sequence intact. The middle-right pose spear/ink tip currently extends LEFT to x440 and overlaps the neighboring figure's cape. Make its spear thrust FORESHORTENED and compact, tip begins atx560 orfartherRIGHT, entiremiddle-rightspritebetweenx540andx980, y570–995. Keep its twohands grippingONE spear, spellbook securely stowed atbelt, crouchingbodycorrect. Shorten left projectile, no long energycurve escaping itscell. This creates REALalpha0 empty verticalspace x460–520 acrossmiddle-row entireheight. Otherposes keepcompletefeet/hands/leftfacing. Canvas1024x1536, EXACT6 figures rowmajor. Nativeclean Japanesefantasyanimecelshading preserved. REAL TRANSPARENT background/free gaps, no matte/labels/grid/rectangularshadow, no extraobjects. Absolutely no middle-right weapon/ink/cape leftofx530; leave first middle-left sprite completeunchanged.",
+    "group": "enemies",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-02127e5c-b773-4c10-80ef-f46fa8a22b39.png",
+    "rejectedInitial": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-cd9c6111-37e2-4cd3-a8e9-072517f9e9f6.png",
+    "initialPrompt": "Use case: stylized-concept. Final 2D anime JRPG attack sprite sheet for ETER ANIMA. Use Image1 only as exact creature identity, preserve anatomy/coloring/armor/weapon from reference, Japanese anime clean contour and cel shading. EXACTLY SIX complete chronological sprites, THREE columns TWO rows, canvas1536x1024. Entire creature with extremities/weapon and local effect stays within its own512x512 cell with72px clearalpha0 gutters. Max body/effect size70% cell width/height. FacingLEFT consistently. Frames0 neutral REST without particles;1 anticipation;2 power gather;3 leftward attack;4 brief impact;5 recovery. Stable body height and ground baseline. Real alpha0 free interior/exterior, no scenery/matte/background/text/grid/shadowrectangle. Natural coherent limbs, every hand/paw/hoof fully visible, no cell touches another. Ivory/gold navy ceramic animated knight with sapphire breastplate, nib-headed fountain-pen spear and rune book. Two arms andtwo legs coherent grips. Spear thrust LEFT, short dark navy ink stroke onframes3/4, no purple aura/fire. Bookheldsecurely throughout, no floating duplicate weapons."
+  },
+  {
+    "id": "runewarden",
+    "kind": "ultimate",
+    "cols": 2,
+    "rows": 4,
+    "prompt": "Use case: stylized-concept. Create a NEW production2D anime JRPG sprite sheet from Image1, the SINGLE LEFT-FACING knight identity. Exact ivory/gold/navy armor, sapphirechest, closedblue visor projectingLEFT, goldrearhornssweptRIGHT, nib spear andrunebook. Clean Japanesefantasy anime/celshading Fate/Mushoku, twoarmstwolegs fivefingers coherentgrips. NONE ofthe reference background: useTRUEalpha0 whereverfigureabsent. Allheadstorsos FACELEFT. Critically SPACIOUS: fullfigure+ENTIREweapon+FX drawnonly inside central280x300 of EACH512squarecell, big 110px transparent horizontal/verticalgutters; keep everyfigure SAMEscale/groundbaseline. Allweapons held mostlydiagonal or vertical, close tobody; LEFTrelease is compact inkdart near hand, NOT longhorizontalshaft/sweepinglongbeam. Completefeet/helmets/speartips, no overlap/cutlimbs. NOT background/matte/borders/text/checkerboard/grid/groundshadow. Canvas1024x2048 tall; EXACTLYEIGHT poses TWO columns FOUR rows. Rowmajor0restnoFX;1liftbook;2thinOPEN navyinkruneseal;3raise speardiagonalclose;4release smallLEFTinkcrescent nearhand;5compactinkstarimpact withfourpaperfragments;6follow;7recover. ENTIRE effect fits withbodywithin280x300 box, no largeaura, no effectreaches neighboringfigure. Spaciousclearalphagutters100px.",
+    "group": "enemies",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-b3cebdc8-7994-4073-a25c-28d10d7d0a82.png",
+    "rejectedInitial": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-a294290f-c26f-4ef6-b06f-b57f2cad9a14.png",
+    "initialPrompt": "Use case: stylized-concept. Asset type: production 2D enemy ultimate animation atlas for ETER ANIMA anime JRPG. Style: hand-painted Japanese fantasy anime with crisp clean ink contour, coherent cel shading inspired by Fate and Mushoku Tensei, refined illustration, NOT 3D, NOT western animation, NOT photo. Canvas 2048x1024. EXACTLY EIGHT self-contained complete sprites in FOUR columns TWO rows, equal 512x512 cells. Row-major chronological sequence. Each full body with all extremities AND its local effect must fit within its cell with 40px of empty true alpha0 gutter on every side, including outer canvas. Keep ground baseline stable; face LEFT in 3/4 side view toward player party. No cell borders, no letters, no captions, no checkerboard, no ground shadow rectangle, no opaque background or atmospheric matte. Real transparency throughout gaps and around silhouettes. Frame0 idle no effect; 1 anticipation; 2 gather power; 3 wind-up; 4 release; 5 contact peak; 6 follow-through; 7 controlled recovery. Respect creature anatomy, no extra limbs, complete paws/hands/wings. Effects small enough to stay isolated, vibrant but no broad aura behind the sheet. Image1 exact creature identity. Preserve ivory ceramic knight with gold/navy armor, closed blue visor, sapphire chest, nib spear and rune book. ULTIMATE Édito da Página Vazia: book lifts, thin navy ink square runic page opens (NOT opaque rectangle; delicate line geometryonly), ink nib traces an intricate navy/gold seal, then a sweeping LEFT deepblue ink slash with 5–7 small flying ivory rune-page fragments, recovery. Coherent TWO arms FIVEfinger armored hands/two legs grip spear+book. Clean Japanese fantasy anime shading. IMPORTANT body+entireeffect within68%cell width/70%height,72px alpha0 gutters. No broadbluebackground."
+  },
+  {
+    "id": "astral",
+    "kind": "attack",
+    "group": "enemies",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-b5da9768-40f5-46d4-b795-2c48a0eb941e.png",
+    "cols": 3,
+    "rows": 2,
+    "prompt": "Use case: stylized-concept. Final 2D anime JRPG attack sprite sheet for ETER ANIMA. Use Image1 only as exact creature identity, preserve anatomy/coloring/armor/weapon from reference, Japanese anime clean contour and cel shading. EXACTLY SIX complete chronological sprites, THREE columns TWO rows, canvas1536x1024. Entire creature with extremities/weapon and local effect stays within its own512x512 cell with72px clearalpha0 gutters. Max body/effect size70% cell width/height. FacingLEFT consistently. Frames0 neutral REST without particles;1 anticipation;2 power gather;3 leftward attack;4 brief impact;5 recovery. Stable body height and ground baseline. Real alpha0 free interior/exterior, no scenery/matte/background/text/grid/shadowrectangle. Natural coherent limbs, every hand/paw/hoof fully visible, no cell touches another. Image1 contains same guardian across3phases; use first body identity, preserve navy/ivory ceramic tall automaton, gold edges, sapphire-blue star visor/chest, three thin armillary rings. Natural2arms/five armored fingers,2legs. Leftward open-palm electric strike. Frame0rest clear; rings remain thin silhouette only. Blue lightning arc compact on3/4, no staff/spear/book."
+  },
+  {
+    "id": "astral",
+    "kind": "ultimate",
+    "group": "enemies",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-6527be2d-d143-44ac-a569-e1923be8ea76.png",
+    "cols": 4,
+    "rows": 2,
+    "prompt": "Use case: precise-object-edit. Repair ONLY layout/extremity completeness of reference enemy ultimate sheet. Preserve EXACT ivory/gold/navy armored astral guardian with sapphire chest, star visor, brass orbital rings behind shoulders, Japanese anime clean cel shading, ALL bodies and visor faceLEFT. EXACTLY EIGHT fullbody+electric-effect sprites FOUR columns TWO rows, canvas2048x1024. Sequence0neutralnoFX;1anticipate;2gather;3lift small three-orbit star overhead;4LEFT starlight lance;5compact star impact;6follow;7recover. EVERY pose INCLUDING raised overhead rings and left projectiles must fit inside itsown central340x350 box per512x512 cell, at least80px fullyalpha0 gutters around ALL four sides of EVERYcell and outercanvas. Reduce all local effects and body scale consistently to fit, never crop rings/hands/feet/projectiles at edges. Frames4/5 keep compacteffectsnotwidebeams. Twoarmstwolegs coherent5fingerhandsandarmor anatomy. Truealpha0 inallfreegaps, no backgrounds/matte/ground/grid/text.",
+    "rejectedInitial": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-4bb43ab8-1888-46f9-9683-0151c4f0f57f.png",
+    "initialPrompt": "Use case: stylized-concept. Asset type: production 2D enemy ultimate animation atlas for ETER ANIMA anime JRPG. Style: hand-painted Japanese fantasy anime with crisp clean ink contour, coherent cel shading inspired by Fate and Mushoku Tensei, refined illustration, NOT 3D, NOT western animation, NOT photo. Canvas 2048x1024. EXACTLY EIGHT self-contained complete sprites in FOUR columns TWO rows, equal 512x512 cells. Row-major chronological sequence. Each full body with all extremities AND its local effect must fit within its cell with 40px of empty true alpha0 gutter on every side, including outer canvas. Keep ground baseline stable; face LEFT in 3/4 side view toward player party. No cell borders, no letters, no captions, no checkerboard, no ground shadow rectangle, no opaque background or atmospheric matte. Real transparency throughout gaps and around silhouettes. Frame0 idle no effect; 1 anticipation; 2 gather power; 3 wind-up; 4 release; 5 contact peak; 6 follow-through; 7 controlled recovery. Respect creature anatomy, no extra limbs, complete paws/hands/wings. Effects small enough to stay isolated, vibrant but no broad aura behind the sheet. Image1 exact Guardian of Astrolabe identity (phase3 style). Preserve tall navy/ivory ceramic automaton, gold trims, electric-blue diamond chest/star visor, natural2arms/five armored fingers/2legs. ULTIMATE Convergência das Três Órbitas:3delicate gold armillary rings rotate around body, converge above openpalms forming a blue-white electric star, leftward compact lightning spear releases,7small cyan star fragments at impact, rings settle. Anime crispclean outlines3-tone cel shading, not mechanical3D. EACH whole body+rings+FXmax68%cellwidth/70%height,72px alpha0 allgutters. Complete boots/fingers. No broad aura/matte, nofloor."
+  },
+  {
+    "id": "lunar",
+    "kind": "background",
+    "group": "world",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-4afccc3c-a667-4395-8321-b3d73da1473b.png",
+    "cols": 1,
+    "rows": 1,
+    "prompt": "Use case: stylized-concept. Asset type: FINAL anime JRPG battle background ETER ANIMA, hand-painted Japanese fantasy background inspired by Fate/Mushoku Tensei, clean contours, tasteful detailed cel-shaded environment, NOT realistic/3D/western cartoon. Wide landscape1920x1080. Opaque full scene. Low 3/4 stage camera. Composition: lower45% broad uninterrupted playable combat floor EMPTY for4heroes atleft/enemyright, scenery ONLY behind top55% and extremeouteredges; do not bake characters/mobs/HP/UI. Large readable forms, coherent perspective, no text/logos/watermark. Cool muted moonlight with champagnewarm accents, enough value separation for actors. Scene Jardim Lunar: an original secluded academy moon garden, silver-white and lavender-leaf mature trees beyond a low crescent-carved ivory wall, tiny bluegreen pond behind center-back, delicate ivory moon sundial with gold rings distantRIGHT. Open foreground moonstone worn path merging muted sage lawn, silverleaves sparse. Deep indigo evening sky and moonlight through treecanopies, cleanfantasy anime. Graceful serene mysterious garden, no highcontrast pattern oncombatfloor. No foregroundtree/trunk blocking actors.",
+    "opaque": true
+  },
+  {
+    "id": "observatory",
+    "kind": "background",
+    "group": "world",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-09d1cbf6-f8ec-447c-b560-c750c0816aec.png",
+    "cols": 1,
+    "rows": 1,
+    "prompt": "Use case: stylized-concept. Asset type: FINAL anime JRPG battle background ETER ANIMA, hand-painted Japanese fantasy background inspired by Fate/Mushoku Tensei, clean contours, tasteful detailed cel-shaded environment, NOT realistic/3D/western cartoon. Wide landscape1920x1080. Opaque full scene. Low 3/4 stage camera. Composition: lower45% broad uninterrupted playable combat floor EMPTY for4heroes atleft/enemyright, scenery ONLY behind top55% and extremeouteredges; do not bake characters/mobs/HP/UI. Large readable forms, coherent perspective, no text/logos/watermark. Cool muted moonlight with champagnewarm accents, enough value separation for actors. Scene Observatório Partido: ruined ivory/gray limestone academy observatory terrace, a broken navy gilded celestial dome and grand gold armillary seen distantBACK, two moonstone pillars at extremeedges, distant indigo mountains/sky through broken reararches, brass telescope near backRIGHT, mossrestrained. Open lower45% pale bluishslate floor with occasional narrow star carvings faraway, simple readablefloor. Warm goldlineaccents contrast coolmoonlight. Original Fate/Mushoku-inspired anime architecture, exquisite cleanpainted detail coherent scale, no weaponsorcharacters.",
+    "opaque": true
+  }
+]

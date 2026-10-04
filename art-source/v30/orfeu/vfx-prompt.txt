@@ -1,0 +1,9 @@
+Use case: stylized-concept. FINAL spriteatlas exactlySIX independent neutralphysical/antimagic effects for Orfeu Bauss. Reference approvedcharacterart is styleonly, DO NOTdrawperson/body/hand/face/clothing. Mature detailed animefantasy celshading same2D finish. Sem Elemento: strictly monochrome ivory/silver/slategray/nearblack pressure,dust,fracturednull geometry; no blue/purple/orange/gold glowingmagicalcolor, no elementalfire/ice/stone/plant/water/lightning/blood.
+1536×1024 RGBA REALTRANSPARENT emptyalpha0. EXACT3columns×2rows,512×512cells, onefull independent effect in eachcenter. Effectmax340×340, minimum80pxalpha0 margin all4sides. NOtouch/neighbors/invasions. Row-major6objects:
+0 physical impact: crisp ivory/gray asymmetric speedburst with short slate impact shards, translucentdust notglow.
+1 Palma de Ruptura: compact RIGHT-directed layered greywhite pressurewedge slicing throughthree darkcracked magicalgeometry fragments, no literalhand.
+2 Guarda Nula: three overlapping shieldlike translucentivory/slate pressurePLATES, broken geometricedges with tinyinwardgrey cleansingmotes, no ring.
+3 anti-magic silence: a small shattered darkglyphlike plaque crossedbyone clean ivory slash withblack/greydissolution chips, NO letters/numbers/runes text.
+4 broad rupture: a short layered crescentfan ofivory andslate force strokes burstingthrough darknullfragments, no ring.
+5 Domínio Nulo: dramatic angular fragmented null-zone halo built from six shattered greyblack pressurepanes enclosing a thin ivory inwardpulse, opentransparentnegativecenter, irregular broken contour notsimplecircle.
+Sixwholeeffectsisolated, no characters/feet/hands/bodies, nofloor/scene/background/gradientmatte/paintedcheckerboard/panels/text/labels. Onlypainted originalneutralFX withtruealphaoutside. Smallsizeclear uniquevocabulary physical antimagical, avoidgenericglowingcircle.

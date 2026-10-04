@@ -1,0 +1,230 @@
+[
+  {
+    "key": "gacha-tier1",
+    "cell": 0,
+    "visibleBorderPixels": 0,
+    "transparentPixels": 160574
+  },
+  {
+    "key": "gacha-tier1",
+    "cell": 1,
+    "visibleBorderPixels": 0,
+    "transparentPixels": 117879
+  },
+  {
+    "key": "gacha-tier1",
+    "cell": 2,
+    "visibleBorderPixels": 0,
+    "transparentPixels": 110944
+  },
+  {
+    "key": "gacha-tier1",
+    "cell": 3,
+    "visibleBorderPixels": 0,
+    "transparentPixels": 112124
+  },
+  {
+    "key": "gacha-tier1",
+    "cell": 4,
+    "visibleBorderPixels": 0,
+    "transparentPixels": 102548
+  },
+  {
+    "key": "gacha-tier1",
+    "cell": 5,
+    "visibleBorderPixels": 0,
+    "transparentPixels": 104026
+  },
+  {
+    "key": "gacha-tier1",
+    "cell": 6,
+    "visibleBorderPixels": 0,
+    "transparentPixels": 104952
+  },
+  {
+    "key": "gacha-tier1",
+    "cell": 7,
+    "visibleBorderPixels": 0,
+    "transparentPixels": 105617
+  },
+  {
+    "key": "gacha-tier2",
+    "cell": 0,
+    "visibleBorderPixels": 0,
+    "transparentPixels": 129346
+  },
+  {
+    "key": "gacha-tier2",
+    "cell": 1,
+    "visibleBorderPixels": 0,
+    "transparentPixels": 118700
+  },
+  {
+    "key": "gacha-tier2",
+    "cell": 2,
+    "visibleBorderPixels": 0,
+    "transparentPixels": 84120
+  },
+  {
+    "key": "gacha-tier2",
+    "cell": 3,
+    "visibleBorderPixels": 0,
+    "transparentPixels": 78445
+  },
+  {
+    "key": "gacha-tier2",
+    "cell": 4,
+    "visibleBorderPixels": 0,
+    "transparentPixels": 58018
+  },
+  {
+    "key": "gacha-tier2",
+    "cell": 5,
+    "visibleBorderPixels": 0,
+    "transparentPixels": 55629
+  },
+  {
+    "key": "gacha-tier2",
+    "cell": 6,
+    "visibleBorderPixels": 0,
+    "transparentPixels": 84668
+  },
+  {
+    "key": "gacha-tier2",
+    "cell": 7,
+    "visibleBorderPixels": 0,
+    "transparentPixels": 85493
+  },
+  {
+    "key": "gacha-tier3",
+    "cell": 0,
+    "visibleBorderPixels": 0,
+    "transparentPixels": 129273
+  },
+  {
+    "key": "gacha-tier3",
+    "cell": 1,
+    "visibleBorderPixels": 0,
+    "transparentPixels": 86426
+  },
+  {
+    "key": "gacha-tier3",
+    "cell": 2,
+    "visibleBorderPixels": 0,
+    "transparentPixels": 85390
+  },
+  {
+    "key": "gacha-tier3",
+    "cell": 3,
+    "visibleBorderPixels": 0,
+    "transparentPixels": 48984
+  },
+  {
+    "key": "gacha-tier3",
+    "cell": 4,
+    "visibleBorderPixels": 0,
+    "transparentPixels": 45031
+  },
+  {
+    "key": "gacha-tier3",
+    "cell": 5,
+    "visibleBorderPixels": 0,
+    "transparentPixels": 59770
+  },
+  {
+    "key": "gacha-tier3",
+    "cell": 6,
+    "visibleBorderPixels": 0,
+    "transparentPixels": 41608
+  },
+  {
+    "key": "gacha-tier3",
+    "cell": 7,
+    "visibleBorderPixels": 0,
+    "transparentPixels": 69709
+  },
+  {
+    "key": "gacha-tier4",
+    "cell": 0,
+    "visibleBorderPixels": 0,
+    "transparentPixels": 160255
+  },
+  {
+    "key": "gacha-tier4",
+    "cell": 1,
+    "visibleBorderPixels": 0,
+    "transparentPixels": 126074
+  },
+  {
+    "key": "gacha-tier4",
+    "cell": 2,
+    "visibleBorderPixels": 0,
+    "transparentPixels": 119172
+  },
+  {
+    "key": "gacha-tier4",
+    "cell": 3,
+    "visibleBorderPixels": 0,
+    "transparentPixels": 105263
+  },
+  {
+    "key": "gacha-tier4",
+    "cell": 4,
+    "visibleBorderPixels": 0,
+    "transparentPixels": 84256
+  },
+  {
+    "key": "gacha-tier4",
+    "cell": 5,
+    "visibleBorderPixels": 0,
+    "transparentPixels": 78908
+  },
+  {
+    "key": "gacha-tier4",
+    "cell": 6,
+    "visibleBorderPixels": 0,
+    "transparentPixels": 57459
+  },
+  {
+    "key": "gacha-tier4",
+    "cell": 7,
+    "visibleBorderPixels": 0,
+    "transparentPixels": 70286
+  },
+  {
+    "key": "gacha-plaques",
+    "cell": 0,
+    "visibleBorderPixels": 0,
+    "transparentPixels": 143386
+  },
+  {
+    "key": "gacha-plaques",
+    "cell": 1,
+    "visibleBorderPixels": 0,
+    "transparentPixels": 149403
+  },
+  {
+    "key": "gacha-plaques",
+    "cell": 2,
+    "visibleBorderPixels": 0,
+    "transparentPixels": 142919
+  },
+  {
+    "key": "gacha-plaques",
+    "cell": 3,
+    "visibleBorderPixels": 3,
+    "transparentPixels": 141190
+  },
+  {
+    "key": "gacha-plaques",
+    "cell": 4,
+    "visibleBorderPixels": 0,
+    "transparentPixels": 145850
+  },
+  {
+    "key": "gacha-plaques",
+    "cell": 5,
+    "visibleBorderPixels": 3,
+    "transparentPixels": 134886
+  }
+]

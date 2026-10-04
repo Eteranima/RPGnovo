@@ -1,4 +1,6 @@
 import type {MapData,MapId,Prop} from './data';
+import {ENEMY_ASSETS_V30,ENEMY_FRAMES_V30,EXPANSION_FLOOR_ROWS_V30} from './enemyArtV30';
+import {EXPANSION_ENVIRONMENT_THEMES_V30} from './expansionV30';
 import {ENVIRONMENT_CROPS,FLOOR_ROWS,type EnvironmentCrop} from './environmentArt';
 export {ENVIRONMENT_CROPS,FLOOR_ROWS} from './environmentArt';
 
@@ -18,12 +20,17 @@ export const ENVIRONMENT_ASSETS:Record<string,string>={
  env_exits:'/assets/v26/environment/exits.png',
  env_wallcaps:'/assets/v26/environment/wall-caps.png',
 };
+Object.assign(FLOOR_ROWS,EXPANSION_FLOOR_ROWS_V30);
+ENVIRONMENT_ASSETS.env_floor_v30=ENEMY_ASSETS_V30.env_floor_v30;
+ENVIRONMENT_ASSETS.v30_world_props=ENEMY_ASSETS_V30.v30_world_props;
+ENVIRONMENT_CROPS.v30_world_props=ENEMY_FRAMES_V30.v30_world_props;
 type Material={sheet:string;row:number;span:number};
 type Theme={floor:Record<string,Material>;boundary:number;edge:string;atmosphere:[string,string];particle:string};
 const material=(sheet:string,row:number,span=4):Material=>({sheet:`env_floor_${sheet}`,row,span});
 const lawn=material('academy',1,5),court=material('academy',0),slate=material('depths',1),sea=material('water',0,6),deepWater=material('water',1,6),dock=material('water',2,3),ice=material('water',3,3);
 const common={g:lawn,p:court,d:slate,w:sea,b:dock,i:ice};
 export const ENVIRONMENT_THEMES:Record<MapId,Theme>={
+ ...EXPANSION_ENVIRONMENT_THEMES_V30,
  patio:{floor:{...common,'#':lawn},boundary:1,edge:'#bbc79a',atmosphere:['#b6d6db00','#42584d09'],particle:'#e2f2bf'},
  arquivo:{floor:{...common,d:material('depths',0,5),'#':material('depths',0,5)},boundary:0,edge:'#c9b088',atmosphere:['#ddc68c02','#614e460c'],particle:'#f2dca7'},
  subsolo:{floor:{...common,w:deepWater,'#':slate},boundary:0,edge:'#a1b6c9',atmosphere:['#233d6005','#0e223d18'],particle:'#b5d9e9'},
@@ -104,6 +111,7 @@ export function blendEnvironmentSeams(c:CanvasRenderingContext2D,canvas:HTMLCanv
 export type EnvironmentArt={sheet:string;crop:EnvironmentCrop};
 const art=(sheet:string,index:number):EnvironmentArt=>({sheet:`env_${sheet}`,crop:ENVIRONMENT_CROPS[sheet.replace('scenery_','')][index]});
 export function environmentScenery(map:MapId,prop:Prop,index:number):EnvironmentArt|undefined{
+ if(prop.asset==='v30_world_props')return {sheet:'v30_world_props',crop:ENVIRONMENT_CROPS.v30_world_props[prop.atlas??0]};
  const variant=index%4;
  if(prop.asset==='tree')return art('scenery_academy',variant);
  if(prop.asset==='flowers')return art('scenery_academy',4+variant);
@@ -114,6 +122,7 @@ export function environmentScenery(map:MapId,prop:Prop,index:number):Environment
 }
 /** Fixed story object identities retain their coordinates and interaction semantics. */
 export function environmentObject(key:string,atlas?:number,sheet='props'):EnvironmentArt|undefined{
+ if(key==='v30_world_props'||sheet==='v30_world_props')return {sheet:'v30_world_props',crop:ENVIRONMENT_CROPS.v30_world_props[atlas??0]};
  if(key==='academy')return art('architecture',0);
  if(key==='stairs')return art('utilities',6);
  if(key==='lantern')return art('utilities',0);

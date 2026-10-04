@@ -1,0 +1,62 @@
+{
+  "id": "runewarden",
+  "kind": "portrait",
+  "group": "enemies",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-d1ff5360-23c6-4f27-8f3a-14c8deac0c42.png",
+  "selected": "art-source/v30/enemies/runewarden/portrait-source.png",
+  "runtime": "public/assets/v30/enemies/runewarden/portrait.png",
+  "width": 1024,
+  "height": 1536,
+  "cols": 1,
+  "rows": 1,
+  "sourceSha256": "b6017e6ad1cfc11b20b730eb18c33ce15300a12ac2da1e838ad6f23291fb4b3f",
+  "runtimeSha256": "b6017e6ad1cfc11b20b730eb18c33ce15300a12ac2da1e838ad6f23291fb4b3f",
+  "byteIdenticalSourceCopies": true,
+  "alphaZeroPixels": 1015057,
+  "alphaVisibleThresholdForMeasurementOnly": 24,
+  "outerVisible": 0,
+  "rowCuts": [
+    0,
+    1536
+  ],
+  "frames": [
+    {
+      "x": 80,
+      "y": 8,
+      "w": 934,
+      "h": 1506,
+      "anchorX": 312.3,
+      "anchorY": 1505
+    }
+  ],
+  "measurements": [
+    {
+      "i": 0,
+      "row": 0,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "w": 1024,
+        "h": 1536
+      },
+      "visibleBounds": {
+        "x": 88,
+        "y": 16,
+        "w": 918,
+        "h": 1490
+      },
+      "visibleEdge": 0,
+      "crop": {
+        "x": 80,
+        "y": 8,
+        "w": 934,
+        "h": 1506,
+        "anchorX": 312.3,
+        "anchorY": 1505
+      },
+      "anchorMethod": "lowest visible alpha foot band"
+    }
+  ]
+}
