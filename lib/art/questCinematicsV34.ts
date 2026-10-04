@@ -2,8 +2,6 @@
 export type QuestCinematicId='long-tinta'|'long-geada'|'long-brasa'|'long-trovao'|'long-nulo';
 export type SceneAct=0|1|2;
 export type QuestVideoSceneV34={id:QuestCinematicId;title:string;actors:string[];avatars:{name:string;src:string}[];src:string;poster:string;durationSeconds:number;frames:number;fps:24;loadTimeoutMs:number;captions:{act:SceneAct;text:string}[]};
-/** Standalone previews may reuse the native player without becoming quest records. */
-export type CinematicFilmSpec=Omit<QuestVideoSceneV34,'id'>&{id:string};
 export const QUEST_CINEMATICS_V34:Record<QuestCinematicId,QuestVideoSceneV34>={
   "long-tinta": {
     "id": "long-tinta",
@@ -190,19 +188,19 @@ export const QUEST_CINEMATICS_V34:Record<QuestCinematicId,QuestVideoSceneV34>={
 export function getQuestCinematicV34(id:string):QuestVideoSceneV34|undefined{
  return Object.prototype.hasOwnProperty.call(QUEST_CINEMATICS_V34,id)?QUEST_CINEMATICS_V34[id as QuestCinematicId]:undefined;
 }
-export function questVideoRangeV34(scene:CinematicFilmSpec,act?:SceneAct){
+export function questVideoRangeV34(scene:QuestVideoSceneV34,act?:SceneAct){
  const selected=act===0||act===1||act===2?act:undefined;
  const startFrame=selected===undefined?0:Math.floor(scene.frames*selected/3),endFrame=selected===undefined?scene.frames:Math.floor(scene.frames*(selected+1)/3);
  return {startFrame,endFrame,startSeconds:startFrame/scene.fps,endSeconds:endFrame/scene.fps,durationSeconds:(endFrame-startFrame)/scene.fps};
 }
-export function questVideoFrameV34(scene:CinematicFilmSpec,seconds:number){
+export function questVideoFrameV34(scene:QuestVideoSceneV34,seconds:number){
  const time=Number.isFinite(seconds)?Math.max(0,seconds):0;
  return Math.min(scene.frames-1,Math.floor(time*scene.fps));
 }
-export function questVideoDurationMatchesV34(scene:CinematicFilmSpec,seconds:number){
+export function questVideoDurationMatchesV34(scene:QuestVideoSceneV34,seconds:number){
  return Number.isFinite(seconds)&&seconds>0&&Math.abs(seconds-scene.durationSeconds)<=1/scene.fps+1e-6;
 }
-export function questVideoCaptionV34(scene:CinematicFilmSpec,seconds:number){
+export function questVideoCaptionV34(scene:QuestVideoSceneV34,seconds:number){
  const frame=questVideoFrameV34(scene,seconds);
  return [...scene.captions].reverse().find(caption=>frame>=Math.floor(scene.frames*caption.act/3))?.text;
 }
