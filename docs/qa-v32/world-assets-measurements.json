@@ -1,0 +1,170 @@
+{
+  "checks": 1715,
+  "baseline": {
+    "keys": 79,
+    "urls": 75,
+    "bytes": 119407827
+  },
+  "title": {
+    "urls": 0,
+    "bytes": 0
+  },
+  "party": [
+    "seiji",
+    "ophelia"
+  ],
+  "maps": [
+    {
+      "map": "jardim-lunar",
+      "urls": 11,
+      "bytes": 22212129
+    },
+    {
+      "map": "observatorio",
+      "urls": 13,
+      "bytes": 24834003
+    },
+    {
+      "map": "patio",
+      "urls": 11,
+      "bytes": 20849664
+    },
+    {
+      "map": "arquivo",
+      "urls": 13,
+      "bytes": 25581073
+    },
+    {
+      "map": "subsolo",
+      "urls": 11,
+      "bytes": 16941144
+    },
+    {
+      "map": "camara",
+      "urls": 9,
+      "bytes": 15015829
+    },
+    {
+      "map": "porto",
+      "urls": 11,
+      "bytes": 21036173
+    },
+    {
+      "map": "domo",
+      "urls": 9,
+      "bytes": 16925084
+    },
+    {
+      "map": "galeria",
+      "urls": 12,
+      "bytes": 18283016
+    },
+    {
+      "map": "ashwood",
+      "urls": 12,
+      "bytes": 21114438
+    },
+    {
+      "map": "vigilia",
+      "urls": 12,
+      "bytes": 20119118
+    },
+    {
+      "map": "ashpyre",
+      "urls": 13,
+      "bytes": 26752112
+    }
+  ],
+  "partySizeBounds": [
+    {
+      "size": 1,
+      "plans": 108,
+      "minURLs": 8,
+      "maxURLs": 15,
+      "minBytes": 12953889,
+      "maxBytes": 32130262,
+      "largest": {
+        "map": "ashpyre",
+        "actors": [
+          "orfeu"
+        ],
+        "urls": 15,
+        "bytes": 32130262
+      }
+    },
+    {
+      "size": 2,
+      "plans": 432,
+      "minURLs": 8,
+      "maxURLs": 16,
+      "minBytes": 14282434,
+      "maxBytes": 34186097,
+      "largest": {
+        "map": "ashpyre",
+        "actors": [
+          "ophelia",
+          "orfeu"
+        ],
+        "urls": 16,
+        "bytes": 34186097
+      }
+    },
+    {
+      "size": 3,
+      "plans": 1008,
+      "minURLs": 9,
+      "maxURLs": 17,
+      "minBytes": 15710222,
+      "maxBytes": 35821280,
+      "largest": {
+        "map": "ashpyre",
+        "actors": [
+          "ophelia",
+          "orfeu",
+          "carmilla"
+        ],
+        "urls": 17,
+        "bytes": 35821280
+      }
+    },
+    {
+      "size": 4,
+      "plans": 1512,
+      "minURLs": 10,
+      "maxURLs": 18,
+      "minBytes": 17170033,
+      "maxBytes": 37335206,
+      "largest": {
+        "map": "ashpyre",
+        "actors": [
+          "ophelia",
+          "max",
+          "orfeu",
+          "carmilla"
+        ],
+        "urls": 18,
+        "bytes": 37335206
+      }
+    },
+    {
+      "size": 5,
+      "plans": 1512,
+      "minURLs": 11,
+      "maxURLs": 19,
+      "minBytes": 18661747,
+      "maxBytes": 38826920,
+      "largest": {
+        "map": "ashpyre",
+        "actors": [
+          "ophelia",
+          "max",
+          "orfeu",
+          "ava",
+          "carmilla"
+        ],
+        "urls": 19,
+        "bytes": 38826920
+      }
+    }
+  ]
+}

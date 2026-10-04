@@ -1,0 +1,1 @@
+PASS decisions-v32: 2288 checks — equipment deltas versus real equip, ownership/set thresholds, save purity, directed chapter-safe routes and active quest sites.

@@ -1,0 +1,9 @@
+Parte 2 v32 — gates finais de entrega
+
+pnpm build: exit 0. Cinco etapas de produção concluídas. Rota publicada no artefato local: somente /.
+pnpm exec tsc --noEmit --incremental false: exit 0, sem erros.
+git diff --check: exit 0.
+
+O build manteve avisos de tamanho de chunk (>500 kB) e timing de plugins. A divisão adicional do bundle não faz parte desta entrega. As artes do mundo e do combate passaram a ser carregadas conforme a necessidade.
+
+Limpeza restrita ao cache gerado: o validador Next ainda referenciava a rota de QA removida; após regeneração/build, o validador Next também esperava exports incompatíveis com os tipos finais produzidos pelo vinext. O arquivo gerado obsoleto foi retirado; os tipos vinext e next-env foram conservados. A checagem final ocorreu depois do build, sem execuções concorrentes.

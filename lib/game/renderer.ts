@@ -6,18 +6,40 @@ import {explorationWalkFrame} from './explorationArtV31';
 import {abelPatrolV31} from './abelNpcV31';
 import {cosmeticOf} from './cosmetics';
 import {drawAura} from './aura';
-import {ENVIRONMENT_ASSETS,ENVIRONMENT_THEMES,ENVIRONMENT_CROPS,environmentScenery,environmentObject,paintEnvironmentTile,paintEnvironmentEdges,blendEnvironmentSeams} from './environment';
+import {ENVIRONMENT_THEMES,ENVIRONMENT_CROPS,environmentScenery,environmentObject,paintEnvironmentTile,paintEnvironmentEdges,blendEnvironmentSeams} from './environment';
+import {WorldAssetSessionV32,worldAssetPlanV32,emptyWorldAssetPlanV32,type WorldLoadingStatusV32,type WorldAssetSessionOptionsV32} from './worldAssetsV32';
 const T=56;
+export type WorldRendererOptionsV32=Pick<WorldAssetSessionOptionsV32,'createImage'|'timeoutMs'|'retainInactive'|'concurrency'> & {onLoadingChange?:(status:WorldLoadingStatusV32)=>void};
 export class WorldRenderer{
  canvas:HTMLCanvasElement;engine:GameEngine;ctx:CanvasRenderingContext2D;images:Record<string,HTMLImageElement>={};patterns:Record<string,CanvasPattern>={};groundCache=new Map<string,{signature:string;canvas:HTMLCanvasElement}>();camera={x:0,y:0,scale:1};width=0;height=0;frame=0;lastPaint=0;raf=0;resize:ResizeObserver;ready=false;disposed=false;
- constructor(canvas:HTMLCanvasElement,engine:GameEngine){this.canvas=canvas;this.engine=engine;this.ctx=canvas.getContext('2d')!;
+ private assets:WorldAssetSessionV32;private unsubscribeEngine:(()=>void)|null=null;private started=false;private groundArtSignature='';private lastNativeFrame=false;
+ constructor(canvas:HTMLCanvasElement,engine:GameEngine,options:WorldRendererOptionsV32={}){this.canvas=canvas;this.engine=engine;this.ctx=canvas.getContext('2d')!;
+  this.assets=new WorldAssetSessionV32({...options,onStatus:status=>{this.ready=status.ready;options.onLoadingChange?.(status);},onCommit:(images,plan)=>{this.images=images;this.patterns={};this.groundArtSignature=plan.groundSignature;}});
   this.resize=new ResizeObserver(()=>this.setSize());this.resize.observe(canvas);this.setSize();
  }
- async load(){await Promise.all(Object.entries({...ASSETS,...ENVIRONMENT_ASSETS}).filter(([key])=>!['battle_','ultimate_','skill_icon','portrait_','face_'].some(prefix=>key.startsWith(prefix))).map(([key,src])=>new Promise<void>(resolve=>{const img=new Image();img.onload=()=>{this.images[key]=img;resolve();};img.onerror=()=>resolve();img.src=src;})));if(this.disposed)return;this.makePatterns();this.ready=true;this.draw();}
- setSize(){const r=this.canvas.getBoundingClientRect();this.width=r.width;this.height=r.height;const dpr=Math.min(devicePixelRatio||1,2);this.canvas.width=Math.max(1,r.width*dpr);this.canvas.height=Math.max(1,r.height*dpr);this.ctx.setTransform(dpr,0,0,dpr,0,0);}
- makePatterns(){const atlas=this.images.terrain;if(!atlas)return;const wood=this.images.harbor_floor;if(wood){const cv=document.createElement('canvas');cv.width=112;cv.height=112;cv.getContext('2d')!.drawImage(wood,0,0,112,112);const pat=this.ctx.createPattern(cv,'repeat');if(pat)this.patterns.b=pat;}['g','p','d','w'].forEach((key,i)=>{const cv=document.createElement('canvas');cv.width=336;cv.height=336;cv.getContext('2d')!.drawImage(atlas,(i%2)*atlas.width/2,Math.floor(i/2)*atlas.height/2,atlas.width/2,atlas.height/2,0,0,336,336);const p=this.ctx.createPattern(cv,'repeat');if(p)this.patterns[key]=p;});}
+ getLoadingState(){return this.assets.getStatus();}
+ subscribeLoading(listener:(status:WorldLoadingStatusV32)=>void){return this.assets.subscribe(listener);}
+ private requestAssets(retry=false){
+  if(this.disposed)return Promise.resolve(false);
+  const state=this.engine.state;
+  if(state.mode==='start'||state.mode==='selection')return this.assets.load(emptyWorldAssetPlanV32(),retry);
+  const actors=state.heroes.map(hero=>hero.id==='gabriel'&&state.progress.gabrielForm==='lycan'?'gabriel_lycan':hero.id);
+  const entities=this.engine.activeEntities().filter(entity=>state.mode!=='battle'||!['mob','boss'].includes(entity.kind));
+  return this.assets.load(worldAssetPlanV32(this.engine.map,actors,entities),retry);
+ }
+ retryLoading(){return this.requestAssets(true);}
+ load(){
+  if(this.disposed)return Promise.resolve(false);
+  if(!this.started){this.started=true;this.unsubscribeEngine=this.engine.subscribe(()=>{void this.requestAssets();});this.raf=requestAnimationFrame(this.draw);}
+  return this.requestAssets();
+ }
+ setSize(){const r=this.canvas.getBoundingClientRect();const dpr=Math.min(devicePixelRatio||1,2),width=Math.max(1,Math.round(r.width*dpr)),height=Math.max(1,Math.round(r.height*dpr));this.width=r.width;this.height=r.height;if(this.canvas.width===width&&this.canvas.height===height)return;
+  // Preserve the last native painting through an orientation change while new art is pending.
+  let previous:HTMLCanvasElement|null=null;if(this.lastNativeFrame){previous=document.createElement('canvas');previous.width=this.canvas.width;previous.height=this.canvas.height;previous.getContext('2d')!.drawImage(this.canvas,0,0);}
+  this.canvas.width=width;this.canvas.height=height;this.ctx.setTransform(dpr,0,0,dpr,0,0);if(previous)this.ctx.drawImage(previous,0,0,previous.width,previous.height,0,0,this.width,this.height);
+ }
  ground(map:MapData){
-  const signature=map.rows.join('|'),cached=this.groundCache.get(map.id);
+  const signature=`${map.rows.join('|')}:${this.groundArtSignature}`,cached=this.groundCache.get(map.id);
   if(cached?.signature===signature)return cached.canvas;
   const canvas=document.createElement('canvas');canvas.width=map.width*T;canvas.height=map.height*T;const ctx=canvas.getContext('2d')!;ctx.translate(T/2,T/2);ctx.imageSmoothingEnabled=true;
   for(let y=0;y<map.height;y++)for(let x=0;x<map.width;x++)paintEnvironmentTile(ctx,this.images,this.patterns,map,x,y,T);
@@ -61,7 +83,11 @@ export class WorldRenderer{
   if(e.kind==='sign'){if(e.id.startsWith('v31:')&&e.asset?.startsWith('quest_')){const img=this.images[e.asset];if(img){const h=67,w=h*img.width/img.height;this.glow(x,y-28,65,'#efcc8444');c.drawImage(img,x-w/2,y-h+Math.sin(this.frame/650)*2,w,h);}}else{const img=this.images.env_signboards,crop=ENVIRONMENT_CROPS.signboards[Object.values(MAPS).flatMap(m=>m.entities).filter(v=>v.kind==='sign').findIndex(v=>v.id===e.id)%12];if(img&&crop){const scale=90/crop.h;c.drawImage(img,crop.x,crop.y,crop.w,crop.h,x-(crop.anchorX-crop.x)*scale,y-(crop.anchorY-crop.y)*scale,crop.w*scale,crop.h*scale);}}}
   this.marker(e);
  }
- draw=()=>{this.raf=requestAnimationFrame(this.draw);const time=performance.now(),dt=Math.min((time-this.frame)/1000,.25);this.frame=time;this.engine.update(dt);
+ draw=()=>{if(this.disposed)return;this.raf=requestAnimationFrame(this.draw);const time=performance.now(),dt=this.frame?Math.min((time-this.frame)/1000,.25):0;this.frame=time;
+  if(!this.ready)return;
+  let remaining=dt;do{const step=Math.min(remaining,.04);this.engine.update(step);remaining-=step;}while(remaining>0&&this.ready);
+  // An update can cross a gateway or change the party. Never paint that generation before its assets commit.
+  if(!this.ready||this.engine.state.mode==='start'||this.engine.state.mode==='selection')return;
   const fps=this.engine.state.mode==='battle'?10:this.engine.state.mode!=='world'||this.engine.paused?24:this.width<650||this.height<420?30:60;if(time-this.lastPaint<1000/fps)return;const paintDt=Math.min((time-this.lastPaint)/1000,.1);this.lastPaint=time;
   const c=this.ctx,{width:w,height:h}=this;if(!w||!h)return;c.clearRect(0,0,w,h);c.fillStyle='#07141d';c.fillRect(0,0,w,h);
   const m=this.engine.map,p=this.engine.state.position,cut=this.engine.state.cutscene,focus=cut?CUTSCENES[cut.id].beats[cut.index].focus:p;const mobile=w<650,compact=w>h&&h<420;const scale=compact?Math.min(.83,Math.max(.55,h/380)):mobile?.83:Math.min(1.18,Math.max(.82,w/1150));this.camera.scale=scale;
@@ -84,8 +110,8 @@ export class WorldRenderer{
   if(this.engine.fieldActive('ember-light'))this.glow(p.x*T,p.y*T-30,230,'#ffc17f30');if(this.engine.fieldActive('shadow-step'))this.glow(p.x*T,p.y*T-30,90,'#a780db33');
   c.restore();const theme=ENVIRONMENT_THEMES[m.id],night=c.createLinearGradient(0,0,0,h);night.addColorStop(0,theme.atmosphere[0]);night.addColorStop(1,theme.atmosphere[1]);c.fillStyle=night;c.fillRect(0,0,w,h);
   const vignette=c.createRadialGradient(w/2,h/2,Math.min(w,h)*.25,w/2,h/2,Math.max(w,h)*.65);vignette.addColorStop(0,'transparent');vignette.addColorStop(1,'rgba(3,10,18,.22)');c.fillStyle=vignette;c.fillRect(0,0,w,h);
-  c.save();c.globalAlpha=.42;c.fillStyle=theme.particle;for(let i=0;i<16;i++){const x=(i*197+Math.sin(time/3900+i)*32)%w,y=(i*103-time/70+h*50)%h;c.beginPath();c.arc(x,y,i%3===0?1.5:.7,0,Math.PI*2);c.fill();}c.restore();
+  c.save();c.globalAlpha=.42;c.fillStyle=theme.particle;for(let i=0;i<16;i++){const x=(i*197+Math.sin(time/3900+i)*32)%w,y=(i*103-time/70+h*50)%h;c.beginPath();c.arc(x,y,i%3===0?1.5:.7,0,Math.PI*2);c.fill();}c.restore();this.lastNativeFrame=true;
  }
- click(clientX:number,clientY:number){const r=this.canvas.getBoundingClientRect();const p={x:((clientX-r.left-this.width/2)/this.camera.scale+this.camera.x)/T,y:((clientY-r.top-this.height/2)/this.camera.scale+this.camera.y)/T};const e=this.engine.activeEntities().filter(e=>Math.abs(e.x-p.x)<(e.kind==='warp'?1.8:.8)&&p.y<e.y+.5&&p.y>e.y-(e.kind==='warp'?3:2.1)).sort((a,b)=>Math.hypot(a.x-p.x,a.y-p.y)-Math.hypot(b.x-p.x,b.y-p.y))[0];this.engine.moveTo(e||p,e?.id);}
- destroy(){this.disposed=true;cancelAnimationFrame(this.raf);this.resize.disconnect();this.groundCache.clear();}
+ click(clientX:number,clientY:number){if(!this.ready||this.disposed)return;const r=this.canvas.getBoundingClientRect();const p={x:((clientX-r.left-this.width/2)/this.camera.scale+this.camera.x)/T,y:((clientY-r.top-this.height/2)/this.camera.scale+this.camera.y)/T};const e=this.engine.activeEntities().filter(e=>Math.abs(e.x-p.x)<(e.kind==='warp'?1.8:.8)&&p.y<e.y+.5&&p.y>e.y-(e.kind==='warp'?3:2.1)).sort((a,b)=>Math.hypot(a.x-p.x,a.y-p.y)-Math.hypot(b.x-p.x,b.y-p.y))[0];this.engine.moveTo(e||p,e?.id);}
+ destroy(){if(this.disposed)return;this.disposed=true;this.unsubscribeEngine?.();this.unsubscribeEngine=null;this.assets.dispose();cancelAnimationFrame(this.raf);this.resize.disconnect();this.groundCache.clear();this.images={};this.patterns={};}
 }

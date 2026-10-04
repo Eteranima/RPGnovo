@@ -1,0 +1,10 @@
+Combat planning v32 — PASS (9270 checks)
+
+400 real family scenarios: preview/execution equivalence through actual callbacks, controls, RNG boundaries, guard, status and stale timer cleanup.
+Golden legacy Cinder outcomes retained; all5 origin-hero duels validated at odd/even rounds with normal/ultimate charge.
+Bleed crossing both boss phase thresholds (203→197 and103→97 HP of300): 75/100 charge and frozen skips retain forecast/execution equality, original phase damage and action; the next actor applies the phase/25-charge transition once.
+Queue wrap, defeated targets, pre-turn boss phases, pending bleed victory, shared freeze/bind limit and equipment immunity validated.
+Cold-load art gate: no timers/commands/damage before readiness; current battle token releases once, repeated readiness is idempotent, stale readiness for the same enemy instance is ignored. Opt-in preserves headless execution.
+1x/2x: basic/guard/skill/ultimate/freeze/bind impact and recovery, mid-animation switching, turn-based control expiry, reload/new-game preference and inaccessible storage passed. Gacha/campaign cutscene timing stays separate.
+
+No RNG is consumed by forecast. Damage is conditional on an actual hit. Existing charge, damage, targets, status odds, saves and payout rules remain intact.

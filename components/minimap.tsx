@@ -36,7 +36,7 @@ export function MiniMap({ s, engine }: { s: Snapshot; engine: GameEngine }) {
       </g>;
     })}
     <g className="minimap-player">
-      <title>Você · {s.heroes[0].name}</title>
+      <title>Você · {(s.heroes.find(hero=>hero.id===s.progress.leaderId)||s.heroes[0]).name}</title>
       <circle cx={s.position.x} cy={s.position.y} r="1.08" fill="#081721" fillOpacity=".75" stroke="#f9f0d0" strokeWidth=".12" />
       <image href={`${FIELD_ART_ROOT}/marker-player.png`} x={s.position.x-1.15} y={s.position.y-1.15} width="2.3" height="2.3" />
     </g>

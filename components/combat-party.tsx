@@ -5,7 +5,7 @@ import {ULTIMATE_NAMES,type Hero,type HeroId} from '@/lib/game/data';
 import type {Progression} from '@/lib/game/progression';
 import styles from './combat-party.module.css';
 
-export type CombatPartyProps={heroes:Hero[];activeId?:HeroId;limits:Progression['limit'];lycan?:boolean};
+export type CombatPartyProps={heroes:Hero[];activeId?:HeroId;limits:Progression['limit'];lycan?:boolean;exploration?:boolean;leaderId?:HeroId;onSelectHero?:(id:HeroId,slot:number)=>void;credits?:number|'∞';level?:number;saving?:string;masterMode?:boolean;selectDisabled?:boolean};
 const pct=(current:number,maximum:number)=>Math.max(0,Math.min(100,current/Math.max(1,maximum)*100));
 const aperture=(a:CardAperture):CSSProperties=>({left:a.left+'%',top:a.top+'%',width:a.width+'%',height:a.height+'%'});
 function Vital({hero,kind}:{hero:Hero;kind:'hp'|'mp'}){
@@ -15,12 +15,15 @@ function Vital({hero,kind}:{hero:Hero;kind:'hp'|'mp'}){
   <img src={art[kind]} alt="" draggable={false}/>
  </span><strong className={styles.numbers}>{current}<span>/{maximum}</span></strong></div>;
 }
-export function CombatParty({heroes,activeId,limits,lycan=false}:CombatPartyProps){
- return <footer className={styles.party} style={{'--party-count':Math.max(1,Math.min(5,heroes.length))} as CSSProperties} aria-label="Grupo em combate" data-combat-party>
-  {heroes.map(hero=>{const limit=Math.max(0,Math.min(100,limits[hero.id]||0));return <section key={hero.id} className={styles.card} data-hero={hero.id} data-current={hero.id===activeId||undefined} data-fallen={hero.hp===0||undefined} aria-label={hero.name+(hero.id===activeId?' · turno atual':'')}>
+export function CombatParty({heroes,activeId,limits,lycan=false,exploration=false,leaderId,onSelectHero,credits,level,saving,masterMode=false,selectDisabled=false}:CombatPartyProps){
+ const leader=heroes.find(hero=>hero.id===leaderId),selectedId=exploration?leaderId:activeId;
+ return <footer className={styles.party+(exploration?' '+styles.exploration:'')} style={{'--party-count':Math.max(1,Math.min(5,heroes.length))} as CSSProperties} aria-label={exploration?'Grupo de exploração':'Grupo em combate'} data-combat-party data-exploration-party={exploration||undefined}>
+  {heroes.map((hero,slot)=>{const limit=Math.max(0,Math.min(100,limits[hero.id]||0));return <section key={hero.id} className={styles.card} data-hero={hero.id} data-current={hero.id===selectedId||undefined} data-fallen={hero.hp===0||undefined} aria-label={hero.name+(hero.id===selectedId?exploration?' · líder atual':' · turno atual':'')}>
    <div className={styles.identity}><img className={styles.frame} src={HERO_CARD_ART[hero.id].frame} alt="" draggable={false}/><HeroPortrait h={hero} lycan={lycan}/><div className={styles.heading}><strong>{hero.name}</strong><span>{hero.element}</span></div></div>
    <div className={styles.vitals}><Vital hero={hero} kind="hp"/><Vital hero={hero} kind="mp"/></div>
    <div className={styles.ultimate} title={ULTIMATE_NAMES[hero.id]} data-ready={limit===100||undefined}><span>ULT</span><span className={styles.ultimateTrack} role="progressbar" aria-label={ULTIMATE_NAMES[hero.id]+' · '+hero.name} aria-valuemin={0} aria-valuemax={100} aria-valuenow={limit}><i style={{width:limit+'%'}}/></span><strong>{limit===100?'Pronta':limit+'%'}</strong></div>
+   {exploration&&onSelectHero&&<><span className={styles.slotNumber} aria-hidden="true">{slot+1}</span><button className={styles.selectHero} disabled={selectDisabled} aria-label={`Slot ${slot+1}: selecionar ${hero.name} como líder · ${hero.hp}/${hero.maxHp} HP · ${hero.mp}/${hero.maxMp} MP`} aria-pressed={hero.id===leaderId} aria-keyshortcuts={String(slot+1)} onKeyDown={event=>{if(event.key==='Tab')event.stopPropagation();}} onClick={()=>onSelectHero(hero.id,slot)}/></>}
   </section>;})}
+  {exploration&&<div className={styles.resourceStrip}>{leader&&<span className={styles.leaderLabel}>{leader.name} · Líder<span> · 1–5</span></span>}<span>{credits!==undefined?`${credits} créditos`:''}{level!==undefined?` · Nv ${level}`:''}{masterMode?' · Mestre':''}</span><small role="status">{saving||'Progresso neste navegador'}</small></div>}
  </footer>;
 }

@@ -1,0 +1,22 @@
+Parte 2 v32 — integração
+
+QA isolado; sem leitura ou escrita do save do jogador. Fonte da rota de revisão em review-fixture.txt; rota removida antes do build.
+
+Combate desktop1280x720 e paisagem844x390: cinco atores/cards completos. battle-screen clientWidth/scrollWidth844; palco132px, comandos78px.
+Ultimate Sol da Pira: previsão46normal/21guarda; impacto real confirmou85→64Seiji,75→54Marin,90→44Gabriel,70→24Ophelia,80→59Max. Guards impediram silêncio e preservaram25HP.
+Preferência2x selecionada na interface; guarda e ultimate executadas sem alterar fila ou impacto.
+Equipamento: busca acentuada lúa; transferência de Ava; Lobo6→5 e Lua0→1 previstos. Equipar real confirmou5peças, sem cura.
+Missão: botão do diário iniciou caminho real até saída Pátio→Porto; chegada mudou rastreador para pista local.
+Exploração844x390: cinco cards, footer82px; clientWidth/scrollWidth844; clicar slot4 mudou líder paraOphelia preservando ordem/HP/MP. Tab moveu foco ao slot5 sem mudar líder.
+Nenhum erro de console na revisão final. Viewport temporário restaurado, aba de QA fechada.
+
+Suítes v32: combat-planning9270; world-assets1715; decisions2288; battle-polish507.
+Regressões: enemy4494; progression84; echoes189; game885; audioOK; environment33206; quests2575; gacha1231; MAIL/recruits/CarmillaOK; battle-layout2047; party-hotkeys226.
+
+O cache Next de desenvolvimento ainda referenciava a rota temporária removida; o validador gerado obsoleto foi retirado após regenerar os tipos de produção. Não era um erro do código entregue.
+
+Polimento final: warp usa somente placa de viagem, sem aviso duplicado; outros avisos ficam acima da quickbar e fora da faixa lateral de viagens.
+
+Build final de produção: aprovado, cinco etapas completas, somente rota / no produto. TypeScript final: aprovado, sem erros. O build vinext substitui os tipos de rotas; o validador Next obsoleto foi retirado do cache gerado antes da checagem final. Nenhum arquivo de produto foi alterado para contornar a verificação.
+
+Save real no navegador 127.0.0.1:5173: Continuar aventura carregou Porto, estágio 3, líder Ophelia, grupo Ophelia/Carmilla. A resposta completa de read_eter_game_state foi idêntica antes e depois do recarregamento (mapa, posição, objetivo, HP/MP e atributos). Som permaneceu desativado; console sem erros. Captura production-save.png. Nenhuma ação de deslocamento, equipamento ou recompensa foi realizada neste save na conferência final.

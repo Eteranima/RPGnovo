@@ -37,11 +37,17 @@ const page=ts.createSourceFile('app/page.tsx',readFileSync('app/page.tsx','utf8'
 let down;
 function visit(node){if(ts.isVariableDeclaration(node)&&node.name.getText(page)==='down'&&ts.isArrowFunction(node.initializer))down=node.initializer;ts.forEachChild(node,visit);}visit(page);
 check(down,'production keydown handler found');
-const handlerSource=`const bind=(engine,panelRef,setTarget)=>{let masterSequence=emptyMasterSequence();const loadedRef={current:false},armedRef={current:false};const setPanel=()=>{},activateTitle=()=>{},openMenu=()=>{},toggleMusic=()=>{};const down=${down.getText(page)};return down;};`;
+const handlerSource=`const bind=(engine,panelRef,setTarget,loadingState=null)=>{const renderer={current:{getLoadingState:()=>loadingState}};let masterSequence=emptyMasterSequence();const loadedRef={current:false},armedRef={current:false};const setPanel=()=>{},activateTitle=()=>{},openMenu=()=>{},toggleMusic=()=>{};const down=${down.getText(page)};return down;};`;
 const handlerJs=ts.transpileModule(handlerSource,{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.None}}).outputText;
 class TestElement{constructor(selector=''){this.selector=selector;}closest(selector){return this.selector&&selector.includes(this.selector)?this:null;}}
 const bindHandler=new Function('Element','advanceMasterSequence','emptyMasterSequence',`${handlerJs};return bind;`)(TestElement,advanceMasterSequence,emptyMasterSequence);
-function keyboard(game){const targets=[],panelRef={current:null},down=bindHandler(game,panelRef,id=>targets.push(id));return {targets,panelRef,press(key,{repeat=false,target=null}={}){let prevented=0;down({key,repeat,target,preventDefault:()=>prevented++});return prevented;}};}
+function keyboard(game,loadingState=null){const targets=[],panelRef={current:null},down=bindHandler(game,panelRef,id=>targets.push(id),loadingState);return {targets,panelRef,press(key,{repeat=false,target=null}={}){let prevented=0;down({key,repeat,target,preventDefault:()=>prevented++});return prevented;}};}
+
+for(const status of [{loading:true,error:null},{loading:false,error:'asset failed'}]){
+ const game=fresh(),before=partyState(game),keys=keyboard(game,status);game.keys.add('w');game.path=[{x:15,y:12}];
+ equal(keys.press('3'),1,'loading or failure consumes game input');equal(game.leader().id,'seiji','loading never changes leader');equal(partyState(game),before,'loading preserves all party data');check(!game.keys.size&&!game.path.length,'loading clears old movement');
+ equal(keys.press('F5'),0,'browser refresh stays available during loading');
+}
 
 for(let count=1;count<=5;count++){
  const game=fresh(count),before=partyState(game),keys=keyboard(game);
@@ -75,6 +81,7 @@ for(const mode of ['start','selection','dialogue','cutscene','battle']){
  check(!game.selectPartySlot(2)&&!game.swapLeader(),'paused engine rejects slot/cycle');keys.press('3');keys.press('Tab');equal(game.leader().id,'seiji','paused keyboard cannot change leader');equal(partyState(game),before,'paused input preserves vitals/order');
  game.paused=false;keys.panelRef.current='menu';keys.press('3');keys.press('Tab');equal(game.leader().id,'seiji','open menu suppresses world number/Tab hotkeys');
  keys.panelRef.current=null;
+ equal(keys.press('Tab',{target:new TestElement('[data-exploration-party]')}),0,'Tab on a leader card preserves native keyboard focus');equal(game.leader().id,'seiji','native card navigation does not swap the leader');
  for(const target of [new TestElement('input'),new TestElement('select'),new TestElement('textarea'),new TestElement('[role=slider]')]){keys.press('3',{target});keys.press('Tab',{target});equal(game.leader().id,'seiji','typing/control navigation never changes leader');}
  keys.press('3',{repeat:true});keys.press('Tab',{repeat:true});equal(game.leader().id,'seiji','held/repeated keys do not cycle leader');
 }

@@ -1,0 +1,38 @@
+Combate v32 — previsão e velocidade
+
+Arquivos do motor: combatPlanningV32.ts, combatPreferencesV32.ts e engine.ts.
+
+Previsão
+- engine.enemyIntentV32() devolve EnemyIntentV32 ou null. Nenhuma consulta lê RNG ou altera batalha, heróis, recursos ou progresso.
+- phase: preview ou in-progress. timing: imminent, next-round ou acting. kind: attack, skill, collapse, ultimate ou blocked.
+- round, action, name, element, area, chargeBefore, chargeAfter, blockedBy, controlAvailable e startsNextRound descrevem as regras reais do próximo slot inimigo.
+- targets contém id/name, damageOnHit, damageRange[min,max], status potencial, statusTurns, guarded, statusPrevented e guardSavedHp.
+- Cegueira informa missChance0.5 e intervalo0..damageOnHit; o acerto/erro só é sorteado no callback de impacto.
+- A projeção considera a fila atual/próxima, aliados já derrotados, sangramento que os derrotará antes do slot inimigo, expiração de guarda e preservação da guarda durante uma perda de ação por gelo/terra.
+- Outros ataques, curas e controles escolhidos pelo jogador ainda podem mudar a intenção; o getter recalcula a partir do estado atual.
+- As divergências legadas são expostas: o golpe individual de um boss silenciado mantém o elemento da família e pode aplicar silêncio em rodada par; a carga fica preservada. Nenhuma regra foi silenciosamente substituída.
+
+Resultado real
+- BattleAnimation.enemyIntentV32 captura a intenção da ação inimiga iniciada.
+- BattleAnimation.enemyOutcomeV32 só existe depois do impacto: missed e targets{id,damage,hpLost,guarded,guardSavedHp,status,blockedStatus}.
+- Um erro de cegueira produz missed:true e targets[], sem anunciar dano previsto como dano realizado.
+- Guarda relata HP preservado e estado impedido quando o golpe realmente acerta. status registra apenas o estado aplicado; blockedStatus registra uma ameaça impedida.
+
+Velocidade
+- Snapshot.battleSpeedV32:1|2, padrão1. engine.setBattleSpeedV32(1|2) salva preferência independente e emite novo snapshot.
+- Chave local: eter-anima-combat-preferences-v32; formato {battleSpeed:1|2}. Preferência inválida ou armazenamento indisponível usa1x; o setter continua funcionando em memória.
+- Save/progress/version permanecem intactos. hydrate lê a preferência; iniciar uma campanha nova ou continuar um save mantém a escolha.
+- BattleAnimation.speed captura o fator no início. duration e impactAt já vêm escalados; os leads700/900ms da arte devem ser divididos pelo fator capturado, nunca pela preferência atual.
+- Trocar velocidade durante uma animação altera apenas ações futuras. Estados continuam vencendo por ações, não por segundos. Gacha e cinemáticas de missões/campanha não são acelerados.
+
+Carregamento de arte
+- engine.setBattleArtGateV32(true) registra a espera no Page antes da primeira batalha. A execução headless sem esse registro mantém o comportamento anterior.
+- Uma batalha registrada começa com artReadyV32:false e um artTokenV32 único e crescente. A fila é preparada, mas nenhum ator, comando, timer ou impacto inicia até o carregamento terminar.
+- O loader chama engine.markBattleArtReadyV32(battle.artTokenV32). O método valida o modo e a instância atual, libera o primeiro ator uma única vez e aceita chamadas repetidas sem reiniciar a animação.
+- Um callback atrasado não libera outra batalha do mesmo inimigo: entityId não é usado como identidade de carregamento.
+
+Verificação
+- tests/combat-planning-v32.test.mjs:9.270 verificações aprovadas.
+- Regressões existentes aprovadas: enemy-v30(4.494), progression(84), echoes(189), game(885) e audio.
+- Type-check direcionado dos módulos do motor: zero diagnósticos. Whitespace sem erros.
+- Nenhum sistema de ruptura gradual foi adicionado nesta etapa.

@@ -1,0 +1,26 @@
+'use client';
+// Temporary visual QA route. No reads or writes of the player's saved game.
+import Home from '../page';
+import {GameEngine} from '@/lib/game/engine';
+import {freshProgression,deriveHeroes,TREE,GEAR,SLOTS} from '@/lib/game/progression';
+import {MAPS,PLAYABLE_HERO_IDS,type MapId} from '@/lib/game/data';
+import {QUESTS_V31} from '@/lib/game/questsV31';
+
+GameEngine.prototype.hydrate=function(){
+ const args=new URLSearchParams(window.location.search),p=freshProgression();
+ p.recruited=[...PLAYABLE_HERO_IDS];p.party=['seiji','marin','gabriel','ophelia','max'];p.leaderId='seiji';p.learned=TREE.map(node=>node.id);p.xp=5000;p.owned=Object.keys(GEAR);p.seen=['arrival','harbor','roots','ashwood-arrival'];p.masterMode=false;
+ for(const slot of SLOTS)p.equipment.seiji[slot]=`wolf-${slot}`;
+ p.equipment.ava.weapon='lunar-weapon';
+ this.save=()=>false;this.saved=null;this.state.hasSave=false;this.state.progress=p;this.state.heroes=deriveHeroes(p);this.state.stage=5;
+ const requested=args.get('map') as MapId;this.state.map=MAPS[requested]?requested:'patio';this.state.position={x:14,y:12};
+ this.state.mode='world';this.state.cutscene=null;this.state.questCinematic=null;this.state.battle=null;this.state.dialogue=null;this.state.overlay=null;
+ const quest=QUESTS_V31.find(q=>q.steps[0].sites.some(site=>site.map!=='patio'))!;
+ p.questsV31.records[quest.id]={step:0,counts:{},choices:{},cinematicSeen:false,claimed:false};p.questsV31.tracked=quest.id;
+ this.clearMovement();
+ if(args.get('mode')==='battle'){
+  this.state.map='ashpyre';this.beginBattle({id:'v32-review-cinder',label:'Coração da Pira',kind:'boss',x:14,y:12,asset:'cinder',family:'cinder',hp:420,damage:24});
+  this.state.battle!.round=2;this.state.battle!.bossCharge=100;this.state.heroes[1].guard=true;
+ }
+ this.emit();
+};
+export default Home;
