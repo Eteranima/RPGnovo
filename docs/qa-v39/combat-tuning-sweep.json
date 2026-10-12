@@ -1,0 +1,1441 @@
+{
+  "date": "2026-10-12",
+  "note": "Diagnostic parameter sweep in a disposable compiled catalog, same stars/cost/components/slots and both orientations. Only production catalog defaults are used by saved leagues.",
+  "baseline": {
+    "receivedManaBase": 4,
+    "receivedManaPerHp": 0.05,
+    "receivedManaCap": 15,
+    "arcanistPower": [
+      0,
+      0.18,
+      0.36
+    ],
+    "arcanistArmorPenetration": [
+      0,
+      0,
+      0
+    ],
+    "guardianArmor": [
+      0,
+      12,
+      24
+    ],
+    "guardianAllyShield": 1,
+    "fireBurn": [
+      0,
+      0.03,
+      0.05
+    ]
+  },
+  "report": [
+    {
+      "variant": {
+        "name": "effective-hp-mana"
+      },
+      "rows": [
+        {
+          "slots": 3,
+          "a": "magic",
+          "b": "fire",
+          "aWins": 0,
+          "bWins": 4,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 3,
+          "a": "magic",
+          "b": "earth",
+          "aWins": 0,
+          "bWins": 4,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 3,
+          "a": "magic",
+          "b": "mixed",
+          "aWins": 2,
+          "bWins": 2,
+          "draws": 0,
+          "overtime": 2
+        },
+        {
+          "slots": 3,
+          "a": "fire",
+          "b": "earth",
+          "aWins": 0,
+          "bWins": 4,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 3,
+          "a": "fire",
+          "b": "mixed",
+          "aWins": 4,
+          "bWins": 0,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 3,
+          "a": "earth",
+          "b": "mixed",
+          "aWins": 4,
+          "bWins": 0,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 5,
+          "a": "magic",
+          "b": "fire",
+          "aWins": 1,
+          "bWins": 3,
+          "draws": 0,
+          "overtime": 1
+        },
+        {
+          "slots": 5,
+          "a": "magic",
+          "b": "earth",
+          "aWins": 0,
+          "bWins": 4,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 5,
+          "a": "magic",
+          "b": "mixed",
+          "aWins": 1,
+          "bWins": 3,
+          "draws": 0,
+          "overtime": 2
+        },
+        {
+          "slots": 5,
+          "a": "fire",
+          "b": "earth",
+          "aWins": 3,
+          "bWins": 1,
+          "draws": 0,
+          "overtime": 1
+        },
+        {
+          "slots": 5,
+          "a": "fire",
+          "b": "mixed",
+          "aWins": 3,
+          "bWins": 1,
+          "draws": 0,
+          "overtime": 1
+        },
+        {
+          "slots": 5,
+          "a": "earth",
+          "b": "mixed",
+          "aWins": 4,
+          "bWins": 0,
+          "draws": 0,
+          "overtime": 1
+        },
+        {
+          "slots": 8,
+          "a": "magic",
+          "b": "fire",
+          "aWins": 0,
+          "bWins": 4,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 8,
+          "a": "magic",
+          "b": "earth",
+          "aWins": 0,
+          "bWins": 4,
+          "draws": 0,
+          "overtime": 1
+        },
+        {
+          "slots": 8,
+          "a": "magic",
+          "b": "mixed",
+          "aWins": 1,
+          "bWins": 3,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 8,
+          "a": "fire",
+          "b": "earth",
+          "aWins": 4,
+          "bWins": 0,
+          "draws": 0,
+          "overtime": 3
+        },
+        {
+          "slots": 8,
+          "a": "fire",
+          "b": "mixed",
+          "aWins": 2,
+          "bWins": 2,
+          "draws": 0,
+          "overtime": 2
+        },
+        {
+          "slots": 8,
+          "a": "earth",
+          "b": "mixed",
+          "aWins": 0,
+          "bWins": 4,
+          "draws": 0,
+          "overtime": 3
+        }
+      ]
+    },
+    {
+      "variant": {
+        "name": "magic-penetration",
+        "arcanistPower": [
+          0,
+          0.3,
+          0.6
+        ],
+        "arcanistArmorPenetration": [
+          0,
+          0.25,
+          0.5
+        ]
+      },
+      "rows": [
+        {
+          "slots": 3,
+          "a": "magic",
+          "b": "fire",
+          "aWins": 0,
+          "bWins": 4,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 3,
+          "a": "magic",
+          "b": "earth",
+          "aWins": 0,
+          "bWins": 4,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 3,
+          "a": "magic",
+          "b": "mixed",
+          "aWins": 2,
+          "bWins": 2,
+          "draws": 0,
+          "overtime": 2
+        },
+        {
+          "slots": 3,
+          "a": "fire",
+          "b": "earth",
+          "aWins": 0,
+          "bWins": 4,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 3,
+          "a": "fire",
+          "b": "mixed",
+          "aWins": 4,
+          "bWins": 0,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 3,
+          "a": "earth",
+          "b": "mixed",
+          "aWins": 4,
+          "bWins": 0,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 5,
+          "a": "magic",
+          "b": "fire",
+          "aWins": 1,
+          "bWins": 3,
+          "draws": 0,
+          "overtime": 1
+        },
+        {
+          "slots": 5,
+          "a": "magic",
+          "b": "earth",
+          "aWins": 0,
+          "bWins": 4,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 5,
+          "a": "magic",
+          "b": "mixed",
+          "aWins": 4,
+          "bWins": 0,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 5,
+          "a": "fire",
+          "b": "earth",
+          "aWins": 3,
+          "bWins": 1,
+          "draws": 0,
+          "overtime": 1
+        },
+        {
+          "slots": 5,
+          "a": "fire",
+          "b": "mixed",
+          "aWins": 3,
+          "bWins": 1,
+          "draws": 0,
+          "overtime": 1
+        },
+        {
+          "slots": 5,
+          "a": "earth",
+          "b": "mixed",
+          "aWins": 4,
+          "bWins": 0,
+          "draws": 0,
+          "overtime": 1
+        },
+        {
+          "slots": 8,
+          "a": "magic",
+          "b": "fire",
+          "aWins": 3,
+          "bWins": 1,
+          "draws": 0,
+          "overtime": 1
+        },
+        {
+          "slots": 8,
+          "a": "magic",
+          "b": "earth",
+          "aWins": 1,
+          "bWins": 3,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 8,
+          "a": "magic",
+          "b": "mixed",
+          "aWins": 4,
+          "bWins": 0,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 8,
+          "a": "fire",
+          "b": "earth",
+          "aWins": 4,
+          "bWins": 0,
+          "draws": 0,
+          "overtime": 3
+        },
+        {
+          "slots": 8,
+          "a": "fire",
+          "b": "mixed",
+          "aWins": 2,
+          "bWins": 2,
+          "draws": 0,
+          "overtime": 2
+        },
+        {
+          "slots": 8,
+          "a": "earth",
+          "b": "mixed",
+          "aWins": 0,
+          "bWins": 4,
+          "draws": 0,
+          "overtime": 3
+        }
+      ]
+    },
+    {
+      "variant": {
+        "name": "magic-stronger",
+        "arcanistPower": [
+          0,
+          0.45,
+          0.9
+        ],
+        "arcanistArmorPenetration": [
+          0,
+          0.3,
+          0.6
+        ]
+      },
+      "rows": [
+        {
+          "slots": 3,
+          "a": "magic",
+          "b": "fire",
+          "aWins": 0,
+          "bWins": 4,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 3,
+          "a": "magic",
+          "b": "earth",
+          "aWins": 0,
+          "bWins": 4,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 3,
+          "a": "magic",
+          "b": "mixed",
+          "aWins": 2,
+          "bWins": 2,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 3,
+          "a": "fire",
+          "b": "earth",
+          "aWins": 0,
+          "bWins": 4,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 3,
+          "a": "fire",
+          "b": "mixed",
+          "aWins": 4,
+          "bWins": 0,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 3,
+          "a": "earth",
+          "b": "mixed",
+          "aWins": 4,
+          "bWins": 0,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 5,
+          "a": "magic",
+          "b": "fire",
+          "aWins": 1,
+          "bWins": 3,
+          "draws": 0,
+          "overtime": 2
+        },
+        {
+          "slots": 5,
+          "a": "magic",
+          "b": "earth",
+          "aWins": 0,
+          "bWins": 4,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 5,
+          "a": "magic",
+          "b": "mixed",
+          "aWins": 4,
+          "bWins": 0,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 5,
+          "a": "fire",
+          "b": "earth",
+          "aWins": 3,
+          "bWins": 1,
+          "draws": 0,
+          "overtime": 1
+        },
+        {
+          "slots": 5,
+          "a": "fire",
+          "b": "mixed",
+          "aWins": 3,
+          "bWins": 1,
+          "draws": 0,
+          "overtime": 1
+        },
+        {
+          "slots": 5,
+          "a": "earth",
+          "b": "mixed",
+          "aWins": 4,
+          "bWins": 0,
+          "draws": 0,
+          "overtime": 1
+        },
+        {
+          "slots": 8,
+          "a": "magic",
+          "b": "fire",
+          "aWins": 4,
+          "bWins": 0,
+          "draws": 0,
+          "overtime": 1
+        },
+        {
+          "slots": 8,
+          "a": "magic",
+          "b": "earth",
+          "aWins": 3,
+          "bWins": 1,
+          "draws": 0,
+          "overtime": 2
+        },
+        {
+          "slots": 8,
+          "a": "magic",
+          "b": "mixed",
+          "aWins": 4,
+          "bWins": 0,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 8,
+          "a": "fire",
+          "b": "earth",
+          "aWins": 4,
+          "bWins": 0,
+          "draws": 0,
+          "overtime": 3
+        },
+        {
+          "slots": 8,
+          "a": "fire",
+          "b": "mixed",
+          "aWins": 2,
+          "bWins": 2,
+          "draws": 0,
+          "overtime": 2
+        },
+        {
+          "slots": 8,
+          "a": "earth",
+          "b": "mixed",
+          "aWins": 0,
+          "bWins": 4,
+          "draws": 0,
+          "overtime": 3
+        }
+      ]
+    },
+    {
+      "variant": {
+        "name": "shared-shield-half",
+        "guardianAllyShield": 0.5
+      },
+      "rows": [
+        {
+          "slots": 3,
+          "a": "magic",
+          "b": "fire",
+          "aWins": 0,
+          "bWins": 4,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 3,
+          "a": "magic",
+          "b": "earth",
+          "aWins": 0,
+          "bWins": 4,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 3,
+          "a": "magic",
+          "b": "mixed",
+          "aWins": 2,
+          "bWins": 2,
+          "draws": 0,
+          "overtime": 2
+        },
+        {
+          "slots": 3,
+          "a": "fire",
+          "b": "earth",
+          "aWins": 0,
+          "bWins": 4,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 3,
+          "a": "fire",
+          "b": "mixed",
+          "aWins": 4,
+          "bWins": 0,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 3,
+          "a": "earth",
+          "b": "mixed",
+          "aWins": 4,
+          "bWins": 0,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 5,
+          "a": "magic",
+          "b": "fire",
+          "aWins": 1,
+          "bWins": 3,
+          "draws": 0,
+          "overtime": 1
+        },
+        {
+          "slots": 5,
+          "a": "magic",
+          "b": "earth",
+          "aWins": 0,
+          "bWins": 4,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 5,
+          "a": "magic",
+          "b": "mixed",
+          "aWins": 1,
+          "bWins": 3,
+          "draws": 0,
+          "overtime": 2
+        },
+        {
+          "slots": 5,
+          "a": "fire",
+          "b": "earth",
+          "aWins": 2,
+          "bWins": 2,
+          "draws": 0,
+          "overtime": 2
+        },
+        {
+          "slots": 5,
+          "a": "fire",
+          "b": "mixed",
+          "aWins": 3,
+          "bWins": 1,
+          "draws": 0,
+          "overtime": 2
+        },
+        {
+          "slots": 5,
+          "a": "earth",
+          "b": "mixed",
+          "aWins": 3,
+          "bWins": 1,
+          "draws": 0,
+          "overtime": 1
+        },
+        {
+          "slots": 8,
+          "a": "magic",
+          "b": "fire",
+          "aWins": 0,
+          "bWins": 4,
+          "draws": 0,
+          "overtime": 1
+        },
+        {
+          "slots": 8,
+          "a": "magic",
+          "b": "earth",
+          "aWins": 0,
+          "bWins": 4,
+          "draws": 0,
+          "overtime": 1
+        },
+        {
+          "slots": 8,
+          "a": "magic",
+          "b": "mixed",
+          "aWins": 0,
+          "bWins": 4,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 8,
+          "a": "fire",
+          "b": "earth",
+          "aWins": 4,
+          "bWins": 0,
+          "draws": 0,
+          "overtime": 1
+        },
+        {
+          "slots": 8,
+          "a": "fire",
+          "b": "mixed",
+          "aWins": 1,
+          "bWins": 3,
+          "draws": 0,
+          "overtime": 2
+        },
+        {
+          "slots": 8,
+          "a": "earth",
+          "b": "mixed",
+          "aWins": 0,
+          "bWins": 4,
+          "draws": 0,
+          "overtime": 4
+        }
+      ]
+    },
+    {
+      "variant": {
+        "name": "armor-moderate",
+        "guardianArmor": [
+          0,
+          8,
+          16
+        ]
+      },
+      "rows": [
+        {
+          "slots": 3,
+          "a": "magic",
+          "b": "fire",
+          "aWins": 0,
+          "bWins": 4,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 3,
+          "a": "magic",
+          "b": "earth",
+          "aWins": 0,
+          "bWins": 4,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 3,
+          "a": "magic",
+          "b": "mixed",
+          "aWins": 2,
+          "bWins": 2,
+          "draws": 0,
+          "overtime": 2
+        },
+        {
+          "slots": 3,
+          "a": "fire",
+          "b": "earth",
+          "aWins": 0,
+          "bWins": 4,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 3,
+          "a": "fire",
+          "b": "mixed",
+          "aWins": 4,
+          "bWins": 0,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 3,
+          "a": "earth",
+          "b": "mixed",
+          "aWins": 4,
+          "bWins": 0,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 5,
+          "a": "magic",
+          "b": "fire",
+          "aWins": 1,
+          "bWins": 3,
+          "draws": 0,
+          "overtime": 1
+        },
+        {
+          "slots": 5,
+          "a": "magic",
+          "b": "earth",
+          "aWins": 0,
+          "bWins": 4,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 5,
+          "a": "magic",
+          "b": "mixed",
+          "aWins": 1,
+          "bWins": 3,
+          "draws": 0,
+          "overtime": 2
+        },
+        {
+          "slots": 5,
+          "a": "fire",
+          "b": "earth",
+          "aWins": 3,
+          "bWins": 1,
+          "draws": 0,
+          "overtime": 2
+        },
+        {
+          "slots": 5,
+          "a": "fire",
+          "b": "mixed",
+          "aWins": 3,
+          "bWins": 1,
+          "draws": 0,
+          "overtime": 1
+        },
+        {
+          "slots": 5,
+          "a": "earth",
+          "b": "mixed",
+          "aWins": 4,
+          "bWins": 0,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 8,
+          "a": "magic",
+          "b": "fire",
+          "aWins": 0,
+          "bWins": 4,
+          "draws": 0,
+          "overtime": 1
+        },
+        {
+          "slots": 8,
+          "a": "magic",
+          "b": "earth",
+          "aWins": 0,
+          "bWins": 4,
+          "draws": 0,
+          "overtime": 1
+        },
+        {
+          "slots": 8,
+          "a": "magic",
+          "b": "mixed",
+          "aWins": 0,
+          "bWins": 4,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 8,
+          "a": "fire",
+          "b": "earth",
+          "aWins": 4,
+          "bWins": 0,
+          "draws": 0,
+          "overtime": 1
+        },
+        {
+          "slots": 8,
+          "a": "fire",
+          "b": "mixed",
+          "aWins": 1,
+          "bWins": 3,
+          "draws": 0,
+          "overtime": 3
+        },
+        {
+          "slots": 8,
+          "a": "earth",
+          "b": "mixed",
+          "aWins": 0,
+          "bWins": 4,
+          "draws": 0,
+          "overtime": 2
+        }
+      ]
+    },
+    {
+      "variant": {
+        "name": "fire-moderate",
+        "fireBurn": [
+          0,
+          0.02,
+          0.035
+        ]
+      },
+      "rows": [
+        {
+          "slots": 3,
+          "a": "magic",
+          "b": "fire",
+          "aWins": 0,
+          "bWins": 4,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 3,
+          "a": "magic",
+          "b": "earth",
+          "aWins": 0,
+          "bWins": 4,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 3,
+          "a": "magic",
+          "b": "mixed",
+          "aWins": 2,
+          "bWins": 2,
+          "draws": 0,
+          "overtime": 2
+        },
+        {
+          "slots": 3,
+          "a": "fire",
+          "b": "earth",
+          "aWins": 0,
+          "bWins": 4,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 3,
+          "a": "fire",
+          "b": "mixed",
+          "aWins": 4,
+          "bWins": 0,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 3,
+          "a": "earth",
+          "b": "mixed",
+          "aWins": 4,
+          "bWins": 0,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 5,
+          "a": "magic",
+          "b": "fire",
+          "aWins": 1,
+          "bWins": 3,
+          "draws": 0,
+          "overtime": 1
+        },
+        {
+          "slots": 5,
+          "a": "magic",
+          "b": "earth",
+          "aWins": 0,
+          "bWins": 4,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 5,
+          "a": "magic",
+          "b": "mixed",
+          "aWins": 1,
+          "bWins": 3,
+          "draws": 0,
+          "overtime": 2
+        },
+        {
+          "slots": 5,
+          "a": "fire",
+          "b": "earth",
+          "aWins": 3,
+          "bWins": 1,
+          "draws": 0,
+          "overtime": 4
+        },
+        {
+          "slots": 5,
+          "a": "fire",
+          "b": "mixed",
+          "aWins": 3,
+          "bWins": 1,
+          "draws": 0,
+          "overtime": 3
+        },
+        {
+          "slots": 5,
+          "a": "earth",
+          "b": "mixed",
+          "aWins": 4,
+          "bWins": 0,
+          "draws": 0,
+          "overtime": 1
+        },
+        {
+          "slots": 8,
+          "a": "magic",
+          "b": "fire",
+          "aWins": 0,
+          "bWins": 4,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 8,
+          "a": "magic",
+          "b": "earth",
+          "aWins": 0,
+          "bWins": 4,
+          "draws": 0,
+          "overtime": 1
+        },
+        {
+          "slots": 8,
+          "a": "magic",
+          "b": "mixed",
+          "aWins": 1,
+          "bWins": 3,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 8,
+          "a": "fire",
+          "b": "earth",
+          "aWins": 4,
+          "bWins": 0,
+          "draws": 0,
+          "overtime": 3
+        },
+        {
+          "slots": 8,
+          "a": "fire",
+          "b": "mixed",
+          "aWins": 3,
+          "bWins": 1,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 8,
+          "a": "earth",
+          "b": "mixed",
+          "aWins": 0,
+          "bWins": 4,
+          "draws": 0,
+          "overtime": 4
+        }
+      ]
+    },
+    {
+      "variant": {
+        "name": "magic-and-shields",
+        "arcanistPower": [
+          0,
+          0.3,
+          0.6
+        ],
+        "arcanistArmorPenetration": [
+          0,
+          0.25,
+          0.5
+        ],
+        "guardianAllyShield": 0.5
+      },
+      "rows": [
+        {
+          "slots": 3,
+          "a": "magic",
+          "b": "fire",
+          "aWins": 0,
+          "bWins": 4,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 3,
+          "a": "magic",
+          "b": "earth",
+          "aWins": 0,
+          "bWins": 4,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 3,
+          "a": "magic",
+          "b": "mixed",
+          "aWins": 2,
+          "bWins": 2,
+          "draws": 0,
+          "overtime": 1
+        },
+        {
+          "slots": 3,
+          "a": "fire",
+          "b": "earth",
+          "aWins": 0,
+          "bWins": 4,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 3,
+          "a": "fire",
+          "b": "mixed",
+          "aWins": 4,
+          "bWins": 0,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 3,
+          "a": "earth",
+          "b": "mixed",
+          "aWins": 4,
+          "bWins": 0,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 5,
+          "a": "magic",
+          "b": "fire",
+          "aWins": 1,
+          "bWins": 3,
+          "draws": 0,
+          "overtime": 1
+        },
+        {
+          "slots": 5,
+          "a": "magic",
+          "b": "earth",
+          "aWins": 0,
+          "bWins": 4,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 5,
+          "a": "magic",
+          "b": "mixed",
+          "aWins": 4,
+          "bWins": 0,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 5,
+          "a": "fire",
+          "b": "earth",
+          "aWins": 2,
+          "bWins": 2,
+          "draws": 0,
+          "overtime": 2
+        },
+        {
+          "slots": 5,
+          "a": "fire",
+          "b": "mixed",
+          "aWins": 3,
+          "bWins": 1,
+          "draws": 0,
+          "overtime": 2
+        },
+        {
+          "slots": 5,
+          "a": "earth",
+          "b": "mixed",
+          "aWins": 3,
+          "bWins": 1,
+          "draws": 0,
+          "overtime": 1
+        },
+        {
+          "slots": 8,
+          "a": "magic",
+          "b": "fire",
+          "aWins": 3,
+          "bWins": 1,
+          "draws": 0,
+          "overtime": 1
+        },
+        {
+          "slots": 8,
+          "a": "magic",
+          "b": "earth",
+          "aWins": 0,
+          "bWins": 4,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 8,
+          "a": "magic",
+          "b": "mixed",
+          "aWins": 4,
+          "bWins": 0,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 8,
+          "a": "fire",
+          "b": "earth",
+          "aWins": 4,
+          "bWins": 0,
+          "draws": 0,
+          "overtime": 1
+        },
+        {
+          "slots": 8,
+          "a": "fire",
+          "b": "mixed",
+          "aWins": 1,
+          "bWins": 3,
+          "draws": 0,
+          "overtime": 2
+        },
+        {
+          "slots": 8,
+          "a": "earth",
+          "b": "mixed",
+          "aWins": 0,
+          "bWins": 4,
+          "draws": 0,
+          "overtime": 4
+        }
+      ]
+    },
+    {
+      "variant": {
+        "name": "magic-and-armor",
+        "arcanistPower": [
+          0,
+          0.3,
+          0.6
+        ],
+        "arcanistArmorPenetration": [
+          0,
+          0.25,
+          0.5
+        ],
+        "guardianArmor": [
+          0,
+          8,
+          16
+        ]
+      },
+      "rows": [
+        {
+          "slots": 3,
+          "a": "magic",
+          "b": "fire",
+          "aWins": 0,
+          "bWins": 4,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 3,
+          "a": "magic",
+          "b": "earth",
+          "aWins": 0,
+          "bWins": 4,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 3,
+          "a": "magic",
+          "b": "mixed",
+          "aWins": 2,
+          "bWins": 2,
+          "draws": 0,
+          "overtime": 2
+        },
+        {
+          "slots": 3,
+          "a": "fire",
+          "b": "earth",
+          "aWins": 0,
+          "bWins": 4,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 3,
+          "a": "fire",
+          "b": "mixed",
+          "aWins": 4,
+          "bWins": 0,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 3,
+          "a": "earth",
+          "b": "mixed",
+          "aWins": 4,
+          "bWins": 0,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 5,
+          "a": "magic",
+          "b": "fire",
+          "aWins": 1,
+          "bWins": 3,
+          "draws": 0,
+          "overtime": 1
+        },
+        {
+          "slots": 5,
+          "a": "magic",
+          "b": "earth",
+          "aWins": 0,
+          "bWins": 4,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 5,
+          "a": "magic",
+          "b": "mixed",
+          "aWins": 3,
+          "bWins": 1,
+          "draws": 0,
+          "overtime": 1
+        },
+        {
+          "slots": 5,
+          "a": "fire",
+          "b": "earth",
+          "aWins": 3,
+          "bWins": 1,
+          "draws": 0,
+          "overtime": 2
+        },
+        {
+          "slots": 5,
+          "a": "fire",
+          "b": "mixed",
+          "aWins": 3,
+          "bWins": 1,
+          "draws": 0,
+          "overtime": 1
+        },
+        {
+          "slots": 5,
+          "a": "earth",
+          "b": "mixed",
+          "aWins": 4,
+          "bWins": 0,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 8,
+          "a": "magic",
+          "b": "fire",
+          "aWins": 2,
+          "bWins": 2,
+          "draws": 0,
+          "overtime": 1
+        },
+        {
+          "slots": 8,
+          "a": "magic",
+          "b": "earth",
+          "aWins": 0,
+          "bWins": 4,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 8,
+          "a": "magic",
+          "b": "mixed",
+          "aWins": 4,
+          "bWins": 0,
+          "draws": 0,
+          "overtime": 0
+        },
+        {
+          "slots": 8,
+          "a": "fire",
+          "b": "earth",
+          "aWins": 4,
+          "bWins": 0,
+          "draws": 0,
+          "overtime": 1
+        },
+        {
+          "slots": 8,
+          "a": "fire",
+          "b": "mixed",
+          "aWins": 1,
+          "bWins": 3,
+          "draws": 0,
+          "overtime": 3
+        },
+        {
+          "slots": 8,
+          "a": "earth",
+          "b": "mixed",
+          "aWins": 0,
+          "bWins": 4,
+          "draws": 0,
+          "overtime": 2
+        }
+      ]
+    }
+  ]
+}

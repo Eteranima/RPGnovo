@@ -1,0 +1,65 @@
+[
+  {
+    "name": "ashwolf-body",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a12e36-f370-7401-98c4-882cfef1de85\\exec-cae5f00c-a97e-420c-ae23-dd322f2aeb26.png",
+    "path": "art-source/v40/autochess/references/ashwolf-body.png",
+    "prompt": "Use case: stylized-concept. Image1 is ONLY the canonical creature identity reference. Create ONE SINGLE isolated full-body neutral ready-pose reference of Lobo de Cinzas, NOT an animationatlas and NOT multiple creatures. A mature charcoal/basaltwolf with emberorangefissures, orangeeyes, shortflameplumealongspine andone flametail. EXACTfourlegs/fourpaws, natural canineanatomy; allpaws/ears/tailfullyvisible. FaceLEFT three-quarterview, low guardedready stance. Retain exactsameidentity/fantasyanimeink/celshading, nohumanization, no realistfur. No ultimateaction, no broadfirearcs, noboulders or effects; just thecreature's inherent mane/tail flames. Center thewholewolfwithwideemptyspaceonall sides. NativeRGBArealtransparentalphaZERO behind/aroundbody, no floor/shadow/platform/coloredbackground/matte/haze/grid/text/watermark.",
+    "usedForGenerationOnly": true,
+    "sha256": "f81cd99bd94540cd61bf1151dee3601fda1f550f97ca7d1f251b27bd0a634f88",
+    "nativeBytesPreserved": true
+  },
+  {
+    "name": "selo-body",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a12e36-f370-7401-98c4-882cfef1de85\\exec-c84eafb2-b196-4dce-a3da-017594b0b8ad.png",
+    "path": "art-source/v40/autochess/references/selo-body.png",
+    "prompt": "Use case: stylized-concept. Image1 is ONLY canonical identity reference. Create ONE SINGLE isolated fullbodyneutralidle reference of O Selo Quebrado, NOTanimationatlas/multiplewraiths. Preserve tallfloatinghoodedvioletwraith, ornate tornblue-violetrobes, goldchaincollar, brokengold/violethalo aroundhead, voidfacewithtwovioleteyes, EXACTtwoattachedcoherentskeletalhands. Fullrobe/halotips/handsvisible. ThreequarterviewfacesLEFT. FinecleanJapanese fantasyanimeink/celshading sameapprovedidentity, no3D/photo. Calmreadyhands, NO ultimateeffect, NO sealwheel/shards/fog/othercharacters. Centercompletewraithwithwideemptymargins. GenuineRGBAalphaZERO outsidebody, no coloredbackdrop/matte/haze/floor/rectangularshadow/grid/text/watermarks.",
+    "usedForGenerationOnly": true,
+    "sha256": "257eb757371b079e5d4a64f4246ebe1a336ab0fb7d4460c9d1e01ecb676956f0",
+    "nativeBytesPreserved": true
+  },
+  {
+    "name": "cinder-body",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a12e36-f370-7401-98c4-882cfef1de85\\exec-2522cb85-d765-4778-93fb-20677e5cce6b.png",
+    "path": "art-source/v40/autochess/references/cinder-body.png",
+    "prompt": "Use case: stylized-concept. Image1 ONLY canonicalidentityreference. Create ONE SINGLE isolated fullbodyneutralready reference of A Chama que Lembra, NOTanimationatlas/multipleknights. Preserve matureblackbasaltarmoredhumanoid, orangeemberfissures, glowingamberchestcore, closedblackhelmet/orangeeyes, tornblackwaistcloth andbigbasaltswordwithorangeedges. EXACTtwoarms/twoattachedcoherentgrippinghands/twolegs/twoarmoredboots. Swordhelddiagonallydownclose tobody, ENTIREswordtipandbootsvisible. Threequarterview facesLEFT. CleanJapaneseanimefineink+flatcelshading asreference, no3D/photo. NOultimatefirearcs, no rocks/particles/effects/fog. Centercompleteknightwithwideemptygutter.NativeRGBA genuinealphaZERO outsidebody, no background/matte/haze/floor/shadow/grid/text/watermarks.",
+    "usedForGenerationOnly": true,
+    "sha256": "b813c4a23c6c0beed11358827ae67ce07446bd40f29fd0890c6bf5adcab780f0",
+    "nativeBytesPreserved": true
+  },
+  {
+    "name": "astral-body",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a12e36-f370-7401-98c4-882cfef1de85\\exec-ed8c6776-9cba-4603-9f1b-228485f35f3b.png",
+    "path": "art-source/v40/autochess/references/astral-body.png",
+    "prompt": "Use case: stylized-concept. Image1 ONLY canonicalidentityreference. Create ONE SINGLE isolated completefullbodyneutralready reference of Guardião do Astrolábio, NOTanimationatlas/multipleknights. Preserve exactivory/gold/navyarmoredguardian, sapphirechestgem, closedhelmet with glowingblueSTARvisor, THREEbrassorbitalrings behindshoulders andgoldornaments. EXACTtwoarms/twoattachedcoherentfivefingerhands/twolegs/twoarmoredboots. Allhelmet/ringtips/bootsvisible. Threequarterview facesLEFT. Botharmsrelaxedguard,noelectricalattack. CleanJapaneseanimefineink+flatcelshading, no3D/photo. NOultimateaura/beams/particles/fog. Centerwholeguardian/rings withwideemptygutter.NativeRGBAgenuinealphaZEROoutsidebody, no background/matte/haze/floor/shadow/grid/text/watermarks.",
+    "usedForGenerationOnly": true,
+    "sha256": "94eb3a9196911de59e19142d64e170db4f7e91ff41871cacdef1f9d4566a6ea8",
+    "nativeBytesPreserved": true
+  },
+  {
+    "name": "runewarden-initial",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a12e36-f370-7401-98c4-882cfef1de85\\exec-a2578fc2-9578-43a5-aedd-cda2cb39a6b1.png",
+    "path": "art-source/v40/autochess/references/runewarden-initial.png",
+    "prompt": "Use case: stylized-concept. Asset type: FINAL native transparent auto-battler animation atlas for Éter Anima. Input image1 is ONLY identity reference for Vigia Rúnico (runewarden); image2 is ONLY approved anime linework, miniature scale, spacious layout reference (Seiji), never copy its person.\nCreate a NEW landscape atlas with EXACTLY TWELVE complete independent sprites, FOUR columns by THREE rows, row-major, no labels/grid. Same canonical knight in every cell: ivory/gold/navy armor, sapphire chest gem, CLOSED blue visor, swept gold helmet horns, long nib spear with blue crystal tip and rune book. Refined Fate/Mushoku Tensei fantasy anime, crisp fine ink and flat cel shading. Face slightly RIGHT in three-quarter view. Two arms, two attached coherent hands, two legs and fully visible armored boots. Keep weapon/books close to body, entirely visible and correct grips.\nRow1: FOUR subtly distinct ready/breathing poses, book and upright spear, no skill effect. Row2: FOUR attack phases: guarded wind-up; short RIGHT spear jab with a small navy ink dart; follow-through; ready recovery. Row3: FOUR skill phases for protective interception: raise rune book; gather three paper talismans; project a compact OPEN navy-ink rune shield beside forward hand; settled guard. Never fire or broad luminous fog. No other characters.\nSTRICT production layout: body around55-60%cellheight, ENTIRE spear/body/effect at most70%cellwidth AND75%cellheight; at least15% genuinely EMPTY gutter on each side and top, feet on84%cellheight baseline. Same scale/baseline all12poses. No cropped spear tip, horn, hand or boot. No artwork touches any cell boundary or outer edge. Native RGBA alpha ZERO everywhere outside local silhouette and between sprites. NO painted background/haze/matte, no floor/platform/shadow, no rectangle, checkerboard, words, text, watermark. Preserve exact identity/costume, don't turn armor into Seiji's outfit.",
+    "usedForGenerationOnly": true,
+    "sha256": "6aa4045cf5ee3ab2a2b531e93f434ebd05d6a92a10ca50bdb847df844197e26c",
+    "nativeBytesPreserved": true
+  },
+  {
+    "name": "runewarden-before-direction",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a12e36-f370-7401-98c4-882cfef1de85\\exec-68045a9e-f219-440c-9442-4bcb0808f5ba.png",
+    "path": "art-source/v40/autochess/references/runewarden-before-direction.png",
+    "prompt": "Use case: precise-object-edit. Input image1 is EDIT TARGET, existing runewarden atlas. Repair ONLY sprite layout and consistent direction, preserve the12 different poses/order, canonical ivory/gold/navy knight, closed blue visor, sapphire chest, nib spear/book, fine anime lines/colors/anatomy. Keep canvas1448x1086 and EXACTLY4columns×3rows. Each cell is362x362. Uniformly SHRINK every entire sprite INCLUDING spear/cape/book/FX to60percent of current pixel size. Center every complete figure plus weapon/FX well inside its own originalcell with feet at84percentcellheight. No body/weapon/effect widerthan68percentcellwidth or tallerthan72percentcellheight. Atleast60pixels ACTUALLY EMPTY alphaZERO on all4sides everycell. No pixel crosses borders or touches canvas. Especially fix secondrowcolumn2 spear arc crossing toward column3, and all boot/spear tips near row boundaries. All twelve helmets/visors/bodies face slightlyRIGHT in3quarterview consistently, including idle/recovery, while preserving correct twoarms/twohands/twolegs/boots and natural grips. Both feet visible; all spear tips intact. NO duplicateframes/newcharacters. NativeRGBA alphaZERO outside silhouettes, no background/matte/haze/floor/shadow/labels/grid. Clean beautifulproductionanime, do not simplify detail.",
+    "usedForGenerationOnly": true,
+    "sha256": "92742c00d30f367461932f916c83fa8d6d5d927b2e8a9b9ea11b327e4da0a117",
+    "nativeBytesPreserved": true
+  },
+  {
+    "name": "selo-before-padding",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a12e36-f370-7401-98c4-882cfef1de85\\exec-a56887c7-5d28-4b9e-880e-033cefec96a6.png",
+    "path": "art-source/v40/autochess/references/selo-before-padding.png",
+    "prompt": "Use case: stylized-concept. FINAL battle-piece animation atlas for Éter Anima. Image1 ONLY singlebodycanonicalidentity reference O Selo Quebrado; image2 ONLY approved cel-shaded animeink +4columns3rows layout reference, nevercopyitshuman. Create NEW TWELVEdistinctcompletewraithsprites FOUR columns THREE rows, rowmajor. Samehoodedancientvioletwraith, brokengoldviolethalo, goldchains, tornnavyvioletrobes, voidface/twovioleteyes, exactlytwoattachedskeletalhands everypose. Wholefloatingrobe visible, don'tinventhumanlegs. Allthreequarterviews faceLEFT. FinecleanFate/Mushoku anime, flatcelshading, no3D.\nTOPROWfour subtleidlebreath/robesway/handshifts, NOspellwheel/effects. MIDDLEROWfour basicattack phases: retractonehand; smallLEFTnavyINKshard; followthrough; neutralrecover. BOTTOMROWfour specialshieldbreak phases: twohandsgather; compactGOLDsealwheelwithINDIGOstar formsbesidehands; wheelbreaksinto five ink-goldshardsLEFT; settle. Ink, notfire; no broadvortex/fog/coloredmatte, noothercharacters.\nSTRICTSPACING: wholebodyINCLUDINGrobe/halo/hands+alllocalFX restrictedtoCENTRAL55%cellwidth and65%cellheight. Genuinelyemptytransparentguttersatleast70pixelsEACHsideineverycell. Same scaleandrobe-baseline84%cellheight. Preserveall12completeanatomicallycoherentdistinctposes; noneighborsbleed/crop/duplicatedposes. NativeRGBAalphaZEROinallgaps/outsidebody; no background/aura/floor/shadow/platform/grid/text/watermark. Tinyhighqualityfullsilhouettesasimage2, NOTlargeillustrations.",
+    "usedForGenerationOnly": true,
+    "sha256": "687ae9c4ff6e84a34c1621aecfb0f1782a106a24ccbe2094d1b0b9bc1dc8cea3",
+    "nativeBytesPreserved": true
+  }
+]

@@ -1,0 +1,17 @@
+import assert from 'node:assert/strict';
+import {mkdtempSync,mkdirSync,writeFileSync} from 'node:fs';
+import {tmpdir} from 'node:os';
+import {join} from 'node:path';
+import {pathToFileURL} from 'node:url';
+import {performance} from 'node:perf_hooks';
+import {compileGameModules} from './game-module-loader.mjs';
+const out=mkdtempSync(join(tmpdir(),'eter-chess-perf-v39-'));compileGameModules(out,['autoChessLeagueV39']);const load=name=>import(pathToFileURL(join(out,name+'.js')).href);const l=await load('autoChessLeagueV39'),c=await load('autoChessCatalogV39');
+let checks=0;const check=(v,label)=>{assert.ok(v,label);checks++;};const samples=[];
+let ordinary=l.newChessLeagueV39(31);for(const index of [0,1,2])ordinary=l.applyChessCommandV39(ordinary,{type:'buy',index});for(const [index,unit] of ordinary.players[0].units.entries())ordinary=l.applyChessCommandV39(ordinary,{type:'move',uid:unit.uid,cell:35+index});
+for(let i=0;i<4;i++){const start=performance.now(),result=l.applyChessCommandV39(ordinary,{type:'resolve'});samples.push(performance.now()-start);check(result&&result.lastBattles.length===4,'ordinary resolution uses all four genuine league matches');}
+const dense=l.newChessLeagueV39(31);for(const player of dense.players){for(const id of player.shop)if(id)dense.pool[id]++;for(const unit of player.units)dense.pool[unit.pieceId]+=3**(unit.star-1);player.shop=[null,null,null,null,null];player.units=[];player.level=8;}
+for(const [i,player] of dense.players.entries())for(let j=0;j<8;j++){const piece=c.CHESS_PIECES_V39[(i*8+j)%23];dense.pool[piece.id]-=3;player.units.push({uid:`u${1000+i*8+j}`,pieceId:piece.id,star:2,cell:piece.range===1?32+j:56+j,items:[]});}check(l.chessConservationV39(dense),'dense fixture has legal shared copies and eight-unit capacities');
+const denseStart=performance.now(),denseResult=l.applyChessCommandV39(dense,{type:'resolve'}),denseMs=performance.now()-denseStart;check(denseResult?.lastBattles.length===4,'dense fixture resolves four8v8matches');
+let record={seed:31,journal:[]};for(let i=0;i<2499;i++){const next=l.appendChessCommandV39(record,{type:'lock'});check(next,'bounded valid command can append');record=next;}const parseStart=performance.now(),parsed=l.normalizeChessRunRecordV39(record),maxJournalNormalizeMs=performance.now()-parseStart;check(parsed,'2499-command legal no-fight journal normalizes');check(l.appendChessCommandV39(parsed,{type:'lock'}),'2500th action accepted');const full={seed:31,journal:[...record.journal,{type:'lock'}]};check(l.appendChessCommandV39(full,{type:'lock'})===null,'2501st action refused before any mutation');
+const first=l.replayChessRunV39(parsed),cachedStart=performance.now();for(let i=0;i<10000;i++)check(l.replayChessRunV39(parsed)===first,'same validated record uses memoized authoritative state');const cached10000Ms=performance.now()-cachedStart;
+const report={generatedAt:new Date().toISOString(),note:'Node CPU timings on this workstation; not physical mobile FPS or browser interaction measurements. Dense formation is a legal capacity/reserve fixture, not a claimed natural league save.',checks,ordinaryFourFightMs:samples,denseFour8v8Ms:denseMs,maxJournalCommands:parsed.journal.length,maxJournalNormalizeMs,cached10000Ms,bytes:new TextEncoder().encode(JSON.stringify(full)).length};mkdirSync('docs/qa-v39',{recursive:true});writeFileSync('docs/qa-v39/core-performance.json',JSON.stringify(report,null,2));console.log(`PASS ${checks} performance checks`,JSON.stringify(report));

@@ -1,0 +1,76 @@
+{
+  "generatedAt": "2026-10-12T03:48:27.188Z",
+  "note": "Deterministic local policy simulations; not player enjoyment, acceptance, or fairness certification.",
+  "policies": [
+    {
+      "policy": "reroll",
+      "seeds": 3,
+      "placements": [
+        1,
+        4,
+        1
+      ],
+      "rounds": [
+        16,
+        17,
+        17
+      ],
+      "top4": 3,
+      "champions": 2
+    },
+    {
+      "policy": "growth",
+      "seeds": 3,
+      "placements": [
+        2,
+        2,
+        3
+      ],
+      "rounds": [
+        17,
+        20,
+        15
+      ],
+      "top4": 3,
+      "champions": 0
+    },
+    {
+      "policy": "magic",
+      "seeds": 3,
+      "placements": [
+        5,
+        3,
+        4
+      ],
+      "rounds": [
+        14,
+        16,
+        16
+      ],
+      "top4": 2,
+      "champions": 0
+    },
+    {
+      "policy": "mixed",
+      "seeds": 3,
+      "placements": [
+        5,
+        4,
+        3
+      ],
+      "rounds": [
+        13,
+        15,
+        15
+      ],
+      "top4": 2,
+      "champions": 0
+    }
+  ],
+  "checks": 983,
+  "maxJournal": 142,
+  "packetBytes": 8263,
+  "reloadMs": 0.3165000000008149,
+  "maxLeagueSimulationMs": 7798.411499999998,
+  "totalMs": 94393.015
+}

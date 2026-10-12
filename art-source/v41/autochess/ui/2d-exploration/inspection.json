@@ -1,0 +1,393 @@
+{
+  "date": "2026-10-12",
+  "records": [
+    {
+      "path": "C:\\Users\\Diego\\.codex\\generated_images\\01a12e36-f370-7401-98c4-882cfef1de85\\exec-5050e97c-4bab-4fcf-b24f-31c0720e2d5a.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1088815,
+      "sha256": "4ffeda9614c021c86e09f8ae7509f440d2926816acc74ac69622b63593889eda",
+      "alpha": {
+        "zero": 1328172,
+        "opaque": 0,
+        "total": 1572864,
+        "corners": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "columns": 1,
+      "rows": 1,
+      "cells": [
+        {
+          "index": 0,
+          "crop": [
+            0,
+            0,
+            1024,
+            1536
+          ],
+          "visibleBounds": [
+            30,
+            22,
+            964,
+            1451
+          ],
+          "visiblePixels": 174483,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "3d5ac9660fa6ea456e99081e20ac1f35ec42dba74be010796ba26b6e63c66b57"
+        }
+      ],
+      "id": "panel",
+      "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a12e36-f370-7401-98c4-882cfef1de85\\exec-5050e97c-4bab-4fcf-b24f-31c0720e2d5a.png",
+      "centerKind": "transparent",
+      "frames": [
+        {
+          "index": 0,
+          "crop": [
+            0,
+            0,
+            1024,
+            1536
+          ],
+          "visibleBounds": [
+            30,
+            22,
+            964,
+            1451
+          ],
+          "visiblePixels": 174483,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "3d5ac9660fa6ea456e99081e20ac1f35ec42dba74be010796ba26b6e63c66b57",
+          "center": {
+            "x": 299,
+            "y": 428,
+            "w": 424,
+            "h": 638,
+            "zero": 270350,
+            "total": 270512,
+            "strong": 0,
+            "zeroRatio": 0.9994011356242977,
+            "meanAlpha": 0.0005988643757023718,
+            "minAlpha": 0,
+            "maxAlpha": 1,
+            "meanRGB": [
+              0.3229320695569882,
+              0.18354084107174543,
+              0.10241320163245993
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\Diego\\.codex\\generated_images\\01a12e36-f370-7401-98c4-882cfef1de85\\exec-c384caec-7b0a-4253-8783-1378f4ef3a3e.png",
+      "width": 2172,
+      "height": 724,
+      "bytes": 1091501,
+      "sha256": "f8933a56a935de24ce7c76bac64a2efe19fa550400207b2cc8969cf996667c42",
+      "alpha": {
+        "zero": 554914,
+        "opaque": 203,
+        "total": 1572528,
+        "corners": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "columns": 1,
+      "rows": 1,
+      "cells": [
+        {
+          "index": 0,
+          "crop": [
+            0,
+            0,
+            2172,
+            724
+          ],
+          "visibleBounds": [
+            29,
+            82,
+            2115,
+            534
+          ],
+          "visiblePixels": 998815,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 0,
+          "pixelHash": "65c088048edcd81f58d5ed13f055a10d08767f5d835d053fd4c7e70c02de25d9"
+        }
+      ],
+      "id": "shop",
+      "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a12e36-f370-7401-98c4-882cfef1de85\\exec-c384caec-7b0a-4253-8783-1378f4ef3a3e.png",
+      "centerKind": "dark",
+      "frames": [
+        {
+          "index": 0,
+          "crop": [
+            0,
+            0,
+            2172,
+            724
+          ],
+          "visibleBounds": [
+            29,
+            82,
+            2115,
+            534
+          ],
+          "visiblePixels": 998815,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 0,
+          "pixelHash": "65c088048edcd81f58d5ed13f055a10d08767f5d835d053fd4c7e70c02de25d9",
+          "center": {
+            "x": 621,
+            "y": 231,
+            "w": 930,
+            "h": 234,
+            "zero": 0,
+            "total": 217620,
+            "strong": 217620,
+            "zeroRatio": 0,
+            "meanAlpha": 253.3296434151273,
+            "minAlpha": 253,
+            "maxAlpha": 254,
+            "meanRGB": [
+              16.392404190791286,
+              37.13744141163496,
+              44.45594614465582
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\Diego\\.codex\\generated_images\\01a12e36-f370-7401-98c4-882cfef1de85\\exec-2b30e731-d926-48aa-9f3c-46ca42d7f648.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1042761,
+      "sha256": "3076866ce2bbb64064eb7fd0637d10e5b03b0ce6749c4a87dd14db9ab1fb8436",
+      "alpha": {
+        "zero": 1370546,
+        "opaque": 0,
+        "total": 1572864,
+        "corners": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "columns": 1,
+      "rows": 1,
+      "cells": [
+        {
+          "index": 0,
+          "crop": [
+            0,
+            0,
+            1024,
+            1536
+          ],
+          "visibleBounds": [
+            64,
+            62,
+            896,
+            1393
+          ],
+          "visiblePixels": 172956,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 0,
+          "pixelHash": "466b6aed5155e2c520bccac62a1338c20211623a23039e6036706423b02d6420"
+        }
+      ],
+      "id": "active",
+      "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a12e36-f370-7401-98c4-882cfef1de85\\exec-2b30e731-d926-48aa-9f3c-46ca42d7f648.png",
+      "centerKind": "transparent",
+      "frames": [
+        {
+          "index": 0,
+          "crop": [
+            0,
+            0,
+            1024,
+            1536
+          ],
+          "visibleBounds": [
+            64,
+            62,
+            896,
+            1393
+          ],
+          "visiblePixels": 172956,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 0,
+          "pixelHash": "466b6aed5155e2c520bccac62a1338c20211623a23039e6036706423b02d6420",
+          "center": {
+            "x": 314,
+            "y": 452,
+            "w": 394,
+            "h": 612,
+            "zero": 241120,
+            "total": 241128,
+            "strong": 0,
+            "zeroRatio": 0.9999668226004446,
+            "meanAlpha": 0.000033177399555422843,
+            "minAlpha": 0,
+            "maxAlpha": 1,
+            "meanRGB": [
+              0.17586095351846323,
+              0.08434939119471815,
+              0.04590093228492751
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\Diego\\.codex\\generated_images\\01a12e36-f370-7401-98c4-882cfef1de85\\exec-47de27e4-ba48-4b7a-b83a-38c65d70420d.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1302917,
+      "sha256": "f6dda23c3a0d36470f2f3985fcaa5be3516eea604186323e408c12fc5f5e0e00",
+      "alpha": {
+        "zero": 658424,
+        "opaque": 0,
+        "total": 1572864,
+        "corners": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "columns": 1,
+      "rows": 2,
+      "cells": [
+        {
+          "index": 0,
+          "crop": [
+            0,
+            0,
+            1536,
+            512
+          ],
+          "visibleBounds": [
+            48,
+            129,
+            1440,
+            316
+          ],
+          "visiblePixels": 429361,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "fdfc78af4020d48b19aff72f00360173cbe6b01b6c52283c6ea2761aff2b35de"
+        },
+        {
+          "index": 1,
+          "crop": [
+            0,
+            512,
+            1536,
+            512
+          ],
+          "visibleBounds": [
+            48,
+            576,
+            1440,
+            317
+          ],
+          "visiblePixels": 430383,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "d61a31fc1944a89b34d5e8e3a494e671da33ea4c7e52895a0e0a246aeb29d335"
+        }
+      ],
+      "id": "buttons",
+      "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a12e36-f370-7401-98c4-882cfef1de85\\exec-47de27e4-ba48-4b7a-b83a-38c65d70420d.png",
+      "centerKind": "dark",
+      "frames": [
+        {
+          "index": 0,
+          "crop": [
+            0,
+            0,
+            1536,
+            512
+          ],
+          "visibleBounds": [
+            48,
+            129,
+            1440,
+            316
+          ],
+          "visiblePixels": 429361,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "fdfc78af4020d48b19aff72f00360173cbe6b01b6c52283c6ea2761aff2b35de",
+          "center": {
+            "x": 451,
+            "y": 217,
+            "w": 633,
+            "h": 139,
+            "zero": 0,
+            "total": 87987,
+            "strong": 87987,
+            "zeroRatio": 0,
+            "meanAlpha": 252.69615965994976,
+            "minAlpha": 252,
+            "maxAlpha": 253,
+            "meanRGB": [
+              16.65999522656756,
+              43.31776285133031,
+              52.25433302646982
+            ]
+          }
+        },
+        {
+          "index": 1,
+          "crop": [
+            0,
+            512,
+            1536,
+            512
+          ],
+          "visibleBounds": [
+            48,
+            576,
+            1440,
+            317
+          ],
+          "visiblePixels": 430383,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "d61a31fc1944a89b34d5e8e3a494e671da33ea4c7e52895a0e0a246aeb29d335",
+          "center": {
+            "x": 451,
+            "y": 664,
+            "w": 633,
+            "h": 139,
+            "zero": 0,
+            "total": 87987,
+            "strong": 87987,
+            "zeroRatio": 0,
+            "meanAlpha": 252.5704933683385,
+            "minAlpha": 251,
+            "maxAlpha": 253,
+            "meanRGB": [
+              16.71238933024197,
+              43.94556013956607,
+              53.030322661302236
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -10,9 +10,6 @@ export const metadata: Metadata = {
   manifest: "/manifest.webmanifest",
   applicationName: "Éter Anima",
   appleWebApp: { capable: true, title: "Éter Anima", statusBarStyle: "black-translucent" },
-  other: {
-    "codex-preview": "development",
-  },
   icons: {
     icon: "/pwa/icon-192.png",
     shortcut: "/pwa/icon-192.png",

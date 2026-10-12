@@ -3,7 +3,7 @@ import type {GameUiSessionState} from './ui-session';
 
 export function canApplyGameUpdate(engine:GameEngine,ui:GameUiSessionState,loading?:{loading:boolean;error?:unknown}|null){
  const s=engine.state;
- return !s.saveConflictV36&&['world','start','selection'].includes(s.mode)&&!s.questCinematic&&!s.eventActivityV38&&!s.gachaBusy&&!s.summonBusy&&!ui.opening&&!ui.confirmReset&&!(loading?.loading||loading?.error);
+ return !s.saveConflictV36&&['world','start','selection'].includes(s.mode)&&!s.questCinematic&&!s.eventActivityV38&&!s.autoChessSessionV39&&!s.gachaBusy&&!s.summonBusy&&!ui.opening&&!ui.confirmReset&&!(loading?.loading||loading?.error);
 }
 /** An explicit update only proceeds after the current safe state is saved. */
 export function prepareGameUpdate(engine:GameEngine,ui:GameUiSessionState,loading?:{loading:boolean;error?:unknown}|null){

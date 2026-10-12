@@ -1,0 +1,4 @@
+{
+ "ashwolf":{"sha256":"e99d8f35564f422b37be8b255fcba232f515a2988c954c4cfe493f56a3ff59d1","reason":"Ground anchors visually checked between front and rear paws. The lower paw-band measurement follows all four paws rather than the two widest forepaw groups. For airborne cast frames 9/10, X follows the mid-body projection instead of the lowest extended hind paw."},
+ "lunastag":{"sha256":"0eb1834f6952b7fc339e0de32c79b5251717d1d7f23e8b12b8216435e0200d5b","reason":"Ground anchors visually checked between the front and rear cloven hooves. In airborne cast frame 9, X follows the body projection instead of the lowest extended hind hoof."}
+}

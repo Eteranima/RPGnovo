@@ -1,0 +1,1003 @@
+{
+  "date": "2026-10-12",
+  "checks": 125,
+  "registry": "lib/art/autoChessIdleArtV41.ts",
+  "pieces": [
+    {
+      "id": "seiji",
+      "path": "/assets/v39/autochess/pieces/seiji.png",
+      "sha256": "bb187d754bb739a66c685f1b0238c57079a86b049b06a0c34e384a6d1f70bc64",
+      "visibleBounds": [
+        80,
+        118,
+        179,
+        272
+      ],
+      "sourceCell": {
+        "x": 0,
+        "y": 0,
+        "w": 306,
+        "h": 428,
+        "anchorX": 176.5,
+        "anchorY": 388
+      },
+      "crop": {
+        "x": 70,
+        "y": 108,
+        "w": 199,
+        "h": 292,
+        "anchorX": 176.5,
+        "anchorY": 388
+      },
+      "margin": 10,
+      "alphaVisibilityThreshold": 16,
+      "widthReduction": 0.34967320261437906,
+      "heightReduction": 0.31775700934579443,
+      "nativeBytesPreserved": true
+    },
+    {
+      "id": "ophelia",
+      "path": "/assets/v39/autochess/pieces/ophelia.png",
+      "sha256": "f1a040df8e271545605764bd0a5f795ae84faa7174472fbaa6c1e2cec3e449f1",
+      "visibleBounds": [
+        56,
+        110,
+        221,
+        318
+      ],
+      "sourceCell": {
+        "x": 0,
+        "y": 0,
+        "w": 307,
+        "h": 431,
+        "anchorX": 175,
+        "anchorY": 426
+      },
+      "crop": {
+        "x": 46,
+        "y": 100,
+        "w": 241,
+        "h": 331,
+        "anchorX": 175,
+        "anchorY": 426
+      },
+      "margin": 10,
+      "alphaVisibilityThreshold": 16,
+      "widthReduction": 0.21498371335504884,
+      "heightReduction": 0.23201856148491884,
+      "nativeBytesPreserved": true
+    },
+    {
+      "id": "max",
+      "path": "/assets/v39/autochess/pieces/max.png",
+      "sha256": "876619cfaebec87cb0d821222ef2572f082ce0d92d0201c76d56209af7e6d047",
+      "visibleBounds": [
+        94,
+        92,
+        200,
+        235
+      ],
+      "sourceCell": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 341,
+        "anchorX": 182.5,
+        "anchorY": 325
+      },
+      "crop": {
+        "x": 84,
+        "y": 82,
+        "w": 220,
+        "h": 255,
+        "anchorX": 182.5,
+        "anchorY": 325
+      },
+      "margin": 10,
+      "alphaVisibilityThreshold": 16,
+      "widthReduction": 0.42708333333333337,
+      "heightReduction": 0.25219941348973607,
+      "nativeBytesPreserved": true
+    },
+    {
+      "id": "gabriel",
+      "path": "/assets/v39/autochess/pieces/gabriel.png",
+      "sha256": "45bfd6db5f86ace22736acf3438c04d6fb38a7bdce5b30d5f8138e8f41172b16",
+      "visibleBounds": [
+        74,
+        123,
+        203,
+        309
+      ],
+      "sourceCell": {
+        "x": 0,
+        "y": 0,
+        "w": 307,
+        "h": 435,
+        "anchorX": 174.5,
+        "anchorY": 431
+      },
+      "crop": {
+        "x": 64,
+        "y": 113,
+        "w": 223,
+        "h": 322,
+        "anchorX": 174.5,
+        "anchorY": 431
+      },
+      "margin": 10,
+      "alphaVisibilityThreshold": 16,
+      "widthReduction": 0.2736156351791531,
+      "heightReduction": 0.2597701149425288,
+      "nativeBytesPreserved": true
+    },
+    {
+      "id": "marin",
+      "path": "/assets/v39/autochess/pieces/marin.png",
+      "sha256": "a003fd8adc83b0f4aa58f601584594cd1e7319a91f890fc3041de0d1e70b6fb9",
+      "visibleBounds": [
+        50,
+        168,
+        170,
+        288
+      ],
+      "sourceCell": {
+        "x": 0,
+        "y": 0,
+        "w": 256,
+        "h": 512,
+        "anchorX": 129,
+        "anchorY": 455
+      },
+      "crop": {
+        "x": 40,
+        "y": 158,
+        "w": 190,
+        "h": 308,
+        "anchorX": 129,
+        "anchorY": 455
+      },
+      "margin": 10,
+      "alphaVisibilityThreshold": 16,
+      "widthReduction": 0.2578125,
+      "heightReduction": 0.3984375,
+      "nativeBytesPreserved": true
+    },
+    {
+      "id": "ava",
+      "path": "/assets/v39/autochess/pieces/ava.png",
+      "sha256": "7a7980ee6e4d6b22b9e2da47f78dcb1bf7533a6f4ba6ec477eb655d3c183c64c",
+      "visibleBounds": [
+        95,
+        67,
+        182,
+        258
+      ],
+      "sourceCell": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 341,
+        "anchorX": 197,
+        "anchorY": 324
+      },
+      "crop": {
+        "x": 85,
+        "y": 57,
+        "w": 202,
+        "h": 278,
+        "anchorX": 197,
+        "anchorY": 324
+      },
+      "margin": 10,
+      "alphaVisibilityThreshold": 16,
+      "widthReduction": 0.47395833333333337,
+      "heightReduction": 0.18475073313782986,
+      "nativeBytesPreserved": true
+    },
+    {
+      "id": "carmilla",
+      "path": "/assets/v39/autochess/pieces/carmilla.png",
+      "sha256": "7dba3ae96804785713e3150be8abb9c05b7ecd6bd25461ffdc7d6779dbcd348b",
+      "visibleBounds": [
+        66,
+        89,
+        198,
+        313
+      ],
+      "sourceCell": {
+        "x": 0,
+        "y": 0,
+        "w": 306,
+        "h": 429,
+        "anchorX": 176,
+        "anchorY": 401
+      },
+      "crop": {
+        "x": 56,
+        "y": 79,
+        "w": 218,
+        "h": 333,
+        "anchorX": 176,
+        "anchorY": 401
+      },
+      "margin": 10,
+      "alphaVisibilityThreshold": 16,
+      "widthReduction": 0.2875816993464052,
+      "heightReduction": 0.22377622377622375,
+      "nativeBytesPreserved": true
+    },
+    {
+      "id": "beatriz",
+      "path": "/assets/v39/autochess/pieces/beatriz.png",
+      "sha256": "838b49724128a4091d45b2cdd5bd76f8779ad1bc1af5607197047c6e82b24cc2",
+      "visibleBounds": [
+        98,
+        63,
+        189,
+        280
+      ],
+      "sourceCell": {
+        "x": 0,
+        "y": 0,
+        "w": 359,
+        "h": 365,
+        "anchorX": 200.5,
+        "anchorY": 341
+      },
+      "crop": {
+        "x": 88,
+        "y": 53,
+        "w": 209,
+        "h": 300,
+        "anchorX": 200.5,
+        "anchorY": 341
+      },
+      "margin": 10,
+      "alphaVisibilityThreshold": 16,
+      "widthReduction": 0.4178272980501393,
+      "heightReduction": 0.17808219178082196,
+      "nativeBytesPreserved": true
+    },
+    {
+      "id": "abel",
+      "path": "/assets/v39/autochess/pieces/abel.png",
+      "sha256": "f64b2b89ad4bb42627ca44894b83c9a03536ddf4d57bd3b07ec51b7096e32ccb",
+      "visibleBounds": [
+        53,
+        81,
+        218,
+        318
+      ],
+      "sourceCell": {
+        "x": 0,
+        "y": 0,
+        "w": 311,
+        "h": 421,
+        "anchorX": 162.5,
+        "anchorY": 398
+      },
+      "crop": {
+        "x": 43,
+        "y": 71,
+        "w": 238,
+        "h": 338,
+        "anchorX": 162.5,
+        "anchorY": 398
+      },
+      "margin": 10,
+      "alphaVisibilityThreshold": 16,
+      "widthReduction": 0.23472668810289388,
+      "heightReduction": 0.19714964370546317,
+      "nativeBytesPreserved": true
+    },
+    {
+      "id": "orfeu",
+      "path": "/assets/v39/autochess/pieces/orfeu.png",
+      "sha256": "e94cf253f8e8c86ccfa99a70098791b0c73f1c9c4fd4a3402c42ea83b10501aa",
+      "visibleBounds": [
+        105,
+        92,
+        184,
+        233
+      ],
+      "sourceCell": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 341,
+        "anchorX": 185.5,
+        "anchorY": 323
+      },
+      "crop": {
+        "x": 95,
+        "y": 82,
+        "w": 204,
+        "h": 253,
+        "anchorX": 185.5,
+        "anchorY": 323
+      },
+      "margin": 10,
+      "alphaVisibilityThreshold": 16,
+      "widthReduction": 0.46875,
+      "heightReduction": 0.25806451612903225,
+      "nativeBytesPreserved": true
+    },
+    {
+      "id": "seiji-last-script",
+      "path": "/assets/v39/autochess/pieces/seiji-last-script.png",
+      "sha256": "1f517d6ae6f2b77c6d10109bacc57d580768310f72d7f470a6d71c4a029bc8b2",
+      "visibleBounds": [
+        106,
+        69,
+        197,
+        293
+      ],
+      "sourceCell": {
+        "x": 0,
+        "y": 0,
+        "w": 362,
+        "h": 364,
+        "anchorX": 199.5,
+        "anchorY": 361
+      },
+      "crop": {
+        "x": 96,
+        "y": 59,
+        "w": 217,
+        "h": 305,
+        "anchorX": 199.5,
+        "anchorY": 361
+      },
+      "margin": 10,
+      "alphaVisibilityThreshold": 16,
+      "widthReduction": 0.40055248618784534,
+      "heightReduction": 0.16208791208791207,
+      "nativeBytesPreserved": true
+    },
+    {
+      "id": "ophelia-white-equinox",
+      "path": "/assets/v39/autochess/pieces/ophelia-white-equinox.png",
+      "sha256": "016d215d2e16ffe7df3bc7d9a438a05773ffb566bc8c4ab8b1f4d79c3425a51c",
+      "visibleBounds": [
+        106,
+        96,
+        190,
+        257
+      ],
+      "sourceCell": {
+        "x": 0,
+        "y": 0,
+        "w": 357,
+        "h": 367,
+        "anchorX": 201,
+        "anchorY": 351
+      },
+      "crop": {
+        "x": 96,
+        "y": 86,
+        "w": 210,
+        "h": 277,
+        "anchorX": 201,
+        "anchorY": 351
+      },
+      "margin": 10,
+      "alphaVisibilityThreshold": 16,
+      "widthReduction": 0.4117647058823529,
+      "heightReduction": 0.24523160762942775,
+      "nativeBytesPreserved": true
+    },
+    {
+      "id": "marin-starless-throne",
+      "path": "/assets/v39/autochess/pieces/marin-starless-throne.png",
+      "sha256": "2ab95d049fdb3bb7e58d2c0be22d54a31cb5ce4b497baf3a60b8defbbb7a7654",
+      "visibleBounds": [
+        75,
+        72,
+        196,
+        320
+      ],
+      "sourceCell": {
+        "x": 0,
+        "y": 0,
+        "w": 306,
+        "h": 429,
+        "anchorX": 177.5,
+        "anchorY": 390
+      },
+      "crop": {
+        "x": 65,
+        "y": 62,
+        "w": 216,
+        "h": 340,
+        "anchorX": 177.5,
+        "anchorY": 390
+      },
+      "margin": 10,
+      "alphaVisibilityThreshold": 16,
+      "widthReduction": 0.2941176470588235,
+      "heightReduction": 0.20745920745920743,
+      "nativeBytesPreserved": true
+    },
+    {
+      "id": "gabriel-solar-oath",
+      "path": "/assets/v39/autochess/pieces/gabriel-solar-oath.png",
+      "sha256": "1a8c0f4d281031a869b0196c97414599d33592493e496c3b138edde87f790850",
+      "visibleBounds": [
+        104,
+        73,
+        210,
+        236
+      ],
+      "sourceCell": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 341,
+        "anchorX": 215,
+        "anchorY": 308
+      },
+      "crop": {
+        "x": 94,
+        "y": 63,
+        "w": 230,
+        "h": 256,
+        "anchorX": 215,
+        "anchorY": 308
+      },
+      "margin": 10,
+      "alphaVisibilityThreshold": 16,
+      "widthReduction": 0.40104166666666663,
+      "heightReduction": 0.24926686217008798,
+      "nativeBytesPreserved": true
+    },
+    {
+      "id": "max-thunder-requiem",
+      "path": "/assets/v39/autochess/pieces/max-thunder-requiem.png",
+      "sha256": "e9213d39b1135ba62b973823397f40f22fdbc3b64dd04285da3d3a34944c8abd",
+      "visibleBounds": [
+        70,
+        79,
+        187,
+        305
+      ],
+      "sourceCell": {
+        "x": 0,
+        "y": 0,
+        "w": 306,
+        "h": 428,
+        "anchorX": 169.5,
+        "anchorY": 382
+      },
+      "crop": {
+        "x": 60,
+        "y": 69,
+        "w": 207,
+        "h": 325,
+        "anchorX": 169.5,
+        "anchorY": 382
+      },
+      "margin": 10,
+      "alphaVisibilityThreshold": 16,
+      "widthReduction": 0.32352941176470584,
+      "heightReduction": 0.24065420560747663,
+      "nativeBytesPreserved": true
+    },
+    {
+      "id": "ava-worldroot-sovereign",
+      "path": "/assets/v39/autochess/pieces/ava-worldroot-sovereign.png",
+      "sha256": "c5c311e82cfb98b16900b9f5544f2b04c78810b6820029f2d6068fda98eb4932",
+      "visibleBounds": [
+        85,
+        75,
+        186,
+        282
+      ],
+      "sourceCell": {
+        "x": 0,
+        "y": 0,
+        "w": 362,
+        "h": 362,
+        "anchorX": 186.5,
+        "anchorY": 356
+      },
+      "crop": {
+        "x": 75,
+        "y": 65,
+        "w": 206,
+        "h": 297,
+        "anchorX": 186.5,
+        "anchorY": 356
+      },
+      "margin": 10,
+      "alphaVisibilityThreshold": 16,
+      "widthReduction": 0.430939226519337,
+      "heightReduction": 0.1795580110497238,
+      "nativeBytesPreserved": true
+    },
+    {
+      "id": "beatriz-eclipse-tide",
+      "path": "/assets/v39/autochess/pieces/beatriz-eclipse-tide.png",
+      "sha256": "120353b04b0bafd659c7ef52edf927711e505d0df5ac639bad616851a83277d6",
+      "visibleBounds": [
+        81,
+        77,
+        192,
+        251
+      ],
+      "sourceCell": {
+        "x": 0,
+        "y": 0,
+        "w": 358,
+        "h": 366,
+        "anchorX": 190,
+        "anchorY": 325
+      },
+      "crop": {
+        "x": 71,
+        "y": 67,
+        "w": 212,
+        "h": 271,
+        "anchorX": 190,
+        "anchorY": 325
+      },
+      "margin": 10,
+      "alphaVisibilityThreshold": 16,
+      "widthReduction": 0.4078212290502793,
+      "heightReduction": 0.2595628415300546,
+      "nativeBytesPreserved": true
+    },
+    {
+      "id": "orfeu-unwritten-archon",
+      "path": "/assets/v39/autochess/pieces/orfeu-unwritten-archon.png",
+      "sha256": "d8dffbaab86422c931d4a149cf6176870eed5b685087540f3012378af45d5476",
+      "visibleBounds": [
+        66,
+        100,
+        192,
+        295
+      ],
+      "sourceCell": {
+        "x": 0,
+        "y": 0,
+        "w": 304,
+        "h": 432,
+        "anchorX": 160.5,
+        "anchorY": 394
+      },
+      "crop": {
+        "x": 56,
+        "y": 90,
+        "w": 212,
+        "h": 315,
+        "anchorX": 160.5,
+        "anchorY": 394
+      },
+      "margin": 10,
+      "alphaVisibilityThreshold": 16,
+      "widthReduction": 0.3026315789473685,
+      "heightReduction": 0.27083333333333337,
+      "nativeBytesPreserved": true
+    },
+    {
+      "id": "shin",
+      "path": "/assets/v39/autochess/pieces/shin.png",
+      "sha256": "cc276ee3b1bb7d31f541720bbc688174f5705c273ce88cd21b1c1e1f26e0f4a0",
+      "visibleBounds": [
+        95,
+        88,
+        208,
+        258
+      ],
+      "sourceCell": {
+        "x": 0,
+        "y": 0,
+        "w": 362,
+        "h": 362,
+        "anchorX": 188.5,
+        "anchorY": 344
+      },
+      "crop": {
+        "x": 85,
+        "y": 78,
+        "w": 228,
+        "h": 278,
+        "anchorX": 188.5,
+        "anchorY": 344
+      },
+      "margin": 10,
+      "alphaVisibilityThreshold": 16,
+      "widthReduction": 0.37016574585635365,
+      "heightReduction": 0.2320441988950276,
+      "nativeBytesPreserved": true
+    },
+    {
+      "id": "mika",
+      "path": "/assets/v39/autochess/pieces/mika.png",
+      "sha256": "6d9a61f0c7bcf0128a5e262de968fcef4737c5d3612c3b65bdfc15db123b66e2",
+      "visibleBounds": [
+        111,
+        79,
+        158,
+        260
+      ],
+      "sourceCell": {
+        "x": 0,
+        "y": 0,
+        "w": 362,
+        "h": 362,
+        "anchorX": 183,
+        "anchorY": 338
+      },
+      "crop": {
+        "x": 101,
+        "y": 69,
+        "w": 178,
+        "h": 280,
+        "anchorX": 183,
+        "anchorY": 338
+      },
+      "margin": 10,
+      "alphaVisibilityThreshold": 16,
+      "widthReduction": 0.5082872928176796,
+      "heightReduction": 0.22651933701657456,
+      "nativeBytesPreserved": true
+    },
+    {
+      "id": "umbra",
+      "path": "/assets/v39/autochess/pieces/umbra.png",
+      "sha256": "1e2d2b71a31f16b9e784e29a75beababe212af57cdac1857145954712be3f63a",
+      "visibleBounds": [
+        88,
+        83,
+        186,
+        263
+      ],
+      "sourceCell": {
+        "x": 0,
+        "y": 0,
+        "w": 362,
+        "h": 362,
+        "anchorX": 183,
+        "anchorY": 345
+      },
+      "crop": {
+        "x": 78,
+        "y": 73,
+        "w": 206,
+        "h": 283,
+        "anchorX": 183,
+        "anchorY": 345
+      },
+      "margin": 10,
+      "alphaVisibilityThreshold": 16,
+      "widthReduction": 0.430939226519337,
+      "heightReduction": 0.21823204419889508,
+      "nativeBytesPreserved": true
+    },
+    {
+      "id": "vajra",
+      "path": "/assets/v39/autochess/pieces/vajra.png",
+      "sha256": "66e7aa510dff741081894a3400843ea625d13e581aa7b1750d750e700a1890d0",
+      "visibleBounds": [
+        95,
+        98,
+        184,
+        255
+      ],
+      "sourceCell": {
+        "x": 0,
+        "y": 0,
+        "w": 362,
+        "h": 362,
+        "anchorX": 175.5,
+        "anchorY": 347
+      },
+      "crop": {
+        "x": 85,
+        "y": 88,
+        "w": 204,
+        "h": 274,
+        "anchorX": 175.5,
+        "anchorY": 347
+      },
+      "margin": 10,
+      "alphaVisibilityThreshold": 16,
+      "widthReduction": 0.43646408839779005,
+      "heightReduction": 0.24309392265193375,
+      "nativeBytesPreserved": true
+    },
+    {
+      "id": "dante",
+      "path": "/assets/v39/autochess/pieces/dante.png",
+      "sha256": "bd44c50cf80649dd4fcafd5cf147d2ca785a848ed8c492e394f353de39b56ca8",
+      "visibleBounds": [
+        88,
+        82,
+        237,
+        251
+      ],
+      "sourceCell": {
+        "x": 0,
+        "y": 0,
+        "w": 362,
+        "h": 362,
+        "anchorX": 194.5,
+        "anchorY": 331
+      },
+      "crop": {
+        "x": 78,
+        "y": 72,
+        "w": 257,
+        "h": 271,
+        "anchorX": 194.5,
+        "anchorY": 331
+      },
+      "margin": 10,
+      "alphaVisibilityThreshold": 16,
+      "widthReduction": 0.2900552486187845,
+      "heightReduction": 0.25138121546961323,
+      "nativeBytesPreserved": true
+    },
+    {
+      "id": "runewarden",
+      "path": "/assets/v40/autochess/pieces/runewarden.png",
+      "sha256": "749369586d2ce668d3328abdb28a3c331cc9df5d2b6ab1241b7155afe639daff",
+      "visibleBounds": [
+        109,
+        74,
+        207,
+        283
+      ],
+      "sourceCell": {
+        "x": 0,
+        "y": 0,
+        "w": 362,
+        "h": 362,
+        "anchorX": 191,
+        "anchorY": 355
+      },
+      "crop": {
+        "x": 99,
+        "y": 64,
+        "w": 227,
+        "h": 298,
+        "anchorX": 191,
+        "anchorY": 355
+      },
+      "margin": 10,
+      "alphaVisibilityThreshold": 16,
+      "widthReduction": 0.3729281767955801,
+      "heightReduction": 0.17679558011049723,
+      "nativeBytesPreserved": true
+    },
+    {
+      "id": "moth",
+      "path": "/assets/v40/autochess/pieces/moth.png",
+      "sha256": "20575a4e0d2dc4d5b342683905f75bdd35d510df8fb3e6614ca46e02aa918eef",
+      "visibleBounds": [
+        55,
+        107,
+        295,
+        270
+      ],
+      "sourceCell": {
+        "x": 0,
+        "y": 0,
+        "w": 362,
+        "h": 381,
+        "anchorX": 161.5,
+        "anchorY": 375
+      },
+      "crop": {
+        "x": 45,
+        "y": 97,
+        "w": 315,
+        "h": 284,
+        "anchorX": 161.5,
+        "anchorY": 375
+      },
+      "margin": 10,
+      "alphaVisibilityThreshold": 16,
+      "widthReduction": 0.12983425414364635,
+      "heightReduction": 0.2545931758530183,
+      "nativeBytesPreserved": true
+    },
+    {
+      "id": "ashwolf",
+      "path": "/assets/v40/autochess/pieces/ashwolf.png",
+      "sha256": "e99d8f35564f422b37be8b255fcba232f515a2988c954c4cfe493f56a3ff59d1",
+      "visibleBounds": [
+        41,
+        98,
+        302,
+        249
+      ],
+      "sourceCell": {
+        "x": 0,
+        "y": 0,
+        "w": 362,
+        "h": 362,
+        "anchorX": 175,
+        "anchorY": 345
+      },
+      "crop": {
+        "x": 31,
+        "y": 88,
+        "w": 322,
+        "h": 269,
+        "anchorX": 175,
+        "anchorY": 345
+      },
+      "margin": 10,
+      "alphaVisibilityThreshold": 16,
+      "widthReduction": 0.11049723756906082,
+      "heightReduction": 0.25690607734806625,
+      "nativeBytesPreserved": true
+    },
+    {
+      "id": "lunastag",
+      "path": "/assets/v40/autochess/pieces/lunastag.png",
+      "sha256": "0eb1834f6952b7fc339e0de32c79b5251717d1d7f23e8b12b8216435e0200d5b",
+      "visibleBounds": [
+        66,
+        43,
+        230,
+        330
+      ],
+      "sourceCell": {
+        "x": 0,
+        "y": 0,
+        "w": 362,
+        "h": 377,
+        "anchorX": 206.5,
+        "anchorY": 372
+      },
+      "crop": {
+        "x": 56,
+        "y": 33,
+        "w": 250,
+        "h": 344,
+        "anchorX": 206.5,
+        "anchorY": 372
+      },
+      "margin": 10,
+      "alphaVisibilityThreshold": 16,
+      "widthReduction": 0.30939226519337015,
+      "heightReduction": 0.08753315649867377,
+      "nativeBytesPreserved": true
+    },
+    {
+      "id": "selo",
+      "path": "/assets/v40/autochess/pieces/selo.png",
+      "sha256": "96f309780ac4ee3d141bae6d5507f954f46b03bbe6b53138d6d4f62570b92a19",
+      "visibleBounds": [
+        83,
+        143,
+        202,
+        247
+      ],
+      "sourceCell": {
+        "x": 0,
+        "y": 0,
+        "w": 306,
+        "h": 428,
+        "anchorX": 206.5,
+        "anchorY": 388
+      },
+      "crop": {
+        "x": 73,
+        "y": 133,
+        "w": 222,
+        "h": 267,
+        "anchorX": 206.5,
+        "anchorY": 388
+      },
+      "margin": 10,
+      "alphaVisibilityThreshold": 16,
+      "widthReduction": 0.27450980392156865,
+      "heightReduction": 0.3761682242990654,
+      "nativeBytesPreserved": true
+    },
+    {
+      "id": "eco",
+      "path": "/assets/v40/autochess/pieces/eco.png",
+      "sha256": "584a64107babb04343217a0597122a3d603a8f8256dcc022b655af870323ae0a",
+      "visibleBounds": [
+        65,
+        58,
+        255,
+        303
+      ],
+      "sourceCell": {
+        "x": 0,
+        "y": 0,
+        "w": 362,
+        "h": 375,
+        "anchorX": 201,
+        "anchorY": 359
+      },
+      "crop": {
+        "x": 55,
+        "y": 48,
+        "w": 275,
+        "h": 323,
+        "anchorX": 201,
+        "anchorY": 359
+      },
+      "margin": 10,
+      "alphaVisibilityThreshold": 16,
+      "widthReduction": 0.24033149171270718,
+      "heightReduction": 0.13866666666666672,
+      "nativeBytesPreserved": true
+    },
+    {
+      "id": "cinder",
+      "path": "/assets/v40/autochess/pieces/cinder.png",
+      "sha256": "7df4e7a84175d0e50d8395cb45fc6a29208f0430cac8ca22bd5c4a3bad2c570e",
+      "visibleBounds": [
+        63,
+        22,
+        269,
+        333
+      ],
+      "sourceCell": {
+        "x": 0,
+        "y": 0,
+        "w": 362,
+        "h": 362,
+        "anchorX": 210.5,
+        "anchorY": 353
+      },
+      "crop": {
+        "x": 53,
+        "y": 12,
+        "w": 289,
+        "h": 350,
+        "anchorX": 210.5,
+        "anchorY": 353
+      },
+      "margin": 10,
+      "alphaVisibilityThreshold": 16,
+      "widthReduction": 0.2016574585635359,
+      "heightReduction": 0.03314917127071826,
+      "nativeBytesPreserved": true
+    },
+    {
+      "id": "astral",
+      "path": "/assets/v40/autochess/pieces/astral.png",
+      "sha256": "307131f5f32aaaad906fbbfb2d2e2b85c76aaf51ddab91f98d34bb31c787c793",
+      "visibleBounds": [
+        93,
+        9,
+        210,
+        353
+      ],
+      "sourceCell": {
+        "x": 0,
+        "y": 0,
+        "w": 362,
+        "h": 364,
+        "anchorX": 178,
+        "anchorY": 361
+      },
+      "crop": {
+        "x": 83,
+        "y": 0,
+        "w": 230,
+        "h": 364,
+        "anchorX": 178,
+        "anchorY": 361
+      },
+      "margin": 10,
+      "alphaVisibilityThreshold": 16,
+      "widthReduction": 0.3646408839779005,
+      "heightReduction": 0,
+      "nativeBytesPreserved": true
+    }
+  ],
+  "margin": 10,
+  "alphaVisibilityThreshold": 16,
+  "pixelEditingPerformed": false,
+  "nativeBytesPreserved": true
+}

@@ -1,0 +1,221 @@
+/* Import after the Circuito layout module and add stage only to its game root.
+ * Depth belongs to native frame containers. The arena, canvases and sprite
+ * elements receive no perspective, transform, filter or animation rules here.
+ * Resting shadows are static; interaction animates small transforms/opacity.
+ * No global will-change, JavaScript parallax or continuous sheen is used.
+ */
+.stage {
+  --ui-frame-ease: cubic-bezier(.2, .72, .25, 1);
+  --ui-frame-focus: #b3e9ff;
+  --ui-frame-depth: 0 2px 0 rgb(1 10 17 / 70%),
+    0 5px 0 rgb(3 14 23 / 40%),
+    0 12px 22px rgb(0 5 12 / 28%),
+    inset 0 1px 0 rgb(224 244 255 / 15%),
+    inset 0 -1px 0 rgb(0 5 12 / 48%);
+}
+
+.stage :is(
+  [data-ui-frame="header"],
+  [data-ui-frame="panel"],
+  [data-ui-frame="rail"],
+  [data-ui-frame="shop"],
+  [data-ui-frame="bench"]
+) {
+  box-shadow: var(--ui-frame-depth);
+  animation: frameEnter 240ms var(--ui-frame-ease) both;
+}
+
+.stage [data-ui-frame="header"] {
+  --ui-entry-y: -5px;
+  animation-duration: 180ms;
+}
+
+.stage [data-ui-frame="rail"] {
+  --ui-entry-y: 5px;
+  animation-duration: 220ms;
+  animation-delay: 20ms;
+}
+
+.stage [data-ui-frame="panel"] {
+  --ui-entry-y: 6px;
+  animation-duration: 260ms;
+  animation-delay: 35ms;
+}
+
+.stage [data-ui-frame="bench"] {
+  --ui-entry-y: 4px;
+  animation-duration: 200ms;
+  animation-delay: 45ms;
+}
+
+.stage [data-ui-frame="shop"] {
+  --ui-entry-y: 7px;
+  animation-duration: 280ms;
+  animation-delay: 55ms;
+}
+
+.stage [data-ui-frame="card"] {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  transform-origin: 50% 65%;
+  transform-style: flat;
+  box-shadow: 0 2px 0 rgb(0 7 13 / 76%),
+    0 5px 10px rgb(0 5 12 / 24%),
+    inset 0 1px 0 rgb(236 249 255 / 18%),
+    inset 0 -1px 0 rgb(0 7 14 / 36%);
+  transition: transform 180ms var(--ui-frame-ease);
+}
+
+/* A single light pass across the existing bevel, never a permanent sweep. */
+.stage [data-ui-frame="card"]::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  border-radius: inherit;
+  background: linear-gradient(112deg,
+    transparent 29%,
+    rgb(225 248 255 / 4%) 40%,
+    rgb(239 252 255 / 17%) 48%,
+    rgb(236 225 173 / 7%) 54%,
+    transparent 68%);
+  opacity: 0;
+  transform: translateX(-110%);
+}
+
+/* The glow follows the native frame edge rather than covering its artwork. */
+.stage [data-ui-frame="card"]::after {
+  content: '';
+  position: absolute;
+  inset: 1px;
+  z-index: 3;
+  pointer-events: none;
+  border-radius: inherit;
+  border: 1px solid rgb(211 239 255 / 60%);
+  box-shadow: inset 0 1px 0 rgb(251 238 185 / 35%),
+    inset 0 -1px 0 rgb(152 203 225 / 24%);
+  opacity: 0;
+  transition: opacity 140ms ease-out;
+}
+
+.stage [data-ui-frame="card"]:is(
+  [aria-pressed="true"],
+  [data-active="true"],
+  [data-selected="true"]
+):not(:disabled):not([aria-disabled="true"])::after {
+  opacity: .36;
+  animation: activeFrameGlow 4200ms ease-in-out infinite;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .stage [data-ui-frame="card"]:not(:disabled):not([aria-disabled="true"]):not([data-empty="true"]):hover {
+    transform: perspective(900px) translateY(-3px) rotateX(1.25deg) rotateY(-.8deg);
+  }
+
+  .stage [data-ui-frame="card"]:not(:disabled):not([aria-disabled="true"]):not([data-empty="true"]):hover::before {
+    animation: cardSheen 380ms var(--ui-frame-ease) 1 both;
+  }
+
+  .stage [data-ui-frame="card"]:not(:disabled):not([aria-disabled="true"]):not([data-empty="true"]):hover::after {
+    opacity: .48;
+  }
+}
+
+.stage [data-ui-frame="card"]:not(:disabled):not([aria-disabled="true"]):not([data-empty="true"]):active {
+  transform: perspective(900px) translateY(1px) scale(.995);
+  transition-duration: 90ms;
+}
+
+@media (hover: none), (pointer: coarse) {
+  .stage [data-ui-frame="card"]:not(:disabled):not([aria-disabled="true"]):not([data-empty="true"]):active {
+    transform: translateY(1px) scale(.995);
+  }
+}
+
+.stage [data-ui-frame]:focus-visible,
+.stage [data-ui-frame] :is(button, a, input, select, summary, [tabindex]):focus-visible {
+  outline: 2px solid var(--ui-frame-focus);
+  outline-offset: 3px;
+}
+
+.stage [data-ui-frame="card"]:focus-visible::after {
+  opacity: .68;
+}
+
+.stage [data-ui-frame="card"]:focus-visible {
+  outline-offset: -3px;
+}
+
+@keyframes frameEnter {
+  from {
+    opacity: 0;
+    transform: translateY(var(--ui-entry-y, 5px));
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes cardSheen {
+  0% {
+    opacity: 0;
+    transform: translateX(-110%);
+  }
+  20% {
+    opacity: .42;
+  }
+  75% {
+    opacity: .34;
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(110%);
+  }
+}
+
+@keyframes activeFrameGlow {
+  0%, 100% {
+    opacity: .26;
+  }
+  50% {
+    opacity: .46;
+  }
+}
+
+/* Reduced motion removes perspective as well as movement, including touch
+ * presses and decorative pseudo-elements. Focus and selected edges remain. */
+@media (prefers-reduced-motion: reduce) {
+  .stage :is(
+    [data-ui-frame="header"],
+    [data-ui-frame="panel"],
+    [data-ui-frame="rail"],
+    [data-ui-frame="shop"],
+    [data-ui-frame="bench"],
+    [data-ui-frame="card"]
+  ),
+  .stage [data-ui-frame="card"]::before,
+  .stage [data-ui-frame="card"]::after {
+    animation: none !important;
+    transition: none !important;
+    transform: none !important;
+    perspective: none !important;
+  }
+
+  .stage :is(
+    [data-ui-frame="header"],
+    [data-ui-frame="panel"],
+    [data-ui-frame="rail"],
+    [data-ui-frame="shop"],
+    [data-ui-frame="bench"],
+    [data-ui-frame="card"]
+  ) {
+    opacity: 1;
+  }
+
+  .stage [data-ui-frame="card"]::before {
+    opacity: 0 !important;
+  }
+}

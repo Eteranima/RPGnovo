@@ -1,0 +1,102 @@
+[
+  {
+    "id": "panel",
+    "center": "transparent",
+    "referencePaths": [
+      "public/assets/v39/autochess/boards/academy.png",
+      "public/assets/v39/autochess/items-and-fx/items.png"
+    ],
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a12e36-f370-7401-98c4-882cfef1de85\\exec-5050e97c-4bab-4fcf-b24f-31c0720e2d5a.png",
+    "prompt": "Use case: stylized-concept. Asset type: FINAL premium anime-fantasy GAME UI nine-slice panel FRAME for Éter Anima auto-battler. Input1 ONLY approved academy material/palette identity; input2 ONLY fine anime ink/gold/crystal craftsmanship. This is interface art, NEVER a board/environment/item depiction. Create ONE tall PORTRAIT rectangular HOLLOW frame, intended landscape-game contextual information panel. Dark deep PETROLEUM blue enamel (#102730), narrow discreet AGED GOLD trim (#b49b62), graphite ink edge, precise refined flat cel shading matching Fate/Mushoku fantasyanime. Sophisticated calm strategy-game interface craftsmanship, clear straight edges and small beveled corners, visual restraint.\nComposition: complete rectangular thin frame occupies85%canvaswidth and90%height, generous clear transparent outerpadding. Four petite corner brackets and one tiny cool-blue crystal tucked into each uppercorner ONLY; small black-ink flourish INSIDE the cornerbrackets. No middleedge ornament except two straight delicate goldlines. Cornerdecoration stays within the outer10% of framewidth/height. Corners almost symmetrical, controlled slimthickness. No top-center crest/titlebar, no sidebulges. MOSTcanvas is a large rectangular EMPTY HOLE, COMPLETELY transparent alphaZERO: central80%width/height contains absolutely NO coloredfill/texture/art. Allvertical/horizontal edge midsections straight/plain so CSS9slicecan stretch them safely. Center is not black-painted: it is a REALCUTOUTHole with alpha0. Overall nativeRGBA transparentbackground outside AND inside theframe.\nNo text/letters/numbers/icons/characters/portraits/creatures/scene/boardtiles/marblefloor/runes/slots. No gradients or fog in the center, no thick glowing aura, no busy baroque vines, no floating ornaments. Quiet polished animefantasy interface, antiquegold smallhighlights and crisp ink, never photographic/3D/plastic. Nothing cropped; allframe/cornertips insidecanvas. Portrait2:3canvas1024×1536. Only ONEthinframe.",
+    "fileName": "panel-frame.png",
+    "rawSlice": [
+      215,
+      180,
+      210,
+      180
+    ],
+    "generatedReferencePaths": [
+      "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\public\\assets\\v39\\autochess\\boards\\academy.png",
+      "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\public\\assets\\v39\\autochess\\items-and-fx\\items.png"
+    ]
+  },
+  {
+    "id": "shop",
+    "center": "dark",
+    "referencePaths": [
+      "public/assets/v39/autochess/boards/academy.png",
+      "public/assets/v39/autochess/items-and-fx/items.png"
+    ],
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a12e36-f370-7401-98c4-882cfef1de85\\exec-c384caec-7b0a-4253-8783-1378f4ef3a3e.png",
+    "prompt": "Use case: stylized-concept. Asset type: FINAL sophisticated anime-fantasy GAME UI nine-slice horizontal SHOP/HUD tray for Éter Anima auto-battler. Image1 ONLY approved academy gold/navycraftsmanship; image2 ONLY fine animeink/crystal/goldmaterialfinish. Not a board/environment/item illustration. Create ONE verywide LOWrectangular tray, LANDSCAPEabout3:1aspectratio. Dark deep PETROLEUMblue enamel (#102730), discreet slimAGEDGOLDedge (#b49b62), graphiteink contour, fineclean Fate/Mushoku fantasyanimeflatcelshading. SamecalmstrategicUI family as a thinpetroleum/goldinformationpanel: restrainedpremiumcraftsmanship, straight cleanedges, smallbeveledcorners.\nTrayoccupies90%canvaswidth and78%height, clearactualtransparent outerpadding. Four SMALLprecisecornerbrackets and tinycoldblue crystal in upperleft+upperright cornersonly. Twoquietstraightgoldhairlines alonglongedges; no ornate top-centercrest, slotdividers, teeth, knobs, heavyhangingcorners, scrollingfiligree or bulges. Decorativecorners restrictedtoouter7% traywidth/18%trayheight, neverextendinto usefulcenter. Biginnerrectangle is solidverydarkpetroleumblue uniformmatte enamel, DARKandcalm, no visiblepattern/object/glow. Entirecentral80%oftraywidth/65%height kept CLEARfor realshopcards/textoverlay, simpleunvaryingdarkbluefill so centerstretchis safe. Borderedge midsections straight/plain for CSS9slice; modest interiorcontrast, antiquegoldaccentsconfinedtoborder. OuterbackgroundmustgenuineRGBAalphaZERO; keepcomplete corners/edgetips insidecanvas.\nNo text/letters/numbers/readableglyphs/runes/characters/portraits/creatures/cards/items/shopobjects/marblefloor/gameboardtiles/icons/cellslots. No central gradients/fog/aura/visualnoise. Crisp productionanimeinterface, not photographic/3D/fakeplastic. ONEtrayonly, ideallynative1536×512canvasor similar3:1landscape.",
+    "fileName": "shop-frame.png",
+    "rawSlice": [
+      310,
+      210,
+      250,
+      210
+    ],
+    "generatedReferencePaths": [
+      "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\public\\assets\\v39\\autochess\\boards\\academy.png",
+      "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\public\\assets\\v39\\autochess\\items-and-fx\\items.png"
+    ]
+  },
+  {
+    "id": "active",
+    "center": "transparent",
+    "referencePaths": [
+      "art-source/v41/autochess/ui/panel-frame.png"
+    ],
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a12e36-f370-7401-98c4-882cfef1de85\\exec-2b30e731-d926-48aa-9f3c-46ca42d7f648.png",
+    "prompt": "Use case: stylized-concept. Asset type: FINAL nativeRGBA active PIECE-CARD/ACTION FRAME for Éter Anima auto-battler. Image1 ONLY the newlyapproved UI family's exactmaterial/shape/linework reference, not an edit target. Create ONE complete portrait2:3 HOLLOW frame with slimdeepPETROLEUM enamel/graphite ink and refinedAGEDGOLDdoubletrim; same calm animefantasy cel-shading/corners asreference, slightly richer ACTIVE state. Small neatbeveledcornerbrackets, twoTINYcoolcyan crystals atuppercorners, restrained goldedgehighlight and veryTHINcyan-innerhairline. Goldlight localtocorner/edges only, no flares/aura/cloud. Corners smaller/cleaner thanreference, atmost10%framewidth and11%height; no stars or otherfloating ornaments in usefulcenter. Middle vertical/horizontal edges plainstraight so CSS9slicestretchworks atportraitcard ORwidebuttonratio. No top-centercrest/titlebar, no sidebulges.\nEntirecentral80%width80%height is REALtransparent EMPTY HOLE alphaZERO, not a black/bluepaintedfill; NOinnertexture whatsoever. Outerbackground likewise realalphaZERO. Completeframewithin90%canvas with generousclearouterpadding, nothingcropped. Crisp refinedFate/Mushoku hand-inkedanimegameinterface, premiumrestrainedstrategicUI, notphotographic/3D/plastic. No words/letters/numbers/runes/icons/portraits/characters/creatures/scenes/boards/items/cardcontent. ONEframeonly, portrait1024×1536. PreservepaletteandproportionsofUI reference, no unrelatedornaments.",
+    "fileName": "active-frame.png",
+    "rawSlice": [
+      220,
+      190,
+      225,
+      190
+    ],
+    "generatedReferencePaths": [
+      "C:\\Users\\Diego\\.codex\\generated_images\\01a12e36-f370-7401-98c4-882cfef1de85\\exec-5050e97c-4bab-4fcf-b24f-31c0720e2d5a.png"
+    ]
+  },
+  {
+    "id": "buttons",
+    "center": "dark",
+    "referencePaths": [
+      "art-source/v41/autochess/ui/shop-frame.png",
+      "art-source/v41/autochess/ui/panel-frame.png"
+    ],
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a12e36-f370-7401-98c4-882cfef1de85\\exec-47de27e4-ba48-4b7a-b83a-38c65d70420d.png",
+    "prompt": "Use case: stylized-concept. Asset type: FINAL nativeRGBA game UI BUTTON-STATE ATLAS for Éter Anima auto-battler. Images1/2 ONLY newUI family's exactpetroleum/agedgold/ink/crystalmaterial and restrainedanimecelshading reference. Generate EXACTLY TWO SEPARATE identical-shape widebuttonplates STACKED in TWOequalrows ONEcolumn; no labels. Landscape1536×1024canvas. Eachbuttonaslimwideabout4:1rectangle occupying80%canvaswidth andatmost30%canvasheight, centeredinitsownhalfcanvas, at least70pixelsACTUALalphaZEROgaponeachside/top/bottom ofeachrow. No thirdobject. FourverySMALLbeveledcornerbrackets, straightquietedge midsections safe forCSS9slice. Hugeusefulmiddle85%buttonwidth60%height is uniformveryDARKPETROLEUMenamel (#102730), no artwork/pattern/letters; center canstretchandholdrealUItextlater.\nTOPplate = SOBERidle: discreetnarrowAGEDGOLDtrim (#b49b62), graphiteoutline, subtlecoldblue-enameledge, no glow, cornerdetailtiny. BOTTOMplate = ACTIVE: EXACTsamegeometry/size, modestwarmgoldedgehighlight plusONEverythin cyaninnerhairline, TWOtinycoolbluecrystals tucked into farleft/right cornerbrackets ONLY, tinylocalhighlights. No centralcrest/icon, no filigreeacrosstext, no lightsweep/particles/aura/bloom. BothcleancalmstrategyUI, refinedFate/Mushoku celshadedink asreferences, no3D/photo/plastic. NativeRGBAalphaZEROoutsidebothplates/throughgap; no paintedrectanglebehindatlas. No text/words/numbers/runes/labels/icons/characters/portraits/creatures/items/boards/slots. Preserveexactsharedpalette, restrainedsophisticatedgamelook.",
+    "fileName": "buttons.png",
+    "frames": [
+      {
+        "id": "buttonQuiet",
+        "svgName": "button-quiet.svg",
+        "row": 0,
+        "slice": [
+          110,
+          130,
+          110,
+          130
+        ]
+      },
+      {
+        "id": "buttonActive",
+        "svgName": "button-active.svg",
+        "row": 1,
+        "slice": [
+          115,
+          130,
+          110,
+          130
+        ]
+      }
+    ],
+    "generatedReferencePaths": [
+      "C:\\Users\\Diego\\.codex\\generated_images\\01a12e36-f370-7401-98c4-882cfef1de85\\exec-c384caec-7b0a-4253-8783-1378f4ef3a3e.png",
+      "C:\\Users\\Diego\\.codex\\generated_images\\01a12e36-f370-7401-98c4-882cfef1de85\\exec-5050e97c-4bab-4fcf-b24f-31c0720e2d5a.png"
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "abel": {
+    "sha256": "f64b2b89ad4bb42627ca44894b83c9a03536ddf4d57bd3b07ec51b7096e32ccb",
+    "headTop": [100, 98, 101, 106],
+    "reason": "Visually checked idle hair crown, excluding the taller golden staff. Read-only central ROI x=42–66% confirms these absolute source coordinates."
+  },
+  "seiji-last-script": {
+    "sha256": "1f517d6ae6f2b77c6d10109bacc57d580768310f72d7f470a6d71c4a029bc8b2",
+    "headTop": [91, 87, 86, 88],
+    "reason": "Visually checked idle hair crown, excluding the taller brush. Read-only central ROI x=42–66% confirms these absolute source coordinates."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "generatedAt": "2026-10-12T02:21:34.450Z",
+  "note": "Node CPU timings on this workstation; not physical mobile FPS or browser interaction measurements. Dense formation is a legal capacity/reserve fixture, not a claimed natural league save.",
+  "checks": 12508,
+  "ordinaryFourFightMs": [
+    439.6962999999996,
+    306.78989999999976,
+    88.96680000000197,
+    103.81949999999779
+  ],
+  "denseFour8v8Ms": 318.0577000000012,
+  "maxJournalCommands": 2499,
+  "maxJournalNormalizeMs": 3150.5167999999976,
+  "cached10000Ms": 7.349300000001676,
+  "bytes": 40023
+}

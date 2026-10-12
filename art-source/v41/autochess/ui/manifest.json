@@ -1,0 +1,654 @@
+{
+  "date": "2026-10-12",
+  "generator": "built-in image_gen",
+  "renderStyle": "stylized-3d",
+  "checks": 38,
+  "complete": true,
+  "nativeSources": [
+    {
+      "path": "/assets/v41/autochess/ui/panel-frame.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1248930,
+      "sha256": "1f5ef46ef155bcd65dcc5777219ac90340e478c1f5500aa3ef8832597f1ca11e",
+      "alpha": {
+        "zero": 1303258,
+        "opaque": 0,
+        "total": 1572864,
+        "corners": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "columns": 1,
+      "rows": 1,
+      "cells": [
+        {
+          "index": 0,
+          "crop": [
+            0,
+            0,
+            1024,
+            1536
+          ],
+          "visibleBounds": [
+            30,
+            17,
+            965,
+            1459
+          ],
+          "visiblePixels": 205068,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "e7ab6bfdb797273f597b8afa69b68da68576f2b2773a63f961586dbf0ad7a211"
+        }
+      ],
+      "id": "panel",
+      "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a12e36-f370-7401-98c4-882cfef1de85\\exec-3a7222b2-0df5-445f-aa5d-197e1e8d40e6.png",
+      "centerKind": "transparent",
+      "frames": [
+        {
+          "index": 0,
+          "crop": [
+            0,
+            0,
+            1024,
+            1536
+          ],
+          "visibleBounds": [
+            30,
+            17,
+            965,
+            1459
+          ],
+          "visiblePixels": 205068,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "e7ab6bfdb797273f597b8afa69b68da68576f2b2773a63f961586dbf0ad7a211",
+          "center": {
+            "x": 300,
+            "y": 425,
+            "w": 424,
+            "h": 641,
+            "zero": 266091,
+            "total": 271784,
+            "strong": 0,
+            "zeroRatio": 0.9790532187325229,
+            "meanAlpha": 0.020946781267477114,
+            "minAlpha": 0,
+            "maxAlpha": 1,
+            "meanRGB": [
+              0.2954294586877815,
+              0.1523526035381038,
+              0.07464015541753746
+            ]
+          }
+        }
+      ],
+      "generatedSource": "C:\\Users\\Diego\\.codex\\generated_images\\01a12e36-f370-7401-98c4-882cfef1de85\\exec-3a7222b2-0df5-445f-aa5d-197e1e8d40e6.png",
+      "prompt": "Use case: style-transfer. Image1 is EDIT TARGET the existing Éter Anima UI panel frame. Convert ONLY its material/rendering into an unmistakably VOLUMETRIC STYLIZED 3D GAME-ASSET RENDER. Preserve its exactfrontrectangularshape, portraitaspect, skinnyedges, smallsymmetricgoldcornerbrackets, sapphirecrystals, emptycenter, layoutandpalette. Keep everythingFRONTALORTHOGRAPHIC, no cameraangle/isometric/perspectivetaper. A physicallymodeledcastANTIQUEGOLDmetalbezel with REALthickness, THREE visiblebeveledfacetbands alongedges, subtlyextrudedcornerhardware, preciseinnerrecess. DarkPETROLEUMbluepolishedstone/enamel inlays, luminousfaceted3Dsapphirecrystals, refinedroughmetal reflections/clearhighlights, smallambientocclusioncontactshadows ONhardware itself. Studio-keylightfromupperleft, restrainedcoolfillright; elegant3Drender depthclearlyvisible, notflatcelillustration, notphotograph, notplastic. SameanimefantasyacademyidentitybutUIhardware3D.\nNo changes toframe geometry orcornershape/number. Completeallcornertipsandborderswithintransparentcanvas, no largerornaments. Central EMPTYHOLE staysgenuinelyRGBAalphaZERO, ABSOLUTELY no paintedfill, no gradient/haze/fog/floor/matte/shadowacrosscenter; shadowsstay onbevelswithinouteredge. OuterbackgroundalphaZEROalso. Straightplainmiddleedgemesh/crosssection so9slicingworkswithoutstretchingdecorativecorners. No centralobjects/text/characters/letters/numbers/runes/scene. Preservecompactcorners/hugecleartextarea. NativePNGtransparent1024×1536portrait, onlyONE3Dframe.",
+      "previousPrompts": [
+        "Use case: stylized-concept. Asset type: FINAL premium anime-fantasy GAME UI nine-slice panel FRAME for Éter Anima auto-battler. Input1 ONLY approved academy material/palette identity; input2 ONLY fine anime ink/gold/crystal craftsmanship. This is interface art, NEVER a board/environment/item depiction. Create ONE tall PORTRAIT rectangular HOLLOW frame, intended landscape-game contextual information panel. Dark deep PETROLEUM blue enamel (#102730), narrow discreet AGED GOLD trim (#b49b62), graphite ink edge, precise refined flat cel shading matching Fate/Mushoku fantasyanime. Sophisticated calm strategy-game interface craftsmanship, clear straight edges and small beveled corners, visual restraint.\nComposition: complete rectangular thin frame occupies85%canvaswidth and90%height, generous clear transparent outerpadding. Four petite corner brackets and one tiny cool-blue crystal tucked into each uppercorner ONLY; small black-ink flourish INSIDE the cornerbrackets. No middleedge ornament except two straight delicate goldlines. Cornerdecoration stays within the outer10% of framewidth/height. Corners almost symmetrical, controlled slimthickness. No top-center crest/titlebar, no sidebulges. MOSTcanvas is a large rectangular EMPTY HOLE, COMPLETELY transparent alphaZERO: central80%width/height contains absolutely NO coloredfill/texture/art. Allvertical/horizontal edge midsections straight/plain so CSS9slicecan stretch them safely. Center is not black-painted: it is a REALCUTOUTHole with alpha0. Overall nativeRGBA transparentbackground outside AND inside theframe.\nNo text/letters/numbers/icons/characters/portraits/creatures/scene/boardtiles/marblefloor/runes/slots. No gradients or fog in the center, no thick glowing aura, no busy baroque vines, no floating ornaments. Quiet polished animefantasy interface, antiquegold smallhighlights and crisp ink, never photographic/3D/plastic. Nothing cropped; allframe/cornertips insidecanvas. Portrait2:3canvas1024×1536. Only ONEthinframe."
+      ],
+      "referencePaths": [
+        "art-source/v41/autochess/ui/2d-exploration/panel-frame.png"
+      ],
+      "generatedReferencePaths": [
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\public\\assets\\v39\\autochess\\boards\\academy.png",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\public\\assets\\v39\\autochess\\items-and-fx\\items.png"
+      ],
+      "renderStyle": "stylized-3d",
+      "nativeBytesPreserved": true
+    },
+    {
+      "path": "/assets/v41/autochess/ui/shop-frame.png",
+      "width": 2172,
+      "height": 724,
+      "bytes": 1615361,
+      "sha256": "ccc9156f685a833456e3dd319c115b168ccd20c22baf5802b66f6f0ef03fcaee",
+      "alpha": {
+        "zero": 503788,
+        "opaque": 462,
+        "total": 1572528,
+        "corners": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "columns": 1,
+      "rows": 1,
+      "cells": [
+        {
+          "index": 0,
+          "crop": [
+            0,
+            0,
+            2172,
+            724
+          ],
+          "visibleBounds": [
+            20,
+            74,
+            2132,
+            555
+          ],
+          "visiblePixels": 1037226,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "80dc040e1cb9f77f641f663a1ad96d8eceaf03d31c422d96ebe60d25c4f9bdcf"
+        }
+      ],
+      "id": "shop",
+      "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a12e36-f370-7401-98c4-882cfef1de85\\exec-cfaede5a-e79d-400f-8cec-c40015dc0827.png",
+      "centerKind": "dark",
+      "frames": [
+        {
+          "index": 0,
+          "crop": [
+            0,
+            0,
+            2172,
+            724
+          ],
+          "visibleBounds": [
+            20,
+            74,
+            2132,
+            555
+          ],
+          "visiblePixels": 1037226,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "80dc040e1cb9f77f641f663a1ad96d8eceaf03d31c422d96ebe60d25c4f9bdcf",
+          "center": {
+            "x": 616,
+            "y": 229,
+            "w": 938,
+            "h": 244,
+            "zero": 0,
+            "total": 228872,
+            "strong": 228872,
+            "zeroRatio": 0,
+            "meanAlpha": 253.2086974378692,
+            "minAlpha": 252,
+            "maxAlpha": 254,
+            "meanRGB": [
+              10.54183561117131,
+              39.89550054178755,
+              49.977978957670665
+            ]
+          }
+        }
+      ],
+      "generatedSource": "C:\\Users\\Diego\\.codex\\generated_images\\01a12e36-f370-7401-98c4-882cfef1de85\\exec-cfaede5a-e79d-400f-8cec-c40015dc0827.png",
+      "prompt": "Use case: style-transfer. Image1 is EDIT TARGET existing Éter Anima verywide shop/HUDtray. Convert ONLY its rendering/materials into an unmistakably VOLUMETRIC STYLIZED3Dgameassetrender. KeepEXACTfrontrectangularshape, lowlandscape3:1aspectratio, cornerpositions/shapes, straightthinborder, smallcrystals, bigclearcenter, petroleum/agedgoldpalette. StrictlyFRONTALORTHOGRAPHIC, no perspective/isometric/taper/slantedtextplane. PhysicallymodeledcastANTIQUEGOLDmetalrim with REALthickness, THREEbeveledfacetbands/lightcatchingedges, subtlyextrudedcornerhardware, neatlyinsetdeepPETROLEUMstone/enamelcenter. Faceted3Dsapphirecornercrystals, elegantcontrolledmetalreflections/roughgoldhighlights andinnercontactshadowsONbezel. Upperleftsoftstudiolight/coldsubtlefillright. Obvious3Dhardwaredepth, notflatcelart, notphoto/plastic, samefantasyacademyidentity.\nInnercenterremainsDARKPETROLEUMuniformflatplane (#102730), with no objects/patterns/details; keep80%ofcenterwideclearandreadableforDOMshoptext/cards. Shadowsrestrictedtoinneredge, no mottledglow/grid/runes/slots/cards/characters/letters/numbers. Mid-edgecrosssectionplain/straight so9slicesstretch safely. Preservecompletecornersinsidecanvas andrealRGBAalphaZEROoutsideplate; no castshadow/floor/background/matte/fog. Do notchangeframegeometryoradddecorations. ONE3Dtrayonly, same2172×724landscapecanvas orsame3:1aspect. ExactcurrentUI familyin3D.",
+      "previousPrompts": [
+        "Use case: stylized-concept. Asset type: FINAL sophisticated anime-fantasy GAME UI nine-slice horizontal SHOP/HUD tray for Éter Anima auto-battler. Image1 ONLY approved academy gold/navycraftsmanship; image2 ONLY fine animeink/crystal/goldmaterialfinish. Not a board/environment/item illustration. Create ONE verywide LOWrectangular tray, LANDSCAPEabout3:1aspectratio. Dark deep PETROLEUMblue enamel (#102730), discreet slimAGEDGOLDedge (#b49b62), graphiteink contour, fineclean Fate/Mushoku fantasyanimeflatcelshading. SamecalmstrategicUI family as a thinpetroleum/goldinformationpanel: restrainedpremiumcraftsmanship, straight cleanedges, smallbeveledcorners.\nTrayoccupies90%canvaswidth and78%height, clearactualtransparent outerpadding. Four SMALLprecisecornerbrackets and tinycoldblue crystal in upperleft+upperright cornersonly. Twoquietstraightgoldhairlines alonglongedges; no ornate top-centercrest, slotdividers, teeth, knobs, heavyhangingcorners, scrollingfiligree or bulges. Decorativecorners restrictedtoouter7% traywidth/18%trayheight, neverextendinto usefulcenter. Biginnerrectangle is solidverydarkpetroleumblue uniformmatte enamel, DARKandcalm, no visiblepattern/object/glow. Entirecentral80%oftraywidth/65%height kept CLEARfor realshopcards/textoverlay, simpleunvaryingdarkbluefill so centerstretchis safe. Borderedge midsections straight/plain for CSS9slice; modest interiorcontrast, antiquegoldaccentsconfinedtoborder. OuterbackgroundmustgenuineRGBAalphaZERO; keepcomplete corners/edgetips insidecanvas.\nNo text/letters/numbers/readableglyphs/runes/characters/portraits/creatures/cards/items/shopobjects/marblefloor/gameboardtiles/icons/cellslots. No central gradients/fog/aura/visualnoise. Crisp productionanimeinterface, not photographic/3D/fakeplastic. ONEtrayonly, ideallynative1536×512canvasor similar3:1landscape."
+      ],
+      "referencePaths": [
+        "art-source/v41/autochess/ui/2d-exploration/shop-frame.png"
+      ],
+      "generatedReferencePaths": [
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\public\\assets\\v39\\autochess\\boards\\academy.png",
+        "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\public\\assets\\v39\\autochess\\items-and-fx\\items.png"
+      ],
+      "renderStyle": "stylized-3d",
+      "nativeBytesPreserved": true
+    },
+    {
+      "path": "/assets/v41/autochess/ui/active-frame.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1310800,
+      "sha256": "9f6249b9b18fb78f50bd8dc5c600de0f7be3502dd4b141885057057902020888",
+      "alpha": {
+        "zero": 1247354,
+        "opaque": 0,
+        "total": 1572864,
+        "corners": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "columns": 1,
+      "rows": 1,
+      "cells": [
+        {
+          "index": 0,
+          "crop": [
+            0,
+            0,
+            1024,
+            1536
+          ],
+          "visibleBounds": [
+            57,
+            55,
+            910,
+            1410
+          ],
+          "visiblePixels": 218200,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "eb90d47a114c55d1ee3917a9e535cf292fc98b53d7a1ef74100470b39a362df3"
+        }
+      ],
+      "id": "active",
+      "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a12e36-f370-7401-98c4-882cfef1de85\\exec-140f891f-3209-4a15-9d80-ad72976a06a9.png",
+      "centerKind": "transparent",
+      "frames": [
+        {
+          "index": 0,
+          "crop": [
+            0,
+            0,
+            1024,
+            1536
+          ],
+          "visibleBounds": [
+            57,
+            55,
+            910,
+            1410
+          ],
+          "visiblePixels": 218200,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "eb90d47a114c55d1ee3917a9e535cf292fc98b53d7a1ef74100470b39a362df3",
+          "center": {
+            "x": 311,
+            "y": 449,
+            "w": 400,
+            "h": 620,
+            "zero": 247383,
+            "total": 248000,
+            "strong": 0,
+            "zeroRatio": 0.9975120967741935,
+            "meanAlpha": 0.0024879032258064517,
+            "minAlpha": 0,
+            "maxAlpha": 1,
+            "meanRGB": [
+              0.615391129032258,
+              0.40026209677419355,
+              0.190125
+            ]
+          }
+        }
+      ],
+      "generatedSource": "C:\\Users\\Diego\\.codex\\generated_images\\01a12e36-f370-7401-98c4-882cfef1de85\\exec-140f891f-3209-4a15-9d80-ad72976a06a9.png",
+      "prompt": "Use case: style-transfer. Image1 is EDIT TARGET existing activecard/actionHOLLOW frame; image2 supplies ONLY newlyapproved3DUI MATERIAL/lighting reference. Convert image1'srendering into thissameclearlyVOLUMETRICSTYLIZED3DfantasyUI family. KEEPexactfrontalrectangulargeometry, portraitaspectratio, cornerposition/shape/tinysapphirecrystals, straightplainmiddleedges, petroleum/agedgoldpalette andlargeEMPTYcenter. StrictFRONTALORTHOGRAPHIC; no isometric/perspective/cameraangle/taper. ModeledANTIQUEGOLDmetalbezel with REALthickness/threebeveledfacetbands, subtleextrudedcornerhardware, innerrecess/contactocclusionONframehardware, darkPETROLEUMstoneinlays, facetedrefractive3Dcrystals, elegantgoldreflections. Upperleftsoftstudio-keylight/coldrightfill, ACTIVE thin cyan-innerhairline/localedgelight, no broadglow. Obvious3Dmaterialvolume/notflatcelart/notphoto/plastic. Samepremiumquietfantasyacademyidentity.\nCenterhole MUSTremaintrueRGBAalphaZERO, no paintedblack/bluefill/gradient/haze/fog/floor/shadowplane in thecenter. OuterbackgroundalsoalphaZERO; contactshadowsrestrictedtobevel/inneredgeonly. No newornaments/text/letters/runes/characters/portraits/creatures/objects/content. Allcornersintactwithtransparentouterpadding. Same1024×1536canvas/singleframe; 9slice-safe straightedgecrosssections. Do notdeform areaswhererealDOMtextwillbeoverlaid.",
+      "previousPrompts": [
+        "Use case: stylized-concept. Asset type: FINAL nativeRGBA active PIECE-CARD/ACTION FRAME for Éter Anima auto-battler. Image1 ONLY the newlyapproved UI family's exactmaterial/shape/linework reference, not an edit target. Create ONE complete portrait2:3 HOLLOW frame with slimdeepPETROLEUM enamel/graphite ink and refinedAGEDGOLDdoubletrim; same calm animefantasy cel-shading/corners asreference, slightly richer ACTIVE state. Small neatbeveledcornerbrackets, twoTINYcoolcyan crystals atuppercorners, restrained goldedgehighlight and veryTHINcyan-innerhairline. Goldlight localtocorner/edges only, no flares/aura/cloud. Corners smaller/cleaner thanreference, atmost10%framewidth and11%height; no stars or otherfloating ornaments in usefulcenter. Middle vertical/horizontal edges plainstraight so CSS9slicestretchworks atportraitcard ORwidebuttonratio. No top-centercrest/titlebar, no sidebulges.\nEntirecentral80%width80%height is REALtransparent EMPTY HOLE alphaZERO, not a black/bluepaintedfill; NOinnertexture whatsoever. Outerbackground likewise realalphaZERO. Completeframewithin90%canvas with generousclearouterpadding, nothingcropped. Crisp refinedFate/Mushoku hand-inkedanimegameinterface, premiumrestrainedstrategicUI, notphotographic/3D/plastic. No words/letters/numbers/runes/icons/portraits/characters/creatures/scenes/boards/items/cardcontent. ONEframeonly, portrait1024×1536. PreservepaletteandproportionsofUI reference, no unrelatedornaments."
+      ],
+      "referencePaths": [
+        "art-source/v41/autochess/ui/2d-exploration/active-frame.png",
+        "art-source/v41/autochess/ui/panel-frame.png"
+      ],
+      "generatedReferencePaths": [
+        "C:\\Users\\Diego\\.codex\\generated_images\\01a12e36-f370-7401-98c4-882cfef1de85\\exec-5050e97c-4bab-4fcf-b24f-31c0720e2d5a.png"
+      ],
+      "renderStyle": "stylized-3d",
+      "nativeBytesPreserved": true
+    },
+    {
+      "path": "/assets/v41/autochess/ui/buttons.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1820996,
+      "sha256": "bb34a010e07ad36b93d8c4d23a17f6d6f50aed246e77d9176ad05a42160f1c8e",
+      "alpha": {
+        "zero": 556929,
+        "opaque": 0,
+        "total": 1572864,
+        "corners": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "columns": 1,
+      "rows": 2,
+      "cells": [
+        {
+          "index": 0,
+          "crop": [
+            0,
+            0,
+            1536,
+            512
+          ],
+          "visibleBounds": [
+            37,
+            100,
+            1461,
+            350
+          ],
+          "visiblePixels": 472218,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "2752b6b8d9d6b53ac5b1d2e0289d5bfbdb3dcacf5c7ae7e3d61b82c678b5d210"
+        },
+        {
+          "index": 1,
+          "crop": [
+            0,
+            512,
+            1536,
+            512
+          ],
+          "visibleBounds": [
+            37,
+            558,
+            1461,
+            351
+          ],
+          "visiblePixels": 472807,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "aacd81633bb55e4cce9d94d359481663b030bf6ddeed615c07c2bedfa3a9c7eb"
+        }
+      ],
+      "id": "buttons",
+      "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a12e36-f370-7401-98c4-882cfef1de85\\exec-e528979e-da19-4d02-bc01-bd86290cf2c4.png",
+      "centerKind": "dark",
+      "frames": [
+        {
+          "index": 0,
+          "crop": [
+            0,
+            0,
+            1536,
+            512
+          ],
+          "visibleBounds": [
+            37,
+            100,
+            1461,
+            350
+          ],
+          "visiblePixels": 472218,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "2752b6b8d9d6b53ac5b1d2e0289d5bfbdb3dcacf5c7ae7e3d61b82c678b5d210",
+          "center": {
+            "x": 446,
+            "y": 198,
+            "w": 642,
+            "h": 154,
+            "zero": 0,
+            "total": 98868,
+            "strong": 98868,
+            "zeroRatio": 0,
+            "meanAlpha": 253.03030303030303,
+            "minAlpha": 252,
+            "maxAlpha": 254,
+            "meanRGB": [
+              10.233442569891167,
+              41.92762066593842,
+              52.572844600881986
+            ]
+          }
+        },
+        {
+          "index": 1,
+          "crop": [
+            0,
+            512,
+            1536,
+            512
+          ],
+          "visibleBounds": [
+            37,
+            558,
+            1461,
+            351
+          ],
+          "visiblePixels": 472807,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "aacd81633bb55e4cce9d94d359481663b030bf6ddeed615c07c2bedfa3a9c7eb",
+          "center": {
+            "x": 446,
+            "y": 656,
+            "w": 642,
+            "h": 154,
+            "zero": 0,
+            "total": 98868,
+            "strong": 98868,
+            "zeroRatio": 0,
+            "meanAlpha": 253.03335760812396,
+            "minAlpha": 252,
+            "maxAlpha": 254,
+            "meanRGB": [
+              9.091222640288061,
+              39.305124003722135,
+              49.38422947768742
+            ]
+          }
+        }
+      ],
+      "generatedSource": "C:\\Users\\Diego\\.codex\\generated_images\\01a12e36-f370-7401-98c4-882cfef1de85\\exec-e528979e-da19-4d02-bc01-bd86290cf2c4.png",
+      "prompt": "Use case: style-transfer. Image1 EDIT TARGET current TWO-BUTTON-STATEatlas, topSOBER andbottomACTIVE, onecolumntworows; image2 ONLY approved3DUI MATERIAL/lighting reference. Convert ONLYbothplatesrenderinginto clearlyVOLUMETRICSTYLIZED3Dfantasygamehardware. PreserveEXACTsame1536×1024atlas, TWOplatesonly, identicalrectangulargeometry/size/position, largealphaZEROgaps, smallcorners/starornamentsontop/tinysapphirecrystalsbottom, straightplainedges, darkPETROLEUM andAGEDGOLDcolors. BothFRONTALORTHOGRAPHIC withnopredictiveskew/noisometric/taper. PhysicallymodeledcastANTIQUEGOLDmetalwithREALthickness and3beveledfacetbands, crisplightcatchingedges, subtleextrudedcornerhardware, insetPETROLEUMstone/enamelcenter, physicalcontactocclusionshadowsONhardware, refinedroughmetalreflection/faceted3Dcrystals. Softupperleftstudiolight/coldfillright, sophisticatedcleanpremiumstrategicUI, unmistakable3Dbeveldepth, notflatcelart/photo/plastic.\nTOPquietplate modestgoldhighlights,noglows. BOTTOMactive modestbrightergoldplusverythin cyaninneredgeandtwotinysapphirecrystals; no bloom/cloud/flares. Samegeometrybothstates. Central80%of EACHplate staysuniformDARKpetroleumplane, unadornedforrealDOMtext; no patterns/letters/numbers/icons/characters/items/content. NativeRGBAalphaZEROoutsideplatesandbetweenrows, no castshadow/floor/gradientmattebehindatlas. Entirecorners/borderstipsvisibleandisolatedfromneighborrow/canvasedge. 9slice-safeplainmiddleedges. No newobjects/ornamentcount changes.",
+      "previousPrompts": [
+        "Use case: stylized-concept. Asset type: FINAL nativeRGBA game UI BUTTON-STATE ATLAS for Éter Anima auto-battler. Images1/2 ONLY newUI family's exactpetroleum/agedgold/ink/crystalmaterial and restrainedanimecelshading reference. Generate EXACTLY TWO SEPARATE identical-shape widebuttonplates STACKED in TWOequalrows ONEcolumn; no labels. Landscape1536×1024canvas. Eachbuttonaslimwideabout4:1rectangle occupying80%canvaswidth andatmost30%canvasheight, centeredinitsownhalfcanvas, at least70pixelsACTUALalphaZEROgaponeachside/top/bottom ofeachrow. No thirdobject. FourverySMALLbeveledcornerbrackets, straightquietedge midsections safe forCSS9slice. Hugeusefulmiddle85%buttonwidth60%height is uniformveryDARKPETROLEUMenamel (#102730), no artwork/pattern/letters; center canstretchandholdrealUItextlater.\nTOPplate = SOBERidle: discreetnarrowAGEDGOLDtrim (#b49b62), graphiteoutline, subtlecoldblue-enameledge, no glow, cornerdetailtiny. BOTTOMplate = ACTIVE: EXACTsamegeometry/size, modestwarmgoldedgehighlight plusONEverythin cyaninnerhairline, TWOtinycoolbluecrystals tucked into farleft/right cornerbrackets ONLY, tinylocalhighlights. No centralcrest/icon, no filigreeacrosstext, no lightsweep/particles/aura/bloom. BothcleancalmstrategyUI, refinedFate/Mushoku celshadedink asreferences, no3D/photo/plastic. NativeRGBAalphaZEROoutsidebothplates/throughgap; no paintedrectanglebehindatlas. No text/words/numbers/runes/labels/icons/characters/portraits/creatures/items/boards/slots. Preserveexactsharedpalette, restrainedsophisticatedgamelook."
+      ],
+      "referencePaths": [
+        "art-source/v41/autochess/ui/2d-exploration/buttons.png",
+        "art-source/v41/autochess/ui/panel-frame.png"
+      ],
+      "generatedReferencePaths": [
+        "C:\\Users\\Diego\\.codex\\generated_images\\01a12e36-f370-7401-98c4-882cfef1de85\\exec-c384caec-7b0a-4253-8783-1378f4ef3a3e.png",
+        "C:\\Users\\Diego\\.codex\\generated_images\\01a12e36-f370-7401-98c4-882cfef1de85\\exec-5050e97c-4bab-4fcf-b24f-31c0720e2d5a.png"
+      ],
+      "renderStyle": "stylized-3d",
+      "nativeBytesPreserved": true
+    }
+  ],
+  "entries": {
+    "panel": {
+      "src": "/assets/v41/autochess/ui/panel-frame.png",
+      "frameSrc": "/assets/v41/autochess/ui/panel-frame.svg",
+      "sheetWidth": 1024,
+      "sheetHeight": 1536,
+      "crop": {
+        "x": 22,
+        "y": 9,
+        "w": 981,
+        "h": 1475,
+        "anchorX": 512.5,
+        "anchorY": 746.5
+      },
+      "slice": [
+        206,
+        159,
+        158,
+        158
+      ],
+      "nativeSlice": [
+        215,
+        180,
+        210,
+        180
+      ],
+      "center": "transparent",
+      "renderStyle": "stylized-3d",
+      "safeArea": {
+        "x": 158,
+        "y": 206,
+        "w": 664,
+        "h": 1111
+      }
+    },
+    "shop": {
+      "src": "/assets/v41/autochess/ui/shop-frame.png",
+      "frameSrc": "/assets/v41/autochess/ui/shop-frame.svg",
+      "sheetWidth": 2172,
+      "sheetHeight": 724,
+      "crop": {
+        "x": 12,
+        "y": 66,
+        "w": 2148,
+        "h": 571,
+        "anchorX": 1086,
+        "anchorY": 351.5
+      },
+      "slice": [
+        244,
+        198,
+        163,
+        198
+      ],
+      "nativeSlice": [
+        310,
+        210,
+        250,
+        210
+      ],
+      "center": "dark",
+      "renderStyle": "stylized-3d",
+      "safeArea": {
+        "x": 198,
+        "y": 244,
+        "w": 1752,
+        "h": 164
+      }
+    },
+    "active": {
+      "src": "/assets/v41/autochess/ui/active-frame.png",
+      "frameSrc": "/assets/v41/autochess/ui/active-frame.svg",
+      "sheetWidth": 1024,
+      "sheetHeight": 1536,
+      "crop": {
+        "x": 49,
+        "y": 47,
+        "w": 926,
+        "h": 1426,
+        "anchorX": 512,
+        "anchorY": 760
+      },
+      "slice": [
+        173,
+        141,
+        162,
+        141
+      ],
+      "nativeSlice": [
+        220,
+        190,
+        225,
+        190
+      ],
+      "center": "transparent",
+      "renderStyle": "stylized-3d",
+      "safeArea": {
+        "x": 141,
+        "y": 173,
+        "w": 644,
+        "h": 1091
+      }
+    },
+    "buttonQuiet": {
+      "src": "/assets/v41/autochess/ui/buttons.png",
+      "frameSrc": "/assets/v41/autochess/ui/button-quiet.svg",
+      "sheetWidth": 1536,
+      "sheetHeight": 1024,
+      "crop": {
+        "x": 29,
+        "y": 92,
+        "w": 1477,
+        "h": 366,
+        "anchorX": 767.5,
+        "anchorY": 275
+      },
+      "slice": [
+        135,
+        150,
+        135,
+        150
+      ],
+      "center": "dark",
+      "renderStyle": "stylized-3d",
+      "safeArea": {
+        "x": 150,
+        "y": 135,
+        "w": 1177,
+        "h": 96
+      }
+    },
+    "buttonActive": {
+      "src": "/assets/v41/autochess/ui/buttons.png",
+      "frameSrc": "/assets/v41/autochess/ui/button-active.svg",
+      "sheetWidth": 1536,
+      "sheetHeight": 1024,
+      "crop": {
+        "x": 29,
+        "y": 550,
+        "w": 1477,
+        "h": 367,
+        "anchorX": 767.5,
+        "anchorY": 733.5
+      },
+      "slice": [
+        135,
+        150,
+        135,
+        150
+      ],
+      "center": "dark",
+      "renderStyle": "stylized-3d",
+      "safeArea": {
+        "x": 150,
+        "y": 135,
+        "w": 1177,
+        "h": 97
+      }
+    }
+  },
+  "backgrounds": [
+    {
+      "id": "academy-atmosphere",
+      "path": "/assets/v41/autochess/ui/academy-atmosphere.png",
+      "width": 1672,
+      "height": 941,
+      "colorType": 2,
+      "sha256": "162be2423415f86bf524d4bde422497a029c752cc469d7140abd8b7208a27818",
+      "promptFile": "academy-atmosphere.prompt.json",
+      "generatedSource": "C:/Users/Diego/.codex/generated_images/01a12e29-8849-7143-b433-507c5b662f92/exec-50246940-3811-4440-b965-038a9c3bdcc5.png",
+      "reference": "art-source/v41/autochess/ui/2d-exploration/academy-atmosphere.png",
+      "renderStyle": "stylized-3d",
+      "nativeBytesPreserved": true
+    },
+    {
+      "id": "academy-3d",
+      "path": "/assets/v41/autochess/boards/academy-3d.png",
+      "width": 1254,
+      "height": 1254,
+      "colorType": 2,
+      "sha256": "fbd165d34c2c9d63448e80238ab78b5f366108ba0533c9e0b2eadf22284fd8c4",
+      "promptFile": "../boards/academy-3d.prompt.json",
+      "generatedSource": "C:/Users/Diego/.codex/generated_images/01a12e29-8849-7143-b433-507c5b662f92/exec-6041e8b7-1d5e-4abf-badf-09b7d5de8550.png",
+      "reference": "public/assets/v39/autochess/boards/academy.png",
+      "renderStyle": "stylized-3d",
+      "nativeBytesPreserved": true,
+      "camera": "orthographic-top-down",
+      "targetTileBounds": {
+        "x": 0.125,
+        "y": 0.125,
+        "w": 0.75,
+        "h": 0.75
+      },
+      "targetTileBoundsSource": "generation prompt and existing game topology"
+    }
+  ],
+  "nativeBytesPreserved": true,
+  "pixelEditingPerformed": false,
+  "svgViewportsOnly": true,
+  "earlier2dExploration": "2d-exploration/"
+}

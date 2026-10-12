@@ -33,6 +33,7 @@ export function createGameKeyboardControls(context:GameControlContext){
   if(browserShortcut(event))return;
   const target=(context.element??targetElement)(event.target);
   if(target?.closest('input,select,textarea,[role=slider]'))return;
+  if(engine.state.autoChessSessionV39){engine.clearMovement();return;}
   const key=event.key.length===1?event.key.toLowerCase():event.key;
   if(context.opening()||context.suspended?.()){
    const buttonActivation=(key==='Enter'||key===' ')&&!!target?.closest('button');

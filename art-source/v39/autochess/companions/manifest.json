@@ -1,0 +1,1783 @@
+{
+  "generator": "built-in image_gen",
+  "date": "2026-10-11",
+  "promptFile": "prompts.json",
+  "checks": 90,
+  "entries": [
+    {
+      "path": "/assets/v39/autochess/pieces/shin.png",
+      "width": 1448,
+      "height": 1086,
+      "bytes": 1878206,
+      "sha256": "cc276ee3b1bb7d31f541720bbc688174f5705c273ce88cd21b1c1e1f26e0f4a0",
+      "alpha": {
+        "zero": 907062,
+        "opaque": 197,
+        "total": 1572528,
+        "corners": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "columns": 4,
+      "rows": 3,
+      "cells": [
+        {
+          "index": 0,
+          "crop": [
+            0,
+            0,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            95,
+            88,
+            208,
+            258
+          ],
+          "visiblePixels": 37205,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "599a0962919df21af7a3e52ecbe783ecb9edabefd29b9b69db2d04ecb8372e70"
+        },
+        {
+          "index": 1,
+          "crop": [
+            362,
+            0,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            460,
+            89,
+            217,
+            258
+          ],
+          "visiblePixels": 38062,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "c3216b225be1f5936b2ad00f22c7fef7d52b79611d62e739321705180920fb9b"
+        },
+        {
+          "index": 2,
+          "crop": [
+            724,
+            0,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            816,
+            89,
+            217,
+            254
+          ],
+          "visiblePixels": 37008,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "ea6bcd5259a92727e0de11032f3ef31a5bae0ee336019322910af2a547eb572d"
+        },
+        {
+          "index": 3,
+          "crop": [
+            1086,
+            0,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            1166,
+            91,
+            222,
+            253
+          ],
+          "visiblePixels": 37090,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "e7fc3061dfa39cb4db62de502a1b82f1de126593c94f03bcb4f699a97f80eb33"
+        },
+        {
+          "index": 4,
+          "crop": [
+            0,
+            362,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            66,
+            444,
+            244,
+            234
+          ],
+          "visiblePixels": 37865,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "166e119910f9c1c6bc472f3e4bbef3aa912bf4e41309a8f0a0c2b83926124888"
+        },
+        {
+          "index": 5,
+          "crop": [
+            362,
+            362,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            436,
+            450,
+            277,
+            229
+          ],
+          "visiblePixels": 35151,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 2,
+          "pixelHash": "36612218e62598ac710eb9e8674a166973786609b2d22b8a9e50954ca337f9f7"
+        },
+        {
+          "index": 6,
+          "crop": [
+            724,
+            362,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            796,
+            453,
+            276,
+            227
+          ],
+          "visiblePixels": 42816,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "5411830468f4328b4fd171d35586e3aba33eb06d01d6f633921fac5ad73d54ff"
+        },
+        {
+          "index": 7,
+          "crop": [
+            1086,
+            362,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            1163,
+            448,
+            240,
+            231
+          ],
+          "visiblePixels": 32394,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "9e6d48b50cff85206f1c5b782060d4a344b2788b3a691f1aeaeab5c89ca2ce00"
+        },
+        {
+          "index": 8,
+          "crop": [
+            0,
+            724,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            70,
+            774,
+            235,
+            248
+          ],
+          "visiblePixels": 41960,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "c13bda5708fac86d8fbcda6179466b8a16a12a6d84dc699128e0b0c0697181ff"
+        },
+        {
+          "index": 9,
+          "crop": [
+            362,
+            724,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            425,
+            773,
+            267,
+            251
+          ],
+          "visiblePixels": 44706,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "30d2631933f9d7cd934db55f4202014cb62472a427e8fe900cefa2b821a7a7ae"
+        },
+        {
+          "index": 10,
+          "crop": [
+            724,
+            724,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            773,
+            763,
+            292,
+            261
+          ],
+          "visiblePixels": 58548,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "d815740351ae8102e822485c08b6be9ad22e75d31574f612032168e671318b6a"
+        },
+        {
+          "index": 11,
+          "crop": [
+            1086,
+            724,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            1150,
+            774,
+            263,
+            249
+          ],
+          "visiblePixels": 40458,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "e04e07d76893c852ac58618a333dd960cfe0f6fc254c1d9307c0f6d251e93586"
+        }
+      ],
+      "generatedSource": "C:\\Users\\Diego\\.codex\\generated_images\\01a12db1-1d3c-7e13-a813-9d63c6193b61\\exec-9efc99ed-b152-426f-889d-adccec485f65.png",
+      "canonicalReference": "/assets/v31/companions/shin/fullbody.png",
+      "nativeBytesPreserved": true,
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 362,
+          "h": 362,
+          "anchorX": 188.5,
+          "anchorY": 344
+        },
+        {
+          "x": 362,
+          "y": 0,
+          "w": 362,
+          "h": 362,
+          "anchorX": 554,
+          "anchorY": 345
+        },
+        {
+          "x": 724,
+          "y": 0,
+          "w": 362,
+          "h": 362,
+          "anchorX": 912.5,
+          "anchorY": 342
+        },
+        {
+          "x": 1086,
+          "y": 0,
+          "w": 362,
+          "h": 362,
+          "anchorX": 1272,
+          "anchorY": 342
+        },
+        {
+          "x": 0,
+          "y": 362,
+          "w": 362,
+          "h": 362,
+          "anchorX": 184.5,
+          "anchorY": 677
+        },
+        {
+          "x": 362,
+          "y": 362,
+          "w": 362,
+          "h": 362,
+          "anchorX": 551.5,
+          "anchorY": 678
+        },
+        {
+          "x": 724,
+          "y": 362,
+          "w": 362,
+          "h": 362,
+          "anchorX": 901,
+          "anchorY": 678
+        },
+        {
+          "x": 1086,
+          "y": 362,
+          "w": 362,
+          "h": 362,
+          "anchorX": 1272,
+          "anchorY": 677
+        },
+        {
+          "x": 0,
+          "y": 724,
+          "w": 362,
+          "h": 362,
+          "anchorX": 187,
+          "anchorY": 1021
+        },
+        {
+          "x": 362,
+          "y": 724,
+          "w": 362,
+          "h": 362,
+          "anchorX": 556,
+          "anchorY": 1022
+        },
+        {
+          "x": 724,
+          "y": 724,
+          "w": 362,
+          "h": 362,
+          "anchorX": 913.5,
+          "anchorY": 1023
+        },
+        {
+          "x": 1086,
+          "y": 724,
+          "w": 362,
+          "h": 362,
+          "anchorX": 1268,
+          "anchorY": 1021
+        }
+      ],
+      "groundAnchorMethod": "Boot/talon pixel region measurement with full-sheet visual inspection. Phoenix tail and colored magic are excluded; cast/attack feet are not inferred from the full sprite bounding-box bottom.",
+      "visualInspection": "Canonical chibi humanoid: two arms/two legs, complete body and approved outfit/hair/colors; distinct ready/attack/cast silhouettes inspected.",
+      "boundaryVisibilityThreshold": 16,
+      "notes": "Regular 362px source cells. Ground baselines are measured, not the requested84% assumed; caster effects remain isolated."
+    },
+    {
+      "path": "/assets/v39/autochess/pieces/mika.png",
+      "width": 1448,
+      "height": 1086,
+      "bytes": 1398461,
+      "sha256": "6d9a61f0c7bcf0128a5e262de968fcef4737c5d3612c3b65bdfc15db123b66e2",
+      "alpha": {
+        "zero": 1088645,
+        "opaque": 582,
+        "total": 1572528,
+        "corners": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "columns": 4,
+      "rows": 3,
+      "cells": [
+        {
+          "index": 0,
+          "crop": [
+            0,
+            0,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            111,
+            79,
+            158,
+            260
+          ],
+          "visiblePixels": 29857,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 0,
+          "pixelHash": "d5650925cccf6afd66350720fa6aee0109e9af63fffc28713534f1f94282ecec"
+        },
+        {
+          "index": 1,
+          "crop": [
+            362,
+            0,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            470,
+            79,
+            142,
+            260
+          ],
+          "visiblePixels": 27453,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "62a233da74b47b048ad7b9616ae48aed05f97859e6e1d73a0094f56d3da271fd"
+        },
+        {
+          "index": 2,
+          "crop": [
+            724,
+            0,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            810,
+            80,
+            185,
+            259
+          ],
+          "visiblePixels": 30628,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "99aaf1484f2d8c12ddb83b1b44ce57650bf1e485cc1f6c3b6cf3fa237abc2a1d"
+        },
+        {
+          "index": 3,
+          "crop": [
+            1086,
+            0,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            1172,
+            88,
+            176,
+            251
+          ],
+          "visiblePixels": 28881,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "0417047e815a36517c64ab68d36aa39e9c18344e7a66895afb5c1be6e8360935"
+        },
+        {
+          "index": 4,
+          "crop": [
+            0,
+            362,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            107,
+            446,
+            168,
+            243
+          ],
+          "visiblePixels": 27372,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "5d18e80e5e52a9e80b2e4163d218ab0b1b1c9fc0ad6d6fde0e75dd7700c78c9d"
+        },
+        {
+          "index": 5,
+          "crop": [
+            362,
+            362,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            444,
+            443,
+            243,
+            247
+          ],
+          "visiblePixels": 30217,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "15ae287130d43b7e260052773fdf5b930ba275754312749bf9511693675fd3aa"
+        },
+        {
+          "index": 6,
+          "crop": [
+            724,
+            362,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            804,
+            447,
+            253,
+            242
+          ],
+          "visiblePixels": 35199,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "448515ddcbe0d656481d9edfcb33b54dc2afabfe5b6c105458ff172df0969b3c"
+        },
+        {
+          "index": 7,
+          "crop": [
+            1086,
+            362,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            1192,
+            444,
+            199,
+            245
+          ],
+          "visiblePixels": 27836,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 0,
+          "pixelHash": "57676c1e61544866db477cab30c023ea14145f537045d70b915a66fa2bdd5ab4"
+        },
+        {
+          "index": 8,
+          "crop": [
+            0,
+            724,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            94,
+            777,
+            187,
+            248
+          ],
+          "visiblePixels": 28153,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "b5bfcfe16cd740e4e188a557fdc992ba311d00841b0c5ee71de63a05c9dac6c3"
+        },
+        {
+          "index": 9,
+          "crop": [
+            362,
+            724,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            437,
+            777,
+            213,
+            248
+          ],
+          "visiblePixels": 30493,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "c1f6f6ab7eb1acb0aca6eea966329161f6e08fffafb7a0932679942f502fae54"
+        },
+        {
+          "index": 10,
+          "crop": [
+            724,
+            724,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            774,
+            748,
+            268,
+            277
+          ],
+          "visiblePixels": 41066,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "a5d3dd643928bc982e2059ab8439e0152b8ca2d98e4f10c81aaf95829b8e87a8"
+        },
+        {
+          "index": 11,
+          "crop": [
+            1086,
+            724,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            1175,
+            777,
+            207,
+            248
+          ],
+          "visiblePixels": 28243,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "d09fd469d98f5b05c5278fcff1eb8e4ca91c5f149d6c0850462d19d6b5b2cc23"
+        }
+      ],
+      "generatedSource": "C:\\Users\\Diego\\.codex\\generated_images\\01a12db1-1d3c-7e13-a813-9d63c6193b61\\exec-a7e23b15-0c39-477e-bdc4-af2a05a0d8c8.png",
+      "canonicalReference": "/assets/v31/companions/mika/fullbody.png",
+      "nativeBytesPreserved": true,
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 362,
+          "h": 362,
+          "anchorX": 183,
+          "anchorY": 338
+        },
+        {
+          "x": 362,
+          "y": 0,
+          "w": 362,
+          "h": 362,
+          "anchorX": 541.5,
+          "anchorY": 338
+        },
+        {
+          "x": 724,
+          "y": 0,
+          "w": 362,
+          "h": 362,
+          "anchorX": 900.5,
+          "anchorY": 338
+        },
+        {
+          "x": 1086,
+          "y": 0,
+          "w": 362,
+          "h": 362,
+          "anchorX": 1262,
+          "anchorY": 338
+        },
+        {
+          "x": 0,
+          "y": 362,
+          "w": 362,
+          "h": 362,
+          "anchorX": 186.5,
+          "anchorY": 688
+        },
+        {
+          "x": 362,
+          "y": 362,
+          "w": 362,
+          "h": 362,
+          "anchorX": 522.5,
+          "anchorY": 688
+        },
+        {
+          "x": 724,
+          "y": 362,
+          "w": 362,
+          "h": 362,
+          "anchorX": 885.5,
+          "anchorY": 688
+        },
+        {
+          "x": 1086,
+          "y": 362,
+          "w": 362,
+          "h": 362,
+          "anchorX": 1265.5,
+          "anchorY": 688
+        },
+        {
+          "x": 0,
+          "y": 724,
+          "w": 362,
+          "h": 362,
+          "anchorX": 190,
+          "anchorY": 1023
+        },
+        {
+          "x": 362,
+          "y": 724,
+          "w": 362,
+          "h": 362,
+          "anchorX": 549,
+          "anchorY": 1023
+        },
+        {
+          "x": 724,
+          "y": 724,
+          "w": 362,
+          "h": 362,
+          "anchorX": 917,
+          "anchorY": 1023
+        },
+        {
+          "x": 1086,
+          "y": 724,
+          "w": 362,
+          "h": 362,
+          "anchorX": 1281,
+          "anchorY": 1023
+        }
+      ],
+      "groundAnchorMethod": "Boot/talon pixel region measurement with full-sheet visual inspection. Phoenix tail and colored magic are excluded; cast/attack feet are not inferred from the full sprite bounding-box bottom.",
+      "visualInspection": "Canonical chibi humanoid: two arms/two legs, complete body and approved outfit/hair/colors; distinct ready/attack/cast silhouettes inspected.",
+      "boundaryVisibilityThreshold": 16,
+      "notes": "Regular 362px source cells. Ground baselines are measured, not the requested84% assumed; caster effects remain isolated."
+    },
+    {
+      "path": "/assets/v39/autochess/pieces/umbra.png",
+      "width": 1448,
+      "height": 1086,
+      "bytes": 1491940,
+      "sha256": "1e2d2b71a31f16b9e784e29a75beababe212af57cdac1857145954712be3f63a",
+      "alpha": {
+        "zero": 1052584,
+        "opaque": 734,
+        "total": 1572528,
+        "corners": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "columns": 4,
+      "rows": 3,
+      "cells": [
+        {
+          "index": 0,
+          "crop": [
+            0,
+            0,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            88,
+            83,
+            186,
+            263
+          ],
+          "visiblePixels": 28685,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "aeb6a8d86aed4ca5f7afcbc761d01d0565556d33a3b60046409719f666b13cfa"
+        },
+        {
+          "index": 1,
+          "crop": [
+            362,
+            0,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            451,
+            78,
+            181,
+            269
+          ],
+          "visiblePixels": 28939,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "ef5c6d458b8440ebb527bff71c72019eeb7b1ba60da5624b5179e462847d3cf3"
+        },
+        {
+          "index": 2,
+          "crop": [
+            724,
+            0,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            808,
+            78,
+            184,
+            269
+          ],
+          "visiblePixels": 30033,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "95c0d294bc6968f44e658c074f9c0173215432753f9be6b84cd910cec8ee695d"
+        },
+        {
+          "index": 3,
+          "crop": [
+            1086,
+            0,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            1164,
+            83,
+            190,
+            263
+          ],
+          "visiblePixels": 28646,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 0,
+          "pixelHash": "32d034c42241c64c663307d4faff7a2aff7727969880c1a13c2148e5c85b47ef"
+        },
+        {
+          "index": 4,
+          "crop": [
+            0,
+            362,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            70,
+            440,
+            209,
+            245
+          ],
+          "visiblePixels": 28597,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "90809f798cb4a8ba0bfebb0dd76139bb27c3c117b8454b7141dc228b829e2f22"
+        },
+        {
+          "index": 5,
+          "crop": [
+            362,
+            362,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            425,
+            440,
+            275,
+            245
+          ],
+          "visiblePixels": 37539,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "f1b7ba3f7d11b87c90c7725231add8adabc77a4c328cf184b8eda35b594b5d20"
+        },
+        {
+          "index": 6,
+          "crop": [
+            724,
+            362,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            791,
+            434,
+            265,
+            251
+          ],
+          "visiblePixels": 39165,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "f4985d9c34b098a7d9ea3fdfc3b8d2bd7b8d58492d7ad6d6cd2822e013c9f997"
+        },
+        {
+          "index": 7,
+          "crop": [
+            1086,
+            362,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            1161,
+            437,
+            210,
+            249
+          ],
+          "visiblePixels": 29092,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "598fd03b0354638701a8666ad436309d9a33bb43cae79b9a9c915c62a68ea2ba"
+        },
+        {
+          "index": 8,
+          "crop": [
+            0,
+            724,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            69,
+            775,
+            219,
+            253
+          ],
+          "visiblePixels": 31492,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 0,
+          "pixelHash": "a52e95931edd7f41f7968b1d4118fe050bc35a3eb14dcdb4eb0ce99efc51330d"
+        },
+        {
+          "index": 9,
+          "crop": [
+            362,
+            724,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            426,
+            777,
+            231,
+            252
+          ],
+          "visiblePixels": 33271,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "12127ea18d762530db3cd6ffd2d0bc9fbd94a0175c70b8910ff699dd05543c61"
+        },
+        {
+          "index": 10,
+          "crop": [
+            724,
+            724,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            798,
+            764,
+            258,
+            268
+          ],
+          "visiblePixels": 48793,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "28dc25574a42db5d4d89afb3b5d6d1d2f743d935fe57a55926290410925316d5"
+        },
+        {
+          "index": 11,
+          "crop": [
+            1086,
+            724,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            1161,
+            784,
+            225,
+            246
+          ],
+          "visiblePixels": 27868,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "a5e3b0c07a5cb023189675d98bac4ef3da3bf415ea3f7232483bc06391a03e35"
+        }
+      ],
+      "generatedSource": "C:\\Users\\Diego\\.codex\\generated_images\\01a12db1-1d3c-7e13-a813-9d63c6193b61\\exec-18964948-c36d-4ef8-9dce-7218834c7f61.png",
+      "canonicalReference": "/assets/v31/companions/umbra/fullbody.png",
+      "nativeBytesPreserved": true,
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 362,
+          "h": 362,
+          "anchorX": 183,
+          "anchorY": 345
+        },
+        {
+          "x": 362,
+          "y": 0,
+          "w": 362,
+          "h": 362,
+          "anchorX": 551.5,
+          "anchorY": 345
+        },
+        {
+          "x": 724,
+          "y": 0,
+          "w": 362,
+          "h": 362,
+          "anchorX": 911,
+          "anchorY": 345
+        },
+        {
+          "x": 1086,
+          "y": 0,
+          "w": 362,
+          "h": 362,
+          "anchorX": 1273,
+          "anchorY": 344
+        },
+        {
+          "x": 0,
+          "y": 362,
+          "w": 362,
+          "h": 362,
+          "anchorX": 173.5,
+          "anchorY": 684
+        },
+        {
+          "x": 362,
+          "y": 362,
+          "w": 362,
+          "h": 362,
+          "anchorX": 503.5,
+          "anchorY": 684
+        },
+        {
+          "x": 724,
+          "y": 362,
+          "w": 362,
+          "h": 362,
+          "anchorX": 904.5,
+          "anchorY": 684
+        },
+        {
+          "x": 1086,
+          "y": 362,
+          "w": 362,
+          "h": 362,
+          "anchorX": 1282,
+          "anchorY": 685
+        },
+        {
+          "x": 0,
+          "y": 724,
+          "w": 362,
+          "h": 362,
+          "anchorX": 192,
+          "anchorY": 1026
+        },
+        {
+          "x": 362,
+          "y": 724,
+          "w": 362,
+          "h": 362,
+          "anchorX": 540.5,
+          "anchorY": 1027
+        },
+        {
+          "x": 724,
+          "y": 724,
+          "w": 362,
+          "h": 362,
+          "anchorX": 904.5,
+          "anchorY": 1031
+        },
+        {
+          "x": 1086,
+          "y": 724,
+          "w": 362,
+          "h": 362,
+          "anchorX": 1252.5,
+          "anchorY": 1028
+        }
+      ],
+      "groundAnchorMethod": "Boot/talon pixel region measurement with full-sheet visual inspection. Phoenix tail and colored magic are excluded; cast/attack feet are not inferred from the full sprite bounding-box bottom.",
+      "visualInspection": "Canonical chibi humanoid: two arms/two legs, complete body and approved outfit/hair/colors; distinct ready/attack/cast silhouettes inspected.",
+      "boundaryVisibilityThreshold": 16,
+      "notes": "Regular 362px source cells. Ground baselines are measured, not the requested84% assumed; caster effects remain isolated."
+    },
+    {
+      "path": "/assets/v39/autochess/pieces/vajra.png",
+      "width": 1448,
+      "height": 1086,
+      "bytes": 1404052,
+      "sha256": "66e7aa510dff741081894a3400843ea625d13e581aa7b1750d750e700a1890d0",
+      "alpha": {
+        "zero": 1074141,
+        "opaque": 660,
+        "total": 1572528,
+        "corners": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "columns": 4,
+      "rows": 3,
+      "cells": [
+        {
+          "index": 0,
+          "crop": [
+            0,
+            0,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            95,
+            98,
+            184,
+            255
+          ],
+          "visiblePixels": 27499,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "a1cb991c60cf99b73fa4ce06d0849e385684481caf5e5bb76202c5447b081738"
+        },
+        {
+          "index": 1,
+          "crop": [
+            362,
+            0,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            464,
+            98,
+            178,
+            256
+          ],
+          "visiblePixels": 26892,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "58925a89b149d7a08b2343be9e79616ea130383282f308211b2b1decda50f4f8"
+        },
+        {
+          "index": 2,
+          "crop": [
+            724,
+            0,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            798,
+            97,
+            198,
+            256
+          ],
+          "visiblePixels": 28518,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "cadb39901a3727882c87f90fb4d2f73306946a045fb667cbb6c26a2b225934ca"
+        },
+        {
+          "index": 3,
+          "crop": [
+            1086,
+            0,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            1153,
+            107,
+            206,
+            246
+          ],
+          "visiblePixels": 28564,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "67bc8ff5945471c92d15f696f0a45913ec7b92ef2869cd7abe1109ed0c7d2997"
+        },
+        {
+          "index": 4,
+          "crop": [
+            0,
+            362,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            74,
+            463,
+            214,
+            241
+          ],
+          "visiblePixels": 30437,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "ee6c7494e58c813bf3fad6b345ef3fc5cf0353ef1e15b342b5703d59967187ba"
+        },
+        {
+          "index": 5,
+          "crop": [
+            362,
+            362,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            432,
+            464,
+            261,
+            239
+          ],
+          "visiblePixels": 35342,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "1ce5bced8282820d4a560cff4116a3aebd524c494260d1a6908d7775061d6937"
+        },
+        {
+          "index": 6,
+          "crop": [
+            724,
+            362,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            796,
+            466,
+            252,
+            238
+          ],
+          "visiblePixels": 36441,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "0bb3ff25063fe645f728ecd342d09fb0b66a586a5d187dff231356ec688cf951"
+        },
+        {
+          "index": 7,
+          "crop": [
+            1086,
+            362,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            1162,
+            469,
+            215,
+            235
+          ],
+          "visiblePixels": 27912,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "84076493fbf6fa21d51554cd1649cac1683ac47dbfd9c2c108aba6cb471cbc13"
+        },
+        {
+          "index": 8,
+          "crop": [
+            0,
+            724,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            78,
+            799,
+            204,
+            239
+          ],
+          "visiblePixels": 34315,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "64f8c48ec62037cc90ca7f08e5fed68ca28698568abfc1b2d8ebad71907d7f8e"
+        },
+        {
+          "index": 9,
+          "crop": [
+            362,
+            724,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            443,
+            798,
+            230,
+            240
+          ],
+          "visiblePixels": 35308,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "92b265856395ca49058f165be31d732eec0b36f50abf7a4eaae2ee9cf726a0b9"
+        },
+        {
+          "index": 10,
+          "crop": [
+            724,
+            724,
+            386,
+            362
+          ],
+          "visibleBounds": [
+            791,
+            799,
+            303,
+            239
+          ],
+          "visiblePixels": 40158,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "11094e74b2447534f9c77d05aed18f7c403f4ca607eba0fedc605c09c222d83b"
+        },
+        {
+          "index": 11,
+          "crop": [
+            1110,
+            724,
+            338,
+            362
+          ],
+          "visibleBounds": [
+            1175,
+            797,
+            208,
+            241
+          ],
+          "visiblePixels": 29911,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "e3e14fea3220c5f6810241208a7cdd52784160b6dfea661f245d981f9675be16"
+        }
+      ],
+      "generatedSource": "C:\\Users\\Diego\\.codex\\generated_images\\01a12db1-1d3c-7e13-a813-9d63c6193b61\\exec-22e49d6d-7c63-48f9-9fc0-917ff49950cb.png",
+      "canonicalReference": "/assets/v31/companions/vajra/fullbody.png",
+      "nativeBytesPreserved": true,
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 362,
+          "h": 362,
+          "anchorX": 175.5,
+          "anchorY": 347
+        },
+        {
+          "x": 362,
+          "y": 0,
+          "w": 362,
+          "h": 362,
+          "anchorX": 551.5,
+          "anchorY": 347
+        },
+        {
+          "x": 724,
+          "y": 0,
+          "w": 362,
+          "h": 362,
+          "anchorX": 895,
+          "anchorY": 347
+        },
+        {
+          "x": 1086,
+          "y": 0,
+          "w": 362,
+          "h": 362,
+          "anchorX": 1260,
+          "anchorY": 347
+        },
+        {
+          "x": 0,
+          "y": 362,
+          "w": 362,
+          "h": 362,
+          "anchorX": 181.5,
+          "anchorY": 703
+        },
+        {
+          "x": 362,
+          "y": 362,
+          "w": 362,
+          "h": 362,
+          "anchorX": 534,
+          "anchorY": 702
+        },
+        {
+          "x": 724,
+          "y": 362,
+          "w": 362,
+          "h": 362,
+          "anchorX": 899,
+          "anchorY": 702
+        },
+        {
+          "x": 1086,
+          "y": 362,
+          "w": 362,
+          "h": 362,
+          "anchorX": 1274.5,
+          "anchorY": 703
+        },
+        {
+          "x": 0,
+          "y": 724,
+          "w": 362,
+          "h": 362,
+          "anchorX": 177.5,
+          "anchorY": 1037
+        },
+        {
+          "x": 362,
+          "y": 724,
+          "w": 362,
+          "h": 362,
+          "anchorX": 539.5,
+          "anchorY": 1036
+        },
+        {
+          "x": 724,
+          "y": 724,
+          "w": 386,
+          "h": 362,
+          "anchorX": 872,
+          "anchorY": 1036
+        },
+        {
+          "x": 1110,
+          "y": 724,
+          "w": 338,
+          "h": 362,
+          "anchorX": 1275.5,
+          "anchorY": 1036
+        }
+      ],
+      "groundAnchorMethod": "Boot/talon pixel region measurement with full-sheet visual inspection. Phoenix tail and colored magic are excluded; cast/attack feet are not inferred from the full sprite bounding-box bottom.",
+      "visualInspection": "Canonical chibi humanoid: two arms/two legs, complete body and approved outfit/hair/colors; distinct ready/attack/cast silhouettes inspected.",
+      "boundaryVisibilityThreshold": 16,
+      "notes": "Peak cast nails extend into clear gutter beyond uniform x1086. Measured boundary x1110 keeps all three nails in frame10 and excludes them from frame11. No raster edits performed."
+    },
+    {
+      "path": "/assets/v39/autochess/pieces/dante.png",
+      "width": 1448,
+      "height": 1086,
+      "bytes": 1431694,
+      "sha256": "bd44c50cf80649dd4fcafd5cf147d2ca785a848ed8c492e394f353de39b56ca8",
+      "alpha": {
+        "zero": 961542,
+        "opaque": 154,
+        "total": 1572528,
+        "corners": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "columns": 4,
+      "rows": 3,
+      "cells": [
+        {
+          "index": 0,
+          "crop": [
+            0,
+            0,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            88,
+            82,
+            237,
+            251
+          ],
+          "visiblePixels": 38196,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "3c0c97dea87cb0df5ba7f8e314573234ac7fe7fb7c92ebae6af9c06c6588d1d7"
+        },
+        {
+          "index": 1,
+          "crop": [
+            362,
+            0,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            447,
+            93,
+            226,
+            239
+          ],
+          "visiblePixels": 36414,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "76acda6b678135e878de8babec8f2dddfbf7fe723f6db0ccceaac7cfa3f1846a"
+        },
+        {
+          "index": 2,
+          "crop": [
+            724,
+            0,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            806,
+            98,
+            214,
+            234
+          ],
+          "visiblePixels": 33736,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "4944d2e52c7ff21ba1ca5af6ee8578eadadc5de01937516a080df63769460ef3"
+        },
+        {
+          "index": 3,
+          "crop": [
+            1086,
+            0,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            1148,
+            85,
+            235,
+            244
+          ],
+          "visiblePixels": 37809,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "959aa3a307b0f65d9df6969d2acf06eabda047d38dfd98e7b6dcb4be005bf0fb"
+        },
+        {
+          "index": 4,
+          "crop": [
+            0,
+            362,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            82,
+            438,
+            237,
+            229
+          ],
+          "visiblePixels": 32455,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "caf7179f076e71a616fde0dabef89b02eb51066907491440eb0de24d7b8dcd09"
+        },
+        {
+          "index": 5,
+          "crop": [
+            362,
+            362,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            440,
+            441,
+            249,
+            215
+          ],
+          "visiblePixels": 33768,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "7a51d9104234aac8f423da0709897fd6dd898d24255193eed3bab1295bd3085f"
+        },
+        {
+          "index": 6,
+          "crop": [
+            724,
+            362,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            793,
+            441,
+            244,
+            226
+          ],
+          "visiblePixels": 38862,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "8269eca8bc3c024e6bef1e749efd59c4c991f373a485c96e3b677d4495c6778f"
+        },
+        {
+          "index": 7,
+          "crop": [
+            1086,
+            362,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            1147,
+            450,
+            235,
+            218
+          ],
+          "visiblePixels": 35818,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "956a8c9ae6b6c190374bfb56cd35d2f4021ac216a459daac2d4d828314023073"
+        },
+        {
+          "index": 8,
+          "crop": [
+            0,
+            724,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            84,
+            774,
+            239,
+            233
+          ],
+          "visiblePixels": 42804,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "82cc3e76316e73ba6329900cda8983882136a686ddc3cc167078b9cc2619d474"
+        },
+        {
+          "index": 9,
+          "crop": [
+            362,
+            724,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            444,
+            776,
+            238,
+            229
+          ],
+          "visiblePixels": 41127,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "440840198ee288bd2ea8670688e95717b07a54b7d1f162e50109c80087604469"
+        },
+        {
+          "index": 10,
+          "crop": [
+            724,
+            724,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            788,
+            761,
+            256,
+            248
+          ],
+          "visiblePixels": 44963,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "4b0d18a718bcf4c2f86f8e5bb30fb09393fb6ba369805b48697d0ff9e3c5f2fc"
+        },
+        {
+          "index": 11,
+          "crop": [
+            1086,
+            724,
+            362,
+            362
+          ],
+          "visibleBounds": [
+            1167,
+            783,
+            211,
+            222
+          ],
+          "visiblePixels": 30467,
+          "edgePixels": 0,
+          "edgeMaxAlpha": 1,
+          "pixelHash": "52ed5efe76bc0487f287bc784142a9258c8c30191a7975d4bc63d903aa87b586"
+        }
+      ],
+      "generatedSource": "C:\\Users\\Diego\\.codex\\generated_images\\01a12db1-1d3c-7e13-a813-9d63c6193b61\\exec-4f7e1c7d-8c48-4c22-915d-995d895d204f.png",
+      "canonicalReference": "/assets/v31/companions/dante/fullbody.png",
+      "nativeBytesPreserved": true,
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 362,
+          "h": 362,
+          "anchorX": 194.5,
+          "anchorY": 331
+        },
+        {
+          "x": 362,
+          "y": 0,
+          "w": 362,
+          "h": 362,
+          "anchorX": 553.5,
+          "anchorY": 330
+        },
+        {
+          "x": 724,
+          "y": 0,
+          "w": 362,
+          "h": 362,
+          "anchorX": 906.5,
+          "anchorY": 330
+        },
+        {
+          "x": 1086,
+          "y": 0,
+          "w": 362,
+          "h": 362,
+          "anchorX": 1277.5,
+          "anchorY": 327
+        },
+        {
+          "x": 0,
+          "y": 362,
+          "w": 362,
+          "h": 362,
+          "anchorX": 205.5,
+          "anchorY": 665
+        },
+        {
+          "x": 362,
+          "y": 362,
+          "w": 362,
+          "h": 362,
+          "anchorX": 613,
+          "anchorY": 650
+        },
+        {
+          "x": 724,
+          "y": 362,
+          "w": 362,
+          "h": 362,
+          "anchorX": 936,
+          "anchorY": 665
+        },
+        {
+          "x": 1086,
+          "y": 362,
+          "w": 362,
+          "h": 362,
+          "anchorX": 1287.5,
+          "anchorY": 666
+        },
+        {
+          "x": 0,
+          "y": 724,
+          "w": 362,
+          "h": 362,
+          "anchorX": 201,
+          "anchorY": 982
+        },
+        {
+          "x": 362,
+          "y": 724,
+          "w": 362,
+          "h": 362,
+          "anchorX": 556.5,
+          "anchorY": 984
+        },
+        {
+          "x": 724,
+          "y": 724,
+          "w": 362,
+          "h": 362,
+          "anchorX": 923.5,
+          "anchorY": 985
+        },
+        {
+          "x": 1086,
+          "y": 724,
+          "w": 362,
+          "h": 362,
+          "anchorX": 1283.5,
+          "anchorY": 997
+        }
+      ],
+      "groundAnchorMethod": "Boot/talon pixel region measurement with full-sheet visual inspection. Phoenix tail and colored magic are excluded; cast/attack feet are not inferred from the full sprite bounding-box bottom.",
+      "visualInspection": "Canonical phoenix: one head, two wings, two bird legs; rejected extra chest claws removed in builtin edit. Original ruby chest ornament/red-gold plumage retained.",
+      "boundaryVisibilityThreshold": 16,
+      "notes": "Regular 362px source cells. Ground baselines are measured, not the requested84% assumed; caster effects remain isolated."
+    }
+  ]
+}

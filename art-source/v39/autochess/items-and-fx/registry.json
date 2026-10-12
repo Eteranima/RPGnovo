@@ -1,0 +1,863 @@
+{
+  "items": {
+    "blade": {
+      "src": "/assets/v39/autochess/items-and-fx/items.png",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "w": 280,
+        "h": 280,
+        "anchorX": 140,
+        "anchorY": 140
+      },
+      "sheetWidth": 1122,
+      "sheetHeight": 1402
+    },
+    "orb": {
+      "src": "/assets/v39/autochess/items-and-fx/items.png",
+      "crop": {
+        "x": 280,
+        "y": 0,
+        "w": 281,
+        "h": 280,
+        "anchorX": 420.5,
+        "anchorY": 140
+      },
+      "sheetWidth": 1122,
+      "sheetHeight": 1402
+    },
+    "cloak": {
+      "src": "/assets/v39/autochess/items-and-fx/items.png",
+      "crop": {
+        "x": 561,
+        "y": 0,
+        "w": 280,
+        "h": 280,
+        "anchorX": 701,
+        "anchorY": 140
+      },
+      "sheetWidth": 1122,
+      "sheetHeight": 1402
+    },
+    "core": {
+      "src": "/assets/v39/autochess/items-and-fx/items.png",
+      "crop": {
+        "x": 841,
+        "y": 0,
+        "w": 281,
+        "h": 280,
+        "anchorX": 981.5,
+        "anchorY": 140
+      },
+      "sheetWidth": 1122,
+      "sheetHeight": 1402
+    },
+    "sigil": {
+      "src": "/assets/v39/autochess/items-and-fx/items.png",
+      "crop": {
+        "x": 0,
+        "y": 280,
+        "w": 280,
+        "h": 265,
+        "anchorX": 140,
+        "anchorY": 412.5
+      },
+      "sheetWidth": 1122,
+      "sheetHeight": 1402
+    },
+    "blade-blade": {
+      "src": "/assets/v39/autochess/items-and-fx/items.png",
+      "crop": {
+        "x": 280,
+        "y": 280,
+        "w": 281,
+        "h": 265,
+        "anchorX": 420.5,
+        "anchorY": 412.5
+      },
+      "sheetWidth": 1122,
+      "sheetHeight": 1402
+    },
+    "blade-orb": {
+      "src": "/assets/v39/autochess/items-and-fx/items.png",
+      "crop": {
+        "x": 561,
+        "y": 280,
+        "w": 280,
+        "h": 265,
+        "anchorX": 701,
+        "anchorY": 412.5
+      },
+      "sheetWidth": 1122,
+      "sheetHeight": 1402
+    },
+    "blade-cloak": {
+      "src": "/assets/v39/autochess/items-and-fx/items.png",
+      "crop": {
+        "x": 841,
+        "y": 280,
+        "w": 281,
+        "h": 265,
+        "anchorX": 981.5,
+        "anchorY": 412.5
+      },
+      "sheetWidth": 1122,
+      "sheetHeight": 1402
+    },
+    "blade-core": {
+      "src": "/assets/v39/autochess/items-and-fx/items.png",
+      "crop": {
+        "x": 0,
+        "y": 545,
+        "w": 280,
+        "h": 265,
+        "anchorX": 140,
+        "anchorY": 677.5
+      },
+      "sheetWidth": 1122,
+      "sheetHeight": 1402
+    },
+    "blade-sigil": {
+      "src": "/assets/v39/autochess/items-and-fx/items.png",
+      "crop": {
+        "x": 280,
+        "y": 545,
+        "w": 281,
+        "h": 265,
+        "anchorX": 420.5,
+        "anchorY": 677.5
+      },
+      "sheetWidth": 1122,
+      "sheetHeight": 1402
+    },
+    "orb-orb": {
+      "src": "/assets/v39/autochess/items-and-fx/items.png",
+      "crop": {
+        "x": 561,
+        "y": 545,
+        "w": 280,
+        "h": 265,
+        "anchorX": 701,
+        "anchorY": 677.5
+      },
+      "sheetWidth": 1122,
+      "sheetHeight": 1402
+    },
+    "orb-cloak": {
+      "src": "/assets/v39/autochess/items-and-fx/items.png",
+      "crop": {
+        "x": 841,
+        "y": 545,
+        "w": 281,
+        "h": 265,
+        "anchorX": 981.5,
+        "anchorY": 677.5
+      },
+      "sheetWidth": 1122,
+      "sheetHeight": 1402
+    },
+    "orb-core": {
+      "src": "/assets/v39/autochess/items-and-fx/items.png",
+      "crop": {
+        "x": 0,
+        "y": 810,
+        "w": 280,
+        "h": 272,
+        "anchorX": 140,
+        "anchorY": 946
+      },
+      "sheetWidth": 1122,
+      "sheetHeight": 1402
+    },
+    "orb-sigil": {
+      "src": "/assets/v39/autochess/items-and-fx/items.png",
+      "crop": {
+        "x": 280,
+        "y": 810,
+        "w": 281,
+        "h": 272,
+        "anchorX": 420.5,
+        "anchorY": 946
+      },
+      "sheetWidth": 1122,
+      "sheetHeight": 1402
+    },
+    "cloak-cloak": {
+      "src": "/assets/v39/autochess/items-and-fx/items.png",
+      "crop": {
+        "x": 561,
+        "y": 810,
+        "w": 280,
+        "h": 272,
+        "anchorX": 701,
+        "anchorY": 946
+      },
+      "sheetWidth": 1122,
+      "sheetHeight": 1402
+    },
+    "cloak-core": {
+      "src": "/assets/v39/autochess/items-and-fx/items.png",
+      "crop": {
+        "x": 841,
+        "y": 810,
+        "w": 281,
+        "h": 272,
+        "anchorX": 981.5,
+        "anchorY": 946
+      },
+      "sheetWidth": 1122,
+      "sheetHeight": 1402
+    },
+    "cloak-sigil": {
+      "src": "/assets/v39/autochess/items-and-fx/items.png",
+      "crop": {
+        "x": 0,
+        "y": 1082,
+        "w": 280,
+        "h": 320,
+        "anchorX": 140,
+        "anchorY": 1242
+      },
+      "sheetWidth": 1122,
+      "sheetHeight": 1402
+    },
+    "core-core": {
+      "src": "/assets/v39/autochess/items-and-fx/items.png",
+      "crop": {
+        "x": 280,
+        "y": 1082,
+        "w": 281,
+        "h": 320,
+        "anchorX": 420.5,
+        "anchorY": 1242
+      },
+      "sheetWidth": 1122,
+      "sheetHeight": 1402
+    },
+    "core-sigil": {
+      "src": "/assets/v39/autochess/items-and-fx/items.png",
+      "crop": {
+        "x": 561,
+        "y": 1082,
+        "w": 280,
+        "h": 320,
+        "anchorX": 701,
+        "anchorY": 1242
+      },
+      "sheetWidth": 1122,
+      "sheetHeight": 1402
+    },
+    "sigil-sigil": {
+      "src": "/assets/v39/autochess/items-and-fx/items.png",
+      "crop": {
+        "x": 841,
+        "y": 1082,
+        "w": 281,
+        "h": 320,
+        "anchorX": 981.5,
+        "anchorY": 1242
+      },
+      "sheetWidth": 1122,
+      "sheetHeight": 1402
+    }
+  },
+  "effects": {
+    "fusion": {
+      "src": "/assets/v39/autochess/items-and-fx/fusion.png",
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 256,
+          "h": 256,
+          "anchorX": 128,
+          "anchorY": 128
+        },
+        {
+          "x": 256,
+          "y": 0,
+          "w": 256,
+          "h": 256,
+          "anchorX": 384,
+          "anchorY": 128
+        },
+        {
+          "x": 512,
+          "y": 0,
+          "w": 256,
+          "h": 256,
+          "anchorX": 640,
+          "anchorY": 128
+        },
+        {
+          "x": 768,
+          "y": 0,
+          "w": 256,
+          "h": 256,
+          "anchorX": 896,
+          "anchorY": 128
+        },
+        {
+          "x": 1024,
+          "y": 0,
+          "w": 256,
+          "h": 256,
+          "anchorX": 1152,
+          "anchorY": 128
+        },
+        {
+          "x": 1280,
+          "y": 0,
+          "w": 256,
+          "h": 256,
+          "anchorX": 1408,
+          "anchorY": 128
+        },
+        {
+          "x": 0,
+          "y": 256,
+          "w": 256,
+          "h": 256,
+          "anchorX": 128,
+          "anchorY": 384
+        },
+        {
+          "x": 256,
+          "y": 256,
+          "w": 256,
+          "h": 256,
+          "anchorX": 384,
+          "anchorY": 384
+        },
+        {
+          "x": 512,
+          "y": 256,
+          "w": 256,
+          "h": 256,
+          "anchorX": 640,
+          "anchorY": 384
+        },
+        {
+          "x": 768,
+          "y": 256,
+          "w": 256,
+          "h": 256,
+          "anchorX": 896,
+          "anchorY": 384
+        },
+        {
+          "x": 1024,
+          "y": 256,
+          "w": 256,
+          "h": 256,
+          "anchorX": 1152,
+          "anchorY": 384
+        },
+        {
+          "x": 1280,
+          "y": 256,
+          "w": 256,
+          "h": 256,
+          "anchorX": 1408,
+          "anchorY": 384
+        },
+        {
+          "x": 0,
+          "y": 512,
+          "w": 256,
+          "h": 256,
+          "anchorX": 128,
+          "anchorY": 640
+        },
+        {
+          "x": 256,
+          "y": 512,
+          "w": 256,
+          "h": 256,
+          "anchorX": 384,
+          "anchorY": 640
+        },
+        {
+          "x": 512,
+          "y": 512,
+          "w": 256,
+          "h": 256,
+          "anchorX": 640,
+          "anchorY": 640
+        },
+        {
+          "x": 768,
+          "y": 512,
+          "w": 256,
+          "h": 256,
+          "anchorX": 896,
+          "anchorY": 640
+        },
+        {
+          "x": 1024,
+          "y": 512,
+          "w": 256,
+          "h": 256,
+          "anchorX": 1152,
+          "anchorY": 640
+        },
+        {
+          "x": 1280,
+          "y": 512,
+          "w": 256,
+          "h": 256,
+          "anchorX": 1408,
+          "anchorY": 640
+        },
+        {
+          "x": 0,
+          "y": 768,
+          "w": 256,
+          "h": 256,
+          "anchorX": 128,
+          "anchorY": 896
+        },
+        {
+          "x": 256,
+          "y": 768,
+          "w": 256,
+          "h": 256,
+          "anchorX": 384,
+          "anchorY": 896
+        },
+        {
+          "x": 512,
+          "y": 768,
+          "w": 256,
+          "h": 256,
+          "anchorX": 640,
+          "anchorY": 896
+        },
+        {
+          "x": 768,
+          "y": 768,
+          "w": 256,
+          "h": 256,
+          "anchorX": 896,
+          "anchorY": 896
+        },
+        {
+          "x": 1024,
+          "y": 768,
+          "w": 256,
+          "h": 256,
+          "anchorX": 1152,
+          "anchorY": 896
+        },
+        {
+          "x": 1280,
+          "y": 768,
+          "w": 256,
+          "h": 256,
+          "anchorX": 1408,
+          "anchorY": 896
+        }
+      ],
+      "sheetWidth": 1536,
+      "sheetHeight": 1024
+    },
+    "craft": {
+      "src": "/assets/v39/autochess/items-and-fx/craft.png",
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 256,
+          "h": 256,
+          "anchorX": 128,
+          "anchorY": 128
+        },
+        {
+          "x": 256,
+          "y": 0,
+          "w": 256,
+          "h": 256,
+          "anchorX": 384,
+          "anchorY": 128
+        },
+        {
+          "x": 512,
+          "y": 0,
+          "w": 256,
+          "h": 256,
+          "anchorX": 640,
+          "anchorY": 128
+        },
+        {
+          "x": 768,
+          "y": 0,
+          "w": 256,
+          "h": 256,
+          "anchorX": 896,
+          "anchorY": 128
+        },
+        {
+          "x": 1024,
+          "y": 0,
+          "w": 256,
+          "h": 256,
+          "anchorX": 1152,
+          "anchorY": 128
+        },
+        {
+          "x": 1280,
+          "y": 0,
+          "w": 256,
+          "h": 256,
+          "anchorX": 1408,
+          "anchorY": 128
+        },
+        {
+          "x": 0,
+          "y": 256,
+          "w": 256,
+          "h": 256,
+          "anchorX": 128,
+          "anchorY": 384
+        },
+        {
+          "x": 256,
+          "y": 256,
+          "w": 256,
+          "h": 256,
+          "anchorX": 384,
+          "anchorY": 384
+        },
+        {
+          "x": 512,
+          "y": 256,
+          "w": 256,
+          "h": 256,
+          "anchorX": 640,
+          "anchorY": 384
+        },
+        {
+          "x": 768,
+          "y": 256,
+          "w": 256,
+          "h": 256,
+          "anchorX": 896,
+          "anchorY": 384
+        },
+        {
+          "x": 1024,
+          "y": 256,
+          "w": 256,
+          "h": 256,
+          "anchorX": 1152,
+          "anchorY": 384
+        },
+        {
+          "x": 1280,
+          "y": 256,
+          "w": 256,
+          "h": 256,
+          "anchorX": 1408,
+          "anchorY": 384
+        },
+        {
+          "x": 0,
+          "y": 512,
+          "w": 256,
+          "h": 256,
+          "anchorX": 128,
+          "anchorY": 640
+        },
+        {
+          "x": 256,
+          "y": 512,
+          "w": 256,
+          "h": 256,
+          "anchorX": 384,
+          "anchorY": 640
+        },
+        {
+          "x": 512,
+          "y": 512,
+          "w": 256,
+          "h": 256,
+          "anchorX": 640,
+          "anchorY": 640
+        },
+        {
+          "x": 768,
+          "y": 512,
+          "w": 256,
+          "h": 256,
+          "anchorX": 896,
+          "anchorY": 640
+        },
+        {
+          "x": 1024,
+          "y": 512,
+          "w": 256,
+          "h": 256,
+          "anchorX": 1152,
+          "anchorY": 640
+        },
+        {
+          "x": 1280,
+          "y": 512,
+          "w": 256,
+          "h": 256,
+          "anchorX": 1408,
+          "anchorY": 640
+        },
+        {
+          "x": 0,
+          "y": 768,
+          "w": 256,
+          "h": 256,
+          "anchorX": 128,
+          "anchorY": 896
+        },
+        {
+          "x": 256,
+          "y": 768,
+          "w": 256,
+          "h": 256,
+          "anchorX": 384,
+          "anchorY": 896
+        },
+        {
+          "x": 512,
+          "y": 768,
+          "w": 256,
+          "h": 256,
+          "anchorX": 640,
+          "anchorY": 896
+        },
+        {
+          "x": 768,
+          "y": 768,
+          "w": 256,
+          "h": 256,
+          "anchorX": 896,
+          "anchorY": 896
+        },
+        {
+          "x": 1024,
+          "y": 768,
+          "w": 256,
+          "h": 256,
+          "anchorX": 1152,
+          "anchorY": 896
+        },
+        {
+          "x": 1280,
+          "y": 768,
+          "w": 256,
+          "h": 256,
+          "anchorX": 1408,
+          "anchorY": 896
+        }
+      ],
+      "sheetWidth": 1536,
+      "sheetHeight": 1024
+    },
+    "victory": {
+      "src": "/assets/v39/autochess/items-and-fx/victory.png",
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 256,
+          "h": 256,
+          "anchorX": 128,
+          "anchorY": 128
+        },
+        {
+          "x": 256,
+          "y": 0,
+          "w": 256,
+          "h": 256,
+          "anchorX": 384,
+          "anchorY": 128
+        },
+        {
+          "x": 512,
+          "y": 0,
+          "w": 256,
+          "h": 256,
+          "anchorX": 640,
+          "anchorY": 128
+        },
+        {
+          "x": 768,
+          "y": 0,
+          "w": 256,
+          "h": 256,
+          "anchorX": 896,
+          "anchorY": 128
+        },
+        {
+          "x": 1024,
+          "y": 0,
+          "w": 256,
+          "h": 256,
+          "anchorX": 1152,
+          "anchorY": 128
+        },
+        {
+          "x": 1280,
+          "y": 0,
+          "w": 256,
+          "h": 256,
+          "anchorX": 1408,
+          "anchorY": 128
+        },
+        {
+          "x": 0,
+          "y": 256,
+          "w": 256,
+          "h": 256,
+          "anchorX": 128,
+          "anchorY": 384
+        },
+        {
+          "x": 256,
+          "y": 256,
+          "w": 256,
+          "h": 256,
+          "anchorX": 384,
+          "anchorY": 384
+        },
+        {
+          "x": 512,
+          "y": 256,
+          "w": 256,
+          "h": 256,
+          "anchorX": 640,
+          "anchorY": 384
+        },
+        {
+          "x": 768,
+          "y": 256,
+          "w": 256,
+          "h": 256,
+          "anchorX": 896,
+          "anchorY": 384
+        },
+        {
+          "x": 1024,
+          "y": 256,
+          "w": 256,
+          "h": 256,
+          "anchorX": 1152,
+          "anchorY": 384
+        },
+        {
+          "x": 1280,
+          "y": 256,
+          "w": 256,
+          "h": 256,
+          "anchorX": 1408,
+          "anchorY": 384
+        },
+        {
+          "x": 0,
+          "y": 512,
+          "w": 256,
+          "h": 256,
+          "anchorX": 128,
+          "anchorY": 640
+        },
+        {
+          "x": 256,
+          "y": 512,
+          "w": 256,
+          "h": 256,
+          "anchorX": 384,
+          "anchorY": 640
+        },
+        {
+          "x": 512,
+          "y": 512,
+          "w": 256,
+          "h": 256,
+          "anchorX": 640,
+          "anchorY": 640
+        },
+        {
+          "x": 768,
+          "y": 512,
+          "w": 256,
+          "h": 256,
+          "anchorX": 896,
+          "anchorY": 640
+        },
+        {
+          "x": 1024,
+          "y": 512,
+          "w": 256,
+          "h": 256,
+          "anchorX": 1152,
+          "anchorY": 640
+        },
+        {
+          "x": 1280,
+          "y": 512,
+          "w": 256,
+          "h": 256,
+          "anchorX": 1408,
+          "anchorY": 640
+        },
+        {
+          "x": 0,
+          "y": 768,
+          "w": 256,
+          "h": 256,
+          "anchorX": 128,
+          "anchorY": 896
+        },
+        {
+          "x": 256,
+          "y": 768,
+          "w": 256,
+          "h": 256,
+          "anchorX": 384,
+          "anchorY": 896
+        },
+        {
+          "x": 512,
+          "y": 768,
+          "w": 256,
+          "h": 256,
+          "anchorX": 640,
+          "anchorY": 896
+        },
+        {
+          "x": 768,
+          "y": 768,
+          "w": 256,
+          "h": 256,
+          "anchorX": 896,
+          "anchorY": 896
+        },
+        {
+          "x": 1024,
+          "y": 768,
+          "w": 256,
+          "h": 256,
+          "anchorX": 1152,
+          "anchorY": 896
+        },
+        {
+          "x": 1280,
+          "y": 768,
+          "w": 256,
+          "h": 256,
+          "anchorX": 1408,
+          "anchorY": 896
+        }
+      ],
+      "sheetWidth": 1536,
+      "sheetHeight": 1024
+    }
+  }
+}

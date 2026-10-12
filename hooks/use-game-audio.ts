@@ -14,7 +14,7 @@ export function useGameAudio(engine:GameEngine,s:Snapshot,opening=false){
   director.current=audio.director;
   return()=>{audio.dispose();if(director.current===audio.director)director.current=null;};
  },[engine]);
- useEffect(()=>{director.current?.request(musicFor(s));},[s.mode,s.map,s.battle?.boss,s.cutscene?.id]);
+ useEffect(()=>{director.current?.request(musicFor(s));},[s.mode,s.map,s.battle?.boss,s.cutscene?.id,s.autoChessSessionV39?.token]);
  useEffect(()=>{if(opening)director.current?.beginOpening();else director.current?.endOpening();},[opening]);
  const setEnabled=useCallback((enabled:boolean)=>setGameSound(engine,director.current,enabled,setSound),[engine]);
  const toggle=useCallback(()=>setEnabled(!director.current?.enabled),[setEnabled]);

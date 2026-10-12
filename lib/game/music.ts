@@ -8,7 +8,8 @@ export const MUSIC={
  boss:{name:'Boss Theme',src:'/assets/music/boss-theme.mp3'}
 } as const;
 export type TrackId=keyof typeof MUSIC;
-export function musicFor(s:{mode:string;map:MapId;battle?:{boss:boolean}|null;cutscene?:{id:string}|null}):TrackId{
+export function musicFor(s:{mode:string;map:MapId;battle?:{boss:boolean}|null;cutscene?:{id:string}|null;autoChessSessionV39?:{token:number}|null}):TrackId{
+ if(s.autoChessSessionV39)return 'battle';
  if(s.mode==='start'||s.mode==='selection')return 'start';
  if(s.mode==='battle')return s.battle?.boss?'boss':'battle';
  if(s.mode==='cutscene'&&['awakening','echo-awakening','cinder-awakening'].includes(s.cutscene?.id||''))return 'boss';

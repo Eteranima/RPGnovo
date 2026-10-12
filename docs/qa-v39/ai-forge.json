@@ -1,0 +1,249 @@
+{
+  "date": "2026-10-11",
+  "checks": 238,
+  "seed": 41,
+  "rounds": [
+    {
+      "round": 1,
+      "rivals": [
+        {
+          "id": "p1",
+          "recipes": [],
+          "components": [
+            "orb"
+          ],
+          "earned": 1,
+          "represented": 1,
+          "gold": 0
+        },
+        {
+          "id": "p2",
+          "recipes": [],
+          "components": [
+            "cloak"
+          ],
+          "earned": 1,
+          "represented": 1,
+          "gold": 0
+        },
+        {
+          "id": "p3",
+          "recipes": [],
+          "components": [
+            "core"
+          ],
+          "earned": 1,
+          "represented": 1,
+          "gold": 0
+        },
+        {
+          "id": "p4",
+          "recipes": [],
+          "components": [
+            "sigil"
+          ],
+          "earned": 1,
+          "represented": 1,
+          "gold": 0
+        },
+        {
+          "id": "p5",
+          "recipes": [],
+          "components": [
+            "blade"
+          ],
+          "earned": 1,
+          "represented": 1,
+          "gold": 0
+        },
+        {
+          "id": "p6",
+          "recipes": [],
+          "components": [
+            "orb"
+          ],
+          "earned": 1,
+          "represented": 1,
+          "gold": 0
+        },
+        {
+          "id": "p7",
+          "recipes": [],
+          "components": [
+            "cloak"
+          ],
+          "earned": 1,
+          "represented": 1,
+          "gold": 0
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "rivals": [
+        {
+          "id": "p1",
+          "recipes": [
+            "orb-sigil"
+          ],
+          "components": [],
+          "earned": 2,
+          "represented": 2,
+          "gold": 7
+        },
+        {
+          "id": "p2",
+          "recipes": [
+            "blade-cloak"
+          ],
+          "components": [],
+          "earned": 2,
+          "represented": 2,
+          "gold": 6
+        },
+        {
+          "id": "p3",
+          "recipes": [
+            "orb-core"
+          ],
+          "components": [],
+          "earned": 2,
+          "represented": 2,
+          "gold": 3
+        },
+        {
+          "id": "p4",
+          "recipes": [
+            "cloak-sigil"
+          ],
+          "components": [],
+          "earned": 2,
+          "represented": 2,
+          "gold": 4
+        },
+        {
+          "id": "p5",
+          "recipes": [
+            "blade-core"
+          ],
+          "components": [],
+          "earned": 2,
+          "represented": 2,
+          "gold": 3
+        },
+        {
+          "id": "p6",
+          "recipes": [
+            "orb-sigil"
+          ],
+          "components": [],
+          "earned": 2,
+          "represented": 2,
+          "gold": 7
+        },
+        {
+          "id": "p7",
+          "recipes": [
+            "blade-cloak"
+          ],
+          "components": [],
+          "earned": 2,
+          "represented": 2,
+          "gold": 8
+        }
+      ]
+    },
+    {
+      "round": 7,
+      "rivals": [
+        {
+          "id": "p1",
+          "recipes": [
+            "orb-sigil"
+          ],
+          "components": [
+            "cloak"
+          ],
+          "earned": 3,
+          "represented": 3,
+          "gold": 5
+        },
+        {
+          "id": "p2",
+          "recipes": [
+            "blade-cloak"
+          ],
+          "components": [
+            "core"
+          ],
+          "earned": 3,
+          "represented": 3,
+          "gold": 12
+        },
+        {
+          "id": "p3",
+          "recipes": [
+            "orb-core"
+          ],
+          "components": [
+            "sigil"
+          ],
+          "earned": 3,
+          "represented": 3,
+          "gold": 5
+        },
+        {
+          "id": "p4",
+          "recipes": [
+            "cloak-sigil"
+          ],
+          "components": [
+            "blade"
+          ],
+          "earned": 3,
+          "represented": 3,
+          "gold": 6
+        },
+        {
+          "id": "p5",
+          "recipes": [
+            "blade-core"
+          ],
+          "components": [
+            "orb"
+          ],
+          "earned": 3,
+          "represented": 3,
+          "gold": 7
+        },
+        {
+          "id": "p6",
+          "recipes": [
+            "orb-sigil"
+          ],
+          "components": [
+            "cloak"
+          ],
+          "earned": 3,
+          "represented": 3,
+          "gold": 9
+        },
+        {
+          "id": "p7",
+          "recipes": [
+            "blade-cloak"
+          ],
+          "components": [
+            "core"
+          ],
+          "earned": 3,
+          "represented": 3,
+          "gold": 6
+        }
+      ]
+    }
+  ],
+  "finalRound": 9,
+  "placement": 8,
+  "note": "Actual seeded league and same craft/unequip/equip operations; no stat, gold, or item grant overrides."
+}

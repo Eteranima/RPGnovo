@@ -1,0 +1,253 @@
+[
+  {
+    "id": "runewarden",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a12e36-f370-7401-98c4-882cfef1de85\\exec-8cf52347-8d7d-4866-b3f2-d8dfbd6ca47e.png",
+    "prompt": "Use case: precise-object-edit. Image1 is EDIT TARGET the existing12sprite Vigia Rúnico atlas, FOURcolumns THREErows. Make ONE targeteddirectioncorrection ONLY to MIDDLE ROW columns1,2,3 (zero-basedframes4,5,6). These threeattackingfigurescurrentlylook/rightjabRIGHT. Horizontallyreverse EACH oftheseTHREEillustratedfigureswith itsheldspear/book/localFX WITHIN itsownsamecell so ALL theirvisors/bodies/attacks nowfaceLEFT like the9otherposes. Keep all12posesintheiroriginalcell/order; DO NOTmirrorwholecanvas or move afigureto anothercell. Firstrowfour and lastrowfour and middle-rowcolumn4 KEEPUNTOUCHED. Preserveexactknightidentity/ivorygoldnavyarmor/sapphire/closedvisor/nibspear/book, animefineink/colors, bodyproportions/scale, alpha, cropclearance/positions/baselines, twoarms/hands/twolegs/boots, allspear tips. No addedlimbs/characters/poses. NativeRGBAalphaZEROgaps/no background/shadow/matte/grid/text. Finalall12visorspointLEFT, middle-row3attackprojectilesjabLEFT.",
+    "previousPrompts": [
+      "Use case: stylized-concept. Asset type: FINAL native transparent auto-battler animation atlas for Éter Anima. Input image1 is ONLY identity reference for Vigia Rúnico (runewarden); image2 is ONLY approved anime linework, miniature scale, spacious layout reference (Seiji), never copy its person.\nCreate a NEW landscape atlas with EXACTLY TWELVE complete independent sprites, FOUR columns by THREE rows, row-major, no labels/grid. Same canonical knight in every cell: ivory/gold/navy armor, sapphire chest gem, CLOSED blue visor, swept gold helmet horns, long nib spear with blue crystal tip and rune book. Refined Fate/Mushoku Tensei fantasy anime, crisp fine ink and flat cel shading. Face slightly RIGHT in three-quarter view. Two arms, two attached coherent hands, two legs and fully visible armored boots. Keep weapon/books close to body, entirely visible and correct grips.\nRow1: FOUR subtly distinct ready/breathing poses, book and upright spear, no skill effect. Row2: FOUR attack phases: guarded wind-up; short RIGHT spear jab with a small navy ink dart; follow-through; ready recovery. Row3: FOUR skill phases for protective interception: raise rune book; gather three paper talismans; project a compact OPEN navy-ink rune shield beside forward hand; settled guard. Never fire or broad luminous fog. No other characters.\nSTRICT production layout: body around55-60%cellheight, ENTIRE spear/body/effect at most70%cellwidth AND75%cellheight; at least15% genuinely EMPTY gutter on each side and top, feet on84%cellheight baseline. Same scale/baseline all12poses. No cropped spear tip, horn, hand or boot. No artwork touches any cell boundary or outer edge. Native RGBA alpha ZERO everywhere outside local silhouette and between sprites. NO painted background/haze/matte, no floor/platform/shadow, no rectangle, checkerboard, words, text, watermark. Preserve exact identity/costume, don't turn armor into Seiji's outfit.",
+      "Use case: precise-object-edit. Input image1 is EDIT TARGET, existing runewarden atlas. Repair ONLY sprite layout and consistent direction, preserve the12 different poses/order, canonical ivory/gold/navy knight, closed blue visor, sapphire chest, nib spear/book, fine anime lines/colors/anatomy. Keep canvas1448x1086 and EXACTLY4columns×3rows. Each cell is362x362. Uniformly SHRINK every entire sprite INCLUDING spear/cape/book/FX to60percent of current pixel size. Center every complete figure plus weapon/FX well inside its own originalcell with feet at84percentcellheight. No body/weapon/effect widerthan68percentcellwidth or tallerthan72percentcellheight. Atleast60pixels ACTUALLY EMPTY alphaZERO on all4sides everycell. No pixel crosses borders or touches canvas. Especially fix secondrowcolumn2 spear arc crossing toward column3, and all boot/spear tips near row boundaries. All twelve helmets/visors/bodies face slightlyRIGHT in3quarterview consistently, including idle/recovery, while preserving correct twoarms/twohands/twolegs/boots and natural grips. Both feet visible; all spear tips intact. NO duplicateframes/newcharacters. NativeRGBA alphaZERO outside silhouettes, no background/matte/haze/floor/shadow/labels/grid. Clean beautifulproductionanime, do not simplify detail."
+    ],
+    "referencePaths": [
+      "art-source/v40/autochess/references/runewarden-before-direction.png"
+    ],
+    "facing": "left",
+    "portrait": {
+      "x": 141,
+      "y": 92,
+      "w": 123,
+      "h": 141
+    }
+  },
+  {
+    "id": "moth",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a12e36-f370-7401-98c4-882cfef1de85\\exec-dfbd8a1e-31b0-4f5b-b32f-059d197325fc.png",
+    "prompt": "Use case: stylized-concept. Asset type: FINAL native RGBA transparent battle-piece animation atlas for Éter Anima. Image1 ONLY canonical Mariposa do Véu identity; image2 ONLY Seiji's approved refined fantasy anime linework and spacious4×3atlas layout, not its human content. Create EXACTLY TWELVE separate COMPLETE moth sprites, FOUR equal columns by THREE equal rows, rowmajor. Same insect anatomy and violet-black wing patterns/glowing violet eye spots in every pose: four wings, ONE segmented moth body, paired curvedantennae, SIX attached insect legs, no human hands/arms. Three-quarterview facing slightlyRIGHT. Beautiful Japanese fantasyanime clean ink +flat celshading, no photographicfur. Row1 four distinct slow hovering wingbeats, no spell. Row2 four basicattack phases: antennae anticipate; short tiny paleBLUE ICE crystal dart towardRIGHT; follow-through; hover recovery. Row3 four specialcastphases: gather cold motes; condense compact frostpowder; release small blue-white snowflakedustcloud RIGHT from wings (mana-suppressing ice); settle. Keep creature visible and use restrained cold motes, NOTfire/darknessbeam. Same hover baseline/scale all12.\nCRUCIAL spacious atlas: whole insect including ALLwingtips/antennae/legs and everyeffect occupies ONLY CENTRAL60%cellwidth AND65%cellheight. Atleast18% genuinelyEMPTY gutter at EACHleft/right and top/bottom cell edge. Every sprite completelyseparate; no effecttouches anothercell/canvasedge. NativeRGBA alphaZERO inallgaps andinteriors, no gradient/matte/aura behindsheet, no rectangles, backdrop, floor/platform/groundshadow, text/labels/grid/watermark. Keep tiny production sprite scale as image2; fullyvisible wingtip/antennae, varied chronologicalposes, nevercopy frames.",
+    "previousPrompts": [],
+    "referencePaths": [
+      "public/assets/v30/enemies/moth/ultimate.png",
+      "public/assets/v39/autochess/pieces/seiji.png"
+    ],
+    "facing": "right",
+    "portrait": {
+      "x": 220,
+      "y": 209,
+      "w": 134,
+      "h": 163
+    }
+  },
+  {
+    "id": "ashwolf",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a12e36-f370-7401-98c4-882cfef1de85\\exec-89da78a0-eaed-4c48-bd25-13070080eb1a.png",
+    "prompt": "Use case: stylized-concept. FINAL nativeRGBA Éter Anima battle-pieceatlas. Image1 ONLY singlecreatureidentityreference Lobo de Cinzas; NEVERcopyitsbackgroundglow. Image2 ONLY refinedanimeink/celshadingandspacious4×3layout, NEVERcopyitshuman. Create EXACTTWELVEfullyvisibleadultwolf sprites FOURcolumns THREErows rowmajor. Samecharcoal/basaltbody, orangeemberfissures/eyes, shortintrinsicflamemane andONEtail. EXACTnaturalFOURcaninelegs/FOURpaws, onehead/ears/tail in everypose; nohumanlimbs/armor. ALLbodies/headsmuzzles faceLEFT3quarterconsistently. CleanFate/Mushoku fantasyanimeink/flatcelshading, nofurrealism/3D.\nRow1 FOUR DISTINCT calmreadybreathing/headtilt/pawshifts, noactivefirearcs/howling/ultimateeffects. Row2 FOURbitephases: lowguardwindup; shortLEFTbite; followthrough; readyrecovery. Row3 FOURhuntphases: lowpredatorygather; shortLEFTfullbodybound; compactbitepeakwithtinyorangeemberarc; landready. Do notrotatewolfRIGHTatanytime. Entirefourlegs/tailvisible. OrangeFIREonly,noice/no boulders/no giantfireaura.\nCRUCIALtinyatlas: WHOLEcreature+everylocalflame ONLYCENTRAL55%cellwidth55%cellheight, at least80pixelACTUALLYEMPTYtransparentgutterEVERYcellside. Samebodyscale/groundbaseline84%cellheight, all12spritesisolated/complete/distinct. NOfloor/shadow/platform, no coloredhaze/backgroundglow/matte/rectangles/grid/text/watermarks. GenuineRGBAalphaZEROoutsideeverylocalsilhouetteandgaps. Noedgeart/croppedpaws/tail/neighborFX.",
+    "previousPrompts": [
+      "Use case: stylized-concept. Asset type: FINAL native transparent12frame auto-battler battle-piece atlas, Éter Anima. Image1 is ONLY canonical Lobo de Cinzas identity; image2 ONLY refined anime linework and spacious4columns3rows layoutreference, never its humancontent. SAME adult charcoal/basaltwolf in all12poses, emberorangefissures/orangeeyes/shortflamemane/tail, natural canine FOUR legs/FOUR paws, ONEhead/tail. No armor or humanhands. Clean Fate/Mushoku fantasyanime celshading/fineink, no realfur/no3D. Consistently facesRIGHT3quarterview.\nEXACT12complete sprites in FOUR equalcolumns THREEequalrows, rowmajor. Row1 FOUR subtle readybreathing poses, stablepaws. Row2 FOUR basicbite/swipephases: crouchwindup; compactRIGHTbite; forepawfollowthrough; returnready. Row3 FOUR specialhuntphases: lowpredatorgather; shortRIGHTbound with tinyfirearc; peakbite with severalorangeembers; landrecovery. Fireelement ONLYorange/gold; noice/blue/smokecloud. Entirebody/anatomyvisible evenduringjump.\nCriticalassetlayout: deliberately TINYminiatures. Each completecreature PLUS everylocalflame/effect restricted to CENTRAL50percentcellwidth and55percentcellheight. Atleast90PIXELS realEMPTYtransparentgutter aroundeachsprite inall4directions. Identicalscale/pawbaseline84percentcellheightallposes. Noeffectsreachcellborders, no clippedpaw/tail/ears. No broadblaze behindbody, no floor/shadow/platform. GenuineRGBAalphaZERO everywhereoutside local silhouette, including gaps/edges. NO backgroundgradient/matte/rectangles/haze/grid/text/watermarks. Preserve the creature, don't copySeiji or change tohumanoid. Fine productiondetaildespite smallsprite.",
+      "Use case: stylized-concept. Image1 is ONLY the canonical creature identity reference. Create ONE SINGLE isolated full-body neutral ready-pose reference of Lobo de Cinzas, NOT an animationatlas and NOT multiple creatures. A mature charcoal/basaltwolf with emberorangefissures, orangeeyes, shortflameplumealongspine andone flametail. EXACTfourlegs/fourpaws, natural canineanatomy; allpaws/ears/tailfullyvisible. FaceLEFT three-quarterview, low guardedready stance. Retain exactsameidentity/fantasyanimeink/celshading, nohumanization, no realistfur. No ultimateaction, no broadfirearcs, noboulders or effects; just thecreature's inherent mane/tail flames. Center thewholewolfwithwideemptyspaceonall sides. NativeRGBArealtransparentalphaZERO behind/aroundbody, no floor/shadow/platform/coloredbackground/matte/haze/grid/text/watermark."
+    ],
+    "referencePaths": [
+      "art-source/v40/autochess/references/ashwolf-body.png",
+      "public/assets/v39/autochess/pieces/seiji.png"
+    ],
+    "facing": "left",
+    "portrait": {
+      "x": 26,
+      "y": 97,
+      "w": 167,
+      "h": 169
+    },
+    "anchors": [
+      [
+        175,
+        345
+      ],
+      [
+        532,
+        346
+      ],
+      [
+        891.5,
+        346
+      ],
+      [
+        1274.5,
+        342
+      ],
+      [
+        166,
+        696
+      ],
+      [
+        542.5,
+        685
+      ],
+      [
+        903.5,
+        684
+      ],
+      [
+        1252.5,
+        696
+      ],
+      [
+        165.5,
+        1023
+      ],
+      [
+        533,
+        1004
+      ],
+      [
+        917,
+        1006
+      ],
+      [
+        1257,
+        1027
+      ]
+    ]
+  },
+  {
+    "id": "lunastag",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a12e36-f370-7401-98c4-882cfef1de85\\exec-c23fabe5-7639-4bd1-b16b-68b44f5bd614.png",
+    "prompt": "Use case: stylized-concept. FINAL nativeRGBA Éter Anima battle-pieceatlas. Image1 ONLY singlebodycanonical Cervo da Geada Lunar identity; NEVERcopyitsbackgroundorhalo. Image2 ONLY refinedfantasyanimeink/celshadingandspacious4×3layout, NEVERcopyitshuman. NEW EXACT12FULLstag sprites FOURequalcolumns THREEequalrows rowmajor. SameelegantADULTsilverwhiteDEER, cyaneyes, TWO branchingcrystalICEantlers, bluecrystalaccentsalongneck, naturalFOURlongdeerlegs/FOURclovenhooves/onetail. EVERYhead/muzzle/body facesLEFT3quarterconsistently. No chibi/human/cartoon/extra limbs. FineFate/Mushoku cleanink+flatcelshading, nofurphoto/3D.\nTOPROW FOUR DISTINCT calmreadybreathing/ear/pawshifts, NOactiveicecrown/glowwave. MIDDLEROW FOUR basicheadbuttphases: lowerantlers; shortLEFTheadbutt; followthrough; ready. BOTTOMROW FOURnewchargephases: gatherONEtinyicesilvercrescentoverantlers; shortLEFTbound; pushimpactwithfiveSMALLiceshards/twoTHINfrostlines; gracefulsettle. Allantlertips/hoovesintactallframes. ICEONLYbluewhite, nofire/no giantcrown/iciclewall/no wideglow/aura/fog/background.\nTINYspaciousatlas: ENTIREdeer INCLUDINGcompleteantlersandFX ONLYCENTRAL55%cellwidth60%cellheight, at least80pixelACTUALLYEMPTYalpha0guttereverycellside. Samebody/scale/hoofbaseline84%cellheight. All12isolatedcompleteanddistinct, noeffectsacrossneighboringcells/noedges. NativeRGBAalphaZEROoutsideeverylocalsilhouette/gaps. NOfloor/shadow/platform/grid/text/labels/watermarks.",
+    "previousPrompts": [
+      "Use case: stylized-concept. Asset type: FINAL native RGBA transparent12frame Éter Anima auto-battler pieceatlas. Image1 ONLY canonical Cervo da Geada Lunar identity; image2 ONLY approved refined animeink/celshading and spacious4×3atlaslayoutreference, never its humancontent. Keep elegant ADULTsilverwhiteSTAG, cyaneyes, TWO branching crystalICEantlers, naturaldeer FOUR long legs/clovenhooves, onetail. Samecoherentdeeranatomy/identityeveryframe, NOThumanoid/baby/reindeer/cartoon. Threequarterview consistently facesRIGHT. Clean Fate/Mushoku fantasyanime contours/flatshading, nofurrealism.\nEXACTLY12FULLcreatures FOUR equalcolumns THREEequalrows, rowmajor. Row1 FOUR distinctive subtlebreathingreadyposes; antlertipsandallfourhoofsentirelyvisible. Row2 FOUR attackphases: antlerwindup; smallheadbuttRIGHT; followthrough; gracefulready. Row3 FOUR newchargephases: compacticecrescentcrown gathersoverhead; shortRIGHTfullbodybound; antlerimpactwithfive tinyiceshards andtwo thinfrostribbons; settle. BluewhiteICE, nofire/no giantwave/icewall/fogmatte. Noothercharacters.\nCRUCIALTINYproductionlayout: ENTIREdeerINCLUDINGallantlertips PLUS effects must occupy ONLYCENTRAL50percentcellwidth and60percentcellheight. Atleast85pixel ACTUALLYEMPTYalpha0gutter on EVERYsideofeachcell. Samebodyscale/hoofgroundbaseline at84percentcellheight. Fullyseparate complete twelveposes, never anyarttouchescellborder/canvasedge. GenuineRGBAalphaZERO everywhereoutside silhouette. NO atmosphericbackground, rectangularglow, floor/shadow/platform, grid/text/labels/watermark. Antlersfitfullywithinowncell; no neighboringeffect entersanothercell. Preservecanonicaldeer fromimage1, don'tcopySeiji."
+    ],
+    "referencePaths": [
+      "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\public\\assets\\v30\\enemies\\lunastag\\body.png",
+      "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\public\\assets\\v39\\autochess\\pieces\\seiji.png"
+    ],
+    "facing": "left",
+    "portrait": {
+      "x": 61,
+      "y": 98,
+      "w": 148,
+      "h": 163
+    },
+    "anchors": [
+      [
+        206.5,
+        372
+      ],
+      [
+        571.5,
+        372
+      ],
+      [
+        924,
+        373
+      ],
+      [
+        1298,
+        373
+      ],
+      [
+        203,
+        712
+      ],
+      [
+        577.5,
+        701
+      ],
+      [
+        925.5,
+        710
+      ],
+      [
+        1289.5,
+        719
+      ],
+      [
+        222,
+        1057
+      ],
+      [
+        567,
+        1001
+      ],
+      [
+        925.5,
+        1040
+      ],
+      [
+        1300.5,
+        1058
+      ]
+    ]
+  },
+  {
+    "id": "selo",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a12e36-f370-7401-98c4-882cfef1de85\\exec-9b447f08-5814-4e93-a655-b0e526b3f5ab.png",
+    "prompt": "Use case: precise-object-edit. Image1 EDIT TARGET existing O Selo Quebrado12pose4column3rowatlas. Make ONE targetedlayoutchange: uniformly SHRINK EACH whole sprite INCLUDING robe/halo/chains/hands/inkprojectile/goldwheel/shards to65%ofcurrentpixel extent, preservingalltwelveindividualposes/order/identity/fineanimeink/colors/anatomy and ALLLEFT facingdirections. Keep samecanvas1225x1284/exact4cols3rows. Placeeachfullunitwell inside itsowncellcenter, robebottomat84%cellheight. Wide actualalphaZEROclearanceonallcellborders. Especially middle-rowcolumns2/3 ink-dartTIPS must stayatleast50pixelsfromleftcellborder and never enterneighborcell. Don't crop darttips/robes/hands/halo or alterpose. Keep entirebodies/effectswidthunder65%owncell; noarttouchesanyborder. Eachwraithtwoattachedskeletalhands, fullrobe. No duplicatingframes/newcharacters/addedobjects. REALRGBAalphaZERO outside eachlocalsilhouette, no background/matte/haze/rectangle/platform/shadow/grid/text/watermark. Keepdetailscrisp atsmallsize.",
+    "previousPrompts": [
+      "Use case: stylized-concept. Image1 is ONLY canonical identity reference. Create ONE SINGLE isolated fullbodyneutralidle reference of O Selo Quebrado, NOTanimationatlas/multiplewraiths. Preserve tallfloatinghoodedvioletwraith, ornate tornblue-violetrobes, goldchaincollar, brokengold/violethalo aroundhead, voidfacewithtwovioleteyes, EXACTtwoattachedcoherentskeletalhands. Fullrobe/halotips/handsvisible. ThreequarterviewfacesLEFT. FinecleanJapanese fantasyanimeink/celshading sameapprovedidentity, no3D/photo. Calmreadyhands, NO ultimateeffect, NO sealwheel/shards/fog/othercharacters. Centercompletewraithwithwideemptymargins. GenuineRGBAalphaZERO outsidebody, no coloredbackdrop/matte/haze/floor/rectangularshadow/grid/text/watermarks.",
+      "Use case: stylized-concept. FINAL battle-piece animation atlas for Éter Anima. Image1 ONLY singlebodycanonicalidentity reference O Selo Quebrado; image2 ONLY approved cel-shaded animeink +4columns3rows layout reference, nevercopyitshuman. Create NEW TWELVEdistinctcompletewraithsprites FOUR columns THREE rows, rowmajor. Samehoodedancientvioletwraith, brokengoldviolethalo, goldchains, tornnavyvioletrobes, voidface/twovioleteyes, exactlytwoattachedskeletalhands everypose. Wholefloatingrobe visible, don'tinventhumanlegs. Allthreequarterviews faceLEFT. FinecleanFate/Mushoku anime, flatcelshading, no3D.\nTOPROWfour subtleidlebreath/robesway/handshifts, NOspellwheel/effects. MIDDLEROWfour basicattack phases: retractonehand; smallLEFTnavyINKshard; followthrough; neutralrecover. BOTTOMROWfour specialshieldbreak phases: twohandsgather; compactGOLDsealwheelwithINDIGOstar formsbesidehands; wheelbreaksinto five ink-goldshardsLEFT; settle. Ink, notfire; no broadvortex/fog/coloredmatte, noothercharacters.\nSTRICTSPACING: wholebodyINCLUDINGrobe/halo/hands+alllocalFX restrictedtoCENTRAL55%cellwidth and65%cellheight. Genuinelyemptytransparentguttersatleast70pixelsEACHsideineverycell. Same scaleandrobe-baseline84%cellheight. Preserveall12completeanatomicallycoherentdistinctposes; noneighborsbleed/crop/duplicatedposes. NativeRGBAalphaZEROinallgaps/outsidebody; no background/aura/floor/shadow/platform/grid/text/watermark. Tinyhighqualityfullsilhouettesasimage2, NOTlargeillustrations."
+    ],
+    "referencePaths": [
+      "art-source/v40/autochess/references/selo-before-padding.png"
+    ],
+    "facing": "left",
+    "portrait": {
+      "x": 102,
+      "y": 133,
+      "w": 145,
+      "h": 146
+    }
+  },
+  {
+    "id": "eco",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a12e36-f370-7401-98c4-882cfef1de85\\exec-cecb114f-6213-41b8-bb1e-b4963553a148.png",
+    "prompt": "Use case: stylized-concept. FINAL Éter Anima nativebattle-pieceanimationatlas. Image1 ONLY singlebodycanonicalwraithidentityreference; thissamewraithfamilyis Eco do Selo. Image2 ONLY approvedfineanimecelshadingandspacious4×3layout, nevercopyhuman. Create NEW EXACTLYTWELVEindividualcompletesprites FOUR columns THREE rows rowmajor. Ancient floatinghoodedvioletwraith, goldchains, fragmentedviolet/goldhalo, voidfacewithTWOvioleteyes, ornate tornblue-darkvioletrobes, TWOcoherentskeletalattachedhands. Entirefloatingrobe/hands/halotipsvisible; don'tinventhumanoidlegs. AllviewsfaceLEFT3quarter, samebody/scale. RefinedcleanFate/Mushokuink/flatcelshading, no3D.\nRow1FOURsubtleidle/handshift/robesway, NOactiveportals. Row2FOURbasicattack: gather; shortLEFTvioletshadowdart; follow; settle. Row3FOURrescuecast: preparetwohands; createONEsmallgoldtrimvioletmirrordoorfragmentbesidebody; compactportalopenswithtwonarrowvioletribbons; portalcloses/recovery. Noalliedcreatureadded; showonlywraith+tinyportal. DARKvioleteffect, neverfire, no widewave/wall/fog/broadbackdrop.\nSTRICTtinyatlas: ENTIREwraithrobe/halo/portaleffectonlyCENTRAL55%cellwidth65%cellheight, at least70pixelsACTUALLYEMPTYalpha0gutterEACHcellside. Same84%cellheightrobehoverbaseline. NativeRGBAalphaZEROoutsideallsilhouettes/gaps. Everyposefullanddistinct,noedgeart/bleed/clipping. NOpaintedbackground/matte/rectangulargradient/floor/shadow/platform/grid/text/watermarks. Staytiny/celshadedlikeimage2.",
+    "previousPrompts": [
+      "Use case: stylized-concept. Image1 is ONLY canonical identity reference. Create ONE SINGLE isolated fullbodyneutralidle reference of O Selo Quebrado, NOTanimationatlas/multiplewraiths. Preserve tallfloatinghoodedvioletwraith, ornate tornblue-violetrobes, goldchaincollar, brokengold/violethalo aroundhead, voidfacewithtwovioleteyes, EXACTtwoattachedcoherentskeletalhands. Fullrobe/halotips/handsvisible. ThreequarterviewfacesLEFT. FinecleanJapanese fantasyanimeink/celshading sameapprovedidentity, no3D/photo. Calmreadyhands, NO ultimateeffect, NO sealwheel/shards/fog/othercharacters. Centercompletewraithwithwideemptymargins. GenuineRGBAalphaZERO outsidebody, no coloredbackdrop/matte/haze/floor/rectangularshadow/grid/text/watermarks."
+    ],
+    "referencePaths": [
+      "art-source/v40/autochess/references/selo-body.png",
+      "public/assets/v39/autochess/pieces/seiji.png"
+    ],
+    "facing": "left",
+    "portrait": {
+      "x": 102,
+      "y": 50,
+      "w": 164,
+      "h": 167
+    }
+  },
+  {
+    "id": "cinder",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a12e36-f370-7401-98c4-882cfef1de85\\exec-b1124c1f-0d6e-467d-bdf1-7f45ce8c90fd.png",
+    "prompt": "Use case: stylized-concept. FINAL nativeRGBA Éter Anima battle-pieceanimationatlas. Image1 ONLY singlebodycanonical A Chama que Lembra identity; image2 ONLY refinedanimeink/celshading/spacious4×3layout, nevercopyitshuman. NEW EXACT12completeknights FOURcolumns THREErows rowmajor. Samefullycovered maturebasaltarmoredhumanoid, blackhelmet/orangeeyes, orangeemberfissures, amberchestcore, tornblackwaistcloth, ENTIREorangeedgebasaltsword. EXACTtwoarms/twoattachednaturalhands/twolegs/twoarmoredboots all12poses. Allviews/bodies/swordattacks faceLEFT3quarter. CleandisciplinedFate/Mushoku fantasyanimeflatcelshading, no3D/photo.\nRow1 FOURsubtlereadybreathing/clothshifts, sworddiagonalDOWNclosetobody, noactivefirearcs. Row2 FOURbasicswordphases: guardedwindup; shortLEFTverticalcut; followthrough; guardrecover. Row3 FOURarea-pyrecastphases: coreglowsandhandsprepare; compactflamegathersalongblade; smallORANGEgoldfireshardburst aroundfeet/blade; settle. Keep allbody/handgripsvisible, nofirewall/sheetwideaura, no blue/ice, noothercharacters. Swordkeptangledmostlyvertical/closebody, everybladetipintact.\nTINYproductionatlas: entirebody+sword+localFXONLYcentral55%cellwidth65%cellheight; at least70pixel ACTUALLY EMPTYalpha0 gutter atEACHcellside. Samebody/scale/feetgroundbaseline84%cellheight. GenuineRGBAalphaZEROoutsideeverylocalsilhouette/allgaps. Noedgeart/croppedhelmets/boots/swordtips/neighborbleeding; all12posesdistinct. NObackground/matte/haze/floor/solidgroundeffectrectangle/platform/shadow/grid/text/labels/watermark.",
+    "previousPrompts": [
+      "Use case: stylized-concept. Image1 ONLY canonicalidentityreference. Create ONE SINGLE isolated fullbodyneutralready reference of A Chama que Lembra, NOTanimationatlas/multipleknights. Preserve matureblackbasaltarmoredhumanoid, orangeemberfissures, glowingamberchestcore, closedblackhelmet/orangeeyes, tornblackwaistcloth andbigbasaltswordwithorangeedges. EXACTtwoarms/twoattachedcoherentgrippinghands/twolegs/twoarmoredboots. Swordhelddiagonallydownclose tobody, ENTIREswordtipandbootsvisible. Threequarterview facesLEFT. CleanJapaneseanimefineink+flatcelshading asreference, no3D/photo. NOultimatefirearcs, no rocks/particles/effects/fog. Centercompleteknightwithwideemptygutter.NativeRGBA genuinealphaZERO outsidebody, no background/matte/haze/floor/shadow/grid/text/watermarks."
+    ],
+    "referencePaths": [
+      "art-source/v40/autochess/references/cinder-body.png",
+      "public/assets/v39/autochess/pieces/seiji.png"
+    ],
+    "facing": "left",
+    "portrait": {
+      "x": 143,
+      "y": 17,
+      "w": 140,
+      "h": 141
+    }
+  },
+  {
+    "id": "astral",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a12e36-f370-7401-98c4-882cfef1de85\\exec-8c0966a1-e2ea-4c25-9cef-04b1ad7c1875.png",
+    "prompt": "Use case: stylized-concept. FINAL Éter Anima nativeRGBA battle-pieceanimationatlas. Image1 ONLY singlebodycanonical Guardião do Astrolábio identity; image2 ONLY approvedfineanimeink/celshading andspacious4×3layoutreference, neveritscharacter. CreateNEW EXACTTWELVEwholeguardians FOURcolumns THREErows rowmajor. Preserveivory/gold/navyarmor, sapphirechestcrystal, blueSTARclosedvisor, THREEbrassorbitalringsbehindshoulders, golddecorations. Exactlytwoarms/twoattachednaturalfivefingerhands/twolegs/twoarmoredboots everypose. Everybody/visorfacesLEFT3quarterconsistently. FineFate/Mushoku fantasyanimecleanlineart/flatcelshading, no3D/photo.\nRow1 FOUR subtleidlebreathing/ringslightrotation/handshifts, noelectricattack. Row2 FOURbasicattackphases: handwindup; ONEtinybluewhiteelectricSTARdartLEFT; followthrough; guardready. Row3 FOURthreespecialorbitalpulse phases: gatherhands; threeSMALLbrassblueorbits convergeatpalms; releasethreecompactbluewhitestarpulsesLEFT; settledready. Everypulse/smallorbitstaysclosebody, no giantorb/ringsabovehead, no longelectricbeam/bluefog/matte. Allcanonicalbackringsvisibleallposes.\nSTRICTTINYatlas: ENTIREguardian/canonicalrings/localFXONLYcentral55%cellwidth65%cellheight; at least70pixels genuinelyEMPTYalpha0gutter EACHsideeverycell. Samebody/scale/footbaseline84%cellheight. NativeRGBAalphaZEROinallgaps/outsidebody. Wholehelmet/rings/hands/bootsintact,noedges/crops/neighboreffects/duplicateposes. NObackgroundgradient/aura/floor/shadow/platform/grid/text/watermarks.",
+    "previousPrompts": [
+      "Use case: stylized-concept. Image1 ONLY canonicalidentityreference. Create ONE SINGLE isolated completefullbodyneutralready reference of Guardião do Astrolábio, NOTanimationatlas/multipleknights. Preserve exactivory/gold/navyarmoredguardian, sapphirechestgem, closedhelmet with glowingblueSTARvisor, THREEbrassorbitalrings behindshoulders andgoldornaments. EXACTtwoarms/twoattachedcoherentfivefingerhands/twolegs/twoarmoredboots. Allhelmet/ringtips/bootsvisible. Threequarterview facesLEFT. Botharmsrelaxedguard,noelectricalattack. CleanJapaneseanimefineink+flatcelshading, no3D/photo. NOultimateaura/beams/particles/fog. Centerwholeguardian/rings withwideemptygutter.NativeRGBAgenuinealphaZEROoutsidebody, no background/matte/haze/floor/shadow/grid/text/watermarks."
+    ],
+    "referencePaths": [
+      "art-source/v40/autochess/references/astral-body.png",
+      "public/assets/v39/autochess/pieces/seiji.png"
+    ],
+    "facing": "left",
+    "portrait": {
+      "x": 126,
+      "y": 42,
+      "w": 153,
+      "h": 173
+    }
+  }
+]
