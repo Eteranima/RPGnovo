@@ -86,7 +86,8 @@ self.addEventListener('install', event => {
       if (!refs.length || refs.some(path => !shellPaths.has(path))) throw new Error('PWA deployment changed during install. Retry after deployment completes.');
       await cache.put(absolute('/'), root);
     } catch (error) { await caches.delete(SHELL); throw error; }
-    // No skipWaiting: the new version waits for the player or for every game tab to close.
+    // No skipWaiting on install. Promotion still requires the page's saved,
+    // safe checkpoint and a single game window (or all old windows closing).
   })());
 });
 
@@ -203,8 +204,12 @@ self.addEventListener('message', event => {
       if (gameTabs.length !== 1 || gameTabs[0].id !== client.id) {
         port.postMessage({ type: 'ETER_PWA_ACTIVATE', okay: false, reason: 'other-tabs' }); return;
       }
-      port.postMessage({ type: 'ETER_PWA_ACTIVATE', okay: true });
-      await self.skipWaiting();
+      try {
+        await self.skipWaiting();
+        port.postMessage({ type: 'ETER_PWA_ACTIVATE', okay: true });
+      } catch {
+        port.postMessage({ type: 'ETER_PWA_ACTIVATE', okay: false, reason: 'activation-failed' });
+      }
     }
   })());
 });

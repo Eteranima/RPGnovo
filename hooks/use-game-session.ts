@@ -7,7 +7,8 @@ import type {WorldRenderer} from '@/lib/game/renderer';
 import type {WorldLoadingStatusV32} from '@/lib/game/worldAssetsV32';
 import {createGameUiActions,synchronizeGamePause,type GamePanel} from '@/lib/game/ui-session';
 import {createGamePointerControls} from '@/lib/game/ui-controls';
-import {canApplyGameUpdate,prepareGameUpdate} from '@/lib/game/ui-update';
+import {canApplyGameUpdate,prepareGameUpdate,verifyGameUpdate} from '@/lib/game/ui-update';
+import {usePwa} from '@/components/pwa-provider';
 import {importGameSaveTransfer} from '@/lib/game/ui-save-transfer';
 import {useGameAudio} from './use-game-audio';
 import {useGameFullscreen} from './use-game-fullscreen';
@@ -17,6 +18,7 @@ type SessionUi={panel:GamePanel;confirmReset:boolean;target:HeroId;menuTab:strin
 const initialUi:SessionUi={panel:null,confirmReset:false,target:'seiji',menuTab:'party',activeMenuTab:'party',chosen:'seiji',titleArmed:false,opening:false,updating:false};
 
 export function useGameSession(){
+ const pwa=usePwa();
  const [engine]=useState(()=>new GameEngine());
  const s=useSyncExternalStore(engine.subscribe,engine.snapshot,engine.snapshot);
  const shell=useRef<HTMLElement>(null),canvas=useRef<HTMLCanvasElement>(null),renderer=useRef<WorldRenderer|null>(null);
@@ -64,6 +66,9 @@ export function useGameSession(){
  const importSave=useCallback((text:string)=>importGameSaveTransfer(engine,text,uiRef.current,loadingRef.current,{sound:audio.setEnabled,volume:audio.changeVolume,returnToTitle:()=>{engine.returnToTitle();patch({panel:null,titleArmed:false,confirmReset:false,opening:false});}}),[engine,audio.setEnabled,audio.changeVolume,patch]);
  const exportSave=useCallback(()=>canApplyGameUpdate(engine,uiRef.current,loadingRef.current)?engine.exportSavePwa():null,[engine]);
  const canUpdate=canApplyGameUpdate(engine,ui,worldLoading);
+ const bindUpdateGuard=pwa?.bindUpdateGuard,retryUpdate=pwa?.retryUpdate;
+ useEffect(()=>bindUpdateGuard?.({canApply:()=>canApplyGameUpdate(engine,uiRef.current,loadingRef.current),prepare:prepareUpdate,verify:()=>verifyGameUpdate(engine,uiRef.current,loadingRef.current),setPending:setUpdatePending}),[bindUpdateGuard,engine,prepareUpdate,setUpdatePending]);
+ useEffect(()=>{retryUpdate?.();},[retryUpdate,canUpdate]);
  return {engine,s,ui,patch,shell,canvas,viewport,setViewport,loaded,worldLoading,audio,fullscreen,actions,pointer,activateTitle,retryWorld,canUpdate,prepareUpdate,setUpdatePending,openSystem,saveTransfer:{canExport:canUpdate&&s.hasSave,canImport:canUpdate&&['start','selection'].includes(s.mode),exportSave,previewSave:(text:string)=>engine.previewSavePwa(text),importSave}};
 }
 export type GameSession=ReturnType<typeof useGameSession>;

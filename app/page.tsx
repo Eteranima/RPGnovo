@@ -26,7 +26,7 @@ export default function Home(){
  const game=useGameSession();
  const {s,engine,ui,patch,audio,fullscreen,actions}=game;
  const currentHero=engine.currentHero();
- return <main className={'game-shell '+(s.mode==='battle'?battleStyles.battleMode:'')} ref={game.shell} tabIndex={-1} data-game-mode={s.mode} data-fullscreen={fullscreen.active} data-music-track={audio.currentTrack} data-music-status={audio.status}>
+ return <main className={'game-shell '+(s.mode==='battle'?battleStyles.battleMode:'')} ref={game.shell} inert={ui.updating} aria-busy={ui.updating} tabIndex={-1} data-game-mode={s.mode} data-fullscreen={fullscreen.active} data-music-track={audio.currentTrack} data-music-status={audio.status}>
   <audio ref={audio.channel0} muted={!audio.sound} loop preload="none"/>
   <audio ref={audio.channel1} muted={!audio.sound} loop preload="none"/>
   {ui.opening&&<OpeningCinematicV33 onExit={actions.closeOpening} onPlaybackChange={audio.openingPlayback} onPlaybackGesture={audio.unlock} soundEnabled={audio.sound} audioBlocked={audio.status==='blocked'} onToggleSound={audio.toggle}/>}
@@ -54,7 +54,7 @@ export default function Home(){
     }
    </section>
   </div>
-  <GamePanels game={game} installControl={<GameInstallControl canUpdate={game.canUpdate} onBeforeUpdate={game.prepareUpdate} onUpdatePendingChange={game.setUpdatePending} saveTransfer={game.saveTransfer}/>}/>
+  <GamePanels game={game} installControl={<GameInstallControl canUpdate={game.canUpdate} saveTransfer={game.saveTransfer}/>}/>
   <GameSaveConflict game={game}/>
  </main>;
 }

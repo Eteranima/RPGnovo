@@ -46,7 +46,7 @@ function harness(settings = {}) {
   const self = {
     location: { origin },
     addEventListener: (name, fn) => listeners.set(name, fn),
-    skipWaiting: async () => { skipCalls++; },
+    skipWaiting: async () => { skipCalls++; if (settings.skipFailure) throw new Error('activation rejected'); },
     clients: {
       get: async id => tabs.find(tab => tab.id === id),
       matchAll: async () => tabs,
@@ -176,6 +176,9 @@ await h.message({ type: 'SKIP_WAITING' }); eq(h.stats().skipCalls, 0, 'Generic s
 eq((await h.message({ type: 'ETER_PWA_ACTIVATE', saved: true }))[0].okay, true); eq(h.stats().skipCalls, 1);
 const multiple = harness({ tabs: [{ id: 'game', url: ORIGIN + '/' }, { id: 'other', url: ORIGIN + '/' }] });
 eq((await multiple.message({ type: 'ETER_PWA_ACTIVATE', saved: true }))[0].reason, 'other-tabs'); eq(multiple.stats().skipCalls, 0);
+const refusedActivation = harness({ skipFailure: true });
+eq((await refusedActivation.message({ type: 'ETER_PWA_ACTIVATE', saved: true }))[0].okay, false, 'Activation failure cannot acknowledge a successful promotion');
+eq(refusedActivation.stats().skipCalls, 1, 'Failure fixture reaches the actual skipWaiting promise');
 const warming = harness();
 await warming.message({ type: 'ETER_PWA_WARM', urls: [ORIGIN + '/assets/visited.png', 'https://other.test/assets/stolen.png', ORIGIN + '/assets/movie.mp4', ORIGIN + '/assets/private.png?token=1', '/not-an-absolute-url'] });
 eq(warming.calls, [ORIGIN + '/assets/visited.png'], 'First-visit warming only accepts local raster URLs');
@@ -214,11 +217,10 @@ try {
   eq(await (await working.dispatch('fetch', { request: working.request('/', { mode: 'navigate', destination: 'document' }) })).text(), 'offline-page', 'Canonical document is the actual offline navigation fallback');
 } finally { server.closeAllConnections(); await new Promise(resolve => server.close(resolve)); }
 const client = await readFile(resolve(root, 'components/pwa-install-control.tsx'), 'utf8');
-ok(client.indexOf('onBeforeUpdate()') < client.indexOf('await activateSavedUpdate(worker)'), 'Save precedes activation');
-ok(client.indexOf('onUpdatePendingChange?.(true)') < client.indexOf('await workerMessage'), 'Gameplay lock precedes the asynchronous update checks');
-ok(client.indexOf('onUpdatePendingChange?.(false)') > client.indexOf('window.location.reload()'), 'A refused or failed update releases the central gameplay lock');
-eq((client.match(/window\.location\.reload\(/g) || []).length, 1, 'One explicit reload path');
+ok(client.includes('await pwa.applyUpdate()'), 'Manual controls use the same guarded promotion owner as automatic updates');
+eq((client.match(/window\.location\.reload\(/g) || []).length, 0, 'Settings cannot bypass the central saved reload path');
 const provider = await readFile(resolve(root, 'components/pwa-provider.tsx'), 'utf8');
+eq((provider.match(/window\.location\.reload\(/g) || []).length, 1, 'One guarded application reload path');
 ok(!provider.includes('controllerchange'), 'Controller changes do not reload a game');
 ok(provider.includes("process.env.NODE_ENV === 'production'"), 'Development excludes SW');
 const transfer = await readFile(resolve(root, 'components/pwa-save-transfer.tsx'), 'utf8');
