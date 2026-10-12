@@ -1,0 +1,131 @@
+{
+  "hero": "beatriz",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-1afa-7611-900f-c84542197a68\\exec-7aef7030-bec0-4ac8-aab4-ca52db616831.png",
+  "sourceSha256": "c15a3b1f3d665b56cbc0422420ab490d4c1ddcb2b775468e16a6c53a1bcda2a8",
+  "selectedSha256": "c15a3b1f3d665b56cbc0422420ab490d4c1ddcb2b775468e16a6c53a1bcda2a8",
+  "width": 2172,
+  "height": 724,
+  "cols": 3,
+  "rows": 1,
+  "ids": [
+    "water-veil",
+    "undertow",
+    "twin-current"
+  ],
+  "rowCuts": [
+    0,
+    724
+  ],
+  "backgroundAlphaZero": 718367,
+  "alphaThresholdForMeasurementOnly": 24,
+  "frames": [
+    {
+      "x": 43,
+      "y": 28,
+      "w": 631,
+      "h": 627
+    },
+    {
+      "x": 771,
+      "y": 27,
+      "w": 633,
+      "h": 631
+    },
+    {
+      "x": 1502,
+      "y": 28,
+      "w": 631,
+      "h": 630
+    }
+  ],
+  "measurements": [
+    {
+      "id": "water-veil",
+      "index": 0,
+      "row": 0,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "w": 722,
+        "h": 724
+      },
+      "visibleBounds": {
+        "x": 51,
+        "y": 36,
+        "w": 615,
+        "h": 611
+      },
+      "visiblePixels": 250985,
+      "visibleEdgePixels": 0,
+      "crop": {
+        "x": 43,
+        "y": 28,
+        "w": 631,
+        "h": 627
+      },
+      "runtime": "public/assets/v36/skills/beatriz/water-veil.png",
+      "sha256": "0485602fb6d70156c6308318c024ad59174c2f83012373cf5c18b687da85433a",
+      "nativeRgbaPreserved": true
+    },
+    {
+      "id": "undertow",
+      "index": 1,
+      "row": 0,
+      "col": 1,
+      "cell": {
+        "x": 722,
+        "y": 0,
+        "w": 731,
+        "h": 724
+      },
+      "visibleBounds": {
+        "x": 779,
+        "y": 35,
+        "w": 617,
+        "h": 615
+      },
+      "visiblePixels": 255029,
+      "visibleEdgePixels": 0,
+      "crop": {
+        "x": 771,
+        "y": 27,
+        "w": 633,
+        "h": 631
+      },
+      "runtime": "public/assets/v36/skills/beatriz/undertow.png",
+      "sha256": "0ebd7a8ab56b1caa35f045b182db3bced2f597396736a0cc2fae92113c7079e7",
+      "nativeRgbaPreserved": true
+    },
+    {
+      "id": "twin-current",
+      "index": 2,
+      "row": 0,
+      "col": 2,
+      "cell": {
+        "x": 1453,
+        "y": 0,
+        "w": 719,
+        "h": 724
+      },
+      "visibleBounds": {
+        "x": 1510,
+        "y": 36,
+        "w": 615,
+        "h": 614
+      },
+      "visiblePixels": 260670,
+      "visibleEdgePixels": 0,
+      "crop": {
+        "x": 1502,
+        "y": 28,
+        "w": 631,
+        "h": 630
+      },
+      "runtime": "public/assets/v36/skills/beatriz/twin-current.png",
+      "sha256": "47cec0003227430cec272d09f11ee9d087468403e96f48a5f04137ff05d8a7d3",
+      "nativeRgbaPreserved": true
+    }
+  ]
+}

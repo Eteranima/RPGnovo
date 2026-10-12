@@ -1,0 +1,70 @@
+{
+  "source": "art-source/v36/variants/ophelia-white-equinox/walk-rejected-matte.png",
+  "width": 1024,
+  "height": 1536,
+  "alphaZero": 867926,
+  "allPixels": 1572864,
+  "strictAlphaZeroCorridors": false,
+  "horizontal": [
+    {
+      "index": 386,
+      "nonzero": 50
+    },
+    {
+      "index": 750,
+      "nonzero": 1
+    },
+    {
+      "index": 1132,
+      "nonzero": 0
+    }
+  ],
+  "vertical": [
+    [
+      {
+        "index": 342,
+        "nonzero": 0
+      },
+      {
+        "index": 694,
+        "nonzero": 0
+      }
+    ],
+    [
+      {
+        "index": 342,
+        "nonzero": 0
+      },
+      {
+        "index": 682,
+        "nonzero": 0
+      }
+    ],
+    [
+      {
+        "index": 342,
+        "nonzero": 0
+      },
+      {
+        "index": 682,
+        "nonzero": 0
+      }
+    ],
+    [
+      {
+        "index": 342,
+        "nonzero": 0
+      },
+      {
+        "index": 686,
+        "nonzero": 0
+      }
+    ]
+  ],
+  "edges": {
+    "top": 0,
+    "bottom": 0,
+    "left": 22,
+    "right": 0
+  }
+}

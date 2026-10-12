@@ -1,0 +1,1227 @@
+{
+  "format": "PCM16 stereo WAV",
+  "sampleRate": 48000,
+  "files": [
+    {
+      "id": "seiji-last-script",
+      "hero": "Seiji",
+      "beat": "cast",
+      "path": "public/assets/v36/audio/seiji-last-script/cast.wav",
+      "sampleRate": 48000,
+      "channels": 2,
+      "bitsPerSample": 16,
+      "frames": 93600,
+      "durationSeconds": 1.95,
+      "peakDbfs": -1.6185786738789014,
+      "rmsDbfs": -19.224511147652596,
+      "dcLeft": -0.00006235465025290464,
+      "dcRight": -0.00006180103008563703,
+      "stereoCorrelation": 0.8932181660203037,
+      "clippedSamples": 0,
+      "first100msRmsDbfs": -10.683678786535344,
+      "final128SamplesPeakDbfs": -240,
+      "maxSampleStep": 0.491668701171875,
+      "bytes": 374444,
+      "sha256": "b8cb4443893f04012d171622ae13090ae02385c5f67558321bce7636bf5fe8e6",
+      "signalProfile": {
+        "audibleOnsetSeconds": 0.0004583333333333333,
+        "aboveMinus30DbfsFraction": 0.5183974358974359,
+        "spectralCentroidHz": 1199.5275343959547,
+        "bands": [
+          {
+            "hz": [
+              0,
+              80
+            ],
+            "energyPercent": 0.013551114039688486
+          },
+          {
+            "hz": [
+              80,
+              250
+            ],
+            "energyPercent": 26.940666006480317
+          },
+          {
+            "hz": [
+              250,
+              1000
+            ],
+            "energyPercent": 58.561764768398724
+          },
+          {
+            "hz": [
+              1000,
+              4000
+            ],
+            "energyPercent": 7.796731814243193
+          },
+          {
+            "hz": [
+              4000,
+              8000
+            ],
+            "energyPercent": 2.4889255004304487
+          },
+          {
+            "hz": [
+              8000,
+              24000
+            ],
+            "energyPercent": 4.198360796406802
+          }
+        ],
+        "analysis": "24 Hann windows of 4096 samples over decoded mono mix; not a subjective listening test"
+      },
+      "ffmpeg": {
+        "integratedLufs": -15.5,
+        "truePeakDbtp": -1.2
+      }
+    },
+    {
+      "id": "seiji-last-script",
+      "hero": "Seiji",
+      "beat": "ultimate",
+      "path": "public/assets/v36/audio/seiji-last-script/ultimate.wav",
+      "sampleRate": 48000,
+      "channels": 2,
+      "bitsPerSample": 16,
+      "frames": 165600,
+      "durationSeconds": 3.45,
+      "peakDbfs": -1.1601418846259826,
+      "rmsDbfs": -17.7394026971678,
+      "dcLeft": -0.00003315598492461126,
+      "dcRight": -0.00003335224833465429,
+      "stereoCorrelation": 0.9067228147828826,
+      "clippedSamples": 0,
+      "first100msRmsDbfs": -10.601133655024624,
+      "final128SamplesPeakDbfs": -90.30899869919436,
+      "maxSampleStep": 0.405609130859375,
+      "bytes": 662444,
+      "sha256": "6d9800aa52fba0492bf69d5cd1e28eb2afa9f0c1e12fd97fd0a67babf2efb5ef",
+      "signalProfile": {
+        "audibleOnsetSeconds": 0.00047916666666666664,
+        "aboveMinus30DbfsFraction": 0.7467391304347826,
+        "spectralCentroidHz": 767.0944244521946,
+        "bands": [
+          {
+            "hz": [
+              0,
+              80
+            ],
+            "energyPercent": 0.004376905705982231
+          },
+          {
+            "hz": [
+              80,
+              250
+            ],
+            "energyPercent": 13.316220114713875
+          },
+          {
+            "hz": [
+              250,
+              1000
+            ],
+            "energyPercent": 77.48850181698032
+          },
+          {
+            "hz": [
+              1000,
+              4000
+            ],
+            "energyPercent": 6.909341784072606
+          },
+          {
+            "hz": [
+              4000,
+              8000
+            ],
+            "energyPercent": 0.8280765001191253
+          },
+          {
+            "hz": [
+              8000,
+              24000
+            ],
+            "energyPercent": 1.4534828784086304
+          }
+        ],
+        "analysis": "24 Hann windows of 4096 samples over decoded mono mix; not a subjective listening test"
+      },
+      "ffmpeg": {
+        "integratedLufs": -15.3,
+        "truePeakDbtp": -1.2
+      }
+    },
+    {
+      "id": "ophelia-white-equinox",
+      "hero": "Ophelia",
+      "beat": "cast",
+      "path": "public/assets/v36/audio/ophelia-white-equinox/cast.wav",
+      "sampleRate": 48000,
+      "channels": 2,
+      "bitsPerSample": 16,
+      "frames": 103200,
+      "durationSeconds": 2.15,
+      "peakDbfs": -1.6185786738789014,
+      "rmsDbfs": -17.173358711071263,
+      "dcLeft": -0.000013336950494337452,
+      "dcRight": -0.000013436901476956153,
+      "stereoCorrelation": 0.9541102449502461,
+      "clippedSamples": 0,
+      "first100msRmsDbfs": -11.481910271509417,
+      "final128SamplesPeakDbfs": -240,
+      "maxSampleStep": 0.343505859375,
+      "bytes": 412844,
+      "sha256": "ced8fbb5efd5b80e04effb0537a71148d404c2363666197b9a09f75f6f96e284",
+      "signalProfile": {
+        "audibleOnsetSeconds": 0.0009583333333333333,
+        "aboveMinus30DbfsFraction": 0.7160755813953489,
+        "spectralCentroidHz": 897.2491961025917,
+        "bands": [
+          {
+            "hz": [
+              0,
+              80
+            ],
+            "energyPercent": 0.00031470650537641654
+          },
+          {
+            "hz": [
+              80,
+              250
+            ],
+            "energyPercent": 0.0030860383986138504
+          },
+          {
+            "hz": [
+              250,
+              1000
+            ],
+            "energyPercent": 82.16818587012057
+          },
+          {
+            "hz": [
+              1000,
+              4000
+            ],
+            "energyPercent": 15.987298234058125
+          },
+          {
+            "hz": [
+              4000,
+              8000
+            ],
+            "energyPercent": 0.9530166132029748
+          },
+          {
+            "hz": [
+              8000,
+              24000
+            ],
+            "energyPercent": 0.8880985377181565
+          }
+        ],
+        "analysis": "24 Hann windows of 4096 samples over decoded mono mix; not a subjective listening test"
+      },
+      "ffmpeg": {
+        "integratedLufs": -13.6,
+        "truePeakDbtp": -1
+      }
+    },
+    {
+      "id": "ophelia-white-equinox",
+      "hero": "Ophelia",
+      "beat": "ultimate",
+      "path": "public/assets/v36/audio/ophelia-white-equinox/ultimate.wav",
+      "sampleRate": 48000,
+      "channels": 2,
+      "bitsPerSample": 16,
+      "frames": 177600,
+      "durationSeconds": 3.7,
+      "peakDbfs": -1.1601418846259826,
+      "rmsDbfs": -17.546406208537675,
+      "dcLeft": -0.000006449931376689189,
+      "dcRight": -0.000006552343969946509,
+      "stereoCorrelation": 0.9173409379198915,
+      "clippedSamples": 0,
+      "first100msRmsDbfs": -11.981628581526946,
+      "final128SamplesPeakDbfs": -240,
+      "maxSampleStep": 0.26019287109375,
+      "bytes": 710444,
+      "sha256": "a96f942a801a25ebf54b2eebb8e8105730ca13497741ccc1fb8031bba9fd70c1",
+      "signalProfile": {
+        "audibleOnsetSeconds": 0.0012291666666666666,
+        "aboveMinus30DbfsFraction": 0.7151858108108108,
+        "spectralCentroidHz": 924.3269912526775,
+        "bands": [
+          {
+            "hz": [
+              0,
+              80
+            ],
+            "energyPercent": 0.0005503769562967534
+          },
+          {
+            "hz": [
+              80,
+              250
+            ],
+            "energyPercent": 0.002446393616193313
+          },
+          {
+            "hz": [
+              250,
+              1000
+            ],
+            "energyPercent": 75.4698717980315
+          },
+          {
+            "hz": [
+              1000,
+              4000
+            ],
+            "energyPercent": 22.681027737743843
+          },
+          {
+            "hz": [
+              4000,
+              8000
+            ],
+            "energyPercent": 1.2019592133687826
+          },
+          {
+            "hz": [
+              8000,
+              24000
+            ],
+            "energyPercent": 0.6441444802829359
+          }
+        ],
+        "analysis": "24 Hann windows of 4096 samples over decoded mono mix; not a subjective listening test"
+      },
+      "ffmpeg": {
+        "integratedLufs": -13.4,
+        "truePeakDbtp": -1.2
+      }
+    },
+    {
+      "id": "marin-starless-throne",
+      "hero": "Marin",
+      "beat": "cast",
+      "path": "public/assets/v36/audio/marin-starless-throne/cast.wav",
+      "sampleRate": 48000,
+      "channels": 2,
+      "bitsPerSample": 16,
+      "frames": 91200,
+      "durationSeconds": 1.9,
+      "peakDbfs": -1.6185786738789014,
+      "rmsDbfs": -19.50240556868113,
+      "dcLeft": -0.00007911916364703262,
+      "dcRight": -0.00008145549841094435,
+      "stereoCorrelation": 0.8725008889472595,
+      "clippedSamples": 0,
+      "first100msRmsDbfs": -10.894411570868172,
+      "final128SamplesPeakDbfs": -240,
+      "maxSampleStep": 0.377349853515625,
+      "bytes": 364844,
+      "sha256": "61fbd7f5fe08b3b2e97d8a6c15ea3762e36b2f1aec4cfe662a52560deb67dc84",
+      "signalProfile": {
+        "audibleOnsetSeconds": 0.0004583333333333333,
+        "aboveMinus30DbfsFraction": 0.6089473684210527,
+        "spectralCentroidHz": 809.9342878948537,
+        "bands": [
+          {
+            "hz": [
+              0,
+              80
+            ],
+            "energyPercent": 2.278216816855049
+          },
+          {
+            "hz": [
+              80,
+              250
+            ],
+            "energyPercent": 64.48035509989867
+          },
+          {
+            "hz": [
+              250,
+              1000
+            ],
+            "energyPercent": 23.520848342418763
+          },
+          {
+            "hz": [
+              1000,
+              4000
+            ],
+            "energyPercent": 4.583145307742092
+          },
+          {
+            "hz": [
+              4000,
+              8000
+            ],
+            "energyPercent": 2.4483334072692142
+          },
+          {
+            "hz": [
+              8000,
+              24000
+            ],
+            "energyPercent": 2.689101025817633
+          }
+        ],
+        "analysis": "24 Hann windows of 4096 samples over decoded mono mix; not a subjective listening test"
+      },
+      "ffmpeg": {
+        "integratedLufs": -16.7,
+        "truePeakDbtp": -1.2
+      }
+    },
+    {
+      "id": "marin-starless-throne",
+      "hero": "Marin",
+      "beat": "ultimate",
+      "path": "public/assets/v36/audio/marin-starless-throne/ultimate.wav",
+      "sampleRate": 48000,
+      "channels": 2,
+      "bitsPerSample": 16,
+      "frames": 163200,
+      "durationSeconds": 3.4,
+      "peakDbfs": -1.1601418846259826,
+      "rmsDbfs": -17.456983779971946,
+      "dcLeft": -0.00004393278383741192,
+      "dcRight": -0.000045177235322840076,
+      "stereoCorrelation": 0.9006060138360977,
+      "clippedSamples": 0,
+      "first100msRmsDbfs": -10.22074637452167,
+      "final128SamplesPeakDbfs": -240,
+      "maxSampleStep": 0.32574462890625,
+      "bytes": 652844,
+      "sha256": "7fb44fa78bf6d88b096166435107440065257baaadf6ada4646cafc8605c5bfb",
+      "signalProfile": {
+        "audibleOnsetSeconds": 0.0004583333333333333,
+        "aboveMinus30DbfsFraction": 0.693578431372549,
+        "spectralCentroidHz": 428.6882882750658,
+        "bands": [
+          {
+            "hz": [
+              0,
+              80
+            ],
+            "energyPercent": 0.5358439990029348
+          },
+          {
+            "hz": [
+              80,
+              250
+            ],
+            "energyPercent": 53.783553749459934
+          },
+          {
+            "hz": [
+              250,
+              1000
+            ],
+            "energyPercent": 42.50145880256408
+          },
+          {
+            "hz": [
+              1000,
+              4000
+            ],
+            "energyPercent": 1.7416426402788736
+          },
+          {
+            "hz": [
+              4000,
+              8000
+            ],
+            "energyPercent": 0.6527873704958198
+          },
+          {
+            "hz": [
+              8000,
+              24000
+            ],
+            "energyPercent": 0.784713438200078
+          }
+        ],
+        "analysis": "24 Hann windows of 4096 samples over decoded mono mix; not a subjective listening test"
+      },
+      "ffmpeg": {
+        "integratedLufs": -14.4,
+        "truePeakDbtp": -1.1
+      }
+    },
+    {
+      "id": "gabriel-solar-oath",
+      "hero": "Gabriel",
+      "beat": "cast",
+      "path": "public/assets/v36/audio/gabriel-solar-oath/cast.wav",
+      "sampleRate": 48000,
+      "channels": 2,
+      "bitsPerSample": 16,
+      "frames": 98400,
+      "durationSeconds": 2.05,
+      "peakDbfs": -1.6185786738789014,
+      "rmsDbfs": -18.60089940558,
+      "dcLeft": -0.00005477936287236407,
+      "dcRight": -0.00005430826326695884,
+      "stereoCorrelation": 0.9537838632743856,
+      "clippedSamples": 0,
+      "first100msRmsDbfs": -10.090010458159021,
+      "final128SamplesPeakDbfs": -240,
+      "maxSampleStep": 0.1966552734375,
+      "bytes": 393644,
+      "sha256": "05b832ff603c167d2af6687e3c83e77ec343eb9bb529d5ee9c36210a70553fac",
+      "signalProfile": {
+        "audibleOnsetSeconds": 0.00047916666666666664,
+        "aboveMinus30DbfsFraction": 0.6134857723577236,
+        "spectralCentroidHz": 379.68573786277955,
+        "bands": [
+          {
+            "hz": [
+              0,
+              80
+            ],
+            "energyPercent": 0.9677982715052139
+          },
+          {
+            "hz": [
+              80,
+              250
+            ],
+            "energyPercent": 72.20515272186225
+          },
+          {
+            "hz": [
+              250,
+              1000
+            ],
+            "energyPercent": 23.736193150412785
+          },
+          {
+            "hz": [
+              1000,
+              4000
+            ],
+            "energyPercent": 1.9488611099372573
+          },
+          {
+            "hz": [
+              4000,
+              8000
+            ],
+            "energyPercent": 0.5280327397265422
+          },
+          {
+            "hz": [
+              8000,
+              24000
+            ],
+            "energyPercent": 0.6139620065565576
+          }
+        ],
+        "analysis": "24 Hann windows of 4096 samples over decoded mono mix; not a subjective listening test"
+      },
+      "ffmpeg": {
+        "integratedLufs": -16.4,
+        "truePeakDbtp": -1.6
+      }
+    },
+    {
+      "id": "gabriel-solar-oath",
+      "hero": "Gabriel",
+      "beat": "ultimate",
+      "path": "public/assets/v36/audio/gabriel-solar-oath/ultimate.wav",
+      "sampleRate": 48000,
+      "channels": 2,
+      "bitsPerSample": 16,
+      "frames": 175200,
+      "durationSeconds": 3.65,
+      "peakDbfs": -1.1601418846259826,
+      "rmsDbfs": -16.806748599979336,
+      "dcLeft": -0.00003083912749268693,
+      "dcRight": -0.00003131448406062714,
+      "stereoCorrelation": 0.9478565412715857,
+      "clippedSamples": 0,
+      "first100msRmsDbfs": -9.819766905444538,
+      "final128SamplesPeakDbfs": -240,
+      "maxSampleStep": 0.148712158203125,
+      "bytes": 700844,
+      "sha256": "e9d7413ef28475d6639b329c0a8b5e3004ff0e5db8664fd812658dd20fe992e5",
+      "signalProfile": {
+        "audibleOnsetSeconds": 0.00047916666666666664,
+        "aboveMinus30DbfsFraction": 0.7418493150684932,
+        "spectralCentroidHz": 400.12950017844753,
+        "bands": [
+          {
+            "hz": [
+              0,
+              80
+            ],
+            "energyPercent": 0.13455138199056904
+          },
+          {
+            "hz": [
+              80,
+              250
+            ],
+            "energyPercent": 42.654575147594024
+          },
+          {
+            "hz": [
+              250,
+              1000
+            ],
+            "energyPercent": 54.471240648901976
+          },
+          {
+            "hz": [
+              1000,
+              4000
+            ],
+            "energyPercent": 2.4166078520317518
+          },
+          {
+            "hz": [
+              4000,
+              8000
+            ],
+            "energyPercent": 0.1444926297678728
+          },
+          {
+            "hz": [
+              8000,
+              24000
+            ],
+            "energyPercent": 0.17853233971362845
+          }
+        ],
+        "analysis": "24 Hann windows of 4096 samples over decoded mono mix; not a subjective listening test"
+      },
+      "ffmpeg": {
+        "integratedLufs": -13.9,
+        "truePeakDbtp": -1.1
+      }
+    },
+    {
+      "id": "max-thunder-requiem",
+      "hero": "Max",
+      "beat": "cast",
+      "path": "public/assets/v36/audio/max-thunder-requiem/cast.wav",
+      "sampleRate": 48000,
+      "channels": 2,
+      "bitsPerSample": 16,
+      "frames": 84000,
+      "durationSeconds": 1.75,
+      "peakDbfs": -1.6185786738789014,
+      "rmsDbfs": -20.495617285590512,
+      "dcLeft": -0.000050663902646019344,
+      "dcRight": -0.00005052076067243303,
+      "stereoCorrelation": 0.9202656505589757,
+      "clippedSamples": 0,
+      "first100msRmsDbfs": -12.281343812770968,
+      "final128SamplesPeakDbfs": -240,
+      "maxSampleStep": 0.343963623046875,
+      "bytes": 336044,
+      "sha256": "dd2c7ed10e943fedbb44322a2185cdc97358b29039b337c98577b795fc957cfc",
+      "signalProfile": {
+        "audibleOnsetSeconds": 0.0005208333333333333,
+        "aboveMinus30DbfsFraction": 0.4908571428571429,
+        "spectralCentroidHz": 928.8443329579463,
+        "bands": [
+          {
+            "hz": [
+              0,
+              80
+            ],
+            "energyPercent": 0.0010677657837254056
+          },
+          {
+            "hz": [
+              80,
+              250
+            ],
+            "energyPercent": 12.145987581043409
+          },
+          {
+            "hz": [
+              250,
+              1000
+            ],
+            "energyPercent": 76.67437484771837
+          },
+          {
+            "hz": [
+              1000,
+              4000
+            ],
+            "energyPercent": 7.683388955194811
+          },
+          {
+            "hz": [
+              4000,
+              8000
+            ],
+            "energyPercent": 1.236082674746369
+          },
+          {
+            "hz": [
+              8000,
+              24000
+            ],
+            "energyPercent": 2.2590981755122823
+          }
+        ],
+        "analysis": "24 Hann windows of 4096 samples over decoded mono mix; not a subjective listening test"
+      },
+      "ffmpeg": {
+        "integratedLufs": -17.1,
+        "truePeakDbtp": -1.4
+      }
+    },
+    {
+      "id": "max-thunder-requiem",
+      "hero": "Max",
+      "beat": "ultimate",
+      "path": "public/assets/v36/audio/max-thunder-requiem/ultimate.wav",
+      "sampleRate": 48000,
+      "channels": 2,
+      "bitsPerSample": 16,
+      "frames": 158400,
+      "durationSeconds": 3.3,
+      "peakDbfs": -1.1601418846259826,
+      "rmsDbfs": -19.31940915345066,
+      "dcLeft": -0.000031939034510140466,
+      "dcRight": -0.00003190204350635259,
+      "stereoCorrelation": 0.9025213211105969,
+      "clippedSamples": 0,
+      "first100msRmsDbfs": -10.467652201410733,
+      "final128SamplesPeakDbfs": -240,
+      "maxSampleStep": 0.363372802734375,
+      "bytes": 633644,
+      "sha256": "a51b8734823b02281fc01355e7df3c7bf28706398cbaa0aaa0b11c9fefe6371b",
+      "signalProfile": {
+        "audibleOnsetSeconds": 0.00047916666666666664,
+        "aboveMinus30DbfsFraction": 0.7008585858585858,
+        "spectralCentroidHz": 890.0654392514136,
+        "bands": [
+          {
+            "hz": [
+              0,
+              80
+            ],
+            "energyPercent": 0.0008907035351220923
+          },
+          {
+            "hz": [
+              80,
+              250
+            ],
+            "energyPercent": 11.095457142453379
+          },
+          {
+            "hz": [
+              250,
+              1000
+            ],
+            "energyPercent": 72.99774735430945
+          },
+          {
+            "hz": [
+              1000,
+              4000
+            ],
+            "energyPercent": 13.694398529817036
+          },
+          {
+            "hz": [
+              4000,
+              8000
+            ],
+            "energyPercent": 1.0519075858813864
+          },
+          {
+            "hz": [
+              8000,
+              24000
+            ],
+            "energyPercent": 1.159598684002737
+          }
+        ],
+        "analysis": "24 Hann windows of 4096 samples over decoded mono mix; not a subjective listening test"
+      },
+      "ffmpeg": {
+        "integratedLufs": -17.1,
+        "truePeakDbtp": -1.2
+      }
+    },
+    {
+      "id": "ava-worldroot-sovereign",
+      "hero": "Ava",
+      "beat": "cast",
+      "path": "public/assets/v36/audio/ava-worldroot-sovereign/cast.wav",
+      "sampleRate": 48000,
+      "channels": 2,
+      "bitsPerSample": 16,
+      "frames": 110400,
+      "durationSeconds": 2.3,
+      "peakDbfs": -1.6185786738789014,
+      "rmsDbfs": -20.82837914126125,
+      "dcLeft": -0.0000578086963598279,
+      "dcRight": -0.00005649124366649683,
+      "stereoCorrelation": 0.9488922356498265,
+      "clippedSamples": 0,
+      "first100msRmsDbfs": -10.059025243357542,
+      "final128SamplesPeakDbfs": -240,
+      "maxSampleStep": 0.1480712890625,
+      "bytes": 441644,
+      "sha256": "85183871780fada737bb38bf6353e9294f9ce5970c94ca0f35877122e1c3d49e",
+      "signalProfile": {
+        "audibleOnsetSeconds": 0.0005208333333333333,
+        "aboveMinus30DbfsFraction": 0.37570652173913044,
+        "spectralCentroidHz": 289.24375217390616,
+        "bands": [
+          {
+            "hz": [
+              0,
+              80
+            ],
+            "energyPercent": 49.27536855845438
+          },
+          {
+            "hz": [
+              80,
+              250
+            ],
+            "energyPercent": 38.1307986779279
+          },
+          {
+            "hz": [
+              250,
+              1000
+            ],
+            "energyPercent": 9.39942065106375
+          },
+          {
+            "hz": [
+              1000,
+              4000
+            ],
+            "energyPercent": 1.971066954794022
+          },
+          {
+            "hz": [
+              4000,
+              8000
+            ],
+            "energyPercent": 0.6371804713682026
+          },
+          {
+            "hz": [
+              8000,
+              24000
+            ],
+            "energyPercent": 0.58616468639476
+          }
+        ],
+        "analysis": "24 Hann windows of 4096 samples over decoded mono mix; not a subjective listening test"
+      },
+      "ffmpeg": {
+        "integratedLufs": -18.9,
+        "truePeakDbtp": -1.6
+      }
+    },
+    {
+      "id": "ava-worldroot-sovereign",
+      "hero": "Ava",
+      "beat": "ultimate",
+      "path": "public/assets/v36/audio/ava-worldroot-sovereign/ultimate.wav",
+      "sampleRate": 48000,
+      "channels": 2,
+      "bitsPerSample": 16,
+      "frames": 189600,
+      "durationSeconds": 3.95,
+      "peakDbfs": -1.1601418846259826,
+      "rmsDbfs": -17.668029612526443,
+      "dcLeft": -0.00003676257555997824,
+      "dcRight": -0.00003667630223785272,
+      "stereoCorrelation": 0.9005782190157892,
+      "clippedSamples": 0,
+      "first100msRmsDbfs": -8.676305972776708,
+      "final128SamplesPeakDbfs": -240,
+      "maxSampleStep": 0.14019775390625,
+      "bytes": 758444,
+      "sha256": "ac1db6a67730777920e1b2cadcf8f56c97e9c62a8a8f990173b5569d67dee552",
+      "signalProfile": {
+        "audibleOnsetSeconds": 0.0005,
+        "aboveMinus30DbfsFraction": 0.6988554852320675,
+        "spectralCentroidHz": 299.58788357756816,
+        "bands": [
+          {
+            "hz": [
+              0,
+              80
+            ],
+            "energyPercent": 24.50056669941474
+          },
+          {
+            "hz": [
+              80,
+              250
+            ],
+            "energyPercent": 40.75280240589975
+          },
+          {
+            "hz": [
+              250,
+              1000
+            ],
+            "energyPercent": 31.704506905576622
+          },
+          {
+            "hz": [
+              1000,
+              4000
+            ],
+            "energyPercent": 2.6533272670724672
+          },
+          {
+            "hz": [
+              4000,
+              8000
+            ],
+            "energyPercent": 0.19769995186263348
+          },
+          {
+            "hz": [
+              8000,
+              24000
+            ],
+            "energyPercent": 0.19109677017502757
+          }
+        ],
+        "analysis": "24 Hann windows of 4096 samples over decoded mono mix; not a subjective listening test"
+      },
+      "ffmpeg": {
+        "integratedLufs": -14.9,
+        "truePeakDbtp": -1.1
+      }
+    },
+    {
+      "id": "beatriz-eclipse-tide",
+      "hero": "Beatriz",
+      "beat": "cast",
+      "path": "public/assets/v36/audio/beatriz-eclipse-tide/cast.wav",
+      "sampleRate": 48000,
+      "channels": 2,
+      "bitsPerSample": 16,
+      "frames": 108000,
+      "durationSeconds": 2.25,
+      "peakDbfs": -1.6185786738789014,
+      "rmsDbfs": -21.103561592099346,
+      "dcLeft": -0.000050629227249710646,
+      "dcRight": -0.00005137125651041667,
+      "stereoCorrelation": 0.9100110841693638,
+      "clippedSamples": 0,
+      "first100msRmsDbfs": -11.317506818634813,
+      "final128SamplesPeakDbfs": -240,
+      "maxSampleStep": 0.419891357421875,
+      "bytes": 432044,
+      "sha256": "780a2ab485ff2338f04631cbe439a6a1570fdabb0aad50a80fa7c6aa946f55b1",
+      "signalProfile": {
+        "audibleOnsetSeconds": 0.0005208333333333333,
+        "aboveMinus30DbfsFraction": 0.43325,
+        "spectralCentroidHz": 1215.2736022306294,
+        "bands": [
+          {
+            "hz": [
+              0,
+              80
+            ],
+            "energyPercent": 13.769270949030352
+          },
+          {
+            "hz": [
+              80,
+              250
+            ],
+            "energyPercent": 39.81547409301855
+          },
+          {
+            "hz": [
+              250,
+              1000
+            ],
+            "energyPercent": 32.00194088450141
+          },
+          {
+            "hz": [
+              1000,
+              4000
+            ],
+            "energyPercent": 6.36814285648422
+          },
+          {
+            "hz": [
+              4000,
+              8000
+            ],
+            "energyPercent": 3.3592550226016704
+          },
+          {
+            "hz": [
+              8000,
+              24000
+            ],
+            "energyPercent": 4.685916194365409
+          }
+        ],
+        "analysis": "24 Hann windows of 4096 samples over decoded mono mix; not a subjective listening test"
+      },
+      "ffmpeg": {
+        "integratedLufs": -17.8,
+        "truePeakDbtp": -1.5
+      }
+    },
+    {
+      "id": "beatriz-eclipse-tide",
+      "hero": "Beatriz",
+      "beat": "ultimate",
+      "path": "public/assets/v36/audio/beatriz-eclipse-tide/ultimate.wav",
+      "sampleRate": 48000,
+      "channels": 2,
+      "bitsPerSample": 16,
+      "frames": 187200,
+      "durationSeconds": 3.9,
+      "peakDbfs": -1.1601418846259826,
+      "rmsDbfs": -17.378362918028245,
+      "dcLeft": -0.000035410334921290735,
+      "dcRight": -0.00003531887999966613,
+      "stereoCorrelation": 0.8801111523409375,
+      "clippedSamples": 0,
+      "first100msRmsDbfs": -9.379409043152831,
+      "final128SamplesPeakDbfs": -240,
+      "maxSampleStep": 0.432037353515625,
+      "bytes": 748844,
+      "sha256": "87bfc051dc95cca4646a45e93318937429375d612bc0b42cecdc252bf7ca3a3e",
+      "signalProfile": {
+        "audibleOnsetSeconds": 0.00047916666666666664,
+        "aboveMinus30DbfsFraction": 0.6722061965811966,
+        "spectralCentroidHz": 830.7998456809529,
+        "bands": [
+          {
+            "hz": [
+              0,
+              80
+            ],
+            "energyPercent": 6.112004139250228
+          },
+          {
+            "hz": [
+              80,
+              250
+            ],
+            "energyPercent": 19.961908715847187
+          },
+          {
+            "hz": [
+              250,
+              1000
+            ],
+            "energyPercent": 63.263040531430256
+          },
+          {
+            "hz": [
+              1000,
+              4000
+            ],
+            "energyPercent": 7.598167024367801
+          },
+          {
+            "hz": [
+              4000,
+              8000
+            ],
+            "energyPercent": 1.292686885131839
+          },
+          {
+            "hz": [
+              8000,
+              24000
+            ],
+            "energyPercent": 1.7721927039716823
+          }
+        ],
+        "analysis": "24 Hann windows of 4096 samples over decoded mono mix; not a subjective listening test"
+      },
+      "ffmpeg": {
+        "integratedLufs": -13.6,
+        "truePeakDbtp": -0.9
+      }
+    },
+    {
+      "id": "orfeu-unwritten-archon",
+      "hero": "Orfeu",
+      "beat": "cast",
+      "path": "public/assets/v36/audio/orfeu-unwritten-archon/cast.wav",
+      "sampleRate": 48000,
+      "channels": 2,
+      "bitsPerSample": 16,
+      "frames": 86400,
+      "durationSeconds": 1.8,
+      "peakDbfs": -1.6185786738789014,
+      "rmsDbfs": -22.08839877945522,
+      "dcLeft": -0.00008008391768844039,
+      "dcRight": -0.00007994651794433594,
+      "stereoCorrelation": 0.9519457232017876,
+      "clippedSamples": 0,
+      "first100msRmsDbfs": -11.491499378704173,
+      "final128SamplesPeakDbfs": -240,
+      "maxSampleStep": 0.28521728515625,
+      "bytes": 345644,
+      "sha256": "3536a07f74ccf729c571e858d7c1ced82d55518f4ee2d7155bd5f82ab61db80b",
+      "signalProfile": {
+        "audibleOnsetSeconds": 0.0004375,
+        "aboveMinus30DbfsFraction": 0.36341435185185184,
+        "spectralCentroidHz": 228.2482026352737,
+        "bands": [
+          {
+            "hz": [
+              0,
+              80
+            ],
+            "energyPercent": 14.604697406283535
+          },
+          {
+            "hz": [
+              80,
+              250
+            ],
+            "energyPercent": 75.9775056722069
+          },
+          {
+            "hz": [
+              250,
+              1000
+            ],
+            "energyPercent": 8.083501613026337
+          },
+          {
+            "hz": [
+              1000,
+              4000
+            ],
+            "energyPercent": 0.5490736551815198
+          },
+          {
+            "hz": [
+              4000,
+              8000
+            ],
+            "energyPercent": 0.3278199155228646
+          },
+          {
+            "hz": [
+              8000,
+              24000
+            ],
+            "energyPercent": 0.45740173777967996
+          }
+        ],
+        "analysis": "24 Hann windows of 4096 samples over decoded mono mix; not a subjective listening test"
+      },
+      "ffmpeg": {
+        "integratedLufs": -20.4,
+        "truePeakDbtp": -1.5
+      }
+    },
+    {
+      "id": "orfeu-unwritten-archon",
+      "hero": "Orfeu",
+      "beat": "ultimate",
+      "path": "public/assets/v36/audio/orfeu-unwritten-archon/ultimate.wav",
+      "sampleRate": 48000,
+      "channels": 2,
+      "bitsPerSample": 16,
+      "frames": 182400,
+      "durationSeconds": 3.8,
+      "peakDbfs": -1.1601418846259826,
+      "rmsDbfs": -21.61148411149293,
+      "dcLeft": -0.00004546734324672766,
+      "dcRight": -0.00004198425694515831,
+      "stereoCorrelation": 0.9112547163645098,
+      "clippedSamples": 0,
+      "first100msRmsDbfs": -9.487769349676526,
+      "final128SamplesPeakDbfs": -240,
+      "maxSampleStep": 0.27630615234375,
+      "bytes": 729644,
+      "sha256": "c4046036cef59a44db6a18b759d6a7cfd3677cc8966315b6608f70b0c7474bda",
+      "signalProfile": {
+        "audibleOnsetSeconds": 0.0004166666666666667,
+        "aboveMinus30DbfsFraction": 0.3571436403508772,
+        "spectralCentroidHz": 236.0503932939668,
+        "bands": [
+          {
+            "hz": [
+              0,
+              80
+            ],
+            "energyPercent": 8.108631727698668
+          },
+          {
+            "hz": [
+              80,
+              250
+            ],
+            "energyPercent": 73.78266658878348
+          },
+          {
+            "hz": [
+              250,
+              1000
+            ],
+            "energyPercent": 16.919037609266233
+          },
+          {
+            "hz": [
+              1000,
+              4000
+            ],
+            "energyPercent": 0.654239805489452
+          },
+          {
+            "hz": [
+              4000,
+              8000
+            ],
+            "energyPercent": 0.24076623148319495
+          },
+          {
+            "hz": [
+              8000,
+              24000
+            ],
+            "energyPercent": 0.29465803727820705
+          }
+        ],
+        "analysis": "24 Hann windows of 4096 samples over decoded mono mix; not a subjective listening test"
+      },
+      "ffmpeg": {
+        "integratedLufs": -18,
+        "truePeakDbtp": -0.8
+      }
+    }
+  ],
+  "totalBytes": 8698304,
+  "listeningReview": "not performed: tool reported audio input unsupported; signal analysis and playable files provided",
+  "noClippedSamples": true,
+  "signalReview": "passed: onset, clipping, DC, tail, stereo coherence, spectrum and independently decoded true peak",
+  "ffmpegVersion": "ffmpeg version 9.0.2-essentials_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers"
+}

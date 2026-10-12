@@ -24,8 +24,8 @@ const distance=(a,b)=>Math.hypot(a.x-b.x,a.y-b.y);
 const entity=e=>e.activeEntities().find(n=>n.id===ABEL_NPC_V31.id);
 
 equal(Object.values(MAPS).flatMap(m=>m.entities.filter(e=>e.asset==='abel').map(e=>m.id)),['ashpyre'],'approved Abel art now has exactly one real world NPC consumer');
-check(!PLAYABLE_HERO_IDS.includes('abel'),'Abel stays outside playable IDs');
-check(!heroBases().some(h=>h.id==='abel'),'world NPC does not introduce invented playable vitals');
+check(PLAYABLE_HERO_IDS.includes('abel'),'explicit v36 recruitment request makes Abel playable');
+check(heroBases().some(h=>h.id==='abel'),'playable Abel has real vitals while his world NPC remains present');
 equal({x:ABEL_NPC_V31.x,y:ABEL_NPC_V31.y},{x:8,y:11},'workshop anchor keeps the actor above the floating exit label');
 const e=fresh(),gate=MAPS.ashwood.entities.find(n=>n.to==='ashpyre');
 equal(gate.minStage,5,'physical chapter gate remains unchanged');
@@ -114,5 +114,5 @@ const pausedPose=abelPatrolV31(e.patrolTime),pausedKey=`walk_abel_${EXPLORATION_
 equal(drawCalls[0]?.[0].key,pausedKey,'paused entity retains the actual facing');equal(drawCalls[0].slice(1,5),[idle.x,idle.y,idle.w,idle.h],'paused entity does not continue animated walking');
 report.push('Renderer: four final RGBA sheets × eight measured crops consumed by WorldRenderer.actor. WorldRenderer.entity follows actual patrol facing, chooses the idle frame for pauses/menus, and preserves native foot anchors.');
 report.push(`Exit-label regression: every route point has feet y≤11; all32 rendered crop bounds retain at least ${labelClearance.toFixed(2)}px vertical clearance above pira-retorno\'s label in world coordinates.`);
-const text=`Abel NPC v31 — PASS (${checks} checks)\n\n${report.join('\n')}\n\nBefore this change, approved Abel walking assets had no NPC in MAPS. This adds the actual world consumer; Abel remains a collection character outside PLAYABLE_HERO_IDS.\n`;
+const text=`Abel NPC v31 — PASS (${checks} checks)\n\n${report.join('\n')}\n\nBefore this change, approved Abel walking assets had no NPC in MAPS. This adds the actual world consumer; The v36 follow-up makes Abel playable; this gate preserves the workshop NPC, patrol and no-reward conversations for an unowned Abel.\n`;
 mkdirSync('docs/qa-v31',{recursive:true});writeFileSync('docs/qa-v31/abel-npc-test.txt',text);console.log(text);

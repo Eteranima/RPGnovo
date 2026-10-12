@@ -1,0 +1,42 @@
+{
+  "source": "art-source/v36/variants/ophelia-white-equinox/attack-candidate.png",
+  "width": 1536,
+  "height": 1024,
+  "alphaZero": 755597,
+  "allPixels": 1572864,
+  "strictAlphaZeroCorridors": false,
+  "horizontal": [
+    {
+      "index": 526,
+      "nonzero": 38
+    }
+  ],
+  "vertical": [
+    [
+      {
+        "index": 514,
+        "nonzero": 0
+      },
+      {
+        "index": 920,
+        "nonzero": 0
+      }
+    ],
+    [
+      {
+        "index": 546,
+        "nonzero": 124
+      },
+      {
+        "index": 904,
+        "nonzero": 199
+      }
+    ]
+  ],
+  "edges": {
+    "top": 7,
+    "bottom": 126,
+    "left": 83,
+    "right": 28
+  }
+}

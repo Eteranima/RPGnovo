@@ -1,0 +1,22 @@
+{
+  "id": "ava-worldroot-sovereign",
+  "source": "art-source/v36/variants/ava-worldroot-sovereign/portrait-source.png",
+  "runtime": "public/assets/v36/variants/ava-worldroot-sovereign/portrait.png",
+  "width": 1024,
+  "height": 1536,
+  "sourceSha256": "7c3d1160d216980e598c28466cd9e5d447332d9e359dcac3a658315516bc699f",
+  "runtimeSha256": "7c3d1160d216980e598c28466cd9e5d447332d9e359dcac3a658315516bc699f",
+  "byteIdenticalSourceCopies": true,
+  "alphaThresholdForMeasurementOnly": 24,
+  "visibleEdge": 0,
+  "backgroundAlphaZero": 537378,
+  "face": {
+    "left": 445,
+    "top": 120,
+    "width": 250,
+    "height": 250,
+    "runtime": "public/assets/v36/variants/ava-worldroot-sovereign/face.png",
+    "sha256": "3cf0b604b4b94f20ffe39679ebc12bf5dc81b2fcb12376777e50cac3c67f1a39",
+    "allNativeRgbaPixelsPreserved": true
+  }
+}

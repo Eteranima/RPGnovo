@@ -1,0 +1,22 @@
+{
+  "id": "seiji-last-script",
+  "source": "art-source/v36/variants/seiji-last-script/portrait-source.png",
+  "runtime": "public/assets/v36/variants/seiji-last-script/portrait.png",
+  "width": 1024,
+  "height": 1536,
+  "sourceSha256": "ea25e6cf1bda674aaffa6cde85a05748f4d6151240919a1f39e9e95d6d479a7f",
+  "runtimeSha256": "ea25e6cf1bda674aaffa6cde85a05748f4d6151240919a1f39e9e95d6d479a7f",
+  "byteIdenticalSourceCopies": true,
+  "alphaThresholdForMeasurementOnly": 24,
+  "visibleEdge": 0,
+  "backgroundAlphaZero": 644940,
+  "face": {
+    "left": 460,
+    "top": 45,
+    "width": 310,
+    "height": 310,
+    "runtime": "public/assets/v36/variants/seiji-last-script/face.png",
+    "sha256": "95dd81320fcc8f508af1e86cef913314be5cdf06516298e660130a25b87ab8f6",
+    "allNativeRgbaPixelsPreserved": true
+  }
+}

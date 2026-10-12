@@ -1,0 +1,9 @@
+.panel{position:relative;isolation:isolate;margin-block:12px;padding:16px 18px;border:1px solid #a18d6366;border-radius:4px;background:linear-gradient(115deg,#091827df,#102337bb),url('/assets/v38/interface/archive-canvas.png') center 64%/cover no-repeat;color:#f3ead8;min-width:0}
+.panel>:global(.native-menu-frame){--frame-corner:27px;--frame-gem:27px;inset:1px}
+.heading{display:flex;align-items:center;gap:8px}.heading h3{margin:0;font-size:15px}.heading img{object-fit:contain}
+.panel p{margin:8px 0;font-size:13px;line-height:1.45}.actions{display:flex;flex-wrap:wrap;gap:8px}
+.actions button{min-height:40px;padding:7px 12px;border:1px solid #bea77a;border-radius:4px;background:linear-gradient(105deg,#263b50,#12293f);color:#fff3da;font:inherit;font-size:13px;cursor:pointer;box-shadow:inset 0 1px #ffe6b321}
+.actions button:disabled{opacity:.5;cursor:default}.actions button:focus-visible{outline:3px solid #8ad6ff;outline-offset:3px}
+.panel .help{color:#d0dce2;font-size:12px}.status:empty{display:none}.panel .status{color:#f9dda4}
+.transfer{margin-top:12px;padding-top:10px;border-top:1px solid #bba27355}.transfer h4{font-size:13px;margin:0 0 6px}.review{margin-top:10px;padding:12px;border:1px solid #c5aa76;border-radius:4px;background:#0e253ce8;box-shadow:inset 0 1px #edd6a329}
+@media(max-height:440px){.panel{padding:8px;margin-block:8px}.panel p{margin:6px 0}.actions button{min-height:36px}}

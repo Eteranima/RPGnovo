@@ -1,0 +1,8 @@
+[
+ {"id":"beatriz-eclipse-tide","kind":"walk","source":"art-source/v36/variants/beatriz-eclipse-tide/walk-border-candidate.png","cols":3,"rows":4},
+ {"id":"beatriz-eclipse-tide","kind":"attack","source":"art-source/v36/variants/beatriz-eclipse-tide/attack-repair-candidate.png","cols":3,"rows":2,"anchors":[[254.7,516],[807.6,514],[1328.5,519],[250,953],[792,953],[1335,956]],"bodyTops":[108,147,148,610,604,602]},
+ {"id":"beatriz-eclipse-tide","kind":"cast","source":"art-source/v36/variants/beatriz-eclipse-tide/cast-repair-candidate.png","cols":3,"rows":2},
+ {"id":"beatriz-eclipse-tide","kind":"ultimate","source":"art-source/v36/variants/beatriz-eclipse-tide/ultimate-body-candidate.png","cols":4,"rows":2},
+ {"id":"beatriz-eclipse-tide","kind":"vfx","source":"art-source/v36/variants/beatriz-eclipse-tide/vfx-repair-candidate.png","cols":3,"rows":2},
+ {"id":"beatriz-eclipse-tide","kind":"icons","source":"art-source/v36/variants/beatriz-eclipse-tide/icons-water-candidate.png","cols":3,"rows":2}
+]

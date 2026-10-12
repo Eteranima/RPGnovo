@@ -1,0 +1,179 @@
+{
+  "id": "marin-starless-throne",
+  "kind": "companion",
+  "tool": "built-in image_gen",
+  "source": "art-source/v36/variants/marin-starless-throne/companion-source.png",
+  "selected": "art-source/v36/variants/marin-starless-throne/companion-source.png",
+  "runtime": "public/assets/v36/variants/marin-starless-throne/companion.png",
+  "width": 1254,
+  "height": 1254,
+  "cols": 2,
+  "rows": 2,
+  "sourceSha256": "ba61aef0defc60af8bbb2f3fee73ecb6c7f26f6e30cdd799f4933db8d4e96b61",
+  "selectedSha256": "ba61aef0defc60af8bbb2f3fee73ecb6c7f26f6e30cdd799f4933db8d4e96b61",
+  "runtimeSha256": "ba61aef0defc60af8bbb2f3fee73ecb6c7f26f6e30cdd799f4933db8d4e96b61",
+  "byteIdenticalSourceCopies": true,
+  "alphaThresholdForMeasurementOnly": 24,
+  "backgroundAlphaZero": 871714,
+  "rowCuts": [
+    0,
+    647,
+    1254
+  ],
+  "frames": [
+    {
+      "x": 55,
+      "y": 54,
+      "w": 464,
+      "h": 576,
+      "anchorX": 328.2,
+      "anchorY": 621
+    },
+    {
+      "x": 668,
+      "y": 60,
+      "w": 577,
+      "h": 573,
+      "anchorX": 962.2,
+      "anchorY": 624
+    },
+    {
+      "x": 48,
+      "y": 662,
+      "w": 672,
+      "h": 532,
+      "anchorX": 318.7,
+      "anchorY": 1185
+    },
+    {
+      "x": 766,
+      "y": 666,
+      "w": 342,
+      "h": 544,
+      "anchorX": 940.2,
+      "anchorY": 1201
+    }
+  ],
+  "measurements": [
+    {
+      "i": 0,
+      "row": 0,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "w": 593,
+        "h": 647
+      },
+      "visibleBounds": {
+        "x": 63,
+        "y": 62,
+        "w": 448,
+        "h": 560
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 131240,
+      "crop": {
+        "x": 55,
+        "y": 54,
+        "w": 464,
+        "h": 576,
+        "anchorX": 328.2,
+        "anchorY": 621
+      },
+      "headOrHatTop": 62,
+      "groundSole": 621,
+      "anchorMethod": "foot-band alpha centroid and sole baseline"
+    },
+    {
+      "i": 1,
+      "row": 0,
+      "col": 1,
+      "cell": {
+        "x": 593,
+        "y": 0,
+        "w": 661,
+        "h": 647
+      },
+      "visibleBounds": {
+        "x": 676,
+        "y": 68,
+        "w": 561,
+        "h": 557
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 202808,
+      "crop": {
+        "x": 668,
+        "y": 60,
+        "w": 577,
+        "h": 573,
+        "anchorX": 962.2,
+        "anchorY": 624
+      },
+      "headOrHatTop": 68,
+      "groundSole": 624,
+      "anchorMethod": "foot-band alpha centroid and sole baseline"
+    },
+    {
+      "i": 2,
+      "row": 1,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 647,
+        "w": 743,
+        "h": 607
+      },
+      "visibleBounds": {
+        "x": 56,
+        "y": 670,
+        "w": 656,
+        "h": 516
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 195901,
+      "crop": {
+        "x": 48,
+        "y": 662,
+        "w": 672,
+        "h": 532,
+        "anchorX": 318.7,
+        "anchorY": 1185
+      },
+      "headOrHatTop": 670,
+      "groundSole": 1185,
+      "anchorMethod": "foot-band alpha centroid and sole baseline"
+    },
+    {
+      "i": 3,
+      "row": 1,
+      "col": 1,
+      "cell": {
+        "x": 743,
+        "y": 647,
+        "w": 511,
+        "h": 607
+      },
+      "visibleBounds": {
+        "x": 774,
+        "y": 674,
+        "w": 326,
+        "h": 528
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 108954,
+      "crop": {
+        "x": 766,
+        "y": 666,
+        "w": 342,
+        "h": 544,
+        "anchorX": 940.2,
+        "anchorY": 1201
+      },
+      "headOrHatTop": 674,
+      "groundSole": 1201,
+      "anchorMethod": "foot-band alpha centroid and sole baseline"
+    }
+  ]
+}

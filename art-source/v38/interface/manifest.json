@@ -1,0 +1,39 @@
+{
+  "generator": "built-in image_gen",
+  "date": "2026-10-11",
+  "promptFile": "prompts.txt",
+  "entries": [
+    {
+      "name": "archive-canvas",
+      "path": "/assets/v38/interface/archive-canvas.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "933dee136e1f2ff5f09cac2d4f52e5ff7c6e549be77393816ef09b9f7e7805d9",
+      "nativeBytesPreserved": true
+    },
+    {
+      "name": "arcane-frame",
+      "path": "/assets/v38/interface/arcane-frame.png",
+      "width": 1774,
+      "height": 887,
+      "sha256": "5c97900617f63fb712cc84a1457eeb9d4dbc4130151d79cab7b84cb1e2e4b3a6",
+      "nativeBytesPreserved": true,
+      "transparency": {
+        "centerRect": [
+          240,
+          200,
+          1294,
+          487
+        ],
+        "centerPixels": 630178,
+        "centerMaxAlpha": 1,
+        "nonzero": 1058,
+        "opaque": 0,
+        "peak": [
+          372,
+          200
+        ]
+      }
+    }
+  ]
+}

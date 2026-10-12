@@ -1,0 +1,488 @@
+{
+  "id": "ava-worldroot-sovereign",
+  "coordinateSpace": "original native atlas pixels",
+  "method": "Manual visual support position between both boot centres; original native lowest sole retained",
+  "corrections": [
+    {
+      "kind": "walk",
+      "i": 0,
+      "before": {
+        "anchorX": 196.1,
+        "anchorY": 342,
+        "headOrHatTop": 49
+      },
+      "after": {
+        "anchorX": 189,
+        "anchorY": 342,
+        "headOrHatTop": 49
+      },
+      "reason": "Use both boots for support rather than overweighting the lower boot in the automatic alpha band; no source pixels changed."
+    },
+    {
+      "kind": "walk",
+      "i": 1,
+      "before": {
+        "anchorX": 554.6,
+        "anchorY": 346,
+        "headOrHatTop": 49
+      },
+      "after": {
+        "anchorX": 548,
+        "anchorY": 346,
+        "headOrHatTop": 49
+      },
+      "reason": "Use both boots for support rather than overweighting the lower boot in the automatic alpha band; no source pixels changed."
+    },
+    {
+      "kind": "walk",
+      "i": 2,
+      "before": {
+        "anchorX": 896,
+        "anchorY": 349,
+        "headOrHatTop": 49
+      },
+      "after": {
+        "anchorX": 893,
+        "anchorY": 349,
+        "headOrHatTop": 49
+      },
+      "reason": "Use both boots for support rather than overweighting the lower boot in the automatic alpha band; no source pixels changed."
+    },
+    {
+      "kind": "walk",
+      "i": 3,
+      "before": {
+        "anchorX": 185,
+        "anchorY": 684,
+        "headOrHatTop": 395
+      },
+      "after": {
+        "anchorX": 185,
+        "anchorY": 684,
+        "headOrHatTop": 395
+      },
+      "reason": "Use both boots for support rather than overweighting the lower boot in the automatic alpha band; no source pixels changed."
+    },
+    {
+      "kind": "walk",
+      "i": 4,
+      "before": {
+        "anchorX": 530.8,
+        "anchorY": 679,
+        "headOrHatTop": 394
+      },
+      "after": {
+        "anchorX": 529,
+        "anchorY": 679,
+        "headOrHatTop": 394
+      },
+      "reason": "Use both boots for support rather than overweighting the lower boot in the automatic alpha band; no source pixels changed."
+    },
+    {
+      "kind": "walk",
+      "i": 5,
+      "before": {
+        "anchorX": 874.6,
+        "anchorY": 682,
+        "headOrHatTop": 398
+      },
+      "after": {
+        "anchorX": 887,
+        "anchorY": 682,
+        "headOrHatTop": 398
+      },
+      "reason": "Use both boots for support rather than overweighting the lower boot in the automatic alpha band; no source pixels changed."
+    },
+    {
+      "kind": "walk",
+      "i": 6,
+      "before": {
+        "anchorX": 183.4,
+        "anchorY": 1021,
+        "headOrHatTop": 727
+      },
+      "after": {
+        "anchorX": 204,
+        "anchorY": 1021,
+        "headOrHatTop": 727
+      },
+      "reason": "Use both boots for support rather than overweighting the lower boot in the automatic alpha band; no source pixels changed."
+    },
+    {
+      "kind": "walk",
+      "i": 7,
+      "before": {
+        "anchorX": 587.9,
+        "anchorY": 1016,
+        "headOrHatTop": 728
+      },
+      "after": {
+        "anchorX": 567,
+        "anchorY": 1016,
+        "headOrHatTop": 728
+      },
+      "reason": "Use both boots for support rather than overweighting the lower boot in the automatic alpha band; no source pixels changed."
+    },
+    {
+      "kind": "walk",
+      "i": 8,
+      "before": {
+        "anchorX": 914.6,
+        "anchorY": 1015,
+        "headOrHatTop": 730
+      },
+      "after": {
+        "anchorX": 922,
+        "anchorY": 1015,
+        "headOrHatTop": 730
+      },
+      "reason": "Use both boots for support rather than overweighting the lower boot in the automatic alpha band; no source pixels changed."
+    },
+    {
+      "kind": "walk",
+      "i": 9,
+      "before": {
+        "anchorX": 180.5,
+        "anchorY": 1377,
+        "headOrHatTop": 1076
+      },
+      "after": {
+        "anchorX": 183,
+        "anchorY": 1377,
+        "headOrHatTop": 1076
+      },
+      "reason": "Use both boots for support rather than overweighting the lower boot in the automatic alpha band; no source pixels changed."
+    },
+    {
+      "kind": "walk",
+      "i": 10,
+      "before": {
+        "anchorX": 552.6,
+        "anchorY": 1386,
+        "headOrHatTop": 1076
+      },
+      "after": {
+        "anchorX": 543,
+        "anchorY": 1386,
+        "headOrHatTop": 1076
+      },
+      "reason": "Use both boots for support rather than overweighting the lower boot in the automatic alpha band; no source pixels changed."
+    },
+    {
+      "kind": "walk",
+      "i": 11,
+      "before": {
+        "anchorX": 910.2,
+        "anchorY": 1387,
+        "headOrHatTop": 1077
+      },
+      "after": {
+        "anchorX": 896,
+        "anchorY": 1387,
+        "headOrHatTop": 1077
+      },
+      "reason": "Use both boots for support rather than overweighting the lower boot in the automatic alpha band; no source pixels changed."
+    },
+    {
+      "kind": "attack",
+      "i": 0,
+      "before": {
+        "anchorX": 236.3,
+        "anchorY": 487,
+        "headOrHatTop": 27
+      },
+      "after": {
+        "anchorX": 241,
+        "anchorY": 487,
+        "headOrHatTop": 27
+      },
+      "reason": "Use both boots for support rather than overweighting the lower boot in the automatic alpha band; no source pixels changed."
+    },
+    {
+      "kind": "attack",
+      "i": 1,
+      "before": {
+        "anchorX": 711.4,
+        "anchorY": 482,
+        "headOrHatTop": 47
+      },
+      "after": {
+        "anchorX": 742,
+        "anchorY": 482,
+        "headOrHatTop": 47
+      },
+      "reason": "Use both boots for support rather than overweighting the lower boot in the automatic alpha band; no source pixels changed."
+    },
+    {
+      "kind": "attack",
+      "i": 2,
+      "before": {
+        "anchorX": 1240.1,
+        "anchorY": 479,
+        "headOrHatTop": 47
+      },
+      "after": {
+        "anchorX": 1245,
+        "anchorY": 479,
+        "headOrHatTop": 47
+      },
+      "reason": "Use both boots for support rather than overweighting the lower boot in the automatic alpha band; no source pixels changed."
+    },
+    {
+      "kind": "attack",
+      "i": 3,
+      "before": {
+        "anchorX": 241,
+        "anchorY": 987,
+        "headOrHatTop": 555
+      },
+      "after": {
+        "anchorX": 270,
+        "anchorY": 987,
+        "headOrHatTop": 555
+      },
+      "reason": "Use both boots for support rather than overweighting the lower boot in the automatic alpha band; no source pixels changed."
+    },
+    {
+      "kind": "attack",
+      "i": 4,
+      "before": {
+        "anchorX": 772.2,
+        "anchorY": 985,
+        "headOrHatTop": 560
+      },
+      "after": {
+        "anchorX": 775,
+        "anchorY": 985,
+        "headOrHatTop": 560
+      },
+      "reason": "Use both boots for support rather than overweighting the lower boot in the automatic alpha band; no source pixels changed."
+    },
+    {
+      "kind": "attack",
+      "i": 5,
+      "before": {
+        "anchorX": 1267.7,
+        "anchorY": 988,
+        "headOrHatTop": 539
+      },
+      "after": {
+        "anchorX": 1284,
+        "anchorY": 988,
+        "headOrHatTop": 539
+      },
+      "reason": "Use both boots for support rather than overweighting the lower boot in the automatic alpha band; no source pixels changed."
+    },
+    {
+      "kind": "cast",
+      "i": 0,
+      "before": {
+        "anchorX": 295.6,
+        "anchorY": 504,
+        "headOrHatTop": 41
+      },
+      "after": {
+        "anchorX": 284,
+        "anchorY": 504,
+        "headOrHatTop": 41
+      },
+      "reason": "Use both boots for support rather than overweighting the lower boot in the automatic alpha band; no source pixels changed."
+    },
+    {
+      "kind": "cast",
+      "i": 1,
+      "before": {
+        "anchorX": 805.2,
+        "anchorY": 504,
+        "headOrHatTop": 40
+      },
+      "after": {
+        "anchorX": 798,
+        "anchorY": 504,
+        "headOrHatTop": 40
+      },
+      "reason": "Use both boots for support rather than overweighting the lower boot in the automatic alpha band; no source pixels changed."
+    },
+    {
+      "kind": "cast",
+      "i": 2,
+      "before": {
+        "anchorX": 1319.8,
+        "anchorY": 504,
+        "headOrHatTop": 41
+      },
+      "after": {
+        "anchorX": 1307,
+        "anchorY": 504,
+        "headOrHatTop": 41
+      },
+      "reason": "Use both boots for support rather than overweighting the lower boot in the automatic alpha band; no source pixels changed."
+    },
+    {
+      "kind": "cast",
+      "i": 3,
+      "before": {
+        "anchorX": 275.4,
+        "anchorY": 968,
+        "headOrHatTop": 570
+      },
+      "after": {
+        "anchorX": 258,
+        "anchorY": 968,
+        "headOrHatTop": 570
+      },
+      "reason": "Use both boots for support rather than overweighting the lower boot in the automatic alpha band; no source pixels changed."
+    },
+    {
+      "kind": "cast",
+      "i": 4,
+      "before": {
+        "anchorX": 778.1,
+        "anchorY": 975,
+        "headOrHatTop": 562
+      },
+      "after": {
+        "anchorX": 759,
+        "anchorY": 975,
+        "headOrHatTop": 562
+      },
+      "reason": "Use both boots for support rather than overweighting the lower boot in the automatic alpha band; no source pixels changed."
+    },
+    {
+      "kind": "cast",
+      "i": 5,
+      "before": {
+        "anchorX": 1328.3,
+        "anchorY": 996,
+        "headOrHatTop": 543
+      },
+      "after": {
+        "anchorX": 1325,
+        "anchorY": 996,
+        "headOrHatTop": 543
+      },
+      "reason": "Use both boots for support rather than overweighting the lower boot in the automatic alpha band; no source pixels changed."
+    },
+    {
+      "kind": "ultimate",
+      "i": 0,
+      "before": {
+        "anchorX": 264.9,
+        "anchorY": 441,
+        "headOrHatTop": 41
+      },
+      "after": {
+        "anchorX": 257,
+        "anchorY": 441,
+        "headOrHatTop": 41
+      },
+      "reason": "Use both boots for support rather than overweighting the lower boot in the automatic alpha band; no source pixels changed."
+    },
+    {
+      "kind": "ultimate",
+      "i": 1,
+      "before": {
+        "anchorX": 695.5,
+        "anchorY": 441,
+        "headOrHatTop": 41
+      },
+      "after": {
+        "anchorX": 681,
+        "anchorY": 441,
+        "headOrHatTop": 41
+      },
+      "reason": "Use both boots for support rather than overweighting the lower boot in the automatic alpha band; no source pixels changed."
+    },
+    {
+      "kind": "ultimate",
+      "i": 2,
+      "before": {
+        "anchorX": 1107.5,
+        "anchorY": 441,
+        "headOrHatTop": 41
+      },
+      "after": {
+        "anchorX": 1094,
+        "anchorY": 441,
+        "headOrHatTop": 41
+      },
+      "reason": "Use both boots for support rather than overweighting the lower boot in the automatic alpha band; no source pixels changed."
+    },
+    {
+      "kind": "ultimate",
+      "i": 3,
+      "before": {
+        "anchorX": 1563.7,
+        "anchorY": 442,
+        "headOrHatTop": 85
+      },
+      "after": {
+        "anchorX": 1544,
+        "anchorY": 442,
+        "headOrHatTop": 85
+      },
+      "reason": "Use both boots for support rather than overweighting the lower boot in the automatic alpha band; no source pixels changed."
+    },
+    {
+      "kind": "ultimate",
+      "i": 4,
+      "before": {
+        "anchorX": 263.6,
+        "anchorY": 857,
+        "headOrHatTop": 480
+      },
+      "after": {
+        "anchorX": 240,
+        "anchorY": 857,
+        "headOrHatTop": 480
+      },
+      "reason": "Use both boots for support rather than overweighting the lower boot in the automatic alpha band; no source pixels changed."
+    },
+    {
+      "kind": "ultimate",
+      "i": 5,
+      "before": {
+        "anchorX": 701.4,
+        "anchorY": 857,
+        "headOrHatTop": 491
+      },
+      "after": {
+        "anchorX": 674,
+        "anchorY": 857,
+        "headOrHatTop": 491
+      },
+      "reason": "Use both boots for support rather than overweighting the lower boot in the automatic alpha band; no source pixels changed."
+    },
+    {
+      "kind": "ultimate",
+      "i": 6,
+      "before": {
+        "anchorX": 1135.1,
+        "anchorY": 857,
+        "headOrHatTop": 485
+      },
+      "after": {
+        "anchorX": 1115,
+        "anchorY": 857,
+        "headOrHatTop": 485
+      },
+      "reason": "Use both boots for support rather than overweighting the lower boot in the automatic alpha band; no source pixels changed."
+    },
+    {
+      "kind": "ultimate",
+      "i": 7,
+      "before": {
+        "anchorX": 1563.5,
+        "anchorY": 861,
+        "headOrHatTop": 464
+      },
+      "after": {
+        "anchorX": 1555,
+        "anchorY": 861,
+        "headOrHatTop": 464
+      },
+      "reason": "Use both boots for support rather than overweighting the lower boot in the automatic alpha band; no source pixels changed."
+    }
+  ],
+  "pixelsChanged": false
+}

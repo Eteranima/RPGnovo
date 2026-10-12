@@ -1,10 +1,14 @@
 import { spawnSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 import { readExecutionProfile } from "./execution-profile.mjs";
+import { buildMediaManifest } from "./build-media-manifest.mjs";
 
 const [command, ...args] = process.argv.slice(2);
 if (!["dev", "build"].includes(command)) throw new Error("Expected dev or build.");
 const managedLinux = readExecutionProfile() === "managed-linux";
+
+// Worker byte-range metadata must exist before either server bundle is compiled.
+if (command === "build") await buildMediaManifest();
 
 if (managedLinux && command === "build") {
   const result = spawnSync("bash", [

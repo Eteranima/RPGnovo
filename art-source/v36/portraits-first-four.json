@@ -1,0 +1,38 @@
+[
+  {
+    "id": "seiji-last-script",
+    "face": {
+      "left": 460,
+      "top": 45,
+      "width": 310,
+      "height": 310
+    }
+  },
+  {
+    "id": "ophelia-white-equinox",
+    "face": {
+      "left": 350,
+      "top": 130,
+      "width": 295,
+      "height": 295
+    }
+  },
+  {
+    "id": "marin-starless-throne",
+    "face": {
+      "left": 320,
+      "top": 12,
+      "width": 310,
+      "height": 310
+    }
+  },
+  {
+    "id": "max-thunder-requiem",
+    "face": {
+      "left": 350,
+      "top": 20,
+      "width": 320,
+      "height": 320
+    }
+  }
+]

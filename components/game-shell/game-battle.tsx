@@ -1,0 +1,12 @@
+'use client';
+import type {GameSession} from '@/hooks/use-game-session';
+import {Progress} from '../ui/progress';
+import {StatusBadges} from '../game-menu';
+import {TurnOrder} from '../turn-order';
+import {BattleIntentV32} from '../battle-intent-v32';
+import {BattleScene} from '../battle-scene';
+import {BattleCommands} from '../battle-commands';
+import {VictoryCelebration} from '../victory-celebration';
+import {UltimateCinematic} from '../ultimate-cinematic';
+import battleStyles from '../battle-interface.module.css';
+export function GameBattle({game}:{game:GameSession}){const {s,engine,ui,patch}=game;const b=s.battle;if(!b)return null;const target=ui.target,setTarget=(target:typeof ui.target)=>patch({target});return <div className={'battle-screen '+battleStyles.screen}><div className={battleStyles.statusBar}><div className="battle-heading"><span className="eyebrow">{b.eventId?.startsWith('recruit-')?'DUELO DE RECRUTAMENTO':b.boss?(b.entityId==='cinder'?'CONFRONTO DA PIRA':b.entityId==='eco'?'CONFRONTO DA GALERIA':'CONFRONTO DO CAPÍTULO'):'ÉTER TRANSBORDADO'}</span><h2 title={b.name}>{b.name}</h2><small>{b.boss?`Fase ${b.phase}/3 · `:''}Ultimate {b.bossCharge}%</small><Progress className="enemy-bar" value={b.hp/b.maxHp*100}/><span className={battleStyles.enemyVitals} aria-label={`${b.hp} de ${b.maxHp} HP${b.weakened?', enfraquecido':''}`}>{b.hp} / {b.maxHp} HP</span>{(b.weakened||b.statuses.enemy.length>0)&&<span className={battleStyles.enemyStates}>{b.weakened&&<span className={battleStyles.weakenedState}>Enfraquecido</span>}{b.statuses.enemy.length>0&&<StatusBadges states={b.statuses.enemy}/>}</span>}</div><TurnOrder battle={b} heroes={s.heroes} lycan={s.progress.gabrielForm==='lycan'}/>{!b.result&&<BattleIntentV32 intent={engine.enemyIntentV32()} heroes={s.heroes} lycan={s.progress.gabrielForm==='lycan'}/>}</div><BattleScene map={s.map} battle={b} heroes={s.heroes} progress={s.progress} onArtReady={readyBattle=>engine.markBattleArtReadyV32(readyBattle.artTokenV32)}/>{!b.result&&<div className={'battle-console '+battleStyles.dock}><div className="battle-log" aria-live="polite">{b.log.slice(-2).map((text,i)=><p key={`${b.log.length}-${i}`}>{text}</p>)}</div><BattleCommands engine={engine} s={s} target={target} setTarget={setTarget}/></div>}{b.result&&<VictoryCelebration battle={b} heroes={s.heroes} lycan={s.progress.gabrielForm==='lycan'} onContinue={()=>engine.finishBattle()}/>}<UltimateCinematic battle={b} heroes={s.heroes} map={s.map} progress={s.progress}/></div>;}

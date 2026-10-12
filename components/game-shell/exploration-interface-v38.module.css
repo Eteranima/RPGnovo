@@ -1,0 +1,31 @@
+/* Local presentation only: world positions, movement handlers and map sizes stay owned by the field HUD. */
+.locationTitle:global(.location-title){color:#fff0d4;text-shadow:0 2px 4px #020912,0 0 16px #020912}
+.locationTitle :global(.eyebrow){color:#dbc28f;letter-spacing:.1em}
+.locationTitle h1{color:#fff1d7;font-family:Georgia,serif}
+.locationTitle :global(.area-tag){border:1px solid #d8bf8055;border-radius:3px;background:#0a192bde;padding:3px 7px;font-size:10px;line-height:13px;text-shadow:none;box-shadow:0 2px 6px #0003}
+.locationTitle :global(.area-tag.safe){color:#b6e6cc;border-color:#90cfac66}
+.locationTitle :global(.area-tag.hostile){color:#f4c7aa;border-color:#cb977366}
+.minimap:global(.hud-minimap){filter:drop-shadow(0 3px 5px #020812a6)}
+.minimap :global(.cartography-label){border:1px solid #d5b87166;border-radius:3px;background:#081a2bef!important;color:#f4dfb3!important;box-shadow:0 2px 5px #0004;text-shadow:0 1px 2px #000}
+.minimap:focus-visible{outline:2px solid #ffe3a6!important;outline-offset:3px;border-radius:5px}
+.quickbar:global(.field-quickbar)>button{border-color:#a88b596e;background:linear-gradient(180deg,#1b3348f2,#091a2bed);color:#f5e8cc;box-shadow:inset 0 1px #f0d29918,0 2px 6px #0005}
+.quickbar:global(.field-quickbar)>button small{color:#b5cddd}
+.quickbar:global(.field-quickbar)>button kbd{background:#071625e8;border-color:#d3b37d70;color:#ffe3a9}
+.quickbar:global(.field-quickbar)>button:disabled{opacity:.5;filter:saturate(.5)}
+.quickbar:global(.field-quickbar)>button:focus-visible{outline:2px solid #ffe3a6!important;outline-offset:2px}
+.quickbar:global(.field-quickbar)>button:not(:disabled):hover{border-color:#f0cf8c;background:linear-gradient(180deg,#25435cf2,#10273bec)}
+.exits:global(.map-exits){scrollbar-width:thin;scrollbar-color:#b79c65 #0a182875}
+.exits:global(.map-exits)>button{color:#f9e8c4;text-shadow:0 1px 3px #000,0 0 4px #000}
+.exits :global(.travel-label){line-height:1.2!important}
+.exits:global(.map-exits)>button:disabled{opacity:.52;filter:saturate(.45)}
+.exits:global(.map-exits)>button:focus-visible{outline:2px solid #ffe3a6!important;outline-offset:-2px;border-radius:5px}
+.exits:global(.map-exits)>button:not(:disabled):hover :global(.travel-plaque){filter:brightness(1.15)}
+.worldHint:global(.world-hint){color:#e0d3b8;text-shadow:0 1px 3px #000;background:#071929d9;border-color:#bba06b55}
+.interact:global(.interact-prompt){color:#fff0ce;background:linear-gradient(180deg,#263c4fef,#0d1f30f2);border-color:#edd0919e;box-shadow:0 3px 12px #0006,inset 0 1px #ffeecc29}
+.interact:global(.interact-prompt) kbd{color:#ffedbb;background:#071626;border-color:#d9bd7d88}
+.interact:global(.interact-prompt):focus-visible{outline:2px solid #ffe3a6!important;outline-offset:3px}
+.touch:global(.touch-controls) :global(.dpad)>button{color:#f7e7c6;background:linear-gradient(180deg,#22394de8,#0a1c2cef);border-color:#c4ab7380;box-shadow:inset 0 1px #f3dca82a,0 2px 5px #0004}
+.touch:global(.touch-controls) :global(.dpad)>button:active{background:#4b4028;border-color:#f3d998;color:#fff4cb}
+.touch:global(.touch-controls) :global(.dpad)>button:focus-visible{outline:2px solid #ffe3a6!important;outline-offset:2px}
+.objective:global(.mobile-objective){color:#f5e8cd;background:#0b1d2fea;border-color:#bfa77370;box-shadow:0 2px 8px #0004}
+@media(prefers-reduced-motion:reduce){.quickbar:global(.field-quickbar)>button,.exits:global(.map-exits)>button,.touch:global(.touch-controls) :global(.dpad)>button{transition:none!important}}

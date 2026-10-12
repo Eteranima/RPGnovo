@@ -1,0 +1,147 @@
+{
+  "source": "art-source/v36/variants/ophelia-white-equinox/walk-repair-candidate.png",
+  "width": 1086,
+  "height": 1448,
+  "alphaZero": 813509,
+  "allPixels": 1572528,
+  "strictAlphaZeroCorridors": false,
+  "horizontal": [
+    {
+      "index": 358,
+      "nonzero": 20,
+      "alpha": {
+        "max": 2,
+        "over24": 0,
+        "over210": 0
+      }
+    },
+    {
+      "index": 695,
+      "nonzero": 46,
+      "alpha": {
+        "max": 7,
+        "over24": 0,
+        "over210": 0
+      }
+    },
+    {
+      "index": 1044,
+      "nonzero": 99,
+      "alpha": {
+        "max": 2,
+        "over24": 0,
+        "over210": 0
+      }
+    }
+  ],
+  "vertical": [
+    [
+      {
+        "index": 348,
+        "nonzero": 0,
+        "alpha": {
+          "max": 0,
+          "over24": 0,
+          "over210": 0
+        }
+      },
+      {
+        "index": 727,
+        "nonzero": 0,
+        "alpha": {
+          "max": 0,
+          "over24": 0,
+          "over210": 0
+        }
+      }
+    ],
+    [
+      {
+        "index": 362,
+        "nonzero": 0,
+        "alpha": {
+          "max": 0,
+          "over24": 0,
+          "over210": 0
+        }
+      },
+      {
+        "index": 724,
+        "nonzero": 0,
+        "alpha": {
+          "max": 0,
+          "over24": 0,
+          "over210": 0
+        }
+      }
+    ],
+    [
+      {
+        "index": 361,
+        "nonzero": 0,
+        "alpha": {
+          "max": 0,
+          "over24": 0,
+          "over210": 0
+        }
+      },
+      {
+        "index": 727,
+        "nonzero": 0,
+        "alpha": {
+          "max": 0,
+          "over24": 0,
+          "over210": 0
+        }
+      }
+    ],
+    [
+      {
+        "index": 357,
+        "nonzero": 0,
+        "alpha": {
+          "max": 0,
+          "over24": 0,
+          "over210": 0
+        }
+      },
+      {
+        "index": 724,
+        "nonzero": 0,
+        "alpha": {
+          "max": 0,
+          "over24": 0,
+          "over210": 0
+        }
+      }
+    ]
+  ],
+  "edges": {
+    "top": 0,
+    "bottom": 0,
+    "left": 5,
+    "right": 0
+  },
+  "edgeAlpha": {
+    "top": {
+      "max": 0,
+      "over24": 0,
+      "over210": 0
+    },
+    "bottom": {
+      "max": 0,
+      "over24": 0,
+      "over210": 0
+    },
+    "left": {
+      "max": 1,
+      "over24": 0,
+      "over210": 0
+    },
+    "right": {
+      "max": 0,
+      "over24": 0,
+      "over210": 0
+    }
+  }
+}

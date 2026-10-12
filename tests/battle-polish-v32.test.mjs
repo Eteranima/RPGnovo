@@ -1,3 +1,4 @@
+import {compileUltimateSceneV36} from './cinematic-module-loader.mjs';
 import assert from 'node:assert/strict';
 import {readFileSync,writeFileSync,mkdtempSync,existsSync} from 'node:fs';
 import {tmpdir} from 'node:os';
@@ -10,11 +11,13 @@ import ts from 'typescript';
 import {compileGameModules} from './game-module-loader.mjs';
 
 const out=mkdtempSync(join(tmpdir(),'eter-battle-polish-v32-'));
-compileGameModules(out,['engine','sprites','enemyArtV30','characterAnimation','battleFormation','heroCardArt']);
+compileGameModules(out,['engine','sprites','enemyArtV30','characterAnimation','battleFormation','heroCardArt','heroUiNameV36']);
+const {drawUltimateSceneV36}=await compileUltimateSceneV36(out);
 const load=name=>import(pathToFileURL(join(out,`${name}.js`)).href);
 const data=await load('data'),{ASSETS,ENEMY_ULTIMATES,heroBases,battleBackground,combatImpact}=data;
 const {ENEMY_PRESENTATION_V30,enemyBattleKey,enemyPoseFrame}=await load('enemyArtV30');
 const {SPRITE_FRAMES,battleCrop}=await load('sprites');
+const variants=await load('variantsV36');
 const animation=await load('characterAnimation'),{battleTimingV32}=await load('combatPreferencesV32');
 const {STATUS}=await load('progression');
 let checks=0;const check=(value,message)=>{assert.ok(value,message);checks++;},equal=(a,b,message)=>{assert.deepEqual(a,b,message);checks++;};
@@ -24,12 +27,12 @@ function declarations(file,names){return file.statements.filter(node=>ts.isFunct
 const battleSource=source('components/battle-scene.tsx');
 let duelFrameExpression,heroPhaseExpression;function collectPoseExpression(node){if(ts.isConditionalExpression(node)&&node.getText(battleSource).startsWith('duelUltimate?Math.max'))duelFrameExpression=node;if(ts.isVariableDeclaration(node)&&node.name.getText(battleSource)==='phase'&&node.initializer?.getText(battleSource).startsWith('ultimate?Math.max'))heroPhaseExpression=node.initializer;ts.forEachChild(node,collectPoseExpression);}collectPoseExpression(battleSource);
 check(duelFrameExpression&&heroPhaseExpression,'production duel and party ultimate timelines are present');
-for(const id of data.PLAYABLE_HERO_IDS)for(const speed of [1,2]){const a=battleTimingV32(4800,speed,true),lead=(animation.hasCharacterBattleArt(id)?700:900)/speed,age=a.impactAt,expected=(age-lead)/(a.duration-lead);const duelProgress=new Function('duelUltimate','age','a','b','speed','hasCharacterBattleArt',`return ${ts.transpileModule(duelFrameExpression.getText(battleSource),{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.None}}).outputText}`)(true,age,a,{asset:id},speed,animation.hasCharacterBattleArt);const partyProgress=new Function('ultimate','age','a','hero','speed','hasCharacterBattleArt',`return ${ts.transpileModule(heroPhaseExpression.getText(battleSource),{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.None}}).outputText}`)(true,age,a,{id},speed,animation.hasCharacterBattleArt);equal(duelProgress,expected,'duel ultimate uses the same native lead as the cinema, including Orfeu/Ava');equal(partyProgress,expected,'party ultimate and cinema share the captured lead');}
-const preloadJs=ts.transpileModule(`const artCache=new Map();${declarations(battleSource,['battleArtKeysV32','preloadBattleArt']).replace(/export /g,'')}`,{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.None}}).outputText;
-const bindPreload=new Function('ASSETS','ENEMY_PRESENTATION_V30','enemyBattleKey','ENEMY_ULTIMATES','combatImpact','battleBackground','Image','setTimeout','clearTimeout',`${preloadJs};return {battleArtKeysV32,preloadBattleArt};`);
+for(const id of data.PLAYABLE_HERO_IDS)for(const speed of [1,2]){const a=battleTimingV32(4800,speed,true),lead=(animation.hasCharacterBattleArt(id)?700:900)/speed,age=a.impactAt,expected=(age-lead)/(a.duration-lead);const duelProgress=new Function('duelUltimate','age','a','b','speed','hasCharacterBattleArt',`return ${ts.transpileModule(duelFrameExpression.getText(battleSource),{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.None}}).outputText}`)(true,age,a,{asset:id},speed,animation.hasCharacterBattleArt);const partyProgress=new Function('ultimate','age','a','hero','artId','speed','hasCharacterBattleArt',`return ${ts.transpileModule(heroPhaseExpression.getText(battleSource),{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.None}}).outputText}`)(true,age,a,{id},id,speed,animation.hasCharacterBattleArt);equal(duelProgress,expected,'duel ultimate uses the same native lead as the cinema, including Orfeu/Ava');equal(partyProgress,expected,'party ultimate and cinema share the captured lead');}
+const preloadJs=ts.transpileModule(`const artCache=new Map();const settledArtUrls=new Set();const activeArtScopes=new Set();const artLoadQueue=[];let activeArtLoads=0;${declarations(battleSource,['pumpBattleArtV38','battleArtKeysV32','preloadBattleArt']).replace(/export /g,'')}`,{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.None}}).outputText;
+const bindPreload=new Function('heroArtIdV36','variantByIdV36','ASSETS','ENEMY_PRESENTATION_V30','enemyBattleKey','ENEMY_ULTIMATES','combatImpact','battleBackground','Image','setTimeout','clearTimeout',`${preloadJs};return {battleArtKeysV32,preloadBattleArt};`);
 let requests=[],mode='loaded',timeouts=[];
-class FakeImage{set src(value){this.value=value;requests.push(value);if(mode==='loaded')queueMicrotask(()=>this.onload?.());else if(mode==='error')queueMicrotask(()=>this.onerror?.());}}
-const loader=bindPreload(ASSETS,ENEMY_PRESENTATION_V30,enemyBattleKey,ENEMY_ULTIMATES,combatImpact,battleBackground,FakeImage,(fn,ms)=>{timeouts.push({fn,ms});return timeouts.length;},()=>{});
+class FakeImage{removeAttribute(name){if(name==='src')this.value='';}set src(value){this.value=value;requests.push(value);if(mode==='loaded'||mode==='companion-stalled'&&!value.endsWith('/companion.png'))queueMicrotask(()=>this.onload?.());else if(mode==='error')queueMicrotask(()=>this.onerror?.());}}
+const loader=bindPreload(variants.heroArtIdV36,variants.variantByIdV36,ASSETS,ENEMY_PRESENTATION_V30,enemyBattleKey,ENEMY_ULTIMATES,combatImpact,battleBackground,FakeImage,(fn,ms)=>{timeouts.push({fn,ms});return timeouts.length;},()=>{});
 const party=['seiji','ophelia','gabriel','ava','carmilla'];
 const prewarm=loader.battleArtKeysV32(['seiji','ophelia']);
 check(!prewarm.some(key=>key.startsWith('ultimate_')||key==='battle_phases'||key.startsWith('battle_bg_')),'party prewarm cannot request future enemy ultimates/phases/backgrounds');
@@ -50,10 +53,32 @@ requests=[];await loader.preloadBattleArt(['seiji','ophelia']);const firstReques
 mode='stalled';const stalled=loader.preloadBattleArt(['beatriz']);const newTimeouts=timeouts.slice(firstRequests);check(newTimeouts.some(timer=>timer.ms===15000),'network stall has a bounded retry path');newTimeouts.forEach(timer=>timer.fn());const partial=await stalled;check(!partial.battle_beatriz_attack,'stalled sprite is not falsely marked ready');
 mode='loaded';const recovered=await loader.preloadBattleArt(['beatriz']);check(recovered.battle_beatriz_attack&&recovered.battle_beatriz_ultimate,'failed cache entries can be retried successfully');
 
+// A selected premium companion is part of readiness, never a global world download.
+const companionVariants=variants.VARIANTS_V36.filter(variant=>!variant.legendary),scope={family:'lobo',asset:'wolf',boss:false,phase:1,map:'subsolo'};
+for(const variant of companionVariants){
+ for(const id of [variant.id,...(variant.hero==='gabriel'?[variant.id+'_lycan']:[])]){
+  const keys=loader.battleArtKeysV32([id],undefined,scope),companionKey=`companion_event_${variant.id}`;
+  equal(keys.filter(key=>key.startsWith('companion_')),[companionKey],'only the current premium event companion is required, including the Lycan visual alias');
+  check(existsSync('public'+ASSETS[companionKey]),'required companion is a final native atlas');
+  check(!keys.some(key=>key.startsWith('battle_')&&companionVariants.some(other=>other.id!==variant.id&&key.startsWith(`battle_${other.id}_`))),'companion readiness does not request unrelated premium bodies');
+ }
+}
+for(const variant of variants.VARIANTS_V36.filter(variant=>variant.legendary))equal(loader.battleArtKeysV32([variant.id],undefined,scope).filter(key=>key.startsWith('companion_')),[],'teachers never acquire an invented companion preload');
+equal(prewarm.filter(key=>key.startsWith('companion_')),[],'original family prewarm keeps its existing requests');
+requests=[];await loader.preloadBattleArt(companionVariants.map(variant=>variant.id),undefined,scope);
+for(const variant of companionVariants)equal(requests.filter(src=>src===ASSETS[`companion_event_${variant.id}`]).length,1,'selected companion has one native URL request');
+const requestCount=requests.length;await loader.preloadBattleArt(companionVariants.map(variant=>variant.id),undefined,scope);equal(requests.length,requestCount,'repeating the same scoped party has no additional native requests');await loader.preloadBattleArt(['gabriel-solar-oath_lycan'],undefined,scope);
+for(const variant of companionVariants)equal(requests.filter(src=>src===ASSETS[`companion_event_${variant.id}`]).length,1,'repeat/Lycan preload reuses the canonical companion URL');
+const companionLoader=bindPreload(variants.heroArtIdV36,variants.variantByIdV36,ASSETS,ENEMY_PRESENTATION_V30,enemyBattleKey,ENEMY_ULTIMATES,combatImpact,battleBackground,FakeImage,(fn,ms)=>{timeouts.push({fn,ms});return timeouts.length;},()=>{});
+mode='companion-stalled';const companionTimeoutStart=timeouts.length,blockedCompanion=companionLoader.preloadBattleArt(['seiji-last-script']);await Promise.resolve();timeouts.slice(companionTimeoutStart).forEach(timer=>timer.fn());
+const missingCompanion=await blockedCompanion,requiredCompanion=companionLoader.battleArtKeysV32(['seiji-last-script']);
+check(!!missingCompanion['battle_seiji-last-script_attack'],'native body can be loaded while the companion is still unavailable');check(!requiredCompanion.every(key=>!!missingCompanion[key]),'production all-required readiness stays false when the companion times out');
+mode='loaded';const retriedCompanion=await companionLoader.preloadBattleArt(['seiji-last-script']);check(requiredCompanion.every(key=>!!retriedCompanion[key]),'explicit retry recovers both body and selected companion without a placeholder');
+
 // Render the production forecast/details with the real native portrait and status icon functions.
 const require=createRequire(import.meta.url),jsxUrl=pathToFileURL(require.resolve('react/jsx-runtime')).href;
 const portraitSource=source('components/hero-card.tsx');
-const nativePortrait=ts.transpileModule(`import {jsx as _jsx,jsxs as _jsxs} from '${jsxUrl}';import {ASSETS} from './data.js';import {HERO_CARD_ART} from './heroCardArt.js';${declarations(portraitSource,['apertureStyle','HeroPortrait'])}`,{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.ES2022,jsx:ts.JsxEmit.ReactJSX}}).outputText;
+const nativePortrait=ts.transpileModule(`import {jsx as _jsx,jsxs as _jsxs} from '${jsxUrl}';import {ASSETS} from './data.js';import {HERO_CARD_ART} from './heroCardArt.js';import {heroArtIdV36} from './variantsV36.js';${declarations(portraitSource,['apertureStyle','HeroPortrait'])}`,{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.ES2022,jsx:ts.JsxEmit.ReactJSX}}).outputText;
 writeFileSync(join(out,'portrait.mjs'),rewriteRuntime(nativePortrait));
 function rewriteRuntime(text){for(const name of ['react/jsx-runtime','react','react-dom'])text=text.replaceAll(`from '${name}'`,`from '${pathToFileURL(require.resolve(name)).href}'`).replaceAll(`from "${name}"`,`from '${pathToFileURL(require.resolve(name)).href}'`);return text;}
 writeFileSync(join(out,'icon.mjs'),rewriteRuntime(ts.transpileModule(readFileSync('components/game-icon.tsx','utf8').replace("@/lib/game/sprites","./sprites.js"),{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.ES2022,jsx:ts.JsxEmit.ReactJSX}}).outputText));
@@ -81,7 +106,7 @@ const stopped=renderToString(createElement(EnemyIntentDetailsV32,{intent:{...int
 for(const type of ['keydown','keyup'])for(let count=1;count<=3;count++)for(let index=0;index<count;index++)for(const shift of [false,true])equal(combatDetailTabTarget(index,count,shift,type),type==='keyup'?null:shift?(index===0?count-1:null):(index===count-1?0:null),'Tab wraps only at keydown boundaries; keyup never steals the new focus');
 
 // Exploration reuses the real native compact cards without changing the battle branch.
-const partyJs=rewriteRuntime(ts.transpileModule(readFileSync('components/combat-party.tsx','utf8'),{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.ES2022,jsx:ts.JsxEmit.ReactJSX}}).outputText).replaceAll('./hero-card','./portrait.mjs').replaceAll('@/lib/game/heroCardArt','./heroCardArt.js').replaceAll('@/lib/game/data','./data.js').replaceAll('./combat-party.module.css','./styles.mjs');writeFileSync(join(out,'party.mjs'),partyJs);
+const partyJs=rewriteRuntime(ts.transpileModule(readFileSync('components/combat-party.tsx','utf8'),{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.ES2022,jsx:ts.JsxEmit.ReactJSX}}).outputText).replaceAll('./hero-card','./portrait.mjs').replaceAll('@/lib/game/heroCardArt','./heroCardArt.js').replaceAll('@/lib/game/data','./data.js').replaceAll('@/lib/game/variantsV36','./variantsV36.js').replaceAll('@/lib/game/heroUiNameV36','./heroUiNameV36.js').replaceAll('./combat-party.module.css','./styles.mjs');writeFileSync(join(out,'party.mjs'),partyJs);
 const {CombatParty}=await import(pathToFileURL(join(out,'party.mjs')).href),limits=Object.fromEntries(heroes.map((h,i)=>[h.id,i*17]));
 const battlePartyHtml=renderToString(createElement(CombatParty,{heroes,limits,activeId:'seiji'}));
 check(!battlePartyHtml.includes('<button')&&!battlePartyHtml.includes('data-exploration-party'),'battle cards gain no leader selector or extra footer row');
@@ -99,14 +124,14 @@ equal((worldHtml.match(/role="progressbar"/g)||[]).length,15,'all five world slo
 
 // Execute the production ultimate effect at both speeds, not a duplicated timing model.
 const cinemaSource=source('components/ultimate-cinematic.tsx');let cinemaEffect;function visit(node){if(ts.isCallExpression(node)&&node.expression.getText(cinemaSource)==='useEffect')cinemaEffect=node.arguments[0];ts.forEachChild(node,visit);}visit(cinemaSource);
-const names='enabled,a,cv,battle,heroes,map,progress,matchMedia,preloadBattleArt,ASSETS,ENEMY_ULTIMATES,ELEMENT_COLORS,battleBackground,SPRITE_FRAMES,battleCrop,enemyPoseFrame,characterPoseFrame,characterCamera,hasCharacterBattleArt,characterEffectMotif,combatElement,combatImpact';
+const names='enabled,a,cv,battle,heroes,map,progress,matchMedia,preloadBattleArt,ASSETS,ENEMY_ULTIMATES,ELEMENT_COLORS,battleBackground,SPRITE_FRAMES,battleCrop,enemyPoseFrame,characterPoseFrame,characterCamera,hasCharacterBattleArt,characterEffectMotif,combatElement,combatImpact,heroArtIdV36,drawUltimateSceneV36,actor,hero,companionView,variantCompanionV36,companionPoseV36,applyNativeSpriteCrop';
 const effectJs=ts.transpileModule(`const bind=scope=>{const {${names}}=scope;return (${cinemaEffect.getText(cinemaSource)})();};`,{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.None}}).outputText;
 const bindEffect=new Function(`${effectJs};return bind;`)();let clock=100000,rafId=0;const rafs=new Map(),originalNow=Date.now;Date.now=()=>clock;global.requestAnimationFrame=fn=>{rafs.set(++rafId,fn);return rafId;};global.cancelAnimationFrame=id=>rafs.delete(id);global.devicePixelRatio=1;
 const ctx={setTransform(){},clearRect(){},createRadialGradient:()=>({addColorStop(){}}),fillRect(){},save(){},restore(){},translate(){},drawImage(){}};
 for(const family of Object.keys(ENEMY_ULTIMATES))for(const speed of [1,2]){
  const a={actor:'enemy',action:'enemy-ultimate',element:ENEMY_ULTIMATES[family].element,started:100000,speed,...battleTimingV32(4800,speed,true)},key=ENEMY_PRESENTATION_V30[family].ultimate,battle={animation:a,family,asset:family,name:family};
  const canvas={width:0,height:0,dataset:{},getContext:()=>ctx,getBoundingClientRect:()=>({width:844,height:180})};clock=a.started;
- const cleanup=bindEffect({enabled:true,a,cv:{current:canvas},battle,heroes,map:'subsolo',progress:{gabrielForm:'human'},matchMedia:()=>({matches:true}),preloadBattleArt:()=>Promise.resolve({[key]:{width:1536,height:1024}}),...data,SPRITE_FRAMES,battleCrop,enemyPoseFrame,...animation});await Promise.resolve();
+ const cleanup=bindEffect({enabled:true,a,cv:{current:canvas},companionView:{current:null},actor:a.actor,hero:heroes.find(h=>h.id===a.actor),drawUltimateSceneV36,companionPoseV36:()=>2,applyNativeSpriteCrop:()=>{},battle,heroes,map:'subsolo',progress:{gabrielForm:'human'},matchMedia:()=>({matches:false}),preloadBattleArt:()=>Promise.resolve({[key]:{width:1536,height:1024}}),...data,...variants,SPRITE_FRAMES,battleCrop,enemyPoseFrame,...animation});await Promise.resolve();
  const seen=new Set(),impactSample=a.impactAt+34,samples=[...ENEMY_PRESENTATION_V30[family].ultimateTiming.map(start=>900/speed+start*(a.duration-900/speed)+2),impactSample].sort((a,b)=>a-b);let contactFrame,contactBeat;
  for(const elapsed of samples){clock=a.started+elapsed;const pending=[...rafs.values()];rafs.clear();pending.forEach(fn=>fn());seen.add(Number(canvas.dataset.ultimateFrame));if(elapsed===impactSample){contactFrame=Number(canvas.dataset.ultimateFrame);contactBeat=canvas.dataset.cameraBeat;}}
  equal(seen.size,8,'all eight native enemy poses are reachable at 1x and 2x');
@@ -114,7 +139,7 @@ for(const family of Object.keys(ENEMY_ULTIMATES))for(const speed of [1,2]){
 }
 for(const id of data.PLAYABLE_HERO_IDS)for(const speed of [1,2]){
  const a={actor:id,action:'ultimate',element:data.combatElement(id,'ultimate'),started:100000,speed,...battleTimingV32(4800,speed,true)},key=`battle_${id}_ultimate`,count=SPRITE_FRAMES[key].length,canvas={width:0,height:0,dataset:{},getContext:()=>ctx,getBoundingClientRect:()=>({width:844,height:180})};clock=a.started;
- const cleanup=bindEffect({enabled:true,a,cv:{current:canvas},battle:{animation:a},heroes,map:'subsolo',progress:{gabrielForm:'human'},matchMedia:()=>({matches:true}),preloadBattleArt:()=>Promise.resolve({[key]:{width:1536,height:1024}}),...data,SPRITE_FRAMES,battleCrop,enemyPoseFrame,...animation});await Promise.resolve();
+ const cleanup=bindEffect({enabled:true,a,cv:{current:canvas},companionView:{current:null},actor:a.actor,hero:heroes.find(h=>h.id===a.actor),drawUltimateSceneV36,companionPoseV36:()=>2,applyNativeSpriteCrop:()=>{},battle:{animation:a},heroes,map:'subsolo',progress:{gabrielForm:'human'},matchMedia:()=>({matches:false}),preloadBattleArt:()=>Promise.resolve({[key]:{width:1536,height:1024}}),...data,...variants,SPRITE_FRAMES,battleCrop,enemyPoseFrame,...animation});await Promise.resolve();
  const lead=(animation.hasCharacterBattleArt(id)?700:900)/speed;clock=a.started+a.impactAt;const pending=[...rafs.values()];rafs.clear();pending.forEach(fn=>fn());equal(Number(canvas.dataset.ultimateFrame),animation.characterPoseFrame(id,'ultimate',(a.impactAt-lead)/(a.duration-lead),count),'hero cinema follows the captured speed rather than a later preference');cleanup();rafs.clear();
 }
 Date.now=originalNow;

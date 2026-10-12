@@ -1,0 +1,42 @@
+{
+  "source": "art-source/v36/variants/ophelia-white-equinox/icons-candidate.png",
+  "width": 1536,
+  "height": 1024,
+  "alphaZero": 752205,
+  "allPixels": 1572864,
+  "strictAlphaZeroCorridors": false,
+  "horizontal": [
+    {
+      "index": 520,
+      "nonzero": 50
+    }
+  ],
+  "vertical": [
+    [
+      {
+        "index": 562,
+        "nonzero": 0
+      },
+      {
+        "index": 1006,
+        "nonzero": 0
+      }
+    ],
+    [
+      {
+        "index": 534,
+        "nonzero": 0
+      },
+      {
+        "index": 982,
+        "nonzero": 0
+      }
+    ]
+  ],
+  "edges": {
+    "top": 1,
+    "bottom": 283,
+    "left": 27,
+    "right": 0
+  }
+}

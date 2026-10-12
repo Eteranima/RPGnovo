@@ -1,0 +1,22 @@
+{
+  "id": "max-thunder-requiem",
+  "source": "art-source/v36/variants/max-thunder-requiem/portrait-source.png",
+  "runtime": "public/assets/v36/variants/max-thunder-requiem/portrait.png",
+  "width": 1024,
+  "height": 1536,
+  "sourceSha256": "f3c8a7cee83ae0e048b7a6c1b5f5dcae970aaffc92e7cf54d824bde69bd065e3",
+  "runtimeSha256": "f3c8a7cee83ae0e048b7a6c1b5f5dcae970aaffc92e7cf54d824bde69bd065e3",
+  "byteIdenticalSourceCopies": true,
+  "alphaThresholdForMeasurementOnly": 24,
+  "visibleEdge": 0,
+  "backgroundAlphaZero": 738423,
+  "face": {
+    "left": 350,
+    "top": 20,
+    "width": 320,
+    "height": 320,
+    "runtime": "public/assets/v36/variants/max-thunder-requiem/face.png",
+    "sha256": "a154b6b8a3f2ad25fde86a2da5810e2027f6f6948790743274567b39a7315dc9",
+    "allNativeRgbaPixelsPreserved": true
+  }
+}

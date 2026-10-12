@@ -11,14 +11,19 @@ export type OpeningCinematicV33Props = {
  autoplay?: boolean;
  onExit: (reason: OpeningExitV33) => void;
  /** Optional presentation callback; it never changes the saved sound preference. */
- onPlaybackChange?: (playing: boolean) => void;
+ onPlaybackChange?: (playing: boolean, elapsedSeconds: number) => void;
+ /** Native gestures allow the shared music owner to satisfy browser playback policy. */
+ onPlaybackGesture?: () => void;
+ soundEnabled?: boolean;
+ audioBlocked?: boolean;
+ onToggleSound?: () => void;
 };
 
 type PlayerView = {ready: boolean; failed: boolean; playing: boolean; buffering: boolean; finished: boolean; reduced: boolean; elapsed: number; blocked: boolean};
 const initialView: PlayerView = {ready:false, failed:false, playing:false, buffering:false, finished:false, reduced:false, elapsed:0, blocked:false};
 
 /** Plays only the approved, encoded film; loading failures never substitute another scene. */
-export function OpeningCinematicV33({autoplay = true, onExit, onPlaybackChange}: OpeningCinematicV33Props) {
+export function OpeningCinematicV33({autoplay = true, onExit, onPlaybackChange, onPlaybackGesture, soundEnabled = false, audioBlocked = false, onToggleSound}: OpeningCinematicV33Props) {
  const video = useRef<HTMLVideoElement>(null), dialog = useRef<HTMLDivElement>(null), playButton = useRef<HTMLButtonElement>(null);
  const [portalTarget, setPortalTarget] = useState<HTMLElement | null>(null), [view, setView] = useState<PlayerView>(initialView), [retry, setRetry] = useState(0);
  const viewRef = useRef(view), exitRef = useRef(onExit), playbackCallback = useRef(onPlaybackChange), resolved = useRef(false);
@@ -57,8 +62,9 @@ export function OpeningCinematicV33({autoplay = true, onExit, onPlaybackChange}:
  const play = () => {
   const media = video.current;
   if (!media || !viewRef.current.ready || viewRef.current.failed) return;
+  onPlaybackGesture?.();
   if (media.ended || viewRef.current.finished) {media.currentTime = 0; setView(v => ({...v, elapsed:0, finished:false}));}
-  // The export has no audio; muted also prevents future replacement files from bypassing the game's sound preference.
+  // MusicDirector owns the synchronized soundtrack and persistent mute. Native video stays silent.
   media.muted = true;
   media.playbackRate = 1;
   void media.play().catch(() => {setView(v => ({...v, playing:false, blocked:true}));});
@@ -79,7 +85,7 @@ export function OpeningCinematicV33({autoplay = true, onExit, onPlaybackChange}:
 
   const reportPlaying = (playing: boolean) => {
    if (lastReportedPlaying === playing) return;
-   lastReportedPlaying = playing; playbackCallback.current?.(playing);
+   lastReportedPlaying = playing; playbackCallback.current?.(playing, media.currentTime || 0);
   };
   const clearWatchdog = () => {window.clearTimeout(watchdog); watchdog = 0;};
   const fail = () => {
@@ -91,6 +97,7 @@ export function OpeningCinematicV33({autoplay = true, onExit, onPlaybackChange}:
   const updateTime = () => {
    if (disposed) return;
    const elapsed = Math.min(OPENING_CINEMATIC_V33.durationSeconds, Math.max(0, media.currentTime || 0));
+   playbackCallback.current?.(lastReportedPlaying, elapsed);
    media.dataset.nativeFrame = String(openingFrameAtV33(elapsed));
    setView(v => Math.abs(v.elapsed - elapsed) < .08 ? v : {...v, elapsed});
   };
@@ -126,6 +133,7 @@ export function OpeningCinematicV33({autoplay = true, onExit, onPlaybackChange}:
   };
   const waiting = () => {
    if (disposed || media.ended || media.paused && viewRef.current.ready) return;
+   reportPlaying(false);
    setView(v => ({...v, buffering:true})); watchLoading();
   };
   const ended = () => {
@@ -160,7 +168,7 @@ export function OpeningCinematicV33({autoplay = true, onExit, onPlaybackChange}:
   };
   const listeners: [string, EventListener][] = [
    ['loadedmetadata',loadedMetadata], ['loadeddata',ready], ['canplay',ready], ['playing',playing],
-   ['pause',paused], ['waiting',waiting], ['stalled',waiting], ['ended',ended], ['error',fail], ['timeupdate',updateTime],
+   ['pause',paused], ['waiting',waiting], ['stalled',waiting], ['ended',ended], ['error',fail], ['timeupdate',updateTime], ['seeked',updateTime],
   ];
   for (const [name, listener] of listeners) media.addEventListener(name, listener);
   document.addEventListener('visibilitychange',visibility);
@@ -198,7 +206,7 @@ export function OpeningCinematicV33({autoplay = true, onExit, onPlaybackChange}:
    <footer className={styles.footer}>
     <div className={styles.timeline}><progress max={100} value={progress} aria-label="Progresso do filme"/><span aria-hidden="true">{openingClockV33(view.elapsed)} / 1:02</span></div>
     <div className={styles.controls}>
-     <div className={styles.buttons}><button ref={playButton} type="button" className={styles.primary} disabled={!view.ready || view.failed} onClick={togglePlayback}>{view.finished ? 'Repetir abertura' : view.playing ? 'Pausar' : 'Reproduzir'}</button><button type="button" className={styles.secondary} onClick={() => exit(view.finished ? 'finished' : 'skip')}>{view.finished ? 'Voltar à abertura' : 'Pular abertura'}</button></div>
+     <div className={styles.buttons}><button ref={playButton} type="button" className={styles.primary} disabled={!view.ready || view.failed} onClick={togglePlayback}>{view.finished ? 'Repetir abertura' : view.playing ? 'Pausar' : 'Reproduzir'}</button><button type="button" className={styles.secondary} onClick={() => exit(view.finished ? 'finished' : 'skip')}>{view.finished ? 'Voltar à abertura' : 'Pular abertura'}</button>{onToggleSound&&<button type="button" className={`${styles.secondary} ${styles.sound}`} onClick={()=>soundEnabled&&audioBlocked?onPlaybackGesture?.():onToggleSound()} aria-pressed={soundEnabled} aria-label={soundEnabled&&audioBlocked?'Ativar a trilha de som da abertura':soundEnabled?'Desligar som':'Ativar som'}><HudIcon name={soundEnabled?'audioOn':'audioOff'}/>{soundEnabled&&audioBlocked?'Ativar som':soundEnabled?'Som ligado':'Som desligado'}</button>}</div>
      <p id="opening-film-hint-v33" className={styles.hint} aria-live="polite">{hint}</p>
     </div>
    </footer>

@@ -1,0 +1,89 @@
+{
+  "source": "art-source/v36/variants/ophelia-white-equinox/icons-repair-candidate.png",
+  "width": 1536,
+  "height": 1024,
+  "alphaZero": 1100978,
+  "allPixels": 1572864,
+  "strictAlphaZeroCorridors": true,
+  "horizontal": [
+    {
+      "index": 512,
+      "nonzero": 0,
+      "alpha": {
+        "max": 0,
+        "over24": 0,
+        "over210": 0
+      }
+    }
+  ],
+  "vertical": [
+    [
+      {
+        "index": 512,
+        "nonzero": 0,
+        "alpha": {
+          "max": 0,
+          "over24": 0,
+          "over210": 0
+        }
+      },
+      {
+        "index": 1024,
+        "nonzero": 0,
+        "alpha": {
+          "max": 0,
+          "over24": 0,
+          "over210": 0
+        }
+      }
+    ],
+    [
+      {
+        "index": 512,
+        "nonzero": 0,
+        "alpha": {
+          "max": 0,
+          "over24": 0,
+          "over210": 0
+        }
+      },
+      {
+        "index": 1024,
+        "nonzero": 0,
+        "alpha": {
+          "max": 0,
+          "over24": 0,
+          "over210": 0
+        }
+      }
+    ]
+  ],
+  "edges": {
+    "top": 0,
+    "bottom": 1,
+    "left": 1,
+    "right": 0
+  },
+  "edgeAlpha": {
+    "top": {
+      "max": 0,
+      "over24": 0,
+      "over210": 0
+    },
+    "bottom": {
+      "max": 1,
+      "over24": 0,
+      "over210": 0
+    },
+    "left": {
+      "max": 1,
+      "over24": 0,
+      "over210": 0
+    },
+    "right": {
+      "max": 0,
+      "over24": 0,
+      "over210": 0
+    }
+  }
+}

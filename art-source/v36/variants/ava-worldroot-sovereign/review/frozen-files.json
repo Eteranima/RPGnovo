@@ -1,0 +1,42 @@
+[
+  {
+    "kind": "walk",
+    "source": "art-source/v36/variants/ava-worldroot-sovereign/walk-source.png",
+    "runtime": "public/assets/v36/variants/ava-worldroot-sovereign/walk.png",
+    "sha256": "306a759f6af1c3304179d117ca8e1171aba4261d1e6b93a4771c1fb281b28c0d"
+  },
+  {
+    "kind": "attack",
+    "source": "art-source/v36/variants/ava-worldroot-sovereign/attack-source.png",
+    "runtime": "public/assets/v36/variants/ava-worldroot-sovereign/attack.png",
+    "sha256": "87b5744b544f39822acc3e4bd684eafde5585bb9fd19e222c7338fd49463557f"
+  },
+  {
+    "kind": "cast",
+    "source": "art-source/v36/variants/ava-worldroot-sovereign/cast-source.png",
+    "runtime": "public/assets/v36/variants/ava-worldroot-sovereign/cast.png",
+    "sha256": "2e998b22d840e87675343ed8e2aa3697dc65c8f94985047e905aa22f6038f0f4"
+  },
+  {
+    "kind": "ultimate",
+    "source": "art-source/v36/variants/ava-worldroot-sovereign/ultimate-source.png",
+    "runtime": "public/assets/v36/variants/ava-worldroot-sovereign/ultimate.png",
+    "sha256": "92cc1f46dab1b62164119dfbc1d501c94a2e9da14c4ec42082d56a74dbc21b3e"
+  },
+  {
+    "kind": "vfx",
+    "source": "art-source/v36/variants/ava-worldroot-sovereign/vfx-source.png",
+    "runtime": "public/assets/v36/variants/ava-worldroot-sovereign/vfx.png",
+    "sha256": "236f7b674aa267052529ff78f0a96ff411529f3dfd20695723b97a33ef6ff3e6"
+  },
+  {
+    "kind": "icons",
+    "source": "art-source/v36/variants/ava-worldroot-sovereign/icons-source.png",
+    "runtime": "public/assets/v36/variants/ava-worldroot-sovereign/icons.png",
+    "sha256": "1bdb54fb7cef6e3f6257f97c9f0e681dd0ef18e7e7714cbb2571d2f31ea0c38b"
+  },
+  {
+    "kind": "portrait-source-read-only",
+    "sha256": "44ffffc05265055eb3a513849af37f896aa1231fa4756aff73724ff4777f8f3a"
+  }
+]

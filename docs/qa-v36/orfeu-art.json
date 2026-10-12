@@ -1,0 +1,1134 @@
+{
+  "id": "orfeu-unwritten-archon",
+  "direction": "Short white hair, warm golden tan skin, fully covered indigo-black-gold martial attire",
+  "measuredThreshold": 24,
+  "kindCounts": {
+    "walk": 12,
+    "attack": 6,
+    "cast": 6,
+    "ultimate": 8,
+    "vfx": 6,
+    "icons": 6
+  },
+  "frames": [
+    {
+      "kind": "walk",
+      "index": 0,
+      "crop": {
+        "x": 82,
+        "y": 28,
+        "w": 242,
+        "h": 364,
+        "anchorX": 207.3,
+        "anchorY": 384
+      },
+      "visibleBounds": {
+        "x": 90,
+        "y": 36,
+        "w": 226,
+        "h": 349
+      },
+      "visibleCellEdge": 0,
+      "visibleCropEdge": 0,
+      "visiblePixels": 34149,
+      "alphaZero": 43364,
+      "retainedLowAlphaPixels": 10575,
+      "rgbaRowsIdentical": true,
+      "sha256": "ea9a65c4725f7103f709a2f42255ef36ead63d99ce980fdb0ad71904dc3dd0ec"
+    },
+    {
+      "kind": "walk",
+      "index": 1,
+      "crop": {
+        "x": 404,
+        "y": 29,
+        "w": 215,
+        "h": 356,
+        "anchorX": 501.3,
+        "anchorY": 376
+      },
+      "visibleBounds": {
+        "x": 412,
+        "y": 37,
+        "w": 199,
+        "h": 340
+      },
+      "visibleCellEdge": 0,
+      "visibleCropEdge": 0,
+      "visiblePixels": 32664,
+      "alphaZero": 33260,
+      "retainedLowAlphaPixels": 10616,
+      "rgbaRowsIdentical": true,
+      "sha256": "a838a72e1ca6cff95e1ce515f61034e5c737848f062da29d8325d9c33b2f2b02"
+    },
+    {
+      "kind": "walk",
+      "index": 2,
+      "crop": {
+        "x": 694,
+        "y": 28,
+        "w": 253,
+        "h": 362,
+        "anchorX": 802.5,
+        "anchorY": 381
+      },
+      "visibleBounds": {
+        "x": 702,
+        "y": 36,
+        "w": 237,
+        "h": 346
+      },
+      "visibleCellEdge": 0,
+      "visibleCropEdge": 0,
+      "visiblePixels": 34532,
+      "alphaZero": 45735,
+      "retainedLowAlphaPixels": 11319,
+      "rgbaRowsIdentical": true,
+      "sha256": "602d618d8265511fc5f192068ecca9276af47cc8a7d0906eeec214730a287f1a"
+    },
+    {
+      "kind": "walk",
+      "index": 3,
+      "crop": {
+        "x": 39,
+        "y": 394,
+        "w": 283,
+        "h": 346,
+        "anchorX": 149.5,
+        "anchorY": 731
+      },
+      "visibleBounds": {
+        "x": 47,
+        "y": 402,
+        "w": 267,
+        "h": 330
+      },
+      "visibleCellEdge": 0,
+      "visibleCropEdge": 0,
+      "visiblePixels": 33548,
+      "alphaZero": 51056,
+      "retainedLowAlphaPixels": 13314,
+      "rgbaRowsIdentical": true,
+      "sha256": "15d30bb22ec4fef075d22d166f4954c1265be76d134752e83f9808b7d8e16154"
+    },
+    {
+      "kind": "walk",
+      "index": 4,
+      "crop": {
+        "x": 416,
+        "y": 392,
+        "w": 219,
+        "h": 346,
+        "anchorX": 473.9,
+        "anchorY": 729
+      },
+      "visibleBounds": {
+        "x": 424,
+        "y": 400,
+        "w": 203,
+        "h": 330
+      },
+      "visibleCellEdge": 0,
+      "visibleCropEdge": 0,
+      "visiblePixels": 29425,
+      "alphaZero": 34060,
+      "retainedLowAlphaPixels": 12289,
+      "rgbaRowsIdentical": true,
+      "sha256": "4a39c96c874b485dec494d9dc6b357aa2db09e5f61718dd264865ab3b2ed50b8"
+    },
+    {
+      "kind": "walk",
+      "index": 5,
+      "crop": {
+        "x": 717,
+        "y": 394,
+        "w": 266,
+        "h": 343,
+        "anchorX": 815.9,
+        "anchorY": 728
+      },
+      "visibleBounds": {
+        "x": 725,
+        "y": 402,
+        "w": 250,
+        "h": 327
+      },
+      "visibleCellEdge": 0,
+      "visibleCropEdge": 0,
+      "visiblePixels": 30784,
+      "alphaZero": 48252,
+      "retainedLowAlphaPixels": 12202,
+      "rgbaRowsIdentical": true,
+      "sha256": "1a74cce06d3a10c1798fee8ca32be91a9930d8a69119d6f31b611274aad063b5"
+    },
+    {
+      "kind": "walk",
+      "index": 6,
+      "crop": {
+        "x": 37,
+        "y": 750,
+        "w": 275,
+        "h": 350,
+        "anchorX": 228.6,
+        "anchorY": 1091
+      },
+      "visibleBounds": {
+        "x": 45,
+        "y": 758,
+        "w": 259,
+        "h": 334
+      },
+      "visibleCellEdge": 0,
+      "visibleCropEdge": 0,
+      "visiblePixels": 32770,
+      "alphaZero": 49095,
+      "retainedLowAlphaPixels": 14385,
+      "rgbaRowsIdentical": true,
+      "sha256": "66ccd65487b43691b2f2c78143be9640d3e9051a696fdb1164cbb6e4da2f8db4"
+    },
+    {
+      "kind": "walk",
+      "index": 7,
+      "crop": {
+        "x": 392,
+        "y": 751,
+        "w": 214,
+        "h": 350,
+        "anchorX": 540.3,
+        "anchorY": 1092
+      },
+      "visibleBounds": {
+        "x": 400,
+        "y": 759,
+        "w": 198,
+        "h": 334
+      },
+      "visibleCellEdge": 0,
+      "visibleCropEdge": 0,
+      "visiblePixels": 28153,
+      "alphaZero": 35672,
+      "retainedLowAlphaPixels": 11075,
+      "rgbaRowsIdentical": true,
+      "sha256": "0f88f764cf40c2e9cb29137b4947f2e4cb5b7db964f5adbc799ec035eec58843"
+    },
+    {
+      "kind": "walk",
+      "index": 8,
+      "crop": {
+        "x": 709,
+        "y": 750,
+        "w": 271,
+        "h": 352,
+        "anchorX": 839.4,
+        "anchorY": 1093
+      },
+      "visibleBounds": {
+        "x": 717,
+        "y": 758,
+        "w": 255,
+        "h": 336
+      },
+      "visibleCellEdge": 0,
+      "visibleCropEdge": 0,
+      "visiblePixels": 32627,
+      "alphaZero": 49891,
+      "retainedLowAlphaPixels": 12874,
+      "rgbaRowsIdentical": true,
+      "sha256": "b54c8ea831c50928a58054493fd007649e0a18b0f2d1caa83785331a9f35decc"
+    },
+    {
+      "kind": "walk",
+      "index": 9,
+      "crop": {
+        "x": 48,
+        "y": 1105,
+        "w": 276,
+        "h": 378,
+        "anchorX": 188.1,
+        "anchorY": 1474
+      },
+      "visibleBounds": {
+        "x": 56,
+        "y": 1113,
+        "w": 260,
+        "h": 362
+      },
+      "visibleCellEdge": 0,
+      "visibleCropEdge": 0,
+      "visiblePixels": 36293,
+      "alphaZero": 52306,
+      "retainedLowAlphaPixels": 15729,
+      "rgbaRowsIdentical": true,
+      "sha256": "cd12fc56271752e52ddc039dc87e4a5d48aaec20688612d14bd7d9eed2f8740e"
+    },
+    {
+      "kind": "walk",
+      "index": 10,
+      "crop": {
+        "x": 403,
+        "y": 1105,
+        "w": 221,
+        "h": 376,
+        "anchorX": 502.6,
+        "anchorY": 1472
+      },
+      "visibleBounds": {
+        "x": 411,
+        "y": 1113,
+        "w": 205,
+        "h": 360
+      },
+      "visibleCellEdge": 0,
+      "visibleCropEdge": 0,
+      "visiblePixels": 34467,
+      "alphaZero": 36500,
+      "retainedLowAlphaPixels": 12129,
+      "rgbaRowsIdentical": true,
+      "sha256": "64f90101e5a9e9fe66687e829b3bc20a4a7a760b0ba01373ff602ab596e46ab5"
+    },
+    {
+      "kind": "walk",
+      "index": 11,
+      "crop": {
+        "x": 728,
+        "y": 1106,
+        "w": 243,
+        "h": 381,
+        "anchorX": 847.7,
+        "anchorY": 1478
+      },
+      "visibleBounds": {
+        "x": 736,
+        "y": 1114,
+        "w": 227,
+        "h": 365
+      },
+      "visibleCellEdge": 0,
+      "visibleCropEdge": 0,
+      "visiblePixels": 36283,
+      "alphaZero": 43361,
+      "retainedLowAlphaPixels": 12939,
+      "rgbaRowsIdentical": true,
+      "sha256": "ed0625ae406646c5ba24c0319c51d0af50e4e892f2dfd846b65276cf6713e977"
+    },
+    {
+      "kind": "attack",
+      "index": 0,
+      "crop": {
+        "x": 109,
+        "y": 18,
+        "w": 326,
+        "h": 482,
+        "anchorX": 286.1,
+        "anchorY": 491
+      },
+      "visibleBounds": {
+        "x": 117,
+        "y": 26,
+        "w": 310,
+        "h": 466
+      },
+      "visibleCellEdge": 0,
+      "visibleCropEdge": 0,
+      "visiblePixels": 70152,
+      "alphaZero": 68168,
+      "retainedLowAlphaPixels": 18812,
+      "rgbaRowsIdentical": true,
+      "sha256": "8ed8f629ccb6323157bdd22d7f88062058c01936eb7da6dcbac05607a5d64a89"
+    },
+    {
+      "kind": "attack",
+      "index": 1,
+      "crop": {
+        "x": 591,
+        "y": 61,
+        "w": 350,
+        "h": 440,
+        "anchorX": 741.2,
+        "anchorY": 492
+      },
+      "visibleBounds": {
+        "x": 599,
+        "y": 69,
+        "w": 334,
+        "h": 424
+      },
+      "visibleCellEdge": 0,
+      "visibleCropEdge": 0,
+      "visiblePixels": 68134,
+      "alphaZero": 69190,
+      "retainedLowAlphaPixels": 16676,
+      "rgbaRowsIdentical": true,
+      "sha256": "394ae675d2fa583b3478adc3b0473c8c52dbb73210a8de8b3759a93650d86424"
+    },
+    {
+      "kind": "attack",
+      "index": 2,
+      "crop": {
+        "x": 1082,
+        "y": 53,
+        "w": 358,
+        "h": 447,
+        "anchorX": 1278.3,
+        "anchorY": 491
+      },
+      "visibleBounds": {
+        "x": 1090,
+        "y": 61,
+        "w": 342,
+        "h": 431
+      },
+      "visibleCellEdge": 0,
+      "visibleCropEdge": 0,
+      "visiblePixels": 65867,
+      "alphaZero": 74126,
+      "retainedLowAlphaPixels": 20033,
+      "rgbaRowsIdentical": true,
+      "sha256": "6b731d54f1f1be6df76b2dee34d027af02c77fb2a43e1e1d94d51a4a038897bf"
+    },
+    {
+      "kind": "attack",
+      "index": 3,
+      "crop": {
+        "x": 80,
+        "y": 554,
+        "w": 449,
+        "h": 453,
+        "anchorX": 295.6,
+        "anchorY": 998
+      },
+      "visibleBounds": {
+        "x": 88,
+        "y": 562,
+        "w": 433,
+        "h": 437
+      },
+      "visibleCellEdge": 0,
+      "visibleCropEdge": 0,
+      "visiblePixels": 85446,
+      "alphaZero": 92414,
+      "retainedLowAlphaPixels": 25537,
+      "rgbaRowsIdentical": true,
+      "sha256": "b19735016560a2ed0cf6e6414342fe4bfea8032a603c71ab87459c076ed25a7e"
+    },
+    {
+      "kind": "attack",
+      "index": 4,
+      "crop": {
+        "x": 589,
+        "y": 555,
+        "w": 367,
+        "h": 449,
+        "anchorX": 765.9,
+        "anchorY": 995
+      },
+      "visibleBounds": {
+        "x": 597,
+        "y": 563,
+        "w": 351,
+        "h": 433
+      },
+      "visibleCellEdge": 0,
+      "visibleCropEdge": 0,
+      "visiblePixels": 69727,
+      "alphaZero": 77093,
+      "retainedLowAlphaPixels": 17963,
+      "rgbaRowsIdentical": true,
+      "sha256": "474e26c9a44fa59ce5d0b98e07c8f931cdace63b54fc041b3fe7eb8425a20125"
+    },
+    {
+      "kind": "attack",
+      "index": 5,
+      "crop": {
+        "x": 1089,
+        "y": 532,
+        "w": 342,
+        "h": 477,
+        "anchorX": 1283.7,
+        "anchorY": 1000
+      },
+      "visibleBounds": {
+        "x": 1097,
+        "y": 540,
+        "w": 326,
+        "h": 461
+      },
+      "visibleCellEdge": 0,
+      "visibleCropEdge": 0,
+      "visiblePixels": 70625,
+      "alphaZero": 73277,
+      "retainedLowAlphaPixels": 19232,
+      "rgbaRowsIdentical": true,
+      "sha256": "1d468b3a89daa5ef70e3e84137f0206d583b56bde23f8a1674b9b7f203c48302"
+    },
+    {
+      "kind": "cast",
+      "index": 0,
+      "crop": {
+        "x": 63,
+        "y": 31,
+        "w": 356,
+        "h": 484,
+        "anchorX": 283.1,
+        "anchorY": 506
+      },
+      "visibleBounds": {
+        "x": 71,
+        "y": 39,
+        "w": 340,
+        "h": 468
+      },
+      "visibleCellEdge": 0,
+      "visibleCropEdge": 0,
+      "visiblePixels": 75004,
+      "alphaZero": 80792,
+      "retainedLowAlphaPixels": 16508,
+      "rgbaRowsIdentical": true,
+      "sha256": "f1ba4043c415acd9d0beb21cdc76f32e29c30c0809941987e0ab4fc4f760dd37"
+    },
+    {
+      "kind": "cast",
+      "index": 1,
+      "crop": {
+        "x": 556,
+        "y": 37,
+        "w": 361,
+        "h": 482,
+        "anchorX": 769.3,
+        "anchorY": 510
+      },
+      "visibleBounds": {
+        "x": 564,
+        "y": 45,
+        "w": 345,
+        "h": 466
+      },
+      "visibleCellEdge": 0,
+      "visibleCropEdge": 0,
+      "visiblePixels": 77882,
+      "alphaZero": 80502,
+      "retainedLowAlphaPixels": 15618,
+      "rgbaRowsIdentical": true,
+      "sha256": "6ab7212dd3a33676b5aa779fe586c7aa61197e935760cd3b8f1619ffd17a721f"
+    },
+    {
+      "kind": "cast",
+      "index": 2,
+      "crop": {
+        "x": 992,
+        "y": 71,
+        "w": 486,
+        "h": 439,
+        "anchorX": 1204.8,
+        "anchorY": 501
+      },
+      "visibleBounds": {
+        "x": 1000,
+        "y": 79,
+        "w": 470,
+        "h": 423
+      },
+      "visibleCellEdge": 0,
+      "visibleCropEdge": 0,
+      "visiblePixels": 81521,
+      "alphaZero": 116693,
+      "retainedLowAlphaPixels": 15140,
+      "rgbaRowsIdentical": true,
+      "sha256": "84755a68de5648de60f32f0b762d93c918e32407a2c4891d5d654d09ea15904b"
+    },
+    {
+      "kind": "cast",
+      "index": 3,
+      "crop": {
+        "x": 42,
+        "y": 544,
+        "w": 523,
+        "h": 459,
+        "anchorX": 243.1,
+        "anchorY": 994
+      },
+      "visibleBounds": {
+        "x": 50,
+        "y": 552,
+        "w": 507,
+        "h": 443
+      },
+      "visibleCellEdge": 0,
+      "visibleCropEdge": 0,
+      "visiblePixels": 89544,
+      "alphaZero": 122361,
+      "retainedLowAlphaPixels": 28152,
+      "rgbaRowsIdentical": true,
+      "sha256": "0f9b5bf2b20fc94942185a3ce1eee102d0e2a8699ff89680212177ecfe229be8"
+    },
+    {
+      "kind": "cast",
+      "index": 4,
+      "crop": {
+        "x": 585,
+        "y": 536,
+        "w": 388,
+        "h": 468,
+        "anchorX": 789.3,
+        "anchorY": 995
+      },
+      "visibleBounds": {
+        "x": 593,
+        "y": 544,
+        "w": 372,
+        "h": 452
+      },
+      "visibleCellEdge": 0,
+      "visibleCropEdge": 0,
+      "visiblePixels": 81159,
+      "alphaZero": 78577,
+      "retainedLowAlphaPixels": 21848,
+      "rgbaRowsIdentical": true,
+      "sha256": "2e0aecb93ce69474a87649005f80765112144f7caffc38db32dfe2a05b8cef93"
+    },
+    {
+      "kind": "cast",
+      "index": 5,
+      "crop": {
+        "x": 1078,
+        "y": 522,
+        "w": 357,
+        "h": 486,
+        "anchorX": 1261.2,
+        "anchorY": 999
+      },
+      "visibleBounds": {
+        "x": 1086,
+        "y": 530,
+        "w": 341,
+        "h": 470
+      },
+      "visibleCellEdge": 0,
+      "visibleCropEdge": 0,
+      "visiblePixels": 75993,
+      "alphaZero": 80646,
+      "retainedLowAlphaPixels": 16863,
+      "rgbaRowsIdentical": true,
+      "sha256": "129085cb2810064226ff0612151d01adbeb03fcb12eb57b9421dd81f6ea87893"
+    },
+    {
+      "kind": "ultimate",
+      "index": 0,
+      "crop": {
+        "x": 46,
+        "y": 57,
+        "w": 278,
+        "h": 448,
+        "anchorX": 179.8,
+        "anchorY": 496
+      },
+      "visibleBounds": {
+        "x": 54,
+        "y": 65,
+        "w": 262,
+        "h": 432
+      },
+      "visibleCellEdge": 0,
+      "visibleCropEdge": 0,
+      "visiblePixels": 58044,
+      "alphaZero": 50641,
+      "retainedLowAlphaPixels": 15859,
+      "rgbaRowsIdentical": true,
+      "sha256": "ea3917eb314588daffa69fe915de1802d6096445ba1b1860437f996eb52f1efa"
+    },
+    {
+      "kind": "ultimate",
+      "index": 1,
+      "crop": {
+        "x": 420,
+        "y": 57,
+        "w": 306,
+        "h": 457,
+        "anchorX": 557.5,
+        "anchorY": 505
+      },
+      "visibleBounds": {
+        "x": 428,
+        "y": 65,
+        "w": 290,
+        "h": 441
+      },
+      "visibleCellEdge": 0,
+      "visibleCropEdge": 0,
+      "visiblePixels": 60492,
+      "alphaZero": 62653,
+      "retainedLowAlphaPixels": 16697,
+      "rgbaRowsIdentical": true,
+      "sha256": "6948f611bdad666d154b4a75e3ef8fea162d1214b951148ec605ee813da80468"
+    },
+    {
+      "kind": "ultimate",
+      "index": 2,
+      "crop": {
+        "x": 780,
+        "y": 134,
+        "w": 368,
+        "h": 371,
+        "anchorX": 959.7,
+        "anchorY": 496
+      },
+      "visibleBounds": {
+        "x": 788,
+        "y": 142,
+        "w": 352,
+        "h": 355
+      },
+      "visibleCellEdge": 0,
+      "visibleCropEdge": 0,
+      "visiblePixels": 59107,
+      "alphaZero": 60679,
+      "retainedLowAlphaPixels": 16742,
+      "rgbaRowsIdentical": true,
+      "sha256": "ea0e826539ed8c83e7ed3b1d093b93e043809dd940b1434cd90588e702aa6492"
+    },
+    {
+      "kind": "ultimate",
+      "index": 3,
+      "crop": {
+        "x": 1189,
+        "y": 76,
+        "w": 320,
+        "h": 441,
+        "anchorX": 1347.5,
+        "anchorY": 508
+      },
+      "visibleBounds": {
+        "x": 1197,
+        "y": 84,
+        "w": 304,
+        "h": 425
+      },
+      "visibleCellEdge": 0,
+      "visibleCropEdge": 0,
+      "visiblePixels": 60334,
+      "alphaZero": 63605,
+      "retainedLowAlphaPixels": 17181,
+      "rgbaRowsIdentical": true,
+      "sha256": "51db7432cb9ad4aa5bd986ace5a90921b42e01d1c9f318f564241e956120cfd3"
+    },
+    {
+      "kind": "ultimate",
+      "index": 4,
+      "crop": {
+        "x": 21,
+        "y": 575,
+        "w": 362,
+        "h": 407,
+        "anchorX": 173.8,
+        "anchorY": 973
+      },
+      "visibleBounds": {
+        "x": 29,
+        "y": 583,
+        "w": 350,
+        "h": 391
+      },
+      "visibleCellEdge": 0,
+      "visibleCropEdge": 0,
+      "visiblePixels": 54270,
+      "alphaZero": 70335,
+      "retainedLowAlphaPixels": 22729,
+      "rgbaRowsIdentical": true,
+      "sha256": "fa06c19048858dc67c56b0752a7288c5fd0f2332ef989e8fd70872968514eb50"
+    },
+    {
+      "kind": "ultimate",
+      "index": 5,
+      "crop": {
+        "x": 383,
+        "y": 562,
+        "w": 434,
+        "h": 420,
+        "anchorX": 547.2,
+        "anchorY": 973
+      },
+      "visibleBounds": {
+        "x": 387,
+        "y": 570,
+        "w": 422,
+        "h": 404
+      },
+      "visibleCellEdge": 0,
+      "visibleCropEdge": 0,
+      "visiblePixels": 66074,
+      "alphaZero": 82895,
+      "retainedLowAlphaPixels": 33311,
+      "rgbaRowsIdentical": true,
+      "sha256": "2c45030d87ce93e19a9659c8b808490a0d12a0389b79dabd2f3ed2fe23341947"
+    },
+    {
+      "kind": "ultimate",
+      "index": 6,
+      "crop": {
+        "x": 843,
+        "y": 578,
+        "w": 295,
+        "h": 406,
+        "anchorX": 941.3,
+        "anchorY": 975
+      },
+      "visibleBounds": {
+        "x": 851,
+        "y": 586,
+        "w": 279,
+        "h": 390
+      },
+      "visibleCellEdge": 0,
+      "visibleCropEdge": 0,
+      "visiblePixels": 54528,
+      "alphaZero": 44523,
+      "retainedLowAlphaPixels": 20719,
+      "rgbaRowsIdentical": true,
+      "sha256": "52fbdf2fb1d471e2854cb21b542b71d74b8db29454cfc3f3d842954cf7d4a523"
+    },
+    {
+      "kind": "ultimate",
+      "index": 7,
+      "crop": {
+        "x": 1226,
+        "y": 553,
+        "w": 243,
+        "h": 432,
+        "anchorX": 1345,
+        "anchorY": 976
+      },
+      "visibleBounds": {
+        "x": 1234,
+        "y": 561,
+        "w": 227,
+        "h": 416
+      },
+      "visibleCellEdge": 0,
+      "visibleCropEdge": 0,
+      "visiblePixels": 51223,
+      "alphaZero": 40184,
+      "retainedLowAlphaPixels": 13569,
+      "rgbaRowsIdentical": true,
+      "sha256": "a381896128718d50994abf940868875a8d8fc40e7f2db4724a34d5875c6d287c"
+    },
+    {
+      "kind": "vfx",
+      "index": 0,
+      "crop": {
+        "x": 42,
+        "y": 75,
+        "w": 422,
+        "h": 398,
+        "anchorX": 252.5,
+        "anchorY": 273.5
+      },
+      "visibleBounds": {
+        "x": 50,
+        "y": 83,
+        "w": 406,
+        "h": 382
+      },
+      "visibleCellEdge": 0,
+      "visibleCropEdge": 0,
+      "visiblePixels": 71792,
+      "alphaZero": 67687,
+      "retainedLowAlphaPixels": 28477,
+      "rgbaRowsIdentical": true,
+      "sha256": "94c54cb3cffb407b6175729a38e4b1850bf239faf74698f6b3ddb30ab6fa4e35"
+    },
+    {
+      "kind": "vfx",
+      "index": 1,
+      "crop": {
+        "x": 524,
+        "y": 153,
+        "w": 512,
+        "h": 270,
+        "anchorX": 779.5,
+        "anchorY": 287.5
+      },
+      "visibleBounds": {
+        "x": 532,
+        "y": 161,
+        "w": 496,
+        "h": 254
+      },
+      "visibleCellEdge": 0,
+      "visibleCropEdge": 0,
+      "visiblePixels": 53806,
+      "alphaZero": 58916,
+      "retainedLowAlphaPixels": 25518,
+      "rgbaRowsIdentical": true,
+      "sha256": "a5df6b934fe9c87a050c01bea308e8201f0953b118ee396420bf72526ced7e9d"
+    },
+    {
+      "kind": "vfx",
+      "index": 2,
+      "crop": {
+        "x": 1096,
+        "y": 68,
+        "w": 408,
+        "h": 406,
+        "anchorX": 1299.5,
+        "anchorY": 270.5
+      },
+      "visibleBounds": {
+        "x": 1104,
+        "y": 76,
+        "w": 392,
+        "h": 390
+      },
+      "visibleCellEdge": 0,
+      "visibleCropEdge": 0,
+      "visiblePixels": 88622,
+      "alphaZero": 54205,
+      "retainedLowAlphaPixels": 22821,
+      "rgbaRowsIdentical": true,
+      "sha256": "734b950e2345babff90b8ea2e9f56e7759bd7ac7dae3ea9be8201e999a02184e"
+    },
+    {
+      "kind": "vfx",
+      "index": 3,
+      "crop": {
+        "x": 28,
+        "y": 549,
+        "w": 502,
+        "h": 419,
+        "anchorX": 281.5,
+        "anchorY": 758
+      },
+      "visibleBounds": {
+        "x": 36,
+        "y": 557,
+        "w": 492,
+        "h": 403
+      },
+      "visibleCellEdge": 0,
+      "visibleCropEdge": 0,
+      "visiblePixels": 95782,
+      "alphaZero": 79729,
+      "retainedLowAlphaPixels": 34827,
+      "rgbaRowsIdentical": true,
+      "sha256": "b1e224be773f0b6208bfe1063d12f226e4c5bd2fb910c181bc539678d8582ac8"
+    },
+    {
+      "kind": "vfx",
+      "index": 4,
+      "crop": {
+        "x": 530,
+        "y": 568,
+        "w": 482,
+        "h": 372,
+        "anchorX": 768,
+        "anchorY": 753.5
+      },
+      "visibleBounds": {
+        "x": 533,
+        "y": 576,
+        "w": 471,
+        "h": 356
+      },
+      "visibleCellEdge": 0,
+      "visibleCropEdge": 0,
+      "visiblePixels": 78619,
+      "alphaZero": 66243,
+      "retainedLowAlphaPixels": 34442,
+      "rgbaRowsIdentical": true,
+      "sha256": "1d2ab76332e100c7564ae4bd587a7796893b8b5136109a64dc8065c4db181330"
+    },
+    {
+      "kind": "vfx",
+      "index": 5,
+      "crop": {
+        "x": 1027,
+        "y": 522,
+        "w": 482,
+        "h": 457,
+        "anchorX": 1267.5,
+        "anchorY": 750
+      },
+      "visibleBounds": {
+        "x": 1035,
+        "y": 530,
+        "w": 466,
+        "h": 441
+      },
+      "visibleCellEdge": 0,
+      "visibleCropEdge": 0,
+      "visiblePixels": 110764,
+      "alphaZero": 45115,
+      "retainedLowAlphaPixels": 64395,
+      "rgbaRowsIdentical": true,
+      "sha256": "6ef6adb3c123d4618fb06b7d008866e4aa114dcdd871f066d0f27cc314ae3f4b"
+    },
+    {
+      "kind": "icons",
+      "index": 0,
+      "crop": {
+        "x": 37,
+        "y": 64,
+        "w": 424,
+        "h": 396,
+        "anchorX": 248.5,
+        "anchorY": 261.5
+      },
+      "visibleBounds": {
+        "x": 45,
+        "y": 72,
+        "w": 408,
+        "h": 380
+      },
+      "visibleCellEdge": 0,
+      "visibleCropEdge": 0,
+      "visiblePixels": 95016,
+      "alphaZero": 45993,
+      "retainedLowAlphaPixels": 26895,
+      "rgbaRowsIdentical": true,
+      "sha256": "843ef90c4a46c3abb51ac71ebc32928d238207712f936f8b7a3f59640b582188"
+    },
+    {
+      "kind": "icons",
+      "index": 1,
+      "crop": {
+        "x": 497,
+        "y": 78,
+        "w": 534,
+        "h": 355,
+        "anchorX": 763.5,
+        "anchorY": 255
+      },
+      "visibleBounds": {
+        "x": 505,
+        "y": 86,
+        "w": 518,
+        "h": 339
+      },
+      "visibleCellEdge": 0,
+      "visibleCropEdge": 0,
+      "visiblePixels": 71611,
+      "alphaZero": 86836,
+      "retainedLowAlphaPixels": 31123,
+      "rgbaRowsIdentical": true,
+      "sha256": "2dde6dd2d640c289c2ef1259c43ee901ddd1881a9318bf4be1342b82611fe589"
+    },
+    {
+      "kind": "icons",
+      "index": 2,
+      "crop": {
+        "x": 1073,
+        "y": 25,
+        "w": 420,
+        "h": 465,
+        "anchorX": 1282.5,
+        "anchorY": 257
+      },
+      "visibleBounds": {
+        "x": 1081,
+        "y": 33,
+        "w": 404,
+        "h": 449
+      },
+      "visibleCellEdge": 0,
+      "visibleCropEdge": 0,
+      "visiblePixels": 114306,
+      "alphaZero": 55309,
+      "retainedLowAlphaPixels": 25685,
+      "rgbaRowsIdentical": true,
+      "sha256": "08adeabd86f580109896adf7c3a03db7e5b216f04ce9937c6cf9da4efea21c79"
+    },
+    {
+      "kind": "icons",
+      "index": 3,
+      "crop": {
+        "x": 37,
+        "y": 506,
+        "w": 444,
+        "h": 476,
+        "anchorX": 258.5,
+        "anchorY": 743.5
+      },
+      "visibleBounds": {
+        "x": 45,
+        "y": 514,
+        "w": 428,
+        "h": 460
+      },
+      "visibleCellEdge": 0,
+      "visibleCropEdge": 0,
+      "visiblePixels": 111822,
+      "alphaZero": 60804,
+      "retainedLowAlphaPixels": 38718,
+      "rgbaRowsIdentical": true,
+      "sha256": "e33320bc0337ae16e59debc4969e58882f05b61ef7d668d62c6b499cf688d984"
+    },
+    {
+      "kind": "icons",
+      "index": 4,
+      "crop": {
+        "x": 523,
+        "y": 514,
+        "w": 485,
+        "h": 464,
+        "anchorX": 765,
+        "anchorY": 745.5
+      },
+      "visibleBounds": {
+        "x": 531,
+        "y": 522,
+        "w": 469,
+        "h": 448
+      },
+      "visibleCellEdge": 0,
+      "visibleCropEdge": 0,
+      "visiblePixels": 114473,
+      "alphaZero": 71232,
+      "retainedLowAlphaPixels": 39335,
+      "rgbaRowsIdentical": true,
+      "sha256": "0475cabd85faf57aba7bed07569bc04c1516055867e1c76338c65e5e185cb7ca"
+    },
+    {
+      "kind": "icons",
+      "index": 5,
+      "crop": {
+        "x": 1047,
+        "y": 508,
+        "w": 460,
+        "h": 484,
+        "anchorX": 1276.5,
+        "anchorY": 749.5
+      },
+      "visibleBounds": {
+        "x": 1055,
+        "y": 516,
+        "w": 444,
+        "h": 468
+      },
+      "visibleCellEdge": 0,
+      "visibleCropEdge": 0,
+      "visiblePixels": 111221,
+      "alphaZero": 58686,
+      "retainedLowAlphaPixels": 52733,
+      "rgbaRowsIdentical": true,
+      "sha256": "8032be3da52859239a8a14ba16afbd8b1467e6a36916aaa5a023b1b37aee7c4a"
+    }
+  ],
+  "notes": [
+    "Measurement threshold only; RGBA pixels are never edited.",
+    "All native crops retain the exact source pixel rows.",
+    "True walk row order SOUTH/WEST/EAST/NORTH; no remap needed.",
+    "Ultimate physical palm contact is native index5.",
+    "Technical measurements are not user visual approval. Pose review is recorded separately; no claim of absolute anatomical perfection.",
+    "All32body native crops and12VFX/icon native crops inspected individually.",
+    "Ultimate5headTop603 excludes the physical black-gold seal debris above the hair; remaining tops are the actual hair/temple ornament top.",
+    "Walk source directions SOUTH/WEST/EAST/NORTH, direct playback.",
+    "Strongest ultimate palm contact native5. Attack/cast contact native3.",
+    "Cast row1 boundary575 separates full contact3debris from actor4. Default nearest divider464 had incorrectly assigned the contact3fragments to4; no RGBA alteration was needed.",
+    "Source images and native crops are not resized, repainted or alpha-masked.",
+    "No extra limb/digit or clipping defect found in this review; natural profile occlusion may hide the far hand. This is not a claim of absolute perfection or user visual approval."
+  ],
+  "totalAtlasFrames": 44,
+  "visualReviewStatus": "native-pose-review-complete-no-blocking-defect-found",
+  "userApprovalStatus": "pending-root-user-review",
+  "bodyMetricsSource": "art-source/v36/variants/orfeu-unwritten-archon/body-metrics.json",
+  "bodyMetricsSha256": "9758a018a02301d5f6cb9505eae8a6df1ef6f920e9ca8416a033121c87792aec"
+}

@@ -1,0 +1,273 @@
+{
+  "id": "beatriz-eclipse-tide",
+  "kind": "icons",
+  "tool": "built-in image_gen",
+  "source": "art-source/v36/variants/beatriz-eclipse-tide/icons-water-candidate.png",
+  "selected": "art-source/v36/variants/beatriz-eclipse-tide/icons-source.png",
+  "runtime": "public/assets/v36/variants/beatriz-eclipse-tide/icons.png",
+  "width": 1536,
+  "height": 1024,
+  "cols": 3,
+  "rows": 2,
+  "sourceSha256": "ac9da1c599de3cfd14e33c98d746f932537f2f6081385bc2e3fc4fe5ee95eb9a",
+  "selectedSha256": "ac9da1c599de3cfd14e33c98d746f932537f2f6081385bc2e3fc4fe5ee95eb9a",
+  "runtimeSha256": "ac9da1c599de3cfd14e33c98d746f932537f2f6081385bc2e3fc4fe5ee95eb9a",
+  "byteIdenticalSourceCopies": true,
+  "alphaThresholdForMeasurementOnly": 24,
+  "backgroundAlphaZero": 740262,
+  "rowCuts": [
+    0,
+    510,
+    1024
+  ],
+  "frames": [
+    {
+      "x": 37,
+      "y": 8,
+      "w": 468,
+      "h": 492,
+      "anchorX": 270.5,
+      "anchorY": 253.5
+    },
+    {
+      "x": 543,
+      "y": 36,
+      "w": 453,
+      "h": 454,
+      "anchorX": 769,
+      "anchorY": 262.5
+    },
+    {
+      "x": 1040,
+      "y": 16,
+      "w": 469,
+      "h": 491,
+      "anchorX": 1274,
+      "anchorY": 261
+    },
+    {
+      "x": 36,
+      "y": 514,
+      "w": 454,
+      "h": 485,
+      "anchorX": 262.5,
+      "anchorY": 756
+    },
+    {
+      "x": 540,
+      "y": 515,
+      "w": 457,
+      "h": 489,
+      "anchorX": 768,
+      "anchorY": 759
+    },
+    {
+      "x": 1041,
+      "y": 525,
+      "w": 470,
+      "h": 474,
+      "anchorX": 1275.5,
+      "anchorY": 761.5
+    }
+  ],
+  "measurements": [
+    {
+      "i": 0,
+      "row": 0,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "w": 524,
+        "h": 510
+      },
+      "visibleBounds": {
+        "x": 45,
+        "y": 16,
+        "w": 452,
+        "h": 476
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 117761,
+      "crop": {
+        "x": 37,
+        "y": 8,
+        "w": 468,
+        "h": 492,
+        "anchorX": 270.5,
+        "anchorY": 253.5
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v36/variants/beatriz-eclipse-tide/icons/0.png",
+        "sha256": "2da928f9ea79211ac35f1f70c975aba1ffb94e1543cb029b72aad22b4b4058a5",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    },
+    {
+      "i": 1,
+      "row": 0,
+      "col": 1,
+      "cell": {
+        "x": 524,
+        "y": 0,
+        "w": 494,
+        "h": 510
+      },
+      "visibleBounds": {
+        "x": 551,
+        "y": 44,
+        "w": 437,
+        "h": 438
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 95681,
+      "crop": {
+        "x": 543,
+        "y": 36,
+        "w": 453,
+        "h": 454,
+        "anchorX": 769,
+        "anchorY": 262.5
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v36/variants/beatriz-eclipse-tide/icons/1.png",
+        "sha256": "d7b7ba88d60dcb798cf55aef84cf4e275c935c8f0a178422226d005ae26cc130",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    },
+    {
+      "i": 2,
+      "row": 0,
+      "col": 2,
+      "cell": {
+        "x": 1018,
+        "y": 0,
+        "w": 518,
+        "h": 510
+      },
+      "visibleBounds": {
+        "x": 1048,
+        "y": 24,
+        "w": 453,
+        "h": 475
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 116435,
+      "crop": {
+        "x": 1040,
+        "y": 16,
+        "w": 469,
+        "h": 491,
+        "anchorX": 1274,
+        "anchorY": 261
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v36/variants/beatriz-eclipse-tide/icons/2.png",
+        "sha256": "40eb76a1da9ffb5969c6583a78be1094c6354fece3f22ec65a0a707a30017778",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    },
+    {
+      "i": 3,
+      "row": 1,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 510,
+        "w": 515,
+        "h": 514
+      },
+      "visibleBounds": {
+        "x": 44,
+        "y": 522,
+        "w": 438,
+        "h": 469
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 118167,
+      "crop": {
+        "x": 36,
+        "y": 514,
+        "w": 454,
+        "h": 485,
+        "anchorX": 262.5,
+        "anchorY": 756
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v36/variants/beatriz-eclipse-tide/icons/3.png",
+        "sha256": "24dcdd748de3e5cbaef942c19146958aec5edbf6db6802ece728a1e7d95f2c20",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    },
+    {
+      "i": 4,
+      "row": 1,
+      "col": 1,
+      "cell": {
+        "x": 515,
+        "y": 510,
+        "w": 504,
+        "h": 514
+      },
+      "visibleBounds": {
+        "x": 548,
+        "y": 523,
+        "w": 441,
+        "h": 473
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 112633,
+      "crop": {
+        "x": 540,
+        "y": 515,
+        "w": 457,
+        "h": 489,
+        "anchorX": 768,
+        "anchorY": 759
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v36/variants/beatriz-eclipse-tide/icons/4.png",
+        "sha256": "dc5d051bf67eec39424119b95a5efc2a58b8059ab8083981739f99f01a74b60b",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    },
+    {
+      "i": 5,
+      "row": 1,
+      "col": 2,
+      "cell": {
+        "x": 1019,
+        "y": 510,
+        "w": 517,
+        "h": 514
+      },
+      "visibleBounds": {
+        "x": 1049,
+        "y": 533,
+        "w": 454,
+        "h": 458
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 127119,
+      "crop": {
+        "x": 1041,
+        "y": 525,
+        "w": 470,
+        "h": 474,
+        "anchorX": 1275.5,
+        "anchorY": 761.5
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v36/variants/beatriz-eclipse-tide/icons/5.png",
+        "sha256": "875992277995477a0eea21da7cb32111cf976461acc76f4293ca0158587eda8e",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,491 @@
+{
+  "id": "seiji-last-script",
+  "reviewDate": "2026-10-11",
+  "sourcePixelsChanged": false,
+  "cropRectanglesChanged": false,
+  "runtimePixelsChanged": false,
+  "measurementTolerancePixels": 3,
+  "method": "Manual body support position between the two complete sandals, in original atlas coordinates; retain the lowest original sole baseline. Hair/fox mask defines head top; held brush does not.",
+  "corrections": [
+    {
+      "kind": "walk",
+      "i": 0,
+      "before": {
+        "anchorX": 184.2,
+        "anchorY": 360,
+        "headOrHatTop": 36
+      },
+      "after": {
+        "anchorX": 184.2,
+        "anchorY": 360,
+        "headOrHatTop": 57
+      },
+      "reason": "Soles were already on the body. Separate head height from the carried brush above it."
+    },
+    {
+      "kind": "walk",
+      "i": 1,
+      "before": {
+        "anchorX": 507.1,
+        "anchorY": 363,
+        "headOrHatTop": 34
+      },
+      "after": {
+        "anchorX": 507.1,
+        "anchorY": 363,
+        "headOrHatTop": 59
+      },
+      "reason": "Soles were already on the body. Separate head height from the carried brush above it."
+    },
+    {
+      "kind": "walk",
+      "i": 2,
+      "before": {
+        "anchorX": 876.3,
+        "anchorY": 360,
+        "headOrHatTop": 31
+      },
+      "after": {
+        "anchorX": 876.3,
+        "anchorY": 360,
+        "headOrHatTop": 53
+      },
+      "reason": "Soles were already on the body. Separate head height from the carried brush above it."
+    },
+    {
+      "kind": "walk",
+      "i": 3,
+      "before": {
+        "anchorX": 170.1,
+        "anchorY": 720,
+        "headOrHatTop": 396
+      },
+      "after": {
+        "anchorX": 170.1,
+        "anchorY": 720,
+        "headOrHatTop": 428
+      },
+      "reason": "Soles were already on the body. Separate head height from the carried brush above it."
+    },
+    {
+      "kind": "walk",
+      "i": 4,
+      "before": {
+        "anchorX": 498.4,
+        "anchorY": 720,
+        "headOrHatTop": 395
+      },
+      "after": {
+        "anchorX": 498.4,
+        "anchorY": 720,
+        "headOrHatTop": 430
+      },
+      "reason": "Soles were already on the body. Separate head height from the carried brush above it."
+    },
+    {
+      "kind": "walk",
+      "i": 5,
+      "before": {
+        "anchorX": 854.1,
+        "anchorY": 718,
+        "headOrHatTop": 401
+      },
+      "after": {
+        "anchorX": 854.1,
+        "anchorY": 718,
+        "headOrHatTop": 433
+      },
+      "reason": "Soles were already on the body. Separate head height from the carried brush above it."
+    },
+    {
+      "kind": "walk",
+      "i": 6,
+      "before": {
+        "anchorX": 183.5,
+        "anchorY": 1080,
+        "headOrHatTop": 762
+      },
+      "after": {
+        "anchorX": 183.5,
+        "anchorY": 1080,
+        "headOrHatTop": 782
+      },
+      "reason": "Soles were already on the body. Separate head height from the carried brush above it."
+    },
+    {
+      "kind": "walk",
+      "i": 7,
+      "before": {
+        "anchorX": 525.3,
+        "anchorY": 1082,
+        "headOrHatTop": 764
+      },
+      "after": {
+        "anchorX": 525.3,
+        "anchorY": 1082,
+        "headOrHatTop": 785
+      },
+      "reason": "Soles were already on the body. Separate head height from the carried brush above it."
+    },
+    {
+      "kind": "walk",
+      "i": 8,
+      "before": {
+        "anchorX": 886.5,
+        "anchorY": 1081,
+        "headOrHatTop": 762
+      },
+      "after": {
+        "anchorX": 886.5,
+        "anchorY": 1081,
+        "headOrHatTop": 788
+      },
+      "reason": "Soles were already on the body. Separate head height from the carried brush above it."
+    },
+    {
+      "kind": "walk",
+      "i": 9,
+      "before": {
+        "anchorX": 175.7,
+        "anchorY": 1451,
+        "headOrHatTop": 1114
+      },
+      "after": {
+        "anchorX": 175.7,
+        "anchorY": 1451,
+        "headOrHatTop": 1134
+      },
+      "reason": "Soles were already on the body. Separate head height from the carried brush above it."
+    },
+    {
+      "kind": "walk",
+      "i": 10,
+      "before": {
+        "anchorX": 522.9,
+        "anchorY": 1449,
+        "headOrHatTop": 1109
+      },
+      "after": {
+        "anchorX": 522.9,
+        "anchorY": 1449,
+        "headOrHatTop": 1133
+      },
+      "reason": "Soles were already on the body. Separate head height from the carried brush above it."
+    },
+    {
+      "kind": "walk",
+      "i": 11,
+      "before": {
+        "anchorX": 858.7,
+        "anchorY": 1451,
+        "headOrHatTop": 1109
+      },
+      "after": {
+        "anchorX": 858.7,
+        "anchorY": 1451,
+        "headOrHatTop": 1130
+      },
+      "reason": "Soles were already on the body. Separate head height from the carried brush above it."
+    },
+    {
+      "kind": "attack",
+      "i": 0,
+      "before": {
+        "anchorX": 195.7,
+        "anchorY": 478,
+        "headOrHatTop": 70
+      },
+      "after": {
+        "anchorX": 208,
+        "anchorY": 478,
+        "headOrHatTop": 114
+      },
+      "reason": "The automatic bottom band overweights the lower of two sandals in a wide stance. Use the centre of both feet as the support position; head height excludes the brush."
+    },
+    {
+      "kind": "attack",
+      "i": 1,
+      "before": {
+        "anchorX": 711.2,
+        "anchorY": 472,
+        "headOrHatTop": 141
+      },
+      "after": {
+        "anchorX": 732,
+        "anchorY": 472,
+        "headOrHatTop": 170
+      },
+      "reason": "The automatic bottom band overweights the lower of two sandals in a wide stance. Use the centre of both feet as the support position; head height excludes the brush."
+    },
+    {
+      "kind": "attack",
+      "i": 2,
+      "before": {
+        "anchorX": 1181.2,
+        "anchorY": 472,
+        "headOrHatTop": 159
+      },
+      "after": {
+        "anchorX": 1208,
+        "anchorY": 472,
+        "headOrHatTop": 165
+      },
+      "reason": "The automatic bottom band overweights the lower of two sandals in a wide stance. Use the centre of both feet as the support position; head height excludes the brush."
+    },
+    {
+      "kind": "attack",
+      "i": 3,
+      "before": {
+        "anchorX": 143.6,
+        "anchorY": 943,
+        "headOrHatTop": 662
+      },
+      "after": {
+        "anchorX": 212,
+        "anchorY": 943,
+        "headOrHatTop": 662
+      },
+      "reason": "The automatic bottom band overweights the lower of two sandals in a wide stance. Use the centre of both feet as the support position; head height excludes the brush."
+    },
+    {
+      "kind": "attack",
+      "i": 4,
+      "before": {
+        "anchorX": 740.6,
+        "anchorY": 942,
+        "headOrHatTop": 630
+      },
+      "after": {
+        "anchorX": 779,
+        "anchorY": 942,
+        "headOrHatTop": 636
+      },
+      "reason": "The automatic bottom band overweights the lower of two sandals in a wide stance. Use the centre of both feet as the support position; head height excludes the brush."
+    },
+    {
+      "kind": "attack",
+      "i": 5,
+      "before": {
+        "anchorX": 1266.1,
+        "anchorY": 950,
+        "headOrHatTop": 587
+      },
+      "after": {
+        "anchorX": 1327,
+        "anchorY": 950,
+        "headOrHatTop": 612
+      },
+      "reason": "The automatic bottom band overweights the lower of two sandals in a wide stance. Use the centre of both feet as the support position; head height excludes the brush."
+    },
+    {
+      "kind": "cast",
+      "i": 0,
+      "before": {
+        "anchorX": 240.7,
+        "anchorY": 492,
+        "headOrHatTop": 42
+      },
+      "after": {
+        "anchorX": 232,
+        "anchorY": 492,
+        "headOrHatTop": 96
+      },
+      "reason": "The automatic bottom band overweights the lower of two sandals in a wide stance. Use the centre of both feet as the support position; head height excludes the brush."
+    },
+    {
+      "kind": "cast",
+      "i": 1,
+      "before": {
+        "anchorX": 769,
+        "anchorY": 490,
+        "headOrHatTop": 43
+      },
+      "after": {
+        "anchorX": 759,
+        "anchorY": 490,
+        "headOrHatTop": 104
+      },
+      "reason": "The automatic bottom band overweights the lower of two sandals in a wide stance. Use the centre of both feet as the support position; head height excludes the brush."
+    },
+    {
+      "kind": "cast",
+      "i": 2,
+      "before": {
+        "anchorX": 1282.8,
+        "anchorY": 490,
+        "headOrHatTop": 111
+      },
+      "after": {
+        "anchorX": 1276,
+        "anchorY": 490,
+        "headOrHatTop": 113
+      },
+      "reason": "The automatic bottom band overweights the lower of two sandals in a wide stance. Use the centre of both feet as the support position; head height excludes the brush."
+    },
+    {
+      "kind": "cast",
+      "i": 3,
+      "before": {
+        "anchorX": 241.6,
+        "anchorY": 965,
+        "headOrHatTop": 577
+      },
+      "after": {
+        "anchorX": 232,
+        "anchorY": 965,
+        "headOrHatTop": 578
+      },
+      "reason": "The automatic bottom band overweights the lower of two sandals in a wide stance. Use the centre of both feet as the support position; head height excludes the brush."
+    },
+    {
+      "kind": "cast",
+      "i": 4,
+      "before": {
+        "anchorX": 723.6,
+        "anchorY": 963,
+        "headOrHatTop": 590
+      },
+      "after": {
+        "anchorX": 708,
+        "anchorY": 963,
+        "headOrHatTop": 591
+      },
+      "reason": "The automatic bottom band overweights the lower of two sandals in a wide stance. Use the centre of both feet as the support position; head height excludes the brush."
+    },
+    {
+      "kind": "cast",
+      "i": 5,
+      "before": {
+        "anchorX": 1314.5,
+        "anchorY": 967,
+        "headOrHatTop": 534
+      },
+      "after": {
+        "anchorX": 1305,
+        "anchorY": 967,
+        "headOrHatTop": 576
+      },
+      "reason": "The automatic bottom band overweights the lower of two sandals in a wide stance. Use the centre of both feet as the support position; head height excludes the brush."
+    },
+    {
+      "kind": "ultimate",
+      "i": 0,
+      "before": {
+        "anchorX": 166.7,
+        "anchorY": 503,
+        "headOrHatTop": 50
+      },
+      "after": {
+        "anchorX": 168,
+        "anchorY": 503,
+        "headOrHatTop": 116
+      },
+      "reason": "The automatic bottom band overweights the lower of two sandals in a wide stance. Use the centre of both feet as the support position; head height excludes the brush."
+    },
+    {
+      "kind": "ultimate",
+      "i": 1,
+      "before": {
+        "anchorX": 551.3,
+        "anchorY": 503,
+        "headOrHatTop": 118
+      },
+      "after": {
+        "anchorX": 572,
+        "anchorY": 503,
+        "headOrHatTop": 118
+      },
+      "reason": "The automatic bottom band overweights the lower of two sandals in a wide stance. Use the centre of both feet as the support position; head height excludes the brush."
+    },
+    {
+      "kind": "ultimate",
+      "i": 2,
+      "before": {
+        "anchorX": 995.8,
+        "anchorY": 505,
+        "headOrHatTop": 42
+      },
+      "after": {
+        "anchorX": 1007,
+        "anchorY": 505,
+        "headOrHatTop": 127
+      },
+      "reason": "The automatic bottom band overweights the lower of two sandals in a wide stance. Use the centre of both feet as the support position; head height excludes the brush."
+    },
+    {
+      "kind": "ultimate",
+      "i": 3,
+      "before": {
+        "anchorX": 1383.1,
+        "anchorY": 505,
+        "headOrHatTop": 144
+      },
+      "after": {
+        "anchorX": 1418,
+        "anchorY": 505,
+        "headOrHatTop": 197
+      },
+      "reason": "The automatic bottom band overweights the lower of two sandals in a wide stance. Use the centre of both feet as the support position; head height excludes the brush."
+    },
+    {
+      "kind": "ultimate",
+      "i": 4,
+      "before": {
+        "anchorX": 154.5,
+        "anchorY": 949,
+        "headOrHatTop": 598
+      },
+      "after": {
+        "anchorX": 174,
+        "anchorY": 949,
+        "headOrHatTop": 598
+      },
+      "reason": "The automatic bottom band overweights the lower of two sandals in a wide stance. Use the centre of both feet as the support position; head height excludes the brush."
+    },
+    {
+      "kind": "ultimate",
+      "i": 5,
+      "before": {
+        "anchorX": 491.2,
+        "anchorY": 951,
+        "headOrHatTop": 663
+      },
+      "after": {
+        "anchorX": 549,
+        "anchorY": 951,
+        "headOrHatTop": 663
+      },
+      "reason": "The automatic bottom band overweights the lower of two sandals in a wide stance. Use the centre of both feet as the support position; head height excludes the brush."
+    },
+    {
+      "kind": "ultimate",
+      "i": 6,
+      "before": {
+        "anchorX": 1146.8,
+        "anchorY": 944,
+        "headOrHatTop": 613
+      },
+      "after": {
+        "anchorX": 1071,
+        "anchorY": 944,
+        "headOrHatTop": 614
+      },
+      "reason": "The automatic bottom band overweights the lower of two sandals in a wide stance. Use the centre of both feet as the support position; head height excludes the brush."
+    },
+    {
+      "kind": "ultimate",
+      "i": 7,
+      "before": {
+        "anchorX": 1414.8,
+        "anchorY": 961,
+        "headOrHatTop": 537
+      },
+      "after": {
+        "anchorX": 1425,
+        "anchorY": 961,
+        "headOrHatTop": 591
+      },
+      "reason": "The automatic bottom band overweights the lower of two sandals in a wide stance. Use the centre of both feet as the support position; head height excludes the brush."
+    }
+  ]
+}

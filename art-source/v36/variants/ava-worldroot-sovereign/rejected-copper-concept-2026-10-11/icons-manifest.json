@@ -1,0 +1,273 @@
+{
+  "id": "ava-worldroot-sovereign",
+  "kind": "icons",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-2ed5b52a-51fe-4fd6-802e-2883a8750a07.png",
+  "selected": "art-source/v36/variants/ava-worldroot-sovereign/icons-source.png",
+  "runtime": "public/assets/v36/variants/ava-worldroot-sovereign/icons.png",
+  "width": 1536,
+  "height": 1024,
+  "cols": 3,
+  "rows": 2,
+  "sourceSha256": "b38bc8c31ef03dec90ba319bdfc90fb34a1904bb27ee96103ca64c95dfe66860",
+  "selectedSha256": "b38bc8c31ef03dec90ba319bdfc90fb34a1904bb27ee96103ca64c95dfe66860",
+  "runtimeSha256": "b38bc8c31ef03dec90ba319bdfc90fb34a1904bb27ee96103ca64c95dfe66860",
+  "byteIdenticalSourceCopies": true,
+  "alphaThresholdForMeasurementOnly": 24,
+  "backgroundAlphaZero": 1114351,
+  "rowCuts": [
+    0,
+    483,
+    1024
+  ],
+  "frames": [
+    {
+      "x": 113,
+      "y": 109,
+      "w": 282,
+      "h": 300,
+      "anchorX": 253.5,
+      "anchorY": 258.5
+    },
+    {
+      "x": 592,
+      "y": 116,
+      "w": 349,
+      "h": 294,
+      "anchorX": 766,
+      "anchorY": 262.5
+    },
+    {
+      "x": 1113,
+      "y": 89,
+      "w": 310,
+      "h": 328,
+      "anchorX": 1267.5,
+      "anchorY": 252.5
+    },
+    {
+      "x": 117,
+      "y": 567,
+      "w": 273,
+      "h": 323,
+      "anchorX": 253,
+      "anchorY": 728
+    },
+    {
+      "x": 598,
+      "y": 559,
+      "w": 341,
+      "h": 331,
+      "anchorX": 768,
+      "anchorY": 724
+    },
+    {
+      "x": 1096,
+      "y": 550,
+      "w": 340,
+      "h": 354,
+      "anchorX": 1265.5,
+      "anchorY": 726.5
+    }
+  ],
+  "measurements": [
+    {
+      "i": 0,
+      "row": 0,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "w": 493,
+        "h": 483
+      },
+      "visibleBounds": {
+        "x": 121,
+        "y": 117,
+        "w": 266,
+        "h": 284
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 42390,
+      "crop": {
+        "x": 113,
+        "y": 109,
+        "w": 282,
+        "h": 300,
+        "anchorX": 253.5,
+        "anchorY": 258.5
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v36/variants/ava-worldroot-sovereign/icons/0.png",
+        "sha256": "84650574067ff06ee26f9cae59bab472fded86a317e332cee10cb2401bb420c8",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    },
+    {
+      "i": 1,
+      "row": 0,
+      "col": 1,
+      "cell": {
+        "x": 493,
+        "y": 0,
+        "w": 534,
+        "h": 483
+      },
+      "visibleBounds": {
+        "x": 600,
+        "y": 124,
+        "w": 333,
+        "h": 278
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 53155,
+      "crop": {
+        "x": 592,
+        "y": 116,
+        "w": 349,
+        "h": 294,
+        "anchorX": 766,
+        "anchorY": 262.5
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v36/variants/ava-worldroot-sovereign/icons/1.png",
+        "sha256": "bd5ff0fa2cedcc5479628bf4c97af7fa9cdc13b5ae226d2b8c881757c3df6d54",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    },
+    {
+      "i": 2,
+      "row": 0,
+      "col": 2,
+      "cell": {
+        "x": 1027,
+        "y": 0,
+        "w": 509,
+        "h": 483
+      },
+      "visibleBounds": {
+        "x": 1121,
+        "y": 97,
+        "w": 294,
+        "h": 312
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 51987,
+      "crop": {
+        "x": 1113,
+        "y": 89,
+        "w": 310,
+        "h": 328,
+        "anchorX": 1267.5,
+        "anchorY": 252.5
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v36/variants/ava-worldroot-sovereign/icons/2.png",
+        "sha256": "1a07abe2c92a3f8c3e51d0fe9358bd5f11f73d061bd5f5fd183a4ca78ead6769",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    },
+    {
+      "i": 3,
+      "row": 1,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 483,
+        "w": 494,
+        "h": 541
+      },
+      "visibleBounds": {
+        "x": 125,
+        "y": 575,
+        "w": 257,
+        "h": 307
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 49646,
+      "crop": {
+        "x": 117,
+        "y": 567,
+        "w": 273,
+        "h": 323,
+        "anchorX": 253,
+        "anchorY": 728
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v36/variants/ava-worldroot-sovereign/icons/3.png",
+        "sha256": "6adb0922427c747b371fd610f72976e46de0f7806e6cd901624f03e2d36fe8f9",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    },
+    {
+      "i": 4,
+      "row": 1,
+      "col": 1,
+      "cell": {
+        "x": 494,
+        "y": 483,
+        "w": 523,
+        "h": 541
+      },
+      "visibleBounds": {
+        "x": 606,
+        "y": 567,
+        "w": 325,
+        "h": 315
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 68313,
+      "crop": {
+        "x": 598,
+        "y": 559,
+        "w": 341,
+        "h": 331,
+        "anchorX": 768,
+        "anchorY": 724
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v36/variants/ava-worldroot-sovereign/icons/4.png",
+        "sha256": "11484939bf403160995a23a786416937137333e1f825309cf8150e537a9f1717",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    },
+    {
+      "i": 5,
+      "row": 1,
+      "col": 2,
+      "cell": {
+        "x": 1017,
+        "y": 483,
+        "w": 519,
+        "h": 541
+      },
+      "visibleBounds": {
+        "x": 1104,
+        "y": 558,
+        "w": 324,
+        "h": 338
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 60195,
+      "crop": {
+        "x": 1096,
+        "y": 550,
+        "w": 340,
+        "h": 354,
+        "anchorX": 1265.5,
+        "anchorY": 726.5
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v36/variants/ava-worldroot-sovereign/icons/5.png",
+        "sha256": "89a983b233195bd1926e4035b390cc5a70ce8e4119fbf8f70f94683ed80c8fa9",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    }
+  ]
+}

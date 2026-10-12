@@ -1,0 +1,49 @@
+{
+  "source": "/assets/v25/ui/stone-reach-hud-atlas.png",
+  "sourceSha256": "8ba101a8c3f6bf970dbcea4a10cb46f0f376cb1d893650f283ed0a34a31cd80e",
+  "crop": {
+    "left": 264,
+    "top": 975,
+    "width": 246,
+    "height": 246
+  },
+  "transformation": "Approved HUD emblem extracted, resized only for platform icon sizes, centered on the existing navy brand color. No new illustration or text. Maskable art fits the centered 80% safe circle.",
+  "outputs": [
+    {
+      "path": "/pwa/icon-192.png",
+      "width": 192,
+      "height": 192,
+      "artSize": 157,
+      "offset": 17,
+      "bytes": 33109,
+      "sha256": "3c319145f946a00ffa85e72f8ed7bc493e6496bc565469f74f269bd433bb7b16"
+    },
+    {
+      "path": "/pwa/icon-512.png",
+      "width": 512,
+      "height": 512,
+      "artSize": 420,
+      "offset": 46,
+      "bytes": 226139,
+      "sha256": "669eba11d045773344deb10996b7ed2ede9e63f579baf5a5f53552fe52d85636"
+    },
+    {
+      "path": "/pwa/icon-maskable-512.png",
+      "width": 512,
+      "height": 512,
+      "artSize": 338,
+      "offset": 87,
+      "bytes": 151996,
+      "sha256": "613e64b5677bed640f04f5c13504d5f97d1323dc084c6fa2716b7c5254898ec7"
+    },
+    {
+      "path": "/pwa/apple-touch-icon.png",
+      "width": 180,
+      "height": 180,
+      "artSize": 148,
+      "offset": 16,
+      "bytes": 29526,
+      "sha256": "9185c170238c844f72bcd9e912ba280c26460c95babc1ec60ee5c5b8273b3063"
+    }
+  ]
+}

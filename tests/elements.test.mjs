@@ -9,17 +9,17 @@ import {inflateSync} from 'node:zlib';
 
 const out=mkdtempSync(join(tmpdir(),'eter-elements-'));
 compileGameModules(out,['remakeArt','remakeArtSeijiOphelia','remakeArtGabrielMarinMax','remakeArtCarmillaBeatrizAbel','expansionV30','enemyArtV30','orfeuArtV30','gachaSequence','questsV31','questRuntimeV31','questArtV31','cosmetics','data','progression','summons','carmilla','engine']);
-const {GameEngine,parseSave}=await import(pathToFileURL(join(out,'engine.js')).href);
+const {GameEngine,parseSave,SAVE_KEY}=await import(pathToFileURL(join(out,'engine.js')).href);
 const {PLAYABLE_HERO_IDS,HERO_COMBAT_ELEMENTS,combatElement,combatImpact,SKILLS,heroBases,ULTIMATE_NAMES,EARTH_VFX_FRAMES,ASSETS}=await import(pathToFileURL(join(out,'data.js')).href);
 const {deriveHeroes,TREE,EXTRA_SKILLS,STATUS,FIELD_TECHNIQUES}=await import(pathToFileURL(join(out,'progression.js')).href);
 const {summonedById}=await import(pathToFileURL(join(out,'summons.js')).href);
-let saved,timers=[];global.localStorage={setItem:(_,value)=>saved=value,getItem:()=>null};
+let saved,timers=[];const storage=new Map();global.localStorage={setItem:(key,value)=>{storage.set(key,value);if(key===SAVE_KEY)saved=value;},getItem:key=>storage.get(key)??null,removeItem:key=>storage.delete(key)};
 global.setTimeout=callback=>{timers.push(callback);return timers.length;};
 
 const freshHero=id=>{
  const game=new GameEngine();game.start(false);game.finishCutscene();
  game.state.progress.recruited=[id];game.state.progress.party=[id];
- game.state.progress.summoned=['beatriz','orfeu','ava','carmilla'];game.state.progress.bonded=['beatriz','orfeu','ava','carmilla'];
+ game.state.progress.summoned=['beatriz','orfeu','ava','carmilla',...(id==='abel'?['abel']:[])];game.state.progress.bonded=[...game.state.progress.summoned];
  game.state.progress.masterMode=true;
  game.state.progress.learned=TREE.filter(node=>node.hero===id).map(node=>node.id);
  game.state.heroes=deriveHeroes(game.state.progress);
@@ -32,7 +32,7 @@ const freshHero=id=>{
 for(const id of PLAYABLE_HERO_IDS){
  const primary=HERO_COMBAT_ELEMENTS[id];
  for(const action of ['attack','ultimate',...SKILLS[id].map(skill=>skill.id),...EXTRA_SKILLS[id].map(skill=>skill.id)]){
-  const expected=id==='beatriz'?action==='umbra-seal'?'dark':['ultimate','abyss-countertide'].includes(action)?'water-dark':'water':primary;
+  const expected=id==='beatriz'?action==='umbra-seal'?'dark':['ultimate','abyss-countertide','undertow','twin-current','eclipse-tide-decree'].includes(action)?'water-dark':'water':primary;
   assert.equal(combatElement(id,action),expected,`${id}:${action} keeps elemental identity`);
   if(action==='in-aeternum-vive')continue; // Its automatic ally selection is covered by the dedicated Carmilla suite.
   const game=freshHero(id);if(action==='ultimate')game.state.progress.limit[id]=100;
@@ -98,4 +98,4 @@ for(const action of ['vine-strike','ultimate']){
   assert.ok(visible>1000,`Earth frame ${index} contains real generated stone art`);
  }
 }
-console.log('Element audit passed: all 9 playable heroes, basic attacks, skills, ultimates, Earth stone control, Ice control and legacy saves.');
+console.log('Element audit passed: all 10 playable heroes, basic attacks, skills, ultimates, Earth stone control, Ice control and legacy saves.');

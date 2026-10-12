@@ -1,0 +1,246 @@
+[
+  {
+    "id": "seiji-last-script",
+    "path": "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v36\\variants\\seiji-last-script\\portrait-source.png",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "ea25e6cf1bda674aaffa6cde85a05748f4d6151240919a1f39e9e95d6d479a7f",
+    "alphaMin": 0,
+    "alphaMax": 254,
+    "alphaZero": 644940,
+    "alphaZeroRatio": 0.41004180908203125,
+    "visibleOuterEdgePixels": 0,
+    "visibleBBox": {
+      "x": 8,
+      "y": 5,
+      "w": 1010,
+      "h": 1520
+    },
+    "marginProbes": [
+      {
+        "x": 30,
+        "y": 46,
+        "alpha": 0
+      },
+      {
+        "x": 512,
+        "y": 46,
+        "alpha": 0
+      },
+      {
+        "x": 993,
+        "y": 46,
+        "alpha": 0
+      },
+      {
+        "x": 30,
+        "y": 768,
+        "alpha": 148
+      },
+      {
+        "x": 993,
+        "y": 768,
+        "alpha": 0
+      },
+      {
+        "x": 30,
+        "y": 1489,
+        "alpha": 0
+      },
+      {
+        "x": 512,
+        "y": 1489,
+        "alpha": 0
+      },
+      {
+        "x": 993,
+        "y": 1489,
+        "alpha": 0
+      }
+    ],
+    "scope": "Read-only alpha/bounds audit; no character anatomy guarantee."
+  },
+  {
+    "id": "ophelia-white-equinox",
+    "path": "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v36\\variants\\ophelia-white-equinox\\portrait-source.png",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "cb8466db5faed139bd68911b76c7c6c87c4a11c9f6edf1406ca0abb4c8e4c528",
+    "alphaMin": 0,
+    "alphaMax": 254,
+    "alphaZero": 622698,
+    "alphaZeroRatio": 0.3959007263183594,
+    "visibleOuterEdgePixels": 16,
+    "visibleBBox": {
+      "x": 9,
+      "y": 0,
+      "w": 1004,
+      "h": 1521
+    },
+    "marginProbes": [
+      {
+        "x": 30,
+        "y": 46,
+        "alpha": 0
+      },
+      {
+        "x": 512,
+        "y": 46,
+        "alpha": 249
+      },
+      {
+        "x": 993,
+        "y": 46,
+        "alpha": 0
+      },
+      {
+        "x": 30,
+        "y": 768,
+        "alpha": 0
+      },
+      {
+        "x": 993,
+        "y": 768,
+        "alpha": 0
+      },
+      {
+        "x": 30,
+        "y": 1489,
+        "alpha": 0
+      },
+      {
+        "x": 512,
+        "y": 1489,
+        "alpha": 0
+      },
+      {
+        "x": 993,
+        "y": 1489,
+        "alpha": 0
+      }
+    ],
+    "scope": "Read-only alpha/bounds audit; no character anatomy guarantee."
+  },
+  {
+    "id": "gabriel-solar-oath",
+    "path": "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v36\\variants\\gabriel-solar-oath\\portrait-source.png",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "ae8dfd2928c0df4d708dc9056a2f6135b65d149d59bd2c450deeb557896b6137",
+    "alphaMin": 0,
+    "alphaMax": 254,
+    "alphaZero": 603287,
+    "alphaZeroRatio": 0.3835595448811849,
+    "visibleOuterEdgePixels": 39,
+    "visibleBBox": {
+      "x": 4,
+      "y": 1,
+      "w": 1020,
+      "h": 1535
+    },
+    "marginProbes": [
+      {
+        "x": 30,
+        "y": 46,
+        "alpha": 0
+      },
+      {
+        "x": 512,
+        "y": 46,
+        "alpha": 253
+      },
+      {
+        "x": 993,
+        "y": 46,
+        "alpha": 0
+      },
+      {
+        "x": 30,
+        "y": 768,
+        "alpha": 0
+      },
+      {
+        "x": 993,
+        "y": 768,
+        "alpha": 0
+      },
+      {
+        "x": 30,
+        "y": 1489,
+        "alpha": 0
+      },
+      {
+        "x": 512,
+        "y": 1489,
+        "alpha": 0
+      },
+      {
+        "x": 993,
+        "y": 1489,
+        "alpha": 0
+      }
+    ],
+    "scope": "Read-only alpha/bounds audit; no character anatomy guarantee."
+  },
+  {
+    "id": "max-thunder-requiem",
+    "path": "C:\\Users\\Diego\\OneDrive\\Documentos\\GitHub\\RPGnovo\\art-source\\v36\\variants\\max-thunder-requiem\\portrait-source.png",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "f3c8a7cee83ae0e048b7a6c1b5f5dcae970aaffc92e7cf54d824bde69bd065e3",
+    "alphaMin": 0,
+    "alphaMax": 254,
+    "alphaZero": 738423,
+    "alphaZeroRatio": 0.46947669982910156,
+    "visibleOuterEdgePixels": 0,
+    "visibleBBox": {
+      "x": 21,
+      "y": 7,
+      "w": 984,
+      "h": 1516
+    },
+    "marginProbes": [
+      {
+        "x": 30,
+        "y": 46,
+        "alpha": 0
+      },
+      {
+        "x": 512,
+        "y": 46,
+        "alpha": 105
+      },
+      {
+        "x": 993,
+        "y": 46,
+        "alpha": 0
+      },
+      {
+        "x": 30,
+        "y": 768,
+        "alpha": 0
+      },
+      {
+        "x": 993,
+        "y": 768,
+        "alpha": 0
+      },
+      {
+        "x": 30,
+        "y": 1489,
+        "alpha": 0
+      },
+      {
+        "x": 512,
+        "y": 1489,
+        "alpha": 252
+      },
+      {
+        "x": 993,
+        "y": 1489,
+        "alpha": 0
+      }
+    ],
+    "scope": "Read-only alpha/bounds audit; no character anatomy guarantee."
+  }
+]

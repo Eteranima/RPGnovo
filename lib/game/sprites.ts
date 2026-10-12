@@ -2,6 +2,7 @@ import {ENEMY_FRAMES_V30} from './enemyArtV30';
 import {REMAKE_FRAMES} from './remakeArt';
 import {ORFEU_FRAMES_V30} from './orfeuArtV30';
 import {EXPLORATION_FRAMES_V31} from './explorationArtV31';
+import {VARIANT_FRAMES_V36} from './variantArtV36';
 
 export type SpriteCrop={x:number;y:number;w:number;h:number;anchorX:number;anchorY:number};
 // Whole generated sheets, measured source rectangles and consistent ground anchors.
@@ -89,3 +90,4 @@ Object.assign(SPRITE_FRAMES,ORFEU_FRAMES_V30);
 Object.assign(SPRITE_FRAMES,ENEMY_FRAMES_V30);
 
 Object.assign(SPRITE_FRAMES,EXPLORATION_FRAMES_V31);
+Object.assign(SPRITE_FRAMES,VARIANT_FRAMES_V36);

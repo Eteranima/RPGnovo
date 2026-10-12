@@ -8,11 +8,12 @@ import ts from 'typescript';
 
 const output=mkdtempSync(join(tmpdir(),'eter-quest-replay-v34-')),compiled=new Set();
 function compile(name){if(compiled.has(name))return;compiled.add(name);let source=readFileSync(`lib/game/${name}.ts`,'utf8');for(const match of source.matchAll(/from\s+['"]\.\/([\w-]+)['"]/g))compile(match[1]);source=source.replace(/from\s+(['"])\.\/([\w-]+)\1/g,"from './$2.js'");writeFileSync(join(output,`${name}.js`),ts.transpileModule(source,{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.ES2022}}).outputText);}
-for(const name of ['engine','master-mode','music'])compile(name);
+for(const name of ['engine','ui-controls','ui-session','music'])compile(name);
 const load=async name=>import(pathToFileURL(join(output,`${name}.js`)).href);
 const {GameEngine,SAVE_KEY,parseSave}=await load('engine');
 const {QUESTS_V31}=await load('questsV31');
-const {advanceMasterSequence,emptyMasterSequence}=await load('master-mode');
+const {createGameKeyboardControls}=await load('ui-controls');
+const {createGameUiActions}=await load('ui-session');
 const {musicFor}=await load('music');
 const long=QUESTS_V31.filter(quest=>quest.cinematic);
 let checks=0,writes=0;const store=new Map();
@@ -74,12 +75,15 @@ for(const busy of ['gachaBusy','summonBusy']){const engine=game();engine.state.p
  const before=persistent(engine),now=engine.now;check(engine.replayQuestCinematic(long[0].id),'replay opens with a field timer present');engine.update(.25);equal(persistent(engine),before,'field expiry cannot relocate the party or mutate progress during replay');equal(engine.now,now,'simulation clock stays frozen');
 }
 
-// Execute the production Page handlers, preserving their ordering and return-to-Cenas behavior.
-const page=ts.createSourceFile('app/page.tsx',readFileSync('app/page.tsx','utf8'),ts.ScriptTarget.Latest,true,ts.ScriptKind.TSX),handlers={};
-function visit(node){if(ts.isVariableDeclaration(node)&&['down','openMenu','replayQuestScene','finishQuestScene'].includes(node.name.getText(page)))handlers[node.name.getText(page)]=node.initializer;ts.forEachChild(node,visit);}visit(page);
-for(const name of ['down','openMenu','replayQuestScene','finishQuestScene'])check(handlers[name],'actual Page handler exists');
+// Exercise exported production session transitions; JSX structure is not a test API.
+const sessionExports=createGameUiActions({},{});
+for(const handler of [createGameKeyboardControls,sessionExports.openMenu,sessionExports.replayQuestScene,sessionExports.finishQuestScene])check(typeof handler==='function','production session/control export exists');
 const js=source=>ts.transpileModule(source,{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.None}}).outputText;
-const uiFactory=new Function(js(`return (engine)=>{const ui={panel:'menu',tab:'scenes',active:'scenes',focus:null};const openingRef={current:false};const setPanel=value=>ui.panel=value,setMenuTab=value=>ui.tab=value,setActiveMenuTab=value=>ui.active=value,setMenuFocus=value=>ui.focus=value;const openMenu=${handlers.openMenu.getText(page)},replayQuestScene=${handlers.replayQuestScene.getText(page)},finishQuestScene=${handlers.finishQuestScene.getText(page)};return {ui,replayQuestScene,finishQuestScene};};`))();
+function uiFactory(engine){
+ const ui={panel:'menu',tab:'scenes',active:'scenes',focus:null};
+ const actions=createGameUiActions(engine,{read:()=>({panel:ui.panel,opening:false,confirmReset:false}),setPanel:value=>ui.panel=value,setOpening:()=>{},setMenuTab:value=>ui.tab=value,setActiveMenuTab:value=>ui.active=value,setMenuFocus:value=>ui.focus=value});
+ return {ui,...actions};
+}
 for(const skip of [false,true]){
  const engine=game();engine.state.progress.questsV31.records[long[0].id]=completedRecord(long[0]);const before=persistent(engine),ui=uiFactory(engine);
  ui.replayQuestScene(long[0].id);equal(ui.ui.panel,null,'Cenas dialog closes before the cinematic overlay');check(engine.paused,'Page pauses world synchronously');const token=engine.state.questCinematic.token;
@@ -87,7 +91,10 @@ for(const skip of [false,true]){
  ui.replayQuestScene(long[0].id);const latest=engine.state.questCinematic.token;ui.finishQuestScene(token,true);equal(engine.state.questCinematic.token,latest,'stale Page callback cannot close a later replay');ui.finishQuestScene(latest,true);
 }
 class TestElement{constructor(selector=''){this.selector=selector;}closest(selector){return this.selector&&selector.includes(this.selector)?this:null;}}
-const downFactory=new Function('Element','advanceMasterSequence','emptyMasterSequence',js(`return(engine)=>{const panelRef={current:null},openingRef={current:false},renderer={current:null};const setTarget=()=>{throw new Error('Replay must not select an ally');},setPanel=()=>{throw new Error('Replay must not dismiss another panel');},openMenu=()=>{throw new Error('Replay must not open a gameplay menu');},toggleMusic=()=>{throw new Error('Replay must not toggle sound');};const loadedRef={current:true},armedRef={current:true};const activateTitle=()=>{},masterSequence=emptyMasterSequence();return ${handlers.down.getText(page)};};`))(TestElement,advanceMasterSequence,emptyMasterSequence);
+function downFactory(engine){
+ const bad=()=>{throw new Error('Replay must not trigger gameplay or change panels/audio');};
+ return createGameKeyboardControls({engine,panel:()=>null,opening:()=>false,loaded:()=>true,titleArmed:()=>true,loading:()=>null,closePanel:bad,openMenu:bad,setTarget:bad,activateTitle:()=>{},toggleMusic:bad,element:target=>target instanceof TestElement?target:null}).down;
+}
 {
  const engine=game();engine.state.progress.questsV31.records[long[0].id]=completedRecord(long[0]);engine.replayQuestCinematic(long[0].id);const down=downFactory(engine),before=persistent(engine);
  for(const key of ['1','2','3','4','5','Tab','w','e','q','r','g','p',' ','Enter','Escape']){let prevented=0;engine.keys.add('w');down({key,repeat:false,target:null,preventDefault:()=>prevented++});equal(prevented,1,'cinema contains gameplay keys before its capture effect mounts');check(!engine.keys.size,'held movement clears on every cinematic key');equal(persistent(engine),before,'keyboard cannot mutate party or progression');}

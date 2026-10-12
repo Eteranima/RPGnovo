@@ -1,0 +1,32 @@
+{
+  "id": "marin-starless-throne",
+  "sourcesRemainRowMajor": true,
+  "walkFacingOrder": [
+    "south",
+    "west",
+    "east",
+    "north"
+  ],
+  "walkStepOrder": [
+    "neutral",
+    "step-left",
+    "step-right"
+  ],
+  "ultimatePlaybackOrder": [
+    0,
+    1,
+    2,
+    6,
+    3,
+    4,
+    5,
+    7
+  ],
+  "ultimateContactPlaybackIndex": 5,
+  "ultimateContactNativeOrdinal": 4,
+  "reason": "Native cell4 is the strong rightward fan strike; cell5 lowers fans and cell6 is an additional guard/gather pose. Metadata ordering places the strongest strike at the runtime contact frame without duplicating or altering pixels.",
+  "companionKeys": [
+    "companion_marin-starless-throne",
+    "companion_event_marin-starless-throne"
+  ]
+}

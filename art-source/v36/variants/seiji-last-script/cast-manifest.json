@@ -1,0 +1,309 @@
+{
+  "id": "seiji-last-script",
+  "kind": "cast",
+  "tool": "built-in image_gen",
+  "source": "C:/Users/Diego/.codex/generated_images/01a0fe9c-5a05-7ae0-b816-392e2a3c966b/exec-c11b4577-c317-4e9f-9e83-5124c9069e55.png",
+  "selected": "art-source/v36/variants/seiji-last-script/cast-source.png",
+  "runtime": "public/assets/v36/variants/seiji-last-script/cast.png",
+  "width": 1536,
+  "height": 1024,
+  "cols": 3,
+  "rows": 2,
+  "sourceSha256": "51fc59e4e6701ba52ebb59d9eaafc8bd44afbc0ee6f9f9129c9f91146cb3ba2e",
+  "selectedSha256": "51fc59e4e6701ba52ebb59d9eaafc8bd44afbc0ee6f9f9129c9f91146cb3ba2e",
+  "runtimeSha256": "51fc59e4e6701ba52ebb59d9eaafc8bd44afbc0ee6f9f9129c9f91146cb3ba2e",
+  "byteIdenticalSourceCopies": true,
+  "alphaThresholdForMeasurementOnly": 24,
+  "backgroundAlphaZero": 1076090,
+  "rowCuts": [
+    0,
+    513,
+    1024
+  ],
+  "frames": [
+    {
+      "x": 72,
+      "y": 34,
+      "w": 284,
+      "h": 467,
+      "anchorX": 232,
+      "anchorY": 492
+    },
+    {
+      "x": 586,
+      "y": 35,
+      "w": 333,
+      "h": 464,
+      "anchorX": 759,
+      "anchorY": 490
+    },
+    {
+      "x": 1110,
+      "y": 103,
+      "w": 382,
+      "h": 396,
+      "anchorX": 1276,
+      "anchorY": 490
+    },
+    {
+      "x": 71,
+      "y": 569,
+      "w": 306,
+      "h": 405,
+      "anchorX": 232,
+      "anchorY": 965
+    },
+    {
+      "x": 516,
+      "y": 582,
+      "w": 594,
+      "h": 390,
+      "anchorX": 708,
+      "anchorY": 963
+    },
+    {
+      "x": 1147,
+      "y": 526,
+      "w": 284,
+      "h": 450,
+      "anchorX": 1305,
+      "anchorY": 967
+    }
+  ],
+  "measurements": [
+    {
+      "i": 0,
+      "row": 0,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "w": 471,
+        "h": 513
+      },
+      "visibleBounds": {
+        "x": 80,
+        "y": 42,
+        "w": 268,
+        "h": 451
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 57321,
+      "crop": {
+        "x": 72,
+        "y": 34,
+        "w": 284,
+        "h": 467,
+        "anchorX": 232,
+        "anchorY": 492
+      },
+      "headOrHatTop": 96,
+      "groundSole": 492,
+      "anchorMethod": "manual body/ground: centre between both sandal centres; lowest sole baseline, excluding brush/ink",
+      "bodyHeadTop": 96,
+      "headMethod": "visual native crop: hair/mask top only, excluding held brush and detached effects",
+      "originalVisibleTop": 42,
+      "visualReview": {
+        "method": "Individual native RGBA crop inspection; full source sheet for continuity",
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "reviewDate": "2026-10-11"
+      }
+    },
+    {
+      "i": 1,
+      "row": 0,
+      "col": 1,
+      "cell": {
+        "x": 471,
+        "y": 0,
+        "w": 543,
+        "h": 513
+      },
+      "visibleBounds": {
+        "x": 594,
+        "y": 43,
+        "w": 317,
+        "h": 448
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 64324,
+      "crop": {
+        "x": 586,
+        "y": 35,
+        "w": 333,
+        "h": 464,
+        "anchorX": 759,
+        "anchorY": 490
+      },
+      "headOrHatTop": 104,
+      "groundSole": 490,
+      "anchorMethod": "manual body/ground: centre between both sandal centres; lowest sole baseline, excluding brush/ink",
+      "bodyHeadTop": 104,
+      "headMethod": "visual native crop: hair/mask top only, excluding held brush and detached effects",
+      "originalVisibleTop": 43,
+      "visualReview": {
+        "method": "Individual native RGBA crop inspection; full source sheet for continuity",
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "reviewDate": "2026-10-11"
+      }
+    },
+    {
+      "i": 2,
+      "row": 0,
+      "col": 2,
+      "cell": {
+        "x": 1014,
+        "y": 0,
+        "w": 522,
+        "h": 513
+      },
+      "visibleBounds": {
+        "x": 1118,
+        "y": 111,
+        "w": 366,
+        "h": 380
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 65261,
+      "crop": {
+        "x": 1110,
+        "y": 103,
+        "w": 382,
+        "h": 396,
+        "anchorX": 1276,
+        "anchorY": 490
+      },
+      "headOrHatTop": 113,
+      "groundSole": 490,
+      "anchorMethod": "manual body/ground: centre between both sandal centres; lowest sole baseline, excluding brush/ink",
+      "bodyHeadTop": 113,
+      "headMethod": "visual native crop: hair/mask top only, excluding held brush and detached effects",
+      "originalVisibleTop": 111,
+      "visualReview": {
+        "method": "Individual native RGBA crop inspection; full source sheet for continuity",
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "reviewDate": "2026-10-11"
+      }
+    },
+    {
+      "i": 3,
+      "row": 1,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 513,
+        "w": 446,
+        "h": 511
+      },
+      "visibleBounds": {
+        "x": 79,
+        "y": 577,
+        "w": 290,
+        "h": 389
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 55733,
+      "crop": {
+        "x": 71,
+        "y": 569,
+        "w": 306,
+        "h": 405,
+        "anchorX": 232,
+        "anchorY": 965
+      },
+      "headOrHatTop": 578,
+      "groundSole": 965,
+      "anchorMethod": "manual body/ground: centre between both sandal centres; lowest sole baseline, excluding brush/ink",
+      "bodyHeadTop": 578,
+      "headMethod": "visual native crop: hair/mask top only, excluding held brush and detached effects",
+      "originalVisibleTop": 577,
+      "visualReview": {
+        "method": "Individual native RGBA crop inspection; full source sheet for continuity",
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "reviewDate": "2026-10-11"
+      }
+    },
+    {
+      "i": 4,
+      "row": 1,
+      "col": 1,
+      "cell": {
+        "x": 446,
+        "y": 513,
+        "w": 682,
+        "h": 511
+      },
+      "visibleBounds": {
+        "x": 524,
+        "y": 590,
+        "w": 578,
+        "h": 374
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 74994,
+      "crop": {
+        "x": 516,
+        "y": 582,
+        "w": 594,
+        "h": 390,
+        "anchorX": 708,
+        "anchorY": 963
+      },
+      "headOrHatTop": 591,
+      "groundSole": 963,
+      "anchorMethod": "manual body/ground: centre between both sandal centres; lowest sole baseline, excluding brush/ink",
+      "bodyHeadTop": 591,
+      "headMethod": "visual native crop: hair/mask top only, excluding held brush and detached effects",
+      "originalVisibleTop": 590,
+      "visualReview": {
+        "method": "Individual native RGBA crop inspection; full source sheet for continuity",
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "reviewDate": "2026-10-11"
+      }
+    },
+    {
+      "i": 5,
+      "row": 1,
+      "col": 2,
+      "cell": {
+        "x": 1128,
+        "y": 513,
+        "w": 408,
+        "h": 511
+      },
+      "visibleBounds": {
+        "x": 1155,
+        "y": 534,
+        "w": 268,
+        "h": 434
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 56056,
+      "crop": {
+        "x": 1147,
+        "y": 526,
+        "w": 284,
+        "h": 450,
+        "anchorX": 1305,
+        "anchorY": 967
+      },
+      "headOrHatTop": 576,
+      "groundSole": 967,
+      "anchorMethod": "manual body/ground: centre between both sandal centres; lowest sole baseline, excluding brush/ink",
+      "bodyHeadTop": 576,
+      "headMethod": "visual native crop: hair/mask top only, excluding held brush and detached effects",
+      "originalVisibleTop": 534,
+      "visualReview": {
+        "method": "Individual native RGBA crop inspection; full source sheet for continuity",
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "reviewDate": "2026-10-11"
+      }
+    }
+  ]
+}

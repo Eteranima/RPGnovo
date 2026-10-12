@@ -52,3 +52,34 @@ next-env.d.ts
 !/docs/qa-v33/opening/*-proof.png
 # Preserve raw encoder logs locally; version the structured reports and reviews.
 /docs/qa-v33/**/*.log
+
+# Reproducible native pose review crops and rejected candidate rasters stay local.
+# Final source atlases, prompts, manifests and review reports remain versioned.
+/art-source/v36/**/rejected-*/**/*.png
+/art-source/v36/**/rejected-*.png
+
+/art-source/v36/variants/*/review/**/*.png
+/art-source/v36/variants/*/proofs/*.png
+/art-source/v36/variants/*/native-crop-proof/**/*.png
+/art-source/v36/variants/*/rejected-*/**/*.png
+/art-source/v36/variants/*/*-rejected-*.png
+/art-source/v36/variants/marin-starless-throne/*-attempt.png
+/art-source/v36/skills/*/candidate-atlas.png
+/art-source/v36/variants/*/portrait-candidate.png
+/art-source/v36/variants/ava-worldroot-sovereign/walk-layout-source.png
+/art-source/v36/variants/max-thunder-requiem/*-compact-source.png
+/art-source/v36/variants/beatriz-eclipse-tide/*candidate.png
+!/art-source/v36/variants/beatriz-eclipse-tide/attack-repair-candidate.png
+!/art-source/v36/variants/beatriz-eclipse-tide/cast-repair-candidate.png
+!/art-source/v36/variants/beatriz-eclipse-tide/icons-water-candidate.png
+!/art-source/v36/variants/beatriz-eclipse-tide/ultimate-body-candidate.png
+!/art-source/v36/variants/beatriz-eclipse-tide/vfx-repair-candidate.png
+!/art-source/v36/variants/beatriz-eclipse-tide/walk-border-candidate.png
+/art-source/v36/variants/ophelia-white-equinox/*candidate.png
+!/art-source/v36/variants/ophelia-white-equinox/attack-body-candidate.png
+!/art-source/v36/variants/ophelia-white-equinox/cast-body-candidate.png
+!/art-source/v36/variants/ophelia-white-equinox/companion-repair-candidate.png
+!/art-source/v36/variants/ophelia-white-equinox/icons-repair-candidate.png
+!/art-source/v36/variants/ophelia-white-equinox/ultimate-repair-candidate.png
+!/art-source/v36/variants/ophelia-white-equinox/vfx-repair-candidate.png
+!/art-source/v36/variants/ophelia-white-equinox/walk-final-candidate.png

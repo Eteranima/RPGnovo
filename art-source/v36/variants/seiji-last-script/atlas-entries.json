@@ -1,0 +1,404 @@
+[
+  {
+    "id": "seiji-last-script",
+    "kind": "walk",
+    "source": "art-source/v36/variants/seiji-last-script/walk-source.png",
+    "cols": 3,
+    "rows": 4,
+    "rowCuts": [
+      0,
+      379,
+      741,
+      1096,
+      1536
+    ],
+    "colCuts": [
+      [
+        0,
+        343,
+        686,
+        1024
+      ],
+      [
+        0,
+        353,
+        693,
+        1024
+      ],
+      [
+        0,
+        351,
+        692,
+        1024
+      ],
+      [
+        0,
+        351,
+        690,
+        1024
+      ]
+    ],
+    "anchors": [
+      [
+        184.2,
+        360
+      ],
+      [
+        507.1,
+        363
+      ],
+      [
+        876.3,
+        360
+      ],
+      [
+        170.1,
+        720
+      ],
+      [
+        498.4,
+        720
+      ],
+      [
+        854.1,
+        718
+      ],
+      [
+        183.5,
+        1080
+      ],
+      [
+        525.3,
+        1082
+      ],
+      [
+        886.5,
+        1081
+      ],
+      [
+        175.7,
+        1451
+      ],
+      [
+        522.9,
+        1449
+      ],
+      [
+        858.7,
+        1451
+      ]
+    ]
+  },
+  {
+    "id": "seiji-last-script",
+    "kind": "attack",
+    "source": "art-source/v36/variants/seiji-last-script/attack-source.png",
+    "cols": 3,
+    "rows": 2,
+    "rowCuts": [
+      0,
+      533,
+      1024
+    ],
+    "colCuts": [
+      [
+        0,
+        435,
+        943,
+        1536
+      ],
+      [
+        0,
+        573,
+        1094,
+        1536
+      ]
+    ],
+    "anchors": [
+      [
+        208,
+        478
+      ],
+      [
+        732,
+        472
+      ],
+      [
+        1208,
+        472
+      ],
+      [
+        212,
+        943
+      ],
+      [
+        779,
+        942
+      ],
+      [
+        1327,
+        950
+      ]
+    ]
+  },
+  {
+    "id": "seiji-last-script",
+    "kind": "cast",
+    "source": "art-source/v36/variants/seiji-last-script/cast-source.png",
+    "cols": 3,
+    "rows": 2,
+    "rowCuts": [
+      0,
+      513,
+      1024
+    ],
+    "colCuts": [
+      [
+        0,
+        471,
+        1014,
+        1536
+      ],
+      [
+        0,
+        446,
+        1128,
+        1536
+      ]
+    ],
+    "anchors": [
+      [
+        232,
+        492
+      ],
+      [
+        759,
+        490
+      ],
+      [
+        1276,
+        490
+      ],
+      [
+        232,
+        965
+      ],
+      [
+        708,
+        963
+      ],
+      [
+        1305,
+        967
+      ]
+    ]
+  },
+  {
+    "id": "seiji-last-script",
+    "kind": "ultimate",
+    "source": "art-source/v36/variants/seiji-last-script/ultimate-source.png",
+    "cols": 4,
+    "rows": 2,
+    "rowCuts": [
+      0,
+      521,
+      992
+    ],
+    "colCuts": [
+      [
+        0,
+        356,
+        762,
+        1199,
+        1585
+      ],
+      [
+        0,
+        368,
+        897,
+        1270,
+        1585
+      ]
+    ],
+    "anchors": [
+      [
+        168,
+        503
+      ],
+      [
+        572,
+        503
+      ],
+      [
+        1007,
+        505
+      ],
+      [
+        1418,
+        505
+      ],
+      [
+        174,
+        949
+      ],
+      [
+        549,
+        951
+      ],
+      [
+        1071,
+        944
+      ],
+      [
+        1425,
+        961
+      ]
+    ]
+  },
+  {
+    "id": "seiji-last-script",
+    "kind": "vfx",
+    "source": "art-source/v36/variants/seiji-last-script/vfx-source.png",
+    "cols": 3,
+    "rows": 2,
+    "rowCuts": [
+      0,
+      486,
+      1024
+    ],
+    "colCuts": [
+      [
+        0,
+        503,
+        1015,
+        1536
+      ],
+      [
+        0,
+        507,
+        1024,
+        1536
+      ]
+    ],
+    "anchors": [
+      [
+        273.5,
+        267
+      ],
+      [
+        752,
+        259
+      ],
+      [
+        1268,
+        239.5
+      ],
+      [
+        265.5,
+        744.5
+      ],
+      [
+        764.5,
+        734
+      ],
+      [
+        1269.5,
+        737.5
+      ]
+    ]
+  },
+  {
+    "id": "seiji-last-script",
+    "kind": "icons",
+    "source": "art-source/v36/variants/seiji-last-script/icons-source.png",
+    "cols": 3,
+    "rows": 2,
+    "rowCuts": [
+      0,
+      506,
+      1024
+    ],
+    "colCuts": [
+      [
+        0,
+        524,
+        1028,
+        1536
+      ],
+      [
+        0,
+        510,
+        1021,
+        1536
+      ]
+    ],
+    "anchors": [
+      [
+        264,
+        245
+      ],
+      [
+        772,
+        254.5
+      ],
+      [
+        1286.5,
+        248.5
+      ],
+      [
+        256,
+        765
+      ],
+      [
+        765,
+        767
+      ],
+      [
+        1286,
+        765.5
+      ]
+    ]
+  },
+  {
+    "id": "seiji-last-script",
+    "kind": "companion",
+    "source": "art-source/v36/variants/seiji-last-script/companion-source.png",
+    "cols": 2,
+    "rows": 2,
+    "rowCuts": [
+      0,
+      626,
+      1254
+    ],
+    "colCuts": [
+      [
+        0,
+        637,
+        1254
+      ],
+      [
+        0,
+        677,
+        1254
+      ]
+    ],
+    "anchors": [
+      [
+        350.4,
+        615
+      ],
+      [
+        954.7,
+        615
+      ],
+      [
+        350,
+        1225
+      ],
+      [
+        1007.8,
+        1229
+      ]
+    ]
+  }
+]

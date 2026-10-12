@@ -1,0 +1,22 @@
+{
+  "id": "beatriz-eclipse-tide",
+  "source": "art-source/v36/variants/beatriz-eclipse-tide/portrait-source.png",
+  "runtime": "public/assets/v36/variants/beatriz-eclipse-tide/portrait.png",
+  "width": 1024,
+  "height": 1536,
+  "sourceSha256": "6f5871e341c531c266dac60b9a44b6a2f3e131f09d9fc43d945d1d285e492d5b",
+  "runtimeSha256": "6f5871e341c531c266dac60b9a44b6a2f3e131f09d9fc43d945d1d285e492d5b",
+  "byteIdenticalSourceCopies": true,
+  "alphaThresholdForMeasurementOnly": 24,
+  "visibleEdge": 0,
+  "backgroundAlphaZero": 411950,
+  "face": {
+    "left": 370,
+    "top": 155,
+    "width": 280,
+    "height": 280,
+    "runtime": "public/assets/v36/variants/beatriz-eclipse-tide/face.png",
+    "sha256": "5c802a78f5f2825e1f572e91b0326536bb272e7d7d889b4f4fff09bbe0638f91",
+    "allNativeRgbaPixelsPreserved": true
+  }
+}

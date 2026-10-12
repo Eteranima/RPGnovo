@@ -1,8 +1,11 @@
 import type {HeroId} from './data';
+import {variantByIdV36,variantSignatureV36} from './variantsV36';
+import {skillV36} from './skillsV36';
+import {abelSkillV36} from './abelPlayableV36';
 export const REMADE_HERO_IDS:readonly HeroId[]=['seiji','ophelia','marin','gabriel','max','beatriz','carmilla'];
 export const isRemadeHero=(id:string):id is HeroId=>REMADE_HERO_IDS.includes(id as HeroId);
-/** Orfeu renews skills/ultimate only, while retaining his approved portrait/walk/basic attack. */
-export const hasCharacterBattleArt=(id:string):id is HeroId=>isRemadeHero(id)||id==='orfeu';
+/** Orfeu retains approved base art; Abel combines v29 combat with his v31 directional walk. */
+export const hasCharacterBattleArt=(id:string)=>isRemadeHero(id)||id==='orfeu'||id==='abel'||!!variantByIdV36(id);
 
 /** Measured generated poses hold the anticipation and strike instead of equal time slices. */
 export function characterPoseFrame(hero:string,action:string,time:number,count:number){
@@ -13,6 +16,9 @@ export function characterPoseFrame(hero:string,action:string,time:number,count:n
  return timing.reduce((frame,start,index)=>t>=start?index:frame,0);
 }
 export function skillMotifIndex(action:string){
+ const abel=abelSkillV36(action);if(abel)return abel.motif;
+ const skill=skillV36(action);if(skill)return skill.motif;
+ if(variantSignatureV36(action))return 4;
  if(action==='ultimate')return 5;
  if(action==='attack')return 0;
  if(action==='crimson-suture'||action==='echo-strike')return 1;
@@ -27,9 +33,10 @@ export function characterCamera(hero:string,beat:string,t:number,reduced:boolean
  if(reduced)return {x:.5,zoom:1,alpha:1};
  if(!hasCharacterBattleArt(hero))return {x:beat==='release'?.42+t*.25:.5,zoom:1,alpha:1};
  const release=Math.max(0,Math.min(1,(t-.36)/.32));
- if(hero==='marin')return {x:.47+release*.10,zoom:1,alpha:beat==='charge'?.82:1};
- if(hero==='seiji')return {x:.48+release*.07,zoom:1+Math.sin(release*Math.PI)*.035,alpha:1};
- if(hero==='max')return {x:.5,zoom:beat==='release'?1.035:1,alpha:1};
- if(hero==='gabriel')return {x:.46+release*.08,zoom:1+release*.04,alpha:1};
+ const family=variantByIdV36(hero)?.hero||hero;
+ if(family==='marin')return {x:.47+release*.10,zoom:1,alpha:beat==='charge'?.82:1};
+ if(family==='seiji')return {x:.48+release*.07,zoom:1+Math.sin(release*Math.PI)*.035,alpha:1};
+ if(family==='max')return {x:.5,zoom:beat==='release'?1.035:1,alpha:1};
+ if(family==='gabriel')return {x:.46+release*.08,zoom:1+release*.04,alpha:1};
  return {x:.5,zoom:1+Math.sin(release*Math.PI)*.025,alpha:1};
 }

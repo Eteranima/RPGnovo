@@ -93,12 +93,12 @@ function player({reduced=false,autoplay=true}={}) {
  const restore = new FakeButton(doc);doc.activeElement=restore;
  const buttons=[new FakeButton(doc),new FakeButton(doc)];
  const dlg = new FakeElement(doc);dlg.contains=target=>target===dlg||buttons.includes(target);dlg.querySelector=()=>buttons.find(button=>!button.disabled);dlg.querySelectorAll=()=>buttons.filter(button=>!button.disabled);
- const media = new FakeMedia(),exits=[],playReports=[],resolved={current:false};
+ const media = new FakeMedia(),exits=[],playReports=[],timelineReports=[],resolved={current:false};
  let state={ready:false,failed:false,playing:false,buffering:false,finished:false,reduced:false,elapsed:0,blocked:false};
  const viewRef={current:state};const setView=change=>{state=typeof change==='function'?change(state):change;viewRef.current=state;};
  const toggle=()=>media.paused?media.play():media.pause();
- const cleanup=bind({}, {current:media},{current:dlg},{current:buttons[0]},autoplay,setView,resolved,{current:value=>playReports.push(value)},viewRef,reason=>exits.push(reason),toggle,win,doc,()=>motion,FakeElement,FakeButton,FakeNode,()=>1,()=>{},film,openingDurationMatchesV33,openingFrameAtV33,openingCapturesKeyV33,openingTabTargetV33,{...state});
- return {media,doc,win,motion,buttons,dlg,restore,exits,playReports,timers,cleanup,get state(){return state;},ready(){media.emit('loadedmetadata');media.emit('loadeddata');},key(key,type='keydown',extra={}){let prevented=0,stopped=0;win.emit(type,{key,type,repeat:false,target:doc.activeElement,preventDefault(){prevented++;},stopImmediatePropagation(){stopped++;},...extra});return {prevented,stopped};}};
+ const cleanup=bind({}, {current:media},{current:dlg},{current:buttons[0]},autoplay,setView,resolved,{current:(value,time)=>{playReports.push(value);timelineReports.push([value,time]);}},viewRef,reason=>exits.push(reason),toggle,win,doc,()=>motion,FakeElement,FakeButton,FakeNode,()=>1,()=>{},film,openingDurationMatchesV33,openingFrameAtV33,openingCapturesKeyV33,openingTabTargetV33,{...state});
+ return {media,doc,win,motion,buttons,dlg,restore,exits,playReports,timelineReports,timers,cleanup,get state(){return state;},ready(){media.emit('loadedmetadata');media.emit('loadeddata');},key(key,type='keydown',extra={}){let prevented=0,stopped=0;win.emit(type,{key,type,repeat:false,target:doc.activeElement,preventDefault(){prevented++;},stopImmediatePropagation(){stopped++;},...extra});return {prevented,stopped};}};
 }
 {
  const p=player();equal(p.media.loadCalls,1,'film starts loading only while the player is mounted');check(p.media.muted&&p.media.volume===0,'both media properties silence the film');equal(p.media.playbackRate,1,'film cannot inherit battle speed');
@@ -131,5 +131,16 @@ function player({reduced=false,autoplay=true}={}) {
 }
 {
  const p=player();p.ready();p.motion.matches=true;p.motion.emit('change');check(p.state.reduced&&p.media.paused,'switching on reduced motion pauses the active film');p.motion.matches=false;p.motion.emit('change');equal(p.media.playCalls,1,'switching off reduced motion does not force playback');p.cleanup();
+}
+{
+ const p=player();p.ready();equal(p.timelineReports.at(-1),[true,0],'soundtrack receives the actual native playing clock');
+ p.media.currentTime=8.5;p.media.emit('timeupdate');equal(p.timelineReports.at(-1),[true,8.5],'soundtrack follows native video time');
+ p.media.emit('waiting');equal(p.timelineReports.at(-1),[false,8.5],'buffering suspends the soundtrack instead of letting it run ahead');
+ p.media.currentTime=9;p.media.emit('timeupdate');equal(p.timelineReports.at(-1),[false,9],'buffered ticks remain silent');
+ p.media.emit('playing');equal(p.timelineReports.at(-1),[true,9],'actual media resume restores music at the new clock');
+ p.media.pause();equal(p.timelineReports.at(-1),[false,9],'native pause suspends music');
+ p.media.currentTime=0;p.media.emit('seeked');equal(p.timelineReports.at(-1),[false,0],'replay seek resets the soundtrack clock');
+ p.media.play();equal(p.timelineReports.at(-1),[true,0],'replay begins together');
+ p.media.currentTime=62.5;p.media.ended=true;p.media.emit('ended');equal(p.timelineReports.at(-1),[false,62.5],'final held frame stops music');p.cleanup();
 }
 console.log(`${checks} opening cinematic v33 checks passed. Media assets are validated separately after export.`);

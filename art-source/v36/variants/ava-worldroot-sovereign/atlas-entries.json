@@ -1,0 +1,362 @@
+[
+  {
+    "id": "ava-worldroot-sovereign",
+    "kind": "walk",
+    "source": "art-source/v36/variants/ava-worldroot-sovereign/walk-source.png",
+    "cols": 3,
+    "rows": 4,
+    "rowCuts": [
+      0,
+      372,
+      706,
+      1049,
+      1448
+    ],
+    "colCuts": [
+      [
+        0,
+        359,
+        711,
+        1086
+      ],
+      [
+        0,
+        364,
+        725,
+        1086
+      ],
+      [
+        0,
+        351,
+        721,
+        1086
+      ],
+      [
+        0,
+        378,
+        732,
+        1086
+      ]
+    ],
+    "anchors": [
+      [
+        189,
+        342
+      ],
+      [
+        548,
+        346
+      ],
+      [
+        893,
+        349
+      ],
+      [
+        185,
+        684
+      ],
+      [
+        529,
+        679
+      ],
+      [
+        887,
+        682
+      ],
+      [
+        204,
+        1021
+      ],
+      [
+        567,
+        1016
+      ],
+      [
+        922,
+        1015
+      ],
+      [
+        183,
+        1377
+      ],
+      [
+        543,
+        1386
+      ],
+      [
+        896,
+        1387
+      ]
+    ]
+  },
+  {
+    "id": "ava-worldroot-sovereign",
+    "kind": "attack",
+    "source": "art-source/v36/variants/ava-worldroot-sovereign/attack-source.png",
+    "cols": 3,
+    "rows": 2,
+    "rowCuts": [
+      0,
+      513,
+      1024
+    ],
+    "colCuts": [
+      [
+        0,
+        455,
+        972,
+        1536
+      ],
+      [
+        0,
+        536,
+        1016,
+        1536
+      ]
+    ],
+    "anchors": [
+      [
+        241,
+        487
+      ],
+      [
+        742,
+        482
+      ],
+      [
+        1245,
+        479
+      ],
+      [
+        270,
+        987
+      ],
+      [
+        775,
+        985
+      ],
+      [
+        1284,
+        988
+      ]
+    ]
+  },
+  {
+    "id": "ava-worldroot-sovereign",
+    "kind": "cast",
+    "source": "art-source/v36/variants/ava-worldroot-sovereign/cast-source.png",
+    "cols": 3,
+    "rows": 2,
+    "rowCuts": [
+      0,
+      524,
+      1024
+    ],
+    "colCuts": [
+      [
+        0,
+        516,
+        1018,
+        1536
+      ],
+      [
+        0,
+        499,
+        1120,
+        1536
+      ]
+    ],
+    "anchors": [
+      [
+        284,
+        504
+      ],
+      [
+        798,
+        504
+      ],
+      [
+        1307,
+        504
+      ],
+      [
+        258,
+        968
+      ],
+      [
+        759,
+        975
+      ],
+      [
+        1325,
+        996
+      ]
+    ]
+  },
+  {
+    "id": "ava-worldroot-sovereign",
+    "kind": "ultimate",
+    "source": "art-source/v36/variants/ava-worldroot-sovereign/ultimate-source.png",
+    "cols": 4,
+    "rows": 2,
+    "rowCuts": [
+      0,
+      453,
+      887
+    ],
+    "colCuts": [
+      [
+        0,
+        437,
+        859,
+        1284,
+        1774
+      ],
+      [
+        0,
+        446,
+        910,
+        1340,
+        1774
+      ]
+    ],
+    "anchors": [
+      [
+        257,
+        441
+      ],
+      [
+        681,
+        441
+      ],
+      [
+        1094,
+        441
+      ],
+      [
+        1544,
+        442
+      ],
+      [
+        240,
+        857
+      ],
+      [
+        674,
+        857
+      ],
+      [
+        1115,
+        857
+      ],
+      [
+        1555,
+        861
+      ]
+    ]
+  },
+  {
+    "id": "ava-worldroot-sovereign",
+    "kind": "vfx",
+    "source": "art-source/v36/variants/ava-worldroot-sovereign/vfx-source.png",
+    "cols": 3,
+    "rows": 2,
+    "rowCuts": [
+      0,
+      496,
+      1024
+    ],
+    "colCuts": [
+      [
+        0,
+        514,
+        1031,
+        1536
+      ],
+      [
+        0,
+        513,
+        1021,
+        1536
+      ]
+    ],
+    "anchors": [
+      [
+        263,
+        258.5
+      ],
+      [
+        776.5,
+        253.5
+      ],
+      [
+        1277.5,
+        249.5
+      ],
+      [
+        263.5,
+        772.5
+      ],
+      [
+        767.5,
+        750.5
+      ],
+      [
+        1280,
+        758.5
+      ]
+    ]
+  },
+  {
+    "id": "ava-worldroot-sovereign",
+    "kind": "icons",
+    "source": "art-source/v36/variants/ava-worldroot-sovereign/icons-source.png",
+    "cols": 3,
+    "rows": 2,
+    "rowCuts": [
+      0,
+      491,
+      1024
+    ],
+    "colCuts": [
+      [
+        0,
+        529,
+        1035,
+        1536
+      ],
+      [
+        0,
+        504,
+        1032,
+        1536
+      ]
+    ],
+    "anchors": [
+      [
+        278.5,
+        266
+      ],
+      [
+        777.5,
+        251
+      ],
+      [
+        1280,
+        259
+      ],
+      [
+        256.5,
+        741.5
+      ],
+      [
+        768,
+        740.5
+      ],
+      [
+        1282.5,
+        743.5
+      ]
+    ]
+  }
+]

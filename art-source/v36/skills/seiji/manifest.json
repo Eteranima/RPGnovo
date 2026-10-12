@@ -1,0 +1,95 @@
+{
+  "hero": "seiji",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-1afa-7611-900f-c84542197a68\\exec-6f3aa369-9e56-44f4-9ad3-1984fb3979af.png",
+  "sourceSha256": "8d239fa8da751c294aca8d25516aedf7cae263490ac11d657ef95d26efe372ba",
+  "selectedSha256": "8d239fa8da751c294aca8d25516aedf7cae263490ac11d657ef95d26efe372ba",
+  "width": 1536,
+  "height": 1024,
+  "cols": 2,
+  "rows": 1,
+  "ids": [
+    "ink-refuge",
+    "ink-counterseal"
+  ],
+  "rowCuts": [
+    0,
+    1024
+  ],
+  "backgroundAlphaZero": 900084,
+  "alphaThresholdForMeasurementOnly": 24,
+  "frames": [
+    {
+      "x": 10,
+      "y": 141,
+      "w": 748,
+      "h": 707
+    },
+    {
+      "x": 777,
+      "y": 142,
+      "w": 749,
+      "h": 707
+    }
+  ],
+  "measurements": [
+    {
+      "id": "ink-refuge",
+      "index": 0,
+      "row": 0,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "w": 767,
+        "h": 1024
+      },
+      "visibleBounds": {
+        "x": 18,
+        "y": 149,
+        "w": 732,
+        "h": 691
+      },
+      "visiblePixels": 314322,
+      "visibleEdgePixels": 0,
+      "crop": {
+        "x": 10,
+        "y": 141,
+        "w": 748,
+        "h": 707
+      },
+      "runtime": "public/assets/v36/skills/seiji/ink-refuge.png",
+      "sha256": "c80b155c8b1386f54949e6ce68ba383fe2274e529119c17f6192ec299a52a6ea",
+      "nativeRgbaPreserved": true
+    },
+    {
+      "id": "ink-counterseal",
+      "index": 1,
+      "row": 0,
+      "col": 1,
+      "cell": {
+        "x": 767,
+        "y": 0,
+        "w": 769,
+        "h": 1024
+      },
+      "visibleBounds": {
+        "x": 785,
+        "y": 150,
+        "w": 733,
+        "h": 691
+      },
+      "visiblePixels": 327060,
+      "visibleEdgePixels": 0,
+      "crop": {
+        "x": 777,
+        "y": 142,
+        "w": 749,
+        "h": 707
+      },
+      "runtime": "public/assets/v36/skills/seiji/ink-counterseal.png",
+      "sha256": "d95068f9a96b2603d8ef4be55356f0cfd9a029cb58ad86e7cc02a96c35869127",
+      "nativeRgbaPreserved": true
+    }
+  ]
+}

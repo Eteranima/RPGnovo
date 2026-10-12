@@ -1,0 +1,331 @@
+{
+  "id": "gabriel-solar-oath",
+  "kind": "ultimate",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-1afa-7611-900f-c84542197a68\\exec-f6d937d8-5aa5-4ff6-bb24-1305dcb0ddf1.png",
+  "selected": "art-source/v36/variants/gabriel-solar-oath/ultimate-source.png",
+  "runtime": "public/assets/v36/variants/gabriel-solar-oath/ultimate.png",
+  "width": 1536,
+  "height": 1024,
+  "cols": 4,
+  "rows": 2,
+  "sourceSha256": "f13e07cd1e22a6d6c9f7f0eea76aba434d64b9dcdd1a3cd02f719e121bd3e525",
+  "selectedSha256": "f13e07cd1e22a6d6c9f7f0eea76aba434d64b9dcdd1a3cd02f719e121bd3e525",
+  "runtimeSha256": "f13e07cd1e22a6d6c9f7f0eea76aba434d64b9dcdd1a3cd02f719e121bd3e525",
+  "byteIdenticalSourceCopies": true,
+  "alphaThresholdForMeasurementOnly": 24,
+  "backgroundAlphaZero": 935872,
+  "rowCuts": [
+    0,
+    508,
+    1024
+  ],
+  "frames": [
+    {
+      "x": 47,
+      "y": 76,
+      "w": 287,
+      "h": 395,
+      "anchorX": 192.6,
+      "anchorY": 462
+    },
+    {
+      "x": 429,
+      "y": 76,
+      "w": 300,
+      "h": 395,
+      "anchorX": 571.7,
+      "anchorY": 462
+    },
+    {
+      "x": 806,
+      "y": 76,
+      "w": 293,
+      "h": 395,
+      "anchorX": 949.4,
+      "anchorY": 462
+    },
+    {
+      "x": 1172,
+      "y": 115,
+      "w": 324,
+      "h": 355,
+      "anchorX": 1219.1,
+      "anchorY": 461
+    },
+    {
+      "x": 23,
+      "y": 580,
+      "w": 327,
+      "h": 368,
+      "anchorX": 84.3,
+      "anchorY": 939
+    },
+    {
+      "x": 382,
+      "y": 564,
+      "w": 392,
+      "h": 370,
+      "anchorX": 585.1,
+      "anchorY": 925
+    },
+    {
+      "x": 805,
+      "y": 604,
+      "w": 328,
+      "h": 338,
+      "anchorX": 977.8,
+      "anchorY": 933
+    },
+    {
+      "x": 1221,
+      "y": 546,
+      "w": 288,
+      "h": 405,
+      "anchorX": 1372.8,
+      "anchorY": 942
+    }
+  ],
+  "measurements": [
+    {
+      "i": 0,
+      "row": 0,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "w": 381,
+        "h": 508
+      },
+      "visibleBounds": {
+        "x": 55,
+        "y": 84,
+        "w": 271,
+        "h": 379
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 62694,
+      "crop": {
+        "x": 47,
+        "y": 76,
+        "w": 287,
+        "h": 395,
+        "anchorX": 192.6,
+        "anchorY": 462
+      },
+      "headOrHatTop": 84,
+      "groundSole": 462,
+      "anchorMethod": "foot-band alpha centroid and sole baseline"
+    },
+    {
+      "i": 1,
+      "row": 0,
+      "col": 1,
+      "cell": {
+        "x": 381,
+        "y": 0,
+        "w": 386,
+        "h": 508
+      },
+      "visibleBounds": {
+        "x": 437,
+        "y": 84,
+        "w": 284,
+        "h": 379
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 61234,
+      "crop": {
+        "x": 429,
+        "y": 76,
+        "w": 300,
+        "h": 395,
+        "anchorX": 571.7,
+        "anchorY": 462
+      },
+      "headOrHatTop": 84,
+      "groundSole": 462,
+      "anchorMethod": "foot-band alpha centroid and sole baseline"
+    },
+    {
+      "i": 2,
+      "row": 0,
+      "col": 2,
+      "cell": {
+        "x": 767,
+        "y": 0,
+        "w": 368,
+        "h": 508
+      },
+      "visibleBounds": {
+        "x": 814,
+        "y": 84,
+        "w": 277,
+        "h": 379
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 65283,
+      "crop": {
+        "x": 806,
+        "y": 76,
+        "w": 293,
+        "h": 395,
+        "anchorX": 949.4,
+        "anchorY": 462
+      },
+      "headOrHatTop": 84,
+      "groundSole": 462,
+      "anchorMethod": "foot-band alpha centroid and sole baseline"
+    },
+    {
+      "i": 3,
+      "row": 0,
+      "col": 3,
+      "cell": {
+        "x": 1135,
+        "y": 0,
+        "w": 401,
+        "h": 508
+      },
+      "visibleBounds": {
+        "x": 1180,
+        "y": 123,
+        "w": 308,
+        "h": 339
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 58694,
+      "crop": {
+        "x": 1172,
+        "y": 115,
+        "w": 324,
+        "h": 355,
+        "anchorX": 1219.1,
+        "anchorY": 461
+      },
+      "headOrHatTop": 123,
+      "groundSole": 461,
+      "anchorMethod": "foot-band alpha centroid and sole baseline"
+    },
+    {
+      "i": 4,
+      "row": 1,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 508,
+        "w": 366,
+        "h": 516
+      },
+      "visibleBounds": {
+        "x": 31,
+        "y": 588,
+        "w": 311,
+        "h": 352
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 64095,
+      "crop": {
+        "x": 23,
+        "y": 580,
+        "w": 327,
+        "h": 368,
+        "anchorX": 84.3,
+        "anchorY": 939
+      },
+      "headOrHatTop": 588,
+      "groundSole": 939,
+      "anchorMethod": "foot-band alpha centroid and sole baseline"
+    },
+    {
+      "i": 5,
+      "row": 1,
+      "col": 1,
+      "cell": {
+        "x": 366,
+        "y": 508,
+        "w": 423,
+        "h": 516
+      },
+      "visibleBounds": {
+        "x": 390,
+        "y": 572,
+        "w": 376,
+        "h": 354
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 68378,
+      "crop": {
+        "x": 382,
+        "y": 564,
+        "w": 392,
+        "h": 370,
+        "anchorX": 585.1,
+        "anchorY": 925
+      },
+      "headOrHatTop": 572,
+      "groundSole": 925,
+      "anchorMethod": "foot-band alpha centroid and sole baseline"
+    },
+    {
+      "i": 6,
+      "row": 1,
+      "col": 2,
+      "cell": {
+        "x": 789,
+        "y": 508,
+        "w": 388,
+        "h": 516
+      },
+      "visibleBounds": {
+        "x": 813,
+        "y": 612,
+        "w": 312,
+        "h": 322
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 57715,
+      "crop": {
+        "x": 805,
+        "y": 604,
+        "w": 328,
+        "h": 338,
+        "anchorX": 977.8,
+        "anchorY": 933
+      },
+      "headOrHatTop": 612,
+      "groundSole": 933,
+      "anchorMethod": "foot-band alpha centroid and sole baseline"
+    },
+    {
+      "i": 7,
+      "row": 1,
+      "col": 3,
+      "cell": {
+        "x": 1177,
+        "y": 508,
+        "w": 359,
+        "h": 516
+      },
+      "visibleBounds": {
+        "x": 1229,
+        "y": 554,
+        "w": 272,
+        "h": 389
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 63344,
+      "crop": {
+        "x": 1221,
+        "y": 546,
+        "w": 288,
+        "h": 405,
+        "anchorX": 1372.8,
+        "anchorY": 942
+      },
+      "headOrHatTop": 554,
+      "groundSole": 942,
+      "anchorMethod": "foot-band alpha centroid and sole baseline"
+    }
+  ]
+}

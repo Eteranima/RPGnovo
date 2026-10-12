@@ -1,0 +1,179 @@
+{
+  "id": "max-thunder-requiem",
+  "kind": "companion",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-1afa-7611-900f-c84542197a68\\exec-5cb5cd14-2ccd-4f57-9e1e-c498a9f2262c.png",
+  "selected": "art-source/v36/variants/max-thunder-requiem/companion-source.png",
+  "runtime": "public/assets/v36/variants/max-thunder-requiem/companion.png",
+  "width": 1254,
+  "height": 1254,
+  "cols": 2,
+  "rows": 2,
+  "sourceSha256": "2b7c84fd96aa11ee3a8f436f6acc4ad5e9e8c15bc6eb81b2c65e50eb8d7f9470",
+  "selectedSha256": "2b7c84fd96aa11ee3a8f436f6acc4ad5e9e8c15bc6eb81b2c65e50eb8d7f9470",
+  "runtimeSha256": "2b7c84fd96aa11ee3a8f436f6acc4ad5e9e8c15bc6eb81b2c65e50eb8d7f9470",
+  "byteIdenticalSourceCopies": true,
+  "alphaThresholdForMeasurementOnly": 24,
+  "backgroundAlphaZero": 840976,
+  "rowCuts": [
+    0,
+    628,
+    1254
+  ],
+  "frames": [
+    {
+      "x": 119,
+      "y": 15,
+      "w": 358,
+      "h": 604,
+      "anchorX": 339.6,
+      "anchorY": 610
+    },
+    {
+      "x": 747,
+      "y": 27,
+      "w": 399,
+      "h": 592,
+      "anchorX": 959.3,
+      "anchorY": 610
+    },
+    {
+      "x": 77,
+      "y": 644,
+      "w": 549,
+      "h": 574,
+      "anchorX": 319.9,
+      "anchorY": 1209
+    },
+    {
+      "x": 699,
+      "y": 637,
+      "w": 516,
+      "h": 584,
+      "anchorX": 830.1,
+      "anchorY": 1212
+    }
+  ],
+  "measurements": [
+    {
+      "i": 0,
+      "row": 0,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "w": 612,
+        "h": 628
+      },
+      "visibleBounds": {
+        "x": 127,
+        "y": 23,
+        "w": 342,
+        "h": 588
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 108565,
+      "crop": {
+        "x": 119,
+        "y": 15,
+        "w": 358,
+        "h": 604,
+        "anchorX": 339.6,
+        "anchorY": 610
+      },
+      "headOrHatTop": 23,
+      "groundSole": 610,
+      "anchorMethod": "foot-band alpha centroid and sole baseline"
+    },
+    {
+      "i": 1,
+      "row": 0,
+      "col": 1,
+      "cell": {
+        "x": 612,
+        "y": 0,
+        "w": 642,
+        "h": 628
+      },
+      "visibleBounds": {
+        "x": 755,
+        "y": 35,
+        "w": 383,
+        "h": 576
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 120689,
+      "crop": {
+        "x": 747,
+        "y": 27,
+        "w": 399,
+        "h": 592,
+        "anchorX": 959.3,
+        "anchorY": 610
+      },
+      "headOrHatTop": 35,
+      "groundSole": 610,
+      "anchorMethod": "foot-band alpha centroid and sole baseline"
+    },
+    {
+      "i": 2,
+      "row": 1,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 628,
+        "w": 662,
+        "h": 626
+      },
+      "visibleBounds": {
+        "x": 85,
+        "y": 652,
+        "w": 533,
+        "h": 558
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 150864,
+      "crop": {
+        "x": 77,
+        "y": 644,
+        "w": 549,
+        "h": 574,
+        "anchorX": 319.9,
+        "anchorY": 1209
+      },
+      "headOrHatTop": 652,
+      "groundSole": 1209,
+      "anchorMethod": "foot-band alpha centroid and sole baseline"
+    },
+    {
+      "i": 3,
+      "row": 1,
+      "col": 1,
+      "cell": {
+        "x": 662,
+        "y": 628,
+        "w": 592,
+        "h": 626
+      },
+      "visibleBounds": {
+        "x": 707,
+        "y": 645,
+        "w": 500,
+        "h": 568
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 157571,
+      "crop": {
+        "x": 699,
+        "y": 637,
+        "w": 516,
+        "h": 584,
+        "anchorX": 830.1,
+        "anchorY": 1212
+      },
+      "headOrHatTop": 645,
+      "groundSole": 1212,
+      "anchorMethod": "foot-band alpha centroid and sole baseline"
+    }
+  ]
+}

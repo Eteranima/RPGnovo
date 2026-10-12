@@ -1,6 +1,6 @@
 import type {Entity,Point} from './data';
 
-/** A workshop visitor, separate from recruitment and the playable party. */
+/** The professor remains in the workshop for lore, quests and his recruitment lesson. */
 export const ABEL_NPC_V31:Entity={id:'abel-forja',label:'Abel Nomikos · Professor da Forja Antiga',kind:'npc',asset:'abel',x:8,y:11};
 export const ABEL_PATROL_SPEED_V31=.75;
 export const ABEL_PATROL_PAUSE_V31=.45;

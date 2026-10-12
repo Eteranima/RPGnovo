@@ -1,0 +1,13 @@
+.hint{position:absolute;left:12px;top:250px;width:min(286px,36%);z-index:6;color:#e9dfc7;background:#0d2026ed;border:1px solid #c7af6755;border-radius:5px;font-size:11px;box-shadow:0 3px 10px #0003}
+.heading{display:flex;align-items:center;gap:3px}.heading>button:first-child{display:flex;align-items:center;gap:7px;text-align:left;flex:1;min-width:0;min-height:40px;padding:5px 8px}.heading img{width:24px;height:24px;object-fit:contain}.heading strong{font-size:11px;font-weight:normal}.close{width:34px;height:36px;font-size:20px;color:#c6bfad;flex:none}.body{padding:0 9px 9px}.body p{font-size:11px;line-height:1.5;margin:2px 0 8px}.body button{min-height:40px;padding:4px 10px;border:1px solid #ccb47770;border-radius:3px;color:#e6d29d;font-size:11px}.hint button:focus-visible{outline:2px solid #e7ce8f;outline-offset:2px}
+@media(max-height:440px) and (orientation:landscape){.hint{top:122px;left:8px;width:240px}.heading>button:first-child{min-height:36px}.body{max-height:115px;overflow:auto}}
+@media(max-width:520px) and (orientation:portrait){.hint{top:136px;left:8px;width:min(250px,65%)}}
+/* A native frame outlines the card without filling its transparent center or changing its footprint. */
+.hint{isolation:isolate;color:#f1e4cb;background:linear-gradient(135deg,#172f40f5,#091b2ff2);border-color:#d8ba8177;box-shadow:0 4px 14px #0005,inset 0 1px #efd49b24}
+.hint:before{content:"";position:absolute;z-index:0;inset:0;border:8px solid transparent;border-image:url('/assets/v38/interface/arcane-frame.png') 210 stretch;pointer-events:none}
+.heading,.body{position:relative;z-index:1}
+.heading strong{color:#f4ddae;font-weight:600}
+.body p{color:#dfebee}
+.body button{background:#173447b8;color:#ffedc4;border-color:#dbc18e88;box-shadow:inset 0 1px #fff3cb16}
+.close{color:#f1dcb6}
+.close:hover,.body button:hover{color:#fff4d6;background:#294657}

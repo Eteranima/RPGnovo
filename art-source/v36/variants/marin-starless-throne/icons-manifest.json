@@ -1,0 +1,273 @@
+{
+  "id": "marin-starless-throne",
+  "kind": "icons",
+  "tool": "built-in image_gen",
+  "source": "art-source/v36/variants/marin-starless-throne/icons-source.png",
+  "selected": "art-source/v36/variants/marin-starless-throne/icons-source.png",
+  "runtime": "public/assets/v36/variants/marin-starless-throne/icons.png",
+  "width": 1536,
+  "height": 1024,
+  "cols": 3,
+  "rows": 2,
+  "sourceSha256": "7136b15ed6ef06cb13d3f67c73ab3a20cdceb1b7f49e2dca03acff47265d1ea6",
+  "selectedSha256": "7136b15ed6ef06cb13d3f67c73ab3a20cdceb1b7f49e2dca03acff47265d1ea6",
+  "runtimeSha256": "7136b15ed6ef06cb13d3f67c73ab3a20cdceb1b7f49e2dca03acff47265d1ea6",
+  "byteIdenticalSourceCopies": true,
+  "alphaThresholdForMeasurementOnly": 24,
+  "backgroundAlphaZero": 693631,
+  "rowCuts": [
+    0,
+    504,
+    1024
+  ],
+  "frames": [
+    {
+      "x": 38,
+      "y": 7,
+      "w": 445,
+      "h": 490,
+      "anchorX": 260,
+      "anchorY": 251.5
+    },
+    {
+      "x": 516,
+      "y": 25,
+      "w": 504,
+      "h": 479,
+      "anchorX": 767.5,
+      "anchorY": 264
+    },
+    {
+      "x": 1045,
+      "y": 21,
+      "w": 467,
+      "h": 475,
+      "anchorX": 1278,
+      "anchorY": 258
+    },
+    {
+      "x": 40,
+      "y": 505,
+      "w": 426,
+      "h": 504,
+      "anchorX": 252.5,
+      "anchorY": 756.5
+    },
+    {
+      "x": 552,
+      "y": 518,
+      "w": 436,
+      "h": 493,
+      "anchorX": 769.5,
+      "anchorY": 764
+    },
+    {
+      "x": 1034,
+      "y": 505,
+      "w": 491,
+      "h": 500,
+      "anchorX": 1279,
+      "anchorY": 754.5
+    }
+  ],
+  "measurements": [
+    {
+      "i": 0,
+      "row": 0,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "w": 499,
+        "h": 504
+      },
+      "visibleBounds": {
+        "x": 46,
+        "y": 15,
+        "w": 429,
+        "h": 474
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 93595,
+      "crop": {
+        "x": 38,
+        "y": 7,
+        "w": 445,
+        "h": 490,
+        "anchorX": 260,
+        "anchorY": 251.5
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v36/variants/marin-starless-throne/icons/0.png",
+        "sha256": "bc4cfbc5436d478b5bc722d322d723f5f45cfcfd67e6964296a3965fca7dfa82",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    },
+    {
+      "i": 1,
+      "row": 0,
+      "col": 1,
+      "cell": {
+        "x": 499,
+        "y": 0,
+        "w": 533,
+        "h": 504
+      },
+      "visibleBounds": {
+        "x": 524,
+        "y": 33,
+        "w": 488,
+        "h": 463
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 111545,
+      "crop": {
+        "x": 516,
+        "y": 25,
+        "w": 504,
+        "h": 479,
+        "anchorX": 767.5,
+        "anchorY": 264
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v36/variants/marin-starless-throne/icons/1.png",
+        "sha256": "5a3e903a48076f9920487d0abd59716ae0e2a34cbaa0b15152b26fd6e5996c16",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    },
+    {
+      "i": 2,
+      "row": 0,
+      "col": 2,
+      "cell": {
+        "x": 1032,
+        "y": 0,
+        "w": 504,
+        "h": 504
+      },
+      "visibleBounds": {
+        "x": 1053,
+        "y": 29,
+        "w": 451,
+        "h": 459
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 124502,
+      "crop": {
+        "x": 1045,
+        "y": 21,
+        "w": 467,
+        "h": 475,
+        "anchorX": 1278,
+        "anchorY": 258
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v36/variants/marin-starless-throne/icons/2.png",
+        "sha256": "77cef42e18c70e711356c1eebe52b6a4b323321e54098bb81980257aa83d8634",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    },
+    {
+      "i": 3,
+      "row": 1,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 504,
+        "w": 509,
+        "h": 520
+      },
+      "visibleBounds": {
+        "x": 48,
+        "y": 513,
+        "w": 410,
+        "h": 488
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 108804,
+      "crop": {
+        "x": 40,
+        "y": 505,
+        "w": 426,
+        "h": 504,
+        "anchorX": 252.5,
+        "anchorY": 756.5
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v36/variants/marin-starless-throne/icons/3.png",
+        "sha256": "a538befff39f65e3ea6827f12ffe7a1db48b20d9fa3e832abe17b76ab98ef42b",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    },
+    {
+      "i": 4,
+      "row": 1,
+      "col": 1,
+      "cell": {
+        "x": 509,
+        "y": 504,
+        "w": 502,
+        "h": 520
+      },
+      "visibleBounds": {
+        "x": 560,
+        "y": 526,
+        "w": 420,
+        "h": 477
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 85735,
+      "crop": {
+        "x": 552,
+        "y": 518,
+        "w": 436,
+        "h": 493,
+        "anchorX": 769.5,
+        "anchorY": 764
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v36/variants/marin-starless-throne/icons/4.png",
+        "sha256": "68b24eb40c182ca8a0b86fb2facd54c1dfd4dec0dc539a6085534a737c672b93",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    },
+    {
+      "i": 5,
+      "row": 1,
+      "col": 2,
+      "cell": {
+        "x": 1011,
+        "y": 504,
+        "w": 525,
+        "h": 520
+      },
+      "visibleBounds": {
+        "x": 1042,
+        "y": 513,
+        "w": 475,
+        "h": 484
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 139650,
+      "crop": {
+        "x": 1034,
+        "y": 505,
+        "w": 491,
+        "h": 500,
+        "anchorX": 1279,
+        "anchorY": 754.5
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v36/variants/marin-starless-throne/icons/5.png",
+        "sha256": "c68ce7b8577bcf30669c46adf7b9a0ab2b324f3b4b501e601ff6f298d5159b50",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    }
+  ]
+}

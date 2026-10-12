@@ -5,6 +5,11 @@ import {ABEL_NPC_V31} from './abelNpcV31';
 import {REMAKE_ASSETS} from './remakeArt';
 import {ORFEU_ASSETS_V30} from './orfeuArtV30';
 import {EXPANSION_MAPS_V30,EXPANSION_GATEWAYS_V30,ENEMY_ULTIMATES_V30,EXPANSION_BATTLE_BACKGROUNDS_V30} from './expansionV30';
+import {skillV36,SKILLS_V36} from './skillsV36';
+import {variantSignatureV36,variantCompanionV36,VARIANTS_V36,type VariantIdV36} from './variantsV36';
+import {VARIANT_ASSETS_V36} from './variantArtV36';
+import {ABEL_BASE_V36,ABEL_SKILLS_V36,ABEL_ULTIMATE_V36,abelSkillV36} from './abelPlayableV36';
+import {ABEL_SKILL_ASSETS_V36} from './abelArtV36';
 
 export type MapId = 'patio' | 'arquivo' | 'subsolo' | 'camara' | 'porto' | 'domo' | 'galeria' | 'ashwood' | 'ashpyre' | 'vigilia' | 'jardim-lunar' | 'observatorio';
 export type Point = { x: number; y: number };
@@ -133,17 +138,17 @@ export const OBJECTIVES = [
 export const HERO_IDS=['seiji','ophelia','marin','gabriel','max'] as const;
 export type BaseHeroId=typeof HERO_IDS[number];
 export const STARTING_HERO_IDS:readonly BaseHeroId[]=['seiji','marin','gabriel','ophelia','max'];
-export type HeroId=BaseHeroId|'beatriz'|'orfeu'|'ava'|'carmilla';
-export const PLAYABLE_HERO_IDS:readonly HeroId[]=[...HERO_IDS,'beatriz','orfeu','ava','carmilla'];
+export type HeroId=BaseHeroId|'beatriz'|'orfeu'|'ava'|'carmilla'|'abel';
+export const PLAYABLE_HERO_IDS:readonly HeroId[]=[...HERO_IDS,'beatriz','orfeu','ava','carmilla','abel'];
 export type CombatElement='ink'|'ice'|'dark'|'fire'|'lightning'|'water'|'water-dark'|'neutral'|'earth'|'blood';
-export const HERO_COMBAT_ELEMENTS:Record<HeroId,CombatElement>={seiji:'ink',ophelia:'ice',marin:'dark',gabriel:'fire',max:'lightning',beatriz:'water',orfeu:'neutral',ava:'earth',carmilla:'blood'};
+export const HERO_COMBAT_ELEMENTS:Record<HeroId,CombatElement>={seiji:'ink',ophelia:'ice',marin:'dark',gabriel:'fire',max:'lightning',beatriz:'water',orfeu:'neutral',ava:'earth',carmilla:'blood',abel:'fire'};
 export const ELEMENT_LABELS:Record<CombatElement,string>={ink:'Tinta',ice:'Gelo',dark:'Trevas',fire:'Fogo',lightning:'Eletricidade',water:'Água','water-dark':'Água / Trevas',neutral:'Físico',earth:'Terra',blood:'Sangue'};
 export const ELEMENT_COLORS:Record<CombatElement,string>={ink:'#7c9fc9',ice:'#b4edff',dark:'#b673ff',fire:'#ff9354',lightning:'#c4eaff',water:'#71d8ed','water-dark':'#9bafed',neutral:'#cad3dc',earth:'#d9b779',blood:'#e783a1'};
 // Consumables are neutral. Beatriz's two elements remain distinct; all other
 // offensive actions inherit the hero's identity, including the basic attack.
 export function combatElement(hero:HeroId,action:string):CombatElement{
  if(['guard','potion','ether','remedy'].includes(action))return 'neutral';
- if(hero==='beatriz')return action==='umbra-seal'?'dark':['ultimate','abyss-countertide'].includes(action)?'water-dark':'water';
+ if(hero==='beatriz')return action==='umbra-seal'?'dark':['ultimate','abyss-countertide','undertow','twin-current','eclipse-tide-decree'].includes(action)?'water-dark':'water';
  return HERO_COMBAT_ELEMENTS[hero];
 }
 export const EARTH_VFX_FRAMES=Array.from({length:6},(_,frame)=>({x:frame%3*512+16,y:Math.floor(frame/3)*512+16,w:480,h:480}));
@@ -156,7 +161,7 @@ export function combatImpact(element:CombatElement):{asset:string;row:number;row
  // borrow the fire, ice or dark atlas for an unrelated elemental identity.
  return undefined;
 }
-export const ULTIMATE_NAMES:Record<HeroId,string>={seiji:'Códice da Página Final',ophelia:'Catedral do Inverno',marin:'Lâmina da Hora Zero',gabriel:'Forja da Alvorada Lycan',max:'Crucificação do Trovão',beatriz:'Tribunal das Duas Marés',orfeu:'Domínio Nulo',ava:'Soberania da Terra',carmilla:'Catedral de Fios Rubros'};
+export const ULTIMATE_NAMES:Record<HeroId,string>={seiji:'Códice da Página Final',ophelia:'Catedral do Inverno',marin:'Lâmina da Hora Zero',gabriel:'Forja da Alvorada Lycan',max:'Crucificação do Trovão',beatriz:'Tribunal das Duas Marés',orfeu:'Domínio Nulo',ava:'Soberania da Terra',carmilla:'Catedral de Fios Rubros',abel:ABEL_ULTIMATE_V36.name};
 export const ULTIMATE_DESCRIPTIONS:Record<HeroId,string>={
  seiji:'Tinta sela a página final: dano, silêncio e enfraquecimento do próximo golpe.',
  ophelia:'Uma catedral de gelo cura o grupo, remove estados, concede guarda e congela o inimigo uma vez.',
@@ -167,8 +172,9 @@ export const ULTIMATE_DESCRIPTIONS:Record<HeroId,string>={
  orfeu:'Impacto físico rompe a magia inimiga e protege o grupo.',
  ava:'Estratos de terra prendem o inimigo e restauram o grupo.',
  carmilla:'Fios de sangue curam os aliados vivos mais feridos em proporção, limpam seus estados e protegem o grupo. Carmilla recebe 15% do HP curado.',
+ abel:ABEL_ULTIMATE_V36.description,
 };
-export type SignatureTechnique={id:string;name:string;cost:number;description:string;node:string;requires:string;target:'enemy'|'ally';damage?:number;heal?:number;guard?:'ally'|'party';selfHeal?:number;woundedHeal?:number;status?:'silence'|'blind'|'bleed';turns?:number;weaken?:boolean;chargeDrain?:number;cleanse?:'bleed'|'all'};
+export type SignatureTechnique={id:string;name:string;cost:number;description:string;node:string;requires:string;target:'enemy'|'ally'|'self'|'party';damage?:number;physical?:boolean;canUseSilenced?:boolean;heal?:number;partyHeal?:number;guard?:'ally'|'party';selfHeal?:number;woundedHeal?:number;status?:'silence'|'blind'|'bleed'|'bind';statuses?:readonly {status:'silence'|'blind'|'bleed';turns:number}[];turns?:number;weaken?:boolean;chargeDrain?:number;cleanse?:'bleed'|'blind'|'silence'|'all'};
 /** New nodes add to existing learned IDs; no old unlock is removed from a save. */
 export const SIGNATURE_TECHNIQUES:Partial<Record<HeroId,SignatureTechnique[]>>={
  seiji:[{id:'kanji-interdict',name:'Kanji: Interdição',cost:12,node:'seiji-signature',requires:'seiji-master',target:'enemy',damage:34,status:'silence',turns:1,weaken:true,description:'34 de dano de Tinta; silêncio por 1 ação e enfraquece o próximo golpe.'}],
@@ -179,8 +185,8 @@ export const SIGNATURE_TECHNIQUES:Partial<Record<HeroId,SignatureTechnique[]>>={
  beatriz:[{id:'abyss-countertide',name:'Contramaré Abissal',cost:14,node:'beatriz-signature',requires:'beatriz-master',target:'enemy',damage:38,status:'blind',turns:1,weaken:true,description:'38 de dano de Água / Trevas; cegueira por 1 ação e enfraquece o próximo golpe.'}],
  carmilla:[{id:'crimson-suture',name:'Sutura Carmesim',cost:11,node:'carmilla-suture',requires:'carmilla-vital',target:'enemy',damage:26,woundedHeal:22,status:'bleed',turns:2,description:'26 de dano de Sangue; sangramento por 2 ações e cura 22 HP do aliado vivo mais ferido em proporção.'},{id:'return-stitch',name:'Ponto de Retorno',cost:13,node:'carmilla-return',requires:'carmilla-suture',target:'ally',heal:30,cleanse:'all',description:'Restaura 30 HP de um aliado vivo e remove todos os estados. Não revive.'}],
 };
-export function signatureTechnique(id:string){return Object.values(SIGNATURE_TECHNIQUES).flat().find(skill=>skill.id===id);}
-export type Hero={id:HeroId;name:string;element:string;role:string;maxHp:number;hp:number;maxMp:number;mp:number;atk:number;spd:number;guard:boolean};
+export function signatureTechnique(id:string):SignatureTechnique|undefined{return Object.values(SIGNATURE_TECHNIQUES).flat().find(skill=>skill.id===id)||skillV36(id)||variantSignatureV36(id)||abelSkillV36(id);}
+export type Hero={id:HeroId;variantId?:VariantIdV36;name:string;element:string;role:string;maxHp:number;hp:number;maxMp:number;mp:number;atk:number;spd:number;guard:boolean};
 export const heroBases=():Hero[]=>[
  {id:'seiji',name:'Seiji',element:'Tinta',role:'Escriba',maxHp:85,hp:85,maxMp:40,mp:40,atk:18,spd:15,guard:false},
  {id:'ophelia',name:'Ophelia',element:'Gelo',role:'Curandeira',maxHp:70,hp:70,maxMp:55,mp:55,atk:14,spd:13,guard:false},
@@ -191,9 +197,10 @@ export const heroBases=():Hero[]=>[
  {id:'orfeu',name:'Orfeu',element:'Sem Elemento',role:'Antimago / Controle',maxHp:76,hp:76,maxMp:64,mp:64,atk:16,spd:16,guard:false},
  {id:'ava',name:'Ava',element:'Terra',role:'Controle / Cura',maxHp:82,hp:82,maxMp:58,mp:58,atk:18,spd:12,guard:false},
  {id:'carmilla',name:'Carmilla',element:'Sangue',role:'Suporte / Cura',maxHp:92,hp:92,maxMp:52,mp:52,atk:15,spd:14,guard:false},
+ {...ABEL_BASE_V36},
 ];
 export const newHeroes=()=>heroBases().slice(0,2);
-export const SKILLS:Record<HeroId,{id:string;name:string;cost:number;description:string}[]>={marin:[{id:'eclipse',name:'Eclipse',cost:7,description:'34 de dano de Trevas.'},{id:'drain',name:'Sifão Sombrio',cost:11,description:'26 de dano e recupera 18 HP.'}],gabriel:[{id:'blaze',name:'Punho de Brasa',cost:7,description:'36 de dano de Fogo.'},{id:'bulwark',name:'Baluarte',cost:9,description:'Guarda todos os aliados contra o próximo golpe.'}],seiji:[{id:'cut',name:'Tinta Cortante',cost:6,description:'38 de dano de Tinta.'},{id:'stain',name:'Mancha Viva',cost:12,description:'26 de dano. Enfraquece o próximo golpe inimigo.'}],ophelia:[{id:'shard',name:'Estilhaço Glacial',cost:7,description:'32 de dano de Gelo.'},{id:'mend',name:'Orvalho',cost:9,description:'Restaura 36 HP de um aliado.'}],max:[{id:'voltcut',name:'Corte de Vajra',cost:7,description:'34 de dano elétrico.'},{id:'stormguard',name:'Guarda de Tempestade',cost:10,description:'Protege o grupo e remove cegueira.'}],beatriz:[{id:'tidecut',name:'Lâmina da Maré',cost:8,description:'36 de dano de Água.'},{id:'umbra-seal',name:'Selo Umbral',cost:12,description:'25 de dano de Trevas e cegueira por 2 ações.'},{id:'margem',name:'Margem Serena',cost:11,description:'Restaura 32 HP e remove estados de um aliado.'}],orfeu:[{id:'echo-strike',name:'Palma de Ruptura',cost:8,description:'32 de dano físico e interrompe magia por 1 ação.'},{id:'echo-ward',name:'Guarda Nula',cost:11,description:'Protege o grupo e remove silêncio de cada aliado.'}],ava:[{id:'vine-strike',name:'Punho de Estratos',cost:8,description:'32 de dano de Terra e prisão de pedra por 1 ação.'},{id:'garden-heal',name:'Seiva da Terra',cost:10,description:'Restaura 38 HP de um aliado com o Éter da terra.'}],carmilla:[{id:'in-aeternum-vive',name:'IN AETERNUM VIVE',cost:0,description:'Cura totalmente o HP perdido dos aliados vivos mais feridos (%). Carmilla sofre 15% desse HP como dano.'}]};
+export const SKILLS:Record<HeroId,{id:string;name:string;cost:number;description:string}[]>={abel:ABEL_SKILLS_V36.filter(skill=>!skill.node),marin:[{id:'eclipse',name:'Eclipse',cost:7,description:'34 de dano de Trevas.'},{id:'drain',name:'Sifão Sombrio',cost:11,description:'26 de dano e recupera 18 HP.'}],gabriel:[{id:'blaze',name:'Punho de Brasa',cost:7,description:'36 de dano de Fogo.'},{id:'bulwark',name:'Baluarte',cost:9,description:'Guarda todos os aliados contra o próximo golpe.'}],seiji:[{id:'cut',name:'Tinta Cortante',cost:6,description:'38 de dano de Tinta.'},{id:'stain',name:'Mancha Viva',cost:12,description:'26 de dano. Enfraquece o próximo golpe inimigo.'}],ophelia:[{id:'shard',name:'Estilhaço Glacial',cost:7,description:'32 de dano de Gelo.'},{id:'mend',name:'Orvalho',cost:9,description:'Restaura 36 HP de um aliado.'}],max:[{id:'voltcut',name:'Corte de Vajra',cost:7,description:'34 de dano elétrico.'},{id:'stormguard',name:'Guarda de Tempestade',cost:10,description:'Protege o grupo e remove cegueira.'}],beatriz:[{id:'tidecut',name:'Lâmina da Maré',cost:8,description:'36 de dano de Água.'},{id:'umbra-seal',name:'Selo Umbral',cost:12,description:'25 de dano de Trevas e cegueira por 2 ações.'},{id:'margem',name:'Margem Serena',cost:11,description:'Restaura 32 HP e remove estados de um aliado.'}],orfeu:[{id:'echo-strike',name:'Palma de Ruptura',cost:8,description:'32 de dano físico e interrompe magia por 1 ação.'},{id:'echo-ward',name:'Guarda Nula',cost:11,description:'Protege o grupo e remove silêncio de cada aliado.'}],ava:[{id:'vine-strike',name:'Punho de Estratos',cost:8,description:'32 de dano de Terra e prisão de pedra por 1 ação.'},{id:'garden-heal',name:'Seiva da Terra',cost:10,description:'Restaura 38 HP de um aliado com o Éter da terra.'}],carmilla:[{id:'in-aeternum-vive',name:'IN AETERNUM VIVE',cost:0,description:'Cura totalmente o HP perdido dos aliados vivos mais feridos (%). Carmilla sofre 15% desse HP como dano.'}]};
 
 export const ORIGINS:Record<HeroId,{title:string;map:MapId;position:Point;lore:string;opening:string;hint:string}>= {
  seiji:{title:'A tinta que desperta',map:'patio',position:{x:14,y:12},lore:'A tinta de Seiji reage a uma memória enterrada sob a Academia. Ele precisa descobrir quem apagou a escada dos registros.',opening:'Meu pincel escreveu uma palavra que eu não conheço. A tinta aponta para baixo da Academia. Beatriz deve ter ouvido o mesmo ruído.',hint:'Fale com Seiji no Arquivo depois de ler o registro.'},
@@ -204,6 +211,7 @@ export const ORIGINS:Record<HeroId,{title:string;map:MapId;position:Point;lore:s
  beatriz:{title:'A margem oculta',map:'patio',position:{x:10.8,y:11},lore:'A mestra da Academia guarda a memória das águas profundas de Stone Reach.',opening:'Uma margem para os nossos; a profundidade para vocês.',hint:'Exclusiva da Convocação do Éter 5★.'},
  orfeu:{title:'A primeira palavra',map:'arquivo',position:{x:16,y:13},lore:'O professor lê ecos onde a pedra guarda histórias.',opening:'O primeiro som ainda está aqui.',hint:'Invoque Orfeu e conclua sua Aula de Vínculo no Arquivo.'},
  ava:{title:'Sementes que acordam',map:'domo',position:{x:12,y:7},lore:'A professora do Domo escuta o Éter nas raízes.',opening:'Há vida mesmo sob a pedra.',hint:'Invoque Ava e conclua sua Aula de Vínculo no Domo.'},
+ abel:{title:'A chama sem encanto',map:'ashpyre',position:{x:8,y:11},lore:'Abel Nomikos ensina a controlar o fogo primordial sem deixar que a força decida por quem a usa.',opening:'Não é chama. É o começo.',hint:'Convoque Abel 5★ e conclua a Aula de Vínculo no Pátio Central ou com o professor na Clareira da Pira.'},
  carmilla:{title:'Enquanto eu respirar',map:'patio',position:{x:14,y:12},lore:'A professora vampira assume em si as feridas daqueles que protege.',opening:'Enquanto eu respirar, tu hás de respirar. In æternum vive.',hint:'Complete todas as conquistas ou ative o Modo Mestre.'}
 };
 MAPS.arquivo.entities.push({id:'seiji',label:'Seiji · Escriba da Tinta',kind:'npc',x:8,y:12,asset:'seiji'});
@@ -220,7 +228,7 @@ for(const [map,skill,x,y] of [['porto','ink-glyph',9,9],['galeria','ink-glyph',7
 
 ASSETS.battle_vfx='/assets/v18/combat-vfx.webp';ASSETS.battle_phases='/assets/v18/boss-phases.webp';
 
-export const COMPANIONS:Record<HeroId,{name:string;column:number;line:string}>={seiji:{name:'Shin',column:2,line:'A tinta de Seiji ainda guarda caminhos.'},ophelia:{name:'Mika',column:1,line:'O frio mostra aquilo que o medo tenta esconder.'},marin:{name:'Umbra',column:0,line:'A noite é mais educada quando se aprende a ouvi-la.'},gabriel:{name:'Dante',column:3,line:'A chama não se curva. Ela conduz.'},max:{name:'Vajra',column:4,line:'Vajra: eu vi o próximo relâmpago!'},beatriz:{name:'Stone Reach',column:0,line:'Toda margem existe porque a água escolhe um caminho.'},orfeu:{name:'Stone Reach',column:0,line:'O primeiro som ainda ecoa.'},ava:{name:'Stone Reach',column:0,line:'As raízes lembram o caminho.'},carmilla:{name:'Stone Reach',column:0,line:'Carmilla mantém o grupo vivo, mesmo quando a dor recai sobre ela.'}};
+export const COMPANIONS:Record<HeroId,{name:string;column:number;line:string}>={seiji:{name:'Shin',column:2,line:'A tinta de Seiji ainda guarda caminhos.'},ophelia:{name:'Mika',column:1,line:'O frio mostra aquilo que o medo tenta esconder.'},marin:{name:'Umbra',column:0,line:'A noite é mais educada quando se aprende a ouvi-la.'},gabriel:{name:'Dante',column:3,line:'A chama não se curva. Ela conduz.'},max:{name:'Vajra',column:4,line:'Vajra: eu vi o próximo relâmpago!'},beatriz:{name:'Stone Reach',column:0,line:'Toda margem existe porque a água escolhe um caminho.'},orfeu:{name:'Stone Reach',column:0,line:'O primeiro som ainda ecoa.'},ava:{name:'Stone Reach',column:0,line:'As raízes lembram o caminho.'},carmilla:{name:'Stone Reach',column:0,line:'Carmilla mantém o grupo vivo, mesmo quando a dor recai sobre ela.'},abel:{name:'Stone Reach',column:0,line:'O fogo da forja aquece sem decidir por quem o acende.'}};
 for(const gateway of EXPANSION_GATEWAYS_V30)MAPS[gateway.map].entities.push(gateway.entity);
 export const battleBackground=(map:MapId)=>map in EXPANSION_BATTLE_BACKGROUNDS_V30?EXPANSION_BATTLE_BACKGROUNDS_V30[map as keyof typeof EXPANSION_BATTLE_BACKGROUNDS_V30]:['ashwood','ashpyre','vigilia'].includes(map)?'battle_bg_forest':['subsolo','camara','galeria'].includes(map)?'battle_bg_below':'battle_bg_academy';
 export const ENEMY_ULTIMATES:Record<string,{name:string;area:boolean;multiplier:number;status:'bleed'|'blind'|'freeze'|'silence';element?:CombatElement}>={
@@ -260,3 +268,15 @@ Object.assign(ASSETS,ENEMY_ASSETS_V30);
 Object.assign(ASSETS,QUEST_WORLD_ASSETS_V31);
 
 Object.assign(ASSETS,EXPLORATION_ASSETS_V31);
+
+for(const skill of SKILLS_V36)ASSETS[`skill_icon_${skill.hero}_${skill.id}`]=`/assets/v36/skills/${skill.hero}/${skill.id}.png`;
+for(const variant of VARIANTS_V36){
+ const path=`/assets/v36/variants/${variant.id}`;
+ ASSETS[variant.id]=`${path}/walk.png`;ASSETS[`dlg_${variant.id}`]=`${path}/portrait.png`;ASSETS[`face_${variant.id}`]=`${path}/face.png`;
+ for(const action of ['attack','cast','ultimate'])ASSETS[`battle_${variant.id}_${action}`]=`${path}/${action}.png`;
+ ASSETS[`battle_fx_${variant.id}`]=`${path}/vfx.png`;
+ for(let i=0;i<6;i++)ASSETS[`skill_icon_${variant.id}_${i}`]=`${path}/icons/${i}.png`;
+ const companion=variantCompanionV36(variant.id);if(companion){ASSETS[companion.key]=companion.path;ASSETS[companion.eventKey]=companion.eventPath;}
+}
+Object.assign(ASSETS,VARIANT_ASSETS_V36);
+Object.assign(ASSETS,ABEL_SKILL_ASSETS_V36);

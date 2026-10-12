@@ -1,0 +1,48 @@
+[
+  {
+    "kind": "walk",
+    "source": "art-source/v36/variants/seiji-last-script/walk-source.png",
+    "runtime": "public/assets/v36/variants/seiji-last-script/walk.png",
+    "sha256": "06d2c626c1807ba509784c8b1d65d85084b23c5b33bb0b3592cd9edd96b14d8e"
+  },
+  {
+    "kind": "attack",
+    "source": "art-source/v36/variants/seiji-last-script/attack-source.png",
+    "runtime": "public/assets/v36/variants/seiji-last-script/attack.png",
+    "sha256": "2808d9e7cb1eccecdb1f0f8bc70e0d737deac1e0ddca78bdc3fa71e1ac856fbd"
+  },
+  {
+    "kind": "cast",
+    "source": "art-source/v36/variants/seiji-last-script/cast-source.png",
+    "runtime": "public/assets/v36/variants/seiji-last-script/cast.png",
+    "sha256": "51fc59e4e6701ba52ebb59d9eaafc8bd44afbc0ee6f9f9129c9f91146cb3ba2e"
+  },
+  {
+    "kind": "ultimate",
+    "source": "art-source/v36/variants/seiji-last-script/ultimate-source.png",
+    "runtime": "public/assets/v36/variants/seiji-last-script/ultimate.png",
+    "sha256": "ef00ee3ba72aa4cfb58d20bab106c0f08c7e886ee0068508e174a88eff84899a"
+  },
+  {
+    "kind": "vfx",
+    "source": "art-source/v36/variants/seiji-last-script/vfx-source.png",
+    "runtime": "public/assets/v36/variants/seiji-last-script/vfx.png",
+    "sha256": "f953c4a351f194506c32bb3feefb350fc0385e6efda6f0fe1de2c8c02a57fd23"
+  },
+  {
+    "kind": "icons",
+    "source": "art-source/v36/variants/seiji-last-script/icons-source.png",
+    "runtime": "public/assets/v36/variants/seiji-last-script/icons.png",
+    "sha256": "52530a2a284e14a9dddc2ef4c56f2971013c5ced7932d519bc201212b7588749"
+  },
+  {
+    "kind": "companion",
+    "source": "art-source/v36/variants/seiji-last-script/companion-source.png",
+    "runtime": "public/assets/v36/variants/seiji-last-script/companion.png",
+    "sha256": "f707bd011cb86d431865eb40841f1e548fb557959df851f51880ec386e0bcee0"
+  },
+  {
+    "kind": "portrait-source-read-only",
+    "sha256": "ea25e6cf1bda674aaffa6cde85a05748f4d6151240919a1f39e9e95d6d479a7f"
+  }
+]

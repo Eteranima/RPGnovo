@@ -1,0 +1,34 @@
+{
+  "source": "art-source/v36/variants/ophelia-white-equinox/companion-source.png",
+  "sourceSha256": "3ff86ee59b39a5a126fc567e756fc5bdb4b16a6986e3639015fb824296b18875",
+  "exports": [
+    {
+      "name": "companion-fullbody-preview",
+      "frame": 0,
+      "crop": {
+        "x": 99,
+        "y": 41,
+        "w": 341,
+        "h": 675,
+        "anchorX": 277.7,
+        "anchorY": 707
+      },
+      "path": "public/assets/v36/variants/ophelia-white-equinox/companion-fullbody-preview.png",
+      "sha256": "55741006ff0c36c60901757065fd70bbdae0f55010a0a5f67e143399a826c6d1",
+      "allNativeRgbaPixelsPreserved": true
+    },
+    {
+      "name": "companion-event-preview",
+      "frame": 2,
+      "crop": {
+        "x": 95,
+        "y": 815,
+        "w": 412,
+        "h": 461
+      },
+      "path": "public/assets/v36/variants/ophelia-white-equinox/companion-event-preview.png",
+      "sha256": "577b4c5871729fae34d395f81e13a916cb47f3de76bc844ac17dc7cd239c7c07",
+      "allNativeRgbaPixelsPreserved": true
+    }
+  ]
+}

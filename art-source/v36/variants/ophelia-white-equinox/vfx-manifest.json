@@ -1,0 +1,243 @@
+{
+  "id": "ophelia-white-equinox",
+  "kind": "vfx",
+  "tool": "built-in image_gen",
+  "source": "art-source/v36/variants/ophelia-white-equinox/vfx-repair-candidate.png",
+  "selected": "art-source/v36/variants/ophelia-white-equinox/vfx-source.png",
+  "runtime": "public/assets/v36/variants/ophelia-white-equinox/vfx.png",
+  "width": 1536,
+  "height": 1024,
+  "cols": 3,
+  "rows": 2,
+  "sourceSha256": "1f252c26a2a8bfed564c870b13870bd135a720b5ae5e7221c13bb1d86d5e57ab",
+  "selectedSha256": "1f252c26a2a8bfed564c870b13870bd135a720b5ae5e7221c13bb1d86d5e57ab",
+  "runtimeSha256": "1f252c26a2a8bfed564c870b13870bd135a720b5ae5e7221c13bb1d86d5e57ab",
+  "byteIdenticalSourceCopies": true,
+  "alphaThresholdForMeasurementOnly": 24,
+  "backgroundAlphaZero": 1116087,
+  "rowCuts": [
+    0,
+    511,
+    1024
+  ],
+  "frames": [
+    {
+      "x": 113,
+      "y": 141,
+      "w": 263,
+      "h": 293,
+      "anchorX": 244,
+      "anchorY": 287
+    },
+    {
+      "x": 576,
+      "y": 167,
+      "w": 360,
+      "h": 278,
+      "anchorX": 755.5,
+      "anchorY": 305.5
+    },
+    {
+      "x": 1085,
+      "y": 101,
+      "w": 378,
+      "h": 369,
+      "anchorX": 1273.5,
+      "anchorY": 285
+    },
+    {
+      "x": 63,
+      "y": 552,
+      "w": 360,
+      "h": 402,
+      "anchorX": 242.5,
+      "anchorY": 752.5
+    },
+    {
+      "x": 569,
+      "y": 552,
+      "w": 395,
+      "h": 391,
+      "anchorX": 766,
+      "anchorY": 747
+    },
+    {
+      "x": 1080,
+      "y": 553,
+      "w": 384,
+      "h": 390,
+      "anchorX": 1271.5,
+      "anchorY": 747.5
+    }
+  ],
+  "measurements": [
+    {
+      "i": 0,
+      "row": 0,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "w": 476,
+        "h": 511
+      },
+      "visibleBounds": {
+        "x": 121,
+        "y": 149,
+        "w": 247,
+        "h": 277
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 21143,
+      "crop": {
+        "x": 113,
+        "y": 141,
+        "w": 263,
+        "h": 293,
+        "anchorX": 244,
+        "anchorY": 287
+      },
+      "anchorMethod": "motif center"
+    },
+    {
+      "i": 1,
+      "row": 0,
+      "col": 1,
+      "cell": {
+        "x": 476,
+        "y": 0,
+        "w": 534,
+        "h": 511
+      },
+      "visibleBounds": {
+        "x": 584,
+        "y": 175,
+        "w": 344,
+        "h": 262
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 30619,
+      "crop": {
+        "x": 576,
+        "y": 167,
+        "w": 360,
+        "h": 278,
+        "anchorX": 755.5,
+        "anchorY": 305.5
+      },
+      "anchorMethod": "motif center"
+    },
+    {
+      "i": 2,
+      "row": 0,
+      "col": 2,
+      "cell": {
+        "x": 1010,
+        "y": 0,
+        "w": 526,
+        "h": 511
+      },
+      "visibleBounds": {
+        "x": 1093,
+        "y": 109,
+        "w": 362,
+        "h": 353
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 44110,
+      "crop": {
+        "x": 1085,
+        "y": 101,
+        "w": 378,
+        "h": 369,
+        "anchorX": 1273.5,
+        "anchorY": 285
+      },
+      "anchorMethod": "motif center"
+    },
+    {
+      "i": 3,
+      "row": 1,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 511,
+        "w": 496,
+        "h": 513
+      },
+      "visibleBounds": {
+        "x": 71,
+        "y": 560,
+        "w": 344,
+        "h": 386
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 32603,
+      "crop": {
+        "x": 63,
+        "y": 552,
+        "w": 360,
+        "h": 402,
+        "anchorX": 242.5,
+        "anchorY": 752.5
+      },
+      "anchorMethod": "motif center"
+    },
+    {
+      "i": 4,
+      "row": 1,
+      "col": 1,
+      "cell": {
+        "x": 496,
+        "y": 511,
+        "w": 526,
+        "h": 513
+      },
+      "visibleBounds": {
+        "x": 577,
+        "y": 560,
+        "w": 379,
+        "h": 375
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 65419,
+      "crop": {
+        "x": 569,
+        "y": 552,
+        "w": 395,
+        "h": 391,
+        "anchorX": 766,
+        "anchorY": 747
+      },
+      "anchorMethod": "motif center"
+    },
+    {
+      "i": 5,
+      "row": 1,
+      "col": 2,
+      "cell": {
+        "x": 1022,
+        "y": 511,
+        "w": 514,
+        "h": 513
+      },
+      "visibleBounds": {
+        "x": 1088,
+        "y": 561,
+        "w": 368,
+        "h": 374
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 69561,
+      "crop": {
+        "x": 1080,
+        "y": 553,
+        "w": 384,
+        "h": 390,
+        "anchorX": 1271.5,
+        "anchorY": 747.5
+      },
+      "anchorMethod": "motif center"
+    }
+  ]
+}

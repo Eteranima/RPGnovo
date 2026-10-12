@@ -1,0 +1,7 @@
+{
+  "kind": "vfx",
+  "seamMax": 1,
+  "seamNonZero": 121,
+  "edgeMax": 1,
+  "edgeNonZero": 40
+}

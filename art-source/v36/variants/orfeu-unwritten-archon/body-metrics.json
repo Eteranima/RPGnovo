@@ -1,0 +1,412 @@
+{
+  "id": "orfeu-unwritten-archon",
+  "coordinates": "absolute native source pixels",
+  "direction": "Short white hair, warm golden tan skin, fully covered indigo-black-gold martial attire",
+  "manualHeadTopOverrides": {
+    "walk": {
+      "0": 36,
+      "1": 37,
+      "2": 36,
+      "3": 402,
+      "4": 400,
+      "5": 402,
+      "6": 758,
+      "7": 759,
+      "8": 758,
+      "9": 1113,
+      "10": 1113,
+      "11": 1114
+    },
+    "attack": {
+      "0": 26,
+      "1": 69,
+      "2": 61,
+      "3": 562,
+      "4": 563,
+      "5": 540
+    },
+    "cast": {
+      "0": 39,
+      "1": 45,
+      "2": 79,
+      "3": 552,
+      "4": 544,
+      "5": 530
+    },
+    "ultimate": {
+      "0": 65,
+      "1": 65,
+      "2": 142,
+      "3": 84,
+      "4": 583,
+      "5": 603,
+      "6": 586,
+      "7": 561
+    }
+  },
+  "metrics": [
+    {
+      "kind": "walk",
+      "index": 0,
+      "headTop": 36,
+      "groundSole": 384,
+      "anchorX": 207.3,
+      "anchorY": 384,
+      "headTopMethod": "Hair/temple ornament is topmost visible actor part; individually reviewed",
+      "anchorMethod": "foot-band alpha centroid and sole baseline",
+      "sourceSha256": "0fce08dce8cfc0ac1ef53500010085d3164fde7eba37abf1b257deac38590a1f"
+    },
+    {
+      "kind": "walk",
+      "index": 1,
+      "headTop": 37,
+      "groundSole": 376,
+      "anchorX": 501.3,
+      "anchorY": 376,
+      "headTopMethod": "Hair/temple ornament is topmost visible actor part; individually reviewed",
+      "anchorMethod": "foot-band alpha centroid and sole baseline",
+      "sourceSha256": "0fce08dce8cfc0ac1ef53500010085d3164fde7eba37abf1b257deac38590a1f"
+    },
+    {
+      "kind": "walk",
+      "index": 2,
+      "headTop": 36,
+      "groundSole": 381,
+      "anchorX": 802.5,
+      "anchorY": 381,
+      "headTopMethod": "Hair/temple ornament is topmost visible actor part; individually reviewed",
+      "anchorMethod": "foot-band alpha centroid and sole baseline",
+      "sourceSha256": "0fce08dce8cfc0ac1ef53500010085d3164fde7eba37abf1b257deac38590a1f"
+    },
+    {
+      "kind": "walk",
+      "index": 3,
+      "headTop": 402,
+      "groundSole": 731,
+      "anchorX": 149.5,
+      "anchorY": 731,
+      "headTopMethod": "Hair/temple ornament is topmost visible actor part; individually reviewed",
+      "anchorMethod": "foot-band alpha centroid and sole baseline",
+      "sourceSha256": "0fce08dce8cfc0ac1ef53500010085d3164fde7eba37abf1b257deac38590a1f"
+    },
+    {
+      "kind": "walk",
+      "index": 4,
+      "headTop": 400,
+      "groundSole": 729,
+      "anchorX": 473.9,
+      "anchorY": 729,
+      "headTopMethod": "Hair/temple ornament is topmost visible actor part; individually reviewed",
+      "anchorMethod": "foot-band alpha centroid and sole baseline",
+      "sourceSha256": "0fce08dce8cfc0ac1ef53500010085d3164fde7eba37abf1b257deac38590a1f"
+    },
+    {
+      "kind": "walk",
+      "index": 5,
+      "headTop": 402,
+      "groundSole": 728,
+      "anchorX": 815.9,
+      "anchorY": 728,
+      "headTopMethod": "Hair/temple ornament is topmost visible actor part; individually reviewed",
+      "anchorMethod": "foot-band alpha centroid and sole baseline",
+      "sourceSha256": "0fce08dce8cfc0ac1ef53500010085d3164fde7eba37abf1b257deac38590a1f"
+    },
+    {
+      "kind": "walk",
+      "index": 6,
+      "headTop": 758,
+      "groundSole": 1091,
+      "anchorX": 228.6,
+      "anchorY": 1091,
+      "headTopMethod": "Hair/temple ornament is topmost visible actor part; individually reviewed",
+      "anchorMethod": "foot-band alpha centroid and sole baseline",
+      "sourceSha256": "0fce08dce8cfc0ac1ef53500010085d3164fde7eba37abf1b257deac38590a1f"
+    },
+    {
+      "kind": "walk",
+      "index": 7,
+      "headTop": 759,
+      "groundSole": 1092,
+      "anchorX": 540.3,
+      "anchorY": 1092,
+      "headTopMethod": "Hair/temple ornament is topmost visible actor part; individually reviewed",
+      "anchorMethod": "foot-band alpha centroid and sole baseline",
+      "sourceSha256": "0fce08dce8cfc0ac1ef53500010085d3164fde7eba37abf1b257deac38590a1f"
+    },
+    {
+      "kind": "walk",
+      "index": 8,
+      "headTop": 758,
+      "groundSole": 1093,
+      "anchorX": 839.4,
+      "anchorY": 1093,
+      "headTopMethod": "Hair/temple ornament is topmost visible actor part; individually reviewed",
+      "anchorMethod": "foot-band alpha centroid and sole baseline",
+      "sourceSha256": "0fce08dce8cfc0ac1ef53500010085d3164fde7eba37abf1b257deac38590a1f"
+    },
+    {
+      "kind": "walk",
+      "index": 9,
+      "headTop": 1113,
+      "groundSole": 1474,
+      "anchorX": 188.1,
+      "anchorY": 1474,
+      "headTopMethod": "Hair/temple ornament is topmost visible actor part; individually reviewed",
+      "anchorMethod": "foot-band alpha centroid and sole baseline",
+      "sourceSha256": "0fce08dce8cfc0ac1ef53500010085d3164fde7eba37abf1b257deac38590a1f"
+    },
+    {
+      "kind": "walk",
+      "index": 10,
+      "headTop": 1113,
+      "groundSole": 1472,
+      "anchorX": 502.6,
+      "anchorY": 1472,
+      "headTopMethod": "Hair/temple ornament is topmost visible actor part; individually reviewed",
+      "anchorMethod": "foot-band alpha centroid and sole baseline",
+      "sourceSha256": "0fce08dce8cfc0ac1ef53500010085d3164fde7eba37abf1b257deac38590a1f"
+    },
+    {
+      "kind": "walk",
+      "index": 11,
+      "headTop": 1114,
+      "groundSole": 1478,
+      "anchorX": 847.7,
+      "anchorY": 1478,
+      "headTopMethod": "Hair/temple ornament is topmost visible actor part; individually reviewed",
+      "anchorMethod": "foot-band alpha centroid and sole baseline",
+      "sourceSha256": "0fce08dce8cfc0ac1ef53500010085d3164fde7eba37abf1b257deac38590a1f"
+    },
+    {
+      "kind": "attack",
+      "index": 0,
+      "headTop": 26,
+      "groundSole": 491,
+      "anchorX": 286.1,
+      "anchorY": 491,
+      "headTopMethod": "Hair/temple ornament is topmost visible actor part; individually reviewed",
+      "anchorMethod": "foot-band alpha centroid and sole baseline",
+      "sourceSha256": "692d926992ecb83699c8b0338aaf3c7e573df041e74ef398ab3872b3997dc303"
+    },
+    {
+      "kind": "attack",
+      "index": 1,
+      "headTop": 69,
+      "groundSole": 492,
+      "anchorX": 741.2,
+      "anchorY": 492,
+      "headTopMethod": "Hair/temple ornament is topmost visible actor part; individually reviewed",
+      "anchorMethod": "foot-band alpha centroid and sole baseline",
+      "sourceSha256": "692d926992ecb83699c8b0338aaf3c7e573df041e74ef398ab3872b3997dc303"
+    },
+    {
+      "kind": "attack",
+      "index": 2,
+      "headTop": 61,
+      "groundSole": 491,
+      "anchorX": 1278.3,
+      "anchorY": 491,
+      "headTopMethod": "Hair/temple ornament is topmost visible actor part; individually reviewed",
+      "anchorMethod": "manual body/ground",
+      "sourceSha256": "692d926992ecb83699c8b0338aaf3c7e573df041e74ef398ab3872b3997dc303"
+    },
+    {
+      "kind": "attack",
+      "index": 3,
+      "headTop": 562,
+      "groundSole": 998,
+      "anchorX": 295.6,
+      "anchorY": 998,
+      "headTopMethod": "Hair/temple ornament is topmost visible actor part; individually reviewed",
+      "anchorMethod": "foot-band alpha centroid and sole baseline",
+      "sourceSha256": "692d926992ecb83699c8b0338aaf3c7e573df041e74ef398ab3872b3997dc303"
+    },
+    {
+      "kind": "attack",
+      "index": 4,
+      "headTop": 563,
+      "groundSole": 995,
+      "anchorX": 765.9,
+      "anchorY": 995,
+      "headTopMethod": "Hair/temple ornament is topmost visible actor part; individually reviewed",
+      "anchorMethod": "foot-band alpha centroid and sole baseline",
+      "sourceSha256": "692d926992ecb83699c8b0338aaf3c7e573df041e74ef398ab3872b3997dc303"
+    },
+    {
+      "kind": "attack",
+      "index": 5,
+      "headTop": 540,
+      "groundSole": 1000,
+      "anchorX": 1283.7,
+      "anchorY": 1000,
+      "headTopMethod": "Hair/temple ornament is topmost visible actor part; individually reviewed",
+      "anchorMethod": "foot-band alpha centroid and sole baseline",
+      "sourceSha256": "692d926992ecb83699c8b0338aaf3c7e573df041e74ef398ab3872b3997dc303"
+    },
+    {
+      "kind": "cast",
+      "index": 0,
+      "headTop": 39,
+      "groundSole": 506,
+      "anchorX": 283.1,
+      "anchorY": 506,
+      "headTopMethod": "Hair/temple ornament is topmost visible actor part; individually reviewed",
+      "anchorMethod": "foot-band alpha centroid and sole baseline",
+      "sourceSha256": "bbf54458f4f7f4df24ebc0937dacee5b329fa0f8e710e94efabb586a035923c4"
+    },
+    {
+      "kind": "cast",
+      "index": 1,
+      "headTop": 45,
+      "groundSole": 510,
+      "anchorX": 769.3,
+      "anchorY": 510,
+      "headTopMethod": "Hair/temple ornament is topmost visible actor part; individually reviewed",
+      "anchorMethod": "foot-band alpha centroid and sole baseline",
+      "sourceSha256": "bbf54458f4f7f4df24ebc0937dacee5b329fa0f8e710e94efabb586a035923c4"
+    },
+    {
+      "kind": "cast",
+      "index": 2,
+      "headTop": 79,
+      "groundSole": 501,
+      "anchorX": 1204.8,
+      "anchorY": 501,
+      "headTopMethod": "Hair/temple ornament is topmost visible actor part; individually reviewed",
+      "anchorMethod": "manual body/ground",
+      "sourceSha256": "bbf54458f4f7f4df24ebc0937dacee5b329fa0f8e710e94efabb586a035923c4"
+    },
+    {
+      "kind": "cast",
+      "index": 3,
+      "headTop": 552,
+      "groundSole": 994,
+      "anchorX": 243.1,
+      "anchorY": 994,
+      "headTopMethod": "Hair/temple ornament is topmost visible actor part; individually reviewed",
+      "anchorMethod": "manual body/ground",
+      "sourceSha256": "bbf54458f4f7f4df24ebc0937dacee5b329fa0f8e710e94efabb586a035923c4"
+    },
+    {
+      "kind": "cast",
+      "index": 4,
+      "headTop": 544,
+      "groundSole": 995,
+      "anchorX": 789.3,
+      "anchorY": 995,
+      "headTopMethod": "Hair/temple ornament is topmost visible actor part; individually reviewed",
+      "anchorMethod": "foot-band alpha centroid and sole baseline",
+      "sourceSha256": "bbf54458f4f7f4df24ebc0937dacee5b329fa0f8e710e94efabb586a035923c4"
+    },
+    {
+      "kind": "cast",
+      "index": 5,
+      "headTop": 530,
+      "groundSole": 999,
+      "anchorX": 1261.2,
+      "anchorY": 999,
+      "headTopMethod": "Hair/temple ornament is topmost visible actor part; individually reviewed",
+      "anchorMethod": "foot-band alpha centroid and sole baseline",
+      "sourceSha256": "bbf54458f4f7f4df24ebc0937dacee5b329fa0f8e710e94efabb586a035923c4"
+    },
+    {
+      "kind": "ultimate",
+      "index": 0,
+      "headTop": 65,
+      "groundSole": 496,
+      "anchorX": 179.8,
+      "anchorY": 496,
+      "headTopMethod": "Hair/temple ornament is topmost visible actor part; individually reviewed",
+      "anchorMethod": "foot-band alpha centroid and sole baseline",
+      "sourceSha256": "58a652ba7320732b5a69416eb1f35316e0e5fcedf009d08ffec8c9a183fbd6b3"
+    },
+    {
+      "kind": "ultimate",
+      "index": 1,
+      "headTop": 65,
+      "groundSole": 505,
+      "anchorX": 557.5,
+      "anchorY": 505,
+      "headTopMethod": "Hair/temple ornament is topmost visible actor part; individually reviewed",
+      "anchorMethod": "foot-band alpha centroid and sole baseline",
+      "sourceSha256": "58a652ba7320732b5a69416eb1f35316e0e5fcedf009d08ffec8c9a183fbd6b3"
+    },
+    {
+      "kind": "ultimate",
+      "index": 2,
+      "headTop": 142,
+      "groundSole": 496,
+      "anchorX": 959.7,
+      "anchorY": 496,
+      "headTopMethod": "Hair/temple ornament is topmost visible actor part; individually reviewed",
+      "anchorMethod": "manual body/ground",
+      "sourceSha256": "58a652ba7320732b5a69416eb1f35316e0e5fcedf009d08ffec8c9a183fbd6b3"
+    },
+    {
+      "kind": "ultimate",
+      "index": 3,
+      "headTop": 84,
+      "groundSole": 508,
+      "anchorX": 1347.5,
+      "anchorY": 508,
+      "headTopMethod": "Hair/temple ornament is topmost visible actor part; individually reviewed",
+      "anchorMethod": "manual body/ground",
+      "sourceSha256": "58a652ba7320732b5a69416eb1f35316e0e5fcedf009d08ffec8c9a183fbd6b3"
+    },
+    {
+      "kind": "ultimate",
+      "index": 4,
+      "headTop": 583,
+      "groundSole": 973,
+      "anchorX": 173.8,
+      "anchorY": 973,
+      "headTopMethod": "Hair/temple ornament is topmost visible actor part; individually reviewed",
+      "anchorMethod": "manual body/ground",
+      "sourceSha256": "58a652ba7320732b5a69416eb1f35316e0e5fcedf009d08ffec8c9a183fbd6b3"
+    },
+    {
+      "kind": "ultimate",
+      "index": 5,
+      "headTop": 603,
+      "groundSole": 973,
+      "anchorX": 547.2,
+      "anchorY": 973,
+      "headTopMethod": "Manual hair ROI x500..619,y570..689 native alpha>24",
+      "anchorMethod": "manual body/ground",
+      "sourceSha256": "58a652ba7320732b5a69416eb1f35316e0e5fcedf009d08ffec8c9a183fbd6b3"
+    },
+    {
+      "kind": "ultimate",
+      "index": 6,
+      "headTop": 586,
+      "groundSole": 975,
+      "anchorX": 941.3,
+      "anchorY": 975,
+      "headTopMethod": "Hair/temple ornament is topmost visible actor part; individually reviewed",
+      "anchorMethod": "foot-band alpha centroid and sole baseline",
+      "sourceSha256": "58a652ba7320732b5a69416eb1f35316e0e5fcedf009d08ffec8c9a183fbd6b3"
+    },
+    {
+      "kind": "ultimate",
+      "index": 7,
+      "headTop": 561,
+      "groundSole": 976,
+      "anchorX": 1345,
+      "anchorY": 976,
+      "headTopMethod": "Hair/temple ornament is topmost visible actor part; individually reviewed",
+      "anchorMethod": "foot-band alpha centroid and sole baseline",
+      "sourceSha256": "58a652ba7320732b5a69416eb1f35316e0e5fcedf009d08ffec8c9a183fbd6b3"
+    }
+  ],
+  "anchors": "Automatic foot-band anchors reviewed. Seven wide lunges use equal average of the two boot alpha centroids, preserving actual lowest sole.",
+  "notes": [
+    "All32body native crops and12VFX/icon native crops inspected individually.",
+    "Ultimate5headTop603 excludes the physical black-gold seal debris above the hair; remaining tops are the actual hair/temple ornament top.",
+    "Walk source directions SOUTH/WEST/EAST/NORTH, direct playback.",
+    "Strongest ultimate palm contact native5. Attack/cast contact native3.",
+    "Cast row1 boundary575 separates full contact3debris from actor4. Default nearest divider464 had incorrectly assigned the contact3fragments to4; no RGBA alteration was needed.",
+    "Source images and native crops are not resized, repainted or alpha-masked.",
+    "No extra limb/digit or clipping defect found in this review; natural profile occlusion may hide the far hand. This is not a claim of absolute perfection or user visual approval."
+  ],
+  "reviewStatus": "native-pose-review-complete-no-blocking-defect-found"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "ava-worldroot-sovereign",
+  "sourcesRemainRowMajor": true,
+  "walkFacingOrder": [
+    "south",
+    "west",
+    "east",
+    "north"
+  ],
+  "walkStepOrder": [
+    "neutral",
+    "step-left",
+    "step-right"
+  ],
+  "attackPlaybackOrder": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "ultimatePlaybackOrder": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "ultimateContactPlaybackIndex": 5,
+  "ultimateContactNativeOrdinal": 5,
+  "vfxAndIconOrder": [
+    "earth-impact",
+    "rock-projectile",
+    "protection-heal",
+    "mineral-bind",
+    "worldroot-throne",
+    "strata-cathedral"
+  ],
+  "companion": null,
+  "cinematicBackground": "/assets/v36/variants/ava-worldroot-sovereign/cinematic-background.png"
+}

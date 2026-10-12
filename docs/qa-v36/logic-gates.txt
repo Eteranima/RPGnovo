@@ -1,0 +1,62 @@
+Logic gates v36 (11/10/2026)
+
+PASS content-v36: 1423 assertions; ten complete playable families, including the explicitly requested Abel follow-up.
+PASS abel-playable-v36: 626 assertions; real Gacha/lesson/NPC recruitment, legacy bonded-state and earned-point repair, seven skill impacts, basics, charge, queue and eight distinct generated icons.
+PASS abel-visual-v36: 8609 assertions; native crops, 20 head/sole/body measurements, actual adult-body height compared with the cast in 3 viewports, lane bounds, seven descriptors, eight specific icons and native ultimate contact at 1x/2x. The previous 4555 run predates the measured-body follow-up.
+PASS abel-npc-v31: 5432 assertions; the workshop NPC stays present, collision-checked patrol, real approach/dialogue and all32 native walking crops. Unowned conversations cannot grant recruitment or rewards.
+PASS skill-tree-v36: 546 assertions; ten playable families, nine nodes each, dependency/focus bounds and measured scroll height.
+PASS legendary-v36: 227 assertions.
+PASS pwa-save-v36: 90 assertions.
+PASS game.test: 1064 assertions (root gate); final production assets exist, including the 24 new skill icons, eight Abel skill icons and variant art/audio. The prior skill_icon_seiji_ink-refuge blocker is resolved without an existence exemption.
+PASS movement-v36: 59089 assertions; actual engine and WorldRenderer.actor, eight versions plus Solar Lycan, 30/60 FPS clocks and Shift, native 0/1/2/1 cycle, measured body height/foot anchors, direction/freeze, collisions, PC/mobile cleanup, quests and saves. Existing Orfeu/Abel native sequences retained.
+PASS native-art-v36: 404694 assertions; 404 native cells and 24902 face/icon RGBA rows, final hashes/crops, real contact, Lycan ownership and legendary worlds.
+PASS pwa: 111 assertions; actual SW/cache/update, nativeHTTP redirect regression, canonical offline path/MIME/SHA, runtime artwork hashing and mediaRange bypass.
+PASS ui-session-v36: 198 assertions; actual controls/lifecycle, save conflict/transfer, safe update and activity-session update guard.
+PASS hero-labels-v36: 211 assertions.
+PASS battle-layout: 2230 assertions; actual formation bounds, labels, enemy separation and Abel integration.
+PASS battle-polish-v32: 509 assertions; corrected active-form scope. Historical 549 included 40 checks of unselected Lycan keys; behavior regression assertions retained.
+PASS battle-art-loading-v38: 59 assertions; six shared requests maximum, 15 s timeout starts on request, queue waits do not expire, scope deduplication/retention/cancel/retry. Corrected human Cinder case: 25 URLs/55.62 MiB transferred/~150 MiB decoded RGBA; not physical-device memory/FPS measurement.
+PASS battle-minimal-v36: 155 assertions; five native compact slots, distinct actor/ally target, actual 1-5 callbacks, vitals and all 8 queue positions.
+PASS battle-header-v36: 13 assertions; explicit enemyHP/status/phase cells.
+PASS event-activities-v38: 1345 assertions; 120 seal permutations, 4 irreducible clues preserving the same seed/answer/save, actual timed/accessible rhythm and long-suspension proof, legal draft/trades/positions/3 rounds, real defeat and unique 800 crystals with save rollback/migration.
+PASS event-activities-ui-v38: 275 assertions; real callbacks, rAF/token/cancel races, native faces/rings, recorded HP/action/target, pause/manual/reduced motion/death/defeat summary, discovery badges/routes and unique claims. Historical 232 predates illustrated replay.
+PASS combat-cadence-v37: 14149 assertions; fixed encounter budgets independent of 1/2/5 allies, all 3 difficulties, actual reaction windows/controls/charge/forecast/save.
+PASS combat-details-fullscreen-v37: 22 assertions; actual stable host, standard/WebKit fullscreen, focus, cleanup and parent-cycle guard.
+PASS party-hotkeys-v30: 250 assertions after master-prefix and focused modal-button input fixes.
+PASS variant-audio-v36: 247 assertions; 16 original WAVs, eight identities and real impact timing. Technical signal validation does not replace subjective listening.
+PASS progression: 84 assertions.
+PASS origins: 202 assertions.
+PASS recruit-mail-carmilla and dedicated carmilla: all retained expectations.
+PASS elements: all ten families, expanded skill/ultimate lists, element animation equivalence, original Earth alpha proof, Ice control and legacy saves. Storage mock now reads actual written keys so cross-tab protection does not create a false conflict.
+PASS orfeu: 201 assertions, including old silence veto, physical legacy formulas and exact 26 native frames.
+PASS gacha-v30: 1231 assertions, tier/guarantees/duplicates/timers.
+PASS combat-planning-v32: 9270 assertions, old phase/charge outcomes, controls, targets, robust art readiness and captured speed timing.
+PASS audio: native autoplay, persistently muted navigation/reload, crossfade cancellation, stale play, SFX and Web Audio.
+PASS opening-audio: 72 assertions; actual MusicDirector/hook clock, mute, gesture/autoplay, pause/resume/replay/end and cleanup.
+PASS opening-cinematic-v33: 1643 assertions; actual player clock, buffering/seek/end, controls, reduced motion and fullscreen portal.
+PASS media-range: 291 assertions; real media/Range contract.
+PASS latest integrated TypeScript: tsc --noEmit EXIT0, reported by root.
+PASS final integrated production build: pnpm build EXIT0, revision49e9e9f991b84866a6aa;18shell files,2033462bytes, including compact short-portrait menu.
+PASS HTTP for that final build: 61 checks at 127.0.0.1:5175. Actual deployed SW install/fetch with native network Responses: offline status 200, redirected=false, finalURL http://127.0.0.1:5175/pwa-offline, MIME text/html; charset=utf-8, native SHA; all 18 dependencies plus entry HTML installed; isolated offline shell/fallback and real Range206/32 bytes. CacheStorage/events simulated; not OS/browser install or live-browser update proof. Evidence ../qa-v38/pwa-http.txt.
+HISTORICAL intermediate build: a616bb9e8040b4d8fe89; 18 shell files/2007007 bytes and HTTP61 before the last visual/loading refinements.
+HISTORICAL090a4a727077184e14cc:18shell files/2031831bytes,HTTP61, actual combat3viewports and public update/party/reward preservation before compactportrait header.
+HISTORICAL build/HTTP: 6c73a359ddba5e10ae1e, 18 shell files/1935682 bytes, HTTP30. The old HTTP gate did not execute install or inspect Response.redirected; it is superseded by 61 checks.
+PASS browser normal-mode Abel: valid engine fixture import preview/Confirm/Continue, Pátio lesson completes all 3 lines, old 5-person party preserved with Abel in reserve, real Grupo slot replaces Max, 9 real node buttons spend 13 points to 0, save/reload retains Abel. Proofs abel-tree-browser.jpg and abel-ultimate-mobile.jpg.
+PASS browser Abel ultimate: native frame 5 impact, desktop stage 244 px, mobile 844x390 stage 134 px at y142..277 entirely inside viewport.
+PASS browser current combat geometry (root): five slots in a 40 px desktop/landscape footer and 60 px portrait footer; stage 197 px at 844x390, 167 px at 405x452, 379 px at 1310x572, viewport-sized page with no horizontal overflow. All 8 turn positions fit. The five 68 px cards observation belongs to the earlier v36 layout. All 3 legendary previews retained native contact5; Max ultimate dealt 144 actual boss damage in the earlier recorded encounter. See battle-minimal.md.
+PASS browser cross-tab save: two actual tabs, stale session guard and fresh reload preserve current progress.
+PASS public browser updates (root): System "Salvar e atualizar" completed with reload twice. First changed a616 to 090a index.CsI69JP_/page.Dt0olaFn and 2 native title frames. Final accepted update from title loaded 49e9 index.B1p20_eK.css/page.Dt0olaFn.css. Continue preserved all 5 party members/leader Abel/HP/MP/charge, sound off and 3 activity claims plus board bonus. Old shell waited for confirmation; not physical OS install or offline-opening proof.
+PASS compact short-portrait CSS: PostCSS parsed full stylesheet, 15 specific assertions/TSC/diff-check passed; menu-only <=600x600 portrait, header64-70/status40-45, tabs40/close44, description retained in DOM/aria.
+PASS final browser compact menu (root, 405x452): actual header64/status40/nav52 with trigger40/close44x44/content196.80 px, up from approximately 100 px; no overflow. Screenshot ../qa-v38/menu-portrait-browser.jpg. Final PC 1310x572 had no document overflow or broken images. Menu-only CSS preserves landscape and combat geometry.
+PASS browser opening start/pause/mute/unmute: native video/audio 0.615/0.657 s, paused 11.68/11.71 s; muted video runs with audio paused; explicit unmute 33.44/33.36 s. End at 62.5 s pauses/mutes the track at 62.429 s; replay starts both at zero; exit restores the title after the 450 ms fade.
+PASS git diff --check in prior reviews; line-ending advisories do not report whitespace errors. Root performs the final repository check.
+
+PASS final build/HTTP revision 49e9 above; actual combat/8 Abel buttons passed 3 viewports. Final compact-menu measurements and public update/save preservation are recorded separately from the technical gates. This log does not promise or confirm deployment or commit/push.
+NOT VERIFIED: physical PWA install/offline/update on Android/iPhone or OS install and actual browser offline reopening. The previous in-app failure had a concrete install blocker: /pwa-offline.html returned307redirect rejected by SW. Canonical /pwa-offline/SHA passed HTTP61; separately, public "Salvar e atualizar" completed the local integrated-browser update. This single observed flow does not approve every external browser or physical device.
+PENDING subjective audio listening; technical signal checks and measured browser clocks do not replace listening.
+NOT VERIFIED player usability/preference/fun research. Root's technical/visual checks are not user research or a physical-device benchmark.
+NEXT PATCH: scaffold only in lib/game/patches. PATCH_DRAFTS is empty and not imported by the engine; no new playable areas/shops/items/stat patch is claimed.
+
+Legacy expectations were adjusted for authored Water/Dark actions and the user's explicit Abel-playable follow-up in content/NPC/remake-art checks. The elements storage fixture now provides real key-based write/read behavior, preserving the original save-migration assertion under cross-tab protection. No generic fallback, element check removal or source-file existence exemption was added.
+
+Mechanics tests invoke actual engine commands and timed impacts; the guaranteed selector is tested through real conversations, healing and victory, with accessible NPC approaches. The actual walking consumer uses native PNG dimensions/RGBA and independently reviewed head measurements. Automated geometry/pixel proofs do not assert perfect anatomy or physical-device performance. Root's recorded browser flows and final build/HTTP passed; the latest visual review and unverified device/update/audio/research limits remain explicit above. Consolidated review: BIG-UPDATE-REVIEW.md. No commit or push was made by this documentation agent.

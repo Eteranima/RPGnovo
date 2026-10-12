@@ -1,0 +1,279 @@
+{
+  "id": "seiji-last-script",
+  "kind": "vfx",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a0fe9c-5a05-7ae0-b816-392e2a3c966b\\exec-ddc59f63-61d7-4112-9c7a-6424ab4ad3fc.png",
+  "selected": "art-source/v36/variants/seiji-last-script/vfx-source.png",
+  "runtime": "public/assets/v36/variants/seiji-last-script/vfx.png",
+  "width": 1536,
+  "height": 1024,
+  "cols": 3,
+  "rows": 2,
+  "sourceSha256": "f953c4a351f194506c32bb3feefb350fc0385e6efda6f0fe1de2c8c02a57fd23",
+  "selectedSha256": "f953c4a351f194506c32bb3feefb350fc0385e6efda6f0fe1de2c8c02a57fd23",
+  "runtimeSha256": "f953c4a351f194506c32bb3feefb350fc0385e6efda6f0fe1de2c8c02a57fd23",
+  "byteIdenticalSourceCopies": true,
+  "alphaThresholdForMeasurementOnly": 24,
+  "backgroundAlphaZero": 762105,
+  "rowCuts": [
+    0,
+    486,
+    1024
+  ],
+  "frames": [
+    {
+      "x": 45,
+      "y": 54,
+      "w": 458,
+      "h": 427,
+      "anchorX": 273.5,
+      "anchorY": 267
+    },
+    {
+      "x": 504,
+      "y": 59,
+      "w": 497,
+      "h": 401,
+      "anchorX": 752,
+      "anchorY": 259
+    },
+    {
+      "x": 1029,
+      "y": 32,
+      "w": 479,
+      "h": 416,
+      "anchorX": 1268,
+      "anchorY": 239.5
+    },
+    {
+      "x": 29,
+      "y": 507,
+      "w": 474,
+      "h": 476,
+      "anchorX": 265.5,
+      "anchorY": 744.5
+    },
+    {
+      "x": 512,
+      "y": 495,
+      "w": 506,
+      "h": 479,
+      "anchorX": 764.5,
+      "anchorY": 734
+    },
+    {
+      "x": 1030,
+      "y": 491,
+      "w": 480,
+      "h": 494,
+      "anchorX": 1269.5,
+      "anchorY": 737.5
+    }
+  ],
+  "measurements": [
+    {
+      "i": 0,
+      "row": 0,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "w": 503,
+        "h": 486
+      },
+      "visibleBounds": {
+        "x": 53,
+        "y": 62,
+        "w": 442,
+        "h": 411
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 65744,
+      "crop": {
+        "x": 45,
+        "y": 54,
+        "w": 458,
+        "h": 427,
+        "anchorX": 273.5,
+        "anchorY": 267
+      },
+      "anchorMethod": "motif center",
+      "visualReview": {
+        "method": "Individual native RGBA crop inspection; full source sheet for continuity",
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "reviewDate": "2026-10-11"
+      }
+    },
+    {
+      "i": 1,
+      "row": 0,
+      "col": 1,
+      "cell": {
+        "x": 503,
+        "y": 0,
+        "w": 512,
+        "h": 486
+      },
+      "visibleBounds": {
+        "x": 512,
+        "y": 67,
+        "w": 481,
+        "h": 385
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 82308,
+      "crop": {
+        "x": 504,
+        "y": 59,
+        "w": 497,
+        "h": 401,
+        "anchorX": 752,
+        "anchorY": 259
+      },
+      "anchorMethod": "motif center",
+      "visualReview": {
+        "method": "Individual native RGBA crop inspection; full source sheet for continuity",
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "reviewDate": "2026-10-11"
+      }
+    },
+    {
+      "i": 2,
+      "row": 0,
+      "col": 2,
+      "cell": {
+        "x": 1015,
+        "y": 0,
+        "w": 521,
+        "h": 486
+      },
+      "visibleBounds": {
+        "x": 1037,
+        "y": 40,
+        "w": 463,
+        "h": 400
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 101847,
+      "crop": {
+        "x": 1029,
+        "y": 32,
+        "w": 479,
+        "h": 416,
+        "anchorX": 1268,
+        "anchorY": 239.5
+      },
+      "anchorMethod": "motif center",
+      "visualReview": {
+        "method": "Individual native RGBA crop inspection; full source sheet for continuity",
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "reviewDate": "2026-10-11"
+      }
+    },
+    {
+      "i": 3,
+      "row": 1,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 486,
+        "w": 507,
+        "h": 538
+      },
+      "visibleBounds": {
+        "x": 37,
+        "y": 515,
+        "w": 458,
+        "h": 460
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 78092,
+      "crop": {
+        "x": 29,
+        "y": 507,
+        "w": 474,
+        "h": 476,
+        "anchorX": 265.5,
+        "anchorY": 744.5
+      },
+      "anchorMethod": "motif center",
+      "visualReview": {
+        "method": "Individual native RGBA crop inspection; full source sheet for continuity",
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "reviewDate": "2026-10-11"
+      }
+    },
+    {
+      "i": 4,
+      "row": 1,
+      "col": 1,
+      "cell": {
+        "x": 507,
+        "y": 486,
+        "w": 517,
+        "h": 538
+      },
+      "visibleBounds": {
+        "x": 520,
+        "y": 503,
+        "w": 490,
+        "h": 463
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 107131,
+      "crop": {
+        "x": 512,
+        "y": 495,
+        "w": 506,
+        "h": 479,
+        "anchorX": 764.5,
+        "anchorY": 734
+      },
+      "anchorMethod": "motif center",
+      "visualReview": {
+        "method": "Individual native RGBA crop inspection; full source sheet for continuity",
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "reviewDate": "2026-10-11"
+      }
+    },
+    {
+      "i": 5,
+      "row": 1,
+      "col": 2,
+      "cell": {
+        "x": 1024,
+        "y": 486,
+        "w": 512,
+        "h": 538
+      },
+      "visibleBounds": {
+        "x": 1038,
+        "y": 499,
+        "w": 464,
+        "h": 478
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 134660,
+      "crop": {
+        "x": 1030,
+        "y": 491,
+        "w": 480,
+        "h": 494,
+        "anchorX": 1269.5,
+        "anchorY": 737.5
+      },
+      "anchorMethod": "motif center",
+      "visualReview": {
+        "method": "Individual native RGBA crop inspection; full source sheet for continuity",
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "reviewDate": "2026-10-11"
+      }
+    }
+  ]
+}

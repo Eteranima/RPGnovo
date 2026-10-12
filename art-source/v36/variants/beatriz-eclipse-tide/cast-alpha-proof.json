@@ -1,0 +1,7 @@
+{
+  "kind": "cast",
+  "seamMax": 3,
+  "seamNonZero": 315,
+  "edgeMax": 3,
+  "edgeNonZero": 216
+}

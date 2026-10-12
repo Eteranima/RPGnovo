@@ -1,0 +1,29 @@
+[
+  {
+    "id": "ava-worldroot-sovereign",
+    "face": {
+      "left": 445,
+      "top": 120,
+      "width": 250,
+      "height": 250
+    }
+  },
+  {
+    "id": "beatriz-eclipse-tide",
+    "face": {
+      "left": 370,
+      "top": 155,
+      "width": 280,
+      "height": 280
+    }
+  },
+  {
+    "id": "orfeu-unwritten-archon",
+    "face": {
+      "left": 490,
+      "top": 65,
+      "width": 280,
+      "height": 280
+    }
+  }
+]

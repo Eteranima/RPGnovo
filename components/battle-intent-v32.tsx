@@ -18,9 +18,23 @@ export function combatDetailTabTarget(index:number,count:number,shift:boolean,ty
  return shift?(index<=0?count-1:null):(index===count-1||index<0?0:null);
 }
 
+/** One stable host stays visible and keeps focus when the game enters fullscreen. */
+export function mountCombatDetailsHostV37(doc:Document){
+ const host=doc.createElement('div');host.dataset.combatDetailsHost='v37';
+ const attach=()=>{
+  const fullscreen=doc.fullscreenElement||(doc as Document&{webkitFullscreenElement?:Element}).webkitFullscreenElement;
+  const parent=fullscreen instanceof HTMLElement&&!host.contains(fullscreen)?fullscreen:doc.body;
+  if(host.parentElement===parent)return;
+  const focused=doc.activeElement instanceof HTMLElement&&host.contains(doc.activeElement)?doc.activeElement:null;
+  parent.appendChild(host);if(focused?.isConnected)focused.focus({preventScroll:true});
+ };
+ attach();doc.addEventListener('fullscreenchange',attach);doc.addEventListener('webkitfullscreenchange',attach);
+ return {host,destroy:()=>{doc.removeEventListener('fullscreenchange',attach);doc.removeEventListener('webkitfullscreenchange',attach);host.remove();}};
+}
+
 function CombatDetails({title,children,onClose}:{title:string;children:ReactNode;onClose:()=>void}){
  const dialog=useRef<HTMLElement>(null),close=useRef(onClose),titleId=useId(),[body,setBody]=useState<HTMLElement|null>(null);close.current=onClose;
- useEffect(()=>{setBody(document.body);},[]);
+ useEffect(()=>{const mounted=mountCombatDetailsHostV37(document);setBody(mounted.host);return mounted.destroy;},[]);
  useEffect(()=>{
   if(!body)return;const previous=document.activeElement instanceof HTMLElement?document.activeElement:null;
   const first=dialog.current?.querySelector<HTMLButtonElement>('button');first?.focus();
@@ -42,6 +56,7 @@ function CombatDetails({title,children,onClose}:{title:string;children:ReactNode
 
 export function EnemyIntentDetailsV32({intent,heroes,lycan=false}:{intent:EnemyIntentV32;heroes:readonly Hero[];lycan?:boolean}){
  return <><p className={styles.detailLead}><b>{intent.name}</b><br/>{timingLabels[intent.timing]} · rodada {intent.round} · {ELEMENT_LABELS[intent.element]}{intent.area?' · atinge o grupo':''}</p>
+  <p>O inimigo tem {intent.actionsPerRound} {intent.actionsPerRound===1?'ação':'ações'} por rodada. Esta é a {intent.actionInRound}ª. Ele pode reagir entre os aliados; acompanhe a fila e use a guarda antes do golpe previsto. A força e a quantidade de ações deste encontro são as mesmas para qualquer tamanho de Grupo.</p>
   {intent.kind==='blocked'?<p>{intent.blockedBy==='bind'?'A prisão de pedra':'O congelamento'} fará o inimigo perder esta ação. Nenhum aliado será atingido.</p>:<>
    <p>Previsão se o golpe acertar. {intent.missChance===.5?'Cegueira: 50% de chance de errar.':'Este golpe não está sujeito à cegueira.'} A previsão acompanha os estados e a ordem dos turnos.</p>
    <ul className={styles.detailTargets}>{intent.targets.map(target=>{const hero=heroes.find(h=>h.id===target.id);if(!hero)return null;return <li key={target.id}><HeroPortrait h={hero} lycan={lycan}/><div><strong>{hero.name} <small>{hero.hp}/{hero.maxHp} HP</small></strong><span>{target.damageRange[0]===target.damageRange[1]?target.damageOnHit:`${target.damageRange[0]}–${target.damageRange[1]}`} de dano{target.guarded?` · guarda preserva ${target.guardSavedHp} HP`:''}</span>{target.status&&<span className={styles.statusLine}><GameIcon index={STATUS[target.status].icon}/>{STATUS[target.status].name}{target.statusPrevented?' · impedido pela proteção ou pela queda do alvo':` · ${target.statusTurns} ${target.statusTurns===1?'ação':'ações'}`}</span>}</div></li>;})}</ul>

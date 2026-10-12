@@ -1,0 +1,326 @@
+{
+  "id": "ava-worldroot-sovereign",
+  "coordinateSpace": "original native atlas pixels",
+  "metrics": [
+    {
+      "kind": "walk",
+      "i": 0,
+      "headTop": 49,
+      "groundSole": 342,
+      "bodyHeight": 293,
+      "anchorX": 189,
+      "anchorY": 342,
+      "nativeBodyReviewed": true
+    },
+    {
+      "kind": "walk",
+      "i": 1,
+      "headTop": 49,
+      "groundSole": 346,
+      "bodyHeight": 297,
+      "anchorX": 548,
+      "anchorY": 346,
+      "nativeBodyReviewed": true
+    },
+    {
+      "kind": "walk",
+      "i": 2,
+      "headTop": 49,
+      "groundSole": 349,
+      "bodyHeight": 300,
+      "anchorX": 893,
+      "anchorY": 349,
+      "nativeBodyReviewed": true
+    },
+    {
+      "kind": "walk",
+      "i": 3,
+      "headTop": 395,
+      "groundSole": 684,
+      "bodyHeight": 289,
+      "anchorX": 185,
+      "anchorY": 684,
+      "nativeBodyReviewed": true
+    },
+    {
+      "kind": "walk",
+      "i": 4,
+      "headTop": 394,
+      "groundSole": 679,
+      "bodyHeight": 285,
+      "anchorX": 529,
+      "anchorY": 679,
+      "nativeBodyReviewed": true
+    },
+    {
+      "kind": "walk",
+      "i": 5,
+      "headTop": 398,
+      "groundSole": 682,
+      "bodyHeight": 284,
+      "anchorX": 887,
+      "anchorY": 682,
+      "nativeBodyReviewed": true
+    },
+    {
+      "kind": "walk",
+      "i": 6,
+      "headTop": 727,
+      "groundSole": 1021,
+      "bodyHeight": 294,
+      "anchorX": 204,
+      "anchorY": 1021,
+      "nativeBodyReviewed": true
+    },
+    {
+      "kind": "walk",
+      "i": 7,
+      "headTop": 728,
+      "groundSole": 1016,
+      "bodyHeight": 288,
+      "anchorX": 567,
+      "anchorY": 1016,
+      "nativeBodyReviewed": true
+    },
+    {
+      "kind": "walk",
+      "i": 8,
+      "headTop": 730,
+      "groundSole": 1015,
+      "bodyHeight": 285,
+      "anchorX": 922,
+      "anchorY": 1015,
+      "nativeBodyReviewed": true
+    },
+    {
+      "kind": "walk",
+      "i": 9,
+      "headTop": 1076,
+      "groundSole": 1377,
+      "bodyHeight": 301,
+      "anchorX": 183,
+      "anchorY": 1377,
+      "nativeBodyReviewed": true
+    },
+    {
+      "kind": "walk",
+      "i": 10,
+      "headTop": 1076,
+      "groundSole": 1386,
+      "bodyHeight": 310,
+      "anchorX": 543,
+      "anchorY": 1386,
+      "nativeBodyReviewed": true
+    },
+    {
+      "kind": "walk",
+      "i": 11,
+      "headTop": 1077,
+      "groundSole": 1387,
+      "bodyHeight": 310,
+      "anchorX": 896,
+      "anchorY": 1387,
+      "nativeBodyReviewed": true
+    },
+    {
+      "kind": "attack",
+      "i": 0,
+      "headTop": 27,
+      "groundSole": 487,
+      "bodyHeight": 460,
+      "anchorX": 241,
+      "anchorY": 487,
+      "nativeBodyReviewed": true
+    },
+    {
+      "kind": "attack",
+      "i": 1,
+      "headTop": 47,
+      "groundSole": 482,
+      "bodyHeight": 435,
+      "anchorX": 742,
+      "anchorY": 482,
+      "nativeBodyReviewed": true
+    },
+    {
+      "kind": "attack",
+      "i": 2,
+      "headTop": 47,
+      "groundSole": 479,
+      "bodyHeight": 432,
+      "anchorX": 1245,
+      "anchorY": 479,
+      "nativeBodyReviewed": true
+    },
+    {
+      "kind": "attack",
+      "i": 3,
+      "headTop": 555,
+      "groundSole": 987,
+      "bodyHeight": 432,
+      "anchorX": 270,
+      "anchorY": 987,
+      "nativeBodyReviewed": true
+    },
+    {
+      "kind": "attack",
+      "i": 4,
+      "headTop": 560,
+      "groundSole": 985,
+      "bodyHeight": 425,
+      "anchorX": 775,
+      "anchorY": 985,
+      "nativeBodyReviewed": true
+    },
+    {
+      "kind": "attack",
+      "i": 5,
+      "headTop": 539,
+      "groundSole": 988,
+      "bodyHeight": 449,
+      "anchorX": 1284,
+      "anchorY": 988,
+      "nativeBodyReviewed": true
+    },
+    {
+      "kind": "cast",
+      "i": 0,
+      "headTop": 41,
+      "groundSole": 504,
+      "bodyHeight": 463,
+      "anchorX": 284,
+      "anchorY": 504,
+      "nativeBodyReviewed": true
+    },
+    {
+      "kind": "cast",
+      "i": 1,
+      "headTop": 40,
+      "groundSole": 504,
+      "bodyHeight": 464,
+      "anchorX": 798,
+      "anchorY": 504,
+      "nativeBodyReviewed": true
+    },
+    {
+      "kind": "cast",
+      "i": 2,
+      "headTop": 41,
+      "groundSole": 504,
+      "bodyHeight": 463,
+      "anchorX": 1307,
+      "anchorY": 504,
+      "nativeBodyReviewed": true
+    },
+    {
+      "kind": "cast",
+      "i": 3,
+      "headTop": 570,
+      "groundSole": 968,
+      "bodyHeight": 398,
+      "anchorX": 258,
+      "anchorY": 968,
+      "nativeBodyReviewed": true
+    },
+    {
+      "kind": "cast",
+      "i": 4,
+      "headTop": 562,
+      "groundSole": 975,
+      "bodyHeight": 413,
+      "anchorX": 759,
+      "anchorY": 975,
+      "nativeBodyReviewed": true
+    },
+    {
+      "kind": "cast",
+      "i": 5,
+      "headTop": 543,
+      "groundSole": 996,
+      "bodyHeight": 453,
+      "anchorX": 1325,
+      "anchorY": 996,
+      "nativeBodyReviewed": true
+    },
+    {
+      "kind": "ultimate",
+      "i": 0,
+      "headTop": 41,
+      "groundSole": 441,
+      "bodyHeight": 400,
+      "anchorX": 257,
+      "anchorY": 441,
+      "nativeBodyReviewed": true
+    },
+    {
+      "kind": "ultimate",
+      "i": 1,
+      "headTop": 41,
+      "groundSole": 441,
+      "bodyHeight": 400,
+      "anchorX": 681,
+      "anchorY": 441,
+      "nativeBodyReviewed": true
+    },
+    {
+      "kind": "ultimate",
+      "i": 2,
+      "headTop": 41,
+      "groundSole": 441,
+      "bodyHeight": 400,
+      "anchorX": 1094,
+      "anchorY": 441,
+      "nativeBodyReviewed": true
+    },
+    {
+      "kind": "ultimate",
+      "i": 3,
+      "headTop": 85,
+      "groundSole": 442,
+      "bodyHeight": 357,
+      "anchorX": 1544,
+      "anchorY": 442,
+      "nativeBodyReviewed": true
+    },
+    {
+      "kind": "ultimate",
+      "i": 4,
+      "headTop": 480,
+      "groundSole": 857,
+      "bodyHeight": 377,
+      "anchorX": 240,
+      "anchorY": 857,
+      "nativeBodyReviewed": true
+    },
+    {
+      "kind": "ultimate",
+      "i": 5,
+      "headTop": 491,
+      "groundSole": 857,
+      "bodyHeight": 366,
+      "anchorX": 674,
+      "anchorY": 857,
+      "nativeBodyReviewed": true
+    },
+    {
+      "kind": "ultimate",
+      "i": 6,
+      "headTop": 485,
+      "groundSole": 857,
+      "bodyHeight": 372,
+      "anchorX": 1115,
+      "anchorY": 857,
+      "nativeBodyReviewed": true
+    },
+    {
+      "kind": "ultimate",
+      "i": 7,
+      "headTop": 464,
+      "groundSole": 861,
+      "bodyHeight": 397,
+      "anchorX": 1555,
+      "anchorY": 861,
+      "nativeBodyReviewed": true
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 import {ULTIMATE_DESCRIPTIONS,type HeroId} from './data';
+import {VARIANTS_V36} from './variantsV36';
 export type SummonRarity=3|4|5;
-export type SummonedHero={id:string;name:string;rarity:4|5;element:string;role:string;hero?:string;title:string;description:string;ultimate:string;bond:string;accent:string;art?:string;achievementOnly?:boolean};
+export type SummonedHero={id:string;name:string;rarity:4|5;element:string;role:string;hero?:string;variantId?:string;title:string;description:string;ultimate:string;bond:string;accent:string;art?:string;achievementOnly?:boolean};
 
 export const SUMMONED_HEROES:SummonedHero[]=[
  {id:'seiji-awakened',name:'Seiji — Despertar da Lâmina',rarity:4,hero:'seiji',element:'Tinta Abissal',role:'DPS / Controle',title:'O Escriba que Cortou a Noite',description:'Traje de duelista gasto, fivelas douradas e runas de tinta viva sobre a mão que segura a lâmina.',ultimate:'“Que o nome apagado responda.” O Códice se abre e uma maré de tinta corta o campo.',bond:'Reconstrua uma página proibida no Arquivo Central.',accent:'#5375d8'},
@@ -19,8 +20,10 @@ for(const hero of SUMMONED_HEROES){
  const id=hero.hero||hero.id;
  if(['seiji','ophelia','marin','gabriel','max','beatriz','carmilla','abel'].includes(id)){
   hero.art=`/assets/v29/${id}/portrait.png`;
-  hero.ultimate=id==='abel'?'Leão do Fogo Primordial: o cajado convoca uma juba solar, traços leoninos e runas de fogo.':ULTIMATE_DESCRIPTIONS[id as HeroId];
+  hero.ultimate=ULTIMATE_DESCRIPTIONS[id as HeroId];
+  if(id==='abel')hero.bond='Convoque Abel e conclua A Chama sem Encanto pelo botão Aula de Vínculo no Pátio Central ou conversando com ele na Clareira da Pira. Não exige vencer o chefe. Depois, Abel fica disponível no Grupo.';
  }
 }
 
+for(const variant of VARIANTS_V36)SUMMONED_HEROES.push({id:variant.id,variantId:variant.id,hero:variant.hero,name:variant.name,rarity:5,element:({ink:'Tinta',ice:'Gelo',dark:'Trevas',fire:'Fogo',lightning:'Eletricidade',earth:'Terra','water-dark':'Água / Trevas',neutral:'Sem Elemento'} as Record<string,string>)[variant.element],role:variant.role,title:variant.title,description:variant.description,ultimate:variant.ultimate.description,bond:variant.legendary?'Mítica lendária 5★ no Gacha. Ao concluir o ato II permanente, escolha uma das três lendárias uma única vez, sem gasto de recursos.':'Versão 5★ disponível no Grupo ao ser convocada. Escolha Versão para equipar; a versão base permanece disponível.',accent:variant.accent,art:`/assets/v36/variants/${variant.id}/portrait.png`});
 export const summonedById=(id:string)=>SUMMONED_HEROES.find(hero=>hero.id===id);

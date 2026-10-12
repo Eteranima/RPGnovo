@@ -1,0 +1,22 @@
+{
+  "tool": "built-in image_gen",
+  "source": "art-source/v36/variants/beatriz-eclipse-tide/cinematic-background-source.png",
+  "dst": "public/assets/v36/variants/beatriz-eclipse-tide/cinematic-background.png",
+  "sourceSize": {
+    "width": 1672,
+    "height": 941
+  },
+  "nativeRect": {
+    "left": 4,
+    "top": 2,
+    "width": 1664,
+    "height": 936
+  },
+  "sourceSha256": "0a5806deeb619ace806741f7dd2609ec924eabc2710733a0f45790416f140a4b",
+  "runtimeSha256": "cc2a1fa581cb1aad930a7e7b35693011322168cbaef0698af8500fe2f15390f5",
+  "allNativeRgbaPixelsPreserved": true,
+  "opaquePixels": 1557504,
+  "ratio": "16:9",
+  "noCharacters": true,
+  "noText": true
+}

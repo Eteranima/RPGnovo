@@ -1,0 +1,22 @@
+{
+  "id": "marin-starless-throne",
+  "source": "art-source/v36/variants/marin-starless-throne/portrait-source.png",
+  "runtime": "public/assets/v36/variants/marin-starless-throne/portrait.png",
+  "width": 1024,
+  "height": 1536,
+  "sourceSha256": "71fcb27699e03b031030420448abd65bf05afe670d724f42b1ce843a913fb91d",
+  "runtimeSha256": "71fcb27699e03b031030420448abd65bf05afe670d724f42b1ce843a913fb91d",
+  "byteIdenticalSourceCopies": true,
+  "alphaThresholdForMeasurementOnly": 24,
+  "visibleEdge": 0,
+  "backgroundAlphaZero": 545843,
+  "face": {
+    "left": 320,
+    "top": 12,
+    "width": 310,
+    "height": 310,
+    "runtime": "public/assets/v36/variants/marin-starless-throne/face.png",
+    "sha256": "948e3e7c95d4cd05e7c0e6c2cfbda188a2950438ab2319c22659cfb40c67b01a",
+    "allNativeRgbaPixelsPreserved": true
+  }
+}

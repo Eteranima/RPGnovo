@@ -1,0 +1,5 @@
+.selector{margin-top:12px;padding-top:10px;border-top:1px solid #d1bb8545;color:#eadfc9;font-size:12px;line-height:1.5;min-width:0}
+.label{display:block;font-size:10px;letter-spacing:.12em;color:#d8c596;margin-bottom:6px}
+.options{display:flex;flex-wrap:wrap;gap:6px}.options button{margin:0!important;font-size:12px;white-space:normal;min-height:44px;text-align:left}
+.options button[aria-pressed=true]{border-color:#efcf86;background:#4d3641;box-shadow:inset 0 0 0 1px #efcf86}
+.selector small{display:block;margin-top:7px;color:#ccceda}.selector details{margin-top:8px}.selector summary{cursor:pointer;min-height:36px;display:list-item;color:#e8c78f}.selector p{margin:6px 0!important;font-size:12px!important}

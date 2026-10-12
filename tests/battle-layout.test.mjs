@@ -15,7 +15,7 @@ const out=mkdtempSync(join(tmpdir(),'eter-battle-layout-'));
 compileGameModules(out,['remakeArt','remakeArtSeijiOphelia','remakeArtGabrielMarinMax','remakeArtCarmillaBeatrizAbel','expansionV30','enemyArtV30','orfeuArtV30','gachaSequence','data','sprites','battleFormation']);
 const {ASSETS,PLAYABLE_HERO_IDS}=await import(pathToFileURL(join(out,'data.js')).href);
 const {battleCrop}=await import(pathToFileURL(join(out,'sprites.js')).href);
-const {battleFormation,battleActorScale}=await import(pathToFileURL(join(out,'battleFormation.js')).href);
+const {battleFormation,battleActorScale,battleBodyBoundsV36}=await import(pathToFileURL(join(out,'battleFormation.js')).href);
 
 const images=new Map(),silhouettes=new Map();
 let checks=0,actorPlacements=0;
@@ -44,6 +44,12 @@ async function idleSilhouette(key){
 async function renderedIdle(key,slot,flip=false){
  const source=await idleSilhouette(key),scale=battleActorScale(key,slot,flip);
  check(Number.isFinite(scale)&&scale>0,`${key}: finite positive native scale`);
+ // Abel's measured head/boots/anatomy are the formation contract. The complete
+ // native staff/cape/fire artwork may reach outside it, as in other action poses.
+ if(key==='battle_abel_attack'){
+  const body=battleBodyBoundsV36(key,0,slot.x,slot.y,scale,flip);
+  return{left:body.x,right:body.x+body.width,top:body.y,bottom:body.y+body.height};
+ }
  const left=slot.x+(flip?source.crop.anchorX-source.right:source.left-source.crop.anchorX)*scale;
  return{left,right:left+(source.right-source.left)*scale,top:slot.y+(source.top-source.crop.anchorY)*scale,bottom:slot.y+(source.bottom-source.crop.anchorY)*scale};
 }
@@ -76,4 +82,4 @@ for(const [width,height] of [[1310,235],[844,205]])for(let count=1;count<=5;coun
   minimumNameGap=Math.min(minimumNameGap,nameGap);minimumEnemyGap=Math.min(minimumEnemyGap,enemyGap);actorPlacements++;
  }
 }
-console.log(`${checks} battle-layout checks passed: ${actorPlacements} native-alpha idle placements, 1–5 allies, all 9 heroes plus Gabriel Lycan, two canvas sizes, ±1.5px idle sway, ground names and enemy separation. Minimum name gap ${minimumNameGap.toFixed(2)}px at lowest sway; enemy gap ${minimumEnemyGap.toFixed(2)}px. Temporary spell and weapon reach are outside this idle-body contract.`);
+console.log(`${checks} battle-layout checks passed: ${actorPlacements} native-alpha/measured-body idle placements, 1–5 allies, all ${PLAYABLE_HERO_IDS.length} heroes plus Gabriel Lycan, two canvas sizes, ±1.5px idle sway, ground names and enemy separation. Minimum name gap ${minimumNameGap.toFixed(2)}px at lowest sway; enemy gap ${minimumEnemyGap.toFixed(2)}px. Spell, cape and weapon reach are outside Abel's measured idle-body contract.`);

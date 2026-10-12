@@ -1,0 +1,273 @@
+{
+  "id": "ophelia-white-equinox",
+  "kind": "icons",
+  "tool": "built-in image_gen",
+  "source": "art-source/v36/variants/ophelia-white-equinox/icons-repair-candidate.png",
+  "selected": "art-source/v36/variants/ophelia-white-equinox/icons-source.png",
+  "runtime": "public/assets/v36/variants/ophelia-white-equinox/icons.png",
+  "width": 1536,
+  "height": 1024,
+  "cols": 3,
+  "rows": 2,
+  "sourceSha256": "7ca88d2ad9239e4a290b345c9e53ff178783c3fee6945c0f81aa6d9e53dec66d",
+  "selectedSha256": "7ca88d2ad9239e4a290b345c9e53ff178783c3fee6945c0f81aa6d9e53dec66d",
+  "runtimeSha256": "7ca88d2ad9239e4a290b345c9e53ff178783c3fee6945c0f81aa6d9e53dec66d",
+  "byteIdenticalSourceCopies": true,
+  "alphaThresholdForMeasurementOnly": 24,
+  "backgroundAlphaZero": 1100978,
+  "rowCuts": [
+    0,
+    505,
+    1024
+  ],
+  "frames": [
+    {
+      "x": 124,
+      "y": 93,
+      "w": 356,
+      "h": 373,
+      "anchorX": 301.5,
+      "anchorY": 279
+    },
+    {
+      "x": 624,
+      "y": 107,
+      "w": 302,
+      "h": 359,
+      "anchorX": 774.5,
+      "anchorY": 286
+    },
+    {
+      "x": 1068,
+      "y": 95,
+      "w": 344,
+      "h": 373,
+      "anchorX": 1239.5,
+      "anchorY": 281
+    },
+    {
+      "x": 105,
+      "y": 543,
+      "w": 386,
+      "h": 398,
+      "anchorX": 297.5,
+      "anchorY": 741.5
+    },
+    {
+      "x": 588,
+      "y": 542,
+      "w": 356,
+      "h": 401,
+      "anchorX": 765.5,
+      "anchorY": 742
+    },
+    {
+      "x": 1055,
+      "y": 542,
+      "w": 390,
+      "h": 400,
+      "anchorX": 1249.5,
+      "anchorY": 741.5
+    }
+  ],
+  "measurements": [
+    {
+      "i": 0,
+      "row": 0,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "w": 552,
+        "h": 505
+      },
+      "visibleBounds": {
+        "x": 132,
+        "y": 101,
+        "w": 340,
+        "h": 357
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 53320,
+      "crop": {
+        "x": 124,
+        "y": 93,
+        "w": 356,
+        "h": 373,
+        "anchorX": 301.5,
+        "anchorY": 279
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v36/variants/ophelia-white-equinox/icons/0.png",
+        "sha256": "ae6d9ffe50d84700e8705e709e16f94f68554bcc15d25fbb6a90f7b3636a37d8",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    },
+    {
+      "i": 1,
+      "row": 0,
+      "col": 1,
+      "cell": {
+        "x": 552,
+        "y": 0,
+        "w": 445,
+        "h": 505
+      },
+      "visibleBounds": {
+        "x": 632,
+        "y": 115,
+        "w": 286,
+        "h": 343
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 43644,
+      "crop": {
+        "x": 624,
+        "y": 107,
+        "w": 302,
+        "h": 359,
+        "anchorX": 774.5,
+        "anchorY": 286
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v36/variants/ophelia-white-equinox/icons/1.png",
+        "sha256": "12a20f487f2630a7833b68f53efca355ba4fc598008cc9178fe052c9c3740346",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    },
+    {
+      "i": 2,
+      "row": 0,
+      "col": 2,
+      "cell": {
+        "x": 997,
+        "y": 0,
+        "w": 539,
+        "h": 505
+      },
+      "visibleBounds": {
+        "x": 1076,
+        "y": 103,
+        "w": 328,
+        "h": 357
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 59602,
+      "crop": {
+        "x": 1068,
+        "y": 95,
+        "w": 344,
+        "h": 373,
+        "anchorX": 1239.5,
+        "anchorY": 281
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v36/variants/ophelia-white-equinox/icons/2.png",
+        "sha256": "e7246ad428ae875a01d58703fa53a67237502d8b9806420a053d9a9947d00dea",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    },
+    {
+      "i": 3,
+      "row": 1,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 505,
+        "w": 539,
+        "h": 519
+      },
+      "visibleBounds": {
+        "x": 113,
+        "y": 551,
+        "w": 370,
+        "h": 382
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 60505,
+      "crop": {
+        "x": 105,
+        "y": 543,
+        "w": 386,
+        "h": 398,
+        "anchorX": 297.5,
+        "anchorY": 741.5
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v36/variants/ophelia-white-equinox/icons/3.png",
+        "sha256": "bfd28eb2d3ae5bb4115033477ecea16829b10ace92af5f666a94b8510f2a56af",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    },
+    {
+      "i": 4,
+      "row": 1,
+      "col": 1,
+      "cell": {
+        "x": 539,
+        "y": 505,
+        "w": 460,
+        "h": 519
+      },
+      "visibleBounds": {
+        "x": 596,
+        "y": 550,
+        "w": 340,
+        "h": 385
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 71119,
+      "crop": {
+        "x": 588,
+        "y": 542,
+        "w": 356,
+        "h": 401,
+        "anchorX": 765.5,
+        "anchorY": 742
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v36/variants/ophelia-white-equinox/icons/4.png",
+        "sha256": "a92b81aaf8e8bb768f69c8967805a6dd515d3c7f32bb0004273ed6239a8b441a",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    },
+    {
+      "i": 5,
+      "row": 1,
+      "col": 2,
+      "cell": {
+        "x": 999,
+        "y": 505,
+        "w": 537,
+        "h": 519
+      },
+      "visibleBounds": {
+        "x": 1063,
+        "y": 550,
+        "w": 374,
+        "h": 384
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 62400,
+      "crop": {
+        "x": 1055,
+        "y": 542,
+        "w": 390,
+        "h": 400,
+        "anchorX": 1249.5,
+        "anchorY": 741.5
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v36/variants/ophelia-white-equinox/icons/5.png",
+        "sha256": "853c61eb573037ad4bc4b206dfd1f9cd9f99ba4cc1997a6d0eea5d17ec9d726b",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    }
+  ]
+}

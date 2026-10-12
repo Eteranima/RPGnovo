@@ -1,0 +1,2 @@
+Legendary v36 — PASS (227 checks)
+Three real 5-star versions; accessible two-act progression via actual NPC conversations, skill healing and victories; BFS interaction approaches; explicit guaranteed choice without currency/pity consumption; once-only reward and duplicate rules, resume/migration, teacher recruitment, companion ownership, neutral physical Orfeu and original audio contracts. Native audio mocks verify impact timing, immediate mute and stale playback protection.

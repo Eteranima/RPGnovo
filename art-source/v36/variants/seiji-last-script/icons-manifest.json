@@ -1,0 +1,309 @@
+{
+  "id": "seiji-last-script",
+  "kind": "icons",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a0fe9c-5a05-7ae0-b816-392e2a3c966b\\exec-7545a176-3e12-4524-949a-a8dcdd3e5e30.png",
+  "selected": "art-source/v36/variants/seiji-last-script/icons-source.png",
+  "runtime": "public/assets/v36/variants/seiji-last-script/icons.png",
+  "width": 1536,
+  "height": 1024,
+  "cols": 3,
+  "rows": 2,
+  "sourceSha256": "52530a2a284e14a9dddc2ef4c56f2971013c5ced7932d519bc201212b7588749",
+  "selectedSha256": "52530a2a284e14a9dddc2ef4c56f2971013c5ced7932d519bc201212b7588749",
+  "runtimeSha256": "52530a2a284e14a9dddc2ef4c56f2971013c5ced7932d519bc201212b7588749",
+  "byteIdenticalSourceCopies": true,
+  "alphaThresholdForMeasurementOnly": 24,
+  "backgroundAlphaZero": 695396,
+  "rowCuts": [
+    0,
+    506,
+    1024
+  ],
+  "frames": [
+    {
+      "x": 28,
+      "y": 0,
+      "w": 473,
+      "h": 495,
+      "anchorX": 264,
+      "anchorY": 245
+    },
+    {
+      "x": 548,
+      "y": 11,
+      "w": 449,
+      "h": 488,
+      "anchorX": 772,
+      "anchorY": 254.5
+    },
+    {
+      "x": 1060,
+      "y": 3,
+      "w": 454,
+      "h": 492,
+      "anchorX": 1286.5,
+      "anchorY": 248.5
+    },
+    {
+      "x": 23,
+      "y": 524,
+      "w": 467,
+      "h": 483,
+      "anchorX": 256,
+      "anchorY": 765
+    },
+    {
+      "x": 531,
+      "y": 517,
+      "w": 469,
+      "h": 501,
+      "anchorX": 765,
+      "anchorY": 767
+    },
+    {
+      "x": 1042,
+      "y": 514,
+      "w": 489,
+      "h": 504,
+      "anchorX": 1286,
+      "anchorY": 765.5
+    }
+  ],
+  "measurements": [
+    {
+      "i": 0,
+      "row": 0,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "w": 524,
+        "h": 506
+      },
+      "visibleBounds": {
+        "x": 36,
+        "y": 4,
+        "w": 457,
+        "h": 483
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 87876,
+      "crop": {
+        "x": 28,
+        "y": 0,
+        "w": 473,
+        "h": 495,
+        "anchorX": 264,
+        "anchorY": 245
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v36/variants/seiji-last-script/icons/0.png",
+        "sha256": "ac8e3048eb52b528ea93a715a98307ccf1d5b61b67cecdf4082528358702e9a2",
+        "allNativeRgbaPixelsPreserved": true
+      },
+      "visualReview": {
+        "method": "Individual native RGBA crop inspection; full source sheet for continuity",
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "reviewDate": "2026-10-11"
+      }
+    },
+    {
+      "i": 1,
+      "row": 0,
+      "col": 1,
+      "cell": {
+        "x": 524,
+        "y": 0,
+        "w": 504,
+        "h": 506
+      },
+      "visibleBounds": {
+        "x": 556,
+        "y": 19,
+        "w": 433,
+        "h": 472
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 111892,
+      "crop": {
+        "x": 548,
+        "y": 11,
+        "w": 449,
+        "h": 488,
+        "anchorX": 772,
+        "anchorY": 254.5
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v36/variants/seiji-last-script/icons/1.png",
+        "sha256": "bcb593d0cda95db63e535ca8dad09f4d78f37b7a0a310385ea310356c7ca70c1",
+        "allNativeRgbaPixelsPreserved": true
+      },
+      "visualReview": {
+        "method": "Individual native RGBA crop inspection; full source sheet for continuity",
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "reviewDate": "2026-10-11"
+      }
+    },
+    {
+      "i": 2,
+      "row": 0,
+      "col": 2,
+      "cell": {
+        "x": 1028,
+        "y": 0,
+        "w": 508,
+        "h": 506
+      },
+      "visibleBounds": {
+        "x": 1068,
+        "y": 11,
+        "w": 438,
+        "h": 476
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 120730,
+      "crop": {
+        "x": 1060,
+        "y": 3,
+        "w": 454,
+        "h": 492,
+        "anchorX": 1286.5,
+        "anchorY": 248.5
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v36/variants/seiji-last-script/icons/2.png",
+        "sha256": "d134821ee174ddd835ec8f1fd3958ad94860e0bcb4b5d55b852105cc387bd1a0",
+        "allNativeRgbaPixelsPreserved": true
+      },
+      "visualReview": {
+        "method": "Individual native RGBA crop inspection; full source sheet for continuity",
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "reviewDate": "2026-10-11"
+      }
+    },
+    {
+      "i": 3,
+      "row": 1,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 506,
+        "w": 510,
+        "h": 518
+      },
+      "visibleBounds": {
+        "x": 31,
+        "y": 532,
+        "w": 451,
+        "h": 467
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 116426,
+      "crop": {
+        "x": 23,
+        "y": 524,
+        "w": 467,
+        "h": 483,
+        "anchorX": 256,
+        "anchorY": 765
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v36/variants/seiji-last-script/icons/3.png",
+        "sha256": "db073f32cd25dd9b503204366f5abed56179e81b2786b0b297012830d9391f93",
+        "allNativeRgbaPixelsPreserved": true
+      },
+      "visualReview": {
+        "method": "Individual native RGBA crop inspection; full source sheet for continuity",
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "reviewDate": "2026-10-11"
+      }
+    },
+    {
+      "i": 4,
+      "row": 1,
+      "col": 1,
+      "cell": {
+        "x": 510,
+        "y": 506,
+        "w": 511,
+        "h": 518
+      },
+      "visibleBounds": {
+        "x": 539,
+        "y": 525,
+        "w": 453,
+        "h": 485
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 125007,
+      "crop": {
+        "x": 531,
+        "y": 517,
+        "w": 469,
+        "h": 501,
+        "anchorX": 765,
+        "anchorY": 767
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v36/variants/seiji-last-script/icons/4.png",
+        "sha256": "7aaa79e12750ced20a2c1e56e1ac696352e2235a1310180d58e18bf3b1cff699",
+        "allNativeRgbaPixelsPreserved": true
+      },
+      "visualReview": {
+        "method": "Individual native RGBA crop inspection; full source sheet for continuity",
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "reviewDate": "2026-10-11"
+      }
+    },
+    {
+      "i": 5,
+      "row": 1,
+      "col": 2,
+      "cell": {
+        "x": 1021,
+        "y": 506,
+        "w": 515,
+        "h": 518
+      },
+      "visibleBounds": {
+        "x": 1050,
+        "y": 522,
+        "w": 473,
+        "h": 488
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 144980,
+      "crop": {
+        "x": 1042,
+        "y": 514,
+        "w": 489,
+        "h": 504,
+        "anchorX": 1286,
+        "anchorY": 765.5
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v36/variants/seiji-last-script/icons/5.png",
+        "sha256": "984c87aa0542bb48db6403bfc240106faa3dc7345c043eb8629d9fe085209a3f",
+        "allNativeRgbaPixelsPreserved": true
+      },
+      "visualReview": {
+        "method": "Individual native RGBA crop inspection; full source sheet for continuity",
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "reviewDate": "2026-10-11"
+      }
+    }
+  ]
+}

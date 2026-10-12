@@ -1,0 +1,5006 @@
+{
+  "format": "original deterministic modal/foley/musical synthesis",
+  "externalSamples": false,
+  "paidServices": false,
+  "sampleRate": 48000,
+  "tracks": [
+    {
+      "id": "seiji-last-script",
+      "hero": "Seiji",
+      "beat": "cast",
+      "material": "papel, tinta líquida, madeira e cordas de códice",
+      "legendary": false,
+      "motifMidi": [
+        62,
+        69,
+        65,
+        72,
+        74
+      ],
+      "durationSeconds": 1.95,
+      "events": [
+        {
+          "label": "capa do códice — golpe de madeira",
+          "startSeconds": 0,
+          "durationSeconds": 0.34,
+          "gain": 0.43,
+          "pan": 0,
+          "type": "membrane/body impact",
+          "fundamentalHz": 128,
+          "pitchDropRatio": 1.4
+        },
+        {
+          "label": "páginas e corte de papel",
+          "startSeconds": 0.006,
+          "durationSeconds": 0.62,
+          "gain": 0.36,
+          "pan": -0.18,
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            1200,
+            7300
+          ],
+          "decaySeconds": 0.19,
+          "flutterHz": 37
+        },
+        {
+          "label": "tinta fluida profunda",
+          "startSeconds": 0.012,
+          "durationSeconds": 0.9,
+          "gain": 0.3,
+          "pan": 0.12,
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            95,
+            780
+          ],
+          "decaySeconds": 0.28,
+          "flutterHz": 11
+        },
+        {
+          "label": "página 1",
+          "startSeconds": 0.06,
+          "durationSeconds": 0.11,
+          "gain": 0.14,
+          "pan": 0,
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            2200,
+            8600
+          ],
+          "decaySeconds": 0.028,
+          "flutterHz": 65
+        },
+        {
+          "label": "pincel de madeira 1",
+          "startSeconds": 0.06,
+          "durationSeconds": 0.25,
+          "gain": 0.07,
+          "pan": 0,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 185,
+          "ratios": [
+            1,
+            2.38,
+            3.79
+          ],
+          "decaySeconds": 0.095
+        },
+        {
+          "label": "página 2",
+          "startSeconds": 0.14100000000000001,
+          "durationSeconds": 0.11,
+          "gain": 0.14,
+          "pan": 0.4987474933020272,
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            2200,
+            8600
+          ],
+          "decaySeconds": 0.028,
+          "flutterHz": 65
+        },
+        {
+          "label": "pincel de madeira 2",
+          "startSeconds": 0.14100000000000001,
+          "durationSeconds": 0.25,
+          "gain": 0.07,
+          "pan": 0.42073549240394825,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 206,
+          "ratios": [
+            1,
+            2.38,
+            3.79
+          ],
+          "decaySeconds": 0.095
+        },
+        {
+          "label": "página 3",
+          "startSeconds": 0.222,
+          "durationSeconds": 0.11,
+          "gain": 0.14,
+          "pan": 0.0705600040299336,
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            2200,
+            8600
+          ],
+          "decaySeconds": 0.028,
+          "flutterHz": 65
+        },
+        {
+          "label": "pincel de madeira 3",
+          "startSeconds": 0.222,
+          "durationSeconds": 0.25,
+          "gain": 0.07,
+          "pan": 0.45464871341284085,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 227,
+          "ratios": [
+            1,
+            2.38,
+            3.79
+          ],
+          "decaySeconds": 0.095
+        },
+        {
+          "label": "página 4",
+          "startSeconds": 0.303,
+          "durationSeconds": 0.11,
+          "gain": 0.14,
+          "pan": -0.4887650588325485,
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            2200,
+            8600
+          ],
+          "decaySeconds": 0.028,
+          "flutterHz": 65
+        },
+        {
+          "label": "pincel de madeira 4",
+          "startSeconds": 0.303,
+          "durationSeconds": 0.25,
+          "gain": 0.07,
+          "pan": 0.0705600040299336,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 248,
+          "ratios": [
+            1,
+            2.38,
+            3.79
+          ],
+          "decaySeconds": 0.095
+        },
+        {
+          "label": "motivo de corda 1",
+          "startSeconds": 0.025,
+          "durationSeconds": 1.1,
+          "gain": 0.125,
+          "pan": 0,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 293.6647679174076,
+          "ratios": [
+            1,
+            2,
+            3.01,
+            4.02,
+            6.05
+          ],
+          "decaySeconds": 0.36
+        },
+        {
+          "label": "motivo de corda 2",
+          "startSeconds": 0.18,
+          "durationSeconds": 1.1,
+          "gain": 0.125,
+          "pan": 0.5671975093918027,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 440,
+          "ratios": [
+            1,
+            2,
+            3.01,
+            4.02,
+            6.05
+          ],
+          "decaySeconds": 0.36
+        },
+        {
+          "label": "motivo de corda 3",
+          "startSeconds": 0.335,
+          "durationSeconds": 1.1,
+          "gain": 0.125,
+          "pan": -0.1123516585727618,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 349.2282314330039,
+          "ratios": [
+            1,
+            2,
+            3.01,
+            4.02,
+            6.05
+          ],
+          "decaySeconds": 0.36
+        },
+        {
+          "label": "motivo de corda 4",
+          "startSeconds": 0.49,
+          "durationSeconds": 1.1,
+          "gain": 0.125,
+          "pan": -0.5449426599345373,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 523.2511306011972,
+          "ratios": [
+            1,
+            2,
+            3.01,
+            4.02,
+            6.05
+          ],
+          "decaySeconds": 0.36
+        },
+        {
+          "label": "reflexões estéreo curtas",
+          "type": "original room response",
+          "reflections": [
+            [
+              0.029,
+              0.08
+            ],
+            [
+              0.061,
+              0.052
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seiji-last-script",
+      "hero": "Seiji",
+      "beat": "ultimate",
+      "material": "papel, tinta líquida, madeira e cordas de códice",
+      "legendary": false,
+      "motifMidi": [
+        62,
+        69,
+        65,
+        72,
+        74
+      ],
+      "durationSeconds": 3.45,
+      "events": [
+        {
+          "label": "capa do códice — golpe de madeira",
+          "startSeconds": 0,
+          "durationSeconds": 0.34,
+          "gain": 0.49019999999999997,
+          "pan": 0,
+          "type": "membrane/body impact",
+          "fundamentalHz": 128,
+          "pitchDropRatio": 1.4
+        },
+        {
+          "label": "páginas e corte de papel",
+          "startSeconds": 0.006,
+          "durationSeconds": 0.62,
+          "gain": 0.36,
+          "pan": -0.18,
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            1200,
+            7300
+          ],
+          "decaySeconds": 0.19,
+          "flutterHz": 37
+        },
+        {
+          "label": "tinta fluida profunda",
+          "startSeconds": 0.012,
+          "durationSeconds": 0.9,
+          "gain": 0.3,
+          "pan": 0.12,
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            95,
+            780
+          ],
+          "decaySeconds": 0.28,
+          "flutterHz": 11
+        },
+        {
+          "label": "página 1",
+          "startSeconds": 0.06,
+          "durationSeconds": 0.11,
+          "gain": 0.14,
+          "pan": 0,
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            2200,
+            8600
+          ],
+          "decaySeconds": 0.028,
+          "flutterHz": 65
+        },
+        {
+          "label": "pincel de madeira 1",
+          "startSeconds": 0.06,
+          "durationSeconds": 0.25,
+          "gain": 0.07,
+          "pan": 0,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 185,
+          "ratios": [
+            1,
+            2.38,
+            3.79
+          ],
+          "decaySeconds": 0.095
+        },
+        {
+          "label": "página 2",
+          "startSeconds": 0.14100000000000001,
+          "durationSeconds": 0.11,
+          "gain": 0.14,
+          "pan": 0.4987474933020272,
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            2200,
+            8600
+          ],
+          "decaySeconds": 0.028,
+          "flutterHz": 65
+        },
+        {
+          "label": "pincel de madeira 2",
+          "startSeconds": 0.14100000000000001,
+          "durationSeconds": 0.25,
+          "gain": 0.07,
+          "pan": 0.42073549240394825,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 206,
+          "ratios": [
+            1,
+            2.38,
+            3.79
+          ],
+          "decaySeconds": 0.095
+        },
+        {
+          "label": "página 3",
+          "startSeconds": 0.222,
+          "durationSeconds": 0.11,
+          "gain": 0.14,
+          "pan": 0.0705600040299336,
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            2200,
+            8600
+          ],
+          "decaySeconds": 0.028,
+          "flutterHz": 65
+        },
+        {
+          "label": "pincel de madeira 3",
+          "startSeconds": 0.222,
+          "durationSeconds": 0.25,
+          "gain": 0.07,
+          "pan": 0.45464871341284085,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 227,
+          "ratios": [
+            1,
+            2.38,
+            3.79
+          ],
+          "decaySeconds": 0.095
+        },
+        {
+          "label": "página 4",
+          "startSeconds": 0.303,
+          "durationSeconds": 0.11,
+          "gain": 0.14,
+          "pan": -0.4887650588325485,
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            2200,
+            8600
+          ],
+          "decaySeconds": 0.028,
+          "flutterHz": 65
+        },
+        {
+          "label": "pincel de madeira 4",
+          "startSeconds": 0.303,
+          "durationSeconds": 0.25,
+          "gain": 0.07,
+          "pan": 0.0705600040299336,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 248,
+          "ratios": [
+            1,
+            2.38,
+            3.79
+          ],
+          "decaySeconds": 0.095
+        },
+        {
+          "label": "página 5",
+          "startSeconds": 0.384,
+          "durationSeconds": 0.11,
+          "gain": 0.14,
+          "pan": -0.13970774909946293,
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            2200,
+            8600
+          ],
+          "decaySeconds": 0.028,
+          "flutterHz": 65
+        },
+        {
+          "label": "pincel de madeira 5",
+          "startSeconds": 0.384,
+          "durationSeconds": 0.25,
+          "gain": 0.07,
+          "pan": -0.3784012476539641,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 269,
+          "ratios": [
+            1,
+            2.38,
+            3.79
+          ],
+          "decaySeconds": 0.095
+        },
+        {
+          "label": "página 6",
+          "startSeconds": 0.465,
+          "durationSeconds": 0.11,
+          "gain": 0.14,
+          "pan": 0.46899998838736945,
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            2200,
+            8600
+          ],
+          "decaySeconds": 0.028,
+          "flutterHz": 65
+        },
+        {
+          "label": "pincel de madeira 6",
+          "startSeconds": 0.465,
+          "durationSeconds": 0.25,
+          "gain": 0.07,
+          "pan": -0.4794621373315692,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 290,
+          "ratios": [
+            1,
+            2.38,
+            3.79
+          ],
+          "decaySeconds": 0.095
+        },
+        {
+          "label": "página 7",
+          "startSeconds": 0.546,
+          "durationSeconds": 0.11,
+          "gain": 0.14,
+          "pan": 0.2060592426208783,
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            2200,
+            8600
+          ],
+          "decaySeconds": 0.028,
+          "flutterHz": 65
+        },
+        {
+          "label": "pincel de madeira 7",
+          "startSeconds": 0.546,
+          "durationSeconds": 0.25,
+          "gain": 0.07,
+          "pan": -0.13970774909946293,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 311,
+          "ratios": [
+            1,
+            2.38,
+            3.79
+          ],
+          "decaySeconds": 0.095
+        },
+        {
+          "label": "motivo de corda 1",
+          "startSeconds": 0.045,
+          "durationSeconds": 1.1,
+          "gain": 0.125,
+          "pan": 0,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 293.6647679174076,
+          "ratios": [
+            1,
+            2,
+            3.01,
+            4.02,
+            6.05
+          ],
+          "decaySeconds": 0.36
+        },
+        {
+          "label": "motivo de corda 2",
+          "startSeconds": 0.18,
+          "durationSeconds": 1.1,
+          "gain": 0.125,
+          "pan": 0.5671975093918027,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 440,
+          "ratios": [
+            1,
+            2,
+            3.01,
+            4.02,
+            6.05
+          ],
+          "decaySeconds": 0.36
+        },
+        {
+          "label": "motivo de corda 3",
+          "startSeconds": 0.315,
+          "durationSeconds": 1.1,
+          "gain": 0.125,
+          "pan": -0.1123516585727618,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 349.2282314330039,
+          "ratios": [
+            1,
+            2,
+            3.01,
+            4.02,
+            6.05
+          ],
+          "decaySeconds": 0.36
+        },
+        {
+          "label": "motivo de corda 4",
+          "startSeconds": 0.45,
+          "durationSeconds": 1.1,
+          "gain": 0.125,
+          "pan": -0.5449426599345373,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 523.2511306011972,
+          "ratios": [
+            1,
+            2,
+            3.01,
+            4.02,
+            6.05
+          ],
+          "decaySeconds": 0.36
+        },
+        {
+          "label": "motivo de corda 5",
+          "startSeconds": 0.5850000000000001,
+          "durationSeconds": 1.1,
+          "gain": 0.125,
+          "pan": 0.2202950304263312,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 587.3295358348151,
+          "ratios": [
+            1,
+            2,
+            3.01,
+            4.02,
+            6.05
+          ],
+          "decaySeconds": 0.36
+        },
+        {
+          "label": "motivo de corda 6",
+          "startSeconds": 0.7200000000000001,
+          "durationSeconds": 1.1,
+          "gain": 0.125,
+          "pan": 0.501306163592593,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 587.3295358348151,
+          "ratios": [
+            1,
+            2,
+            3.01,
+            4.02,
+            6.05
+          ],
+          "decaySeconds": 0.36
+        },
+        {
+          "label": "motivo de corda 7",
+          "startSeconds": 0.8550000000000001,
+          "durationSeconds": 1.1,
+          "gain": 0.125,
+          "pan": -0.3195947946174151,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 880,
+          "ratios": [
+            1,
+            2,
+            3.01,
+            4.02,
+            6.05
+          ],
+          "decaySeconds": 0.36
+        },
+        {
+          "label": "clímax da ultimate 1",
+          "startSeconds": 0.022,
+          "durationSeconds": 3.29,
+          "gain": 0.135,
+          "pan": -0.33,
+          "type": "bowed musical partials",
+          "fundamentalHz": 293.6647679174076
+        },
+        {
+          "label": "clímax da ultimate 2",
+          "startSeconds": 0.022,
+          "durationSeconds": 3.29,
+          "gain": 0.135,
+          "pan": -0.11,
+          "type": "bowed musical partials",
+          "fundamentalHz": 440
+        },
+        {
+          "label": "clímax da ultimate 3",
+          "startSeconds": 0.022,
+          "durationSeconds": 3.29,
+          "gain": 0.135,
+          "pan": 0.11,
+          "type": "bowed musical partials",
+          "fundamentalHz": 349.2282314330039
+        },
+        {
+          "label": "clímax da ultimate 4",
+          "startSeconds": 0.022,
+          "durationSeconds": 3.29,
+          "gain": 0.135,
+          "pan": 0.33,
+          "type": "bowed musical partials",
+          "fundamentalHz": 523.2511306011972
+        },
+        {
+          "label": "reflexões estéreo curtas",
+          "type": "original room response",
+          "reflections": [
+            [
+              0.031,
+              0.105
+            ],
+            [
+              0.067,
+              0.075
+            ],
+            [
+              0.113,
+              0.049
+            ],
+            [
+              0.173,
+              0.025
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ophelia-white-equinox",
+      "hero": "Ophelia",
+      "beat": "cast",
+      "material": "cristal, sinos de gelo, geada e flor de cura",
+      "legendary": false,
+      "motifMidi": [
+        76,
+        83,
+        80,
+        87,
+        88
+      ],
+      "durationSeconds": 2.15,
+      "events": [
+        {
+          "label": "contato cristalino",
+          "startSeconds": 0,
+          "durationSeconds": 1.9135,
+          "gain": 0.3,
+          "pan": 0,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 440,
+          "ratios": [
+            1,
+            2.01,
+            2.71,
+            4.13,
+            5.57,
+            7.33
+          ],
+          "decaySeconds": 0.96
+        },
+        {
+          "label": "fissura de gelo — sem fogo",
+          "startSeconds": 0.004,
+          "durationSeconds": 0.29,
+          "gain": 0.24,
+          "pan": -0.08,
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            1850,
+            11500
+          ],
+          "decaySeconds": 0.052,
+          "flutterHz": 0
+        },
+        {
+          "label": "geada aérea",
+          "startSeconds": 0.028,
+          "durationSeconds": 1.419,
+          "gain": 0.16,
+          "pan": "slow stereo gesture",
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            600,
+            5800
+          ],
+          "decaySeconds": 0.55,
+          "flutterHz": 8
+        },
+        {
+          "label": "fragmento de cristal 1",
+          "startSeconds": 0.07,
+          "durationSeconds": 0.9,
+          "gain": 0.075,
+          "pan": 0,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 760,
+          "ratios": [
+            1,
+            2.39,
+            3.77,
+            5.81
+          ],
+          "decaySeconds": 0.32
+        },
+        {
+          "label": "fragmento de cristal 2",
+          "startSeconds": 0.15500000000000003,
+          "durationSeconds": 0.9,
+          "gain": 0.075,
+          "pan": 0.6337865784577139,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 897,
+          "ratios": [
+            1,
+            2.39,
+            3.77,
+            5.81
+          ],
+          "decaySeconds": 0.32
+        },
+        {
+          "label": "fragmento de cristal 3",
+          "startSeconds": 0.24000000000000002,
+          "durationSeconds": 0.9,
+          "gain": 0.075,
+          "pan": 0.4593149627747827,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 1034,
+          "ratios": [
+            1,
+            2.39,
+            3.77,
+            5.81
+          ],
+          "decaySeconds": 0.32
+        },
+        {
+          "label": "fragmento de cristal 4",
+          "startSeconds": 0.325,
+          "durationSeconds": 0.9,
+          "gain": 0.075,
+          "pan": -0.30091390144049945,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 1171,
+          "ratios": [
+            1,
+            2.39,
+            3.77,
+            5.81
+          ],
+          "decaySeconds": 0.32
+        },
+        {
+          "label": "motivo de cristal 1",
+          "startSeconds": 0.025,
+          "durationSeconds": 0.9,
+          "gain": 0.12,
+          "pan": 0,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 659.2551138257398,
+          "ratios": [
+            1,
+            2.03,
+            2.73,
+            4.17,
+            6.4
+          ],
+          "decaySeconds": 0.41
+        },
+        {
+          "label": "motivo de cristal 2",
+          "startSeconds": 0.18,
+          "durationSeconds": 0.9,
+          "gain": 0.12,
+          "pan": 0.5671975093918027,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 987.7666025122483,
+          "ratios": [
+            1,
+            2.03,
+            2.73,
+            4.17,
+            6.4
+          ],
+          "decaySeconds": 0.41
+        },
+        {
+          "label": "motivo de cristal 3",
+          "startSeconds": 0.335,
+          "durationSeconds": 0.9,
+          "gain": 0.12,
+          "pan": -0.1123516585727618,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 830.6093951598903,
+          "ratios": [
+            1,
+            2.03,
+            2.73,
+            4.17,
+            6.4
+          ],
+          "decaySeconds": 0.41
+        },
+        {
+          "label": "motivo de cristal 4",
+          "startSeconds": 0.49,
+          "durationSeconds": 0.9,
+          "gain": 0.12,
+          "pan": -0.5449426599345373,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 1244.5079348883237,
+          "ratios": [
+            1,
+            2.03,
+            2.73,
+            4.17,
+            6.4
+          ],
+          "decaySeconds": 0.41
+        },
+        {
+          "label": "reflexões estéreo curtas",
+          "type": "original room response",
+          "reflections": [
+            [
+              0.029,
+              0.08
+            ],
+            [
+              0.061,
+              0.052
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ophelia-white-equinox",
+      "hero": "Ophelia",
+      "beat": "ultimate",
+      "material": "cristal, sinos de gelo, geada e flor de cura",
+      "legendary": false,
+      "motifMidi": [
+        76,
+        83,
+        80,
+        87,
+        88
+      ],
+      "durationSeconds": 3.7,
+      "events": [
+        {
+          "label": "contato cristalino",
+          "startSeconds": 0,
+          "durationSeconds": 3.293,
+          "gain": 0.34199999999999997,
+          "pan": 0,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 440,
+          "ratios": [
+            1,
+            2.01,
+            2.71,
+            4.13,
+            5.57,
+            7.33
+          ],
+          "decaySeconds": 0.96
+        },
+        {
+          "label": "fissura de gelo — sem fogo",
+          "startSeconds": 0.004,
+          "durationSeconds": 0.29,
+          "gain": 0.24,
+          "pan": -0.08,
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            1850,
+            11500
+          ],
+          "decaySeconds": 0.052,
+          "flutterHz": 0
+        },
+        {
+          "label": "geada aérea",
+          "startSeconds": 0.028,
+          "durationSeconds": 2.442,
+          "gain": 0.16,
+          "pan": "slow stereo gesture",
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            600,
+            5800
+          ],
+          "decaySeconds": 0.55,
+          "flutterHz": 8
+        },
+        {
+          "label": "fragmento de cristal 1",
+          "startSeconds": 0.07,
+          "durationSeconds": 0.9,
+          "gain": 0.075,
+          "pan": 0,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 760,
+          "ratios": [
+            1,
+            2.39,
+            3.77,
+            5.81
+          ],
+          "decaySeconds": 0.32
+        },
+        {
+          "label": "fragmento de cristal 2",
+          "startSeconds": 0.15500000000000003,
+          "durationSeconds": 0.9,
+          "gain": 0.075,
+          "pan": 0.6337865784577139,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 897,
+          "ratios": [
+            1,
+            2.39,
+            3.77,
+            5.81
+          ],
+          "decaySeconds": 0.32
+        },
+        {
+          "label": "fragmento de cristal 3",
+          "startSeconds": 0.24000000000000002,
+          "durationSeconds": 0.9,
+          "gain": 0.075,
+          "pan": 0.4593149627747827,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 1034,
+          "ratios": [
+            1,
+            2.39,
+            3.77,
+            5.81
+          ],
+          "decaySeconds": 0.32
+        },
+        {
+          "label": "fragmento de cristal 4",
+          "startSeconds": 0.325,
+          "durationSeconds": 0.9,
+          "gain": 0.075,
+          "pan": -0.30091390144049945,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 1171,
+          "ratios": [
+            1,
+            2.39,
+            3.77,
+            5.81
+          ],
+          "decaySeconds": 0.32
+        },
+        {
+          "label": "fragmento de cristal 5",
+          "startSeconds": 0.41000000000000003,
+          "durationSeconds": 0.9,
+          "gain": 0.075,
+          "pan": -0.6773919340083717,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 1308,
+          "ratios": [
+            1,
+            2.39,
+            3.77,
+            5.81
+          ],
+          "decaySeconds": 0.32
+        },
+        {
+          "label": "fragmento de cristal 6",
+          "startSeconds": 0.49500000000000005,
+          "durationSeconds": 0.9,
+          "gain": 0.075,
+          "pan": -0.1900025387752696,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 1445,
+          "ratios": [
+            1,
+            2.39,
+            3.77,
+            5.81
+          ],
+          "decaySeconds": 0.32
+        },
+        {
+          "label": "fragmento de cristal 7",
+          "startSeconds": 0.5800000000000001,
+          "durationSeconds": 0.9,
+          "gain": 0.075,
+          "pan": 0.5396941474174238,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 1582,
+          "ratios": [
+            1,
+            2.39,
+            3.77,
+            5.81
+          ],
+          "decaySeconds": 0.32
+        },
+        {
+          "label": "motivo de cristal 1",
+          "startSeconds": 0.045,
+          "durationSeconds": 1.65,
+          "gain": 0.12,
+          "pan": 0,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 659.2551138257398,
+          "ratios": [
+            1,
+            2.03,
+            2.73,
+            4.17,
+            6.4
+          ],
+          "decaySeconds": 0.73
+        },
+        {
+          "label": "motivo de cristal 2",
+          "startSeconds": 0.18,
+          "durationSeconds": 1.65,
+          "gain": 0.12,
+          "pan": 0.5671975093918027,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 987.7666025122483,
+          "ratios": [
+            1,
+            2.03,
+            2.73,
+            4.17,
+            6.4
+          ],
+          "decaySeconds": 0.73
+        },
+        {
+          "label": "motivo de cristal 3",
+          "startSeconds": 0.315,
+          "durationSeconds": 1.65,
+          "gain": 0.12,
+          "pan": -0.1123516585727618,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 830.6093951598903,
+          "ratios": [
+            1,
+            2.03,
+            2.73,
+            4.17,
+            6.4
+          ],
+          "decaySeconds": 0.73
+        },
+        {
+          "label": "motivo de cristal 4",
+          "startSeconds": 0.45,
+          "durationSeconds": 1.65,
+          "gain": 0.12,
+          "pan": -0.5449426599345373,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 1244.5079348883237,
+          "ratios": [
+            1,
+            2.03,
+            2.73,
+            4.17,
+            6.4
+          ],
+          "decaySeconds": 0.73
+        },
+        {
+          "label": "motivo de cristal 5",
+          "startSeconds": 0.5850000000000001,
+          "durationSeconds": 1.65,
+          "gain": 0.12,
+          "pan": 0.2202950304263312,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 1318.5102276514797,
+          "ratios": [
+            1,
+            2.03,
+            2.73,
+            4.17,
+            6.4
+          ],
+          "decaySeconds": 0.73
+        },
+        {
+          "label": "motivo de cristal 6",
+          "startSeconds": 0.7200000000000001,
+          "durationSeconds": 1.65,
+          "gain": 0.12,
+          "pan": 0.501306163592593,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 1318.5102276514797,
+          "ratios": [
+            1,
+            2.03,
+            2.73,
+            4.17,
+            6.4
+          ],
+          "decaySeconds": 0.73
+        },
+        {
+          "label": "motivo de cristal 7",
+          "startSeconds": 0.8550000000000001,
+          "durationSeconds": 1.65,
+          "gain": 0.12,
+          "pan": -0.3195947946174151,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 1975.533205024496,
+          "ratios": [
+            1,
+            2.03,
+            2.73,
+            4.17,
+            6.4
+          ],
+          "decaySeconds": 0.73
+        },
+        {
+          "label": "clímax da ultimate 1",
+          "startSeconds": 0.022,
+          "durationSeconds": 3.54,
+          "gain": 0.135,
+          "pan": -0.33,
+          "type": "bowed musical partials",
+          "fundamentalHz": 329.6275569128699
+        },
+        {
+          "label": "clímax da ultimate 2",
+          "startSeconds": 0.022,
+          "durationSeconds": 3.54,
+          "gain": 0.135,
+          "pan": -0.11,
+          "type": "bowed musical partials",
+          "fundamentalHz": 493.8833012561241
+        },
+        {
+          "label": "clímax da ultimate 3",
+          "startSeconds": 0.022,
+          "durationSeconds": 3.54,
+          "gain": 0.135,
+          "pan": 0.11,
+          "type": "bowed musical partials",
+          "fundamentalHz": 415.3046975799451
+        },
+        {
+          "label": "clímax da ultimate 4",
+          "startSeconds": 0.022,
+          "durationSeconds": 3.54,
+          "gain": 0.135,
+          "pan": 0.33,
+          "type": "bowed musical partials",
+          "fundamentalHz": 622.2539674441618
+        },
+        {
+          "label": "reflexões estéreo curtas",
+          "type": "original room response",
+          "reflections": [
+            [
+              0.031,
+              0.105
+            ],
+            [
+              0.067,
+              0.075
+            ],
+            [
+              0.113,
+              0.049
+            ],
+            [
+              0.173,
+              0.025
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "marin-starless-throne",
+      "hero": "Marin",
+      "beat": "cast",
+      "material": "leque, tecido, ar sem voz e cordas de sombra",
+      "legendary": false,
+      "motifMidi": [
+        50,
+        57,
+        53,
+        60,
+        61
+      ],
+      "durationSeconds": 1.9,
+      "events": [
+        {
+          "label": "leque fechado — impacto grave",
+          "startSeconds": 0,
+          "durationSeconds": 0.27,
+          "gain": 0.52,
+          "pan": 0.02,
+          "type": "membrane/body impact",
+          "fundamentalHz": 72,
+          "pitchDropRatio": 1.8
+        },
+        {
+          "label": "tecido e lâmina de ar sem voz",
+          "startSeconds": 0.004,
+          "durationSeconds": 0.74,
+          "gain": 0.37,
+          "pan": "slow stereo gesture",
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            470,
+            4200
+          ],
+          "decaySeconds": 0.24,
+          "flutterHz": 14
+        },
+        {
+          "label": "véu de sombra",
+          "startSeconds": 0.018,
+          "durationSeconds": 1.387,
+          "gain": 0.22,
+          "pan": "slow stereo gesture",
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            140,
+            1550
+          ],
+          "decaySeconds": 0.68,
+          "flutterHz": 4.2
+        },
+        {
+          "label": "nervura do leque 1",
+          "startSeconds": 0.045,
+          "durationSeconds": 0.31,
+          "gain": 0.075,
+          "pan": 0,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 245,
+          "ratios": [
+            1,
+            2.71,
+            4.89
+          ],
+          "decaySeconds": 0.13
+        },
+        {
+          "label": "nervura do leque 2",
+          "startSeconds": 0.14,
+          "durationSeconds": 0.31,
+          "gain": 0.075,
+          "pan": 0.33658839392315865,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 276,
+          "ratios": [
+            1,
+            2.71,
+            4.89
+          ],
+          "decaySeconds": 0.13
+        },
+        {
+          "label": "nervura do leque 3",
+          "startSeconds": 0.235,
+          "durationSeconds": 0.31,
+          "gain": 0.075,
+          "pan": 0.3637189707302727,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 307,
+          "ratios": [
+            1,
+            2.71,
+            4.89
+          ],
+          "decaySeconds": 0.13
+        },
+        {
+          "label": "motivo harmônico 1",
+          "startSeconds": 0.025,
+          "durationSeconds": 1.2,
+          "gain": 0.13,
+          "pan": 0,
+          "type": "bowed musical partials",
+          "fundamentalHz": 146.8323839587038
+        },
+        {
+          "label": "motivo harmônico 2",
+          "startSeconds": 0.18,
+          "durationSeconds": 1.2,
+          "gain": 0.13,
+          "pan": 0.5671975093918027,
+          "type": "bowed musical partials",
+          "fundamentalHz": 220
+        },
+        {
+          "label": "motivo harmônico 3",
+          "startSeconds": 0.335,
+          "durationSeconds": 1.2,
+          "gain": 0.13,
+          "pan": -0.1123516585727618,
+          "type": "bowed musical partials",
+          "fundamentalHz": 174.61411571650194
+        },
+        {
+          "label": "motivo harmônico 4",
+          "startSeconds": 0.49,
+          "durationSeconds": 1.2,
+          "gain": 0.13,
+          "pan": -0.5449426599345373,
+          "type": "bowed musical partials",
+          "fundamentalHz": 261.6255653005986
+        },
+        {
+          "label": "reflexões estéreo curtas",
+          "type": "original room response",
+          "reflections": [
+            [
+              0.029,
+              0.08
+            ],
+            [
+              0.061,
+              0.052
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "marin-starless-throne",
+      "hero": "Marin",
+      "beat": "ultimate",
+      "material": "leque, tecido, ar sem voz e cordas de sombra",
+      "legendary": false,
+      "motifMidi": [
+        50,
+        57,
+        53,
+        60,
+        61
+      ],
+      "durationSeconds": 3.4,
+      "events": [
+        {
+          "label": "leque fechado — impacto grave",
+          "startSeconds": 0,
+          "durationSeconds": 0.27,
+          "gain": 0.5928,
+          "pan": 0.02,
+          "type": "membrane/body impact",
+          "fundamentalHz": 72,
+          "pitchDropRatio": 1.8
+        },
+        {
+          "label": "tecido e lâmina de ar sem voz",
+          "startSeconds": 0.004,
+          "durationSeconds": 0.74,
+          "gain": 0.37,
+          "pan": "slow stereo gesture",
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            470,
+            4200
+          ],
+          "decaySeconds": 0.24,
+          "flutterHz": 14
+        },
+        {
+          "label": "véu de sombra",
+          "startSeconds": 0.018,
+          "durationSeconds": 2.4819999999999998,
+          "gain": 0.22,
+          "pan": "slow stereo gesture",
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            140,
+            1550
+          ],
+          "decaySeconds": 0.68,
+          "flutterHz": 4.2
+        },
+        {
+          "label": "nervura do leque 1",
+          "startSeconds": 0.045,
+          "durationSeconds": 0.31,
+          "gain": 0.075,
+          "pan": 0,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 245,
+          "ratios": [
+            1,
+            2.71,
+            4.89
+          ],
+          "decaySeconds": 0.13
+        },
+        {
+          "label": "nervura do leque 2",
+          "startSeconds": 0.14,
+          "durationSeconds": 0.31,
+          "gain": 0.075,
+          "pan": 0.33658839392315865,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 276,
+          "ratios": [
+            1,
+            2.71,
+            4.89
+          ],
+          "decaySeconds": 0.13
+        },
+        {
+          "label": "nervura do leque 3",
+          "startSeconds": 0.235,
+          "durationSeconds": 0.31,
+          "gain": 0.075,
+          "pan": 0.3637189707302727,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 307,
+          "ratios": [
+            1,
+            2.71,
+            4.89
+          ],
+          "decaySeconds": 0.13
+        },
+        {
+          "label": "nervura do leque 4",
+          "startSeconds": 0.33,
+          "durationSeconds": 0.31,
+          "gain": 0.075,
+          "pan": 0.056448003223946885,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 338,
+          "ratios": [
+            1,
+            2.71,
+            4.89
+          ],
+          "decaySeconds": 0.13
+        },
+        {
+          "label": "nervura do leque 5",
+          "startSeconds": 0.425,
+          "durationSeconds": 0.31,
+          "gain": 0.075,
+          "pan": -0.3027209981231713,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 369,
+          "ratios": [
+            1,
+            2.71,
+            4.89
+          ],
+          "decaySeconds": 0.13
+        },
+        {
+          "label": "nervura do leque 6",
+          "startSeconds": 0.52,
+          "durationSeconds": 0.31,
+          "gain": 0.075,
+          "pan": -0.3835697098652554,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 400,
+          "ratios": [
+            1,
+            2.71,
+            4.89
+          ],
+          "decaySeconds": 0.13
+        },
+        {
+          "label": "motivo harmônico 1",
+          "startSeconds": 0.045,
+          "durationSeconds": 2.15,
+          "gain": 0.13,
+          "pan": 0,
+          "type": "bowed musical partials",
+          "fundamentalHz": 146.8323839587038
+        },
+        {
+          "label": "motivo harmônico 2",
+          "startSeconds": 0.18,
+          "durationSeconds": 2.15,
+          "gain": 0.13,
+          "pan": 0.5671975093918027,
+          "type": "bowed musical partials",
+          "fundamentalHz": 220
+        },
+        {
+          "label": "motivo harmônico 3",
+          "startSeconds": 0.315,
+          "durationSeconds": 2.15,
+          "gain": 0.13,
+          "pan": -0.1123516585727618,
+          "type": "bowed musical partials",
+          "fundamentalHz": 174.61411571650194
+        },
+        {
+          "label": "motivo harmônico 4",
+          "startSeconds": 0.45,
+          "durationSeconds": 2.15,
+          "gain": 0.13,
+          "pan": -0.5449426599345373,
+          "type": "bowed musical partials",
+          "fundamentalHz": 261.6255653005986
+        },
+        {
+          "label": "motivo harmônico 5",
+          "startSeconds": 0.5850000000000001,
+          "durationSeconds": 2.15,
+          "gain": 0.13,
+          "pan": 0.2202950304263312,
+          "type": "bowed musical partials",
+          "fundamentalHz": 277.1826309768721
+        },
+        {
+          "label": "motivo harmônico 6",
+          "startSeconds": 0.7200000000000001,
+          "durationSeconds": 2.15,
+          "gain": 0.13,
+          "pan": 0.501306163592593,
+          "type": "bowed musical partials",
+          "fundamentalHz": 293.6647679174076
+        },
+        {
+          "label": "motivo harmônico 7",
+          "startSeconds": 0.8550000000000001,
+          "durationSeconds": 2.15,
+          "gain": 0.13,
+          "pan": -0.3195947946174151,
+          "type": "bowed musical partials",
+          "fundamentalHz": 440
+        },
+        {
+          "label": "clímax da ultimate 1",
+          "startSeconds": 0.022,
+          "durationSeconds": 3.2399999999999998,
+          "gain": 0.135,
+          "pan": -0.33,
+          "type": "bowed musical partials",
+          "fundamentalHz": 146.8323839587038
+        },
+        {
+          "label": "clímax da ultimate 2",
+          "startSeconds": 0.022,
+          "durationSeconds": 3.2399999999999998,
+          "gain": 0.135,
+          "pan": -0.11,
+          "type": "bowed musical partials",
+          "fundamentalHz": 220
+        },
+        {
+          "label": "clímax da ultimate 3",
+          "startSeconds": 0.022,
+          "durationSeconds": 3.2399999999999998,
+          "gain": 0.135,
+          "pan": 0.11,
+          "type": "bowed musical partials",
+          "fundamentalHz": 174.61411571650194
+        },
+        {
+          "label": "clímax da ultimate 4",
+          "startSeconds": 0.022,
+          "durationSeconds": 3.2399999999999998,
+          "gain": 0.135,
+          "pan": 0.33,
+          "type": "bowed musical partials",
+          "fundamentalHz": 261.6255653005986
+        },
+        {
+          "label": "reflexões estéreo curtas",
+          "type": "original room response",
+          "reflections": [
+            [
+              0.031,
+              0.105
+            ],
+            [
+              0.067,
+              0.075
+            ],
+            [
+              0.113,
+              0.049
+            ],
+            [
+              0.173,
+              0.025
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gabriel-solar-oath",
+      "hero": "Gabriel",
+      "beat": "cast",
+      "material": "forja, metal quente, brasa e harmonia solar",
+      "legendary": false,
+      "motifMidi": [
+        57,
+        64,
+        69,
+        73,
+        76
+      ],
+      "durationSeconds": 2.05,
+      "events": [
+        {
+          "label": "malho solar — corpo do contato",
+          "startSeconds": 0,
+          "durationSeconds": 0.4,
+          "gain": 0.6,
+          "pan": 0,
+          "type": "membrane/body impact",
+          "fundamentalHz": 78,
+          "pitchDropRatio": 3
+        },
+        {
+          "label": "bigorna radiante",
+          "startSeconds": 0.002,
+          "durationSeconds": 1.5374999999999999,
+          "gain": 0.31,
+          "pan": -0.06,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 155,
+          "ratios": [
+            1,
+            1.51,
+            2.17,
+            3.72,
+            5.37,
+            7.9
+          ],
+          "decaySeconds": 0.75
+        },
+        {
+          "label": "brasa e ar quente",
+          "startSeconds": 0.015,
+          "durationSeconds": 1.3735,
+          "gain": 0.22,
+          "pan": "slow stereo gesture",
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            240,
+            3600
+          ],
+          "decaySeconds": 0.57,
+          "flutterHz": 16
+        },
+        {
+          "label": "estalo de forja 1",
+          "startSeconds": 0.03,
+          "durationSeconds": 0.038,
+          "gain": 0.14,
+          "pan": 0,
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            2300,
+            9900
+          ],
+          "decaySeconds": 0.006,
+          "flutterHz": 0
+        },
+        {
+          "label": "estalo de forja 2",
+          "startSeconds": 0.114,
+          "durationSeconds": 0.038,
+          "gain": 0.14,
+          "pan": 0.4091838420715568,
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            2300,
+            9900
+          ],
+          "decaySeconds": 0.006,
+          "flutterHz": 0
+        },
+        {
+          "label": "estalo de forja 3",
+          "startSeconds": 0.198,
+          "durationSeconds": 0.038,
+          "gain": 0.14,
+          "pan": -0.3405611228885677,
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            2300,
+            9900
+          ],
+          "decaySeconds": 0.006,
+          "flutterHz": 0
+        },
+        {
+          "label": "estalo de forja 4",
+          "startSeconds": 0.28200000000000003,
+          "durationSeconds": 0.038,
+          "gain": 0.14,
+          "pan": -0.12573697418951665,
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            2300,
+            9900
+          ],
+          "decaySeconds": 0.006,
+          "flutterHz": 0
+        },
+        {
+          "label": "motivo harmônico 1",
+          "startSeconds": 0.025,
+          "durationSeconds": 1.2,
+          "gain": 0.13,
+          "pan": 0,
+          "type": "bowed musical partials",
+          "fundamentalHz": 220
+        },
+        {
+          "label": "motivo harmônico 2",
+          "startSeconds": 0.18,
+          "durationSeconds": 1.2,
+          "gain": 0.13,
+          "pan": 0.5671975093918027,
+          "type": "bowed musical partials",
+          "fundamentalHz": 329.6275569128699
+        },
+        {
+          "label": "motivo harmônico 3",
+          "startSeconds": 0.335,
+          "durationSeconds": 1.2,
+          "gain": 0.13,
+          "pan": -0.1123516585727618,
+          "type": "bowed musical partials",
+          "fundamentalHz": 440
+        },
+        {
+          "label": "motivo harmônico 4",
+          "startSeconds": 0.49,
+          "durationSeconds": 1.2,
+          "gain": 0.13,
+          "pan": -0.5449426599345373,
+          "type": "bowed musical partials",
+          "fundamentalHz": 554.3652619537442
+        },
+        {
+          "label": "reflexões estéreo curtas",
+          "type": "original room response",
+          "reflections": [
+            [
+              0.029,
+              0.08
+            ],
+            [
+              0.061,
+              0.052
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gabriel-solar-oath",
+      "hero": "Gabriel",
+      "beat": "ultimate",
+      "material": "forja, metal quente, brasa e harmonia solar",
+      "legendary": false,
+      "motifMidi": [
+        57,
+        64,
+        69,
+        73,
+        76
+      ],
+      "durationSeconds": 3.65,
+      "events": [
+        {
+          "label": "malho solar — corpo do contato",
+          "startSeconds": 0,
+          "durationSeconds": 0.4,
+          "gain": 0.6839999999999999,
+          "pan": 0,
+          "type": "membrane/body impact",
+          "fundamentalHz": 78,
+          "pitchDropRatio": 3
+        },
+        {
+          "label": "bigorna radiante",
+          "startSeconds": 0.002,
+          "durationSeconds": 2.7375,
+          "gain": 0.31,
+          "pan": -0.06,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 155,
+          "ratios": [
+            1,
+            1.51,
+            2.17,
+            3.72,
+            5.37,
+            7.9
+          ],
+          "decaySeconds": 0.75
+        },
+        {
+          "label": "brasa e ar quente",
+          "startSeconds": 0.015,
+          "durationSeconds": 2.4455,
+          "gain": 0.22,
+          "pan": "slow stereo gesture",
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            240,
+            3600
+          ],
+          "decaySeconds": 0.57,
+          "flutterHz": 16
+        },
+        {
+          "label": "estalo de forja 1",
+          "startSeconds": 0.03,
+          "durationSeconds": 0.038,
+          "gain": 0.14,
+          "pan": 0,
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            2300,
+            9900
+          ],
+          "decaySeconds": 0.006,
+          "flutterHz": 0
+        },
+        {
+          "label": "estalo de forja 2",
+          "startSeconds": 0.114,
+          "durationSeconds": 0.038,
+          "gain": 0.14,
+          "pan": 0.4091838420715568,
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            2300,
+            9900
+          ],
+          "decaySeconds": 0.006,
+          "flutterHz": 0
+        },
+        {
+          "label": "estalo de forja 3",
+          "startSeconds": 0.198,
+          "durationSeconds": 0.038,
+          "gain": 0.14,
+          "pan": -0.3405611228885677,
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            2300,
+            9900
+          ],
+          "decaySeconds": 0.006,
+          "flutterHz": 0
+        },
+        {
+          "label": "estalo de forja 4",
+          "startSeconds": 0.28200000000000003,
+          "durationSeconds": 0.038,
+          "gain": 0.14,
+          "pan": -0.12573697418951665,
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            2300,
+            9900
+          ],
+          "decaySeconds": 0.006,
+          "flutterHz": 0
+        },
+        {
+          "label": "estalo de forja 5",
+          "startSeconds": 0.366,
+          "durationSeconds": 0.038,
+          "gain": 0.14,
+          "pan": 0.4452112109805218,
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            2300,
+            9900
+          ],
+          "decaySeconds": 0.006,
+          "flutterHz": 0
+        },
+        {
+          "label": "estalo de forja 6",
+          "startSeconds": 0.45000000000000007,
+          "durationSeconds": 0.038,
+          "gain": 0.14,
+          "pan": -0.24480949990021642,
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            2300,
+            9900
+          ],
+          "decaySeconds": 0.006,
+          "flutterHz": 0
+        },
+        {
+          "label": "estalo de forja 7",
+          "startSeconds": 0.534,
+          "durationSeconds": 0.038,
+          "gain": 0.14,
+          "pan": -0.24145781310019573,
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            2300,
+            9900
+          ],
+          "decaySeconds": 0.006,
+          "flutterHz": 0
+        },
+        {
+          "label": "estalo de forja 8",
+          "startSeconds": 0.6180000000000001,
+          "durationSeconds": 0.038,
+          "gain": 0.14,
+          "pan": 0.44577331006269166,
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            2300,
+            9900
+          ],
+          "decaySeconds": 0.006,
+          "flutterHz": 0
+        },
+        {
+          "label": "motivo harmônico 1",
+          "startSeconds": 0.045,
+          "durationSeconds": 2.15,
+          "gain": 0.13,
+          "pan": 0,
+          "type": "bowed musical partials",
+          "fundamentalHz": 220
+        },
+        {
+          "label": "motivo harmônico 2",
+          "startSeconds": 0.18,
+          "durationSeconds": 2.15,
+          "gain": 0.13,
+          "pan": 0.5671975093918027,
+          "type": "bowed musical partials",
+          "fundamentalHz": 329.6275569128699
+        },
+        {
+          "label": "motivo harmônico 3",
+          "startSeconds": 0.315,
+          "durationSeconds": 2.15,
+          "gain": 0.13,
+          "pan": -0.1123516585727618,
+          "type": "bowed musical partials",
+          "fundamentalHz": 440
+        },
+        {
+          "label": "motivo harmônico 4",
+          "startSeconds": 0.45,
+          "durationSeconds": 2.15,
+          "gain": 0.13,
+          "pan": -0.5449426599345373,
+          "type": "bowed musical partials",
+          "fundamentalHz": 554.3652619537442
+        },
+        {
+          "label": "motivo harmônico 5",
+          "startSeconds": 0.5850000000000001,
+          "durationSeconds": 2.15,
+          "gain": 0.13,
+          "pan": 0.2202950304263312,
+          "type": "bowed musical partials",
+          "fundamentalHz": 659.2551138257398
+        },
+        {
+          "label": "motivo harmônico 6",
+          "startSeconds": 0.7200000000000001,
+          "durationSeconds": 2.15,
+          "gain": 0.13,
+          "pan": 0.501306163592593,
+          "type": "bowed musical partials",
+          "fundamentalHz": 440
+        },
+        {
+          "label": "motivo harmônico 7",
+          "startSeconds": 0.8550000000000001,
+          "durationSeconds": 2.15,
+          "gain": 0.13,
+          "pan": -0.3195947946174151,
+          "type": "bowed musical partials",
+          "fundamentalHz": 659.2551138257398
+        },
+        {
+          "label": "clímax da ultimate 1",
+          "startSeconds": 0.022,
+          "durationSeconds": 3.4899999999999998,
+          "gain": 0.135,
+          "pan": -0.33,
+          "type": "bowed musical partials",
+          "fundamentalHz": 220
+        },
+        {
+          "label": "clímax da ultimate 2",
+          "startSeconds": 0.022,
+          "durationSeconds": 3.4899999999999998,
+          "gain": 0.135,
+          "pan": -0.11,
+          "type": "bowed musical partials",
+          "fundamentalHz": 329.6275569128699
+        },
+        {
+          "label": "clímax da ultimate 3",
+          "startSeconds": 0.022,
+          "durationSeconds": 3.4899999999999998,
+          "gain": 0.135,
+          "pan": 0.11,
+          "type": "bowed musical partials",
+          "fundamentalHz": 440
+        },
+        {
+          "label": "clímax da ultimate 4",
+          "startSeconds": 0.022,
+          "durationSeconds": 3.4899999999999998,
+          "gain": 0.135,
+          "pan": 0.33,
+          "type": "bowed musical partials",
+          "fundamentalHz": 554.3652619537442
+        },
+        {
+          "label": "reflexões estéreo curtas",
+          "type": "original room response",
+          "reflections": [
+            [
+              0.031,
+              0.105
+            ],
+            [
+              0.067,
+              0.075
+            ],
+            [
+              0.113,
+              0.049
+            ],
+            [
+              0.173,
+              0.025
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "max-thunder-requiem",
+      "hero": "Max",
+      "beat": "cast",
+      "material": "corrente, pregos, arcos e cordas metálicas",
+      "legendary": false,
+      "motifMidi": [
+        66,
+        73,
+        70,
+        78,
+        82
+      ],
+      "durationSeconds": 1.75,
+      "events": [
+        {
+          "label": "corrente aterrada",
+          "startSeconds": 0,
+          "durationSeconds": 0.25,
+          "gain": 0.5,
+          "pan": 0,
+          "type": "membrane/body impact",
+          "fundamentalHz": 115,
+          "pitchDropRatio": 1.8
+        },
+        {
+          "label": "pregos de aço — contato",
+          "startSeconds": 0.003,
+          "durationSeconds": 0.93,
+          "gain": 0.27,
+          "pan": -0.12,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 350,
+          "ratios": [
+            1,
+            1.74,
+            2.61,
+            4.71,
+            6.93
+          ],
+          "decaySeconds": 0.35
+        },
+        {
+          "label": "arco elétrico — textura fraturada",
+          "startSeconds": 0.006,
+          "durationSeconds": 0.67,
+          "gain": 0.32,
+          "pan": "slow stereo gesture",
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            980,
+            7800
+          ],
+          "decaySeconds": 0.19,
+          "flutterHz": 88
+        },
+        {
+          "label": "curto arco 1",
+          "startSeconds": 0.025,
+          "durationSeconds": 0.043,
+          "gain": 0.1,
+          "pan": 0,
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            2600,
+            10500
+          ],
+          "decaySeconds": 0.012,
+          "flutterHz": 180
+        },
+        {
+          "label": "prego ressonante 1",
+          "startSeconds": 0.025,
+          "durationSeconds": 0.33,
+          "gain": 0.067,
+          "pan": 0,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 530,
+          "ratios": [
+            1,
+            2.59,
+            4.81
+          ],
+          "decaySeconds": 0.12
+        },
+        {
+          "label": "curto arco 2",
+          "startSeconds": 0.07200000000000001,
+          "durationSeconds": 0.043,
+          "gain": 0.1,
+          "pan": 0.3877667103318945,
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            2600,
+            10500
+          ],
+          "decaySeconds": 0.012,
+          "flutterHz": 180
+        },
+        {
+          "label": "prego ressonante 2",
+          "startSeconds": 0.07200000000000001,
+          "durationSeconds": 0.33,
+          "gain": 0.067,
+          "pan": 0.4017194109037328,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 587,
+          "ratios": [
+            1,
+            2.59,
+            4.81
+          ],
+          "decaySeconds": 0.12
+        },
+        {
+          "label": "curto arco 3",
+          "startSeconds": 0.119,
+          "durationSeconds": 0.043,
+          "gain": 0.1,
+          "pan": -0.5167193218894015,
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            2600,
+            10500
+          ],
+          "decaySeconds": 0.012,
+          "flutterHz": 180
+        },
+        {
+          "label": "prego ressonante 3",
+          "startSeconds": 0.119,
+          "durationSeconds": 0.33,
+          "gain": 0.067,
+          "pan": 0.5597612177032429,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 644,
+          "ratios": [
+            1,
+            2.59,
+            4.81
+          ],
+          "decaySeconds": 0.12
+        },
+        {
+          "label": "curto arco 4",
+          "startSeconds": 0.166,
+          "durationSeconds": 0.043,
+          "gain": 0.1,
+          "pan": 0.3007886774818637,
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            2600,
+            10500
+          ],
+          "decaySeconds": 0.012,
+          "flutterHz": 180
+        },
+        {
+          "label": "prego ressonante 4",
+          "startSeconds": 0.166,
+          "durationSeconds": 0.33,
+          "gain": 0.067,
+          "pan": 0.3782593811086444,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 701,
+          "ratios": [
+            1,
+            2.59,
+            4.81
+          ],
+          "decaySeconds": 0.12
+        },
+        {
+          "label": "curto arco 5",
+          "startSeconds": 0.213,
+          "durationSeconds": 0.043,
+          "gain": 0.1,
+          "pan": 0.11590275533212878,
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            2600,
+            10500
+          ],
+          "decaySeconds": 0.012,
+          "flutterHz": 180
+        },
+        {
+          "label": "prego ressonante 5",
+          "startSeconds": 0.213,
+          "durationSeconds": 0.33,
+          "gain": 0.067,
+          "pan": -0.03268952031944485,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 758,
+          "ratios": [
+            1,
+            2.59,
+            4.81
+          ],
+          "decaySeconds": 0.12
+        },
+        {
+          "label": "motivo de corda 1",
+          "startSeconds": 0.025,
+          "durationSeconds": 1.1,
+          "gain": 0.125,
+          "pan": 0,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 369.9944227116344,
+          "ratios": [
+            1,
+            2,
+            3.01,
+            4.02,
+            6.05
+          ],
+          "decaySeconds": 0.36
+        },
+        {
+          "label": "motivo de corda 2",
+          "startSeconds": 0.18,
+          "durationSeconds": 1.1,
+          "gain": 0.125,
+          "pan": 0.5671975093918027,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 554.3652619537442,
+          "ratios": [
+            1,
+            2,
+            3.01,
+            4.02,
+            6.05
+          ],
+          "decaySeconds": 0.36
+        },
+        {
+          "label": "motivo de corda 3",
+          "startSeconds": 0.335,
+          "durationSeconds": 1.1,
+          "gain": 0.125,
+          "pan": -0.1123516585727618,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 466.1637615180899,
+          "ratios": [
+            1,
+            2,
+            3.01,
+            4.02,
+            6.05
+          ],
+          "decaySeconds": 0.36
+        },
+        {
+          "label": "motivo de corda 4",
+          "startSeconds": 0.49,
+          "durationSeconds": 1.1,
+          "gain": 0.125,
+          "pan": -0.5449426599345373,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 739.9888454232688,
+          "ratios": [
+            1,
+            2,
+            3.01,
+            4.02,
+            6.05
+          ],
+          "decaySeconds": 0.36
+        },
+        {
+          "label": "reflexões estéreo curtas",
+          "type": "original room response",
+          "reflections": [
+            [
+              0.029,
+              0.08
+            ],
+            [
+              0.061,
+              0.052
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "max-thunder-requiem",
+      "hero": "Max",
+      "beat": "ultimate",
+      "material": "corrente, pregos, arcos e cordas metálicas",
+      "legendary": false,
+      "motifMidi": [
+        66,
+        73,
+        70,
+        78,
+        82
+      ],
+      "durationSeconds": 3.3,
+      "events": [
+        {
+          "label": "corrente aterrada",
+          "startSeconds": 0,
+          "durationSeconds": 0.25,
+          "gain": 0.57,
+          "pan": 0,
+          "type": "membrane/body impact",
+          "fundamentalHz": 115,
+          "pitchDropRatio": 1.8
+        },
+        {
+          "label": "pregos de aço — contato",
+          "startSeconds": 0.003,
+          "durationSeconds": 0.93,
+          "gain": 0.27,
+          "pan": -0.12,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 350,
+          "ratios": [
+            1,
+            1.74,
+            2.61,
+            4.71,
+            6.93
+          ],
+          "decaySeconds": 0.35
+        },
+        {
+          "label": "arco elétrico — textura fraturada",
+          "startSeconds": 0.006,
+          "durationSeconds": 0.67,
+          "gain": 0.32,
+          "pan": "slow stereo gesture",
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            980,
+            7800
+          ],
+          "decaySeconds": 0.19,
+          "flutterHz": 88
+        },
+        {
+          "label": "curto arco 1",
+          "startSeconds": 0.025,
+          "durationSeconds": 0.043,
+          "gain": 0.1,
+          "pan": 0,
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            2600,
+            10500
+          ],
+          "decaySeconds": 0.012,
+          "flutterHz": 180
+        },
+        {
+          "label": "prego ressonante 1",
+          "startSeconds": 0.025,
+          "durationSeconds": 0.33,
+          "gain": 0.067,
+          "pan": 0,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 530,
+          "ratios": [
+            1,
+            2.59,
+            4.81
+          ],
+          "decaySeconds": 0.12
+        },
+        {
+          "label": "curto arco 2",
+          "startSeconds": 0.07200000000000001,
+          "durationSeconds": 0.043,
+          "gain": 0.1,
+          "pan": 0.3877667103318945,
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            2600,
+            10500
+          ],
+          "decaySeconds": 0.012,
+          "flutterHz": 180
+        },
+        {
+          "label": "prego ressonante 2",
+          "startSeconds": 0.07200000000000001,
+          "durationSeconds": 0.33,
+          "gain": 0.067,
+          "pan": 0.4017194109037328,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 587,
+          "ratios": [
+            1,
+            2.59,
+            4.81
+          ],
+          "decaySeconds": 0.12
+        },
+        {
+          "label": "curto arco 3",
+          "startSeconds": 0.119,
+          "durationSeconds": 0.043,
+          "gain": 0.1,
+          "pan": -0.5167193218894015,
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            2600,
+            10500
+          ],
+          "decaySeconds": 0.012,
+          "flutterHz": 180
+        },
+        {
+          "label": "prego ressonante 3",
+          "startSeconds": 0.119,
+          "durationSeconds": 0.33,
+          "gain": 0.067,
+          "pan": 0.5597612177032429,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 644,
+          "ratios": [
+            1,
+            2.59,
+            4.81
+          ],
+          "decaySeconds": 0.12
+        },
+        {
+          "label": "curto arco 4",
+          "startSeconds": 0.166,
+          "durationSeconds": 0.043,
+          "gain": 0.1,
+          "pan": 0.3007886774818637,
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            2600,
+            10500
+          ],
+          "decaySeconds": 0.012,
+          "flutterHz": 180
+        },
+        {
+          "label": "prego ressonante 4",
+          "startSeconds": 0.166,
+          "durationSeconds": 0.33,
+          "gain": 0.067,
+          "pan": 0.3782593811086444,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 701,
+          "ratios": [
+            1,
+            2.59,
+            4.81
+          ],
+          "decaySeconds": 0.12
+        },
+        {
+          "label": "curto arco 5",
+          "startSeconds": 0.213,
+          "durationSeconds": 0.043,
+          "gain": 0.1,
+          "pan": 0.11590275533212878,
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            2600,
+            10500
+          ],
+          "decaySeconds": 0.012,
+          "flutterHz": 180
+        },
+        {
+          "label": "prego ressonante 5",
+          "startSeconds": 0.213,
+          "durationSeconds": 0.33,
+          "gain": 0.067,
+          "pan": -0.03268952031944485,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 758,
+          "ratios": [
+            1,
+            2.59,
+            4.81
+          ],
+          "decaySeconds": 0.12
+        },
+        {
+          "label": "curto arco 6",
+          "startSeconds": 0.26,
+          "durationSeconds": 0.043,
+          "gain": 0.1,
+          "pan": -0.45523513083798284,
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            2600,
+            10500
+          ],
+          "decaySeconds": 0.012,
+          "flutterHz": 180
+        },
+        {
+          "label": "prego ressonante 6",
+          "startSeconds": 0.26,
+          "durationSeconds": 0.33,
+          "gain": 0.067,
+          "pan": -0.42380939737243983,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 815,
+          "ratios": [
+            1,
+            2.59,
+            4.81
+          ],
+          "decaySeconds": 0.12
+        },
+        {
+          "label": "curto arco 7",
+          "startSeconds": 0.30700000000000005,
+          "durationSeconds": 0.043,
+          "gain": 0.1,
+          "pan": 0.4907217481109342,
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            2600,
+            10500
+          ],
+          "decaySeconds": 0.012,
+          "flutterHz": 180
+        },
+        {
+          "label": "prego ressonante 7",
+          "startSeconds": 0.30700000000000005,
+          "durationSeconds": 0.33,
+          "gain": 0.067,
+          "pan": -0.5578521809480708,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 872,
+          "ratios": [
+            1,
+            2.59,
+            4.81
+          ],
+          "decaySeconds": 0.12
+        },
+        {
+          "label": "curto arco 8",
+          "startSeconds": 0.35400000000000004,
+          "durationSeconds": 0.043,
+          "gain": 0.1,
+          "pan": -0.19867713693568304,
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            2600,
+            10500
+          ],
+          "decaySeconds": 0.012,
+          "flutterHz": 180
+        },
+        {
+          "label": "prego ressonante 8",
+          "startSeconds": 0.35400000000000004,
+          "durationSeconds": 0.33,
+          "gain": 0.067,
+          "pan": -0.3535093172084997,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 929,
+          "ratios": [
+            1,
+            2.59,
+            4.81
+          ],
+          "decaySeconds": 0.12
+        },
+        {
+          "label": "curto arco 9",
+          "startSeconds": 0.401,
+          "durationSeconds": 0.043,
+          "gain": 0.1,
+          "pan": -0.22597412347738632,
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            2600,
+            10500
+          ],
+          "decaySeconds": 0.012,
+          "flutterHz": 180
+        },
+        {
+          "label": "prego ressonante 9",
+          "startSeconds": 0.401,
+          "durationSeconds": 0.33,
+          "gain": 0.067,
+          "pan": 0.06526755471627645,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 986,
+          "ratios": [
+            1,
+            2.59,
+            4.81
+          ],
+          "decaySeconds": 0.12
+        },
+        {
+          "label": "curto arco 10",
+          "startSeconds": 0.448,
+          "durationSeconds": 0.043,
+          "gain": 0.1,
+          "pan": 0.4997994167411006,
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            2600,
+            10500
+          ],
+          "decaySeconds": 0.012,
+          "flutterHz": 180
+        },
+        {
+          "label": "prego ressonante 10",
+          "startSeconds": 0.448,
+          "durationSeconds": 0.33,
+          "gain": 0.067,
+          "pan": 0.44445400375552585,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 1043,
+          "ratios": [
+            1,
+            2.59,
+            4.81
+          ],
+          "decaySeconds": 0.12
+        },
+        {
+          "label": "motivo de corda 1",
+          "startSeconds": 0.045,
+          "durationSeconds": 1.1,
+          "gain": 0.125,
+          "pan": 0,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 369.9944227116344,
+          "ratios": [
+            1,
+            2,
+            3.01,
+            4.02,
+            6.05
+          ],
+          "decaySeconds": 0.36
+        },
+        {
+          "label": "motivo de corda 2",
+          "startSeconds": 0.18,
+          "durationSeconds": 1.1,
+          "gain": 0.125,
+          "pan": 0.5671975093918027,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 554.3652619537442,
+          "ratios": [
+            1,
+            2,
+            3.01,
+            4.02,
+            6.05
+          ],
+          "decaySeconds": 0.36
+        },
+        {
+          "label": "motivo de corda 3",
+          "startSeconds": 0.315,
+          "durationSeconds": 1.1,
+          "gain": 0.125,
+          "pan": -0.1123516585727618,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 466.1637615180899,
+          "ratios": [
+            1,
+            2,
+            3.01,
+            4.02,
+            6.05
+          ],
+          "decaySeconds": 0.36
+        },
+        {
+          "label": "motivo de corda 4",
+          "startSeconds": 0.45,
+          "durationSeconds": 1.1,
+          "gain": 0.125,
+          "pan": -0.5449426599345373,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 739.9888454232688,
+          "ratios": [
+            1,
+            2,
+            3.01,
+            4.02,
+            6.05
+          ],
+          "decaySeconds": 0.36
+        },
+        {
+          "label": "motivo de corda 5",
+          "startSeconds": 0.5850000000000001,
+          "durationSeconds": 1.1,
+          "gain": 0.125,
+          "pan": 0.2202950304263312,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 932.3275230361799,
+          "ratios": [
+            1,
+            2,
+            3.01,
+            4.02,
+            6.05
+          ],
+          "decaySeconds": 0.36
+        },
+        {
+          "label": "motivo de corda 6",
+          "startSeconds": 0.7200000000000001,
+          "durationSeconds": 1.1,
+          "gain": 0.125,
+          "pan": 0.501306163592593,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 739.9888454232688,
+          "ratios": [
+            1,
+            2,
+            3.01,
+            4.02,
+            6.05
+          ],
+          "decaySeconds": 0.36
+        },
+        {
+          "label": "motivo de corda 7",
+          "startSeconds": 0.8550000000000001,
+          "durationSeconds": 1.1,
+          "gain": 0.125,
+          "pan": -0.3195947946174151,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 1108.7305239074883,
+          "ratios": [
+            1,
+            2,
+            3.01,
+            4.02,
+            6.05
+          ],
+          "decaySeconds": 0.36
+        },
+        {
+          "label": "clímax da ultimate 1",
+          "startSeconds": 0.022,
+          "durationSeconds": 3.1399999999999997,
+          "gain": 0.135,
+          "pan": -0.33,
+          "type": "bowed musical partials",
+          "fundamentalHz": 369.9944227116344
+        },
+        {
+          "label": "clímax da ultimate 2",
+          "startSeconds": 0.022,
+          "durationSeconds": 3.1399999999999997,
+          "gain": 0.135,
+          "pan": -0.11,
+          "type": "bowed musical partials",
+          "fundamentalHz": 554.3652619537442
+        },
+        {
+          "label": "clímax da ultimate 3",
+          "startSeconds": 0.022,
+          "durationSeconds": 3.1399999999999997,
+          "gain": 0.135,
+          "pan": 0.11,
+          "type": "bowed musical partials",
+          "fundamentalHz": 466.1637615180899
+        },
+        {
+          "label": "clímax da ultimate 4",
+          "startSeconds": 0.022,
+          "durationSeconds": 3.1399999999999997,
+          "gain": 0.135,
+          "pan": 0.33,
+          "type": "bowed musical partials",
+          "fundamentalHz": 739.9888454232688
+        },
+        {
+          "label": "reflexões estéreo curtas",
+          "type": "original room response",
+          "reflections": [
+            [
+              0.031,
+              0.105
+            ],
+            [
+              0.067,
+              0.075
+            ],
+            [
+              0.113,
+              0.049
+            ],
+            [
+              0.173,
+              0.025
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ava-worldroot-sovereign",
+      "hero": "Ava",
+      "beat": "cast",
+      "material": "rocha profunda, estratos, seiva e cristais",
+      "legendary": true,
+      "motifMidi": [
+        43,
+        50,
+        55,
+        59,
+        62
+      ],
+      "durationSeconds": 2.3,
+      "events": [
+        {
+          "label": "estrato profundo — impacto central",
+          "startSeconds": 0,
+          "durationSeconds": 0.68,
+          "gain": 0.75,
+          "pan": 0,
+          "type": "membrane/body impact",
+          "fundamentalHz": 46,
+          "pitchDropRatio": 2.5
+        },
+        {
+          "label": "pedra superior — deslocamento físico",
+          "startSeconds": 0.022,
+          "durationSeconds": 0.36,
+          "gain": 0.36,
+          "pan": -0.1,
+          "type": "membrane/body impact",
+          "fundamentalHz": 121,
+          "pitchDropRatio": 1.5
+        },
+        {
+          "label": "rocha e cascalho",
+          "startSeconds": 0.005,
+          "durationSeconds": 1.27,
+          "gain": 0.4,
+          "pan": "slow stereo gesture",
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            80,
+            2400
+          ],
+          "decaySeconds": 0.36,
+          "flutterHz": 22
+        },
+        {
+          "label": "subsolo em ressonância",
+          "startSeconds": 0.018,
+          "durationSeconds": 1.5869999999999997,
+          "gain": 0.28,
+          "pan": 0.07,
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            24,
+            430
+          ],
+          "decaySeconds": 0.72,
+          "flutterHz": 2.7
+        },
+        {
+          "label": "lascas minerais 1",
+          "startSeconds": 0.044,
+          "durationSeconds": 0.5,
+          "gain": 0.07,
+          "pan": 0,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 225,
+          "ratios": [
+            1,
+            1.83,
+            3.43,
+            5.67
+          ],
+          "decaySeconds": 0.22
+        },
+        {
+          "label": "lascas minerais 2",
+          "startSeconds": 0.099,
+          "durationSeconds": 0.5,
+          "gain": 0.07,
+          "pan": 0.5652489419579071,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 278,
+          "ratios": [
+            1,
+            1.83,
+            3.43,
+            5.67
+          ],
+          "decaySeconds": 0.22
+        },
+        {
+          "label": "lascas minerais 3",
+          "startSeconds": 0.154,
+          "durationSeconds": 0.5,
+          "gain": 0.07,
+          "pan": -0.14565842815529378,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 331,
+          "ratios": [
+            1,
+            1.83,
+            3.43,
+            5.67
+          ],
+          "decaySeconds": 0.22
+        },
+        {
+          "label": "lascas minerais 4",
+          "startSeconds": 0.20900000000000002,
+          "durationSeconds": 0.5,
+          "gain": 0.07,
+          "pan": -0.5277143689268075,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 384,
+          "ratios": [
+            1,
+            1.83,
+            3.43,
+            5.67
+          ],
+          "decaySeconds": 0.22
+        },
+        {
+          "label": "lascas minerais 5",
+          "startSeconds": 0.264,
+          "durationSeconds": 0.5,
+          "gain": 0.07,
+          "pan": 0.2816446101490066,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 437,
+          "ratios": [
+            1,
+            1.83,
+            3.43,
+            5.67
+          ],
+          "decaySeconds": 0.22
+        },
+        {
+          "label": "motivo de cristal 1",
+          "startSeconds": 0.025,
+          "durationSeconds": 0.9,
+          "gain": 0.12,
+          "pan": 0,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 97.99885899543733,
+          "ratios": [
+            1,
+            2.03,
+            2.73,
+            4.17,
+            6.4
+          ],
+          "decaySeconds": 0.41
+        },
+        {
+          "label": "motivo de cristal 2",
+          "startSeconds": 0.18,
+          "durationSeconds": 0.9,
+          "gain": 0.12,
+          "pan": 0.5671975093918027,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 146.8323839587038,
+          "ratios": [
+            1,
+            2.03,
+            2.73,
+            4.17,
+            6.4
+          ],
+          "decaySeconds": 0.41
+        },
+        {
+          "label": "motivo de cristal 3",
+          "startSeconds": 0.335,
+          "durationSeconds": 0.9,
+          "gain": 0.12,
+          "pan": -0.1123516585727618,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 195.99771799087463,
+          "ratios": [
+            1,
+            2.03,
+            2.73,
+            4.17,
+            6.4
+          ],
+          "decaySeconds": 0.41
+        },
+        {
+          "label": "motivo de cristal 4",
+          "startSeconds": 0.49,
+          "durationSeconds": 0.9,
+          "gain": 0.12,
+          "pan": -0.5449426599345373,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 246.94165062806206,
+          "ratios": [
+            1,
+            2.03,
+            2.73,
+            4.17,
+            6.4
+          ],
+          "decaySeconds": 0.41
+        },
+        {
+          "label": "reflexões estéreo curtas",
+          "type": "original room response",
+          "reflections": [
+            [
+              0.029,
+              0.08
+            ],
+            [
+              0.061,
+              0.052
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ava-worldroot-sovereign",
+      "hero": "Ava",
+      "beat": "ultimate",
+      "material": "rocha profunda, estratos, seiva e cristais",
+      "legendary": true,
+      "motifMidi": [
+        43,
+        50,
+        55,
+        59,
+        62
+      ],
+      "durationSeconds": 3.95,
+      "events": [
+        {
+          "label": "estrato profundo — impacto central",
+          "startSeconds": 0,
+          "durationSeconds": 0.68,
+          "gain": 0.855,
+          "pan": 0,
+          "type": "membrane/body impact",
+          "fundamentalHz": 46,
+          "pitchDropRatio": 2.5
+        },
+        {
+          "label": "pedra superior — deslocamento físico",
+          "startSeconds": 0.022,
+          "durationSeconds": 0.36,
+          "gain": 0.36,
+          "pan": -0.1,
+          "type": "membrane/body impact",
+          "fundamentalHz": 121,
+          "pitchDropRatio": 1.5
+        },
+        {
+          "label": "rocha e cascalho",
+          "startSeconds": 0.005,
+          "durationSeconds": 1.27,
+          "gain": 0.4,
+          "pan": "slow stereo gesture",
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            80,
+            2400
+          ],
+          "decaySeconds": 0.36,
+          "flutterHz": 22
+        },
+        {
+          "label": "subsolo em ressonância",
+          "startSeconds": 0.018,
+          "durationSeconds": 2.7255,
+          "gain": 0.28,
+          "pan": 0.07,
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            24,
+            430
+          ],
+          "decaySeconds": 0.72,
+          "flutterHz": 2.7
+        },
+        {
+          "label": "lascas minerais 1",
+          "startSeconds": 0.044,
+          "durationSeconds": 0.5,
+          "gain": 0.07,
+          "pan": 0,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 225,
+          "ratios": [
+            1,
+            1.83,
+            3.43,
+            5.67
+          ],
+          "decaySeconds": 0.22
+        },
+        {
+          "label": "lascas minerais 2",
+          "startSeconds": 0.099,
+          "durationSeconds": 0.5,
+          "gain": 0.07,
+          "pan": 0.5652489419579071,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 278,
+          "ratios": [
+            1,
+            1.83,
+            3.43,
+            5.67
+          ],
+          "decaySeconds": 0.22
+        },
+        {
+          "label": "lascas minerais 3",
+          "startSeconds": 0.154,
+          "durationSeconds": 0.5,
+          "gain": 0.07,
+          "pan": -0.14565842815529378,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 331,
+          "ratios": [
+            1,
+            1.83,
+            3.43,
+            5.67
+          ],
+          "decaySeconds": 0.22
+        },
+        {
+          "label": "lascas minerais 4",
+          "startSeconds": 0.20900000000000002,
+          "durationSeconds": 0.5,
+          "gain": 0.07,
+          "pan": -0.5277143689268075,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 384,
+          "ratios": [
+            1,
+            1.83,
+            3.43,
+            5.67
+          ],
+          "decaySeconds": 0.22
+        },
+        {
+          "label": "lascas minerais 5",
+          "startSeconds": 0.264,
+          "durationSeconds": 0.5,
+          "gain": 0.07,
+          "pan": 0.2816446101490066,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 437,
+          "ratios": [
+            1,
+            1.83,
+            3.43,
+            5.67
+          ],
+          "decaySeconds": 0.22
+        },
+        {
+          "label": "lascas minerais 6",
+          "startSeconds": 0.319,
+          "durationSeconds": 0.5,
+          "gain": 0.07,
+          "pan": 0.45513765419538943,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 490,
+          "ratios": [
+            1,
+            1.83,
+            3.43,
+            5.67
+          ],
+          "decaySeconds": 0.22
+        },
+        {
+          "label": "lascas minerais 7",
+          "startSeconds": 0.374,
+          "durationSeconds": 0.5,
+          "gain": 0.07,
+          "pan": -0.3989285719283191,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 543,
+          "ratios": [
+            1,
+            1.83,
+            3.43,
+            5.67
+          ],
+          "decaySeconds": 0.22
+        },
+        {
+          "label": "lascas minerais 8",
+          "startSeconds": 0.429,
+          "durationSeconds": 0.5,
+          "gain": 0.07,
+          "pan": -0.3523381539751089,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 596,
+          "ratios": [
+            1,
+            1.83,
+            3.43,
+            5.67
+          ],
+          "decaySeconds": 0.22
+        },
+        {
+          "label": "lascas minerais 9",
+          "startSeconds": 0.484,
+          "durationSeconds": 0.5,
+          "gain": 0.07,
+          "pan": 0.48972223446820257,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 649,
+          "ratios": [
+            1,
+            1.83,
+            3.43,
+            5.67
+          ],
+          "decaySeconds": 0.22
+        },
+        {
+          "label": "lascas minerais 10",
+          "startSeconds": 0.539,
+          "durationSeconds": 0.5,
+          "gain": 0.07,
+          "pan": 0.22614212668444977,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 702,
+          "ratios": [
+            1,
+            1.83,
+            3.43,
+            5.67
+          ],
+          "decaySeconds": 0.22
+        },
+        {
+          "label": "lascas minerais 11",
+          "startSeconds": 0.5940000000000001,
+          "durationSeconds": 0.5,
+          "gain": 0.07,
+          "pan": -0.5479965703713473,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 755,
+          "ratios": [
+            1,
+            1.83,
+            3.43,
+            5.67
+          ],
+          "decaySeconds": 0.22
+        },
+        {
+          "label": "lascas minerais 12",
+          "startSeconds": 0.649,
+          "durationSeconds": 0.5,
+          "gain": 0.07,
+          "pan": -0.0849294447140933,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 808,
+          "ratios": [
+            1,
+            1.83,
+            3.43,
+            5.67
+          ],
+          "decaySeconds": 0.22
+        },
+        {
+          "label": "motivo de cristal 1",
+          "startSeconds": 0.045,
+          "durationSeconds": 1.65,
+          "gain": 0.12,
+          "pan": 0,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 97.99885899543733,
+          "ratios": [
+            1,
+            2.03,
+            2.73,
+            4.17,
+            6.4
+          ],
+          "decaySeconds": 0.73
+        },
+        {
+          "label": "motivo de cristal 2",
+          "startSeconds": 0.18,
+          "durationSeconds": 1.65,
+          "gain": 0.12,
+          "pan": 0.5671975093918027,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 146.8323839587038,
+          "ratios": [
+            1,
+            2.03,
+            2.73,
+            4.17,
+            6.4
+          ],
+          "decaySeconds": 0.73
+        },
+        {
+          "label": "motivo de cristal 3",
+          "startSeconds": 0.315,
+          "durationSeconds": 1.65,
+          "gain": 0.12,
+          "pan": -0.1123516585727618,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 195.99771799087463,
+          "ratios": [
+            1,
+            2.03,
+            2.73,
+            4.17,
+            6.4
+          ],
+          "decaySeconds": 0.73
+        },
+        {
+          "label": "motivo de cristal 4",
+          "startSeconds": 0.45,
+          "durationSeconds": 1.65,
+          "gain": 0.12,
+          "pan": -0.5449426599345373,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 246.94165062806206,
+          "ratios": [
+            1,
+            2.03,
+            2.73,
+            4.17,
+            6.4
+          ],
+          "decaySeconds": 0.73
+        },
+        {
+          "label": "motivo de cristal 5",
+          "startSeconds": 0.5850000000000001,
+          "durationSeconds": 1.65,
+          "gain": 0.12,
+          "pan": 0.2202950304263312,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 293.6647679174076,
+          "ratios": [
+            1,
+            2.03,
+            2.73,
+            4.17,
+            6.4
+          ],
+          "decaySeconds": 0.73
+        },
+        {
+          "label": "motivo de cristal 6",
+          "startSeconds": 0.7200000000000001,
+          "durationSeconds": 1.65,
+          "gain": 0.12,
+          "pan": 0.501306163592593,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 195.99771799087463,
+          "ratios": [
+            1,
+            2.03,
+            2.73,
+            4.17,
+            6.4
+          ],
+          "decaySeconds": 0.73
+        },
+        {
+          "label": "motivo de cristal 7",
+          "startSeconds": 0.8550000000000001,
+          "durationSeconds": 1.65,
+          "gain": 0.12,
+          "pan": -0.3195947946174151,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 293.6647679174076,
+          "ratios": [
+            1,
+            2.03,
+            2.73,
+            4.17,
+            6.4
+          ],
+          "decaySeconds": 0.73
+        },
+        {
+          "label": "motivo de cristal 8",
+          "startSeconds": 0.9900000000000001,
+          "durationSeconds": 1.65,
+          "gain": 0.12,
+          "pan": -0.4380001640916602,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 391.99543598174927,
+          "ratios": [
+            1,
+            2.03,
+            2.73,
+            4.17,
+            6.4
+          ],
+          "decaySeconds": 0.73
+        },
+        {
+          "label": "motivo de cristal 9",
+          "startSeconds": 1.125,
+          "durationSeconds": 1.65,
+          "gain": 0.12,
+          "pan": 0.406354775181517,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 493.8833012561241,
+          "ratios": [
+            1,
+            2.03,
+            2.73,
+            4.17,
+            6.4
+          ],
+          "decaySeconds": 0.73
+        },
+        {
+          "label": "motivo de cristal 10",
+          "startSeconds": 1.26,
+          "durationSeconds": 1.65,
+          "gain": 0.12,
+          "pan": 0.35750856777001916,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 587.3295358348151,
+          "ratios": [
+            1,
+            2.03,
+            2.73,
+            4.17,
+            6.4
+          ],
+          "decaySeconds": 0.73
+        },
+        {
+          "label": "clímax mítico 1",
+          "startSeconds": 0.022,
+          "durationSeconds": 3.79,
+          "gain": 0.135,
+          "pan": -0.33,
+          "type": "bowed musical partials",
+          "fundamentalHz": 97.99885899543733
+        },
+        {
+          "label": "clímax mítico 2",
+          "startSeconds": 0.022,
+          "durationSeconds": 3.79,
+          "gain": 0.135,
+          "pan": -0.11,
+          "type": "bowed musical partials",
+          "fundamentalHz": 146.8323839587038
+        },
+        {
+          "label": "clímax mítico 3",
+          "startSeconds": 0.022,
+          "durationSeconds": 3.79,
+          "gain": 0.135,
+          "pan": 0.11,
+          "type": "bowed musical partials",
+          "fundamentalHz": 195.99771799087463
+        },
+        {
+          "label": "clímax mítico 4",
+          "startSeconds": 0.022,
+          "durationSeconds": 3.79,
+          "gain": 0.135,
+          "pan": 0.33,
+          "type": "bowed musical partials",
+          "fundamentalHz": 246.94165062806206
+        },
+        {
+          "label": "resposta mítica 1",
+          "startSeconds": 0.24,
+          "durationSeconds": 2,
+          "gain": 0.093,
+          "pan": 0,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 391.99543598174927,
+          "ratios": [
+            1,
+            1.83,
+            3.19,
+            5.71
+          ],
+          "decaySeconds": 0.82
+        },
+        {
+          "label": "resposta mítica 2",
+          "startSeconds": 0.45999999999999996,
+          "durationSeconds": 2,
+          "gain": 0.093,
+          "pan": 0.5961690552430711,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 493.8833012561241,
+          "ratios": [
+            1,
+            1.83,
+            3.19,
+            5.71
+          ],
+          "decaySeconds": 0.82
+        },
+        {
+          "label": "resposta mítica 3",
+          "startSeconds": 0.6799999999999999,
+          "durationSeconds": 2,
+          "gain": 0.093,
+          "pan": -0.38547047129391293,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 587.3295358348151,
+          "ratios": [
+            1,
+            1.83,
+            3.19,
+            5.71
+          ],
+          "decaySeconds": 0.82
+        },
+        {
+          "label": "resposta mítica 4",
+          "startSeconds": 0.9,
+          "durationSeconds": 2,
+          "gain": 0.093,
+          "pan": -0.3469318918365122,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 195.99771799087463,
+          "ratios": [
+            1,
+            1.83,
+            3.19,
+            5.71
+          ],
+          "decaySeconds": 0.82
+        },
+        {
+          "label": "resposta mítica 5",
+          "startSeconds": 1.12,
+          "durationSeconds": 2,
+          "gain": 0.093,
+          "pan": 0.6097893933798364,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 293.6647679174076,
+          "ratios": [
+            1,
+            1.83,
+            3.19,
+            5.71
+          ],
+          "decaySeconds": 0.82
+        },
+        {
+          "label": "raízes e terra — cauda orgânica",
+          "startSeconds": 0.48,
+          "durationSeconds": 3.42,
+          "gain": 0.14,
+          "pan": "slow stereo gesture",
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            120,
+            1100
+          ],
+          "decaySeconds": 0.93,
+          "flutterHz": 7
+        },
+        {
+          "label": "reflexões estéreo curtas",
+          "type": "original room response",
+          "reflections": [
+            [
+              0.031,
+              0.105
+            ],
+            [
+              0.067,
+              0.075
+            ],
+            [
+              0.113,
+              0.049
+            ],
+            [
+              0.173,
+              0.025
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beatriz-eclipse-tide",
+      "hero": "Beatriz",
+      "beat": "cast",
+      "material": "marés escuras, gotas, lâmina e ressonância abissal",
+      "legendary": true,
+      "motifMidi": [
+        58,
+        65,
+        61,
+        68,
+        70
+      ],
+      "durationSeconds": 2.25,
+      "events": [
+        {
+          "label": "maré abissal — impacto da lâmina",
+          "startSeconds": 0,
+          "durationSeconds": 0.5,
+          "gain": 0.61,
+          "pan": 0,
+          "type": "membrane/body impact",
+          "fundamentalHz": 58,
+          "pitchDropRatio": 2.6
+        },
+        {
+          "label": "água sob pressão",
+          "startSeconds": 0.006,
+          "durationSeconds": 1.2,
+          "gain": 0.51,
+          "pan": "slow stereo gesture",
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            110,
+            5200
+          ],
+          "decaySeconds": 0.32,
+          "flutterHz": 6
+        },
+        {
+          "label": "rastro de maré escura",
+          "startSeconds": 0.015,
+          "durationSeconds": 1.7325,
+          "gain": 0.24,
+          "pan": "slow stereo gesture",
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            85,
+            1400
+          ],
+          "decaySeconds": 0.71,
+          "flutterHz": 2.5
+        },
+        {
+          "label": "gota e cavidade 1",
+          "startSeconds": 0.025,
+          "durationSeconds": 0.47,
+          "gain": 0.11,
+          "pan": 0,
+          "type": "liquid cavity resonance",
+          "fundamentalHz": 290
+        },
+        {
+          "label": "gota e cavidade 2",
+          "startSeconds": 0.086,
+          "durationSeconds": 0.47,
+          "gain": 0.11,
+          "pan": 0.643977416165595,
+          "type": "liquid cavity resonance",
+          "fundamentalHz": 361
+        },
+        {
+          "label": "gota e cavidade 3",
+          "startSeconds": 0.147,
+          "durationSeconds": 0.47,
+          "gain": 0.11,
+          "pan": 0.28207072095432767,
+          "type": "liquid cavity resonance",
+          "fundamentalHz": 432
+        },
+        {
+          "label": "gota e cavidade 4",
+          "startSeconds": 0.208,
+          "durationSeconds": 0.47,
+          "gain": 0.11,
+          "pan": -0.5204266679212891,
+          "type": "liquid cavity resonance",
+          "fundamentalHz": 503
+        },
+        {
+          "label": "gota e cavidade 5",
+          "startSeconds": 0.269,
+          "durationSeconds": 0.47,
+          "gain": 0.11,
+          "pan": -0.5100245617869515,
+          "type": "liquid cavity resonance",
+          "fundamentalHz": 574
+        },
+        {
+          "label": "gota e cavidade 6",
+          "startSeconds": 0.33,
+          "durationSeconds": 0.47,
+          "gain": 0.11,
+          "pan": 0.29702908869520767,
+          "type": "liquid cavity resonance",
+          "fundamentalHz": 645
+        },
+        {
+          "label": "lâmina entre água e trevas",
+          "startSeconds": 0.018,
+          "durationSeconds": 1.12,
+          "gain": 0.18,
+          "pan": 0.12,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 216,
+          "ratios": [
+            1,
+            1.59,
+            2.77,
+            4.91
+          ],
+          "decaySeconds": 0.4
+        },
+        {
+          "label": "motivo harmônico 1",
+          "startSeconds": 0.025,
+          "durationSeconds": 1.2,
+          "gain": 0.13,
+          "pan": 0,
+          "type": "bowed musical partials",
+          "fundamentalHz": 233.08188075904496
+        },
+        {
+          "label": "motivo harmônico 2",
+          "startSeconds": 0.18,
+          "durationSeconds": 1.2,
+          "gain": 0.13,
+          "pan": 0.5671975093918027,
+          "type": "bowed musical partials",
+          "fundamentalHz": 349.2282314330039
+        },
+        {
+          "label": "motivo harmônico 3",
+          "startSeconds": 0.335,
+          "durationSeconds": 1.2,
+          "gain": 0.13,
+          "pan": -0.1123516585727618,
+          "type": "bowed musical partials",
+          "fundamentalHz": 277.1826309768721
+        },
+        {
+          "label": "motivo harmônico 4",
+          "startSeconds": 0.49,
+          "durationSeconds": 1.2,
+          "gain": 0.13,
+          "pan": -0.5449426599345373,
+          "type": "bowed musical partials",
+          "fundamentalHz": 415.3046975799451
+        },
+        {
+          "label": "reflexões estéreo curtas",
+          "type": "original room response",
+          "reflections": [
+            [
+              0.029,
+              0.08
+            ],
+            [
+              0.061,
+              0.052
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beatriz-eclipse-tide",
+      "hero": "Beatriz",
+      "beat": "ultimate",
+      "material": "marés escuras, gotas, lâmina e ressonância abissal",
+      "legendary": true,
+      "motifMidi": [
+        58,
+        65,
+        61,
+        68,
+        70
+      ],
+      "durationSeconds": 3.9,
+      "events": [
+        {
+          "label": "maré abissal — impacto da lâmina",
+          "startSeconds": 0,
+          "durationSeconds": 0.5,
+          "gain": 0.6953999999999999,
+          "pan": 0,
+          "type": "membrane/body impact",
+          "fundamentalHz": 58,
+          "pitchDropRatio": 2.6
+        },
+        {
+          "label": "água sob pressão",
+          "startSeconds": 0.006,
+          "durationSeconds": 1.2,
+          "gain": 0.51,
+          "pan": "slow stereo gesture",
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            110,
+            5200
+          ],
+          "decaySeconds": 0.32,
+          "flutterHz": 6
+        },
+        {
+          "label": "rastro de maré escura",
+          "startSeconds": 0.015,
+          "durationSeconds": 3.003,
+          "gain": 0.24,
+          "pan": "slow stereo gesture",
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            85,
+            1400
+          ],
+          "decaySeconds": 0.71,
+          "flutterHz": 2.5
+        },
+        {
+          "label": "gota e cavidade 1",
+          "startSeconds": 0.025,
+          "durationSeconds": 0.47,
+          "gain": 0.11,
+          "pan": 0,
+          "type": "liquid cavity resonance",
+          "fundamentalHz": 290
+        },
+        {
+          "label": "gota e cavidade 2",
+          "startSeconds": 0.086,
+          "durationSeconds": 0.47,
+          "gain": 0.11,
+          "pan": 0.643977416165595,
+          "type": "liquid cavity resonance",
+          "fundamentalHz": 361
+        },
+        {
+          "label": "gota e cavidade 3",
+          "startSeconds": 0.147,
+          "durationSeconds": 0.47,
+          "gain": 0.11,
+          "pan": 0.28207072095432767,
+          "type": "liquid cavity resonance",
+          "fundamentalHz": 432
+        },
+        {
+          "label": "gota e cavidade 4",
+          "startSeconds": 0.208,
+          "durationSeconds": 0.47,
+          "gain": 0.11,
+          "pan": -0.5204266679212891,
+          "type": "liquid cavity resonance",
+          "fundamentalHz": 503
+        },
+        {
+          "label": "gota e cavidade 5",
+          "startSeconds": 0.269,
+          "durationSeconds": 0.47,
+          "gain": 0.11,
+          "pan": -0.5100245617869515,
+          "type": "liquid cavity resonance",
+          "fundamentalHz": 574
+        },
+        {
+          "label": "gota e cavidade 6",
+          "startSeconds": 0.33,
+          "durationSeconds": 0.47,
+          "gain": 0.11,
+          "pan": 0.29702908869520767,
+          "type": "liquid cavity resonance",
+          "fundamentalHz": 645
+        },
+        {
+          "label": "gota e cavidade 7",
+          "startSeconds": 0.391,
+          "durationSeconds": 0.47,
+          "gain": 0.11,
+          "pan": 0.6401272751577567,
+          "type": "liquid cavity resonance",
+          "fundamentalHz": 716
+        },
+        {
+          "label": "gota e cavidade 8",
+          "startSeconds": 0.452,
+          "durationSeconds": 0.47,
+          "gain": 0.11,
+          "pan": -0.01664478099481593,
+          "type": "liquid cavity resonance",
+          "fundamentalHz": 787
+        },
+        {
+          "label": "gota e cavidade 9",
+          "startSeconds": 0.513,
+          "durationSeconds": 0.47,
+          "gain": 0.11,
+          "pan": -0.6474179118438844,
+          "type": "liquid cavity resonance",
+          "fundamentalHz": 858
+        },
+        {
+          "label": "gota e cavidade 10",
+          "startSeconds": 0.574,
+          "durationSeconds": 0.47,
+          "gain": 0.11,
+          "pan": -0.2669329230804325,
+          "type": "liquid cavity resonance",
+          "fundamentalHz": 929
+        },
+        {
+          "label": "gota e cavidade 11",
+          "startSeconds": 0.635,
+          "durationSeconds": 0.47,
+          "gain": 0.11,
+          "pan": 0.5304977215240698,
+          "type": "liquid cavity resonance",
+          "fundamentalHz": 1000
+        },
+        {
+          "label": "gota e cavidade 12",
+          "startSeconds": 0.6960000000000001,
+          "durationSeconds": 0.47,
+          "gain": 0.11,
+          "pan": 0.49929802008321905,
+          "type": "liquid cavity resonance",
+          "fundamentalHz": 1071
+        },
+        {
+          "label": "gota e cavidade 13",
+          "startSeconds": 0.757,
+          "durationSeconds": 0.47,
+          "gain": 0.11,
+          "pan": -0.3117985110229897,
+          "type": "liquid cavity resonance",
+          "fundamentalHz": 1142
+        },
+        {
+          "label": "gota e cavidade 14",
+          "startSeconds": 0.818,
+          "durationSeconds": 0.47,
+          "gain": 0.11,
+          "pan": -0.6358699379625952,
+          "type": "liquid cavity resonance",
+          "fundamentalHz": 1213
+        },
+        {
+          "label": "lâmina entre água e trevas",
+          "startSeconds": 0.018,
+          "durationSeconds": 1.12,
+          "gain": 0.18,
+          "pan": 0.12,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 216,
+          "ratios": [
+            1,
+            1.59,
+            2.77,
+            4.91
+          ],
+          "decaySeconds": 0.4
+        },
+        {
+          "label": "motivo harmônico 1",
+          "startSeconds": 0.045,
+          "durationSeconds": 2.15,
+          "gain": 0.13,
+          "pan": 0,
+          "type": "bowed musical partials",
+          "fundamentalHz": 233.08188075904496
+        },
+        {
+          "label": "motivo harmônico 2",
+          "startSeconds": 0.18,
+          "durationSeconds": 2.15,
+          "gain": 0.13,
+          "pan": 0.5671975093918027,
+          "type": "bowed musical partials",
+          "fundamentalHz": 349.2282314330039
+        },
+        {
+          "label": "motivo harmônico 3",
+          "startSeconds": 0.315,
+          "durationSeconds": 2.15,
+          "gain": 0.13,
+          "pan": -0.1123516585727618,
+          "type": "bowed musical partials",
+          "fundamentalHz": 277.1826309768721
+        },
+        {
+          "label": "motivo harmônico 4",
+          "startSeconds": 0.45,
+          "durationSeconds": 2.15,
+          "gain": 0.13,
+          "pan": -0.5449426599345373,
+          "type": "bowed musical partials",
+          "fundamentalHz": 415.3046975799451
+        },
+        {
+          "label": "motivo harmônico 5",
+          "startSeconds": 0.5850000000000001,
+          "durationSeconds": 2.15,
+          "gain": 0.13,
+          "pan": 0.2202950304263312,
+          "type": "bowed musical partials",
+          "fundamentalHz": 466.1637615180899
+        },
+        {
+          "label": "motivo harmônico 6",
+          "startSeconds": 0.7200000000000001,
+          "durationSeconds": 2.15,
+          "gain": 0.13,
+          "pan": 0.501306163592593,
+          "type": "bowed musical partials",
+          "fundamentalHz": 466.1637615180899
+        },
+        {
+          "label": "motivo harmônico 7",
+          "startSeconds": 0.8550000000000001,
+          "durationSeconds": 2.15,
+          "gain": 0.13,
+          "pan": -0.3195947946174151,
+          "type": "bowed musical partials",
+          "fundamentalHz": 698.4564628660078
+        },
+        {
+          "label": "motivo harmônico 8",
+          "startSeconds": 0.9900000000000001,
+          "durationSeconds": 2.15,
+          "gain": 0.13,
+          "pan": -0.4380001640916602,
+          "type": "bowed musical partials",
+          "fundamentalHz": 554.3652619537442
+        },
+        {
+          "label": "motivo harmônico 9",
+          "startSeconds": 1.125,
+          "durationSeconds": 2.15,
+          "gain": 0.13,
+          "pan": 0.406354775181517,
+          "type": "bowed musical partials",
+          "fundamentalHz": 830.6093951598903
+        },
+        {
+          "label": "motivo harmônico 10",
+          "startSeconds": 1.26,
+          "durationSeconds": 2.15,
+          "gain": 0.13,
+          "pan": 0.35750856777001916,
+          "type": "bowed musical partials",
+          "fundamentalHz": 932.3275230361799
+        },
+        {
+          "label": "clímax mítico 1",
+          "startSeconds": 0.022,
+          "durationSeconds": 3.7399999999999998,
+          "gain": 0.135,
+          "pan": -0.33,
+          "type": "bowed musical partials",
+          "fundamentalHz": 233.08188075904496
+        },
+        {
+          "label": "clímax mítico 2",
+          "startSeconds": 0.022,
+          "durationSeconds": 3.7399999999999998,
+          "gain": 0.135,
+          "pan": -0.11,
+          "type": "bowed musical partials",
+          "fundamentalHz": 349.2282314330039
+        },
+        {
+          "label": "clímax mítico 3",
+          "startSeconds": 0.022,
+          "durationSeconds": 3.7399999999999998,
+          "gain": 0.135,
+          "pan": 0.11,
+          "type": "bowed musical partials",
+          "fundamentalHz": 277.1826309768721
+        },
+        {
+          "label": "clímax mítico 4",
+          "startSeconds": 0.022,
+          "durationSeconds": 3.7399999999999998,
+          "gain": 0.135,
+          "pan": 0.33,
+          "type": "bowed musical partials",
+          "fundamentalHz": 415.3046975799451
+        },
+        {
+          "label": "resposta mítica 1",
+          "startSeconds": 0.24,
+          "durationSeconds": 2,
+          "gain": 0.093,
+          "pan": 0,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 554.3652619537442,
+          "ratios": [
+            1,
+            2.02,
+            3.17,
+            5.33
+          ],
+          "decaySeconds": 0.82
+        },
+        {
+          "label": "resposta mítica 2",
+          "startSeconds": 0.45999999999999996,
+          "durationSeconds": 2,
+          "gain": 0.093,
+          "pan": 0.5961690552430711,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 830.6093951598903,
+          "ratios": [
+            1,
+            2.02,
+            3.17,
+            5.33
+          ],
+          "decaySeconds": 0.82
+        },
+        {
+          "label": "resposta mítica 3",
+          "startSeconds": 0.6799999999999999,
+          "durationSeconds": 2,
+          "gain": 0.093,
+          "pan": -0.38547047129391293,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 932.3275230361799,
+          "ratios": [
+            1,
+            2.02,
+            3.17,
+            5.33
+          ],
+          "decaySeconds": 0.82
+        },
+        {
+          "label": "resposta mítica 4",
+          "startSeconds": 0.9,
+          "durationSeconds": 2,
+          "gain": 0.093,
+          "pan": -0.3469318918365122,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 466.1637615180899,
+          "ratios": [
+            1,
+            2.02,
+            3.17,
+            5.33
+          ],
+          "decaySeconds": 0.82
+        },
+        {
+          "label": "resposta mítica 5",
+          "startSeconds": 1.12,
+          "durationSeconds": 2,
+          "gain": 0.093,
+          "pan": 0.6097893933798364,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 698.4564628660078,
+          "ratios": [
+            1,
+            2.02,
+            3.17,
+            5.33
+          ],
+          "decaySeconds": 0.82
+        },
+        {
+          "label": "maré final sem segunda explosão",
+          "startSeconds": 0.55,
+          "durationSeconds": 3.29,
+          "gain": 0.15,
+          "pan": "slow stereo gesture",
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            180,
+            3700
+          ],
+          "decaySeconds": 0.85,
+          "flutterHz": 4
+        },
+        {
+          "label": "reflexões estéreo curtas",
+          "type": "original room response",
+          "reflections": [
+            [
+              0.031,
+              0.105
+            ],
+            [
+              0.067,
+              0.075
+            ],
+            [
+              0.113,
+              0.049
+            ],
+            [
+              0.173,
+              0.025
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "orfeu-unwritten-archon",
+      "hero": "Orfeu",
+      "beat": "cast",
+      "material": "impacto físico seco, couro, tambor e vácuo",
+      "legendary": true,
+      "motifMidi": [
+        38,
+        45,
+        50,
+        52,
+        57
+      ],
+      "durationSeconds": 1.8,
+      "events": [
+        {
+          "label": "punho — corpo seco do contato",
+          "startSeconds": 0,
+          "durationSeconds": 0.31,
+          "gain": 0.83,
+          "pan": 0,
+          "type": "membrane/body impact",
+          "fundamentalHz": 59,
+          "pitchDropRatio": 3.8
+        },
+        {
+          "label": "couro e ar comprimido",
+          "startSeconds": 0.004,
+          "durationSeconds": 0.17,
+          "gain": 0.55,
+          "pan": -0.05,
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            330,
+            4600
+          ],
+          "decaySeconds": 0.03,
+          "flutterHz": 0
+        },
+        {
+          "label": "vácuo sem voz — retração",
+          "startSeconds": 0.015,
+          "durationSeconds": 0.47,
+          "gain": 0.25,
+          "pan": "slow stereo gesture",
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            80,
+            950
+          ],
+          "decaySeconds": 0.11,
+          "flutterHz": 3
+        },
+        {
+          "label": "articulação física",
+          "startSeconds": 0.026,
+          "durationSeconds": 0.15,
+          "gain": 0.23,
+          "pan": 0.06,
+          "type": "membrane/body impact",
+          "fundamentalHz": 178,
+          "pitchDropRatio": 1.1
+        },
+        {
+          "label": "ressonância de tambor 1",
+          "startSeconds": 0.065,
+          "durationSeconds": 0.38,
+          "gain": 0.09,
+          "pan": 0,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 103,
+          "ratios": [
+            1,
+            1.59,
+            2.31,
+            3.79
+          ],
+          "decaySeconds": 0.14
+        },
+        {
+          "label": "ressonância de tambor 2",
+          "startSeconds": 0.185,
+          "durationSeconds": 0.38,
+          "gain": 0.09,
+          "pan": 0.23561187574621104,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 134,
+          "ratios": [
+            1,
+            1.59,
+            2.31,
+            3.79
+          ],
+          "decaySeconds": 0.14
+        },
+        {
+          "label": "motivo físico 1",
+          "startSeconds": 0.025,
+          "durationSeconds": 0.66,
+          "gain": 0.125,
+          "pan": 0,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 73.41619197935188,
+          "ratios": [
+            1,
+            1.5,
+            2.32,
+            3.88
+          ],
+          "decaySeconds": 0.24
+        },
+        {
+          "label": "motivo físico 2",
+          "startSeconds": 0.18,
+          "durationSeconds": 0.66,
+          "gain": 0.125,
+          "pan": 0.5671975093918027,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 110,
+          "ratios": [
+            1,
+            1.5,
+            2.32,
+            3.88
+          ],
+          "decaySeconds": 0.24
+        },
+        {
+          "label": "motivo físico 3",
+          "startSeconds": 0.335,
+          "durationSeconds": 0.66,
+          "gain": 0.125,
+          "pan": -0.1123516585727618,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 146.8323839587038,
+          "ratios": [
+            1,
+            1.5,
+            2.32,
+            3.88
+          ],
+          "decaySeconds": 0.24
+        },
+        {
+          "label": "motivo físico 4",
+          "startSeconds": 0.49,
+          "durationSeconds": 0.66,
+          "gain": 0.125,
+          "pan": -0.5449426599345373,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 164.81377845643496,
+          "ratios": [
+            1,
+            1.5,
+            2.32,
+            3.88
+          ],
+          "decaySeconds": 0.24
+        },
+        {
+          "label": "reflexões estéreo curtas",
+          "type": "original room response",
+          "reflections": [
+            [
+              0.029,
+              0.08
+            ],
+            [
+              0.061,
+              0.052
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "orfeu-unwritten-archon",
+      "hero": "Orfeu",
+      "beat": "ultimate",
+      "material": "impacto físico seco, couro, tambor e vácuo",
+      "legendary": true,
+      "motifMidi": [
+        38,
+        45,
+        50,
+        52,
+        57
+      ],
+      "durationSeconds": 3.8,
+      "events": [
+        {
+          "label": "punho — corpo seco do contato",
+          "startSeconds": 0,
+          "durationSeconds": 0.31,
+          "gain": 0.9461999999999998,
+          "pan": 0,
+          "type": "membrane/body impact",
+          "fundamentalHz": 59,
+          "pitchDropRatio": 3.8
+        },
+        {
+          "label": "couro e ar comprimido",
+          "startSeconds": 0.004,
+          "durationSeconds": 0.17,
+          "gain": 0.55,
+          "pan": -0.05,
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            330,
+            4600
+          ],
+          "decaySeconds": 0.03,
+          "flutterHz": 0
+        },
+        {
+          "label": "vácuo sem voz — retração",
+          "startSeconds": 0.015,
+          "durationSeconds": 0.47,
+          "gain": 0.25,
+          "pan": "slow stereo gesture",
+          "type": "band-shaped aperiodic texture",
+          "bandHz": [
+            80,
+            950
+          ],
+          "decaySeconds": 0.11,
+          "flutterHz": 3
+        },
+        {
+          "label": "articulação física",
+          "startSeconds": 0.026,
+          "durationSeconds": 0.15,
+          "gain": 0.23,
+          "pan": 0.06,
+          "type": "membrane/body impact",
+          "fundamentalHz": 178,
+          "pitchDropRatio": 1.1
+        },
+        {
+          "label": "ressonância de tambor 1",
+          "startSeconds": 0.065,
+          "durationSeconds": 0.38,
+          "gain": 0.09,
+          "pan": 0,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 103,
+          "ratios": [
+            1,
+            1.59,
+            2.31,
+            3.79
+          ],
+          "decaySeconds": 0.14
+        },
+        {
+          "label": "ressonância de tambor 2",
+          "startSeconds": 0.185,
+          "durationSeconds": 0.38,
+          "gain": 0.09,
+          "pan": 0.23561187574621104,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 134,
+          "ratios": [
+            1,
+            1.59,
+            2.31,
+            3.79
+          ],
+          "decaySeconds": 0.14
+        },
+        {
+          "label": "ressonância de tambor 3",
+          "startSeconds": 0.305,
+          "durationSeconds": 0.38,
+          "gain": 0.09,
+          "pan": 0.2546032795111909,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 165,
+          "ratios": [
+            1,
+            1.59,
+            2.31,
+            3.79
+          ],
+          "decaySeconds": 0.14
+        },
+        {
+          "label": "ressonância de tambor 4",
+          "startSeconds": 0.425,
+          "durationSeconds": 0.38,
+          "gain": 0.09,
+          "pan": 0.03951360225676282,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 196,
+          "ratios": [
+            1,
+            1.59,
+            2.31,
+            3.79
+          ],
+          "decaySeconds": 0.14
+        },
+        {
+          "label": "ressonância de tambor 5",
+          "startSeconds": 0.5449999999999999,
+          "durationSeconds": 0.38,
+          "gain": 0.09,
+          "pan": -0.21190469868621992,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 227,
+          "ratios": [
+            1,
+            1.59,
+            2.31,
+            3.79
+          ],
+          "decaySeconds": 0.14
+        },
+        {
+          "label": "motivo físico 1",
+          "startSeconds": 0.045,
+          "durationSeconds": 0.66,
+          "gain": 0.125,
+          "pan": 0,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 73.41619197935188,
+          "ratios": [
+            1,
+            1.5,
+            2.32,
+            3.88
+          ],
+          "decaySeconds": 0.24
+        },
+        {
+          "label": "motivo físico 2",
+          "startSeconds": 0.18,
+          "durationSeconds": 0.66,
+          "gain": 0.125,
+          "pan": 0.5671975093918027,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 110,
+          "ratios": [
+            1,
+            1.5,
+            2.32,
+            3.88
+          ],
+          "decaySeconds": 0.24
+        },
+        {
+          "label": "motivo físico 3",
+          "startSeconds": 0.315,
+          "durationSeconds": 0.66,
+          "gain": 0.125,
+          "pan": -0.1123516585727618,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 146.8323839587038,
+          "ratios": [
+            1,
+            1.5,
+            2.32,
+            3.88
+          ],
+          "decaySeconds": 0.24
+        },
+        {
+          "label": "motivo físico 4",
+          "startSeconds": 0.45,
+          "durationSeconds": 0.66,
+          "gain": 0.125,
+          "pan": -0.5449426599345373,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 164.81377845643496,
+          "ratios": [
+            1,
+            1.5,
+            2.32,
+            3.88
+          ],
+          "decaySeconds": 0.24
+        },
+        {
+          "label": "motivo físico 5",
+          "startSeconds": 0.5850000000000001,
+          "durationSeconds": 0.66,
+          "gain": 0.125,
+          "pan": 0.2202950304263312,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 220,
+          "ratios": [
+            1,
+            1.5,
+            2.32,
+            3.88
+          ],
+          "decaySeconds": 0.24
+        },
+        {
+          "label": "motivo físico 6",
+          "startSeconds": 0.7200000000000001,
+          "durationSeconds": 0.66,
+          "gain": 0.125,
+          "pan": 0.501306163592593,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 146.8323839587038,
+          "ratios": [
+            1,
+            1.5,
+            2.32,
+            3.88
+          ],
+          "decaySeconds": 0.24
+        },
+        {
+          "label": "motivo físico 7",
+          "startSeconds": 0.8550000000000001,
+          "durationSeconds": 0.66,
+          "gain": 0.125,
+          "pan": -0.3195947946174151,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 220,
+          "ratios": [
+            1,
+            1.5,
+            2.32,
+            3.88
+          ],
+          "decaySeconds": 0.24
+        },
+        {
+          "label": "motivo físico 8",
+          "startSeconds": 0.9900000000000001,
+          "durationSeconds": 0.66,
+          "gain": 0.125,
+          "pan": -0.4380001640916602,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 293.6647679174076,
+          "ratios": [
+            1,
+            1.5,
+            2.32,
+            3.88
+          ],
+          "decaySeconds": 0.24
+        },
+        {
+          "label": "motivo físico 9",
+          "startSeconds": 1.125,
+          "durationSeconds": 0.66,
+          "gain": 0.125,
+          "pan": 0.406354775181517,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 329.6275569128699,
+          "ratios": [
+            1,
+            1.5,
+            2.32,
+            3.88
+          ],
+          "decaySeconds": 0.24
+        },
+        {
+          "label": "motivo físico 10",
+          "startSeconds": 1.26,
+          "durationSeconds": 0.66,
+          "gain": 0.125,
+          "pan": 0.35750856777001916,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 440,
+          "ratios": [
+            1,
+            1.5,
+            2.32,
+            3.88
+          ],
+          "decaySeconds": 0.24
+        },
+        {
+          "label": "clímax de percussão 1",
+          "startSeconds": 0.022,
+          "durationSeconds": 1.4,
+          "gain": 0.14,
+          "pan": -0.33,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 73.41619197935188,
+          "ratios": [
+            1,
+            1.54,
+            2.31,
+            3.75
+          ],
+          "decaySeconds": 0.44
+        },
+        {
+          "label": "clímax de percussão 2",
+          "startSeconds": 0.022,
+          "durationSeconds": 1.4,
+          "gain": 0.14,
+          "pan": -0.11,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 110,
+          "ratios": [
+            1,
+            1.54,
+            2.31,
+            3.75
+          ],
+          "decaySeconds": 0.44
+        },
+        {
+          "label": "clímax de percussão 3",
+          "startSeconds": 0.022,
+          "durationSeconds": 1.4,
+          "gain": 0.14,
+          "pan": 0.11,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 146.8323839587038,
+          "ratios": [
+            1,
+            1.54,
+            2.31,
+            3.75
+          ],
+          "decaySeconds": 0.44
+        },
+        {
+          "label": "clímax de percussão 4",
+          "startSeconds": 0.022,
+          "durationSeconds": 1.4,
+          "gain": 0.14,
+          "pan": 0.33,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 164.81377845643496,
+          "ratios": [
+            1,
+            1.54,
+            2.31,
+            3.75
+          ],
+          "decaySeconds": 0.44
+        },
+        {
+          "label": "resposta rítmica física 1",
+          "startSeconds": 0.24,
+          "durationSeconds": 0.76,
+          "gain": 0.092,
+          "pan": 0,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 146.8323839587038,
+          "ratios": [
+            1,
+            1.5,
+            2.25,
+            3.8
+          ],
+          "decaySeconds": 0.24
+        },
+        {
+          "label": "resposta rítmica física 2",
+          "startSeconds": 0.45999999999999996,
+          "durationSeconds": 0.76,
+          "gain": 0.092,
+          "pan": 0.29451484468276373,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 164.81377845643496,
+          "ratios": [
+            1,
+            1.5,
+            2.25,
+            3.8
+          ],
+          "decaySeconds": 0.24
+        },
+        {
+          "label": "resposta rítmica física 3",
+          "startSeconds": 0.6799999999999999,
+          "durationSeconds": 0.76,
+          "gain": 0.092,
+          "pan": 0.3182540993889886,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 220,
+          "ratios": [
+            1,
+            1.5,
+            2.25,
+            3.8
+          ],
+          "decaySeconds": 0.24
+        },
+        {
+          "label": "resposta rítmica física 4",
+          "startSeconds": 0.9,
+          "durationSeconds": 0.76,
+          "gain": 0.092,
+          "pan": 0.049392002820953525,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 73.4161919793519,
+          "ratios": [
+            1,
+            1.5,
+            2.25,
+            3.8
+          ],
+          "decaySeconds": 0.24
+        },
+        {
+          "label": "resposta rítmica física 5",
+          "startSeconds": 1.12,
+          "durationSeconds": 0.76,
+          "gain": 0.092,
+          "pan": -0.2648808733577748,
+          "type": "inharmonic material resonator",
+          "fundamentalHz": 110,
+          "ratios": [
+            1,
+            1.5,
+            2.25,
+            3.8
+          ],
+          "decaySeconds": 0.24
+        },
+        {
+          "label": "reflexões estéreo curtas",
+          "type": "original room response",
+          "reflections": [
+            [
+              0.031,
+              0.105
+            ],
+            [
+              0.067,
+              0.075
+            ],
+            [
+              0.113,
+              0.049
+            ],
+            [
+              0.173,
+              0.025
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

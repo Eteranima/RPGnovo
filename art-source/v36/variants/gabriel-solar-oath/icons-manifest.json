@@ -1,0 +1,273 @@
+{
+  "id": "gabriel-solar-oath",
+  "kind": "icons",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-1afa-7611-900f-c84542197a68\\exec-7e853400-3da0-452b-81e3-5b5e6ac91572.png",
+  "selected": "art-source/v36/variants/gabriel-solar-oath/icons-source.png",
+  "runtime": "public/assets/v36/variants/gabriel-solar-oath/icons.png",
+  "width": 1536,
+  "height": 1024,
+  "cols": 3,
+  "rows": 2,
+  "sourceSha256": "b119c748afab3198e518080f2613cb05562cc14eeff7295def33d6c8a4c5f25b",
+  "selectedSha256": "b119c748afab3198e518080f2613cb05562cc14eeff7295def33d6c8a4c5f25b",
+  "runtimeSha256": "b119c748afab3198e518080f2613cb05562cc14eeff7295def33d6c8a4c5f25b",
+  "byteIdenticalSourceCopies": true,
+  "alphaThresholdForMeasurementOnly": 24,
+  "backgroundAlphaZero": 681175,
+  "rowCuts": [
+    0,
+    511,
+    1024
+  ],
+  "frames": [
+    {
+      "x": 79,
+      "y": 55,
+      "w": 353,
+      "h": 421,
+      "anchorX": 255,
+      "anchorY": 265
+    },
+    {
+      "x": 536,
+      "y": 35,
+      "w": 464,
+      "h": 452,
+      "anchorX": 767.5,
+      "anchorY": 260.5
+    },
+    {
+      "x": 1078,
+      "y": 57,
+      "w": 409,
+      "h": 415,
+      "anchorX": 1282,
+      "anchorY": 264
+    },
+    {
+      "x": 57,
+      "y": 557,
+      "w": 410,
+      "h": 409,
+      "anchorX": 261.5,
+      "anchorY": 761
+    },
+    {
+      "x": 531,
+      "y": 536,
+      "w": 474,
+      "h": 456,
+      "anchorX": 767.5,
+      "anchorY": 763.5
+    },
+    {
+      "x": 1037,
+      "y": 557,
+      "w": 484,
+      "h": 406,
+      "anchorX": 1278.5,
+      "anchorY": 759.5
+    }
+  ],
+  "measurements": [
+    {
+      "i": 0,
+      "row": 0,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "w": 484,
+        "h": 511
+      },
+      "visibleBounds": {
+        "x": 87,
+        "y": 63,
+        "w": 337,
+        "h": 405
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 74493,
+      "crop": {
+        "x": 79,
+        "y": 55,
+        "w": 353,
+        "h": 421,
+        "anchorX": 255,
+        "anchorY": 265
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v36/variants/gabriel-solar-oath/icons/0.png",
+        "sha256": "5ef9f27715521d60df65a3807d0bdfc707c6d84260b993729888be73c5f374a9",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    },
+    {
+      "i": 1,
+      "row": 0,
+      "col": 1,
+      "cell": {
+        "x": 484,
+        "y": 0,
+        "w": 555,
+        "h": 511
+      },
+      "visibleBounds": {
+        "x": 544,
+        "y": 43,
+        "w": 448,
+        "h": 436
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 107047,
+      "crop": {
+        "x": 536,
+        "y": 35,
+        "w": 464,
+        "h": 452,
+        "anchorX": 767.5,
+        "anchorY": 260.5
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v36/variants/gabriel-solar-oath/icons/1.png",
+        "sha256": "46541c925e27e1b1dc8e9a3b8cf2f0fc4eecd0e0ec14ff6f860eea4449516cb9",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    },
+    {
+      "i": 2,
+      "row": 0,
+      "col": 2,
+      "cell": {
+        "x": 1039,
+        "y": 0,
+        "w": 497,
+        "h": 511
+      },
+      "visibleBounds": {
+        "x": 1086,
+        "y": 65,
+        "w": 393,
+        "h": 399
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 106142,
+      "crop": {
+        "x": 1078,
+        "y": 57,
+        "w": 409,
+        "h": 415,
+        "anchorX": 1282,
+        "anchorY": 264
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v36/variants/gabriel-solar-oath/icons/2.png",
+        "sha256": "2b56f2ec4dacb5b5884b137d4c102d6b6c402075d51de2496f94d8c7aa6eb795",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    },
+    {
+      "i": 3,
+      "row": 1,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 511,
+        "w": 499,
+        "h": 513
+      },
+      "visibleBounds": {
+        "x": 65,
+        "y": 565,
+        "w": 394,
+        "h": 393
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 84553,
+      "crop": {
+        "x": 57,
+        "y": 557,
+        "w": 410,
+        "h": 409,
+        "anchorX": 261.5,
+        "anchorY": 761
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v36/variants/gabriel-solar-oath/icons/3.png",
+        "sha256": "dda42698962cb617f440148171316c06bab4f80d5056737caa688477d83c7529",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    },
+    {
+      "i": 4,
+      "row": 1,
+      "col": 1,
+      "cell": {
+        "x": 499,
+        "y": 511,
+        "w": 522,
+        "h": 513
+      },
+      "visibleBounds": {
+        "x": 539,
+        "y": 544,
+        "w": 458,
+        "h": 440
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 131431,
+      "crop": {
+        "x": 531,
+        "y": 536,
+        "w": 474,
+        "h": 456,
+        "anchorX": 767.5,
+        "anchorY": 763.5
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v36/variants/gabriel-solar-oath/icons/4.png",
+        "sha256": "af1766b81e5b50b66a30efa91efc473003cc1576e8531d99fa33727f535e1152",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    },
+    {
+      "i": 5,
+      "row": 1,
+      "col": 2,
+      "cell": {
+        "x": 1021,
+        "y": 511,
+        "w": 515,
+        "h": 513
+      },
+      "visibleBounds": {
+        "x": 1045,
+        "y": 565,
+        "w": 468,
+        "h": 390
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 102920,
+      "crop": {
+        "x": 1037,
+        "y": 557,
+        "w": 484,
+        "h": 406,
+        "anchorX": 1278.5,
+        "anchorY": 759.5
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v36/variants/gabriel-solar-oath/icons/5.png",
+        "sha256": "61534aa25b22eb4b62f841c37d9d7d270377c1ea0839bb0ebedf43e59c38b705",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    }
+  ]
+}

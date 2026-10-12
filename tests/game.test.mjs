@@ -10,6 +10,7 @@ const out=mkdtempSync(join(tmpdir(),'eter-tests-'));
 compileGameModules(out,['remakeArt','remakeArtSeijiOphelia','remakeArtGabrielMarinMax','remakeArtCarmillaBeatrizAbel','expansionV30','enemyArtV30','orfeuArtV30','gachaSequence','questsV31','questRuntimeV31','questArtV31','cosmetics','data','engine','sprites','progression','summons','master-mode','carmilla']);
 const {GameEngine,isWalkable,findPath,parseSave,SAVE_KEY}=await import(pathToFileURL(join(out,'engine.js')).href);
 const {MAPS,ASSETS}=await import(pathToFileURL(join(out,'data.js')).href);
+const {SUMMONED_HEROES}=await import(pathToFileURL(join(out,'summons.js')).href);
 const {ICON_CROPS,battleCrop}=await import(pathToFileURL(join(out,'sprites.js')).href);
 const {advanceMasterSequence,emptyMasterSequence}=await import(pathToFileURL(join(out,'master-mode.js')).href);
 const store=new Map();global.localStorage={setItem:(k,v)=>store.set(k,v),getItem:k=>store.get(k)||null};
@@ -88,7 +89,7 @@ check(master.buy('shop-1-weapon')&&master.buy('shop-1-weapon'),'master can repea
 check(master.state.progress.owned.includes('shop-1-weapon')&&master.state.progress.owned.includes('shop-1-weapon@2'),'repeat purchase creates a separate equipment copy');
 check(!master.buy('shop-8-weapon'),'master mode preserves level gates');
 check(parseSave(store.get(SAVE_KEY))?.progress.masterMode===true,'master mode survives save validation');
-const professor=new GameEngine();professor.start();professor.finishCutscene();let roll=0;check(professor.drawCharacter(1,'crystal',()=>[0,.3][roll++]||0),'Beatriz can be summoned at 5-star rarity');
+const professor=new GameEngine();professor.start();professor.finishCutscene();const fivePool=SUMMONED_HEROES.filter(h=>h.rarity===5&&!h.achievementOnly),beatrizIndex=fivePool.findIndex(h=>h.id==='beatriz');let roll=0;check(professor.drawCharacter(1,'crystal',()=>[0,(beatrizIndex+.5)/fivePool.length][roll++]??0),'Beatriz can be summoned at 5-star rarity');
 check(professor.state.progress.summoned.includes('beatriz')&&professor.state.progress.recruited.includes('beatriz')&&!professor.state.progress.party.includes('beatriz'),'Beatriz joins reserve rather than active party');
 check(professor.assignParty(0,'beatriz')&&professor.state.heroes[0].id==='beatriz','Beatriz can join the active party');
 check(parseSave(store.get(SAVE_KEY))?.heroes[0].id==='beatriz','summoned Beatriz survives save validation');

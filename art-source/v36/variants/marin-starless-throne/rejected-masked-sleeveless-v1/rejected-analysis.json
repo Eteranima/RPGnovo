@@ -1,0 +1,39 @@
+{
+  "status": "rejected",
+  "runtimeIntegrated": false,
+  "sources": [
+    {
+      "name": "walk-source.png",
+      "width": 1086,
+      "height": 1448,
+      "sha256": "08bd5212fde3cb1fd562127d3d7a6b9121d578ca1f621f42117ef66c8bf79c06",
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "alphaZero": 852488,
+      "opaquePixels": 344049,
+      "visibleOuterEdgePixels": 0
+    },
+    {
+      "name": "attack-source.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "7a38d9614a0a31524d50460d32ab5dfb56b9a521885a0da34b6308b4b3f575c9",
+      "alphaMin": 0,
+      "alphaMax": 254,
+      "alphaZero": 815086,
+      "opaquePixels": 454551,
+      "visibleOuterEdgePixels": 0
+    },
+    {
+      "name": "reference-portrait.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "7fd90ccdfda4074979e2a9a3bcc33222f66557e5c1b4c02168898b455e66ac9a",
+      "alphaMin": 0,
+      "alphaMax": 254,
+      "alphaZero": 674483,
+      "opaquePixels": 681766,
+      "visibleOuterEdgePixels": 0
+    }
+  ]
+}

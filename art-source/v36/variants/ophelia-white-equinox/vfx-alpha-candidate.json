@@ -1,0 +1,89 @@
+{
+  "source": "art-source/v36/variants/ophelia-white-equinox/vfx-candidate.png",
+  "width": 1536,
+  "height": 1024,
+  "alphaZero": 763423,
+  "allPixels": 1572864,
+  "strictAlphaZeroCorridors": false,
+  "horizontal": [
+    {
+      "index": 484,
+      "nonzero": 310,
+      "alpha": {
+        "max": 226,
+        "over24": 9,
+        "over210": 2
+      }
+    }
+  ],
+  "vertical": [
+    [
+      {
+        "index": 510,
+        "nonzero": 2,
+        "alpha": {
+          "max": 1,
+          "over24": 0,
+          "over210": 0
+        }
+      },
+      {
+        "index": 998,
+        "nonzero": 22,
+        "alpha": {
+          "max": 1,
+          "over24": 0,
+          "over210": 0
+        }
+      }
+    ],
+    [
+      {
+        "index": 466,
+        "nonzero": 2,
+        "alpha": {
+          "max": 1,
+          "over24": 0,
+          "over210": 0
+        }
+      },
+      {
+        "index": 1038,
+        "nonzero": 138,
+        "alpha": {
+          "max": 1,
+          "over24": 0,
+          "over210": 0
+        }
+      }
+    ]
+  ],
+  "edges": {
+    "top": 0,
+    "bottom": 710,
+    "left": 59,
+    "right": 0
+  },
+  "edgeAlpha": {
+    "top": {
+      "max": 0,
+      "over24": 0,
+      "over210": 0
+    },
+    "bottom": {
+      "max": 1,
+      "over24": 0,
+      "over210": 0
+    },
+    "left": {
+      "max": 1,
+      "over24": 0,
+      "over210": 0
+    },
+    "right": {
+      "max": 0,
+      "over24": 0,
+      "over210": 0
+    }
+  }
+}

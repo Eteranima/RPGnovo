@@ -1,0 +1,7 @@
+{
+  "kind": "walk",
+  "seamMax": 2,
+  "seamNonZero": 115,
+  "edgeMax": 4,
+  "edgeNonZero": 34
+}

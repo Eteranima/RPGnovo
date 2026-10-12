@@ -1,0 +1,273 @@
+{
+  "id": "max-thunder-requiem",
+  "kind": "icons",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-1afa-7611-900f-c84542197a68\\exec-6c0558cc-7bf7-4263-8393-e1a3948e05c5.png",
+  "selected": "art-source/v36/variants/max-thunder-requiem/icons-source.png",
+  "runtime": "public/assets/v36/variants/max-thunder-requiem/icons.png",
+  "width": 1536,
+  "height": 1024,
+  "cols": 3,
+  "rows": 2,
+  "sourceSha256": "0bfe6caa99ac13489c02c946e3098e3dc097da805c315f0859ed30b79fd4f973",
+  "selectedSha256": "0bfe6caa99ac13489c02c946e3098e3dc097da805c315f0859ed30b79fd4f973",
+  "runtimeSha256": "0bfe6caa99ac13489c02c946e3098e3dc097da805c315f0859ed30b79fd4f973",
+  "byteIdenticalSourceCopies": true,
+  "alphaThresholdForMeasurementOnly": 24,
+  "backgroundAlphaZero": 659660,
+  "rowCuts": [
+    0,
+    499,
+    1024
+  ],
+  "frames": [
+    {
+      "x": 54,
+      "y": 30,
+      "w": 466,
+      "h": 459,
+      "anchorX": 286.5,
+      "anchorY": 259
+    },
+    {
+      "x": 596,
+      "y": 26,
+      "w": 353,
+      "h": 467,
+      "anchorX": 772,
+      "anchorY": 259
+    },
+    {
+      "x": 1036,
+      "y": 18,
+      "w": 472,
+      "h": 467,
+      "anchorX": 1271.5,
+      "anchorY": 251
+    },
+    {
+      "x": 45,
+      "y": 513,
+      "w": 458,
+      "h": 469,
+      "anchorX": 273.5,
+      "anchorY": 747
+    },
+    {
+      "x": 550,
+      "y": 513,
+      "w": 438,
+      "h": 486,
+      "anchorX": 768.5,
+      "anchorY": 755.5
+    },
+    {
+      "x": 1042,
+      "y": 506,
+      "w": 462,
+      "h": 504,
+      "anchorX": 1272.5,
+      "anchorY": 757.5
+    }
+  ],
+  "measurements": [
+    {
+      "i": 0,
+      "row": 0,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "w": 558,
+        "h": 499
+      },
+      "visibleBounds": {
+        "x": 62,
+        "y": 38,
+        "w": 450,
+        "h": 443
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 113462,
+      "crop": {
+        "x": 54,
+        "y": 30,
+        "w": 466,
+        "h": 459,
+        "anchorX": 286.5,
+        "anchorY": 259
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v36/variants/max-thunder-requiem/icons/0.png",
+        "sha256": "c1f29c01d514d989f6f90595b9e08d3fe9975f529be972d19fc2cf519bd67a25",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    },
+    {
+      "i": 1,
+      "row": 0,
+      "col": 1,
+      "cell": {
+        "x": 558,
+        "y": 0,
+        "w": 434,
+        "h": 499
+      },
+      "visibleBounds": {
+        "x": 604,
+        "y": 34,
+        "w": 337,
+        "h": 451
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 76440,
+      "crop": {
+        "x": 596,
+        "y": 26,
+        "w": 353,
+        "h": 467,
+        "anchorX": 772,
+        "anchorY": 259
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v36/variants/max-thunder-requiem/icons/1.png",
+        "sha256": "ff3d05568037fdcfd208184fa42aefa11289de95759189598d25821f02776232",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    },
+    {
+      "i": 2,
+      "row": 0,
+      "col": 2,
+      "cell": {
+        "x": 992,
+        "y": 0,
+        "w": 544,
+        "h": 499
+      },
+      "visibleBounds": {
+        "x": 1044,
+        "y": 26,
+        "w": 456,
+        "h": 451
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 128429,
+      "crop": {
+        "x": 1036,
+        "y": 18,
+        "w": 472,
+        "h": 467,
+        "anchorX": 1271.5,
+        "anchorY": 251
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v36/variants/max-thunder-requiem/icons/2.png",
+        "sha256": "30b297cd307b457d569c0f8b2ca7d0359c81b9e78716d25dba8d4a42e9bfec7a",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    },
+    {
+      "i": 3,
+      "row": 1,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 499,
+        "w": 526,
+        "h": 525
+      },
+      "visibleBounds": {
+        "x": 53,
+        "y": 521,
+        "w": 442,
+        "h": 453
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 105520,
+      "crop": {
+        "x": 45,
+        "y": 513,
+        "w": 458,
+        "h": 469,
+        "anchorX": 273.5,
+        "anchorY": 747
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v36/variants/max-thunder-requiem/icons/3.png",
+        "sha256": "e4d1eacdf8f8f50293e015498e6cfa003def4120da5c16034dd15ec488eb8438",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    },
+    {
+      "i": 4,
+      "row": 1,
+      "col": 1,
+      "cell": {
+        "x": 526,
+        "y": 499,
+        "w": 489,
+        "h": 525
+      },
+      "visibleBounds": {
+        "x": 558,
+        "y": 521,
+        "w": 422,
+        "h": 470
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 85144,
+      "crop": {
+        "x": 550,
+        "y": 513,
+        "w": 438,
+        "h": 486,
+        "anchorX": 768.5,
+        "anchorY": 755.5
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v36/variants/max-thunder-requiem/icons/4.png",
+        "sha256": "c4eb412ad8d6d821de4891d171286afc73b3f96a45c33a19cb9daa7a211e8278",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    },
+    {
+      "i": 5,
+      "row": 1,
+      "col": 2,
+      "cell": {
+        "x": 1015,
+        "y": 499,
+        "w": 521,
+        "h": 525
+      },
+      "visibleBounds": {
+        "x": 1050,
+        "y": 514,
+        "w": 446,
+        "h": 488
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 110170,
+      "crop": {
+        "x": 1042,
+        "y": 506,
+        "w": 462,
+        "h": 504,
+        "anchorX": 1272.5,
+        "anchorY": 757.5
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v36/variants/max-thunder-requiem/icons/5.png",
+        "sha256": "3d16c4d4f2999caac9dde2f8496612b6c6e2d1f6e2d4f4c4a66d4ae690a8bde2",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    }
+  ]
+}

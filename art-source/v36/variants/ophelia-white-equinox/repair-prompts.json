@@ -1,0 +1,12 @@
+[
+  {
+    "kind": "walk-repair",
+    "path": "walk-candidate.png",
+    "prompt": "Use case: background-extraction and layout repair. This exact twelve-sprite Ophelia atlas is the EDIT TARGET. Keep the same adult Ophelia identity, costume, twelve poses, two distinct boots and all physical character details. Remove ALL diffuse reference halo/matte/background/stray blue particles from every free space and gaps; true RGBA ALPHA ZERO outside physical cutouts. Reframe each sprite at 75% of its current height in the CENTER of its own cell, preserving complete hat/staff/two boots, with wide completely empty horizontal/vertical gutters and outer margins. No pixel/painted checkerboard. Do not add other art/label. The final grid is exactly 3columns by4rows; row1 front/South, row2 right/East, row3 left/West,row4 back/North (preserve these poses, code can remap directions). All twelve must show two separate boots clearly; front and back coats cannot hide a boot. Do not inherit the old aura. FREE SPACE ABSOLUTELY TRANSPARENT, not gray or translucent gradients. No contact/ground shadows. Clean isolated final cutouts with the same art."
+  },
+  {
+    "kind": "attack-repair",
+    "path": "attack-candidate.png",
+    "prompt": "Use case: background-extraction. This exact six-sprite Ophelia attack atlas is the EDIT TARGET. Preserve the six frames, same adult witch, full costume/hat/staff, two boots, attack poses and their bounded BLUE-WHITE ICE motifs. REMOVE EVERY diffused gray/blue reference backdrop/matte/halo, contactshadow and noisy external pixel from ALL free spaces. True transparent RGBA ALPHA ZERO empty background and gutters. Make every full sprite a little smaller within its own cell to create at least40px fully empty transparent gutters and exterior margin, all complete body/two boots/staff/hat and ice effects within cell. EXACT3columns×2rows, order unchanged. No painted checkerboard, no new glow/gradient, no text/labels. Keep ice attacks as sharp crystals without huge fuzzy lightcloud; preserve body/hand proportions. First frame idle no VFX. Six clear independent isolated cutouts, with no fragments at cell boundaries or canvas edges."
+  }
+]

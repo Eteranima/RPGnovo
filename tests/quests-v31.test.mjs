@@ -66,7 +66,7 @@ function walkthrough(e,q,option=0){
   check(!e.claimQuestV31(q.id),'cinematic cannot receive a prize before explicit close');check(!e.chooseQuestV31('invented'),'cinematic blocks stale choices');
   const parsed=parseSave(store.get(SAVE_KEY));check(parsed,'pending cinematic saves valid state');const resumed=new GameEngine();resumed.saved=parsed;resumed.start(true);
   equal(entry(resumed,q.id).status,'cinematic','reload preserves pending cinematic');check(resumed.resumeQuestCinematic(q.id),'pending cinema resumes from diary');check(resumed.finishQuestCinematic(option>0),'Continue or Skip explicitly releases completion');equal(entry(resumed,q.id).status,'complete','explicit close completes long story');
-  e.state=resumed.state;e.saved=resumed.saved;
+  e=resumed;
  }
  equal(e.state.progress.crystals,before,'story stages and choices do not mint crystals before claim');check(e.claimQuestV31(q.id),'one-time reward can be claimed');equal(e.state.progress.crystals,before+q.rewardPulls*160,'reward buys exact advertised real character pulls');
  const awarded=e.state.progress.crystals;check(!e.claimQuestV31(q.id),'repeated button cannot pay twice');check(!e.startQuestV31(q.id),'completed quest cannot restart');e.save(true);

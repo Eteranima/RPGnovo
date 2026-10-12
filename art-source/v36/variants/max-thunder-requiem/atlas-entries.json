@@ -1,0 +1,51 @@
+[
+  {
+    "id": "max-thunder-requiem",
+    "kind": "walk",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-1afa-7611-900f-c84542197a68\\exec-997046b9-4462-4be2-af3e-a3eb46aeb34a.png",
+    "cols": 3,
+    "rows": 4
+  },
+  {
+    "id": "max-thunder-requiem",
+    "kind": "attack",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-1afa-7611-900f-c84542197a68\\exec-b9c3843e-6f5e-4955-ace8-129c87b0764e.png",
+    "cols": 3,
+    "rows": 2
+  },
+  {
+    "id": "max-thunder-requiem",
+    "kind": "cast",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-1afa-7611-900f-c84542197a68\\exec-e783b34a-f2b1-4d28-8985-7b804a4e1168.png",
+    "cols": 3,
+    "rows": 2
+  },
+  {
+    "id": "max-thunder-requiem",
+    "kind": "ultimate",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-1afa-7611-900f-c84542197a68\\exec-43516958-994a-458c-a349-5fa11221d971.png",
+    "cols": 4,
+    "rows": 2
+  },
+  {
+    "id": "max-thunder-requiem",
+    "kind": "vfx",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-1afa-7611-900f-c84542197a68\\exec-9e2241bd-1e57-49d5-8ac1-e512cfa07854.png",
+    "cols": 3,
+    "rows": 2
+  },
+  {
+    "id": "max-thunder-requiem",
+    "kind": "icons",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-1afa-7611-900f-c84542197a68\\exec-6c0558cc-7bf7-4263-8393-e1a3948e05c5.png",
+    "cols": 3,
+    "rows": 2
+  },
+  {
+    "id": "max-thunder-requiem",
+    "kind": "companion",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-1afa-7611-900f-c84542197a68\\exec-5cb5cd14-2ccd-4f57-9e1e-c498a9f2262c.png",
+    "cols": 2,
+    "rows": 2
+  }
+]

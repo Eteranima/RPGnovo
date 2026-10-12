@@ -1,0 +1,593 @@
+{
+  "id": "seiji-last-script",
+  "kind": "walk",
+  "tool": "built-in image_gen",
+  "source": "C:/Users/Diego/.codex/generated_images/01a0fe9c-5a05-7ae0-b816-392e2a3c966b/exec-9d250de1-3c3a-4026-9313-f72ce6445b62.png",
+  "selected": "art-source/v36/variants/seiji-last-script/walk-source.png",
+  "runtime": "public/assets/v36/variants/seiji-last-script/walk.png",
+  "width": 1024,
+  "height": 1536,
+  "cols": 3,
+  "rows": 4,
+  "sourceSha256": "06d2c626c1807ba509784c8b1d65d85084b23c5b33bb0b3592cd9edd96b14d8e",
+  "selectedSha256": "06d2c626c1807ba509784c8b1d65d85084b23c5b33bb0b3592cd9edd96b14d8e",
+  "runtimeSha256": "06d2c626c1807ba509784c8b1d65d85084b23c5b33bb0b3592cd9edd96b14d8e",
+  "byteIdenticalSourceCopies": true,
+  "alphaThresholdForMeasurementOnly": 24,
+  "backgroundAlphaZero": 972716,
+  "rowCuts": [
+    0,
+    379,
+    741,
+    1096,
+    1536
+  ],
+  "frames": [
+    {
+      "x": 58,
+      "y": 28,
+      "w": 237,
+      "h": 341,
+      "anchorX": 184.2,
+      "anchorY": 360
+    },
+    {
+      "x": 392,
+      "y": 26,
+      "w": 244,
+      "h": 346,
+      "anchorX": 507.1,
+      "anchorY": 363
+    },
+    {
+      "x": 737,
+      "y": 23,
+      "w": 241,
+      "h": 346,
+      "anchorX": 876.3,
+      "anchorY": 360
+    },
+    {
+      "x": 50,
+      "y": 388,
+      "w": 277,
+      "h": 341,
+      "anchorX": 170.1,
+      "anchorY": 720
+    },
+    {
+      "x": 380,
+      "y": 387,
+      "w": 285,
+      "h": 342,
+      "anchorX": 498.4,
+      "anchorY": 720
+    },
+    {
+      "x": 721,
+      "y": 393,
+      "w": 275,
+      "h": 334,
+      "anchorX": 854.1,
+      "anchorY": 718
+    },
+    {
+      "x": 43,
+      "y": 754,
+      "w": 275,
+      "h": 335,
+      "anchorX": 183.5,
+      "anchorY": 1080
+    },
+    {
+      "x": 384,
+      "y": 756,
+      "w": 277,
+      "h": 335,
+      "anchorX": 525.3,
+      "anchorY": 1082
+    },
+    {
+      "x": 723,
+      "y": 754,
+      "w": 279,
+      "h": 336,
+      "anchorX": 886.5,
+      "anchorY": 1081
+    },
+    {
+      "x": 44,
+      "y": 1106,
+      "w": 286,
+      "h": 354,
+      "anchorX": 175.7,
+      "anchorY": 1451
+    },
+    {
+      "x": 372,
+      "y": 1101,
+      "w": 288,
+      "h": 357,
+      "anchorX": 522.9,
+      "anchorY": 1449
+    },
+    {
+      "x": 721,
+      "y": 1101,
+      "w": 276,
+      "h": 359,
+      "anchorX": 858.7,
+      "anchorY": 1451
+    }
+  ],
+  "measurements": [
+    {
+      "i": 0,
+      "row": 0,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "w": 343,
+        "h": 379
+      },
+      "visibleBounds": {
+        "x": 66,
+        "y": 36,
+        "w": 221,
+        "h": 325
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 34104,
+      "crop": {
+        "x": 58,
+        "y": 28,
+        "w": 237,
+        "h": 341,
+        "anchorX": 184.2,
+        "anchorY": 360
+      },
+      "headOrHatTop": 57,
+      "groundSole": 360,
+      "anchorMethod": "foot-band alpha centroid and sole baseline",
+      "bodyHeadTop": 57,
+      "headMethod": "visual native crop: hair/mask top only, excluding carried brush",
+      "originalVisibleTop": 36,
+      "visualReview": {
+        "method": "Individual native RGBA crop inspection; full source sheet for continuity",
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "reviewDate": "2026-10-11"
+      }
+    },
+    {
+      "i": 1,
+      "row": 0,
+      "col": 1,
+      "cell": {
+        "x": 343,
+        "y": 0,
+        "w": 343,
+        "h": 379
+      },
+      "visibleBounds": {
+        "x": 400,
+        "y": 34,
+        "w": 228,
+        "h": 330
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 34398,
+      "crop": {
+        "x": 392,
+        "y": 26,
+        "w": 244,
+        "h": 346,
+        "anchorX": 507.1,
+        "anchorY": 363
+      },
+      "headOrHatTop": 59,
+      "groundSole": 363,
+      "anchorMethod": "foot-band alpha centroid and sole baseline",
+      "bodyHeadTop": 59,
+      "headMethod": "visual native crop: hair/mask top only, excluding carried brush",
+      "originalVisibleTop": 34,
+      "visualReview": {
+        "method": "Individual native RGBA crop inspection; full source sheet for continuity",
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "reviewDate": "2026-10-11"
+      }
+    },
+    {
+      "i": 2,
+      "row": 0,
+      "col": 2,
+      "cell": {
+        "x": 686,
+        "y": 0,
+        "w": 338,
+        "h": 379
+      },
+      "visibleBounds": {
+        "x": 745,
+        "y": 31,
+        "w": 225,
+        "h": 330
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 34945,
+      "crop": {
+        "x": 737,
+        "y": 23,
+        "w": 241,
+        "h": 346,
+        "anchorX": 876.3,
+        "anchorY": 360
+      },
+      "headOrHatTop": 53,
+      "groundSole": 360,
+      "anchorMethod": "foot-band alpha centroid and sole baseline",
+      "bodyHeadTop": 53,
+      "headMethod": "visual native crop: hair/mask top only, excluding carried brush",
+      "originalVisibleTop": 31,
+      "visualReview": {
+        "method": "Individual native RGBA crop inspection; full source sheet for continuity",
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "reviewDate": "2026-10-11"
+      }
+    },
+    {
+      "i": 3,
+      "row": 1,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 379,
+        "w": 353,
+        "h": 362
+      },
+      "visibleBounds": {
+        "x": 58,
+        "y": 396,
+        "w": 261,
+        "h": 325
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 32443,
+      "crop": {
+        "x": 50,
+        "y": 388,
+        "w": 277,
+        "h": 341,
+        "anchorX": 170.1,
+        "anchorY": 720
+      },
+      "headOrHatTop": 428,
+      "groundSole": 720,
+      "anchorMethod": "foot-band alpha centroid and sole baseline",
+      "bodyHeadTop": 428,
+      "headMethod": "visual native crop: hair/mask top only, excluding carried brush",
+      "originalVisibleTop": 396,
+      "visualReview": {
+        "method": "Individual native RGBA crop inspection; full source sheet for continuity",
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "reviewDate": "2026-10-11"
+      }
+    },
+    {
+      "i": 4,
+      "row": 1,
+      "col": 1,
+      "cell": {
+        "x": 353,
+        "y": 379,
+        "w": 340,
+        "h": 362
+      },
+      "visibleBounds": {
+        "x": 388,
+        "y": 395,
+        "w": 269,
+        "h": 326
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 34847,
+      "crop": {
+        "x": 380,
+        "y": 387,
+        "w": 285,
+        "h": 342,
+        "anchorX": 498.4,
+        "anchorY": 720
+      },
+      "headOrHatTop": 430,
+      "groundSole": 720,
+      "anchorMethod": "foot-band alpha centroid and sole baseline",
+      "bodyHeadTop": 430,
+      "headMethod": "visual native crop: hair/mask top only, excluding carried brush",
+      "originalVisibleTop": 395,
+      "visualReview": {
+        "method": "Individual native RGBA crop inspection; full source sheet for continuity",
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "reviewDate": "2026-10-11"
+      }
+    },
+    {
+      "i": 5,
+      "row": 1,
+      "col": 2,
+      "cell": {
+        "x": 693,
+        "y": 379,
+        "w": 331,
+        "h": 362
+      },
+      "visibleBounds": {
+        "x": 729,
+        "y": 401,
+        "w": 259,
+        "h": 318
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 33676,
+      "crop": {
+        "x": 721,
+        "y": 393,
+        "w": 275,
+        "h": 334,
+        "anchorX": 854.1,
+        "anchorY": 718
+      },
+      "headOrHatTop": 433,
+      "groundSole": 718,
+      "anchorMethod": "foot-band alpha centroid and sole baseline",
+      "bodyHeadTop": 433,
+      "headMethod": "visual native crop: hair/mask top only, excluding carried brush",
+      "originalVisibleTop": 401,
+      "visualReview": {
+        "method": "Individual native RGBA crop inspection; full source sheet for continuity",
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "reviewDate": "2026-10-11"
+      }
+    },
+    {
+      "i": 6,
+      "row": 2,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 741,
+        "w": 351,
+        "h": 355
+      },
+      "visibleBounds": {
+        "x": 51,
+        "y": 762,
+        "w": 259,
+        "h": 319
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 32761,
+      "crop": {
+        "x": 43,
+        "y": 754,
+        "w": 275,
+        "h": 335,
+        "anchorX": 183.5,
+        "anchorY": 1080
+      },
+      "headOrHatTop": 782,
+      "groundSole": 1080,
+      "anchorMethod": "foot-band alpha centroid and sole baseline",
+      "bodyHeadTop": 782,
+      "headMethod": "visual native crop: hair/mask top only, excluding carried brush",
+      "originalVisibleTop": 762,
+      "visualReview": {
+        "method": "Individual native RGBA crop inspection; full source sheet for continuity",
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "reviewDate": "2026-10-11"
+      }
+    },
+    {
+      "i": 7,
+      "row": 2,
+      "col": 1,
+      "cell": {
+        "x": 351,
+        "y": 741,
+        "w": 341,
+        "h": 355
+      },
+      "visibleBounds": {
+        "x": 392,
+        "y": 764,
+        "w": 261,
+        "h": 319
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 34522,
+      "crop": {
+        "x": 384,
+        "y": 756,
+        "w": 277,
+        "h": 335,
+        "anchorX": 525.3,
+        "anchorY": 1082
+      },
+      "headOrHatTop": 785,
+      "groundSole": 1082,
+      "anchorMethod": "foot-band alpha centroid and sole baseline",
+      "bodyHeadTop": 785,
+      "headMethod": "visual native crop: hair/mask top only, excluding carried brush",
+      "originalVisibleTop": 764,
+      "visualReview": {
+        "method": "Individual native RGBA crop inspection; full source sheet for continuity",
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "reviewDate": "2026-10-11"
+      }
+    },
+    {
+      "i": 8,
+      "row": 2,
+      "col": 2,
+      "cell": {
+        "x": 692,
+        "y": 741,
+        "w": 332,
+        "h": 355
+      },
+      "visibleBounds": {
+        "x": 731,
+        "y": 762,
+        "w": 263,
+        "h": 320
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 35186,
+      "crop": {
+        "x": 723,
+        "y": 754,
+        "w": 279,
+        "h": 336,
+        "anchorX": 886.5,
+        "anchorY": 1081
+      },
+      "headOrHatTop": 788,
+      "groundSole": 1081,
+      "anchorMethod": "foot-band alpha centroid and sole baseline",
+      "bodyHeadTop": 788,
+      "headMethod": "visual native crop: hair/mask top only, excluding carried brush",
+      "originalVisibleTop": 762,
+      "visualReview": {
+        "method": "Individual native RGBA crop inspection; full source sheet for continuity",
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "reviewDate": "2026-10-11"
+      }
+    },
+    {
+      "i": 9,
+      "row": 3,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 1096,
+        "w": 351,
+        "h": 440
+      },
+      "visibleBounds": {
+        "x": 52,
+        "y": 1114,
+        "w": 270,
+        "h": 338
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 36143,
+      "crop": {
+        "x": 44,
+        "y": 1106,
+        "w": 286,
+        "h": 354,
+        "anchorX": 175.7,
+        "anchorY": 1451
+      },
+      "headOrHatTop": 1134,
+      "groundSole": 1451,
+      "anchorMethod": "foot-band alpha centroid and sole baseline",
+      "bodyHeadTop": 1134,
+      "headMethod": "visual native crop: hair/mask top only, excluding carried brush",
+      "originalVisibleTop": 1114,
+      "visualReview": {
+        "method": "Individual native RGBA crop inspection; full source sheet for continuity",
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "reviewDate": "2026-10-11"
+      }
+    },
+    {
+      "i": 10,
+      "row": 3,
+      "col": 1,
+      "cell": {
+        "x": 351,
+        "y": 1096,
+        "w": 339,
+        "h": 440
+      },
+      "visibleBounds": {
+        "x": 380,
+        "y": 1109,
+        "w": 272,
+        "h": 341
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 37722,
+      "crop": {
+        "x": 372,
+        "y": 1101,
+        "w": 288,
+        "h": 357,
+        "anchorX": 522.9,
+        "anchorY": 1449
+      },
+      "headOrHatTop": 1133,
+      "groundSole": 1449,
+      "anchorMethod": "foot-band alpha centroid and sole baseline",
+      "bodyHeadTop": 1133,
+      "headMethod": "visual native crop: hair/mask top only, excluding carried brush",
+      "originalVisibleTop": 1109,
+      "visualReview": {
+        "method": "Individual native RGBA crop inspection; full source sheet for continuity",
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "reviewDate": "2026-10-11"
+      }
+    },
+    {
+      "i": 11,
+      "row": 3,
+      "col": 2,
+      "cell": {
+        "x": 690,
+        "y": 1096,
+        "w": 334,
+        "h": 440
+      },
+      "visibleBounds": {
+        "x": 729,
+        "y": 1109,
+        "w": 260,
+        "h": 343
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 36871,
+      "crop": {
+        "x": 721,
+        "y": 1101,
+        "w": 276,
+        "h": 359,
+        "anchorX": 858.7,
+        "anchorY": 1451
+      },
+      "headOrHatTop": 1130,
+      "groundSole": 1451,
+      "anchorMethod": "foot-band alpha centroid and sole baseline",
+      "bodyHeadTop": 1130,
+      "headMethod": "visual native crop: hair/mask top only, excluding carried brush",
+      "originalVisibleTop": 1109,
+      "visualReview": {
+        "method": "Individual native RGBA crop inspection; full source sheet for continuity",
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "reviewDate": "2026-10-11"
+      }
+    }
+  ]
+}

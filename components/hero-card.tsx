@@ -2,6 +2,8 @@ import type { CSSProperties } from 'react';
 import { Progress } from '@/components/ui/progress';
 import { ASSETS, COMPANIONS } from '@/lib/game/data';
 import { HERO_CARD_ART, type CardAperture, type HeroCardId } from '@/lib/game/heroCardArt';
+import { heroArtIdV36, type VariantIdV36 } from '@/lib/game/variantsV36';
+import { heroUiNameV36 } from '@/lib/game/heroUiNameV36';
 
 /** Display-only input: optional vitals let summon entries retain their real data. */
 export type CardHeroDisplay = {
@@ -10,6 +12,7 @@ export type CardHeroDisplay = {
   element: string;
   companion?: string;
   portrait?: string;
+  variantId?: VariantIdV36;
   hp?: number;
   maxHp?: number;
   mp?: number;
@@ -20,8 +23,8 @@ function apertureStyle(aperture: CardAperture): CSSProperties {
   return { left: `${aperture.left}%`, top: `${aperture.top}%`, width: `${aperture.width}%`, height: `${aperture.height}%` };
 }
 
-export function HeroPortrait({ h, lycan = false, style }: { h: Pick<CardHeroDisplay, 'id' | 'portrait'>; lycan?: boolean; style?: CSSProperties }) {
-  const portraitId = h.id === 'gabriel' && lycan ? 'gabriel_lycan' : h.id;
+export function HeroPortrait({ h, lycan = false, style }: { h: Pick<CardHeroDisplay, 'id' | 'portrait' | 'variantId'>; lycan?: boolean; style?: CSSProperties }) {
+  const portraitId = h.variantId ? heroArtIdV36(h.variantId + (h.id === 'gabriel' && lycan ? '_lycan' : '')) : h.id === 'gabriel' && lycan ? 'gabriel_lycan' : h.id;
   const art = HERO_CARD_ART[h.id];
   const face = ASSETS[`face_${portraitId}`];
   return <span className={`character-portrait character-portrait-${portraitId}`} style={style} aria-hidden="true">
@@ -56,17 +59,19 @@ export function HeroCard({ h, active = false, lycan = false, showVitals = true, 
   const hasVitals = showVitals && h.hp !== undefined && h.maxHp !== undefined && h.mp !== undefined && h.maxMp !== undefined;
   const companion = h.companion ?? (h.id === 'abel' ? undefined : COMPANIONS[h.id].name);
   const art = HERO_CARD_ART[h.id];
+  const label = heroUiNameV36(h);
   const portraitStyle: CSSProperties = {
     left: art.portraitCenter ? `${art.portraitCenter.left}%` : 'var(--character-portrait-center, 62px)',
     top: art.portraitCenter ? `${art.portraitCenter.top}%` : '50%',
     transform: `translate(-${art.portraitAperture.left + art.portraitAperture.width / 2}%, -${art.portraitAperture.top + art.portraitAperture.height / 2}%)`,
   };
-  return <div className={`character-card character-card-${h.id} ${active ? 'character-card-active' : ''} ${hasVitals ? 'character-card-vitals' : 'character-card-identity'} ${className}`} data-character-card={h.id} role="group" aria-label={`${h.name}${active ? ' · personagem ativo' : ''}`}>
+  return <div className={`character-card character-card-${h.id} ${active ? 'character-card-active' : ''} ${hasVitals ? 'character-card-vitals' : 'character-card-identity'} ${label.variantTitle ? 'character-card-variant' : ''} ${className}`} data-character-card={h.id} role="group" aria-label={`${h.name}${active ? ' · personagem ativo' : ''}`}>
     <img className="character-card-frame" src={HERO_CARD_ART[h.id].frame} alt="" aria-hidden="true" draggable={false} />
     <HeroPortrait h={h} lycan={lycan} style={portraitStyle} />
     <div className="character-card-content">
       <div className="character-card-heading">
-        <strong className="character-name">{h.name}</strong>
+        <strong className="character-name">{label.name}</strong>
+        {label.variantTitle && <span className="character-variant-title">{label.variantTitle} <span className="character-variant-rarity">5★</span></span>}
         <span className="character-identity"><span>{h.element}</span>{companion && <><span aria-hidden="true"> · </span><span>{companion}</span></>}</span>
       </div>
       {hasVitals ? <div className="character-vitals">

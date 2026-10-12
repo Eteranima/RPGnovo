@@ -1,0 +1,13 @@
+{
+  "version": 38,
+  "generator": "built-in image_gen",
+  "date": "2026-10-11",
+  "source": "salon.png",
+  "production": "/assets/v38/event-activities/salon.png",
+  "width": 1672,
+  "height": 941,
+  "sha256": "4d3aa3798fa425354ea8005171fb319c423a60473b423f3732a8d3184717ace7",
+  "crop": { "x": 0, "y": 0, "w": 1672, "h": 941 },
+  "transform": "none; native selected PNG copied byte for byte",
+  "review": "Five empty medallions, coherent table/architecture perspective, no embedded UI text or characters. Dark central surfaces preserve space for readable interactive content. Anime fantasy academy style; no anatomical content. Actual UI contrast and responsive crop checked separately in browser QA."
+}

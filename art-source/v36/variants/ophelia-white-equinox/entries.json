@@ -1,0 +1,9 @@
+[
+ {"id":"ophelia-white-equinox","kind":"walk","source":"art-source/v36/variants/ophelia-white-equinox/walk-final-candidate.png","cols":3,"rows":4},
+ {"id":"ophelia-white-equinox","kind":"attack","source":"art-source/v36/variants/ophelia-white-equinox/attack-body-candidate.png","cols":3,"rows":2},
+ {"id":"ophelia-white-equinox","kind":"cast","source":"art-source/v36/variants/ophelia-white-equinox/cast-body-candidate.png","cols":3,"rows":2},
+ {"id":"ophelia-white-equinox","kind":"ultimate","source":"art-source/v36/variants/ophelia-white-equinox/ultimate-repair-candidate.png","cols":4,"rows":2},
+ {"id":"ophelia-white-equinox","kind":"vfx","source":"art-source/v36/variants/ophelia-white-equinox/vfx-repair-candidate.png","cols":3,"rows":2},
+ {"id":"ophelia-white-equinox","kind":"icons","source":"art-source/v36/variants/ophelia-white-equinox/icons-repair-candidate.png","cols":3,"rows":2},
+ {"id":"ophelia-white-equinox","kind":"companion","source":"art-source/v36/variants/ophelia-white-equinox/companion-repair-candidate.png","cols":2,"rows":2}
+]

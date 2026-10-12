@@ -1,0 +1,2 @@
+PWA save transfer v36 — PASS (90 checks)
+Validated package/legacy JSON, canonical preview, title-only replacement, backup and rollback at every write, resumed party, separate volume/speed and conservative persistent mute. No network calls or imported auto-play.

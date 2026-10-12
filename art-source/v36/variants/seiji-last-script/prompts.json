@@ -1,0 +1,117 @@
+{
+  "id": "seiji-last-script",
+  "tool": "built-in image_gen",
+  "selected": [
+    {
+      "id": "seiji-last-script",
+      "kind": "walk",
+      "source": "C:/Users/Diego/.codex/generated_images/01a0fe9c-5a05-7ae0-b816-392e2a3c966b/exec-9d250de1-3c3a-4026-9313-f72ce6445b62.png",
+      "selected": "art-source/v36/variants/seiji-last-script/walk-source.png",
+      "sha256": "06d2c626c1807ba509784c8b1d65d85084b23c5b33bb0b3592cd9edd96b14d8e",
+      "prompt": "Edit: identity-preserve sprite atlas spacing repair. Keep this Seiji EXACT12walkposes and sameoutfit/anatomy/weapons, originaldirections: row1 SOUTHfront, row2 ALLTHREE WESTfacesLEFT, row3 ALLTHREE EASTfacesRIGHT, row4 NORTHback. Do NOT flip row2 middle/rightposes. Each COMPLETE figure including longbrushstaff must become substantially SMALLER: reduce every figure to about70% of CURRENT size, centered in itsown gridcell, with minimum60pixel clear topandbottom margin per384pixelcell. Exactly3columns×4rows1024x1536. This is crucial: maximum260pixels totalfigure+weaponheight percell, nostafftip orsoleinvadesnextcell. Same scaleall12, twoarms/twohands/twolegs/twovisiblefeet perfigure. Preservewalkphasesneutral/stepL/stepR, celshadedanimequality. Every noncharacterpixel genuinelyalphaZERO: wideguttersonALL4sides, nofloor/shadow/glow/matte/rectangularg radient. No text/grid/numbers/watermark.",
+      "exactSourcePrompt": true,
+      "status": "selected-native-reviewed",
+      "promptArchive": "art-source/v36/prompts.json"
+    },
+    {
+      "id": "seiji-last-script",
+      "kind": "attack",
+      "source": "C:/Users/Diego/.codex/generated_images/01a0fe9c-5a05-7ae0-b816-392e2a3c966b/exec-b2f2c901-f888-4071-97b2-8fcb84fcdbf8.png",
+      "selected": "art-source/v36/variants/seiji-last-script/attack-source.png",
+      "sha256": "2808d9e7cb1eccecdb1f0f8bc70e0d737deac1e0ddca78bdc3fa71e1ac856fbd",
+      "prompt": "Use case: stylized-concept. Native production RGBA sprite atlas for Seiji — Códice do Horizonte, Éter Anima Lua de Sangue. Match FINAL reference precisely: short silver hair with one side braid, white fox halfmask, angular ivory paper shoulder armor, fitted black/crimson clothes, red flowing stole, white shinwraps and lacquer sandals, ornate brush-spear. Adult slender Japanese anime proportions, exactly2arms2hands2legs with clear natural grips and TWO feet in EVERY pose. Fine clean inkline and intricate controlled celshade.\nEvery COMPLETE sprite INCLUDING brush must occupy MAXIMUM70% of its cell height and80%cellwidth. Very large completely EMPTY alpha0 gutters above/below/left/right every cell. No background, floor, glows behindbody, shadows, matte, gradient, text, celllines, numbers, logos, watermark. All hair, hands, stafftips and soles insidecell withouttouchingedges, equalbodyscale. One character percell, no companion/duplicates/phantomlimbs. Genuine transparentalpha PNG.\nExactly6 consecutive combatframes,3COLUMNS×2ROWS, LANDSCAPE1536x1024. Allfacesandtorso aimRIGHT. Sequence0rest withbothfeetdown/noFX,1kneesbendbrushdrawnback,2bodyrotates thrustbrush-right,3strongbrush-spear forwardstroke withsmallblackinkcrescent,4followthroughclothstole,5returnguard. Brush held byrightorbothhands with correcttwoarms, closedcodexatbelt. No giantarcs/excessiveFX. Entirefigureincludingweaponinside70%cellheight/80%cellwidth. Leavewidegutters and outermargin.",
+      "exactSourcePrompt": true,
+      "status": "selected-native-reviewed",
+      "promptArchive": "art-source/v36/prompts.json"
+    },
+    {
+      "id": "seiji-last-script",
+      "kind": "cast",
+      "source": "C:/Users/Diego/.codex/generated_images/01a0fe9c-5a05-7ae0-b816-392e2a3c966b/exec-c11b4577-c317-4e9f-9e83-5124c9069e55.png",
+      "selected": "art-source/v36/variants/seiji-last-script/cast-source.png",
+      "sha256": "51fc59e4e6701ba52ebb59d9eaafc8bd44afbc0ee6f9f9129c9f91146cb3ba2e",
+      "prompt": "Edit: identity-preserve sprite atlas spacing repair. Keep Seiji EXACT6castingposes, same silverhairfoxmaskblack/crimsonpaperarmor, bookinlefthandandbrush-spear inrighthand, allfiguresfaceRIGHT, cleanintricateanimecelshade. Reduce everyCOMPLETE figureincludingbrush+inkeffects to about70%ofCURRENTsize, centered insideitsowncell with at least60pixelsclear top/bottom/left/right margins. Exactly3columns×2rows LANDSCAPE1536x1024. Maximum350pixels figureplusweaponheight per512pixelcell; NO hair, stafftip, foot, paperseal orink caninvadeanothercell. Twoarms/twohands/twolegs with completebothsoles perpose. Allbackgroundandall gutters genuinealphaZERO, nofloor/shadow/matte/glow/gradient/text/gridwatermark. Keep effects small, blackink andivorysealsonly, book+brush clear withnaturalgrips. Do not addpersonorcompanion.",
+      "exactSourcePrompt": true,
+      "status": "selected-native-reviewed",
+      "promptArchive": "art-source/v36/prompts.json"
+    },
+    {
+      "id": "seiji-last-script",
+      "kind": "ultimate",
+      "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a0fe9c-5a05-7ae0-b816-392e2a3c966b\\exec-c5b3cfb8-a417-4686-ae95-617f6bc6df74.png",
+      "selected": "art-source/v36/variants/seiji-last-script/ultimate-source.png",
+      "sha256": "ef00ee3ba72aa4cfb58d20bab106c0f08c7e886ee0068508e174a88eff84899a",
+      "prompt": "Edit the reference atlas as a production native RGBA sprite sheet. Keep the EXACT SAME eight Seiji designs, chronological poses, brush in one right hand, codex in the other, two arms and two legs, faces and exquisite anime detail. Repair layout only: arrange all eight complete isolated sprites as 4 columns by 2 rows in equal cells, with at least 40 px fully transparent empty gutters BETWEEN EVERY sprite and 32 px on all four OUTER edges. Shrink each complete character including brush and cloak uniformly within its own cell until there is room for the entire longest horizontal brush. No prop or cloth crossing into another cell. Keep pose 5 (zero-based index5) as the rightward thrust impact. All actors face RIGHT. Full two boots visible; no clipping. No background, no labels, no floor or shadows. Preserve genuine transparent background. Nothing touches any edge or neighbor.",
+      "exactSourcePrompt": true,
+      "status": "selected-native-reviewed",
+      "promptArchive": "prompts-final-three.json"
+    },
+    {
+      "id": "seiji-last-script",
+      "kind": "vfx",
+      "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a0fe9c-5a05-7ae0-b816-392e2a3c966b\\exec-ddc59f63-61d7-4112-9c7a-6424ab4ad3fc.png",
+      "selected": "art-source/v36/variants/seiji-last-script/vfx-source.png",
+      "sha256": "f953c4a351f194506c32bb3feefb350fc0385e6efda6f0fe1de2c8c02a57fd23",
+      "prompt": "Edit the reference as a production native RGBA VFX atlas. Preserve exactly the six intricate anime ink/paper/fox/codex/cathedral motifs and their order. Layout repair: 3 columns by 2 rows, six isolated motifs centered in equal cells. Each motif including every ribbon and particle must fit completely with 36px fully transparent space on all four cell edges and a continuous fully empty transparent horizontal gutter through the middle. Shrink motifs uniformly to fit, no overlap of any particles or glow, no clip. Exquisite high detail gold/ivory/carmine/black ink, actual transparent background, no opaque gradient, no floor, no text.",
+      "exactSourcePrompt": true,
+      "status": "selected-native-reviewed",
+      "promptArchive": "prompts-final-three.json"
+    },
+    {
+      "id": "seiji-last-script",
+      "kind": "icons",
+      "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a0fe9c-5a05-7ae0-b816-392e2a3c966b\\exec-7545a176-3e12-4524-949a-a8dcdd3e5e30.png",
+      "selected": "art-source/v36/variants/seiji-last-script/icons-source.png",
+      "sha256": "52530a2a284e14a9dddc2ef4c56f2971013c5ced7932d519bc201212b7588749",
+      "prompt": "Usecase: stylized-concept. NativeRGBA productiongame atlas for Éter Anima Lua deSangue SeijiCódicedoHorizonte. FINAL reference dictates outfit: shorts ilverhair/braid, tiltedwhitefoxmask, angularivorypaperarmor, black/crimson robes, redstole, whiteshinwraps+lacquersandals, brush-spear+origamicodex. Preciseadultanime2arms2hands2legs andbothbootsvisible. Japanesehanddrawn detailedcleaninkline celshade, noWesterncartoon/3D/photo. ClearwidealphaZERO gutters/margins everycell. No backgroundmattefloorcastshadowgradienthazegridtextwatermark. Shapes NEVERtouch/crosscellboundaries. One isolatedmotif/character percell, separate sourceboxes. Exactly6 DISTINCT PREMIUMSKILL ICONS,3COLUMNS×2ROWS LANDSCAPE1536x1024. Floatingisolatedhandpaintedobjects, noframe/text/background; eachiconcontainedin65%cellwithverywidealphaZERO margins. Rowmajor0ornatebrush-spearstroke;1foldedivorypaperfoxandblackinkcurl;2protectiveorigamipageswrappedwithgoldcord;3blackinkseal encircledcrimsonbindingribbon;4DecretodoHorizonteopenfoldedbookandgoldsealwithblackink;5CódicedoHorizonteAberto miniaturepaperpalaceaboveopenorigamicodex blackinkfoxcurve. Richivoryblackcrimsongold, impeccableinklineandcelshade, consistentreadablegameiconcraft. No legibleletters/kanji/text, no borders, no gradient/square/panel, nohumanlimbs.",
+      "exactSourcePrompt": true,
+      "status": "selected-native-reviewed",
+      "promptArchive": "prompts-final-three.json"
+    },
+    {
+      "id": "seiji-last-script",
+      "kind": "companion",
+      "source": "C:/Users/Diego/.codex/generated_images/01a0fe9c-5a05-7ae0-b816-392e2a3c966b/exec-d228f32a-c0c5-4326-b247-0f6fab05d6b2.png",
+      "selected": "art-source/v36/variants/seiji-last-script/companion-source.png",
+      "sha256": "f707bd011cb86d431865eb40841f1e548fb557959df851f51880ec386e0bcee0",
+      "prompt": "Usecase: stylized-concept. NativeRGBA4frame companion sheet: Shin — Escriba da Lua de Sangue, the HUMAN CHIBI ink companion of SeijiCódice doHorizonte. Ref1canonicalShin: brightblueeyes, iridescentsilverhair pastelrainbowstrands, joyfulchibianimeface. Ref2 eventSeijicostume/style. Reimagine Shinwithshort whiteiridescenthairandonecrimsonbraid, tinywhitefoxmask pinned sideforehead, blackandcrimsonminiatureexorcistrobe, foldedivoryshoulderornaments, whitelegwraps, blackgoldboots. Samechibihuman notfoxanimal. Exactly4 completefigures in2columns×2rows LANDSCAPEorSQUARE1536x1536, eachfigureonly60%cellheight withVERYwidealpha0clear margins. Frames0readysmilewithbrushinRIGHThandandclosedcodexLEFT;1leftholdsopencodexwhileRIGHTbrushraised;2RIGHTbrushdrawssmallblackinksealLEFTstillholdscodex;3brushlowRIGHTleftholdsbookreturn. No handtouchingchin: EXACTLYTWOarmsTWO handsTWOlegsTWOboots withnaturalcleargrips everyframe. AllfaceRIGHT3/4, refinedcleanJapaneseanimechibidetailscontrolledcelshade, noWesterncartoon/photo/3D. Entirehairbrushbookbootsinsideeachcell, noextrafigures/limbs, floor/shadow/background/haze/gradient/grid/text/watermark. Genuine transparentalpha0gutters. ThisformappearsONLYwithSeijieventversion.",
+      "exactSourcePrompt": true,
+      "status": "selected-native-reviewed",
+      "promptArchive": "art-source/v36/prompts.json"
+    }
+  ],
+  "knownEarlierAttempts": [
+    {
+      "id": "seiji-last-script",
+      "kind": "portrait",
+      "prompt": "Use case: stylized-concept.\nAsset: complete premium 5-star summon portrait for Éter Anima: Seiji — Códice do Horizonte.\nReference image is the canonical Seiji. Preserve his recognizable face, long silver hair tied partly up, red eyes, lean adult masculine anatomy, ivory/black/crimson Japanese robes and black boots. Design a distinct evolved ceremonial costume: layered ivory haori with gold edge embroidery and black calligraphy panels, crimson cord closures, paper-fold ornaments, narrow black hakama. Keep the character coherent and drawable for subsequent animation.\nHand-drawn polished Japanese fantasy anime, elegant ink linework, precise cel shadows and controlled highlights, same refinement as reference. FULL BODY isolated on actual transparent alpha, entire hair, hands, sleeves and both boot soles within generous margin, no environment or cast shadow. Three-quarter view facing right, calm determined expression. Exactly two arms, two hands and two legs; right hand grips one calligraphy brush naturally, left hand holds one closed slim codex near waist. Add a few restrained floating ivory paper seals and black ink curves behind silhouette, never obscuring fingers or face. One character, no extra limbs, no duplicates, no text, no border, no stars, no watermark, no photorealism or Western cartoon. Strong silhouette and readable small-scale details. Portrait canvas 1024x1536.",
+      "source": "C:/Users/Diego/.codex/generated_images/01a0fe9c-5a05-7ae0-b816-392e2a3c966b/exec-0668ae35-58d2-4364-bd2a-c59dc734c445.png",
+      "status": "candidate"
+    },
+    {
+      "id": "seiji-last-script",
+      "kind": "portrait",
+      "prompt": "Use case: stylized-concept. CREATE A COMPLETELY NEW DRAWING, a radical alternate-universe premium5-star character Seiji — Códice do Horizonte, first Éter Anima event Lua de Sangue — O Baile dos Cinco Selos. Reference is ONLY baseline identity/art quality, NOT costume or pose to copy.\nReimagine Seiji as the masked exorcist of a blood-moon paper theatre. Change hair to SHORT windswept silver with one long crimson-tied side braid; recognizable mature narrow face and red eyes. Entirely NEW silhouette: fitted BLACK and crimson asymmetrical priest-warrior armor, exposed narrow black sleeves under angular ivory shoulder plates resembling folded paper, broad crimson sash, charcoal cropped hakama, white shin wraps and black lacquer sandals. One long split crimson stole with golden seal embroidery flows behind him. White porcelain fox masquerade mask sits tilted over LEFT brow/eye, right eye visible; mask red ink lines and gold crack details. No long white haori from reference.\nFull-body heroic standing pose facing3/4RIGHT. Right hand holds large elegant black brush-spear upright, left hand supports open ivory origami codex at waist. Exactly2arms2hands2legs; natural fingers. Black ink fox-shaped calligraphy wisps and floating folded paper seals, restrained and behind silhouette, not a separate companion/body. Premium hand-drawn Japanese anime fantasy comparable Fate/MushokuTensei refinement: clean confident ink lines, polished cel shading, luxurious ornaments, coherent readable outfit, anatomically balanced adult proportions. Genuine transparent alpha with wideclear margin, whole weaponhairboots inside, no background/floor/castshadow or haze rectangle. No text, logos, watermark, extra limbs, duplicate character, chibi, Westerncartoon, 3D/photo. Portraitcanvas1024x1536.",
+      "source": "C:/Users/Diego/.codex/generated_images/01a0fe9c-5a05-7ae0-b816-392e2a3c966b/exec-b9a52420-5e23-467f-adc0-9ce05f5868e8.png",
+      "status": "approved-event-design"
+    },
+    {
+      "id": "seiji-last-script",
+      "kind": "walk",
+      "source": "C:/Users/Diego/.codex/generated_images/01a0fe9c-5a05-7ae0-b816-392e2a3c966b/exec-b293e079-3242-49ab-9e8a-ab28e76ba6e7.png",
+      "cols": 3,
+      "rows": 4,
+      "prompt": "Use case: stylized-concept. Asset: native RGBA WALK SPRITE ATLAS of Seiji — Códice do Horizonte, Éter Anima Lua de Sangue event. Reference is FINAL approved outfit; match exactly short silverhair+singlebraid, tilted whitefoxmask overoneeye, angular ivorypaperarmor, fitted black/crimson robes, crimsonstole, white shinwraps and blacklacquer sandals, large brush-spear. Adult slim animeproportions.\nExactly12 fullbody standalone sprites in a clean THREE COLUMNS by FOUR ROWS grid, each cell fully isolated with VERY WIDE true transparent alpha gutters and clear outermargins, no text/gridlines/floor/shadows/haze/effects. Row1 faces SOUTH/front towardviewer, poses neutral then stepLEFT then stepRIGHT. Row2 faces WEST screenLEFT profile, same3walk phases. Row3 faces EAST screenRIGHT profile same3phases. Row4 NORTH backofhead/backclothes facingaway, same3phases. All12 complete heads/masks/hands/bothlegs/feet visible withsamebodyscaleandbaselineperrow. Exactly2arms2hands2legs perfigure; brush-spear carried snugly diagonallybehindshoulder byonehand, otherarm swingsnaturally; no extraweaponorhand. Walkingfabric/hairstole small coherentfollowthrough, noattackingorspellVFX. Referencecostume consistent allviews. Polished handdrawn Japanese fantasyanime cleanink outlines and refinedcelshadows, verydetailed readable sprites, notchibi/photo/3D/Westerncartoon. Sheetportrait1536x2048, genuine transparentbackground. Spare margin aroundstafftips and soles, no clippingand no cells touch.",
+      "status": "measured-awaiting-contact-review"
+    },
+    {
+      "id": "seiji-last-script",
+      "kind": "cast",
+      "source": "C:/Users/Diego/.codex/generated_images/01a0fe9c-5a05-7ae0-b816-392e2a3c966b/exec-a069c5a7-eb8a-42e9-8a2a-bf21effae625.png",
+      "cols": 3,
+      "rows": 2,
+      "prompt": "Use case: stylized-concept. Native production RGBA sprite atlas for Seiji — Códice do Horizonte, Éter Anima Lua de Sangue. Match FINAL reference precisely: short silver hair with one side braid, white fox halfmask, angular ivory paper shoulder armor, fitted black/crimson clothes, red flowing stole, white shinwraps and lacquer sandals, ornate brush-spear. Adult slender Japanese anime proportions, exactly2arms2hands2legs with clear natural grips and TWO feet in EVERY pose. Fine clean inkline and intricate controlled celshade.\nEvery COMPLETE sprite INCLUDING brush must occupy MAXIMUM70% of its cell height and80%cellwidth. Very large completely EMPTY alpha0 gutters above/below/left/right every cell. No background, floor, glows behindbody, shadows, matte, gradient, text, celllines, numbers, logos, watermark. All hair, hands, stafftips and soles insidecell withouttouchingedges, equalbodyscale. One character percell, no companion/duplicates/phantomlimbs. Genuine transparentalpha PNG.\nExactly6 consecutive spellcastingframes,3COLUMNS×2ROWS, LANDSCAPE1536x1024. AllfaceRIGHT. Sequence0readyclosedcodex,1leftopenscodex/rightbrushraised,2drawssmallblackinksealabovebook,3shortbrace/chants,4brushpointsRIGHT releasingcompactivorypaperseal+blackink,5returnupright. Preciselyleftarmholdsbook andrightarmbrush, onlytwohands. VeryrestrainedFX containedinsidecell, no giantcurvejoiningcells. Completebrush/body/boots occupy70%height/80%width.",
+      "status": "measured-awaiting-contact-review"
+    }
+  ]
+}

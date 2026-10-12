@@ -1,0 +1,26 @@
+{
+  "id": "marin-starless-throne",
+  "coordinates": "absolute native source pixels",
+  "anchors": "All automatic foot-band anchors were visually checked against boots, with no low VFX mistaken for feet.",
+  "manualHeadTopOverrides": {
+    "attack": {
+      "3": 601
+    },
+    "ultimate": {
+      "1": 244,
+      "3": 274,
+      "4": 873
+    }
+  },
+  "reason": "Actor head top excludes raised fan or floating moths; runtime may use these overrides when sizing the adult body. Native crops retain all effects, unchanged.",
+  "playbackOrder": [
+    0,
+    1,
+    2,
+    6,
+    3,
+    4,
+    5,
+    7
+  ]
+}

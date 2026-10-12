@@ -1,0 +1,42 @@
+{
+  "source": "art-source/v36/variants/ophelia-white-equinox/attack-repair-candidate.png",
+  "width": 1536,
+  "height": 1024,
+  "alphaZero": 910669,
+  "allPixels": 1572864,
+  "strictAlphaZeroCorridors": false,
+  "horizontal": [
+    {
+      "index": 514,
+      "nonzero": 0
+    }
+  ],
+  "vertical": [
+    [
+      {
+        "index": 512,
+        "nonzero": 0
+      },
+      {
+        "index": 1006,
+        "nonzero": 0
+      }
+    ],
+    [
+      {
+        "index": 546,
+        "nonzero": 81
+      },
+      {
+        "index": 908,
+        "nonzero": 82
+      }
+    ]
+  ],
+  "edges": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+  }
+}

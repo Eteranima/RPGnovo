@@ -1,0 +1,65 @@
+{
+  "id": "gabriel-solar-oath",
+  "source": "public/assets/v36/variants/gabriel-solar-oath/lycan-attack.png",
+  "sourceSha256": "1bfcaac544420896b87dde48bd6fe0b3755f17119f9daf99c4ecc16d89c7c1c3",
+  "sourceWidth": 1536,
+  "sourceHeight": 1024,
+  "sourcePoseIndex": 0,
+  "sourcePoseCrop": {
+    "x": 43,
+    "y": 26,
+    "w": 369,
+    "h": 476,
+    "anchorX": 213.2,
+    "anchorY": 493
+  },
+  "extraction": "Sharp native rectangular PNG crop only; no resize, repaint, masking, filtering, alpha cleaning, atlas or anchor changes.",
+  "visualReview": {
+    "date": "2026-10-11",
+    "status": "reviewed-native-crops",
+    "note": "Both exported PNGs were visually inspected at native size. Portrait retains the complete approved idle silhouette and both boots without attack particles. Face retains the lupine muzzle, eyes, both ear tips and worn crown; lower neck/shoulder ornaments are naturally included by the rectangular crop. No neighboring pose is included."
+  },
+  "sourceAtlasUnchanged": true,
+  "sourcePixelsChanged": false,
+  "sourceCropAndAnchorsChanged": false,
+  "entries": [
+    {
+      "kind": "portrait-lycan",
+      "rect": {
+        "left": 43,
+        "top": 26,
+        "width": 369,
+        "height": 476
+      },
+      "purpose": "Complete approved idle pose0, including both feet, tail, cloak and worn ornaments; no attack VFX.",
+      "runtime": "public/assets/v36/variants/gabriel-solar-oath/portrait-lycan.png",
+      "width": 369,
+      "height": 476,
+      "pngSha256": "2af0e151db34f830681ee5537d059f75121ca44cbd50a2f5fa693bebaafaa60d",
+      "rawRgbaSha256": "763f58c13841c9d5be57e058e808c0e8e1eb7db5006b8312a2d5e0faf11db686",
+      "alphaZeroPixels": 61338,
+      "lowAlphaPixels1To24": 23277,
+      "originalRgbaRowsCompared": 476,
+      "originalRgbaIdentical": true
+    },
+    {
+      "kind": "face-lycan",
+      "rect": {
+        "left": 119,
+        "top": 26,
+        "width": 221,
+        "height": 198
+      },
+      "purpose": "Complete lupine head, both ear tips, muzzle, worn crown, mane and neck/collar. Rectangular native crop includes shoulder ornaments and does not mask or redraw.",
+      "runtime": "public/assets/v36/variants/gabriel-solar-oath/face-lycan.png",
+      "width": 221,
+      "height": 198,
+      "pngSha256": "523d2bc5aa271665bd32ce2f938e1f6b489efceb92f5b3a6b196c7acb42126f7",
+      "rawRgbaSha256": "f3fefb6dde23efad02ec368b02933fa1cc44822f740680355581f06e91931f2e",
+      "alphaZeroPixels": 9263,
+      "lowAlphaPixels1To24": 5345,
+      "originalRgbaRowsCompared": 198,
+      "originalRgbaIdentical": true
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "kind": "attack",
+  "seamMax": 1,
+  "seamNonZero": 3,
+  "edgeMax": 0,
+  "edgeNonZero": 0
+}

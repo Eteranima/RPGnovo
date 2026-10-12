@@ -1,0 +1,243 @@
+{
+  "id": "max-thunder-requiem",
+  "kind": "vfx",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-1afa-7611-900f-c84542197a68\\exec-9e2241bd-1e57-49d5-8ac1-e512cfa07854.png",
+  "selected": "art-source/v36/variants/max-thunder-requiem/vfx-source.png",
+  "runtime": "public/assets/v36/variants/max-thunder-requiem/vfx.png",
+  "width": 1536,
+  "height": 1024,
+  "cols": 3,
+  "rows": 2,
+  "sourceSha256": "49f7f6f740aae8c86eb6f4d975579eac8318e5558e6b24c29daa408824058833",
+  "selectedSha256": "49f7f6f740aae8c86eb6f4d975579eac8318e5558e6b24c29daa408824058833",
+  "runtimeSha256": "49f7f6f740aae8c86eb6f4d975579eac8318e5558e6b24c29daa408824058833",
+  "byteIdenticalSourceCopies": true,
+  "alphaThresholdForMeasurementOnly": 24,
+  "backgroundAlphaZero": 776655,
+  "rowCuts": [
+    0,
+    500,
+    1024
+  ],
+  "frames": [
+    {
+      "x": 57,
+      "y": 52,
+      "w": 391,
+      "h": 414,
+      "anchorX": 252,
+      "anchorY": 258.5
+    },
+    {
+      "x": 587,
+      "y": 48,
+      "w": 413,
+      "h": 436,
+      "anchorX": 793,
+      "anchorY": 265.5
+    },
+    {
+      "x": 1089,
+      "y": 40,
+      "w": 374,
+      "h": 414,
+      "anchorX": 1275.5,
+      "anchorY": 246.5
+    },
+    {
+      "x": 62,
+      "y": 559,
+      "w": 414,
+      "h": 423,
+      "anchorX": 268.5,
+      "anchorY": 770
+    },
+    {
+      "x": 562,
+      "y": 546,
+      "w": 403,
+      "h": 380,
+      "anchorX": 763,
+      "anchorY": 735.5
+    },
+    {
+      "x": 1049,
+      "y": 516,
+      "w": 461,
+      "h": 443,
+      "anchorX": 1279,
+      "anchorY": 737
+    }
+  ],
+  "measurements": [
+    {
+      "i": 0,
+      "row": 0,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "w": 517,
+        "h": 500
+      },
+      "visibleBounds": {
+        "x": 65,
+        "y": 60,
+        "w": 375,
+        "h": 398
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 73568,
+      "crop": {
+        "x": 57,
+        "y": 52,
+        "w": 391,
+        "h": 414,
+        "anchorX": 252,
+        "anchorY": 258.5
+      },
+      "anchorMethod": "motif center"
+    },
+    {
+      "i": 1,
+      "row": 0,
+      "col": 1,
+      "cell": {
+        "x": 517,
+        "y": 0,
+        "w": 527,
+        "h": 500
+      },
+      "visibleBounds": {
+        "x": 595,
+        "y": 56,
+        "w": 397,
+        "h": 420
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 66639,
+      "crop": {
+        "x": 587,
+        "y": 48,
+        "w": 413,
+        "h": 436,
+        "anchorX": 793,
+        "anchorY": 265.5
+      },
+      "anchorMethod": "motif center"
+    },
+    {
+      "i": 2,
+      "row": 0,
+      "col": 2,
+      "cell": {
+        "x": 1044,
+        "y": 0,
+        "w": 492,
+        "h": 500
+      },
+      "visibleBounds": {
+        "x": 1097,
+        "y": 48,
+        "w": 358,
+        "h": 398
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 63064,
+      "crop": {
+        "x": 1089,
+        "y": 40,
+        "w": 374,
+        "h": 414,
+        "anchorX": 1275.5,
+        "anchorY": 246.5
+      },
+      "anchorMethod": "motif center"
+    },
+    {
+      "i": 3,
+      "row": 1,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 500,
+        "w": 519,
+        "h": 524
+      },
+      "visibleBounds": {
+        "x": 70,
+        "y": 567,
+        "w": 398,
+        "h": 407
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 69679,
+      "crop": {
+        "x": 62,
+        "y": 559,
+        "w": 414,
+        "h": 423,
+        "anchorX": 268.5,
+        "anchorY": 770
+      },
+      "anchorMethod": "motif center"
+    },
+    {
+      "i": 4,
+      "row": 1,
+      "col": 1,
+      "cell": {
+        "x": 519,
+        "y": 500,
+        "w": 488,
+        "h": 524
+      },
+      "visibleBounds": {
+        "x": 570,
+        "y": 554,
+        "w": 387,
+        "h": 364
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 57716,
+      "crop": {
+        "x": 562,
+        "y": 546,
+        "w": 403,
+        "h": 380,
+        "anchorX": 763,
+        "anchorY": 735.5
+      },
+      "anchorMethod": "motif center"
+    },
+    {
+      "i": 5,
+      "row": 1,
+      "col": 2,
+      "cell": {
+        "x": 1007,
+        "y": 500,
+        "w": 529,
+        "h": 524
+      },
+      "visibleBounds": {
+        "x": 1057,
+        "y": 524,
+        "w": 445,
+        "h": 427
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 88989,
+      "crop": {
+        "x": 1049,
+        "y": 516,
+        "w": 461,
+        "h": 443,
+        "anchorX": 1279,
+        "anchorY": 737
+      },
+      "anchorMethod": "motif center"
+    }
+  ]
+}

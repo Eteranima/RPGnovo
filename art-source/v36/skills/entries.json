@@ -1,0 +1,103 @@
+[
+  {
+    "hero": "seiji",
+    "cols": 2,
+    "rows": 1,
+    "ids": [
+      "ink-refuge",
+      "ink-counterseal"
+    ],
+    "ref": "public/assets/v29/seiji/icons.png",
+    "motifs": "LEFT Abrigo de Papel: ivory folded paper shelter shaped as protective roof, pooled black calligraphy ink, small red cord and reassuring gold fleck; RIGHT Contrasselo: red seal counterstamp interrupting a black ink blade and fractured enemy charge emblem. Visually distinct shelter versus counterstamp.",
+    "prompt": "Stylized-concept game UI production artwork for original Éter Anima anime fantasy. Match reference material/style quality and elemental family, but create NEW meaning-specific skill icons. Fate/Mushoku Tensei clean detailed painted cel shading, readable strong small-size silhouettes, fine restrained champagne-gold rim or diamond medallion (Ava may use layered mineral medallion). TRANSPARENT RGBA background outside every icon. No painted background, no contact sheet board, no haze connecting icons, no text/letters/numerals, no title. Each icon entirely self-contained, motifs stay within rim or at most slightly beyond. ALL icon bounds including glow max 60% of each cell width and height, exactly centered, huge clear alpha0 margins. Output1536x1024 canvas with prescribed equal grid, all pieces completely separated by at least100px pure alpha0; no overlaps/neighbouring touches, no cut-off tips. Grid 2 columns by 1 rows, exactly 2 distinct final icons in reading order. LEFT Abrigo de Papel: ivory folded paper shelter shaped as protective roof, pooled black calligraphy ink, small red cord and reassuring gold fleck; RIGHT Contrasselo: red seal counterstamp interrupting a black ink blade and fractured enemy charge emblem. Visually distinct shelter versus counterstamp.",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-1afa-7611-900f-c84542197a68\\exec-6f3aa369-9e56-44f4-9ad3-1984fb3979af.png"
+  },
+  {
+    "hero": "ophelia",
+    "cols": 2,
+    "rows": 1,
+    "ids": [
+      "ice-mirror",
+      "glacier-pulse"
+    ],
+    "ref": "public/assets/v29/ophelia/icons.png",
+    "motifs": "LEFT Espelho Glacial: faceted ICE mirror reflecting and blunting a small hostile blade, cyan-white frost and violet icy rim; RIGHT Pulso do Degelo: translucent snowflake crystal cradle with a white winter flower opening, clearing frost over an abstract eye-shaped gem; healing glacial clarity. ICE, never fire or warm flame.",
+    "prompt": "Stylized-concept game UI production artwork for original Éter Anima anime fantasy. Match reference material/style quality and elemental family, but create NEW meaning-specific skill icons. Fate/Mushoku Tensei clean detailed painted cel shading, readable strong small-size silhouettes, fine restrained champagne-gold rim or diamond medallion (Ava may use layered mineral medallion). TRANSPARENT RGBA background outside every icon. No painted background, no contact sheet board, no haze connecting icons, no text/letters/numerals, no title. Each icon entirely self-contained, motifs stay within rim or at most slightly beyond. ALL icon bounds including glow max 60% of each cell width and height, exactly centered, huge clear alpha0 margins. Output1536x1024 canvas with prescribed equal grid, all pieces completely separated by at least100px pure alpha0; no overlaps/neighbouring touches, no cut-off tips. Grid 2 columns by 1 rows, exactly 2 distinct final icons in reading order. LEFT Espelho Glacial: faceted ICE mirror reflecting and blunting a small hostile blade, cyan-white frost and violet icy rim; RIGHT Pulso do Degelo: translucent snowflake crystal cradle with a white winter flower opening, clearing frost over an abstract eye-shaped gem; healing glacial clarity. ICE, never fire or warm flame.",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-1afa-7611-900f-c84542197a68\\exec-2da13ca4-c32f-455e-b564-2283a26f084a.png"
+  },
+  {
+    "hero": "max",
+    "cols": 3,
+    "rows": 1,
+    "ids": [
+      "nail-silencer",
+      "nail-anchor",
+      "ground-wire"
+    ],
+    "ref": "public/assets/v29/max/icons.png",
+    "motifs": "LEFT Prego Mudo: single unmistakable iron nail with wide flat round head interrupts a voice-wave emblem, golden/cyan electricity. CENTER Âncora Voltaica: broad headed iron nail anchoring a compact lightning web and weighted steel knot. RIGHT Fio Terra: gold/cyan grounding cable wraps protectively around a clean shield and steel nail, eye-shaped clear gem at center, ELECTRIC protection rather than Earth rocks.",
+    "prompt": "Stylized-concept game UI production artwork for original Éter Anima anime fantasy. Match reference material/style quality and elemental family, but create NEW meaning-specific skill icons. Fate/Mushoku Tensei clean detailed painted cel shading, readable strong small-size silhouettes, fine restrained champagne-gold rim or diamond medallion (Ava may use layered mineral medallion). TRANSPARENT RGBA background outside every icon. No painted background, no contact sheet board, no haze connecting icons, no text/letters/numerals, no title. Each icon entirely self-contained, motifs stay within rim or at most slightly beyond. ALL icon bounds including glow max 60% of each cell width and height, exactly centered, huge clear alpha0 margins. Output1536x1024 canvas with prescribed equal grid, all pieces completely separated by at least100px pure alpha0; no overlaps/neighbouring touches, no cut-off tips. Grid 3 columns by 1 rows, exactly 3 distinct final icons in reading order. LEFT Prego Mudo: single unmistakable iron nail with wide flat round head interrupts a voice-wave emblem, golden/cyan electricity. CENTER Âncora Voltaica: broad headed iron nail anchoring a compact lightning web and weighted steel knot. RIGHT Fio Terra: gold/cyan grounding cable wraps protectively around a clean shield and steel nail, eye-shaped clear gem at center, ELECTRIC protection rather than Earth rocks.",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-1afa-7611-900f-c84542197a68\\exec-8d96ab98-69d6-4041-b622-f0af39bec93e.png"
+  },
+  {
+    "hero": "beatriz",
+    "cols": 3,
+    "rows": 1,
+    "ids": [
+      "water-veil",
+      "undertow",
+      "twin-current"
+    ],
+    "ref": "public/assets/v29/beatriz/icons.png",
+    "motifs": "LEFT Véu da Margem: luminous azure watery veil sheltering a pearl shield, gentle healing protective tide. CENTER Contracorrente: dark violet undertow reversing a blue tidal spiral and pulling small charge fragments inward. RIGHT Correntes Gêmeas: two interlacing long curved WATER and DARKNESS blades, azure ribbon versus deep-violet-black ribbon, aggressive clear paired flow. No fire.",
+    "prompt": "Stylized-concept game UI production artwork for original Éter Anima anime fantasy. Match reference material/style quality and elemental family, but create NEW meaning-specific skill icons. Fate/Mushoku Tensei clean detailed painted cel shading, readable strong small-size silhouettes, fine restrained champagne-gold rim or diamond medallion (Ava may use layered mineral medallion). TRANSPARENT RGBA background outside every icon. No painted background, no contact sheet board, no haze connecting icons, no text/letters/numerals, no title. Each icon entirely self-contained, motifs stay within rim or at most slightly beyond. ALL icon bounds including glow max 60% of each cell width and height, exactly centered, huge clear alpha0 margins. Output1536x1024 canvas with prescribed equal grid, all pieces completely separated by at least100px pure alpha0; no overlaps/neighbouring touches, no cut-off tips. Grid 3 columns by 1 rows, exactly 3 distinct final icons in reading order. LEFT Véu da Margem: luminous azure watery veil sheltering a pearl shield, gentle healing protective tide. CENTER Contracorrente: dark violet undertow reversing a blue tidal spiral and pulling small charge fragments inward. RIGHT Correntes Gêmeas: two interlacing long curved WATER and DARKNESS blades, azure ribbon versus deep-violet-black ribbon, aggressive clear paired flow. No fire.",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-1afa-7611-900f-c84542197a68\\exec-7aef7030-bec0-4ac8-aab4-ca52db616831.png"
+  },
+  {
+    "hero": "orfeu",
+    "cols": 3,
+    "rows": 2,
+    "ids": [
+      "null-collapse",
+      "quiet-step",
+      "vacuum-anchor",
+      "null-reversal",
+      "mute-contact"
+    ],
+    "ref": "public/assets/v30/orfeu/icons.png",
+    "motifs": "Top left Colapso Físico: tightly bandaged closed fist with correct thumb and curled fingers crushing a cracked gray slab, ivory physical kinetic streak. Top middle Respiração Nula: clear peaceful breath-like ivory airflow between two separated gray broken silence seals, a small neutral silver pulse gem. Top right Âncora do Vazio: mineral iron anchor pin holding a split broken magic sigil, empty transparent central fracture. Bottom left Reversão Nula: three gray-white physical shield plates sweeping hostile curse fragments away, anti-magic defense. Bottom middle Contato Cego: bandaged palm contact shock occludes an abstract eye gem with gray shards, no detailed eye or facial anatomy. Bottom RIGHT cell MUST stay entirely transparent EMPTY, exactly FIVE objects. Orfeu is physical anti-magic: only ivory/gray/steel/ochre pale neutral, NO magical colored glow, NO fire, NO lightning.",
+    "prompt": "Stylized-concept game UI production artwork for original Éter Anima anime fantasy. Match reference material/style quality and elemental family, but create NEW meaning-specific skill icons. Fate/Mushoku Tensei clean detailed painted cel shading, readable strong small-size silhouettes, fine restrained champagne-gold rim or diamond medallion (Ava may use layered mineral medallion). TRANSPARENT RGBA background outside every icon. No painted background, no contact sheet board, no haze connecting icons, no text/letters/numerals, no title. Each icon entirely self-contained, motifs stay within rim or at most slightly beyond. ALL icon bounds including glow max 60% of each cell width and height, exactly centered, huge clear alpha0 margins. Output1536x1024 canvas with prescribed equal grid, all pieces completely separated by at least100px pure alpha0; no overlaps/neighbouring touches, no cut-off tips. Grid 3 columns by 2 rows, exactly 5 distinct final icons in reading order. Top left Colapso Físico: tightly bandaged closed fist with correct thumb and curled fingers crushing a cracked gray slab, ivory physical kinetic streak. Top middle Respiração Nula: clear peaceful breath-like ivory airflow between two separated gray broken silence seals, a small neutral silver pulse gem. Top right Âncora do Vazio: mineral iron anchor pin holding a split broken magic sigil, empty transparent central fracture. Bottom left Reversão Nula: three gray-white physical shield plates sweeping hostile curse fragments away, anti-magic defense. Bottom middle Contato Cego: bandaged palm contact shock occludes an abstract eye gem with gray shards, no detailed eye or facial anatomy. Bottom RIGHT cell MUST stay entirely transparent EMPTY, exactly FIVE objects. Orfeu is physical anti-magic: only ivory/gray/steel/ochre pale neutral, NO magical colored glow, NO fire, NO lightning.",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-1afa-7611-900f-c84542197a68\\exec-6d90b006-51d8-4a22-bf27-1ea7ec7f3323.png"
+  },
+  {
+    "hero": "ava",
+    "cols": 3,
+    "rows": 2,
+    "ids": [
+      "bedrock-ward",
+      "fault-line",
+      "stonefall",
+      "mineral-purge",
+      "strata-pressure"
+    ],
+    "ref": "public/assets/v26/ava/ava-anime-vfx.png",
+    "motifs": "Top left Guarda de Basalto: three layered basalt shields with ochre mineral seams shelter a warm amber crystal; defensive healing. Top middle Linha de Falha: cracked stratified sandstone slab split by sharp zigzag fault, small destabilized stones. Top right Queda de Estratos: three distinct layered boulders falling diagonally with ivory dust streaks, powerful Earth. Bottom left Purga Mineral: ochre mineral crystal cluster sends orderly clear cleansing particles across a small gray shield. Bottom middle Pressão dos Estratos: compressing upper/lower sandstone strata squeeze a diamond-shaped charge crystal, mineral dust. Bottom RIGHT cell entirely transparent EMPTY, exactly FIVE objects. Ava EARTH rocky layered basalt/sandstone/crystals, NO green plants, NO vines, NO fire.",
+    "prompt": "Stylized-concept game UI production artwork for original Éter Anima anime fantasy. Match reference material/style quality and elemental family, but create NEW meaning-specific skill icons. Fate/Mushoku Tensei clean detailed painted cel shading, readable strong small-size silhouettes, fine restrained champagne-gold rim or diamond medallion (Ava may use layered mineral medallion). TRANSPARENT RGBA background outside every icon. No painted background, no contact sheet board, no haze connecting icons, no text/letters/numerals, no title. Each icon entirely self-contained, motifs stay within rim or at most slightly beyond. ALL icon bounds including glow max 60% of each cell width and height, exactly centered, huge clear alpha0 margins. Output1536x1024 canvas with prescribed equal grid, all pieces completely separated by at least100px pure alpha0; no overlaps/neighbouring touches, no cut-off tips. Grid 3 columns by 2 rows, exactly 5 distinct final icons in reading order. Top left Guarda de Basalto: three layered basalt shields with ochre mineral seams shelter a warm amber crystal; defensive healing. Top middle Linha de Falha: cracked stratified sandstone slab split by sharp zigzag fault, small destabilized stones. Top right Queda de Estratos: three distinct layered boulders falling diagonally with ivory dust streaks, powerful Earth. Bottom left Purga Mineral: ochre mineral crystal cluster sends orderly clear cleansing particles across a small gray shield. Bottom middle Pressão dos Estratos: compressing upper/lower sandstone strata squeeze a diamond-shaped charge crystal, mineral dust. Bottom RIGHT cell entirely transparent EMPTY, exactly FIVE objects. Ava EARTH rocky layered basalt/sandstone/crystals, NO green plants, NO vines, NO fire.",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-1afa-7611-900f-c84542197a68\\exec-b2509113-919a-4c9d-be38-605c0a9074c6.png"
+  },
+  {
+    "hero": "carmilla",
+    "cols": 2,
+    "rows": 2,
+    "ids": [
+      "sanguine-lance",
+      "red-veil",
+      "blood-tax",
+      "hematic-focus"
+    ],
+    "ref": "public/assets/v29/carmilla/icons.png",
+    "motifs": "Top left Lança Rubra: slender crimson ruby-thread lance with ornate gold needle tip, sharp diagonal attack. Top right Véu Rubro: flowing ruby silk-thread veil sheltering a pearl shield, tiny neat healing stitch symbol. Bottom left Tributo Escarlate: tightening crimson thread toll knot grips a dark enemy crest and drains its strength, distinct tax chain motif. Bottom right Pulso Vital: faceted ruby heart gem with symmetrical clean red pulse rays and delicate restorative stitches. Elegant crimson thread/vital energy, NOT anatomical gore, NO real bleeding body parts.",
+    "prompt": "Stylized-concept game UI production artwork for original Éter Anima anime fantasy. Match reference material/style quality and elemental family, but create NEW meaning-specific skill icons. Fate/Mushoku Tensei clean detailed painted cel shading, readable strong small-size silhouettes, fine restrained champagne-gold rim or diamond medallion (Ava may use layered mineral medallion). TRANSPARENT RGBA background outside every icon. No painted background, no contact sheet board, no haze connecting icons, no text/letters/numerals, no title. Each icon entirely self-contained, motifs stay within rim or at most slightly beyond. ALL icon bounds including glow max 60% of each cell width and height, exactly centered, huge clear alpha0 margins. Output1536x1024 canvas with prescribed equal grid, all pieces completely separated by at least100px pure alpha0; no overlaps/neighbouring touches, no cut-off tips. Grid 2 columns by 2 rows, exactly 4 distinct final icons in reading order. Top left Lança Rubra: slender crimson ruby-thread lance with ornate gold needle tip, sharp diagonal attack. Top right Véu Rubro: flowing ruby silk-thread veil sheltering a pearl shield, tiny neat healing stitch symbol. Bottom left Tributo Escarlate: tightening crimson thread toll knot grips a dark enemy crest and drains its strength, distinct tax chain motif. Bottom right Pulso Vital: faceted ruby heart gem with symmetrical clean red pulse rays and delicate restorative stitches. Elegant crimson thread/vital energy, NOT anatomical gore, NO real bleeding body parts.",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-1afa-7611-900f-c84542197a68\\exec-d87bb425-9366-4aca-8863-e7145a5bcbf9.png"
+  }
+]

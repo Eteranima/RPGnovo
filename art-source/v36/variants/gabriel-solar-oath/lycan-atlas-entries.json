@@ -1,0 +1,30 @@
+[
+  {
+    "id": "gabriel-solar-oath",
+    "kind": "lycan-walk",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-1afa-7611-900f-c84542197a68\\exec-73f3f54c-ca53-46e1-a996-1aca20e13b42.png",
+    "cols": 3,
+    "rows": 4
+  },
+  {
+    "id": "gabriel-solar-oath",
+    "kind": "lycan-attack",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-1afa-7611-900f-c84542197a68\\exec-66108071-85f5-4110-8b0f-20fd684d2698.png",
+    "cols": 3,
+    "rows": 2
+  },
+  {
+    "id": "gabriel-solar-oath",
+    "kind": "lycan-cast",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-1afa-7611-900f-c84542197a68\\exec-c5a59e69-8e29-460b-84d9-4cef042327ac.png",
+    "cols": 3,
+    "rows": 2
+  },
+  {
+    "id": "gabriel-solar-oath",
+    "kind": "lycan-ultimate",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-1afa-7611-900f-c84542197a68\\exec-c8ed809d-a2cc-4d3d-9f21-24c8a3317755.png",
+    "cols": 4,
+    "rows": 2
+  }
+]

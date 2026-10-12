@@ -1,0 +1,164 @@
+{
+  "id": "marin-starless-throne",
+  "tool": "built-in image_gen",
+  "status": "native art reviewed and exported",
+  "cells": 48,
+  "pixelRowsVerified": 19672,
+  "anatomyReview": "All 48 final native cells inspected: complete silhouettes and boots, character identity, hands/arms, fan grips, direction, isolation; no visible duplicated limb or neighboring figure found. This is a visual review, not a mathematical proof of anatomy.",
+  "gameplayBrowserReview": "Root performs runtime visual review; no browser claim from this asset export.",
+  "ultimatePlaybackOrder": [
+    0,
+    1,
+    2,
+    6,
+    3,
+    4,
+    5,
+    7
+  ],
+  "sources": [
+    {
+      "kind": "walk",
+      "width": 1086,
+      "height": 1448,
+      "count": 12,
+      "sha256": "a16e6fa135639b7fdb07e85d74e42983961b69ef04710bab9cbaa9cc11838962",
+      "runtime": "public/assets/v36/variants/marin-starless-throne/walk.png",
+      "byteIdentical": true,
+      "nativeReviewCrops": true,
+      "visibleCropBoundaryPixels": 0,
+      "alphaZero": 1066532,
+      "transparentRowSeams": [
+        {
+          "y": 367,
+          "nonzeroAlphaPixels": 24,
+          "visibleAlphaPixels": 0
+        },
+        {
+          "y": 711,
+          "nonzeroAlphaPixels": 4,
+          "visibleAlphaPixels": 0
+        },
+        {
+          "y": 1048,
+          "nonzeroAlphaPixels": 97,
+          "visibleAlphaPixels": 0
+        }
+      ]
+    },
+    {
+      "kind": "attack",
+      "width": 1536,
+      "height": 1024,
+      "count": 6,
+      "sha256": "c50b184a166937a6e8a0ac678fcda703093e60ce5ba64046196dcef866218ab7",
+      "runtime": "public/assets/v36/variants/marin-starless-throne/attack.png",
+      "byteIdentical": true,
+      "nativeReviewCrops": true,
+      "visibleCropBoundaryPixels": 0,
+      "alphaZero": 856105,
+      "transparentRowSeams": [
+        {
+          "y": 501,
+          "nonzeroAlphaPixels": 4,
+          "visibleAlphaPixels": 0
+        }
+      ]
+    },
+    {
+      "kind": "cast",
+      "width": 1536,
+      "height": 1024,
+      "count": 6,
+      "sha256": "ba8e424c51bcd9e451fe1c95dded60737e7072821e7943c439dd5e48c7538cd9",
+      "runtime": "public/assets/v36/variants/marin-starless-throne/cast.png",
+      "byteIdentical": true,
+      "nativeReviewCrops": true,
+      "visibleCropBoundaryPixels": 0,
+      "alphaZero": 694608,
+      "transparentRowSeams": [
+        {
+          "y": 515,
+          "nonzeroAlphaPixels": 26,
+          "visibleAlphaPixels": 0
+        }
+      ]
+    },
+    {
+      "kind": "ultimate",
+      "width": 1254,
+      "height": 1254,
+      "count": 8,
+      "sha256": "ce8631dd138af260a98f074bcb7a666a71f8aa9e85516cd3d5c294642e16b9fb",
+      "runtime": "public/assets/v36/variants/marin-starless-throne/ultimate.png",
+      "byteIdentical": true,
+      "nativeReviewCrops": true,
+      "visibleCropBoundaryPixels": 0,
+      "alphaZero": 1275713,
+      "transparentRowSeams": [
+        {
+          "y": 662,
+          "nonzeroAlphaPixels": 20,
+          "visibleAlphaPixels": 0
+        }
+      ]
+    },
+    {
+      "kind": "vfx",
+      "width": 1536,
+      "height": 1024,
+      "count": 6,
+      "sha256": "d956ed01f95b198611022d7033036e7b947893c2fac75cad438c9d7860b51801",
+      "runtime": "public/assets/v36/variants/marin-starless-throne/vfx.png",
+      "byteIdentical": true,
+      "nativeReviewCrops": true,
+      "visibleCropBoundaryPixels": 0,
+      "alphaZero": 758567,
+      "transparentRowSeams": [
+        {
+          "y": 480,
+          "nonzeroAlphaPixels": 31,
+          "visibleAlphaPixels": 0
+        }
+      ]
+    },
+    {
+      "kind": "icons",
+      "width": 1536,
+      "height": 1024,
+      "count": 6,
+      "sha256": "7136b15ed6ef06cb13d3f67c73ab3a20cdceb1b7f49e2dca03acff47265d1ea6",
+      "runtime": "public/assets/v36/variants/marin-starless-throne/icons.png",
+      "byteIdentical": true,
+      "nativeReviewCrops": true,
+      "visibleCropBoundaryPixels": 0,
+      "alphaZero": 693631,
+      "transparentRowSeams": [
+        {
+          "y": 504,
+          "nonzeroAlphaPixels": 1,
+          "visibleAlphaPixels": 0
+        }
+      ]
+    },
+    {
+      "kind": "companion",
+      "width": 1254,
+      "height": 1254,
+      "count": 4,
+      "sha256": "ba61aef0defc60af8bbb2f3fee73ecb6c7f26f6e30cdd799f4933db8d4e96b61",
+      "runtime": "public/assets/v36/variants/marin-starless-throne/companion.png",
+      "byteIdentical": true,
+      "nativeReviewCrops": true,
+      "visibleCropBoundaryPixels": 0,
+      "alphaZero": 871714,
+      "transparentRowSeams": [
+        {
+          "y": 647,
+          "nonzeroAlphaPixels": 0,
+          "visibleAlphaPixels": 0
+        }
+      ]
+    }
+  ]
+}

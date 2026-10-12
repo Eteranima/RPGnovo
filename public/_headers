@@ -1,0 +1,15 @@
+/sw.js
+  Cache-Control: no-store
+  Content-Type: application/javascript; charset=utf-8
+  X-Content-Type-Options: nosniff
+  Service-Worker-Allowed: /
+  Content-Security-Policy: default-src 'self'; script-src 'self'; connect-src 'self'; object-src 'none'
+/manifest.webmanifest
+  Cache-Control: no-cache
+  Content-Type: application/manifest+json; charset=utf-8
+/pwa/*
+  Cache-Control: public, max-age=86400
+/pwa-offline
+  Cache-Control: no-cache
+/_next/static/*
+  Cache-Control: public, max-age=31536000, immutable

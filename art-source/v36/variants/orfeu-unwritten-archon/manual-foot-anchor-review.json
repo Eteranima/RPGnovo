@@ -1,0 +1,145 @@
+{
+  "id": "orfeu-unwritten-archon",
+  "manualFootAnchors": {
+    "attack": {
+      "2": {
+        "anchorX": 1278.3,
+        "anchorY": 491,
+        "method": "Equal average of the two manually identified boot alpha centroids; lowest sole retained as ground baseline",
+        "nativeCropBootROIs": [
+          [
+            60,
+            350,
+            62,
+            74
+          ],
+          [
+            279,
+            374,
+            71,
+            64
+          ]
+        ]
+      }
+    },
+    "cast": {
+      "2": {
+        "anchorX": 1204.8,
+        "anchorY": 501,
+        "method": "Equal average of the two manually identified boot alpha centroids; lowest sole retained as ground baseline",
+        "nativeCropBootROIs": [
+          [
+            10,
+            378,
+            70,
+            53
+          ],
+          [
+            357,
+            377,
+            79,
+            33
+          ]
+        ]
+      },
+      "3": {
+        "anchorX": 243.1,
+        "anchorY": 994,
+        "method": "Equal average of the two manually identified boot alpha centroids; lowest sole retained as ground baseline",
+        "nativeCropBootROIs": [
+          [
+            8,
+            382,
+            57,
+            69
+          ],
+          [
+            340,
+            370,
+            72,
+            68
+          ]
+        ]
+      }
+    },
+    "ultimate": {
+      "2": {
+        "anchorX": 959.7,
+        "anchorY": 496,
+        "method": "Equal average of the two manually identified boot alpha centroids; lowest sole retained as ground baseline",
+        "nativeCropBootROIs": [
+          [
+            9,
+            298,
+            64,
+            63
+          ],
+          [
+            303,
+            282,
+            56,
+            54
+          ]
+        ]
+      },
+      "3": {
+        "anchorX": 1347.5,
+        "anchorY": 508,
+        "method": "Equal average of the two manually identified boot alpha centroids; lowest sole retained as ground baseline",
+        "nativeCropBootROIs": [
+          [
+            10,
+            364,
+            75,
+            68
+          ],
+          [
+            250,
+            357,
+            61,
+            77
+          ]
+        ]
+      },
+      "4": {
+        "anchorX": 173.8,
+        "anchorY": 973,
+        "method": "Equal average of the two manually identified boot alpha centroids; lowest sole retained as ground baseline",
+        "nativeCropBootROIs": [
+          [
+            17,
+            339,
+            75,
+            57
+          ],
+          [
+            213,
+            322,
+            64,
+            38
+          ]
+        ]
+      },
+      "5": {
+        "anchorX": 547.2,
+        "anchorY": 973,
+        "method": "Equal average of the two manually identified boot alpha centroids; lowest sole retained as ground baseline",
+        "nativeCropBootROIs": [
+          [
+            10,
+            341,
+            50,
+            69
+          ],
+          [
+            273,
+            312,
+            69,
+            56
+          ]
+        ]
+      }
+    }
+  },
+  "reason": "Lowest-only foot-band in wide lunges selects one foot and displaces the body axis. The same exact pixels are anchored between both boots."
+}

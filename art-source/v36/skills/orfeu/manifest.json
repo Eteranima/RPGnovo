@@ -1,0 +1,204 @@
+{
+  "hero": "orfeu",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-1afa-7611-900f-c84542197a68\\exec-6d90b006-51d8-4a22-bf27-1ea7ec7f3323.png",
+  "sourceSha256": "e1f45c8ffeec793cfaea7bce05102eb08d886ed4a3692d9321d6fd701b742180",
+  "selectedSha256": "e1f45c8ffeec793cfaea7bce05102eb08d886ed4a3692d9321d6fd701b742180",
+  "width": 1536,
+  "height": 1024,
+  "cols": 3,
+  "rows": 2,
+  "ids": [
+    "null-collapse",
+    "quiet-step",
+    "vacuum-anchor",
+    "null-reversal",
+    "mute-contact"
+  ],
+  "rowCuts": [
+    0,
+    506,
+    1024
+  ],
+  "backgroundAlphaZero": 908866,
+  "alphaThresholdForMeasurementOnly": 24,
+  "frames": [
+    {
+      "x": 15,
+      "y": 9,
+      "w": 500,
+      "h": 496
+    },
+    {
+      "x": 519,
+      "y": 8,
+      "w": 499,
+      "h": 496
+    },
+    {
+      "x": 1021,
+      "y": 9,
+      "w": 498,
+      "h": 496
+    },
+    {
+      "x": 14,
+      "y": 508,
+      "w": 502,
+      "h": 492
+    },
+    {
+      "x": 520,
+      "y": 508,
+      "w": 497,
+      "h": 494
+    }
+  ],
+  "measurements": [
+    {
+      "id": "null-collapse",
+      "index": 0,
+      "row": 0,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "w": 517,
+        "h": 506
+      },
+      "visibleBounds": {
+        "x": 23,
+        "y": 17,
+        "w": 484,
+        "h": 480
+      },
+      "visiblePixels": 128346,
+      "visibleEdgePixels": 0,
+      "crop": {
+        "x": 15,
+        "y": 9,
+        "w": 500,
+        "h": 496
+      },
+      "runtime": "public/assets/v36/skills/orfeu/null-collapse.png",
+      "sha256": "a8d908e430123d273317947684dd9841577f418bce51dd5f23df55844f3992a1",
+      "nativeRgbaPreserved": true
+    },
+    {
+      "id": "quiet-step",
+      "index": 1,
+      "row": 0,
+      "col": 1,
+      "cell": {
+        "x": 517,
+        "y": 0,
+        "w": 502,
+        "h": 506
+      },
+      "visibleBounds": {
+        "x": 527,
+        "y": 16,
+        "w": 483,
+        "h": 480
+      },
+      "visiblePixels": 127548,
+      "visibleEdgePixels": 0,
+      "crop": {
+        "x": 519,
+        "y": 8,
+        "w": 499,
+        "h": 496
+      },
+      "runtime": "public/assets/v36/skills/orfeu/quiet-step.png",
+      "sha256": "cb2f116ee757e269876989e1263ea2f95e186b12644fd0eb94e95fe318557ae0",
+      "nativeRgbaPreserved": true
+    },
+    {
+      "id": "vacuum-anchor",
+      "index": 2,
+      "row": 0,
+      "col": 2,
+      "cell": {
+        "x": 1019,
+        "y": 0,
+        "w": 517,
+        "h": 506
+      },
+      "visibleBounds": {
+        "x": 1029,
+        "y": 17,
+        "w": 482,
+        "h": 480
+      },
+      "visiblePixels": 123154,
+      "visibleEdgePixels": 0,
+      "crop": {
+        "x": 1021,
+        "y": 9,
+        "w": 498,
+        "h": 496
+      },
+      "runtime": "public/assets/v36/skills/orfeu/vacuum-anchor.png",
+      "sha256": "5891287db1d725b5a5e0ce084642d91b4e352d1f94894848f7d76c14b824072d",
+      "nativeRgbaPreserved": true
+    },
+    {
+      "id": "null-reversal",
+      "index": 3,
+      "row": 1,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 506,
+        "w": 518,
+        "h": 518
+      },
+      "visibleBounds": {
+        "x": 22,
+        "y": 516,
+        "w": 486,
+        "h": 476
+      },
+      "visiblePixels": 127885,
+      "visibleEdgePixels": 0,
+      "crop": {
+        "x": 14,
+        "y": 508,
+        "w": 502,
+        "h": 492
+      },
+      "runtime": "public/assets/v36/skills/orfeu/null-reversal.png",
+      "sha256": "3f3c898d429808eb654d7f8e3bd6c9f20434c18ad486bce10ad8a1c92549c2b6",
+      "nativeRgbaPreserved": true
+    },
+    {
+      "id": "mute-contact",
+      "index": 4,
+      "row": 1,
+      "col": 1,
+      "cell": {
+        "x": 518,
+        "y": 506,
+        "w": 601,
+        "h": 518
+      },
+      "visibleBounds": {
+        "x": 528,
+        "y": 516,
+        "w": 481,
+        "h": 478
+      },
+      "visiblePixels": 124284,
+      "visibleEdgePixels": 0,
+      "crop": {
+        "x": 520,
+        "y": 508,
+        "w": 497,
+        "h": 494
+      },
+      "runtime": "public/assets/v36/skills/orfeu/mute-contact.png",
+      "sha256": "2c0ce9ed2a013fe50afa92f3b6945aa5d59cf37c86e06a8aacb6bdc6d2edbc45",
+      "nativeRgbaPreserved": true
+    }
+  ]
+}

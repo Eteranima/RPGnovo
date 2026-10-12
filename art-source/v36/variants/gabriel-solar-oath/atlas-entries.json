@@ -1,0 +1,51 @@
+[
+  {
+    "id": "gabriel-solar-oath",
+    "kind": "walk",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-1afa-7611-900f-c84542197a68\\exec-27eae251-fa54-471b-b00e-707070c6bd89.png",
+    "cols": 3,
+    "rows": 4
+  },
+  {
+    "id": "gabriel-solar-oath",
+    "kind": "attack",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-1afa-7611-900f-c84542197a68\\exec-0b7f3513-22b9-488e-9049-609156e16ed5.png",
+    "cols": 3,
+    "rows": 2
+  },
+  {
+    "id": "gabriel-solar-oath",
+    "kind": "cast",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-1afa-7611-900f-c84542197a68\\exec-2725628b-d767-4862-9e7a-caf6e6683247.png",
+    "cols": 3,
+    "rows": 2
+  },
+  {
+    "id": "gabriel-solar-oath",
+    "kind": "ultimate",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-1afa-7611-900f-c84542197a68\\exec-f6d937d8-5aa5-4ff6-bb24-1305dcb0ddf1.png",
+    "cols": 4,
+    "rows": 2
+  },
+  {
+    "id": "gabriel-solar-oath",
+    "kind": "vfx",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-1afa-7611-900f-c84542197a68\\exec-630ffcc9-1112-44f7-8a5c-44a2b18b5d90.png",
+    "cols": 3,
+    "rows": 2
+  },
+  {
+    "id": "gabriel-solar-oath",
+    "kind": "icons",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-1afa-7611-900f-c84542197a68\\exec-7e853400-3da0-452b-81e3-5b5e6ac91572.png",
+    "cols": 3,
+    "rows": 2
+  },
+  {
+    "id": "gabriel-solar-oath",
+    "kind": "companion",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-1afa-7611-900f-c84542197a68\\exec-d5591432-92cf-4b43-a8fc-99fb58443c5a.png",
+    "cols": 2,
+    "rows": 2
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "seiji-last-script",
+    "kind": "walk",
+    "source": "C:/Users/Diego/.codex/generated_images/01a0fe9c-5a05-7ae0-b816-392e2a3c966b/exec-9d250de1-3c3a-4026-9313-f72ce6445b62.png",
+    "cols": 3,
+    "rows": 4
+  },
+  {
+    "id": "seiji-last-script",
+    "kind": "cast",
+    "source": "C:/Users/Diego/.codex/generated_images/01a0fe9c-5a05-7ae0-b816-392e2a3c966b/exec-c11b4577-c317-4e9f-9e83-5124c9069e55.png",
+    "cols": 3,
+    "rows": 2
+  },
+  {
+    "id": "seiji-last-script",
+    "kind": "companion",
+    "source": "C:/Users/Diego/.codex/generated_images/01a0fe9c-5a05-7ae0-b816-392e2a3c966b/exec-d228f32a-c0c5-4326-b247-0f6fab05d6b2.png",
+    "cols": 2,
+    "rows": 2
+  }
+]

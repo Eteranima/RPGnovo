@@ -1,0 +1,23 @@
+[
+  {
+    "id": "ava-worldroot-sovereign",
+    "kind": "walk",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-6d8a18ac-5370-4b71-a05f-b28a3ac0fcd5.png",
+    "cols": 3,
+    "rows": 4
+  },
+  {
+    "id": "ava-worldroot-sovereign",
+    "kind": "vfx",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-797ac0bd-5057-44ea-8fad-cd0ec253d075.png",
+    "cols": 3,
+    "rows": 2
+  },
+  {
+    "id": "ava-worldroot-sovereign",
+    "kind": "icons",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-716ea7a2-ab83-43e5-80c1-0ddc37fe7669.png",
+    "cols": 3,
+    "rows": 2
+  }
+]

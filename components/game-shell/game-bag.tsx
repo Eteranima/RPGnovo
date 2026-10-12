@@ -1,0 +1,8 @@
+'use client';
+import type {GameSession} from '@/hooks/use-game-session';
+import {Heart,Gem} from 'lucide-react';
+import {SKILLS} from '@/lib/game/data';
+import {HeroCard} from '../hero-card';
+import {Tabs,TabsContent,TabsList,TabsTrigger} from '../ui/tabs';
+export function GameBag({game}:{game:GameSession}){const {engine,s,ui}=game;const {panel}=ui;
+return <>{panel==='bag'&&<Tabs defaultValue="bag"><TabsList><TabsTrigger value="bag">Bolsa</TabsTrigger><TabsTrigger value="party">Grupo</TabsTrigger></TabsList><TabsContent value="bag"><div className="bag-counts"><span><Heart/> Poções <b>{s.potions}</b><small>Restaura 45 HP</small></span><span><Gem/> Elixires <b>{s.ethers}</b><small>Restaura 24 MP</small></span></div><p className="muted">Escolha quem receberá o item.</p>{s.heroes.map(h=><div className="bag-hero" key={h.id}><HeroCard h={h} lycan={s.progress.gabrielForm==='lycan'}/><div><button disabled={s.mode!=='world'||!s.potions||h.hp===h.maxHp} onClick={()=>engine.useItem('potion',h.id)}>Usar Poção</button><button disabled={s.mode!=='world'||!s.ethers||h.mp===h.maxMp} onClick={()=>engine.useItem('ether',h.id)}>Usar Elixir</button></div></div>)}{s.stage>=5&&<div className="relic"><Gem size={24}/><div><strong>Selo Ressonante</strong><p>Relíquia recuperada no subterrâneo.</p></div></div>}</TabsContent><TabsContent value="party">{s.heroes.map(h=><div className="party-detail" key={h.id}><HeroCard h={h} lycan={s.progress.gabrielForm==='lycan'}/><p>{h.role} • {h.element} • Velocidade {h.spd}</p>{SKILLS[h.id].map(sk=><p key={sk.id}><strong>{sk.name}</strong> • {sk.cost} MP<br/>{sk.description}</p>)}</div>)}</TabsContent></Tabs>}</>;}

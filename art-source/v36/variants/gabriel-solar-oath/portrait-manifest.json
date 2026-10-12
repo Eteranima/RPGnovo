@@ -1,0 +1,22 @@
+{
+  "id": "gabriel-solar-oath",
+  "source": "art-source/v36/variants/gabriel-solar-oath/portrait-source.png",
+  "runtime": "public/assets/v36/variants/gabriel-solar-oath/portrait.png",
+  "width": 1024,
+  "height": 1536,
+  "sourceSha256": "c66d74c593a4b397390d2fcae2a4ab11087d6ef7417dcf2e51aadb14ad51a40c",
+  "runtimeSha256": "c66d74c593a4b397390d2fcae2a4ab11087d6ef7417dcf2e51aadb14ad51a40c",
+  "byteIdenticalSourceCopies": true,
+  "alphaThresholdForMeasurementOnly": 24,
+  "visibleEdge": 0,
+  "backgroundAlphaZero": 794649,
+  "face": {
+    "left": 385,
+    "top": 82,
+    "width": 300,
+    "height": 300,
+    "runtime": "public/assets/v36/variants/gabriel-solar-oath/face.png",
+    "sha256": "80a258fcc5febdff1bb32f90bb47b318f13cf650eb5878fc7575d82a3c76d3a8",
+    "allNativeRgbaPixelsPreserved": true
+  }
+}

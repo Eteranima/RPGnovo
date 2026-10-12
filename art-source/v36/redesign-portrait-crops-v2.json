@@ -1,0 +1,20 @@
+[
+  {
+    "id": "ava-worldroot-sovereign",
+    "face": {
+      "left": 445,
+      "top": 150,
+      "width": 270,
+      "height": 270
+    }
+  },
+  {
+    "id": "orfeu-unwritten-archon",
+    "face": {
+      "left": 440,
+      "top": 130,
+      "width": 250,
+      "height": 250
+    }
+  }
+]

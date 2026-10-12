@@ -1,16 +1,16 @@
-.intent{display:flex;align-items:center;gap:7px;min-width:0;width:100%;height:24px;max-height:24px;color:#e7ddc4;font-size:10px;line-height:12px;white-space:nowrap}
+.intent{display:flex;align-items:center;gap:7px;min-width:0;width:100%;height:20px;max-height:20px;color:#e7ddc4;font-size:10px;line-height:12px;white-space:nowrap}
 .summary{display:flex;align-items:center;gap:6px;min-width:0;flex:0 1 auto;color:var(--intent-element,#e7ddc4)}
 .summary b{font-size:10px;color:#f5e8c6;font-weight:600}
 .summary>span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .targets{display:flex;align-items:center;gap:6px;min-width:0}
 .target{position:relative;display:flex;align-items:center;gap:2px;flex:0 0 auto;font-variant-numeric:tabular-nums}
-.target>:global(.character-portrait){position:relative!important;inset:auto!important;width:22px!important;height:22px!important;flex:0 0 22px;transform:none!important}
+.target>:global(.character-portrait){position:relative!important;inset:auto!important;width:18px!important;height:18px!important;flex:0 0 18px;transform:none!important}
 .target small{font-size:8px;color:#a8b8c8}
 .guardMark{position:absolute;bottom:-1px;left:13px;width:15px;height:7px;object-fit:contain;filter:drop-shadow(0 0 2px #9fe1ef)}
 .threatStates{display:flex;align-items:center;gap:2px}
 .threatStates>:global(.game-art-icon){display:inline-block;width:16px;height:16px}
 .detailsButton,.statusButton,.speedGroup button,.close{border:1px solid #c2ab6855!important;border-radius:3px!important;background:#132737!important;color:#efe0b7!important;box-shadow:none!important;transform:none!important;padding:2px 7px!important;font-size:10px!important;line-height:14px!important;min-height:22px!important;height:22px!important;white-space:nowrap}
-.detailsButton{margin-left:auto;flex:0 0 auto}
+.detailsButton{margin-left:auto;flex:0 0 auto;height:20px!important;min-height:20px!important;padding-top:0!important;padding-bottom:0!important}
 .detailsButton:focus-visible,.statusButton:focus-visible,.speedGroup button:focus-visible,.close:focus-visible{outline:2px solid #f3d99a!important;outline-offset:2px}
 .speedGroup{display:flex;align-items:center;gap:2px;flex:0 0 auto}
 .speedGroup button{padding:1px 5px!important;min-width:27px}
@@ -22,6 +22,7 @@
 .commandHeading>:global(.status-badges)>span{font-size:0;gap:0;padding:0 2px;border:0;background:none}
 .commandHeading>:global(.status-badges) :global(.game-art-icon){width:16px;height:16px}
 .commandHeading>span{flex:0 0 auto}
+.commandHeading .statusButton,.commandHeading .speedGroup button{height:32px!important;min-height:32px!important}
 .cinematicOutcome{position:absolute;z-index:4;bottom:0;left:2%;right:2%;height:6%;display:flex;align-items:center;justify-content:space-evenly;gap:8px;margin:0;color:#ffe2c7;font-size:11px;line-height:12px;white-space:nowrap}
 .cinematicOutcome>span{min-width:0;overflow:hidden;text-overflow:ellipsis}
 .backdrop{position:fixed;z-index:260;inset:0;display:flex;align-items:center;justify-content:center;padding:12px;background:#030910cc;isolation:isolate;color:#eadfca}
@@ -52,5 +53,28 @@
 .loading{position:absolute;z-index:15;inset:0;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:10px;background:#071321e8;color:#e8dfc9;font-size:13px;text-align:center;padding:16px}
 .loading p{margin:0}.loading button{border:1px solid #cbb376;border-radius:3px;background:#152b3c;color:#f7e8c5;font-size:13px;padding:8px 14px}
 .impactAnnouncement{position:absolute;width:1px;height:1px;clip-path:inset(50%);overflow:hidden;margin:0}
-@media(max-width:600px){.intent{gap:4px}.summary{gap:3px}.targets{gap:3px}.target>:global(.character-portrait){width:20px!important;height:20px!important;flex-basis:20px}.target small{display:none}.threatStates{display:none}.detailsButton{padding:2px 5px!important}}
-@media(orientation:landscape) and (max-height:450px){.intent{height:22px;max-height:22px}.dialog>header{padding:6px 10px}.dialog h3{font-size:15px}.detailContent{padding:8px 10px}.detailTargets li{padding:3px 0}.detailTargets{gap:4px}}
+/* Threat states share the same 20px row; the larger artwork belongs to its optional dialog. */
+.intent{background:#06152675;border-radius:3px;box-shadow:inset 2px 0 var(--intent-element,#cfb779)}
+.summary{padding-left:5px}
+.summary b{color:#fff0cf}
+.intent[data-intent-timing=acting]{background:#513d283d}
+.intent[data-enemy-intent=blocked]{background:#13332e80}
+.target small{color:#c3d6e6}
+.detailsButton,.statusButton,.speedGroup button{border-color:#c5aa7677!important;background:linear-gradient(180deg,#234058,#122a3e)!important;color:#fff0cd!important}
+.speedGroup button[aria-pressed=true]{background:linear-gradient(180deg,#75603a,#4d3e28)!important;color:#fff3cd!important;border-color:#edd293!important}
+.detailsButton:hover,.statusButton:hover,.speedGroup button:hover{border-color:#ffe2a5!important}
+.dialog{position:relative;isolation:isolate;border-color:#cdb17b;background:linear-gradient(135deg,#122b40,#071828 70%);box-shadow:0 16px 60px #0009,inset 0 1px #f3d79d22}
+.dialog:before{content:"";position:absolute;z-index:0;inset:0;border:10px solid transparent;border-image:url('/assets/v38/interface/arcane-frame.png') 210 stretch;pointer-events:none}
+.dialog>header,.detailContent{position:relative;z-index:1}
+.dialog>header{background:#091c2a85;border-bottom-color:#d6b87966}
+.dialog h3{color:#fff0d0}
+.close{height:40px!important;min-height:40px!important;min-width:40px;background:#183449!important;border-color:#e0c58c88!important}
+.detailContent{padding-bottom:14px}
+.detailTargets li{border-bottom-color:#b9cbdf35}
+.detailTargets small,.effectList li span{color:#c6d7e5}
+.detailLead{color:#f9e5bb}
+.advice{color:#d0e5e7;background:#1a35483d;border-left:2px solid #a4cad2;padding:6px 8px}
+.loading button{min-height:40px;box-shadow:inset 0 1px #fff0c428}
+.loading button:focus-visible{outline:2px solid #ffe3a6;outline-offset:3px}
+@media(max-width:600px){.intent{gap:4px}.summary{gap:3px}.targets{gap:3px}.target>:global(.character-portrait){width:18px!important;height:18px!important;flex-basis:18px}.target small{display:none}.threatStates{display:none}.detailsButton{padding:0 5px!important}}
+@media(orientation:landscape) and (max-height:450px){.dialog>header{padding:6px 10px}.dialog h3{font-size:15px}.detailContent{padding:8px 10px}.detailTargets li{padding:3px 0}.detailTargets{gap:4px}}

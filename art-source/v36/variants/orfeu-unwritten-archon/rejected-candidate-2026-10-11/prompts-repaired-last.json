@@ -1,0 +1,26 @@
+[
+  {
+    "id": "orfeu-unwritten-archon",
+    "kind": "ultimate",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a0fe9c-5a05-7ae0-b816-392e2a3c966b\\exec-bce4a64e-93b1-41a9-b666-27b58f09acfa.png",
+    "cols": 4,
+    "rows": 2,
+    "prompt": "Edit this 8-pose Orfeu atlas as production native RGBA. Preserve the exact eight designs, faces, natural two arms/hands and two legs/boots, outfit and poses. Repair isolation/layout only. 4 equal columns x2 equal rows, shrink EVERY complete figure/cloth/hair/debris together enough to leave a continuous fully transparent empty horizontal middle corridor and vertical corridors at least40px wide, plus32px true transparent space on all outer image edges. All fingers, cape strands and boots fully inside OWN cell. Keep action impact at index5 (row2,column2). No neighbor overlap, no clipped hair or shoes. Keep tremendous fine anime detail and full covered costume, all actors RIGHT-facing. Actual RGBA background transparency, no matte gradient."
+  },
+  {
+    "id": "orfeu-unwritten-archon",
+    "kind": "vfx",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a0fe9c-5a05-7ae0-b816-392e2a3c966b\\exec-7e464938-2f0d-4a7c-b844-3e489e3fb871.png",
+    "cols": 3,
+    "rows": 2,
+    "prompt": "Edit this six-motif physical anti-magic VFX atlas, preserve the exquisite charcoal/ivory mineral/paper aesthetics and order. Important anatomy correction: motif0 at top-left has too many fingers. REPLACE only that open hand with a single compact wrapped CLENCHED human fist (four visible folded knuckles and one normal thumb), surrounded by the existing cracked stone crescent. Other motifs must remain physically neutral with no elemental magic. Also fix isolation: 3 equal columns x2 rows, shrink each COMPLETE motif including every ribbon/particle until all six have40px fully transparent empty margin on every cell edge and continuous transparent gutters. No motif crosses another cell or image border. Preserve beautiful anime material detail, real transparentalpha, no floor, no opaque glow or gradient."
+  },
+  {
+    "id": "orfeu-unwritten-archon",
+    "kind": "icons",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a0fe9c-5a05-7ae0-b816-392e2a3c966b\\exec-e25f5b1c-0c8f-4724-b4a5-9a422d2e92c4.png",
+    "cols": 3,
+    "rows": 2,
+    "prompt": "Edit this six-icon atlas. Anatomical correction ONLY in top-left icon0: replace the open hand, which has an extra finger, with ONE natural bandaged clenched human fist breaking the black seal. Show four folded knuckles plus one thumb, no extra digits. Keep all other five icon motifs, details, positions, palette and native appearance unchanged. Ensure all six complete icons fit inside their cells with32px true fully transparent clear margin and empty corridors. Three columns x2 rows, charcoal/ivory/silver physical stone-and-paper, no elemental magic, no text, real transparent background. Do not alter the strong armor/cloth/material style."
+  }
+]

@@ -10,6 +10,8 @@
 - O fundo dos cards acompanha o elemento: Ava marrom; Seiji branco; Ophelia azul; Marin preto; Carmilla, Abel e Gabriel vermelho; Beatriz metade azul/metade preto; Max amarelo elétrico; Orfeu cinza mineral. Preserve contraste do texto sobre essas artes.
 - Combate usa toda a largura do palco e áreas separadas para turnos, atores e comandos, sem painel lateral vazio nem personagens/textos sobrepostos. Ações, Habilidades, Itens, Recuar, Atacar e Guardar usam sprites finais. Alvos de cura/itens mostram retrato e HP, com o nome apenas no texto acessível.
 - Preserve identidade, figurino, raridade, companheiros e regras já aprovadas. Use referências locais antes de gerar variantes.
+- Não sexualize personagens: Éter Anima acolhe um público LGBTQIA+ e diverso. Priorize personalidade, silhuetas, figurinos com cobertura e poses naturais; evite enquadramentos ou detalhes que objetifiquem o corpo.
+- No evento Lua de Sangue, o usuário autorizou reimaginações de universo alternativo: penteados, aparência, roupas, máscaras e armas podem mudar bastante. Mantenha a ligação narrativa com a família original e seus elementos; as versões 5★ são personagens alternativos com kits superiores próprios, e não apenas skins.
 - Ava é Terra. Ophelia é Gelo. Os efeitos e textos de cada ataque devem corresponder ao elemento do personagem; confira também o ataque básico, as técnicas e a ultimate.
 - Folhas de sprites precisam de transparência real, células isoladas sem invasão de efeitos vizinhos, recortes e âncoras medidos. Não anuncie ausência absoluta de defeitos sem inspeção.
 - Diversifique pisos e objetos por cenário com variações estáveis, sem alterar navegação, colisões e travas de missões por razões visuais.

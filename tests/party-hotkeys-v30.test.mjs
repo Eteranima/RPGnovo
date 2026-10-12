@@ -13,12 +13,12 @@ function compile(name){
  source=source.replace(/from\s+(['"])\.\/([\w-]+)\1/g,"from './$2.js'");
  writeFileSync(join(out,`${name}.js`),ts.transpileModule(source,{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.ES2022}}).outputText);
 }
-for(const name of ['engine','master-mode'])compile(name);
+for(const name of ['engine','ui-controls'])compile(name);
 const imported=async name=>import(pathToFileURL(join(out,`${name}.js`)).href);
 const {GameEngine,parseSave,SAVE_KEY}=await imported('engine');
 const {HERO_IDS}=await imported('data');
 const {deriveHeroes}=await imported('progression');
-const {advanceMasterSequence,emptyMasterSequence}=await imported('master-mode');
+const {createGameKeyboardControls}=await imported('ui-controls');
 let checks=0;const store=new Map();
 const check=(value,message)=>{assert.ok(value,message);checks++;};
 const equal=(actual,expected,message)=>{assert.deepEqual(actual,expected,message);checks++;};
@@ -32,16 +32,14 @@ function fresh(count=5){
 }
 const partyState=game=>structuredClone({party:game.state.progress.party,heroes:game.state.heroes,limit:game.state.progress.limit,reserveVitals:game.state.progress.reserveVitals});
 
-// Execute the production handler itself, rather than copying its key-to-slot decisions.
-const page=ts.createSourceFile('app/page.tsx',readFileSync('app/page.tsx','utf8'),ts.ScriptTarget.Latest,true,ts.ScriptKind.TSX);
-let down;
-function visit(node){if(ts.isVariableDeclaration(node)&&node.name.getText(page)==='down'&&ts.isArrowFunction(node.initializer))down=node.initializer;ts.forEachChild(node,visit);}visit(page);
-check(down,'production keydown handler found');
-const handlerSource=`const bind=(engine,panelRef,openingRef,setTarget,loadingState=null)=>{const renderer={current:{getLoadingState:()=>loadingState}};let masterSequence=emptyMasterSequence();const loadedRef={current:false},armedRef={current:false};const setPanel=()=>{},activateTitle=()=>{},openMenu=()=>{},toggleMusic=()=>{};const down=${down.getText(page)};return down;};`;
-const handlerJs=ts.transpileModule(handlerSource,{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.None}}).outputText;
+// Import the production controls API directly; no Page AST or copied routing decisions.
+check(typeof createGameKeyboardControls==='function','production keydown controls exported');
 class TestElement{constructor(selector=''){this.selector=selector;}closest(selector){return this.selector&&selector.includes(this.selector)?this:null;}}
-const bindHandler=new Function('Element','advanceMasterSequence','emptyMasterSequence',`${handlerJs};return bind;`)(TestElement,advanceMasterSequence,emptyMasterSequence);
-function keyboard(game,loadingState=null){const targets=[],panelRef={current:null},openingRef={current:false},down=bindHandler(game,panelRef,openingRef,id=>targets.push(id),loadingState);return {targets,panelRef,openingRef,press(key,{repeat=false,target=null}={}){let prevented=0;down({key,repeat,target,preventDefault:()=>prevented++});return prevented;}};}
+function keyboard(game,loadingState=null){
+ const targets=[],panelRef={current:null},openingRef={current:false};
+ const {down}=createGameKeyboardControls({engine:game,panel:()=>panelRef.current,opening:()=>openingRef.current,loaded:()=>false,titleArmed:()=>false,loading:()=>loadingState,closePanel:()=>{},openMenu:()=>{},setTarget:id=>targets.push(id),activateTitle:()=>{},toggleMusic:()=>{},element:target=>target instanceof TestElement?target:null});
+ return {targets,panelRef,openingRef,press(key,{repeat=false,target=null}={}){let prevented=0;down({key,repeat,target,preventDefault:()=>prevented++});return prevented;}};
+}
 
 // The synchronous opening ref protects the gap before the modal's capture
 // listener mounts and before React applies the engine's paused state.

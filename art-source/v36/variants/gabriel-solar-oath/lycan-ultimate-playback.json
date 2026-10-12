@@ -1,0 +1,83 @@
+{
+  "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-1afa-7611-900f-c84542197a68\\exec-c8ed809d-a2cc-4d3d-9f21-24c8a3317755.png",
+  "sourceSha256": "53fbbe7d5b9540cc9ddee887528e92a875b71c8aa55e49867ac85818da78f21f",
+  "nativeContact": 4,
+  "playbackContact": 5,
+  "nativeFrameOrder": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    4,
+    6,
+    7
+  ],
+  "frames": [
+    {
+      "x": 70,
+      "y": 136,
+      "w": 234,
+      "h": 293,
+      "anchorX": 193.9,
+      "anchorY": 420
+    },
+    {
+      "x": 453,
+      "y": 136,
+      "w": 247,
+      "h": 293,
+      "anchorX": 584,
+      "anchorY": 420
+    },
+    {
+      "x": 830,
+      "y": 136,
+      "w": 246,
+      "h": 293,
+      "anchorX": 970.8,
+      "anchorY": 420
+    },
+    {
+      "x": 1211,
+      "y": 156,
+      "w": 261,
+      "h": 270,
+      "anchorX": 1351.7,
+      "anchorY": 417
+    },
+    {
+      "x": 438,
+      "y": 624,
+      "w": 306,
+      "h": 261,
+      "anchorX": 600.5,
+      "anchorY": 876
+    },
+    {
+      "x": 61,
+      "y": 580,
+      "w": 331,
+      "h": 307,
+      "anchorX": 210.8,
+      "anchorY": 878
+    },
+    {
+      "x": 837,
+      "y": 642,
+      "w": 270,
+      "h": 244,
+      "anchorX": 975.3,
+      "anchorY": 877
+    },
+    {
+      "x": 1220,
+      "y": 608,
+      "w": 241,
+      "h": 298,
+      "anchorX": 1345.9,
+      "anchorY": 897
+    }
+  ],
+  "nativePixelsUnchanged": true
+}

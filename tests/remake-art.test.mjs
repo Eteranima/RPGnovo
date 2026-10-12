@@ -48,9 +48,9 @@ for(const [key,crops] of Object.entries(REMAKE_FRAMES)){
   frames++;
  }
 }
-check(!PLAYABLE_HERO_IDS.includes('abel'),'Abel remains outside playable roster');
+check(PLAYABLE_HERO_IDS.includes('abel'),'explicit v36 recruitment request now makes the already illustrated Abel playable');
 check(skillMotifIndex('crimson-suture')===1&&skillMotifIndex('return-stitch')===2&&skillMotifIndex('in-aeternum-vive')===4,'Carmilla techniques use their own distinct motifs');
-// v31 adds explicitly requested exploration art for Abel and Orfeu without adding a playable Abel.
+// Both approved v31 exploration kits keep their four directions and eight native poses.
 for(const id of ['abel','orfeu']){
  const paths=new Set();
  check(SPRITE_FRAMES[id]?.length===8,`${id}: south compatibility alias contains eight native poses`);

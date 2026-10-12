@@ -1,0 +1,9 @@
+[
+  {
+    "id": "marin-starless-throne",
+    "kind": "companion",
+    "source": "art-source/v36/variants/marin-starless-throne/companion-source.png",
+    "cols": 2,
+    "rows": 2
+  }
+]

@@ -1,0 +1,95 @@
+{
+  "hero": "ophelia",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-1afa-7611-900f-c84542197a68\\exec-2da13ca4-c32f-455e-b564-2283a26f084a.png",
+  "sourceSha256": "694f9876cc3b3a3bafbeeddbd425a3ec08f8ee84d2d6123d41121f7270f8cd25",
+  "selectedSha256": "694f9876cc3b3a3bafbeeddbd425a3ec08f8ee84d2d6123d41121f7270f8cd25",
+  "width": 1536,
+  "height": 1024,
+  "cols": 2,
+  "rows": 1,
+  "ids": [
+    "ice-mirror",
+    "glacier-pulse"
+  ],
+  "rowCuts": [
+    0,
+    1024
+  ],
+  "backgroundAlphaZero": 841952,
+  "alphaThresholdForMeasurementOnly": 24,
+  "frames": [
+    {
+      "x": 15,
+      "y": 115,
+      "w": 731,
+      "h": 770
+    },
+    {
+      "x": 788,
+      "y": 121,
+      "w": 736,
+      "h": 765
+    }
+  ],
+  "measurements": [
+    {
+      "id": "ice-mirror",
+      "index": 0,
+      "row": 0,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "w": 767,
+        "h": 1024
+      },
+      "visibleBounds": {
+        "x": 23,
+        "y": 123,
+        "w": 715,
+        "h": 754
+      },
+      "visiblePixels": 331189,
+      "visibleEdgePixels": 0,
+      "crop": {
+        "x": 15,
+        "y": 115,
+        "w": 731,
+        "h": 770
+      },
+      "runtime": "public/assets/v36/skills/ophelia/ice-mirror.png",
+      "sha256": "a7872595bce8cb4a3b7a094413dc5b12b9ca34afcbfda117e4b837b6b9336c85",
+      "nativeRgbaPreserved": true
+    },
+    {
+      "id": "glacier-pulse",
+      "index": 1,
+      "row": 0,
+      "col": 1,
+      "cell": {
+        "x": 767,
+        "y": 0,
+        "w": 769,
+        "h": 1024
+      },
+      "visibleBounds": {
+        "x": 796,
+        "y": 129,
+        "w": 720,
+        "h": 749
+      },
+      "visiblePixels": 322146,
+      "visibleEdgePixels": 0,
+      "crop": {
+        "x": 788,
+        "y": 121,
+        "w": 736,
+        "h": 765
+      },
+      "runtime": "public/assets/v36/skills/ophelia/glacier-pulse.png",
+      "sha256": "95ba1c4afa89b017a813cad86d8033bff68077f04bc94ac6962388d393ff0bf9",
+      "nativeRgbaPreserved": true
+    }
+  ]
+}

@@ -422,6 +422,13 @@ html,body{height:100%;overflow:hidden;overscroll-behavior:none}.game-shell{posit
  .character-card>.character-portrait{width:80px;height:80px}
 }
 
+/* Equipped versions reserve their own title row; native family ornaments remain clear. */
+.character-card.character-card-variant{height:142px}
+.character-card.character-card-variant.character-card-vitals{height:154px}
+.menu-modal .hero-card-switch>button>.character-card.character-card-variant{height:142px}
+.character-variant-title{display:block;min-height:26px;max-width:100%;color:var(--card-identity);font:600 11px/13px system-ui,sans-serif;white-space:normal;overflow-wrap:anywhere;text-shadow:var(--card-text-shadow)}
+.character-variant-rarity{white-space:nowrap;font-size:9px}
+
 .game-shell .menu-modal .v30-invocation-intro{padding:6px 12px!important;margin-bottom:5px!important;background:linear-gradient(90deg,#071521d9,#0715216e)!important}
 .game-shell .menu-modal .v30-invocation-intro h3{font:600 21px/1.15 Georgia,serif!important;margin:0 0 3px!important}
 .game-shell .menu-modal .v30-invocation-intro p{font:400 12px/1.3 system-ui,sans-serif!important;margin:0!important}
@@ -434,3 +441,79 @@ html,body{height:100%;overflow:hidden;overscroll-behavior:none}.game-shell{posit
 
 /* Keep interactions in a lane above the quickbar, clear of travel plaques. */
 .game-shell[data-game-mode=world] .interact-prompt{bottom:60px;left:50%;right:auto;transform:translateX(-50%);max-width:38%;text-align:center}
+
+.save-conflict-shade-v36{position:fixed;inset:0;z-index:10000;background:#020914eb}.save-conflict-v36{position:fixed;z-index:10001;left:50%;top:50%;transform:translate(-50%,-50%);width:min(460px,calc(100% - 32px));padding:24px;background:#101c28;border:1px solid #d6b879;color:#f7ecd7;border-radius:12px}.save-conflict-v36 h2{margin:0 0 12px;font-size:21px}.save-conflict-v36 p{line-height:1.5;margin-bottom:20px}.save-conflict-v36 button{min-height:44px}
+
+/* v38 illustrated menus. Frame windows use native pixels and never cover input. */
+.native-menu-frame{--frame-corner:44px;--frame-gem:42px;position:absolute;inset:5px;z-index:4;display:block;pointer-events:none;user-select:none}
+.native-menu-frame>i{position:absolute;display:block;background-image:url('/assets/v38/interface/arcane-frame.png');background-repeat:no-repeat;pointer-events:none}
+.native-menu-frame>[data-frame-piece=nw],.native-menu-frame>[data-frame-piece=ne],.native-menu-frame>[data-frame-piece=sw],.native-menu-frame>[data-frame-piece=se]{width:var(--frame-corner)}
+.native-menu-frame>[data-frame-piece=nw]{top:0;left:0}.native-menu-frame>[data-frame-piece=ne]{top:0;right:0}.native-menu-frame>[data-frame-piece=sw]{bottom:0;left:0}.native-menu-frame>[data-frame-piece=se]{bottom:0;right:0}
+.native-menu-frame>[data-frame-piece=top],.native-menu-frame>[data-frame-piece=bottom]{left:calc(var(--frame-corner)*.65);right:calc(var(--frame-corner)*.65);height:5px;aspect-ratio:auto!important}
+.native-menu-frame>[data-frame-piece=top]{top:6px}.native-menu-frame>[data-frame-piece=bottom]{bottom:7px}
+.native-menu-frame>[data-frame-piece=left],.native-menu-frame>[data-frame-piece=right]{top:calc(var(--frame-corner)*.65);bottom:calc(var(--frame-corner)*.65);width:5px;aspect-ratio:auto!important}
+.native-menu-frame>[data-frame-piece=left]{left:5px}.native-menu-frame>[data-frame-piece=right]{right:5px}
+.native-menu-frame>[data-frame-piece=ruby],.native-menu-frame>[data-frame-piece=sapphire]{left:50%;width:var(--frame-gem);transform:translateX(-50%)}
+.native-menu-frame>[data-frame-piece=ruby]{top:-3px}.native-menu-frame>[data-frame-piece=sapphire]{bottom:-4px}
+.game-shell .game-modal.ingame-modal{isolation:isolate;background:linear-gradient(180deg,#07122012,#0712203b),url('/assets/v38/interface/archive-canvas.png') center/cover no-repeat!important;border:1px solid #ab915f66!important;box-shadow:0 18px 64px #010712d9!important}
+.game-shell .ingame-modal>.ingame-modal-content{position:relative;z-index:1;scrollbar-color:#c5a875 #0b1827}
+.game-shell .menu-modal::before,.game-shell .menu-modal::after{content:none}
+.game-shell .ingame-modal [data-slot=dialog-header]{background:linear-gradient(90deg,#08131ecc,#08131e70 66%,transparent)!important;border-bottom-color:#e3c78b80}
+.game-shell .ingame-modal [data-slot=dialog-title]{color:#fff0d3!important;text-shadow:0 2px 4px #020812;letter-spacing:.025em}
+.game-shell .ingame-modal [data-slot=dialog-description]{color:#d3dce4!important;text-shadow:0 1px 3px #01070c}
+.game-shell .ingame-close{z-index:6;border:1px solid #ccae7388!important;background:#0b1b2de8!important;color:#fff0cd!important;border-radius:4px!important;box-shadow:0 2px 7px #0006}
+.game-shell .ingame-close:focus-visible{outline:3px solid #9cdeff;outline-offset:2px}
+.game-shell .menu-modal .v30-menu-art{background-image:linear-gradient(#0715230f,#0715232e),var(--menu-art)!important;border:1px solid #d2b9853d;border-radius:3px;padding:10px}
+.game-shell .menu-modal .v30-menu-art>[data-slot=tabs]>[data-slot=tabs-content]{background:linear-gradient(120deg,#07142478,#07142429)!important;box-shadow:none;border-color:#e3c78b40!important}
+.game-shell .menu-modal .v30-menu-art .adventure-nav{background:#07142470!important;border-color:#d9ba7977!important;box-shadow:none}
+.game-shell .menu-modal .adventure-nav [data-slot=tabs-trigger]{background:linear-gradient(100deg,#101e30d9,#15294291)!important;border:1px solid #a992665c!important;border-left-width:2px!important;color:#e9e8df!important;box-shadow:inset 0 1px #efdbaf1f;transition:background .15s,border-color .15s}
+.game-shell .menu-modal .adventure-nav [data-slot=tabs-trigger][data-state=active]{border-color:#f0d598!important;background:linear-gradient(100deg,#674f30e8,#172a3acc)!important;color:#fff2d7!important;box-shadow:inset 3px 0 #efca82,inset 0 1px #ffe4ad40!important}
+.game-shell .menu-modal .adventure-nav [data-slot=tabs-trigger]:focus-visible{outline:2px solid #a1ddff!important;outline-offset:-2px}
+.game-shell .menu-modal :is(.menu-card,.set-card,.bestiary-card,.gear-slot,.bag-member:not(.bag-member-framed),.help-content>div){background:linear-gradient(125deg,#0a1b2cdb,#0b192ac9)!important;border:1px solid #c9ad7670!important;border-radius:4px!important;box-shadow:inset 0 1px #f5d8a51c,0 5px 12px #02071240}
+.game-shell .menu-modal .menu-card.claimed{background:linear-gradient(120deg,#162b2be0,#0b192bcc)!important;border-color:#a3c8b86b!important}
+.game-shell .menu-modal .menu-intro{background:linear-gradient(105deg,#091c2ddd,#091c2d55),var(--menu-art)!important;background-size:cover!important;background-position:center 32%!important;border:1px solid #d7ba7373!important;border-left:3px solid #e2c18b!important;box-shadow:none}
+.game-shell .menu-modal :is(.menu-intro,.menu-card,.set-card,.bestiary-card) :is(h3,h4){color:#f6e7c8!important;text-shadow:0 1px 3px #02060c}
+.game-shell .menu-modal :is(.menu-card,.set-card,.bestiary-card,.gear-slot,.help-content) p{color:#d3dde2}
+.game-shell .menu-modal .menu-resources>span{background:#0a1a2acc;border-color:#d4b88173;color:#e2e8e6;box-shadow:inset 0 1px #e9d4a61a}
+.game-shell .menu-modal .menu-resources b{color:#fce8b5}
+.game-shell .settings-content{position:relative;padding:14px 18px;border:1px solid #bca47877;border-radius:4px;background:linear-gradient(95deg,#0a1a2dc7,#0a1a2d62),url('/assets/v38/interface/archive-canvas.png') center/cover no-repeat;color:#e4e9e8}
+.settings-content>h3{display:flex;align-items:center;gap:9px;color:#fff0cf;font-size:21px;margin:15px 0 9px}.settings-content>h3 .hud-art-icon{width:28px;height:28px;flex-basis:28px}
+.settings-content>p,.settings-content>.help-content{color:#dae3e6;text-shadow:0 1px 2px #020811}
+.settings-content>.help-content{padding:12px;background:#081827c7;border:1px solid #c1a47740;border-radius:4px}
+.ingame-modal :is(.help-content,.journal-modal,.bag-content){color:#e0e6e7;text-shadow:0 1px 3px #020611}
+.ingame-modal .help-content>div{padding:10px 12px;border:1px solid #c6aa7066;background:#0c1b2bd9;border-radius:3px}
+.ingame-modal .help-content>div>.hud-art-icon{width:34px;height:34px;flex:0 0 34px}
+.dialogue-scene .dialogue-box{isolation:isolate;border:1px solid #c4aa7370;background:linear-gradient(100deg,#0a1b2aed,#102235df),url('/assets/v38/interface/archive-canvas.png') center 70%/cover!important;box-shadow:0 8px 32px #02081280}
+.dialogue-box>.native-menu-frame{--frame-corner:38px;--frame-gem:34px;inset:2px}
+.dialogue-box>.speaker-label,.dialogue-box>p,.dialogue-box>.dialogue-footer{position:relative;z-index:1}
+.dialogue-box .speaker-label{color:#ffe7b5;text-shadow:0 1px 3px #030912}.dialogue-box .speaker-label>.hud-art-icon{width:21px;height:21px;flex-basis:21px}
+.dialogue-box>p{color:#f1eee5;text-shadow:0 1px 3px #020812}
+.dialogue-box .dialogue-footer>span{color:#b8cbd5}
+.dialogue-box .dialogue-footer>button{padding:3px 10px;border:1px solid #b8a17466;border-radius:3px;background:#102638bd;color:#ffedc5}
+.game-shell .animated-title .title-shade{background:linear-gradient(90deg,#06101fc2,transparent 64%),linear-gradient(0deg,#050f2270,transparent 35%)!important}
+.game-shell .animated-title .start-copy{background:none}
+.animated-title .start-actions>button{position:relative;isolation:isolate;overflow:visible;box-shadow:0 5px 16px #0107157a;max-width:100%;}
+.animated-title .start-actions>button:not(.text-button){background:linear-gradient(110deg,#10273de8,#102438aa)!important;border-color:#c2a7748c!important;color:#ffebbd!important;text-shadow:0 1px 2px #010812}
+.animated-title .start-actions .native-menu-frame{--frame-corner:25px;--frame-gem:28px;inset:-2px;z-index:-1}
+.animated-title .start-actions .native-menu-frame>[data-frame-piece=top],.animated-title .start-actions .native-menu-frame>[data-frame-piece=bottom]{height:3px}
+.animated-title .start-actions .native-menu-frame>[data-frame-piece=left],.animated-title .start-actions .native-menu-frame>[data-frame-piece=right]{width:3px}
+.animated-title .start-actions .text-button{color:#d9e8ed;padding-inline:4px;text-shadow:0 1px 3px #030814}
+.animated-title .start-actions button>.hud-art-icon{width:22px;height:22px;flex:0 0 22px}.animated-title .start-meta>.hud-art-icon{width:16px;height:16px;flex:0 0 16px}
+@media(orientation:landscape) and (max-height:600px){.ingame-modal>.native-menu-frame{--frame-corner:34px;--frame-gem:34px;inset:2px}.game-shell .settings-content{padding:8px 12px}.dialogue-box>.native-menu-frame{--frame-corner:29px;--frame-gem:26px}.settings-content>h3{font-size:18px;margin:10px 0 6px}.game-shell .menu-modal .v30-menu-art{padding:6px}}
+@media(max-width:600px) and (orientation:portrait){.ingame-modal>.native-menu-frame{--frame-corner:32px;--frame-gem:32px;inset:2px}.game-shell .settings-content{padding:10px}.game-shell .menu-modal .v30-menu-art{padding:4px}.game-shell .menu-modal .v30-menu-art>[data-slot=tabs]>[data-slot=tabs-content]{background:#07142466!important}.game-shell .animated-title .title-shade{background:linear-gradient(0deg,#061221cf,transparent 83%)!important}.game-shell .animated-title .start-copy{background:linear-gradient(0deg,#07152ac9,transparent)!important}.dialogue-box>.native-menu-frame{--frame-corner:28px;--frame-gem:27px}}
+@media(prefers-reduced-motion:reduce){.game-shell .menu-modal .adventure-nav [data-slot=tabs-trigger]{transition:none}}
+
+/* Short portrait menus reserve space for content; the byline stays accessible. */
+@media(orientation:portrait) and (max-width:600px) and (max-height:600px){
+ .game-shell .ingame-modal.menu-modal{padding:12px!important;gap:6px!important}
+ .game-shell .menu-modal [data-slot=dialog-header]{flex:0 0 64px;min-height:64px;max-height:70px;padding:7px 52px 9px 12px!important;margin:0 0 5px!important;gap:3px!important;justify-content:center}
+ .game-shell .menu-modal [data-slot=dialog-header]::before{display:none}
+ .game-shell .menu-modal [data-slot=dialog-title]{font-size:21px!important;line-height:1.2!important;letter-spacing:.015em}
+ .game-shell .menu-modal [data-slot=dialog-header] [data-slot=dialog-description]{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip-path:inset(50%);white-space:nowrap!important}
+ .game-shell .menu-modal .menu-resources{flex:0 0 40px;min-height:40px;max-height:45px;flex-direction:row;flex-wrap:nowrap;gap:6px;padding:0 0 4px;margin:0 0 5px;font-size:12px;line-height:16px}
+ .game-shell .menu-modal .menu-resources>span{min-width:0;min-height:30px;max-height:34px;padding:3px 6px;gap:4px;white-space:nowrap;font-size:11px;line-height:16px}
+ .game-shell .menu-modal .menu-resources .game-art-icon{width:18px;height:18px;flex:0 0 18px}
+ .game-shell .menu-modal .adventure-menu>[data-slot=tabs]>.adventure-nav{height:46px;min-height:46px;padding:2px!important}
+ .game-shell .menu-modal .adventure-nav [data-slot=tabs-trigger]{height:40px!important;min-height:40px!important;max-height:40px!important;padding:4px!important}
+ .game-shell .menu-modal .ingame-close{width:44px;height:44px;min-width:44px;min-height:44px;top:8px;right:8px}
+}

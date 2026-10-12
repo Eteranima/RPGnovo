@@ -1,0 +1,204 @@
+{
+  "hero": "ava",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-1afa-7611-900f-c84542197a68\\exec-b2509113-919a-4c9d-be38-605c0a9074c6.png",
+  "sourceSha256": "a4618f8c42f8e7bb75110060e1ac26b96e09407d458e22be5b2e57f9e8065ebe",
+  "selectedSha256": "a4618f8c42f8e7bb75110060e1ac26b96e09407d458e22be5b2e57f9e8065ebe",
+  "width": 1536,
+  "height": 1024,
+  "cols": 3,
+  "rows": 2,
+  "ids": [
+    "bedrock-ward",
+    "fault-line",
+    "stonefall",
+    "mineral-purge",
+    "strata-pressure"
+  ],
+  "rowCuts": [
+    0,
+    496,
+    1024
+  ],
+  "backgroundAlphaZero": 883576,
+  "alphaThresholdForMeasurementOnly": 24,
+  "frames": [
+    {
+      "x": 45,
+      "y": 32,
+      "w": 456,
+      "h": 451
+    },
+    {
+      "x": 542,
+      "y": 26,
+      "w": 443,
+      "h": 457
+    },
+    {
+      "x": 1061,
+      "y": 27,
+      "w": 455,
+      "h": 458
+    },
+    {
+      "x": 34,
+      "y": 512,
+      "w": 483,
+      "h": 461
+    },
+    {
+      "x": 543,
+      "y": 508,
+      "w": 469,
+      "h": 465
+    }
+  ],
+  "measurements": [
+    {
+      "id": "bedrock-ward",
+      "index": 0,
+      "row": 0,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "w": 521,
+        "h": 496
+      },
+      "visibleBounds": {
+        "x": 53,
+        "y": 40,
+        "w": 440,
+        "h": 435
+      },
+      "visiblePixels": 119537,
+      "visibleEdgePixels": 0,
+      "crop": {
+        "x": 45,
+        "y": 32,
+        "w": 456,
+        "h": 451
+      },
+      "runtime": "public/assets/v36/skills/ava/bedrock-ward.png",
+      "sha256": "fe60f263ca62304f3314e47d655dde272bb187fd765c49e680b4b9448ecc0b12",
+      "nativeRgbaPreserved": true
+    },
+    {
+      "id": "fault-line",
+      "index": 1,
+      "row": 0,
+      "col": 1,
+      "cell": {
+        "x": 521,
+        "y": 0,
+        "w": 502,
+        "h": 496
+      },
+      "visibleBounds": {
+        "x": 550,
+        "y": 34,
+        "w": 427,
+        "h": 441
+      },
+      "visiblePixels": 122106,
+      "visibleEdgePixels": 0,
+      "crop": {
+        "x": 542,
+        "y": 26,
+        "w": 443,
+        "h": 457
+      },
+      "runtime": "public/assets/v36/skills/ava/fault-line.png",
+      "sha256": "19c39b3b818424b744b9cbba57bab8878d50ea3a156c91c04d08e8e5bebd1963",
+      "nativeRgbaPreserved": true
+    },
+    {
+      "id": "stonefall",
+      "index": 2,
+      "row": 0,
+      "col": 2,
+      "cell": {
+        "x": 1023,
+        "y": 0,
+        "w": 513,
+        "h": 496
+      },
+      "visibleBounds": {
+        "x": 1069,
+        "y": 35,
+        "w": 439,
+        "h": 442
+      },
+      "visiblePixels": 129815,
+      "visibleEdgePixels": 0,
+      "crop": {
+        "x": 1061,
+        "y": 27,
+        "w": 455,
+        "h": 458
+      },
+      "runtime": "public/assets/v36/skills/ava/stonefall.png",
+      "sha256": "be7992e249525d316af306a8831d0c9181aa6762664a769a2542ee1aeeb311c3",
+      "nativeRgbaPreserved": true
+    },
+    {
+      "id": "mineral-purge",
+      "index": 3,
+      "row": 1,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 496,
+        "w": 530,
+        "h": 528
+      },
+      "visibleBounds": {
+        "x": 42,
+        "y": 520,
+        "w": 467,
+        "h": 445
+      },
+      "visiblePixels": 119173,
+      "visibleEdgePixels": 0,
+      "crop": {
+        "x": 34,
+        "y": 512,
+        "w": 483,
+        "h": 461
+      },
+      "runtime": "public/assets/v36/skills/ava/mineral-purge.png",
+      "sha256": "8c163d1e461ca27811cf2b807f42ada28ef148d6add229f6ab2b2e3d31d6caa4",
+      "nativeRgbaPreserved": true
+    },
+    {
+      "id": "strata-pressure",
+      "index": 4,
+      "row": 1,
+      "col": 1,
+      "cell": {
+        "x": 530,
+        "y": 496,
+        "w": 586,
+        "h": 528
+      },
+      "visibleBounds": {
+        "x": 551,
+        "y": 516,
+        "w": 453,
+        "h": 449
+      },
+      "visiblePixels": 126645,
+      "visibleEdgePixels": 0,
+      "crop": {
+        "x": 543,
+        "y": 508,
+        "w": 469,
+        "h": 465
+      },
+      "runtime": "public/assets/v36/skills/ava/strata-pressure.png",
+      "sha256": "0167cba3f590354ef135b2667920a7481b65bd90b94dbf3c61e8764f33e85806",
+      "nativeRgbaPreserved": true
+    }
+  ]
+}

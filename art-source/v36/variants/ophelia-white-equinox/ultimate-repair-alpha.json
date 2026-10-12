@@ -1,0 +1,107 @@
+{
+  "source": "art-source/v36/variants/ophelia-white-equinox/ultimate-repair-candidate.png",
+  "width": 1536,
+  "height": 1024,
+  "alphaZero": 895821,
+  "allPixels": 1572864,
+  "strictAlphaZeroCorridors": true,
+  "horizontal": [
+    {
+      "index": 538,
+      "nonzero": 0,
+      "alpha": {
+        "max": 0,
+        "over24": 0,
+        "over210": 0
+      }
+    }
+  ],
+  "vertical": [
+    [
+      {
+        "index": 384,
+        "nonzero": 0,
+        "alpha": {
+          "max": 0,
+          "over24": 0,
+          "over210": 0
+        }
+      },
+      {
+        "index": 768,
+        "nonzero": 0,
+        "alpha": {
+          "max": 0,
+          "over24": 0,
+          "over210": 0
+        }
+      },
+      {
+        "index": 1152,
+        "nonzero": 0,
+        "alpha": {
+          "max": 0,
+          "over24": 0,
+          "over210": 0
+        }
+      }
+    ],
+    [
+      {
+        "index": 434,
+        "nonzero": 0,
+        "alpha": {
+          "max": 0,
+          "over24": 0,
+          "over210": 0
+        }
+      },
+      {
+        "index": 774,
+        "nonzero": 0,
+        "alpha": {
+          "max": 0,
+          "over24": 0,
+          "over210": 0
+        }
+      },
+      {
+        "index": 1152,
+        "nonzero": 0,
+        "alpha": {
+          "max": 0,
+          "over24": 0,
+          "over210": 0
+        }
+      }
+    ]
+  ],
+  "edges": {
+    "top": 0,
+    "bottom": 0,
+    "left": 9,
+    "right": 0
+  },
+  "edgeAlpha": {
+    "top": {
+      "max": 0,
+      "over24": 0,
+      "over210": 0
+    },
+    "bottom": {
+      "max": 0,
+      "over24": 0,
+      "over210": 0
+    },
+    "left": {
+      "max": 1,
+      "over24": 0,
+      "over210": 0
+    },
+    "right": {
+      "max": 0,
+      "over24": 0,
+      "over210": 0
+    }
+  }
+}

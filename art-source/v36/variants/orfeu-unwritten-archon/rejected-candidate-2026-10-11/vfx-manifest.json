@@ -1,0 +1,243 @@
+{
+  "id": "orfeu-unwritten-archon",
+  "kind": "vfx",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a0fe9c-5a05-7ae0-b816-392e2a3c966b\\exec-7e464938-2f0d-4a7c-b844-3e489e3fb871.png",
+  "selected": "art-source/v36/variants/orfeu-unwritten-archon/vfx-source.png",
+  "runtime": "public/assets/v36/variants/orfeu-unwritten-archon/vfx.png",
+  "width": 1536,
+  "height": 1024,
+  "cols": 3,
+  "rows": 2,
+  "sourceSha256": "492dd72aa262583229203410183eaa3db9b5fd83e0db4f796b1af890ce135f1f",
+  "selectedSha256": "492dd72aa262583229203410183eaa3db9b5fd83e0db4f796b1af890ce135f1f",
+  "runtimeSha256": "492dd72aa262583229203410183eaa3db9b5fd83e0db4f796b1af890ce135f1f",
+  "byteIdenticalSourceCopies": true,
+  "alphaThresholdForMeasurementOnly": 24,
+  "backgroundAlphaZero": 696438,
+  "rowCuts": [
+    0,
+    493,
+    1024
+  ],
+  "frames": [
+    {
+      "x": 37,
+      "y": 30,
+      "w": 460,
+      "h": 449,
+      "anchorX": 266.5,
+      "anchorY": 254
+    },
+    {
+      "x": 518,
+      "y": 84,
+      "w": 496,
+      "h": 394,
+      "anchorX": 765.5,
+      "anchorY": 280.5
+    },
+    {
+      "x": 1054,
+      "y": 18,
+      "w": 458,
+      "h": 460,
+      "anchorX": 1282.5,
+      "anchorY": 247.5
+    },
+    {
+      "x": 24,
+      "y": 510,
+      "w": 463,
+      "h": 496,
+      "anchorX": 255,
+      "anchorY": 757.5
+    },
+    {
+      "x": 514,
+      "y": 507,
+      "w": 503,
+      "h": 474,
+      "anchorX": 765,
+      "anchorY": 743.5
+    },
+    {
+      "x": 1038,
+      "y": 507,
+      "w": 484,
+      "h": 491,
+      "anchorX": 1279.5,
+      "anchorY": 752
+    }
+  ],
+  "measurements": [
+    {
+      "i": 0,
+      "row": 0,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "w": 507,
+        "h": 493
+      },
+      "visibleBounds": {
+        "x": 45,
+        "y": 38,
+        "w": 444,
+        "h": 433
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 101221,
+      "crop": {
+        "x": 37,
+        "y": 30,
+        "w": 460,
+        "h": 449,
+        "anchorX": 266.5,
+        "anchorY": 254
+      },
+      "anchorMethod": "motif center"
+    },
+    {
+      "i": 1,
+      "row": 0,
+      "col": 1,
+      "cell": {
+        "x": 507,
+        "y": 0,
+        "w": 527,
+        "h": 493
+      },
+      "visibleBounds": {
+        "x": 526,
+        "y": 92,
+        "w": 480,
+        "h": 378
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 76869,
+      "crop": {
+        "x": 518,
+        "y": 84,
+        "w": 496,
+        "h": 394,
+        "anchorX": 765.5,
+        "anchorY": 280.5
+      },
+      "anchorMethod": "motif center"
+    },
+    {
+      "i": 2,
+      "row": 0,
+      "col": 2,
+      "cell": {
+        "x": 1034,
+        "y": 0,
+        "w": 502,
+        "h": 493
+      },
+      "visibleBounds": {
+        "x": 1062,
+        "y": 26,
+        "w": 442,
+        "h": 444
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 107264,
+      "crop": {
+        "x": 1054,
+        "y": 18,
+        "w": 458,
+        "h": 460,
+        "anchorX": 1282.5,
+        "anchorY": 247.5
+      },
+      "anchorMethod": "motif center"
+    },
+    {
+      "i": 3,
+      "row": 1,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 493,
+        "w": 500,
+        "h": 531
+      },
+      "visibleBounds": {
+        "x": 32,
+        "y": 518,
+        "w": 447,
+        "h": 480
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 104136,
+      "crop": {
+        "x": 24,
+        "y": 510,
+        "w": 463,
+        "h": 496,
+        "anchorX": 255,
+        "anchorY": 757.5
+      },
+      "anchorMethod": "motif center"
+    },
+    {
+      "i": 4,
+      "row": 1,
+      "col": 1,
+      "cell": {
+        "x": 500,
+        "y": 493,
+        "w": 527,
+        "h": 531
+      },
+      "visibleBounds": {
+        "x": 522,
+        "y": 515,
+        "w": 487,
+        "h": 458
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 120827,
+      "crop": {
+        "x": 514,
+        "y": 507,
+        "w": 503,
+        "h": 474,
+        "anchorX": 765,
+        "anchorY": 743.5
+      },
+      "anchorMethod": "motif center"
+    },
+    {
+      "i": 5,
+      "row": 1,
+      "col": 2,
+      "cell": {
+        "x": 1027,
+        "y": 493,
+        "w": 509,
+        "h": 531
+      },
+      "visibleBounds": {
+        "x": 1046,
+        "y": 515,
+        "w": 468,
+        "h": 475
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 149799,
+      "crop": {
+        "x": 1038,
+        "y": 507,
+        "w": 484,
+        "h": 491,
+        "anchorX": 1279.5,
+        "anchorY": 752
+      },
+      "anchorMethod": "motif center"
+    }
+  ]
+}

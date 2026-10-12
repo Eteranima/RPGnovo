@@ -1,0 +1,403 @@
+{
+  "id": "ava-worldroot-sovereign",
+  "kind": "ultimate",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-618efff2-d5df-41fc-b08b-8cb5754c8ee1.png",
+  "selected": "art-source/v36/variants/ava-worldroot-sovereign/ultimate-source.png",
+  "runtime": "public/assets/v36/variants/ava-worldroot-sovereign/ultimate.png",
+  "width": 1774,
+  "height": 887,
+  "cols": 4,
+  "rows": 2,
+  "sourceSha256": "92cc1f46dab1b62164119dfbc1d501c94a2e9da14c4ec42082d56a74dbc21b3e",
+  "selectedSha256": "92cc1f46dab1b62164119dfbc1d501c94a2e9da14c4ec42082d56a74dbc21b3e",
+  "runtimeSha256": "92cc1f46dab1b62164119dfbc1d501c94a2e9da14c4ec42082d56a74dbc21b3e",
+  "byteIdenticalSourceCopies": true,
+  "alphaThresholdForMeasurementOnly": 24,
+  "backgroundAlphaZero": 940351,
+  "rowCuts": [
+    0,
+    453,
+    887
+  ],
+  "frames": [
+    {
+      "x": 76,
+      "y": 33,
+      "w": 297,
+      "h": 417,
+      "anchorX": 257,
+      "anchorY": 441
+    },
+    {
+      "x": 502,
+      "y": 33,
+      "w": 302,
+      "h": 417,
+      "anchorX": 681,
+      "anchorY": 441
+    },
+    {
+      "x": 915,
+      "y": 33,
+      "w": 314,
+      "h": 417,
+      "anchorX": 1094,
+      "anchorY": 441
+    },
+    {
+      "x": 1340,
+      "y": 77,
+      "w": 385,
+      "h": 374,
+      "anchorX": 1544,
+      "anchorY": 442
+    },
+    {
+      "x": 53,
+      "y": 472,
+      "w": 362,
+      "h": 394,
+      "anchorX": 240,
+      "anchorY": 857
+    },
+    {
+      "x": 477,
+      "y": 483,
+      "w": 419,
+      "h": 383,
+      "anchorX": 674,
+      "anchorY": 857
+    },
+    {
+      "x": 924,
+      "y": 477,
+      "w": 377,
+      "h": 389,
+      "anchorX": 1115,
+      "anchorY": 857
+    },
+    {
+      "x": 1380,
+      "y": 456,
+      "w": 290,
+      "h": 414,
+      "anchorX": 1555,
+      "anchorY": 861
+    }
+  ],
+  "measurements": [
+    {
+      "i": 0,
+      "row": 0,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "w": 437,
+        "h": 453
+      },
+      "visibleBounds": {
+        "x": 84,
+        "y": 41,
+        "w": 281,
+        "h": 401
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 67701,
+      "crop": {
+        "x": 76,
+        "y": 33,
+        "w": 297,
+        "h": 417,
+        "anchorX": 257,
+        "anchorY": 441
+      },
+      "headOrHatTop": 41,
+      "groundSole": 441,
+      "anchorMethod": "manual body/ground: midpoint between the two visible boot centres, retaining lowest sole baseline; exclude rocks/hair/cape",
+      "headMethod": "native individual visual review confirms crown/hair as actor top, without detached effect geometry",
+      "bodyHeadTop": 41,
+      "visualReview": {
+        "method": "Individual native crop and whole-sheet continuity",
+        "reviewed": true,
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "date": "2026-10-11"
+      }
+    },
+    {
+      "i": 1,
+      "row": 0,
+      "col": 1,
+      "cell": {
+        "x": 437,
+        "y": 0,
+        "w": 422,
+        "h": 453
+      },
+      "visibleBounds": {
+        "x": 510,
+        "y": 41,
+        "w": 286,
+        "h": 401
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 68340,
+      "crop": {
+        "x": 502,
+        "y": 33,
+        "w": 302,
+        "h": 417,
+        "anchorX": 681,
+        "anchorY": 441
+      },
+      "headOrHatTop": 41,
+      "groundSole": 441,
+      "anchorMethod": "manual body/ground: midpoint between the two visible boot centres, retaining lowest sole baseline; exclude rocks/hair/cape",
+      "headMethod": "native individual visual review confirms crown/hair as actor top, without detached effect geometry",
+      "bodyHeadTop": 41,
+      "visualReview": {
+        "method": "Individual native crop and whole-sheet continuity",
+        "reviewed": true,
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "date": "2026-10-11"
+      }
+    },
+    {
+      "i": 2,
+      "row": 0,
+      "col": 2,
+      "cell": {
+        "x": 859,
+        "y": 0,
+        "w": 425,
+        "h": 453
+      },
+      "visibleBounds": {
+        "x": 923,
+        "y": 41,
+        "w": 298,
+        "h": 401
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 68096,
+      "crop": {
+        "x": 915,
+        "y": 33,
+        "w": 314,
+        "h": 417,
+        "anchorX": 1094,
+        "anchorY": 441
+      },
+      "headOrHatTop": 41,
+      "groundSole": 441,
+      "anchorMethod": "manual body/ground: midpoint between the two visible boot centres, retaining lowest sole baseline; exclude rocks/hair/cape",
+      "headMethod": "native individual visual review confirms crown/hair as actor top, without detached effect geometry",
+      "bodyHeadTop": 41,
+      "visualReview": {
+        "method": "Individual native crop and whole-sheet continuity",
+        "reviewed": true,
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "date": "2026-10-11"
+      }
+    },
+    {
+      "i": 3,
+      "row": 0,
+      "col": 3,
+      "cell": {
+        "x": 1284,
+        "y": 0,
+        "w": 490,
+        "h": 453
+      },
+      "visibleBounds": {
+        "x": 1348,
+        "y": 85,
+        "w": 369,
+        "h": 358
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 68707,
+      "crop": {
+        "x": 1340,
+        "y": 77,
+        "w": 385,
+        "h": 374,
+        "anchorX": 1544,
+        "anchorY": 442
+      },
+      "headOrHatTop": 85,
+      "groundSole": 442,
+      "anchorMethod": "manual body/ground: midpoint between the two visible boot centres, retaining lowest sole baseline; exclude rocks/hair/cape",
+      "headMethod": "native individual visual review confirms crown/hair as actor top, without detached effect geometry",
+      "bodyHeadTop": 85,
+      "visualReview": {
+        "method": "Individual native crop and whole-sheet continuity",
+        "reviewed": true,
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "date": "2026-10-11"
+      }
+    },
+    {
+      "i": 4,
+      "row": 1,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 453,
+        "w": 446,
+        "h": 434
+      },
+      "visibleBounds": {
+        "x": 61,
+        "y": 480,
+        "w": 346,
+        "h": 378
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 73536,
+      "crop": {
+        "x": 53,
+        "y": 472,
+        "w": 362,
+        "h": 394,
+        "anchorX": 240,
+        "anchorY": 857
+      },
+      "headOrHatTop": 480,
+      "groundSole": 857,
+      "anchorMethod": "manual body/ground: midpoint between the two visible boot centres, retaining lowest sole baseline; exclude rocks/hair/cape",
+      "headMethod": "native individual visual review confirms crown/hair as actor top, without detached effect geometry",
+      "bodyHeadTop": 480,
+      "visualReview": {
+        "method": "Individual native crop and whole-sheet continuity",
+        "reviewed": true,
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "date": "2026-10-11"
+      }
+    },
+    {
+      "i": 5,
+      "row": 1,
+      "col": 1,
+      "cell": {
+        "x": 446,
+        "y": 453,
+        "w": 464,
+        "h": 434
+      },
+      "visibleBounds": {
+        "x": 485,
+        "y": 491,
+        "w": 403,
+        "h": 367
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 76693,
+      "crop": {
+        "x": 477,
+        "y": 483,
+        "w": 419,
+        "h": 383,
+        "anchorX": 674,
+        "anchorY": 857
+      },
+      "headOrHatTop": 491,
+      "groundSole": 857,
+      "anchorMethod": "manual body/ground: midpoint between the two visible boot centres, retaining lowest sole baseline; exclude rocks/hair/cape",
+      "headMethod": "native individual visual review confirms crown/hair as actor top, without detached effect geometry",
+      "bodyHeadTop": 491,
+      "visualReview": {
+        "method": "Individual native crop and whole-sheet continuity",
+        "reviewed": true,
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "date": "2026-10-11"
+      }
+    },
+    {
+      "i": 6,
+      "row": 1,
+      "col": 2,
+      "cell": {
+        "x": 910,
+        "y": 453,
+        "w": 430,
+        "h": 434
+      },
+      "visibleBounds": {
+        "x": 932,
+        "y": 485,
+        "w": 361,
+        "h": 373
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 68232,
+      "crop": {
+        "x": 924,
+        "y": 477,
+        "w": 377,
+        "h": 389,
+        "anchorX": 1115,
+        "anchorY": 857
+      },
+      "headOrHatTop": 485,
+      "groundSole": 857,
+      "anchorMethod": "manual body/ground: midpoint between the two visible boot centres, retaining lowest sole baseline; exclude rocks/hair/cape",
+      "headMethod": "native individual visual review confirms crown/hair as actor top, without detached effect geometry",
+      "bodyHeadTop": 485,
+      "visualReview": {
+        "method": "Individual native crop and whole-sheet continuity",
+        "reviewed": true,
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "date": "2026-10-11"
+      }
+    },
+    {
+      "i": 7,
+      "row": 1,
+      "col": 3,
+      "cell": {
+        "x": 1340,
+        "y": 453,
+        "w": 434,
+        "h": 434
+      },
+      "visibleBounds": {
+        "x": 1388,
+        "y": 464,
+        "w": 274,
+        "h": 398
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 63966,
+      "crop": {
+        "x": 1380,
+        "y": 456,
+        "w": 290,
+        "h": 414,
+        "anchorX": 1555,
+        "anchorY": 861
+      },
+      "headOrHatTop": 464,
+      "groundSole": 861,
+      "anchorMethod": "manual body/ground: midpoint between the two visible boot centres, retaining lowest sole baseline; exclude rocks/hair/cape",
+      "headMethod": "native individual visual review confirms crown/hair as actor top, without detached effect geometry",
+      "bodyHeadTop": 464,
+      "visualReview": {
+        "method": "Individual native crop and whole-sheet continuity",
+        "reviewed": true,
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "date": "2026-10-11"
+      }
+    }
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "id": "orfeu-unwritten-archon",
+  "kind": "icons",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a0fe9c-5a05-7ae0-b816-392e2a3c966b\\exec-e25f5b1c-0c8f-4724-b4a5-9a422d2e92c4.png",
+  "selected": "art-source/v36/variants/orfeu-unwritten-archon/icons-source.png",
+  "runtime": "public/assets/v36/variants/orfeu-unwritten-archon/icons.png",
+  "width": 1536,
+  "height": 1024,
+  "cols": 3,
+  "rows": 2,
+  "sourceSha256": "3d5313b88c3bd12cd2e697157d04ee0821b9bad428431f29f83ffef60f82912f",
+  "selectedSha256": "3d5313b88c3bd12cd2e697157d04ee0821b9bad428431f29f83ffef60f82912f",
+  "runtimeSha256": "3d5313b88c3bd12cd2e697157d04ee0821b9bad428431f29f83ffef60f82912f",
+  "byteIdenticalSourceCopies": true,
+  "alphaThresholdForMeasurementOnly": 24,
+  "backgroundAlphaZero": 568207,
+  "rowCuts": [
+    0,
+    511,
+    1024
+  ],
+  "frames": [
+    {
+      "x": 30,
+      "y": 10,
+      "w": 472,
+      "h": 494,
+      "anchorX": 265.5,
+      "anchorY": 256.5
+    },
+    {
+      "x": 529,
+      "y": 15,
+      "w": 477,
+      "h": 490,
+      "anchorX": 767,
+      "anchorY": 259.5
+    },
+    {
+      "x": 1037,
+      "y": 18,
+      "w": 481,
+      "h": 490,
+      "anchorX": 1277,
+      "anchorY": 262.5
+    },
+    {
+      "x": 17,
+      "y": 515,
+      "w": 486,
+      "h": 491,
+      "anchorX": 259.5,
+      "anchorY": 760
+    },
+    {
+      "x": 520,
+      "y": 525,
+      "w": 497,
+      "h": 462,
+      "anchorX": 768,
+      "anchorY": 755.5
+    },
+    {
+      "x": 1033,
+      "y": 516,
+      "w": 476,
+      "h": 477,
+      "anchorX": 1270.5,
+      "anchorY": 754
+    }
+  ],
+  "measurements": [
+    {
+      "i": 0,
+      "row": 0,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "w": 515,
+        "h": 511
+      },
+      "visibleBounds": {
+        "x": 38,
+        "y": 18,
+        "w": 456,
+        "h": 478
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 150640,
+      "crop": {
+        "x": 30,
+        "y": 10,
+        "w": 472,
+        "h": 494,
+        "anchorX": 265.5,
+        "anchorY": 256.5
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v36/variants/orfeu-unwritten-archon/icons/0.png",
+        "sha256": "2cb3f7996324137a2ed3df6f774c8c8aa8cda5889a36546f0be47d8752932b10",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    },
+    {
+      "i": 1,
+      "row": 0,
+      "col": 1,
+      "cell": {
+        "x": 515,
+        "y": 0,
+        "w": 506,
+        "h": 511
+      },
+      "visibleBounds": {
+        "x": 537,
+        "y": 23,
+        "w": 461,
+        "h": 474
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 159311,
+      "crop": {
+        "x": 529,
+        "y": 15,
+        "w": 477,
+        "h": 490,
+        "anchorX": 767,
+        "anchorY": 259.5
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v36/variants/orfeu-unwritten-archon/icons/1.png",
+        "sha256": "1834f20b8d668370efca561f35b3ac0fb2343fa546258ee6cee6aea099e30ba1",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    },
+    {
+      "i": 2,
+      "row": 0,
+      "col": 2,
+      "cell": {
+        "x": 1021,
+        "y": 0,
+        "w": 515,
+        "h": 511
+      },
+      "visibleBounds": {
+        "x": 1045,
+        "y": 26,
+        "w": 465,
+        "h": 474
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 157704,
+      "crop": {
+        "x": 1037,
+        "y": 18,
+        "w": 481,
+        "h": 490,
+        "anchorX": 1277,
+        "anchorY": 262.5
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v36/variants/orfeu-unwritten-archon/icons/2.png",
+        "sha256": "17bbb67f9de33813b2640999fe350e5a2720b5fed85903d056a83753b18f11d7",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    },
+    {
+      "i": 3,
+      "row": 1,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 511,
+        "w": 511,
+        "h": 513
+      },
+      "visibleBounds": {
+        "x": 25,
+        "y": 523,
+        "w": 470,
+        "h": 475
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 151350,
+      "crop": {
+        "x": 17,
+        "y": 515,
+        "w": 486,
+        "h": 491,
+        "anchorX": 259.5,
+        "anchorY": 760
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v36/variants/orfeu-unwritten-archon/icons/3.png",
+        "sha256": "a1c9b2d0c5506c934efdccac10384909b2b0cc850f93db109dcded6b80651750",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    },
+    {
+      "i": 4,
+      "row": 1,
+      "col": 1,
+      "cell": {
+        "x": 511,
+        "y": 511,
+        "w": 514,
+        "h": 513
+      },
+      "visibleBounds": {
+        "x": 528,
+        "y": 533,
+        "w": 481,
+        "h": 446
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 138856,
+      "crop": {
+        "x": 520,
+        "y": 525,
+        "w": 497,
+        "h": 462,
+        "anchorX": 768,
+        "anchorY": 755.5
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v36/variants/orfeu-unwritten-archon/icons/4.png",
+        "sha256": "fe19a05c36783dc0c880532b98fb477bae5616456cb7eab195a3a6b1d1d2422f",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    },
+    {
+      "i": 5,
+      "row": 1,
+      "col": 2,
+      "cell": {
+        "x": 1025,
+        "y": 511,
+        "w": 511,
+        "h": 513
+      },
+      "visibleBounds": {
+        "x": 1041,
+        "y": 524,
+        "w": 460,
+        "h": 461
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 139726,
+      "crop": {
+        "x": 1033,
+        "y": 516,
+        "w": 476,
+        "h": 477,
+        "anchorX": 1270.5,
+        "anchorY": 754
+      },
+      "anchorMethod": "motif center",
+      "individual": {
+        "path": "public/assets/v36/variants/orfeu-unwritten-archon/icons/5.png",
+        "sha256": "af8c3f63d1d02f24e091b811cc9ec30a7cbf8806aac502277129d29b7461942c",
+        "allNativeRgbaPixelsPreserved": true
+      }
+    }
+  ]
+}

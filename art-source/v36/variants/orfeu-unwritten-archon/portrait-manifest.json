@@ -1,0 +1,22 @@
+{
+  "id": "orfeu-unwritten-archon",
+  "source": "art-source/v36/variants/orfeu-unwritten-archon/portrait-source.png",
+  "runtime": "public/assets/v36/variants/orfeu-unwritten-archon/portrait.png",
+  "width": 977,
+  "height": 1610,
+  "sourceSha256": "42b057fbc0fb4aa42dbc59aae80bc771b275316466ae1f238b4dea9bb489225e",
+  "runtimeSha256": "42b057fbc0fb4aa42dbc59aae80bc771b275316466ae1f238b4dea9bb489225e",
+  "byteIdenticalSourceCopies": true,
+  "alphaThresholdForMeasurementOnly": 24,
+  "visibleEdge": 0,
+  "backgroundAlphaZero": 928783,
+  "face": {
+    "left": 440,
+    "top": 130,
+    "width": 250,
+    "height": 250,
+    "runtime": "public/assets/v36/variants/orfeu-unwritten-archon/face.png",
+    "sha256": "64b023e6678874f8a9497f4bb18837ec41cc7b77047bb21be953d084c1ac6ce1",
+    "allNativeRgbaPixelsPreserved": true
+  }
+}

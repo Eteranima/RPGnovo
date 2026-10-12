@@ -8,6 +8,9 @@ import {cosmeticOf} from './cosmetics';
 import {drawAura} from './aura';
 import {ENVIRONMENT_THEMES,ENVIRONMENT_CROPS,environmentScenery,environmentObject,paintEnvironmentTile,paintEnvironmentEdges,blendEnvironmentSeams} from './environment';
 import {WorldAssetSessionV32,worldAssetPlanV32,emptyWorldAssetPlanV32,type WorldLoadingStatusV32,type WorldAssetSessionOptionsV32} from './worldAssetsV32';
+import {heroArtIdV36} from './variantsV36';
+import {VARIANT_BODY_TOPS_V36} from './variantArtV36';
+import {walkCycleV36} from './walkMotionV36';
 const T=56;
 export type WorldRendererOptionsV32=Pick<WorldAssetSessionOptionsV32,'createImage'|'timeoutMs'|'retainInactive'|'concurrency'> & {onLoadingChange?:(status:WorldLoadingStatusV32)=>void};
 export class WorldRenderer{
@@ -23,7 +26,7 @@ export class WorldRenderer{
   if(this.disposed)return Promise.resolve(false);
   const state=this.engine.state;
   if(state.mode==='start'||state.mode==='selection')return this.assets.load(emptyWorldAssetPlanV32(),retry);
-  const actors=state.heroes.map(hero=>hero.id==='gabriel'&&state.progress.gabrielForm==='lycan'?'gabriel_lycan':hero.id);
+  const actors=state.heroes.map(hero=>heroArtIdV36(hero,state.progress));
   const entities=this.engine.activeEntities().filter(entity=>state.mode!=='battle'||!['mob','boss'].includes(entity.kind));
   return this.assets.load(worldAssetPlanV32(this.engine.map,actors,entities),retry);
  }
@@ -62,9 +65,9 @@ export class WorldRenderer{
   if(atlas!==undefined){const crop=SPRITE_FRAMES[sheet]?.[atlas];if(crop){this.ctx.drawImage(img,crop.x,crop.y,crop.w,crop.h,x-(crop.anchorX-crop.x)*w/512,y-(crop.anchorY-crop.y)*h/512,crop.w*w/512,crop.h*h/512);}else{const sw=img.width/3,sh=img.height/2;this.ctx.drawImage(img,(atlas%3)*sw,Math.floor(atlas/3)*sh,sw,sh,x-w/2,y-h,w,h);}}else this.ctx.drawImage(img,x-w/2,y-h,w,h);
  }
  glow(x:number,y:number,r:number,color:string){const c=this.ctx,g=c.createRadialGradient(x,y,0,x,y,r);g.addColorStop(0,color);g.addColorStop(1,'transparent');c.fillStyle=g;c.fillRect(x-r,y-r,r*2,r*2);}
- actor(key:string,x:number,y:number,facing:number,moving=false){const c=this.ctx,walk=explorationWalkFrame(key,facing,this.frame,moving),sheet=walk?.key||key,img=this.images[sheet];if(!img)return;const fw=img.width/3,fh=img.height/4,step=Math.floor(this.frame/155)%4;const directions=[[0,1,2,1],[5,8,5,8],[3,4,6,7],[9,10,11,10]],standard=ASSETS[key]?.startsWith('/assets/v29/')||!['seiji','ophelia'].includes(key);const cell=walk?.index??(standard?facing*3+(moving?[0,1,2,1][step]:1):directions[facing][moving?step:1]);const h=107,w=h*(fw/fh);
+ actor(key:string,x:number,y:number,facing:number,moving=false,distance?:number){const c=this.ctx,gait=walkCycleV36(distance,moving),walk=explorationWalkFrame(key,facing,gait?gait.phase*8*95:this.frame,moving),sheet=walk?.key||key,img=this.images[sheet];if(!img)return;const fw=img.width/3,fh=img.height/4,step=gait?Math.floor(gait.phase*4):Math.floor(this.frame/155)%4;const directions=[[0,1,2,1],[5,8,5,8],[3,4,6,7],[9,10,11,10]],standard=ASSETS[key]?.startsWith('/assets/v29/')||!['seiji','ophelia'].includes(key);const cell=walk?.index??(standard?facing*3+(moving?[0,1,2,1][step]:1):directions[facing][moving?step:1]);const h=107,w=h*(fw/fh);
   c.save();c.fillStyle='rgba(2,8,14,.4)';c.beginPath();c.ellipse(x,y+2,18,6,0,0,Math.PI*2);c.fill();
-  const bob=moving?Math.sin(this.frame/75)*1:Math.sin(this.frame/600)*.7,crop=walk?.crop||SPRITE_FRAMES[sheet]?.[cell];if(crop){const scale=h/Math.max(1,crop.anchorY-crop.y);c.drawImage(img,crop.x,crop.y,crop.w,crop.h,x-(crop.anchorX-crop.x)*scale,y-(crop.anchorY-crop.y)*scale+bob,crop.w*scale,crop.h*scale);}else c.drawImage(img,(cell%3)*fw,Math.floor(cell/3)*fh,fw,fh,x-w/2,y-h+bob,w,h);c.restore();
+  const bob=gait?gait.bob:moving?Math.sin(this.frame/75)*1:Math.sin(this.frame/600)*.7,crop=walk?.crop||SPRITE_FRAMES[sheet]?.[cell];if(crop){const bodyTop=VARIANT_BODY_TOPS_V36[sheet]?.[cell]??crop.y,scale=h/Math.max(1,crop.anchorY-bodyTop);c.drawImage(img,crop.x,crop.y,crop.w,crop.h,x-(crop.anchorX-crop.x)*scale,y-(crop.anchorY-crop.y)*scale+bob,crop.w*scale,crop.h*scale);}else c.drawImage(img,(cell%3)*fw,Math.floor(cell/3)*fh,fw,fh,x-w/2,y-h+bob,w,h);c.restore();
  }
  marker(e:Entity){if(this.engine.state.mode==='battle'||e.id.startsWith('v31:'))return;const c=this.ctx,x=e.x*T,y=e.y*T;const active=OBJECTIVES[this.engine.state.stage].target===e.id;
   if(e.kind==='warp'){const locked=!!e.minStage&&this.engine.state.stage<e.minStage,img=this.images.env_exits,index={patio:0,arquivo:3,porto:2,domo:6,subsolo:4,camara:5,galeria:5,ashwood:1,ashpyre:7,vigilia:1,'jardim-lunar':6,observatorio:3}[e.to||'patio'],crop=ENVIRONMENT_CROPS.exits[index];c.save();this.glow(x,y-32,85,locked?'#9b80b322':'#ffe4a445');c.globalAlpha=locked?.55:1;if(img&&crop){const scale=115/crop.h;c.drawImage(img,crop.x,crop.y,crop.w,crop.h,x-(crop.anchorX-crop.x)*scale,y-(crop.anchorY-crop.y)*scale,crop.w*scale,crop.h*scale);}c.restore();}
@@ -98,7 +101,7 @@ export class WorldRenderer{
   const things:{y:number;draw:()=>void}[]=m.props.map((prop,index)=>({y:prop.y,draw:()=>this.scenery(m,prop,index)}));
   const inBattle=this.engine.state.mode==='battle',entities=this.engine.activeEntities().filter(e=>!inBattle||!['mob','boss'].includes(e.kind));things.push(...entities.map(e=>({y:e.y,draw:()=>this.entity(e)})));
   if(!inBattle){
-  things.push({y:p.y,draw:()=>{this.glow(p.x*T,p.y*T,46,'rgba(149,196,215,.12)');c.strokeStyle='rgba(186,216,212,.55)';c.lineWidth=1;c.beginPath();c.ellipse(p.x*T,p.y*T+4,24,8,0,0,Math.PI*2);c.stroke();drawAura(c,cosmeticOf(this.engine.state.progress,this.engine.leader().id),p.x*T,p.y*T,time);this.actor(this.engine.leader().id==='gabriel'&&this.engine.state.progress.gabrielForm==='lycan'?'gabriel_lycan':this.engine.leader().id,p.x*T,p.y*T,this.engine.state.facing,this.engine.state.moving);}});
+  things.push({y:p.y,draw:()=>{this.glow(p.x*T,p.y*T,46,'rgba(149,196,215,.12)');c.strokeStyle='rgba(186,216,212,.55)';c.lineWidth=1;c.beginPath();c.ellipse(p.x*T,p.y*T+4,24,8,0,0,Math.PI*2);c.stroke();drawAura(c,cosmeticOf(this.engine.state.progress,this.engine.leader().id),p.x*T,p.y*T,time);this.actor(heroArtIdV36(this.engine.leader(),this.engine.state.progress),p.x*T,p.y*T,this.engine.state.facing,this.engine.state.moving,this.engine.walkDistanceV36);}});
   this.canvas.dataset.auras=this.engine.state.heroes.map(h=>this.engine.state.progress.cosmeticEquipment[h.id]||'').join(',');
   }
   things.sort((a,b)=>a.y-b.y).forEach(o=>o.draw());

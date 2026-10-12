@@ -1,0 +1,207 @@
+{
+  "id": "seiji-last-script",
+  "kind": "companion",
+  "tool": "built-in image_gen",
+  "source": "C:/Users/Diego/.codex/generated_images/01a0fe9c-5a05-7ae0-b816-392e2a3c966b/exec-d228f32a-c0c5-4326-b247-0f6fab05d6b2.png",
+  "selected": "art-source/v36/variants/seiji-last-script/companion-source.png",
+  "runtime": "public/assets/v36/variants/seiji-last-script/companion.png",
+  "width": 1254,
+  "height": 1254,
+  "cols": 2,
+  "rows": 2,
+  "sourceSha256": "f707bd011cb86d431865eb40841f1e548fb557959df851f51880ec386e0bcee0",
+  "selectedSha256": "f707bd011cb86d431865eb40841f1e548fb557959df851f51880ec386e0bcee0",
+  "runtimeSha256": "f707bd011cb86d431865eb40841f1e548fb557959df851f51880ec386e0bcee0",
+  "byteIdenticalSourceCopies": true,
+  "alphaThresholdForMeasurementOnly": 24,
+  "backgroundAlphaZero": 840449,
+  "rowCuts": [
+    0,
+    626,
+    1254
+  ],
+  "frames": [
+    {
+      "x": 88,
+      "y": 18,
+      "w": 515,
+      "h": 606,
+      "anchorX": 350.4,
+      "anchorY": 615
+    },
+    {
+      "x": 672,
+      "y": 19,
+      "w": 541,
+      "h": 605,
+      "anchorX": 954.7,
+      "anchorY": 615
+    },
+    {
+      "x": 44,
+      "y": 630,
+      "w": 570,
+      "h": 604,
+      "anchorX": 350,
+      "anchorY": 1225
+    },
+    {
+      "x": 740,
+      "y": 628,
+      "w": 468,
+      "h": 610,
+      "anchorX": 1007.8,
+      "anchorY": 1229
+    }
+  ],
+  "measurements": [
+    {
+      "i": 0,
+      "row": 0,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "w": 637,
+        "h": 626
+      },
+      "visibleBounds": {
+        "x": 96,
+        "y": 26,
+        "w": 499,
+        "h": 590
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 153594,
+      "crop": {
+        "x": 88,
+        "y": 18,
+        "w": 515,
+        "h": 606,
+        "anchorX": 350.4,
+        "anchorY": 615
+      },
+      "headOrHatTop": 26,
+      "groundSole": 615,
+      "anchorMethod": "foot-band alpha centroid and sole baseline",
+      "originalVisibleTop": 26,
+      "visualReview": {
+        "method": "Individual native RGBA crop inspection; full source sheet for continuity",
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "reviewDate": "2026-10-11"
+      }
+    },
+    {
+      "i": 1,
+      "row": 0,
+      "col": 1,
+      "cell": {
+        "x": 637,
+        "y": 0,
+        "w": 617,
+        "h": 626
+      },
+      "visibleBounds": {
+        "x": 680,
+        "y": 27,
+        "w": 525,
+        "h": 589
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 182004,
+      "crop": {
+        "x": 672,
+        "y": 19,
+        "w": 541,
+        "h": 605,
+        "anchorX": 954.7,
+        "anchorY": 615
+      },
+      "headOrHatTop": 27,
+      "groundSole": 615,
+      "anchorMethod": "foot-band alpha centroid and sole baseline",
+      "originalVisibleTop": 27,
+      "visualReview": {
+        "method": "Individual native RGBA crop inspection; full source sheet for continuity",
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "reviewDate": "2026-10-11"
+      }
+    },
+    {
+      "i": 2,
+      "row": 1,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 626,
+        "w": 677,
+        "h": 628
+      },
+      "visibleBounds": {
+        "x": 52,
+        "y": 638,
+        "w": 554,
+        "h": 588
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 163466,
+      "crop": {
+        "x": 44,
+        "y": 630,
+        "w": 570,
+        "h": 604,
+        "anchorX": 350,
+        "anchorY": 1225
+      },
+      "headOrHatTop": 638,
+      "groundSole": 1225,
+      "anchorMethod": "foot-band alpha centroid and sole baseline",
+      "originalVisibleTop": 638,
+      "visualReview": {
+        "method": "Individual native RGBA crop inspection; full source sheet for continuity",
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "reviewDate": "2026-10-11"
+      }
+    },
+    {
+      "i": 3,
+      "row": 1,
+      "col": 1,
+      "cell": {
+        "x": 677,
+        "y": 626,
+        "w": 577,
+        "h": 628
+      },
+      "visibleBounds": {
+        "x": 748,
+        "y": 636,
+        "w": 452,
+        "h": 594
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 135174,
+      "crop": {
+        "x": 740,
+        "y": 628,
+        "w": 468,
+        "h": 610,
+        "anchorX": 1007.8,
+        "anchorY": 1229
+      },
+      "headOrHatTop": 636,
+      "groundSole": 1229,
+      "anchorMethod": "foot-band alpha centroid and sole baseline",
+      "originalVisibleTop": 636,
+      "visualReview": {
+        "method": "Individual native RGBA crop inspection; full source sheet for continuity",
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "reviewDate": "2026-10-11"
+      }
+    }
+  ]
+}

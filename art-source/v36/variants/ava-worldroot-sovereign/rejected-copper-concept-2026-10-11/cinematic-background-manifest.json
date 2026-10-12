@@ -1,0 +1,21 @@
+{
+  "id": "ava-worldroot-sovereign",
+  "kind": "cinematic-background",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-2cebfc81-f67c-45ef-89ad-65d9774d050c.png",
+  "selected": "art-source/v36/variants/ava-worldroot-sovereign/cinematic-background-source.png",
+  "runtime": "public/assets/v36/variants/ava-worldroot-sovereign/cinematic-background.png",
+  "width": 1672,
+  "height": 941,
+  "requestedRatio": "16:9",
+  "nativeRatio": 1.7768331562167907,
+  "ratioErrorHeightPixels": 0.5,
+  "nativePixelRoundingPreserved": true,
+  "opaquePixels": 1573352,
+  "sourceSha256": "a71398a40ab0edc9344adacdc9cbcdc74f0b953c9f98d66058a66ac36e00802e",
+  "selectedSha256": "a71398a40ab0edc9344adacdc9cbcdc74f0b953c9f98d66058a66ac36e00802e",
+  "runtimeSha256": "a71398a40ab0edc9344adacdc9cbcdc74f0b953c9f98d66058a66ac36e00802e",
+  "byteIdenticalSourceCopies": true,
+  "noResizeCropOrPixelEditing": true,
+  "visualReview": "Full native landscape reviewed: colossal layered stone/ochre quartz cathedral, broad unobstructed stage, no human/animal/text"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "ophelia-white-equinox",
+  "source": "art-source/v36/variants/ophelia-white-equinox/portrait-source.png",
+  "runtime": "public/assets/v36/variants/ophelia-white-equinox/portrait.png",
+  "width": 1024,
+  "height": 1536,
+  "sourceSha256": "59cf206e20e6c525f064f01832dcea49cf1d156233281cc984ad0cd527b4f292",
+  "runtimeSha256": "59cf206e20e6c525f064f01832dcea49cf1d156233281cc984ad0cd527b4f292",
+  "byteIdenticalSourceCopies": true,
+  "alphaThresholdForMeasurementOnly": 24,
+  "visibleEdge": 0,
+  "backgroundAlphaZero": 607246,
+  "face": {
+    "left": 350,
+    "top": 130,
+    "width": 295,
+    "height": 295,
+    "runtime": "public/assets/v36/variants/ophelia-white-equinox/face.png",
+    "sha256": "31c847bdc222eda0c38b821b291964583fbe777d1524f08d570118a467290e14",
+    "allNativeRgbaPixelsPreserved": true
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "source": "art-source/v36/variants/ophelia-white-equinox/walk-candidate.png",
+  "width": 1086,
+  "height": 1448,
+  "alphaZero": 769764,
+  "allPixels": 1572528,
+  "strictAlphaZeroCorridors": false,
+  "horizontal": [
+    {
+      "index": 362,
+      "nonzero": 133
+    },
+    {
+      "index": 714,
+      "nonzero": 165
+    },
+    {
+      "index": 1070,
+      "nonzero": 186
+    }
+  ],
+  "vertical": [
+    [
+      {
+        "index": 361,
+        "nonzero": 0
+      },
+      {
+        "index": 723,
+        "nonzero": 0
+      }
+    ],
+    [
+      {
+        "index": 361,
+        "nonzero": 0
+      },
+      {
+        "index": 723,
+        "nonzero": 0
+      }
+    ],
+    [
+      {
+        "index": 361,
+        "nonzero": 0
+      },
+      {
+        "index": 723,
+        "nonzero": 0
+      }
+    ],
+    [
+      {
+        "index": 362,
+        "nonzero": 0
+      },
+      {
+        "index": 724,
+        "nonzero": 0
+      }
+    ]
+  ],
+  "edges": {
+    "top": 44,
+    "bottom": 0,
+    "left": 5,
+    "right": 0
+  }
+}

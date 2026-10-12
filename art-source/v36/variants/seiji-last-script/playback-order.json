@@ -1,0 +1,48 @@
+{
+  "id": "seiji-last-script",
+  "sourcesRemainRowMajor": true,
+  "walkFacingOrder": [
+    "south",
+    "west",
+    "east",
+    "north"
+  ],
+  "walkStepOrder": [
+    "neutral",
+    "step-left",
+    "step-right"
+  ],
+  "attackPlaybackOrder": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "ultimatePlaybackOrder": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "ultimateContactPlaybackIndex": 5,
+  "ultimateContactNativeOrdinal": 5,
+  "vfxAndIconOrder": [
+    "basic-ink-impact",
+    "paper-fox-projectile",
+    "protection",
+    "control",
+    "signature-codex",
+    "ultimate-paper-palace"
+  ],
+  "companionKeys": [
+    "companion_seiji-last-script",
+    "companion_event_seiji-last-script"
+  ],
+  "previewVerification": "Browser choreography and integration are owned by the root task."
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "ava-worldroot-sovereign",
+    "kind": "walk",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-16560688-f02a-41c9-8991-1d5a740613a7.png",
+    "cols": 3,
+    "rows": 4
+  },
+  {
+    "id": "ava-worldroot-sovereign",
+    "kind": "attack",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-398363b7-165c-43b1-bcfe-343522a3202a.png",
+    "cols": 3,
+    "rows": 2
+  },
+  {
+    "id": "ava-worldroot-sovereign",
+    "kind": "cast",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-389a73a1-c30f-4841-b3e8-e5f8a77ae7aa.png",
+    "cols": 3,
+    "rows": 2
+  },
+  {
+    "id": "ava-worldroot-sovereign",
+    "kind": "ultimate",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-830a4099-02f3-4497-91a7-d47a56716714.png",
+    "cols": 4,
+    "rows": 2
+  }
+]

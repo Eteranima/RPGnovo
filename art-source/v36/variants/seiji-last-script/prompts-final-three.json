@@ -1,0 +1,20 @@
+[
+  {
+    "kind": "ultimate",
+    "prompt": "Edit the reference atlas as a production native RGBA sprite sheet. Keep the EXACT SAME eight Seiji designs, chronological poses, brush in one right hand, codex in the other, two arms and two legs, faces and exquisite anime detail. Repair layout only: arrange all eight complete isolated sprites as 4 columns by 2 rows in equal cells, with at least 40 px fully transparent empty gutters BETWEEN EVERY sprite and 32 px on all four OUTER edges. Shrink each complete character including brush and cloak uniformly within its own cell until there is room for the entire longest horizontal brush. No prop or cloth crossing into another cell. Keep pose 5 (zero-based index5) as the rightward thrust impact. All actors face RIGHT. Full two boots visible; no clipping. No background, no labels, no floor or shadows. Preserve genuine transparent background. Nothing touches any edge or neighbor.",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a0fe9c-5a05-7ae0-b816-392e2a3c966b\\exec-c5b3cfb8-a417-4686-ae95-617f6bc6df74.png",
+    "status": "final-native-pass"
+  },
+  {
+    "kind": "vfx",
+    "prompt": "Edit the reference as a production native RGBA VFX atlas. Preserve exactly the six intricate anime ink/paper/fox/codex/cathedral motifs and their order. Layout repair: 3 columns by 2 rows, six isolated motifs centered in equal cells. Each motif including every ribbon and particle must fit completely with 36px fully transparent space on all four cell edges and a continuous fully empty transparent horizontal gutter through the middle. Shrink motifs uniformly to fit, no overlap of any particles or glow, no clip. Exquisite high detail gold/ivory/carmine/black ink, actual transparent background, no opaque gradient, no floor, no text.",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a0fe9c-5a05-7ae0-b816-392e2a3c966b\\exec-ddc59f63-61d7-4112-9c7a-6424ab4ad3fc.png",
+    "status": "final-native-pass"
+  },
+  {
+    "kind": "icons",
+    "prompt": "Usecase: stylized-concept. NativeRGBA productiongame atlas for Éter Anima Lua deSangue SeijiCódicedoHorizonte. FINAL reference dictates outfit: shorts ilverhair/braid, tiltedwhitefoxmask, angularivorypaperarmor, black/crimson robes, redstole, whiteshinwraps+lacquersandals, brush-spear+origamicodex. Preciseadultanime2arms2hands2legs andbothbootsvisible. Japanesehanddrawn detailedcleaninkline celshade, noWesterncartoon/3D/photo. ClearwidealphaZERO gutters/margins everycell. No backgroundmattefloorcastshadowgradienthazegridtextwatermark. Shapes NEVERtouch/crosscellboundaries. One isolatedmotif/character percell, separate sourceboxes. Exactly6 DISTINCT PREMIUMSKILL ICONS,3COLUMNS×2ROWS LANDSCAPE1536x1024. Floatingisolatedhandpaintedobjects, noframe/text/background; eachiconcontainedin65%cellwithverywidealphaZERO margins. Rowmajor0ornatebrush-spearstroke;1foldedivorypaperfoxandblackinkcurl;2protectiveorigamipageswrappedwithgoldcord;3blackinkseal encircledcrimsonbindingribbon;4DecretodoHorizonteopenfoldedbookandgoldsealwithblackink;5CódicedoHorizonteAberto miniaturepaperpalaceaboveopenorigamicodex blackinkfoxcurve. Richivoryblackcrimsongold, impeccableinklineandcelshade, consistentreadablegameiconcraft. No legibleletters/kanji/text, no borders, no gradient/square/panel, nohumanlimbs.",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a0fe9c-5a05-7ae0-b816-392e2a3c966b\\exec-7545a176-3e12-4524-949a-a8dcdd3e5e30.png",
+    "status": "final-native-pass"
+  }
+]

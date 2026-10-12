@@ -1,0 +1,402 @@
+{
+  "totalKeys": 29,
+  "totalUrls": 28,
+  "totalMiB": 63.15,
+  "decodeMiB": 168,
+  "elapsed": 12351,
+  "rows": [
+    {
+      "url": "/assets/v18/combat-vfx.webp",
+      "keys": [
+        "battle_vfx"
+      ],
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 1345316,
+      "format": "webp",
+      "w": 1536,
+      "h": 1024,
+      "decodedMiB": 6,
+      "ms": 5063
+    },
+    {
+      "url": "/assets/v29/marin/attack.png",
+      "keys": [
+        "battle_marin_attack"
+      ],
+      "status": 200,
+      "mime": "image/png",
+      "bytes": 2404751,
+      "format": "png",
+      "w": 1536,
+      "h": 1024,
+      "decodedMiB": 6,
+      "ms": 7752
+    },
+    {
+      "url": "/assets/v29/marin/cast.png",
+      "keys": [
+        "battle_marin_cast"
+      ],
+      "status": 200,
+      "mime": "image/png",
+      "bytes": 2077776,
+      "format": "png",
+      "w": 1536,
+      "h": 1024,
+      "decodedMiB": 6,
+      "ms": 7050
+    },
+    {
+      "url": "/assets/v29/gabriel/attack.png",
+      "keys": [
+        "battle_gabriel_attack"
+      ],
+      "status": 200,
+      "mime": "image/png",
+      "bytes": 2508447,
+      "format": "png",
+      "w": 1536,
+      "h": 1024,
+      "decodedMiB": 6,
+      "ms": 8968
+    },
+    {
+      "url": "/assets/v29/gabriel/cast.png",
+      "keys": [
+        "battle_gabriel_cast"
+      ],
+      "status": 200,
+      "mime": "image/png",
+      "bytes": 2656108,
+      "format": "png",
+      "w": 1536,
+      "h": 1024,
+      "decodedMiB": 6,
+      "ms": 9748
+    },
+    {
+      "url": "/assets/v29/seiji/attack.png",
+      "keys": [
+        "battle_seiji_attack"
+      ],
+      "status": 200,
+      "mime": "image/png",
+      "bytes": 2479056,
+      "format": "png",
+      "w": 1536,
+      "h": 1024,
+      "decodedMiB": 6,
+      "ms": 8393
+    },
+    {
+      "url": "/assets/v29/seiji/cast.png",
+      "keys": [
+        "battle_seiji_cast"
+      ],
+      "status": 200,
+      "mime": "image/png",
+      "bytes": 2857734,
+      "format": "png",
+      "w": 1536,
+      "h": 1024,
+      "decodedMiB": 6,
+      "ms": 11657
+    },
+    {
+      "url": "/assets/v29/ophelia/attack.png",
+      "keys": [
+        "battle_ophelia_attack"
+      ],
+      "status": 200,
+      "mime": "image/png",
+      "bytes": 2669383,
+      "format": "png",
+      "w": 1536,
+      "h": 1024,
+      "decodedMiB": 6,
+      "ms": 10941
+    },
+    {
+      "url": "/assets/v29/ophelia/cast.png",
+      "keys": [
+        "battle_ophelia_cast"
+      ],
+      "status": 200,
+      "mime": "image/png",
+      "bytes": 2769015,
+      "format": "png",
+      "w": 1536,
+      "h": 1024,
+      "decodedMiB": 6,
+      "ms": 12174
+    },
+    {
+      "url": "/assets/v29/seiji/ultimate.png",
+      "keys": [
+        "battle_seiji_ultimate"
+      ],
+      "status": 200,
+      "mime": "image/png",
+      "bytes": 2260740,
+      "format": "png",
+      "w": 1774,
+      "h": 887,
+      "decodedMiB": 6,
+      "ms": 8472
+    },
+    {
+      "url": "/assets/v29/ophelia/ultimate.png",
+      "keys": [
+        "battle_ophelia_ultimate"
+      ],
+      "status": 200,
+      "mime": "image/png",
+      "bytes": 2165613,
+      "format": "png",
+      "w": 1774,
+      "h": 887,
+      "decodedMiB": 6,
+      "ms": 7957
+    },
+    {
+      "url": "/assets/v29/marin/ultimate.png",
+      "keys": [
+        "battle_marin_ultimate"
+      ],
+      "status": 200,
+      "mime": "image/png",
+      "bytes": 2578940,
+      "format": "png",
+      "w": 1536,
+      "h": 1024,
+      "decodedMiB": 6,
+      "ms": 9938
+    },
+    {
+      "url": "/assets/v29/gabriel/ultimate.png",
+      "keys": [
+        "battle_gabriel_ultimate"
+      ],
+      "status": 200,
+      "mime": "image/png",
+      "bytes": 2616458,
+      "format": "png",
+      "w": 1536,
+      "h": 1024,
+      "decodedMiB": 6,
+      "ms": 10063
+    },
+    {
+      "url": "/assets/v29/seiji/vfx.png",
+      "keys": [
+        "battle_fx_seiji"
+      ],
+      "status": 200,
+      "mime": "image/png",
+      "bytes": 2671406,
+      "format": "png",
+      "w": 1536,
+      "h": 1024,
+      "decodedMiB": 6,
+      "ms": 11982
+    },
+    {
+      "url": "/assets/v29/ophelia/vfx.png",
+      "keys": [
+        "battle_fx_ophelia"
+      ],
+      "status": 200,
+      "mime": "image/png",
+      "bytes": 2590467,
+      "format": "png",
+      "w": 1536,
+      "h": 1024,
+      "decodedMiB": 6,
+      "ms": 10044
+    },
+    {
+      "url": "/assets/v29/marin/vfx.png",
+      "keys": [
+        "battle_fx_marin"
+      ],
+      "status": 200,
+      "mime": "image/png",
+      "bytes": 2497220,
+      "format": "png",
+      "w": 1536,
+      "h": 1024,
+      "decodedMiB": 6,
+      "ms": 9273
+    },
+    {
+      "url": "/assets/v29/gabriel/vfx.png",
+      "keys": [
+        "battle_fx_gabriel",
+        "battle_fx_gabriel_lycan"
+      ],
+      "status": 200,
+      "mime": "image/png",
+      "bytes": 2423103,
+      "format": "png",
+      "w": 1536,
+      "h": 1024,
+      "decodedMiB": 6,
+      "ms": 9081
+    },
+    {
+      "url": "/assets/v29/gabriel_lycan/attack.png",
+      "keys": [
+        "battle_gabriel_lycan_attack"
+      ],
+      "status": 200,
+      "mime": "image/png",
+      "bytes": 2582743,
+      "format": "png",
+      "w": 1536,
+      "h": 1024,
+      "decodedMiB": 6,
+      "ms": 11070
+    },
+    {
+      "url": "/assets/v29/gabriel_lycan/cast.png",
+      "keys": [
+        "battle_gabriel_lycan_cast"
+      ],
+      "status": 200,
+      "mime": "image/png",
+      "bytes": 2690439,
+      "format": "png",
+      "w": 1536,
+      "h": 1024,
+      "decodedMiB": 6,
+      "ms": 10964
+    },
+    {
+      "url": "/assets/v29/gabriel_lycan/ultimate.png",
+      "keys": [
+        "battle_gabriel_lycan_ultimate"
+      ],
+      "status": 200,
+      "mime": "image/png",
+      "bytes": 2626926,
+      "format": "png",
+      "w": 1536,
+      "h": 1024,
+      "decodedMiB": 6,
+      "ms": 10918
+    },
+    {
+      "url": "/assets/v29/abel/attack.png",
+      "keys": [
+        "battle_abel_attack"
+      ],
+      "status": 200,
+      "mime": "image/png",
+      "bytes": 2616507,
+      "format": "png",
+      "w": 1536,
+      "h": 1024,
+      "decodedMiB": 6,
+      "ms": 11998
+    },
+    {
+      "url": "/assets/v29/abel/cast.png",
+      "keys": [
+        "battle_abel_cast"
+      ],
+      "status": 200,
+      "mime": "image/png",
+      "bytes": 2264675,
+      "format": "png",
+      "w": 1536,
+      "h": 1024,
+      "decodedMiB": 6,
+      "ms": 8179
+    },
+    {
+      "url": "/assets/v29/abel/ultimate.png",
+      "keys": [
+        "battle_abel_ultimate"
+      ],
+      "status": 200,
+      "mime": "image/png",
+      "bytes": 2089320,
+      "format": "png",
+      "w": 1774,
+      "h": 887,
+      "decodedMiB": 6,
+      "ms": 6763
+    },
+    {
+      "url": "/assets/v29/abel/vfx.png",
+      "keys": [
+        "battle_fx_abel"
+      ],
+      "status": 200,
+      "mime": "image/png",
+      "bytes": 2766479,
+      "format": "png",
+      "w": 1536,
+      "h": 1024,
+      "decodedMiB": 6,
+      "ms": 12087
+    },
+    {
+      "url": "/assets/world/battle-forest-v14.webp",
+      "keys": [
+        "battle_bg_forest"
+      ],
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 2156072,
+      "format": "webp",
+      "w": 1672,
+      "h": 941,
+      "decodedMiB": 6,
+      "ms": 7017
+    },
+    {
+      "url": "/assets/monsters/enemies-v14.webp",
+      "keys": [
+        "battle_cinder_attack"
+      ],
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 1696090,
+      "format": "webp",
+      "w": 1448,
+      "h": 1086,
+      "decodedMiB": 6,
+      "ms": 6758
+    },
+    {
+      "url": "/assets/v30/enemies/cinder/ultimate.png",
+      "keys": [
+        "ultimate_cinder"
+      ],
+      "status": 200,
+      "mime": "image/png",
+      "bytes": 1396046,
+      "format": "png",
+      "w": 1774,
+      "h": 887,
+      "decodedMiB": 6,
+      "ms": 5609
+    },
+    {
+      "url": "/assets/v18/boss-phases.webp",
+      "keys": [
+        "battle_phases"
+      ],
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 1761442,
+      "format": "webp",
+      "w": 1536,
+      "h": 1024,
+      "decodedMiB": 6,
+      "ms": 5379
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "cinematic-background",
+  "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-1afa-7611-900f-c84542197a68\\exec-c7665712-064c-48b7-a52a-e7f19cb39b9b.png",
+  "selectedSource": "art-source/v36/variants/orfeu-unwritten-archon/cinematic-background-source.png",
+  "runtime": "public/assets/v36/variants/orfeu-unwritten-archon/cinematic-background.png",
+  "sourceSize": {
+    "width": 1672,
+    "height": 941
+  },
+  "nativeCrop": {
+    "left": 4,
+    "top": 2,
+    "width": 1664,
+    "height": 936
+  },
+  "outputSize": {
+    "width": 1664,
+    "height": 936
+  },
+  "aspectRatio": "16:9",
+  "alphaNonOpaque": 0,
+  "sourceSha256": "05008e3e4e5ad7f68bc49a60ee0b2c26a8a579e2285502705c294e9a71c84b28",
+  "runtimeSha256": "87a665b362680b6757756ee614eead32b560a3320bb3d4e95fd916c210394705",
+  "rgbaPixelsUnchanged": true,
+  "notes": "Native centered exact16:9 extract only. No resize, paint, filtering or alpha edits. Neutral stone-page hall, no characters or elemental energy."
+}

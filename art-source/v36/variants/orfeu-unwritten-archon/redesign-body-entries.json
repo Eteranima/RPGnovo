@@ -1,0 +1,84 @@
+[
+  {
+    "id": "orfeu-unwritten-archon",
+    "kind": "walk",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-1afa-7611-900f-c84542197a68\\exec-9ca9503b-6459-4f5c-8694-991e1aabfed4.png",
+    "cols": 3,
+    "rows": 4
+  },
+  {
+    "id": "orfeu-unwritten-archon",
+    "kind": "attack",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-1afa-7611-900f-c84542197a68\\exec-853084b5-7460-42e6-bd83-3b11f649412e.png",
+    "cols": 3,
+    "rows": 2,
+    "anchors": [
+      null,
+      null,
+      [
+        1278.3,
+        491
+      ]
+    ]
+  },
+  {
+    "id": "orfeu-unwritten-archon",
+    "kind": "cast",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-1afa-7611-900f-c84542197a68\\exec-324ba335-9dc4-44f2-bb22-c696bf20a48c.png",
+    "cols": 3,
+    "rows": 2,
+    "anchors": [
+      null,
+      null,
+      [
+        1204.8,
+        501
+      ],
+      [
+        243.1,
+        994
+      ]
+    ],
+    "colCuts": [
+      [
+        0,
+        487,
+        954,
+        1536
+      ],
+      [
+        0,
+        575,
+        1025,
+        1536
+      ]
+    ]
+  },
+  {
+    "id": "orfeu-unwritten-archon",
+    "kind": "ultimate",
+    "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-1afa-7611-900f-c84542197a68\\exec-3ebac116-85f9-4ba5-8307-86a983d8cfe1.png",
+    "cols": 4,
+    "rows": 2,
+    "anchors": [
+      null,
+      null,
+      [
+        959.7,
+        496
+      ],
+      [
+        1347.5,
+        508
+      ],
+      [
+        173.8,
+        973
+      ],
+      [
+        547.2,
+        973
+      ]
+    ]
+  }
+]

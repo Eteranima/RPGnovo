@@ -1,30 +1,41 @@
 .party{display:grid;grid-template-columns:repeat(var(--party-count),minmax(0,1fr));gap:7px;flex:0 0 94px;min-height:94px;height:94px;padding:3px 10px 5px;background:linear-gradient(180deg,#102435,#081521);border-top:1px solid #c9af6d66;overflow:hidden;min-width:0;color:#edf0ed}
-.card{position:relative;min-width:0;width:100%;max-width:350px;justify-self:center;height:86px;display:grid;grid-template-rows:43px 29px 12px;border-radius:6px;background:#071721cc;box-shadow:inset 0 0 0 1px #b69c6538}
+.card{--card-background:#33353a;--card-foreground:#fff0db;--card-secondary:#eedbc5;--card-ultimate:#ffe7ae;--card-ultimate-ready:#fff2b2;--card-ultimate-track:#625434;--card-ultimate-fill:linear-gradient(90deg,#b68a37,#fae1a0);position:relative;min-width:0;width:100%;max-width:350px;justify-self:center;height:86px;display:grid;grid-template-rows:43px 29px 12px;border-radius:6px;background:var(--card-background);box-shadow:inset 0 0 0 1px #b69c6538;color:var(--card-foreground)}
+.card[data-hero=ava]{--card-background:#4b3020}
+.card[data-hero=seiji]{--card-background:#fff}
+.card[data-hero=ophelia]{--card-background:#184d98}
+.card[data-hero=marin]{--card-background:#08080b}
+.card[data-hero=carmilla]{--card-background:#4d0b22}
+.card:is([data-hero=gabriel],[data-hero=abel]){--card-background:#651916}
+.card[data-hero=beatriz]{--card-background:linear-gradient(90deg,#164c83 0 50%,#08080b 50% 100%)}
+.card[data-hero=max]{--card-background:#ffdc32}
+.card[data-hero=orfeu]{--card-background:#33353a}
+.card:is([data-hero=seiji],[data-hero=max]){--card-foreground:#20242d;--card-secondary:#343a44;--card-ultimate:#594114;--card-ultimate-ready:#4d3500;--card-ultimate-track:#c4b681;--card-ultimate-fill:linear-gradient(90deg,#674510,#906020)}
 .card[data-current]{box-shadow:inset 0 0 0 1px #f5d17f99,0 0 7px #e6c16a3d}
-.card[data-fallen]{opacity:.62}
+.card[data-fallen] .identity{filter:grayscale(.8)}
 .identity{position:relative;min-width:0;height:43px;overflow:visible}
 .frame{position:absolute;inset:0;width:100%;height:43px;object-fit:fill;pointer-events:none}
 .identity>:global(.character-portrait){position:absolute!important;left:8px!important;top:1px!important;width:44px!important;height:44px!important;transform:none!important;z-index:2;pointer-events:none}
 .heading{position:relative;z-index:1;display:flex;flex-direction:column;justify-content:center;gap:0;height:43px;min-width:0;padding:7px 24px 6px 60px;color:#fff0dc;text-shadow:0 1px 2px #100b0780}
 .heading>strong{font-family:Georgia,serif;font-size:13px;line-height:14px;font-weight:700;white-space:nowrap}
+.rarity{display:inline-block;margin-left:4px;font:600 8px/10px system-ui,sans-serif;vertical-align:middle;letter-spacing:0}
 .heading>span{font-size:9px;line-height:10px;white-space:nowrap}
 .card:is([data-hero=seiji],[data-hero=max],[data-hero=ophelia]) .heading{color:#192538;text-shadow:0 1px 1px #fff4}
 .vitals{display:grid;grid-template-rows:14px 14px;padding:0 12px;min-width:0}
 .vital{display:grid;grid-template-columns:14px minmax(0,1fr) 62px;gap:3px;align-items:center;min-width:0;height:14px;font-size:10px;line-height:12px}
-.vital>span:first-child{font-size:9px;color:#f4decb}
+.vital>span:first-child{font-size:9px;color:var(--card-secondary)}
 .vessel{position:relative;height:16px;min-width:0;isolation:isolate}
 .vessel>img{position:absolute;inset:0;width:100%;height:100%;object-fit:fill;z-index:2;pointer-events:none}
 .track{position:absolute;z-index:1;display:block;overflow:hidden;border-radius:99px;background:#1b172285}
 .track>i{display:block;height:100%;background:linear-gradient(90deg,#a5283e,#ff7871)}
 .vital[data-kind=mp] .track>i{background:linear-gradient(90deg,#315abc,#79dafa)}
 .vessel[data-above] .track{z-index:3}
-.numbers{display:flex;justify-content:flex-end;white-space:nowrap;font-size:10px;font-variant-numeric:tabular-nums;color:#fff0db;font-weight:600}
-.numbers>span{color:#bfcfdd;font-weight:400}
-.ultimate{display:grid;grid-template-columns:22px minmax(0,1fr) 38px;align-items:center;gap:5px;padding:1px 13px 0;font-size:8px;line-height:10px;min-width:0;color:#d4be8b}
+.numbers{display:flex;justify-content:flex-end;white-space:nowrap;font-size:10px;font-variant-numeric:tabular-nums;color:var(--card-foreground);font-weight:600}
+.numbers>span{color:var(--card-secondary);font-weight:400}
+.ultimate{display:grid;grid-template-columns:22px minmax(0,1fr) 38px;align-items:center;gap:5px;padding:1px 13px 0;font-size:8px;line-height:10px;min-width:0;color:var(--card-ultimate)}
 .ultimate>strong{text-align:right;white-space:nowrap;font-size:9px;font-weight:400}
-.ultimateTrack{display:block;height:3px;border-radius:8px;overflow:hidden;background:#f5dc9d22}
-.ultimateTrack>i{display:block;height:100%;background:linear-gradient(90deg,#b68a37,#fae1a0)}
-.ultimate[data-ready]{color:#fff2b2}
+.ultimateTrack{display:block;height:3px;border-radius:8px;overflow:hidden;background:var(--card-ultimate-track)}
+.ultimateTrack>i{display:block;height:100%;background:var(--card-ultimate-fill)}
+.ultimate[data-ready]{color:var(--card-ultimate-ready)}
 .ultimate[data-ready] .ultimateTrack{box-shadow:0 0 4px #f4d89988}
 .party.exploration{height:112px;min-height:112px;flex-basis:112px;grid-template-rows:86px 14px;row-gap:3px}
 .exploration .card[data-current]{box-shadow:inset 0 0 0 1px #f5d17fcc,0 0 7px #e6c16a3d}
@@ -43,3 +54,40 @@
 @media(orientation:landscape) and (max-height:440px){.party.exploration{height:82px;min-height:82px;flex-basis:82px;grid-template-rows:63px 12px;row-gap:1px}.resourceStrip{font-size:9px;line-height:11px}.resourceStrip>small{font-size:9px}.slotNumber{top:3px;width:12px;height:12px;font-size:8px}}
 @media(max-width:600px) and (orientation:portrait){.party{height:auto;min-height:0;flex-basis:auto;grid-template-columns:repeat(3,minmax(0,1fr));padding:4px;gap:4px}.card{height:82px}.heading{padding-left:39px;padding-right:8px}.identity>:global(.character-portrait){left:2px!important;width:33px!important;height:33px!important;top:4px!important}.heading>strong{font-size:11px}.heading>span{font-size:8px}.vitals{padding:0 5px}.vital{grid-template-columns:12px minmax(0,1fr) 54px;gap:1px}.numbers{font-size:9px}.ultimate{padding-left:6px;padding-right:6px;grid-template-columns:17px minmax(0,1fr) 30px;font-size:7px}.ultimate>strong{font-size:8px}}
 @media(max-width:600px) and (orientation:portrait){.party.exploration{height:auto;min-height:0;flex-basis:auto;grid-template-rows:none;row-gap:4px}.exploration .heading{padding-right:21px}.slotNumber{right:3px}.resourceStrip{flex-wrap:wrap;gap:2px 8px;font-size:9px;line-height:12px}.resourceStrip>small{max-width:100%}.leaderLabel>span{display:none}}
+
+/* Combat is intentionally functional and small; exploration keeps its native cards. */
+.party.compactParty{height:40px;min-height:40px;flex-basis:40px;grid-template-columns:repeat(var(--party-count),minmax(0,1fr));grid-template-rows:36px;padding:1px 6px 2px;gap:4px;border-top:1px solid #b3a27266}
+.compactParty .compactCard{display:grid;grid-template-columns:48px minmax(0,1fr);grid-template-rows:36px;align-items:center;gap:4px;height:36px;max-width:300px;padding:0 6px 0 3px;border-radius:3px;box-shadow:inset 0 0 0 1px #69788755;overflow:hidden}
+.compactCard[data-current]{box-shadow:inset 0 2px 0 #c69a35,inset 0 0 0 1px #bb8d2999}
+.compactCard[data-ally-target]{box-shadow:inset 0 -2px 0 #1686a5,inset 0 0 0 1px #1686a566}
+.compactCard[data-current][data-ally-target]{box-shadow:inset 0 2px 0 #c69a35,inset 0 -2px 0 #1686a5,inset 0 0 0 1px #bb8d2999}
+.compactIdentity{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:0;min-width:0;height:36px;overflow:hidden}
+.compactIdentity>img{display:block;width:26px;height:26px;object-fit:cover;object-position:center;border-radius:3px;flex:none}
+.compactIdentity>strong{font-size:10px;line-height:10px;font-weight:600;white-space:nowrap;color:var(--card-foreground)}
+.compactCard[data-fallen] .compactIdentity{filter:grayscale(1);opacity:.65}
+.compactVitals{display:grid;grid-template-rows:repeat(3,12px);min-width:0;max-width:230px;width:100%;justify-self:end}
+.compactMetric{position:relative;display:flex;align-items:center;justify-content:space-between;gap:2px;min-width:0;height:12px;padding-bottom:1px;font-size:11px;line-height:11px;font-variant-numeric:tabular-nums;color:var(--card-foreground)}
+.compactMetric>span:first-child{font-size:9px;line-height:10px;color:var(--card-secondary)}
+.compactMetric>strong{position:relative;z-index:1;font-size:11px;line-height:11px;font-weight:600;white-space:nowrap}
+.compactMetric>strong>span{font-weight:400;color:var(--card-secondary)}
+.compactMetric[data-kind=ult]>span:first-child{font-size:9px;color:var(--card-ultimate)}
+.compactMetric[data-kind=ult]>strong{color:var(--card-ultimate)}
+.compactRail{position:absolute;left:0;right:0;bottom:0;height:1px;overflow:hidden;background:#6c798b44;pointer-events:none}
+.compactRail>i{display:block;height:100%;background:#e05661}
+.compactMetric[data-kind=mp] .compactRail>i{background:#5ba5e1}
+.compactMetric[data-kind=ult] .compactRail>i{background:var(--card-ultimate-fill)}
+.compactMetric[data-ready]>strong{font-weight:700;color:var(--card-ultimate-ready)}
+.selectTarget{position:absolute;z-index:3;inset:0;width:100%;height:100%;min-height:36px!important;padding:0!important;border:0!important;border-radius:3px!important;background:transparent!important;box-shadow:none!important;transform:none!important;cursor:pointer}
+.selectTarget:focus-visible{outline:2px solid #28b2cf!important;outline-offset:-2px!important}
+.selectTarget:disabled{cursor:default}
+@media(max-width:600px) and (orientation:portrait){
+ .party.compactParty{height:60px;min-height:60px;flex-basis:60px;grid-template-rows:54px;gap:3px;padding:2px 4px 3px}
+ .compactParty .compactCard{height:54px;grid-template-columns:minmax(0,1fr);grid-template-rows:18px 33px;gap:0;padding:1px 3px 2px;max-width:none}
+ .compactIdentity{height:18px;flex-direction:row;gap:3px;justify-content:center}
+ .compactIdentity>img{width:18px;height:18px}
+ .compactIdentity>strong{font-size:10px;line-height:11px}
+ .compactVitals{grid-template-rows:repeat(3,11px);max-width:none}
+ .compactMetric{height:11px;font-size:11px;line-height:11px}
+ .compactMetric>strong{font-size:11px;line-height:11px}
+ .compactMetric>span:first-child{font-size:9px}
+}

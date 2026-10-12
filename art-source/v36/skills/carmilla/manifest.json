@@ -1,0 +1,168 @@
+{
+  "hero": "carmilla",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-1afa-7611-900f-c84542197a68\\exec-d87bb425-9366-4aca-8863-e7145a5bcbf9.png",
+  "sourceSha256": "eaf8bf4d5643f5de8509e6de1eeddad8dbb8254b3f249c21005ac4d023a87e08",
+  "selectedSha256": "eaf8bf4d5643f5de8509e6de1eeddad8dbb8254b3f249c21005ac4d023a87e08",
+  "width": 1536,
+  "height": 1024,
+  "cols": 2,
+  "rows": 2,
+  "ids": [
+    "sanguine-lance",
+    "red-veil",
+    "blood-tax",
+    "hematic-focus"
+  ],
+  "rowCuts": [
+    0,
+    498,
+    1024
+  ],
+  "backgroundAlphaZero": 952510,
+  "alphaThresholdForMeasurementOnly": 24,
+  "frames": [
+    {
+      "x": 161,
+      "y": 5,
+      "w": 557,
+      "h": 493
+    },
+    {
+      "x": 842,
+      "y": 4,
+      "w": 517,
+      "h": 494
+    },
+    {
+      "x": 174,
+      "y": 498,
+      "w": 528,
+      "h": 501
+    },
+    {
+      "x": 828,
+      "y": 498,
+      "w": 539,
+      "h": 500
+    }
+  ],
+  "measurements": [
+    {
+      "id": "sanguine-lance",
+      "index": 0,
+      "row": 0,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "w": 780,
+        "h": 498
+      },
+      "visibleBounds": {
+        "x": 169,
+        "y": 13,
+        "w": 541,
+        "h": 482
+      },
+      "visiblePixels": 144692,
+      "visibleEdgePixels": 0,
+      "crop": {
+        "x": 161,
+        "y": 5,
+        "w": 557,
+        "h": 493
+      },
+      "runtime": "public/assets/v36/skills/carmilla/sanguine-lance.png",
+      "sha256": "a3ffba4c79e72027235617f796af409d8c36b9e1a20e79becd8167b1b1ded764",
+      "nativeRgbaPreserved": true
+    },
+    {
+      "id": "red-veil",
+      "index": 1,
+      "row": 0,
+      "col": 1,
+      "cell": {
+        "x": 780,
+        "y": 0,
+        "w": 756,
+        "h": 498
+      },
+      "visibleBounds": {
+        "x": 850,
+        "y": 12,
+        "w": 501,
+        "h": 482
+      },
+      "visiblePixels": 145435,
+      "visibleEdgePixels": 0,
+      "crop": {
+        "x": 842,
+        "y": 4,
+        "w": 517,
+        "h": 494
+      },
+      "runtime": "public/assets/v36/skills/carmilla/red-veil.png",
+      "sha256": "16ffc6da5b83cc095010e30313a262edc5ad4623498f3a47758e8a1b6730c60a",
+      "nativeRgbaPreserved": true
+    },
+    {
+      "id": "blood-tax",
+      "index": 2,
+      "row": 1,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 498,
+        "w": 765,
+        "h": 526
+      },
+      "visibleBounds": {
+        "x": 182,
+        "y": 502,
+        "w": 512,
+        "h": 489
+      },
+      "visiblePixels": 143971,
+      "visibleEdgePixels": 0,
+      "crop": {
+        "x": 174,
+        "y": 498,
+        "w": 528,
+        "h": 501
+      },
+      "runtime": "public/assets/v36/skills/carmilla/blood-tax.png",
+      "sha256": "7abf085c0643064ec97f94877e593c9bfb510f2649f07570804335e4e56d6d64",
+      "nativeRgbaPreserved": true
+    },
+    {
+      "id": "hematic-focus",
+      "index": 3,
+      "row": 1,
+      "col": 1,
+      "cell": {
+        "x": 765,
+        "y": 498,
+        "w": 771,
+        "h": 526
+      },
+      "visibleBounds": {
+        "x": 836,
+        "y": 503,
+        "w": 523,
+        "h": 487
+      },
+      "visiblePixels": 142159,
+      "visibleEdgePixels": 0,
+      "crop": {
+        "x": 828,
+        "y": 498,
+        "w": 539,
+        "h": 500
+      },
+      "runtime": "public/assets/v36/skills/carmilla/hematic-focus.png",
+      "sha256": "664d604dcb99eaed215a4a2c5539b48d52c3561657a4c97bbef42410cb0d063c",
+      "nativeRgbaPreserved": true
+    }
+  ]
+}

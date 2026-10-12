@@ -1,0 +1,285 @@
+{
+  "id": "ava-worldroot-sovereign",
+  "kind": "vfx",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-7f1146f5-827f-45be-b398-2c2b447c5c28.png",
+  "selected": "art-source/v36/variants/ava-worldroot-sovereign/vfx-source.png",
+  "runtime": "public/assets/v36/variants/ava-worldroot-sovereign/vfx.png",
+  "width": 1536,
+  "height": 1024,
+  "cols": 3,
+  "rows": 2,
+  "sourceSha256": "236f7b674aa267052529ff78f0a96ff411529f3dfd20695723b97a33ef6ff3e6",
+  "selectedSha256": "236f7b674aa267052529ff78f0a96ff411529f3dfd20695723b97a33ef6ff3e6",
+  "runtimeSha256": "236f7b674aa267052529ff78f0a96ff411529f3dfd20695723b97a33ef6ff3e6",
+  "byteIdenticalSourceCopies": true,
+  "alphaThresholdForMeasurementOnly": 24,
+  "backgroundAlphaZero": 661548,
+  "rowCuts": [
+    0,
+    496,
+    1024
+  ],
+  "frames": [
+    {
+      "x": 30,
+      "y": 30,
+      "w": 467,
+      "h": 458,
+      "anchorX": 263,
+      "anchorY": 258.5
+    },
+    {
+      "x": 532,
+      "y": 116,
+      "w": 490,
+      "h": 276,
+      "anchorX": 776.5,
+      "anchorY": 253.5
+    },
+    {
+      "x": 1040,
+      "y": 13,
+      "w": 476,
+      "h": 474,
+      "anchorX": 1277.5,
+      "anchorY": 249.5
+    },
+    {
+      "x": 40,
+      "y": 558,
+      "w": 448,
+      "h": 430,
+      "anchorX": 263.5,
+      "anchorY": 772.5
+    },
+    {
+      "x": 538,
+      "y": 505,
+      "w": 460,
+      "h": 492,
+      "anchorX": 767.5,
+      "anchorY": 750.5
+    },
+    {
+      "x": 1044,
+      "y": 506,
+      "w": 473,
+      "h": 506,
+      "anchorX": 1280,
+      "anchorY": 758.5
+    }
+  ],
+  "measurements": [
+    {
+      "i": 0,
+      "row": 0,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "w": 514,
+        "h": 496
+      },
+      "visibleBounds": {
+        "x": 38,
+        "y": 38,
+        "w": 451,
+        "h": 442
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 127657,
+      "crop": {
+        "x": 30,
+        "y": 30,
+        "w": 467,
+        "h": 458,
+        "anchorX": 263,
+        "anchorY": 258.5
+      },
+      "anchorMethod": "motif center",
+      "visualReview": {
+        "method": "Individual native crop and whole-sheet continuity",
+        "reviewed": true,
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "date": "2026-10-11"
+      }
+    },
+    {
+      "i": 1,
+      "row": 0,
+      "col": 1,
+      "cell": {
+        "x": 514,
+        "y": 0,
+        "w": 517,
+        "h": 496
+      },
+      "visibleBounds": {
+        "x": 540,
+        "y": 124,
+        "w": 474,
+        "h": 260
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 69488,
+      "crop": {
+        "x": 532,
+        "y": 116,
+        "w": 490,
+        "h": 276,
+        "anchorX": 776.5,
+        "anchorY": 253.5
+      },
+      "anchorMethod": "motif center",
+      "visualReview": {
+        "method": "Individual native crop and whole-sheet continuity",
+        "reviewed": true,
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "date": "2026-10-11"
+      }
+    },
+    {
+      "i": 2,
+      "row": 0,
+      "col": 2,
+      "cell": {
+        "x": 1031,
+        "y": 0,
+        "w": 505,
+        "h": 496
+      },
+      "visibleBounds": {
+        "x": 1048,
+        "y": 21,
+        "w": 460,
+        "h": 458
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 147734,
+      "crop": {
+        "x": 1040,
+        "y": 13,
+        "w": 476,
+        "h": 474,
+        "anchorX": 1277.5,
+        "anchorY": 249.5
+      },
+      "anchorMethod": "motif center",
+      "visualReview": {
+        "method": "Individual native crop and whole-sheet continuity",
+        "reviewed": true,
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "date": "2026-10-11"
+      }
+    },
+    {
+      "i": 3,
+      "row": 1,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 496,
+        "w": 513,
+        "h": 528
+      },
+      "visibleBounds": {
+        "x": 48,
+        "y": 566,
+        "w": 432,
+        "h": 414
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 115936,
+      "crop": {
+        "x": 40,
+        "y": 558,
+        "w": 448,
+        "h": 430,
+        "anchorX": 263.5,
+        "anchorY": 772.5
+      },
+      "anchorMethod": "motif center",
+      "visualReview": {
+        "method": "Individual native crop and whole-sheet continuity",
+        "reviewed": true,
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "date": "2026-10-11"
+      }
+    },
+    {
+      "i": 4,
+      "row": 1,
+      "col": 1,
+      "cell": {
+        "x": 513,
+        "y": 496,
+        "w": 508,
+        "h": 528
+      },
+      "visibleBounds": {
+        "x": 546,
+        "y": 513,
+        "w": 444,
+        "h": 476
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 128441,
+      "crop": {
+        "x": 538,
+        "y": 505,
+        "w": 460,
+        "h": 492,
+        "anchorX": 767.5,
+        "anchorY": 750.5
+      },
+      "anchorMethod": "motif center",
+      "visualReview": {
+        "method": "Individual native crop and whole-sheet continuity",
+        "reviewed": true,
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "date": "2026-10-11"
+      }
+    },
+    {
+      "i": 5,
+      "row": 1,
+      "col": 2,
+      "cell": {
+        "x": 1021,
+        "y": 496,
+        "w": 515,
+        "h": 528
+      },
+      "visibleBounds": {
+        "x": 1052,
+        "y": 514,
+        "w": 457,
+        "h": 490
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 123356,
+      "crop": {
+        "x": 1044,
+        "y": 506,
+        "w": 473,
+        "h": 506,
+        "anchorX": 1280,
+        "anchorY": 758.5
+      },
+      "anchorMethod": "motif center",
+      "visualReview": {
+        "method": "Individual native crop and whole-sheet continuity",
+        "reviewed": true,
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "date": "2026-10-11"
+      }
+    }
+  ]
+}

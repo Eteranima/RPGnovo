@@ -1,0 +1,621 @@
+{
+  "nativeRowsVerified": 17821,
+  "crops": [
+    {
+      "kind": "walk",
+      "i": 0,
+      "path": "review/walk/00.png",
+      "crop": {
+        "x": 89,
+        "y": 41,
+        "w": 187,
+        "h": 310,
+        "anchorX": 189,
+        "anchorY": 342
+      },
+      "nativeRgbaPreserved": true
+    },
+    {
+      "kind": "walk",
+      "i": 1,
+      "path": "review/walk/01.png",
+      "crop": {
+        "x": 442,
+        "y": 41,
+        "w": 184,
+        "h": 314,
+        "anchorX": 548,
+        "anchorY": 346
+      },
+      "nativeRgbaPreserved": true
+    },
+    {
+      "kind": "walk",
+      "i": 2,
+      "path": "review/walk/02.png",
+      "crop": {
+        "x": 797,
+        "y": 41,
+        "w": 185,
+        "h": 317,
+        "anchorX": 893,
+        "anchorY": 349
+      },
+      "nativeRgbaPreserved": true
+    },
+    {
+      "kind": "walk",
+      "i": 3,
+      "path": "review/walk/03.png",
+      "crop": {
+        "x": 123,
+        "y": 387,
+        "w": 160,
+        "h": 306,
+        "anchorX": 185,
+        "anchorY": 684
+      },
+      "nativeRgbaPreserved": true
+    },
+    {
+      "kind": "walk",
+      "i": 4,
+      "path": "review/walk/04.png",
+      "crop": {
+        "x": 446,
+        "y": 386,
+        "w": 208,
+        "h": 302,
+        "anchorX": 529,
+        "anchorY": 679
+      },
+      "nativeRgbaPreserved": true
+    },
+    {
+      "kind": "walk",
+      "i": 5,
+      "path": "review/walk/05.png",
+      "crop": {
+        "x": 797,
+        "y": 390,
+        "w": 213,
+        "h": 301,
+        "anchorX": 887,
+        "anchorY": 682
+      },
+      "nativeRgbaPreserved": true
+    },
+    {
+      "kind": "walk",
+      "i": 6,
+      "path": "review/walk/06.png",
+      "crop": {
+        "x": 83,
+        "y": 719,
+        "w": 175,
+        "h": 311,
+        "anchorX": 204,
+        "anchorY": 1021
+      },
+      "nativeRgbaPreserved": true
+    },
+    {
+      "kind": "walk",
+      "i": 7,
+      "path": "review/walk/07.png",
+      "crop": {
+        "x": 445,
+        "y": 720,
+        "w": 206,
+        "h": 305,
+        "anchorX": 567,
+        "anchorY": 1016
+      },
+      "nativeRgbaPreserved": true
+    },
+    {
+      "kind": "walk",
+      "i": 8,
+      "path": "review/walk/08.png",
+      "crop": {
+        "x": 791,
+        "y": 722,
+        "w": 215,
+        "h": 302,
+        "anchorX": 922,
+        "anchorY": 1015
+      },
+      "nativeRgbaPreserved": true
+    },
+    {
+      "kind": "walk",
+      "i": 9,
+      "path": "review/walk/09.png",
+      "crop": {
+        "x": 100,
+        "y": 1068,
+        "w": 190,
+        "h": 318,
+        "anchorX": 183,
+        "anchorY": 1377
+      },
+      "nativeRgbaPreserved": true
+    },
+    {
+      "kind": "walk",
+      "i": 10,
+      "path": "review/walk/10.png",
+      "crop": {
+        "x": 466,
+        "y": 1068,
+        "w": 182,
+        "h": 327,
+        "anchorX": 543,
+        "anchorY": 1386
+      },
+      "nativeRgbaPreserved": true
+    },
+    {
+      "kind": "walk",
+      "i": 11,
+      "path": "review/walk/11.png",
+      "crop": {
+        "x": 816,
+        "y": 1069,
+        "w": 182,
+        "h": 327,
+        "anchorX": 896,
+        "anchorY": 1387
+      },
+      "nativeRgbaPreserved": true
+    },
+    {
+      "kind": "attack",
+      "i": 0,
+      "path": "review/attack/00.png",
+      "crop": {
+        "x": 62,
+        "y": 19,
+        "w": 310,
+        "h": 477,
+        "anchorX": 241,
+        "anchorY": 487
+      },
+      "nativeRgbaPreserved": true
+    },
+    {
+      "kind": "attack",
+      "i": 1,
+      "path": "review/attack/01.png",
+      "crop": {
+        "x": 538,
+        "y": 39,
+        "w": 377,
+        "h": 452,
+        "anchorX": 742,
+        "anchorY": 482
+      },
+      "nativeRgbaPreserved": true
+    },
+    {
+      "kind": "attack",
+      "i": 2,
+      "path": "review/attack/02.png",
+      "crop": {
+        "x": 1030,
+        "y": 39,
+        "w": 451,
+        "h": 449,
+        "anchorX": 1245,
+        "anchorY": 479
+      },
+      "nativeRgbaPreserved": true
+    },
+    {
+      "kind": "attack",
+      "i": 3,
+      "path": "review/attack/03.png",
+      "crop": {
+        "x": 36,
+        "y": 547,
+        "w": 480,
+        "h": 449,
+        "anchorX": 270,
+        "anchorY": 987
+      },
+      "nativeRgbaPreserved": true
+    },
+    {
+      "kind": "attack",
+      "i": 4,
+      "path": "review/attack/04.png",
+      "crop": {
+        "x": 556,
+        "y": 552,
+        "w": 389,
+        "h": 442,
+        "anchorX": 775,
+        "anchorY": 985
+      },
+      "nativeRgbaPreserved": true
+    },
+    {
+      "kind": "attack",
+      "i": 5,
+      "path": "review/attack/05.png",
+      "crop": {
+        "x": 1087,
+        "y": 531,
+        "w": 344,
+        "h": 466,
+        "anchorX": 1284,
+        "anchorY": 988
+      },
+      "nativeRgbaPreserved": true
+    },
+    {
+      "kind": "cast",
+      "i": 0,
+      "path": "review/cast/00.png",
+      "crop": {
+        "x": 87,
+        "y": 33,
+        "w": 343,
+        "h": 480,
+        "anchorX": 284,
+        "anchorY": 504
+      },
+      "nativeRgbaPreserved": true
+    },
+    {
+      "kind": "cast",
+      "i": 1,
+      "path": "review/cast/01.png",
+      "crop": {
+        "x": 603,
+        "y": 32,
+        "w": 326,
+        "h": 481,
+        "anchorX": 798,
+        "anchorY": 504
+      },
+      "nativeRgbaPreserved": true
+    },
+    {
+      "kind": "cast",
+      "i": 2,
+      "path": "review/cast/02.png",
+      "crop": {
+        "x": 1107,
+        "y": 33,
+        "w": 358,
+        "h": 480,
+        "anchorX": 1307,
+        "anchorY": 504
+      },
+      "nativeRgbaPreserved": true
+    },
+    {
+      "kind": "cast",
+      "i": 3,
+      "path": "review/cast/03.png",
+      "crop": {
+        "x": 51,
+        "y": 562,
+        "w": 418,
+        "h": 415,
+        "anchorX": 258,
+        "anchorY": 968
+      },
+      "nativeRgbaPreserved": true
+    },
+    {
+      "kind": "cast",
+      "i": 4,
+      "path": "review/cast/04.png",
+      "crop": {
+        "x": 529,
+        "y": 554,
+        "w": 590,
+        "h": 430,
+        "anchorX": 759,
+        "anchorY": 975
+      },
+      "nativeRgbaPreserved": true
+    },
+    {
+      "kind": "cast",
+      "i": 5,
+      "path": "review/cast/05.png",
+      "crop": {
+        "x": 1121,
+        "y": 535,
+        "w": 341,
+        "h": 470,
+        "anchorX": 1325,
+        "anchorY": 996
+      },
+      "nativeRgbaPreserved": true
+    },
+    {
+      "kind": "ultimate",
+      "i": 0,
+      "path": "review/ultimate/00.png",
+      "crop": {
+        "x": 76,
+        "y": 33,
+        "w": 297,
+        "h": 417,
+        "anchorX": 257,
+        "anchorY": 441
+      },
+      "nativeRgbaPreserved": true
+    },
+    {
+      "kind": "ultimate",
+      "i": 1,
+      "path": "review/ultimate/01.png",
+      "crop": {
+        "x": 502,
+        "y": 33,
+        "w": 302,
+        "h": 417,
+        "anchorX": 681,
+        "anchorY": 441
+      },
+      "nativeRgbaPreserved": true
+    },
+    {
+      "kind": "ultimate",
+      "i": 2,
+      "path": "review/ultimate/02.png",
+      "crop": {
+        "x": 915,
+        "y": 33,
+        "w": 314,
+        "h": 417,
+        "anchorX": 1094,
+        "anchorY": 441
+      },
+      "nativeRgbaPreserved": true
+    },
+    {
+      "kind": "ultimate",
+      "i": 3,
+      "path": "review/ultimate/03.png",
+      "crop": {
+        "x": 1340,
+        "y": 77,
+        "w": 385,
+        "h": 374,
+        "anchorX": 1544,
+        "anchorY": 442
+      },
+      "nativeRgbaPreserved": true
+    },
+    {
+      "kind": "ultimate",
+      "i": 4,
+      "path": "review/ultimate/04.png",
+      "crop": {
+        "x": 53,
+        "y": 472,
+        "w": 362,
+        "h": 394,
+        "anchorX": 240,
+        "anchorY": 857
+      },
+      "nativeRgbaPreserved": true
+    },
+    {
+      "kind": "ultimate",
+      "i": 5,
+      "path": "review/ultimate/05.png",
+      "crop": {
+        "x": 477,
+        "y": 483,
+        "w": 419,
+        "h": 383,
+        "anchorX": 674,
+        "anchorY": 857
+      },
+      "nativeRgbaPreserved": true
+    },
+    {
+      "kind": "ultimate",
+      "i": 6,
+      "path": "review/ultimate/06.png",
+      "crop": {
+        "x": 924,
+        "y": 477,
+        "w": 377,
+        "h": 389,
+        "anchorX": 1115,
+        "anchorY": 857
+      },
+      "nativeRgbaPreserved": true
+    },
+    {
+      "kind": "ultimate",
+      "i": 7,
+      "path": "review/ultimate/07.png",
+      "crop": {
+        "x": 1380,
+        "y": 456,
+        "w": 290,
+        "h": 414,
+        "anchorX": 1555,
+        "anchorY": 861
+      },
+      "nativeRgbaPreserved": true
+    },
+    {
+      "kind": "vfx",
+      "i": 0,
+      "path": "review/vfx/00.png",
+      "crop": {
+        "x": 30,
+        "y": 30,
+        "w": 467,
+        "h": 458,
+        "anchorX": 263,
+        "anchorY": 258.5
+      },
+      "nativeRgbaPreserved": true
+    },
+    {
+      "kind": "vfx",
+      "i": 1,
+      "path": "review/vfx/01.png",
+      "crop": {
+        "x": 532,
+        "y": 116,
+        "w": 490,
+        "h": 276,
+        "anchorX": 776.5,
+        "anchorY": 253.5
+      },
+      "nativeRgbaPreserved": true
+    },
+    {
+      "kind": "vfx",
+      "i": 2,
+      "path": "review/vfx/02.png",
+      "crop": {
+        "x": 1040,
+        "y": 13,
+        "w": 476,
+        "h": 474,
+        "anchorX": 1277.5,
+        "anchorY": 249.5
+      },
+      "nativeRgbaPreserved": true
+    },
+    {
+      "kind": "vfx",
+      "i": 3,
+      "path": "review/vfx/03.png",
+      "crop": {
+        "x": 40,
+        "y": 558,
+        "w": 448,
+        "h": 430,
+        "anchorX": 263.5,
+        "anchorY": 772.5
+      },
+      "nativeRgbaPreserved": true
+    },
+    {
+      "kind": "vfx",
+      "i": 4,
+      "path": "review/vfx/04.png",
+      "crop": {
+        "x": 538,
+        "y": 505,
+        "w": 460,
+        "h": 492,
+        "anchorX": 767.5,
+        "anchorY": 750.5
+      },
+      "nativeRgbaPreserved": true
+    },
+    {
+      "kind": "vfx",
+      "i": 5,
+      "path": "review/vfx/05.png",
+      "crop": {
+        "x": 1044,
+        "y": 506,
+        "w": 473,
+        "h": 506,
+        "anchorX": 1280,
+        "anchorY": 758.5
+      },
+      "nativeRgbaPreserved": true
+    },
+    {
+      "kind": "icons",
+      "i": 0,
+      "path": "review/icons/00.png",
+      "crop": {
+        "x": 55,
+        "y": 62,
+        "w": 448,
+        "h": 409,
+        "anchorX": 278.5,
+        "anchorY": 266
+      },
+      "nativeRgbaPreserved": true
+    },
+    {
+      "kind": "icons",
+      "i": 1,
+      "path": "review/icons/01.png",
+      "crop": {
+        "x": 555,
+        "y": 34,
+        "w": 446,
+        "h": 435,
+        "anchorX": 777.5,
+        "anchorY": 251
+      },
+      "nativeRgbaPreserved": true
+    },
+    {
+      "kind": "icons",
+      "i": 2,
+      "path": "review/icons/02.png",
+      "crop": {
+        "x": 1070,
+        "y": 32,
+        "w": 421,
+        "h": 455,
+        "anchorX": 1280,
+        "anchorY": 259
+      },
+      "nativeRgbaPreserved": true
+    },
+    {
+      "kind": "icons",
+      "i": 3,
+      "path": "review/icons/03.png",
+      "crop": {
+        "x": 36,
+        "y": 505,
+        "w": 442,
+        "h": 474,
+        "anchorX": 256.5,
+        "anchorY": 741.5
+      },
+      "nativeRgbaPreserved": true
+    },
+    {
+      "kind": "icons",
+      "i": 4,
+      "path": "review/icons/04.png",
+      "crop": {
+        "x": 530,
+        "y": 495,
+        "w": 477,
+        "h": 492,
+        "anchorX": 768,
+        "anchorY": 740.5
+      },
+      "nativeRgbaPreserved": true
+    },
+    {
+      "kind": "icons",
+      "i": 5,
+      "path": "review/icons/05.png",
+      "crop": {
+        "x": 1058,
+        "y": 502,
+        "w": 450,
+        "h": 484,
+        "anchorX": 1282.5,
+        "anchorY": 743.5
+      },
+      "nativeRgbaPreserved": true
+    }
+  ]
+}

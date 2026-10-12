@@ -1,0 +1,178 @@
+[
+  {
+    "name": "walk-source.png",
+    "width": 1086,
+    "height": 1448,
+    "sha256": "a16e6fa135639b7fdb07e85d74e42983961b69ef04710bab9cbaa9cc11838962",
+    "alphaZero": 1066532,
+    "alphaZeroRatio": 0.6782276690780704,
+    "opaquePixels": 358024,
+    "visibleOuterEdge": 0,
+    "emptyRowRuns": [
+      [
+        0,
+        38
+      ],
+      [
+        357,
+        376
+      ],
+      [
+        698,
+        724
+      ],
+      [
+        1041,
+        1055
+      ],
+      [
+        1376,
+        1447
+      ]
+    ]
+  },
+  {
+    "name": "attack-source.png",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "c50b184a166937a6e8a0ac678fcda703093e60ce5ba64046196dcef866218ab7",
+    "alphaZero": 856105,
+    "alphaZeroRatio": 0.5442969004313151,
+    "opaquePixels": 464456,
+    "visibleOuterEdge": 0,
+    "emptyRowRuns": [
+      [
+        0,
+        21
+      ],
+      [
+        496,
+        506
+      ],
+      [
+        984,
+        1023
+      ]
+    ]
+  },
+  {
+    "name": "cast-source.png",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "ba8e424c51bcd9e451fe1c95dded60737e7072821e7943c439dd5e48c7538cd9",
+    "alphaZero": 694608,
+    "alphaZeroRatio": 0.441619873046875,
+    "opaquePixels": 628448,
+    "visibleOuterEdge": 0,
+    "emptyRowRuns": [
+      [
+        0,
+        7
+      ],
+      [
+        511,
+        519
+      ],
+      [
+        1016,
+        1023
+      ]
+    ]
+  },
+  {
+    "name": "ultimate-source.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "ce8631dd138af260a98f074bcb7a666a71f8aa9e85516cd3d5c294642e16b9fb",
+    "alphaZero": 1275713,
+    "alphaZeroRatio": 0.8112559745020083,
+    "opaquePixels": 194729,
+    "visibleOuterEdge": 0,
+    "emptyRowRuns": [
+      [
+        0,
+        192
+      ],
+      [
+        521,
+        802
+      ],
+      [
+        1100,
+        1253
+      ]
+    ]
+  },
+  {
+    "name": "vfx-source.png",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "d956ed01f95b198611022d7033036e7b947893c2fac75cad438c9d7860b51801",
+    "alphaZero": 758567,
+    "alphaZeroRatio": 0.4822839101155599,
+    "opaquePixels": 195869,
+    "visibleOuterEdge": 0,
+    "emptyRowRuns": [
+      [
+        0,
+        41
+      ],
+      [
+        464,
+        495
+      ],
+      [
+        967,
+        1023
+      ]
+    ]
+  },
+  {
+    "name": "icons-source.png",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "7136b15ed6ef06cb13d3f67c73ab3a20cdceb1b7f49e2dca03acff47265d1ea6",
+    "alphaZero": 693631,
+    "alphaZeroRatio": 0.44099871317545575,
+    "opaquePixels": 449164,
+    "visibleOuterEdge": 0,
+    "emptyRowRuns": [
+      [
+        0,
+        14
+      ],
+      [
+        496,
+        512
+      ],
+      [
+        1003,
+        1023
+      ]
+    ]
+  },
+  {
+    "name": "companion-source.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "ba61aef0defc60af8bbb2f3fee73ecb6c7f26f6e30cdd799f4933db8d4e96b61",
+    "alphaZero": 871714,
+    "alphaZeroRatio": 0.5543434852173206,
+    "opaquePixels": 533398,
+    "visibleOuterEdge": 0,
+    "emptyRowRuns": [
+      [
+        0,
+        61
+      ],
+      [
+        625,
+        669
+      ],
+      [
+        1202,
+        1253
+      ]
+    ]
+  }
+]

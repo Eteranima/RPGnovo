@@ -2,6 +2,11 @@ import { ORIGINS, newHeroes, heroBases, HERO_IDS, SIGNATURE_TECHNIQUES, type Bas
 import {cosmeticRank} from './cosmetics';
 import {NEW_BESTIARY_V30,NEW_BOSS_REWARDS_V30,NEW_GEAR_V30,NEW_ANCHORS_V30} from './expansionV30';
 import {freshQuestProgressV31,type QuestProgressV31} from './questRuntimeV31';
+import {SKILLS_V36,PASSIVES_V36,passiveBonusV36} from './skillsV36';
+import {equippedVariantV36,type HeroVariantSelectionV36} from './variantsV36';
+import {freshBloodMoonV36,freshBloodMoonLegendaryV36,type BloodMoonProgressV36,type BloodMoonLegendaryProgressV36} from './eventV36';
+import {ABEL_SKILLS_V36,ABEL_PASSIVES_V36} from './abelPlayableV36';
+import {freshEventActivitiesV38,type EventActivitiesProgressV38} from './eventActivitiesV38';
 
 export const SLOTS = ['weapon','head','body','hands','feet','charm'] as const;
 export type Slot = typeof SLOTS[number];
@@ -24,14 +29,15 @@ Object.assign(BOSS_REWARDS,NEW_BOSS_REWARDS_V30);
 for(const gear of NEW_GEAR_V30)GEAR[gear.id]=gear;
 export const gearById=(id:string|undefined)=>{if(!id)return undefined;const [base,copy,...extra]=id.split("@");if(extra.length||copy&&(!base.startsWith("shop-")||!Number.isSafeInteger(Number(copy))||Number(copy)<2))return undefined;return GEAR[base];};
 export const commonKills=(p:Progression)=>Object.entries(p.kills).reduce((n,[id,count])=>n+(BOSS_REWARDS[id]?0:count),0);
-export type Progression={questsV31:QuestProgressV31;masterMode:boolean;starterMailClaimed:boolean;starterSelectorPending:boolean;starterSelected:string|null;gabrielForm:'human'|'lycan';difficulty:1|2|3;fieldUntil:Record<string,number>;unseenGear:string[];unseenCosmetics:string[];protagonist?:HeroId;recruited:HeroId[];party:HeroId[];leaderId?:HeroId;reserveVitals:Partial<Record<HeroId,{hp:number;mp:number}>>;limit:Record<HeroId,number>;xp:number;points:Record<HeroId,number>;learned:string[];owned:string[];equipment:Record<HeroId,Partial<Record<Slot,string>>>;kills:Record<string,number>;bestiaryClaims:string[];questClaims:string[];achievementClaims:string[];field:string[];seen:string[];requests:string[];visited:MapId[];encounters:string[];anchors:string[];events:string[];tokens:number;dust:number;cosmetics:string[];cosmeticEquipment:Record<HeroId,string|undefined>;rolls:number;pity:number;lastDraw:string|null;lastDuplicate:boolean;crystals:number;soulFragments:number;summoned:string[];bonded:string[];constellations:Record<string,number>;characterRolls:number;fourPity:number;fivePity:number;lastSummon:string|null;lastSummonDuplicate:boolean;metrics:{purchases:number;heals:number;statuses:number;set3:boolean;set6:boolean}};
-export const freshProgression=():Progression=>({questsV31:freshQuestProgressV31(),masterMode:false,starterMailClaimed:false,starterSelectorPending:false,starterSelected:null,gabrielForm:'human',difficulty:1,fieldUntil:{},unseenGear:[],unseenCosmetics:[],recruited:['seiji','ophelia'],party:['seiji','ophelia'],reserveVitals:{},limit:{seiji:0,ophelia:0,marin:0,gabriel:0,max:0,beatriz:0,orfeu:0,ava:0,carmilla:0},xp:0,points:{seiji:2,ophelia:2,marin:2,gabriel:2,max:2,beatriz:2,orfeu:2,ava:2,carmilla:2},learned:[],owned:[],equipment:{seiji:{},ophelia:{},marin:{},gabriel:{},max:{},beatriz:{},orfeu:{},ava:{},carmilla:{}},kills:{lobo:0,sombra:0,selo:0,eco:0},bestiaryClaims:[],questClaims:[],achievementClaims:[],field:[],seen:[],requests:[],visited:['patio'],encounters:[],anchors:[],events:[],tokens:3,dust:0,cosmetics:[],cosmeticEquipment:{seiji:undefined,ophelia:undefined,marin:undefined,gabriel:undefined,max:undefined,beatriz:undefined,orfeu:undefined,ava:undefined,carmilla:undefined},rolls:0,pity:0,lastDraw:null,lastDuplicate:false,crystals:1600,soulFragments:0,summoned:[],bonded:[],constellations:{},characterRolls:0,fourPity:0,fivePity:0,lastSummon:null,lastSummonDuplicate:false,metrics:{purchases:0,heals:0,statuses:0,set3:false,set6:false}});
+export type Progression={eventActivitiesV38:EventActivitiesProgressV38;bloodMoonLegendaryV36:BloodMoonLegendaryProgressV36;bloodMoonV36:BloodMoonProgressV36;heroVariantsV36:HeroVariantSelectionV36;contextualHintsSeenV36:string[];questsV31:QuestProgressV31;masterMode:boolean;starterMailClaimed:boolean;starterSelectorPending:boolean;starterSelected:string|null;gabrielForm:'human'|'lycan';difficulty:1|2|3;fieldUntil:Record<string,number>;unseenGear:string[];unseenCosmetics:string[];protagonist?:HeroId;recruited:HeroId[];party:HeroId[];leaderId?:HeroId;reserveVitals:Partial<Record<HeroId,{hp:number;mp:number}>>;limit:Record<HeroId,number>;xp:number;points:Record<HeroId,number>;learned:string[];owned:string[];equipment:Record<HeroId,Partial<Record<Slot,string>>>;kills:Record<string,number>;bestiaryClaims:string[];questClaims:string[];achievementClaims:string[];field:string[];seen:string[];requests:string[];visited:MapId[];encounters:string[];anchors:string[];events:string[];tokens:number;dust:number;cosmetics:string[];cosmeticEquipment:Record<HeroId,string|undefined>;rolls:number;pity:number;lastDraw:string|null;lastDuplicate:boolean;crystals:number;soulFragments:number;summoned:string[];bonded:string[];constellations:Record<string,number>;characterRolls:number;fourPity:number;fivePity:number;lastSummon:string|null;lastSummonDuplicate:boolean;metrics:{purchases:number;heals:number;statuses:number;set3:boolean;set6:boolean}};
+export const freshProgression=():Progression=>({eventActivitiesV38:freshEventActivitiesV38(),bloodMoonLegendaryV36:freshBloodMoonLegendaryV36(),bloodMoonV36:freshBloodMoonV36(),heroVariantsV36:{},contextualHintsSeenV36:[],questsV31:freshQuestProgressV31(),masterMode:false,starterMailClaimed:false,starterSelectorPending:false,starterSelected:null,gabrielForm:'human',difficulty:1,fieldUntil:{},unseenGear:[],unseenCosmetics:[],recruited:['seiji','ophelia'],party:['seiji','ophelia'],reserveVitals:{},limit:{seiji:0,ophelia:0,marin:0,gabriel:0,max:0,beatriz:0,orfeu:0,ava:0,carmilla:0,abel:0},xp:0,points:{seiji:2,ophelia:2,marin:2,gabriel:2,max:2,beatriz:2,orfeu:2,ava:2,carmilla:2,abel:2},learned:[],owned:[],equipment:{seiji:{},ophelia:{},marin:{},gabriel:{},max:{},beatriz:{},orfeu:{},ava:{},carmilla:{},abel:{}},kills:{lobo:0,sombra:0,selo:0,eco:0},bestiaryClaims:[],questClaims:[],achievementClaims:[],field:[],seen:[],requests:[],visited:['patio'],encounters:[],anchors:[],events:[],tokens:3,dust:0,cosmetics:[],cosmeticEquipment:{seiji:undefined,ophelia:undefined,marin:undefined,gabriel:undefined,max:undefined,beatriz:undefined,orfeu:undefined,ava:undefined,carmilla:undefined,abel:undefined},rolls:0,pity:0,lastDraw:null,lastDuplicate:false,crystals:1600,soulFragments:0,summoned:[],bonded:[],constellations:{},characterRolls:0,fourPity:0,fivePity:0,lastSummon:null,lastSummonDuplicate:false,metrics:{purchases:0,heals:0,statuses:0,set3:false,set6:false}});
 export const level=(p:Progression)=>Math.min(10,1+Math.floor(p.xp/60));
 export const setCount=(p:Progression,h:HeroId,set:SetId)=>Object.values(p.equipment[h]).filter(id=>id&&gearById(id)?.set===set).length;
 export function deriveHeroes(p:Progression,current:Hero[]=newHeroes()):Hero[]{return (p.party||['seiji','ophelia']).map(id=>heroBases().find(h=>h.id===id)!).map(base=>{
  const items=Object.values(p.equipment[base.id]).map(id=>gearById(id)).filter((item):item is Gear=>!!item),old=current.find(h=>h.id===base.id)||{...base,...p.reserveVitals?.[base.id]};
- const lv=level(p)-1,maxHp=base.maxHp+lv*({seiji:9,ophelia:7,marin:8,gabriel:11,max:9,beatriz:8,orfeu:8,ava:9,carmilla:10}[base.id])+items.reduce((n,i)=>n+i.hp,0)+(p.learned.includes(`${base.id}-vital`)?15:0)+cosmeticRank(p,base.id,'hp')*3,maxMp=base.maxMp+lv*({seiji:5,ophelia:8,marin:6,gabriel:4,max:6,beatriz:8,orfeu:9,ava:8,carmilla:7}[base.id])+items.reduce((n,i)=>n+i.mp,0)+cosmeticRank(p,base.id,'mp')*2;
- return {...base,maxHp,maxMp,atk:base.atk+lv*2+items.reduce((n,i)=>n+i.atk,0)+cosmeticRank(p,base.id,'attack'),spd:base.spd+Math.ceil(cosmeticRank(p,base.id,'speed')/2),hp:Math.min(maxHp,Math.max(0,old.hp)),mp:Math.min(maxMp,Math.max(0,old.mp)),guard:old.guard};
+ const lv=level(p)-1,maxHp=base.maxHp+lv*({seiji:9,ophelia:7,marin:8,gabriel:11,max:9,beatriz:8,orfeu:8,ava:9,carmilla:10,abel:9}[base.id])+items.reduce((n,i)=>n+i.hp,0)+(p.learned.includes(`${base.id}-vital`)?15:0)+cosmeticRank(p,base.id,'hp')*3,maxMp=base.maxMp+lv*({seiji:5,ophelia:8,marin:6,gabriel:4,max:6,beatriz:8,orfeu:9,ava:8,carmilla:7,abel:7}[base.id])+items.reduce((n,i)=>n+i.mp,0)+cosmeticRank(p,base.id,'mp')*2;
+ const variant=equippedVariantV36(p,base.id),reserveMp=(passiveBonusV36(base.id,p.learned,'reserve-mp')||base.id==='abel'&&p.learned.includes('abel-reserve'))?8:0,totalHp=maxHp+(variant?.bonuses.hp||0),totalMp=maxMp+reserveMp+(variant?.bonuses.mp||0);
+ return {...base,...(variant?{variantId:variant.id}:{}),name:variant?.name||base.name,role:variant?.role||base.role,maxHp:totalHp,maxMp:totalMp,atk:base.atk+lv*2+items.reduce((n,i)=>n+i.atk,0)+cosmeticRank(p,base.id,'attack')+(variant?.bonuses.atk||0),spd:base.spd+Math.ceil(cosmeticRank(p,base.id,'speed')/2),hp:Math.min(totalHp,Math.max(0,old.hp)),mp:Math.min(totalMp,Math.max(0,old.mp)),guard:old.guard};
 });}
 export const spellBonus=(p:Progression,id:HeroId)=>(level(p)-1)*2+Object.values(p.equipment[id]).reduce((n,key)=>n+(gearById(key)?.spell||0),0)+cosmeticRank(p,id,'magic');
 export const ANCHORS=[
@@ -86,10 +92,20 @@ export const EXTRA_SKILLS:Record<HeroId,{id:string;node:string;name:string;cost:
  {id:'blind',node:'seiji-blind',name:'Noite de Tinta',cost:10,description:'22 dano • cegueira 2 ações',icon:6},
  {id:'bleed',node:'seiji-bleed',name:'Rasura',cost:12,description:'30 dano • sangramento 3 ações',icon:1}],ophelia:[
  {id:'freeze',node:'ophelia-freeze',name:'Prisão Glacial',cost:11,description:'24 dano • congela 1 ação, uma vez',icon:7},
- {id:'cleanse',node:'ophelia-cleanse',name:'Aurora',cost:12,description:'25 HP • remove todos os estados',icon:3}],max:[{id:'arc',node:'max-control',name:'Arco Voltaico',cost:10,description:'28 dano elétrico • cegueira 2 ações',icon:15}],beatriz:[],orfeu:[],ava:[],carmilla:[]};
+ {id:'cleanse',node:'ophelia-cleanse',name:'Aurora',cost:12,description:'25 HP • remove todos os estados',icon:3}],max:[{id:'arc',node:'max-control',name:'Arco Voltaico',cost:10,description:'28 dano elétrico • cegueira 2 ações',icon:15}],beatriz:[],orfeu:[],ava:[],carmilla:[],abel:[]};
 for(const [hero,techniques] of Object.entries(SIGNATURE_TECHNIQUES))for(const technique of techniques){
  TREE.push({id:technique.node,hero:hero as HeroId,name:technique.name,cost:2,requires:technique.requires,icon:15,description:`${technique.description} ${technique.cost} MP.`});
  EXTRA_SKILLS[hero as HeroId].push({...technique,icon:15});
+}
+for(const skill of SKILLS_V36){
+ TREE.push({id:skill.node,hero:skill.hero,name:skill.name,cost:skill.treeCost,requires:skill.requires,icon:skill.motif===2?3:15,description:`${skill.description} ${skill.cost} MP.`});
+ EXTRA_SKILLS[skill.hero].push({...skill,icon:skill.motif===2?3:15});
+}
+for(const node of PASSIVES_V36)TREE.push(node);
+TREE.push(...ABEL_PASSIVES_V36);
+for(const skill of ABEL_SKILLS_V36.filter(skill=>!!skill.node)){
+ TREE.push({id:skill.node,hero:'abel',name:skill.name,cost:skill.treeCost!,requires:skill.requires,icon:skill.iconIndex,description:`${skill.description} ${skill.cost} MP.`});
+ EXTRA_SKILLS.abel.push({...skill,icon:skill.iconIndex});
 }
 export type StatusId='freeze'|'bind'|'blind'|'bleed'|'silence';
 export type Status={id:StatusId;turns:number};
@@ -184,7 +200,7 @@ export const FIELD_TECHNIQUES:Record<HeroId,{id:string;node:string;name:string;c
  beatriz:[{id:'margem',node:'',name:'Margem Serena',cost:11,icon:3,timed:false}],
  orfeu:[{id:'echo-sight',node:'orfeu-field',name:'Leitura de Fluxo',cost:5,icon:5,timed:true}],
  ava:[{id:'vine-growth',node:'ava-field',name:'Chamado da Terra',cost:5,icon:3,timed:true}],
- carmilla:[]
+ carmilla:[],abel:[]
 };
 TREE.push({id:'marin-explore',hero:'marin',name:'Passo entre Sombras',cost:1,requires:'marin-vital',icon:6,description:'Por 15 s: evita contato automático com mobs e revela esconderijos. 6 MP.'},{id:'gabriel-explore',hero:'gabriel',name:'Luz da Forja',cost:1,requires:'gabriel-vital',icon:0,description:'Por 15 s: ilumina o cenário e revela tesouros entre as cinzas. 6 MP.'});
 export const DIFFICULTIES=[{id:1 as const,name:'Normal',hp:1,damage:1,reward:1,drop:.3},{id:2 as const,name:'Desafiante',hp:1.3,damage:1.2,reward:1.5,drop:.55},{id:3 as const,name:'Extremo',hp:1.65,damage:1.4,reward:2,drop:.8}];

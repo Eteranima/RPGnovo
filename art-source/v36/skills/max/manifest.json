@@ -1,0 +1,131 @@
+{
+  "hero": "max",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-1afa-7611-900f-c84542197a68\\exec-8d96ab98-69d6-4041-b622-f0af39bec93e.png",
+  "sourceSha256": "09dccb2f538cba2a7b5b4ac66b0bf0fdba142f7e12f09dd671cf6f02e0886491",
+  "selectedSha256": "09dccb2f538cba2a7b5b4ac66b0bf0fdba142f7e12f09dd671cf6f02e0886491",
+  "width": 2172,
+  "height": 724,
+  "cols": 3,
+  "rows": 1,
+  "ids": [
+    "nail-silencer",
+    "nail-anchor",
+    "ground-wire"
+  ],
+  "rowCuts": [
+    0,
+    724
+  ],
+  "backgroundAlphaZero": 944863,
+  "alphaThresholdForMeasurementOnly": 24,
+  "frames": [
+    {
+      "x": 59,
+      "y": 38,
+      "w": 620,
+      "h": 617
+    },
+    {
+      "x": 776,
+      "y": 38,
+      "w": 620,
+      "h": 617
+    },
+    {
+      "x": 1493,
+      "y": 38,
+      "w": 620,
+      "h": 617
+    }
+  ],
+  "measurements": [
+    {
+      "id": "nail-silencer",
+      "index": 0,
+      "row": 0,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "w": 727,
+        "h": 724
+      },
+      "visibleBounds": {
+        "x": 67,
+        "y": 46,
+        "w": 604,
+        "h": 601
+      },
+      "visiblePixels": 205301,
+      "visibleEdgePixels": 0,
+      "crop": {
+        "x": 59,
+        "y": 38,
+        "w": 620,
+        "h": 617
+      },
+      "runtime": "public/assets/v36/skills/max/nail-silencer.png",
+      "sha256": "ae03ca154b5c4ae799173100b0f10cfbddc9786eb3a9e9b6aab66d69bd1df62c",
+      "nativeRgbaPreserved": true
+    },
+    {
+      "id": "nail-anchor",
+      "index": 1,
+      "row": 0,
+      "col": 1,
+      "cell": {
+        "x": 727,
+        "y": 0,
+        "w": 717,
+        "h": 724
+      },
+      "visibleBounds": {
+        "x": 784,
+        "y": 46,
+        "w": 604,
+        "h": 601
+      },
+      "visiblePixels": 205540,
+      "visibleEdgePixels": 0,
+      "crop": {
+        "x": 776,
+        "y": 38,
+        "w": 620,
+        "h": 617
+      },
+      "runtime": "public/assets/v36/skills/max/nail-anchor.png",
+      "sha256": "cba857ffeaa40c40a42901a43c9337f9c85793a5676659bb33417b5d8aca40ce",
+      "nativeRgbaPreserved": true
+    },
+    {
+      "id": "ground-wire",
+      "index": 2,
+      "row": 0,
+      "col": 2,
+      "cell": {
+        "x": 1444,
+        "y": 0,
+        "w": 728,
+        "h": 724
+      },
+      "visibleBounds": {
+        "x": 1501,
+        "y": 46,
+        "w": 604,
+        "h": 601
+      },
+      "visiblePixels": 205262,
+      "visibleEdgePixels": 0,
+      "crop": {
+        "x": 1493,
+        "y": 38,
+        "w": 620,
+        "h": 617
+      },
+      "runtime": "public/assets/v36/skills/max/ground-wire.png",
+      "sha256": "efeabe2f7f5f6576e34087c48b75365155d35fd6d3477e3f8a6c3d023446a771",
+      "nativeRgbaPreserved": true
+    }
+  ]
+}

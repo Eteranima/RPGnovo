@@ -1,0 +1,309 @@
+{
+  "id": "ava-worldroot-sovereign",
+  "kind": "cast",
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-26bd577e-e036-44a2-922e-898cff7dbcf1.png",
+  "selected": "art-source/v36/variants/ava-worldroot-sovereign/cast-source.png",
+  "runtime": "public/assets/v36/variants/ava-worldroot-sovereign/cast.png",
+  "width": 1536,
+  "height": 1024,
+  "cols": 3,
+  "rows": 2,
+  "sourceSha256": "2e998b22d840e87675343ed8e2aa3697dc65c8f94985047e905aa22f6038f0f4",
+  "selectedSha256": "2e998b22d840e87675343ed8e2aa3697dc65c8f94985047e905aa22f6038f0f4",
+  "runtimeSha256": "2e998b22d840e87675343ed8e2aa3697dc65c8f94985047e905aa22f6038f0f4",
+  "byteIdenticalSourceCopies": true,
+  "alphaThresholdForMeasurementOnly": 24,
+  "backgroundAlphaZero": 919975,
+  "rowCuts": [
+    0,
+    524,
+    1024
+  ],
+  "frames": [
+    {
+      "x": 87,
+      "y": 33,
+      "w": 343,
+      "h": 480,
+      "anchorX": 284,
+      "anchorY": 504
+    },
+    {
+      "x": 603,
+      "y": 32,
+      "w": 326,
+      "h": 481,
+      "anchorX": 798,
+      "anchorY": 504
+    },
+    {
+      "x": 1107,
+      "y": 33,
+      "w": 358,
+      "h": 480,
+      "anchorX": 1307,
+      "anchorY": 504
+    },
+    {
+      "x": 51,
+      "y": 562,
+      "w": 418,
+      "h": 415,
+      "anchorX": 258,
+      "anchorY": 968
+    },
+    {
+      "x": 529,
+      "y": 554,
+      "w": 590,
+      "h": 430,
+      "anchorX": 759,
+      "anchorY": 975
+    },
+    {
+      "x": 1121,
+      "y": 535,
+      "w": 341,
+      "h": 470,
+      "anchorX": 1325,
+      "anchorY": 996
+    }
+  ],
+  "measurements": [
+    {
+      "i": 0,
+      "row": 0,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "w": 516,
+        "h": 524
+      },
+      "visibleBounds": {
+        "x": 95,
+        "y": 41,
+        "w": 327,
+        "h": 464
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 88196,
+      "crop": {
+        "x": 87,
+        "y": 33,
+        "w": 343,
+        "h": 480,
+        "anchorX": 284,
+        "anchorY": 504
+      },
+      "headOrHatTop": 41,
+      "groundSole": 504,
+      "anchorMethod": "manual body/ground: midpoint between the two visible boot centres, retaining lowest sole baseline; exclude rocks/hair/cape",
+      "headMethod": "native individual visual review confirms crown/hair as actor top, without detached effect geometry",
+      "bodyHeadTop": 41,
+      "visualReview": {
+        "method": "Individual native crop and whole-sheet continuity",
+        "reviewed": true,
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "date": "2026-10-11"
+      }
+    },
+    {
+      "i": 1,
+      "row": 0,
+      "col": 1,
+      "cell": {
+        "x": 516,
+        "y": 0,
+        "w": 502,
+        "h": 524
+      },
+      "visibleBounds": {
+        "x": 611,
+        "y": 40,
+        "w": 310,
+        "h": 465
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 86165,
+      "crop": {
+        "x": 603,
+        "y": 32,
+        "w": 326,
+        "h": 481,
+        "anchorX": 798,
+        "anchorY": 504
+      },
+      "headOrHatTop": 40,
+      "groundSole": 504,
+      "anchorMethod": "manual body/ground: midpoint between the two visible boot centres, retaining lowest sole baseline; exclude rocks/hair/cape",
+      "headMethod": "native individual visual review confirms crown/hair as actor top, without detached effect geometry",
+      "bodyHeadTop": 40,
+      "visualReview": {
+        "method": "Individual native crop and whole-sheet continuity",
+        "reviewed": true,
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "date": "2026-10-11"
+      }
+    },
+    {
+      "i": 2,
+      "row": 0,
+      "col": 2,
+      "cell": {
+        "x": 1018,
+        "y": 0,
+        "w": 518,
+        "h": 524
+      },
+      "visibleBounds": {
+        "x": 1115,
+        "y": 41,
+        "w": 342,
+        "h": 464
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 90930,
+      "crop": {
+        "x": 1107,
+        "y": 33,
+        "w": 358,
+        "h": 480,
+        "anchorX": 1307,
+        "anchorY": 504
+      },
+      "headOrHatTop": 41,
+      "groundSole": 504,
+      "anchorMethod": "manual body/ground: midpoint between the two visible boot centres, retaining lowest sole baseline; exclude rocks/hair/cape",
+      "headMethod": "native individual visual review confirms crown/hair as actor top, without detached effect geometry",
+      "bodyHeadTop": 41,
+      "visualReview": {
+        "method": "Individual native crop and whole-sheet continuity",
+        "reviewed": true,
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "date": "2026-10-11"
+      }
+    },
+    {
+      "i": 3,
+      "row": 1,
+      "col": 0,
+      "cell": {
+        "x": 0,
+        "y": 524,
+        "w": 499,
+        "h": 500
+      },
+      "visibleBounds": {
+        "x": 59,
+        "y": 570,
+        "w": 402,
+        "h": 399
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 89667,
+      "crop": {
+        "x": 51,
+        "y": 562,
+        "w": 418,
+        "h": 415,
+        "anchorX": 258,
+        "anchorY": 968
+      },
+      "headOrHatTop": 570,
+      "groundSole": 968,
+      "anchorMethod": "manual body/ground: midpoint between the two visible boot centres, retaining lowest sole baseline; exclude rocks/hair/cape",
+      "headMethod": "native individual visual review confirms crown/hair as actor top, without detached effect geometry",
+      "bodyHeadTop": 570,
+      "visualReview": {
+        "method": "Individual native crop and whole-sheet continuity",
+        "reviewed": true,
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "date": "2026-10-11"
+      }
+    },
+    {
+      "i": 4,
+      "row": 1,
+      "col": 1,
+      "cell": {
+        "x": 499,
+        "y": 524,
+        "w": 621,
+        "h": 500
+      },
+      "visibleBounds": {
+        "x": 537,
+        "y": 562,
+        "w": 574,
+        "h": 414
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 99157,
+      "crop": {
+        "x": 529,
+        "y": 554,
+        "w": 590,
+        "h": 430,
+        "anchorX": 759,
+        "anchorY": 975
+      },
+      "headOrHatTop": 562,
+      "groundSole": 975,
+      "anchorMethod": "manual body/ground: midpoint between the two visible boot centres, retaining lowest sole baseline; exclude rocks/hair/cape",
+      "headMethod": "native individual visual review confirms crown/hair as actor top, without detached effect geometry",
+      "bodyHeadTop": 562,
+      "visualReview": {
+        "method": "Individual native crop and whole-sheet continuity",
+        "reviewed": true,
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "date": "2026-10-11"
+      }
+    },
+    {
+      "i": 5,
+      "row": 1,
+      "col": 2,
+      "cell": {
+        "x": 1120,
+        "y": 524,
+        "w": 416,
+        "h": 500
+      },
+      "visibleBounds": {
+        "x": 1129,
+        "y": 543,
+        "w": 325,
+        "h": 454
+      },
+      "visibleEdge": 0,
+      "visiblePixels": 86444,
+      "crop": {
+        "x": 1121,
+        "y": 535,
+        "w": 341,
+        "h": 470,
+        "anchorX": 1325,
+        "anchorY": 996
+      },
+      "headOrHatTop": 543,
+      "groundSole": 996,
+      "anchorMethod": "manual body/ground: midpoint between the two visible boot centres, retaining lowest sole baseline; exclude rocks/hair/cape",
+      "headMethod": "native individual visual review confirms crown/hair as actor top, without detached effect geometry",
+      "bodyHeadTop": 543,
+      "visualReview": {
+        "method": "Individual native crop and whole-sheet continuity",
+        "reviewed": true,
+        "completeSilhouette": true,
+        "adjacentCellFragmentObserved": false,
+        "date": "2026-10-11"
+      }
+    }
+  ]
+}

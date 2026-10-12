@@ -1,0 +1,27 @@
+PWA HTTP final — 2026-10-11 — PASS 61
+
+Origin: http://127.0.0.1:5175
+Command: node scripts/verify-pwa-http.mjs http://127.0.0.1:5175
+Production build: 49e9e9f991b84866a6aa
+Build exit: 0 (root)
+Shell: 18 dependencies / 2,033,462 bytes; entry HTML captured separately on install.
+Runtime artwork: 655 files / 932,359,850 bytes; excluded from shell precache.
+Runtime artwork SHA-256: 43a23546856dfc1feaafccccbaa7bdfd74a6364bcc3d0ca5ea8c16fa439c6075
+Offline HTML SHA-256: 4f77cf0a42d6d814aa746745c2d4045469fc68cefe7804cfab1c87f200a8a6c8
+
+Native HTTP evidence:
+PWA offline response: {"status":200,"redirected":false,"finalURL":"http://127.0.0.1:5175/pwa-offline","contentType":"text/html; charset=utf-8"}
+PWA HTTP: 61 checks passed at http://127.0.0.1:5175, including deployed install/fetch handlers with nativeHTTP Responses and isolated CacheStorage. Browser promotion/OS installation and live browser SW offline/update are still separate, unverified checks.
+
+The deployed, unmodified SW installed every shell dependency plus entry HTML using native fetch/Response against this compiled Workers origin. No install response redirected or changed URL identity; no skipWaiting was called. With network disabled in the isolated worker harness, its actual fetch handler opened pinned entry HTML/dependencies; after removing entry HTML from that isolated cache, it returned the exact canonical offline fallback. Manifest/icons/SW headers and video Range206/32 bytes passed.
+
+Scope of this HTTP gate: network responses and published SW handlers are real; CacheStorage/self events are isolated in-memory substitutes. The gate itself does not prove browser SW registration, OS promotion/installation, physical Android/iOS, live browser offline reopening, or an accepted browser update. It does not modify the main browser's storage, save, sound, production files, or server.
+
+Final HTTP61 was rerun by root on rebuilt 49e9/server94741. Metadata read from final pwa-build.json matches revision/shell/655 native assets above. Root confirmed canonical 200/nonredirect/HTML and actual Range; no errors.
+
+Separate public browser UI evidence (root): "Salvar e atualizar" completed twice with reload. The first update changed a616 DOM to 090a index.CsI69JP_/page.Dt0olaFn and 2 native title frames. The final update was accepted from the title and loaded 49e9 index.B1p20_eK.css/page.Dt0olaFn.css. Continue retained all 5 party members, leader Abel, HP/MP/charge, sound off and 3 activity claims plus board bonus. This independently verifies those local update/save flows; the generic console message above states the narrower HTTP-gate scope. Physical installation and actual browser offline reopening are unverified.
+
+Final browser compact menu evidence (root, 405x452): header 64 px, status 40 px, navigation 52 px with 40 px triggers, close 44x44 px, content 196.80 px instead of approximately 100 px; no overflow. Screenshot: menu-portrait-browser.jpg. Final PC 1310x572: no document overflow or broken images. Combat in all 3 viewports was already verified on 090a; final change is menu-only CSS.
+
+Historical intermediate evidence: a616bb9e8040b4d8fe89, 18 dependencies/2,007,007 bytes, 653 art files/929,599,232 bytes also passed 61 checks before the last four-clue/interface/loading refinements. The final gate above was executed again against 49e9; it is not inferred from that earlier result.
+Historical 090a: 18 dependencies/2,031,831 bytes, 655 art files/932,359,850 bytes also passed 61 before compact portrait. Final 49e9 was executed again and is not inferred from either earlier gate.

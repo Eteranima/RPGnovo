@@ -1,0 +1,988 @@
+{
+  "id": "seiji-last-script",
+  "reviewDate": "2026-10-11",
+  "status": "pass-native-source-and-metadata",
+  "frames": 48,
+  "nativeRgbaRowsVerified": 20081,
+  "iconNativeRgbaRowsVerified": 2963,
+  "visualCropsReviewedIndividually": 48,
+  "sheets": [
+    {
+      "kind": "walk",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "06d2c626c1807ba509784c8b1d65d85084b23c5b33bb0b3592cd9edd96b14d8e",
+      "originalSourceSelectedRuntimeIdentical": true,
+      "alphaZeroPixels": 972716,
+      "lowAlphaPixels1To24": 182530,
+      "lowAlphaPixelsPreservedWithoutCleaning": true,
+      "cells": [
+        {
+          "i": 0,
+          "crop": {
+            "x": 58,
+            "y": 28,
+            "w": 237,
+            "h": 341,
+            "anchorX": 184.2,
+            "anchorY": 360
+          },
+          "visibleEdge": 0,
+          "visibleOutsideCrop": 0,
+          "boundaryAlphaZeroPixels": 1440,
+          "boundaryLowAlphaPixels1To24": 0,
+          "bodyHeadTop": 57,
+          "groundSole": 360,
+          "anchorMethod": "foot-band alpha centroid and sole baseline",
+          "individualNativeCropPreserved": true
+        },
+        {
+          "i": 1,
+          "crop": {
+            "x": 392,
+            "y": 26,
+            "w": 244,
+            "h": 346,
+            "anchorX": 507.1,
+            "anchorY": 363
+          },
+          "visibleEdge": 0,
+          "visibleOutsideCrop": 0,
+          "boundaryAlphaZeroPixels": 1440,
+          "boundaryLowAlphaPixels1To24": 0,
+          "bodyHeadTop": 59,
+          "groundSole": 363,
+          "anchorMethod": "foot-band alpha centroid and sole baseline",
+          "individualNativeCropPreserved": true
+        },
+        {
+          "i": 2,
+          "crop": {
+            "x": 737,
+            "y": 23,
+            "w": 241,
+            "h": 346,
+            "anchorX": 876.3,
+            "anchorY": 360
+          },
+          "visibleEdge": 0,
+          "visibleOutsideCrop": 0,
+          "boundaryAlphaZeroPixels": 1414,
+          "boundaryLowAlphaPixels1To24": 16,
+          "bodyHeadTop": 53,
+          "groundSole": 360,
+          "anchorMethod": "foot-band alpha centroid and sole baseline",
+          "individualNativeCropPreserved": true
+        },
+        {
+          "i": 3,
+          "crop": {
+            "x": 50,
+            "y": 388,
+            "w": 277,
+            "h": 341,
+            "anchorX": 170.1,
+            "anchorY": 720
+          },
+          "visibleEdge": 0,
+          "visibleOutsideCrop": 0,
+          "boundaryAlphaZeroPixels": 1425,
+          "boundaryLowAlphaPixels1To24": 1,
+          "bodyHeadTop": 428,
+          "groundSole": 720,
+          "anchorMethod": "foot-band alpha centroid and sole baseline",
+          "individualNativeCropPreserved": true
+        },
+        {
+          "i": 4,
+          "crop": {
+            "x": 380,
+            "y": 387,
+            "w": 285,
+            "h": 342,
+            "anchorX": 498.4,
+            "anchorY": 720
+          },
+          "visibleEdge": 0,
+          "visibleOutsideCrop": 0,
+          "boundaryAlphaZeroPixels": 1399,
+          "boundaryLowAlphaPixels1To24": 1,
+          "bodyHeadTop": 430,
+          "groundSole": 720,
+          "anchorMethod": "foot-band alpha centroid and sole baseline",
+          "individualNativeCropPreserved": true
+        },
+        {
+          "i": 5,
+          "crop": {
+            "x": 721,
+            "y": 393,
+            "w": 275,
+            "h": 334,
+            "anchorX": 854.1,
+            "anchorY": 718
+          },
+          "visibleEdge": 0,
+          "visibleOutsideCrop": 0,
+          "boundaryAlphaZeroPixels": 1351,
+          "boundaryLowAlphaPixels1To24": 31,
+          "bodyHeadTop": 433,
+          "groundSole": 718,
+          "anchorMethod": "foot-band alpha centroid and sole baseline",
+          "individualNativeCropPreserved": true
+        },
+        {
+          "i": 6,
+          "crop": {
+            "x": 43,
+            "y": 754,
+            "w": 275,
+            "h": 335,
+            "anchorX": 183.5,
+            "anchorY": 1080
+          },
+          "visibleEdge": 0,
+          "visibleOutsideCrop": 0,
+          "boundaryAlphaZeroPixels": 1405,
+          "boundaryLowAlphaPixels1To24": 3,
+          "bodyHeadTop": 782,
+          "groundSole": 1080,
+          "anchorMethod": "foot-band alpha centroid and sole baseline",
+          "individualNativeCropPreserved": true
+        },
+        {
+          "i": 7,
+          "crop": {
+            "x": 384,
+            "y": 756,
+            "w": 277,
+            "h": 335,
+            "anchorX": 525.3,
+            "anchorY": 1082
+          },
+          "visibleEdge": 0,
+          "visibleOutsideCrop": 0,
+          "boundaryAlphaZeroPixels": 1383,
+          "boundaryLowAlphaPixels1To24": 5,
+          "bodyHeadTop": 785,
+          "groundSole": 1082,
+          "anchorMethod": "foot-band alpha centroid and sole baseline",
+          "individualNativeCropPreserved": true
+        },
+        {
+          "i": 8,
+          "crop": {
+            "x": 723,
+            "y": 754,
+            "w": 279,
+            "h": 336,
+            "anchorX": 886.5,
+            "anchorY": 1081
+          },
+          "visibleEdge": 0,
+          "visibleOutsideCrop": 0,
+          "boundaryAlphaZeroPixels": 1361,
+          "boundaryLowAlphaPixels1To24": 9,
+          "bodyHeadTop": 788,
+          "groundSole": 1081,
+          "anchorMethod": "foot-band alpha centroid and sole baseline",
+          "individualNativeCropPreserved": true
+        },
+        {
+          "i": 9,
+          "crop": {
+            "x": 44,
+            "y": 1106,
+            "w": 286,
+            "h": 354,
+            "anchorX": 175.7,
+            "anchorY": 1451
+          },
+          "visibleEdge": 0,
+          "visibleOutsideCrop": 0,
+          "boundaryAlphaZeroPixels": 1577,
+          "boundaryLowAlphaPixels1To24": 1,
+          "bodyHeadTop": 1134,
+          "groundSole": 1451,
+          "anchorMethod": "foot-band alpha centroid and sole baseline",
+          "individualNativeCropPreserved": true
+        },
+        {
+          "i": 10,
+          "crop": {
+            "x": 372,
+            "y": 1101,
+            "w": 288,
+            "h": 357,
+            "anchorX": 522.9,
+            "anchorY": 1449
+          },
+          "visibleEdge": 0,
+          "visibleOutsideCrop": 0,
+          "boundaryAlphaZeroPixels": 1549,
+          "boundaryLowAlphaPixels1To24": 5,
+          "bodyHeadTop": 1133,
+          "groundSole": 1449,
+          "anchorMethod": "foot-band alpha centroid and sole baseline",
+          "individualNativeCropPreserved": true
+        },
+        {
+          "i": 11,
+          "crop": {
+            "x": 721,
+            "y": 1101,
+            "w": 276,
+            "h": 359,
+            "anchorX": 858.7,
+            "anchorY": 1451
+          },
+          "visibleEdge": 0,
+          "visibleOutsideCrop": 0,
+          "boundaryAlphaZeroPixels": 1544,
+          "boundaryLowAlphaPixels1To24": 0,
+          "bodyHeadTop": 1130,
+          "groundSole": 1451,
+          "anchorMethod": "foot-band alpha centroid and sole baseline",
+          "individualNativeCropPreserved": true
+        }
+      ]
+    },
+    {
+      "kind": "attack",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "2808d9e7cb1eccecdb1f0f8bc70e0d737deac1e0ddca78bdc3fa71e1ac856fbd",
+      "originalSourceSelectedRuntimeIdentical": true,
+      "alphaZeroPixels": 1139433,
+      "lowAlphaPixels1To24": 136248,
+      "lowAlphaPixelsPreservedWithoutCleaning": true,
+      "cells": [
+        {
+          "i": 0,
+          "crop": {
+            "x": 65,
+            "y": 62,
+            "w": 243,
+            "h": 425,
+            "anchorX": 208,
+            "anchorY": 478
+          },
+          "visibleEdge": 0,
+          "visibleOutsideCrop": 0,
+          "boundaryAlphaZeroPixels": 1929,
+          "boundaryLowAlphaPixels1To24": 3,
+          "bodyHeadTop": 114,
+          "groundSole": 478,
+          "anchorMethod": "manual body/ground: centre between both sandal centres; lowest sole baseline, excluding brush/ink",
+          "individualNativeCropPreserved": true
+        },
+        {
+          "i": 1,
+          "crop": {
+            "x": 562,
+            "y": 133,
+            "w": 312,
+            "h": 348,
+            "anchorX": 732,
+            "anchorY": 472
+          },
+          "visibleEdge": 0,
+          "visibleOutsideCrop": 0,
+          "boundaryAlphaZeroPixels": 2065,
+          "boundaryLowAlphaPixels1To24": 13,
+          "bodyHeadTop": 170,
+          "groundSole": 472,
+          "anchorMethod": "manual body/ground: centre between both sandal centres; lowest sole baseline, excluding brush/ink",
+          "individualNativeCropPreserved": true
+        },
+        {
+          "i": 2,
+          "crop": {
+            "x": 1012,
+            "y": 151,
+            "w": 522,
+            "h": 330,
+            "anchorX": 1208,
+            "anchorY": 472
+          },
+          "visibleEdge": 0,
+          "visibleOutsideCrop": 0,
+          "boundaryAlphaZeroPixels": 2218,
+          "boundaryLowAlphaPixels1To24": 30,
+          "bodyHeadTop": 165,
+          "groundSole": 472,
+          "anchorMethod": "manual body/ground: centre between both sandal centres; lowest sole baseline, excluding brush/ink",
+          "individualNativeCropPreserved": true
+        },
+        {
+          "i": 3,
+          "crop": {
+            "x": 19,
+            "y": 654,
+            "w": 554,
+            "h": 298,
+            "anchorX": 212,
+            "anchorY": 943
+          },
+          "visibleEdge": 0,
+          "visibleOutsideCrop": 0,
+          "boundaryAlphaZeroPixels": 2111,
+          "boundaryLowAlphaPixels1To24": 13,
+          "bodyHeadTop": 662,
+          "groundSole": 943,
+          "anchorMethod": "manual body/ground: centre between both sandal centres; lowest sole baseline, excluding brush/ink",
+          "individualNativeCropPreserved": true
+        },
+        {
+          "i": 4,
+          "crop": {
+            "x": 573,
+            "y": 622,
+            "w": 512,
+            "h": 329,
+            "anchorX": 779,
+            "anchorY": 942
+          },
+          "visibleEdge": 0,
+          "visibleOutsideCrop": 0,
+          "boundaryAlphaZeroPixels": 2000,
+          "boundaryLowAlphaPixels1To24": 20,
+          "bodyHeadTop": 636,
+          "groundSole": 942,
+          "anchorMethod": "manual body/ground: centre between both sandal centres; lowest sole baseline, excluding brush/ink",
+          "individualNativeCropPreserved": true
+        },
+        {
+          "i": 5,
+          "crop": {
+            "x": 1103,
+            "y": 579,
+            "w": 351,
+            "h": 380,
+            "anchorX": 1327,
+            "anchorY": 950
+          },
+          "visibleEdge": 0,
+          "visibleOutsideCrop": 0,
+          "boundaryAlphaZeroPixels": 1841,
+          "boundaryLowAlphaPixels1To24": 21,
+          "bodyHeadTop": 612,
+          "groundSole": 950,
+          "anchorMethod": "manual body/ground: centre between both sandal centres; lowest sole baseline, excluding brush/ink",
+          "individualNativeCropPreserved": true
+        }
+      ]
+    },
+    {
+      "kind": "cast",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "51fc59e4e6701ba52ebb59d9eaafc8bd44afbc0ee6f9f9129c9f91146cb3ba2e",
+      "originalSourceSelectedRuntimeIdentical": true,
+      "alphaZeroPixels": 1076090,
+      "lowAlphaPixels1To24": 123085,
+      "lowAlphaPixelsPreservedWithoutCleaning": true,
+      "cells": [
+        {
+          "i": 0,
+          "crop": {
+            "x": 72,
+            "y": 34,
+            "w": 284,
+            "h": 467,
+            "anchorX": 232,
+            "anchorY": 492
+          },
+          "visibleEdge": 0,
+          "visibleOutsideCrop": 0,
+          "boundaryAlphaZeroPixels": 1963,
+          "boundaryLowAlphaPixels1To24": 1,
+          "bodyHeadTop": 96,
+          "groundSole": 492,
+          "anchorMethod": "manual body/ground: centre between both sandal centres; lowest sole baseline, excluding brush/ink",
+          "individualNativeCropPreserved": true
+        },
+        {
+          "i": 1,
+          "crop": {
+            "x": 586,
+            "y": 35,
+            "w": 333,
+            "h": 464,
+            "anchorX": 759,
+            "anchorY": 490
+          },
+          "visibleEdge": 0,
+          "visibleOutsideCrop": 0,
+          "boundaryAlphaZeroPixels": 2108,
+          "boundaryLowAlphaPixels1To24": 0,
+          "bodyHeadTop": 104,
+          "groundSole": 490,
+          "anchorMethod": "manual body/ground: centre between both sandal centres; lowest sole baseline, excluding brush/ink",
+          "individualNativeCropPreserved": true
+        },
+        {
+          "i": 2,
+          "crop": {
+            "x": 1110,
+            "y": 103,
+            "w": 382,
+            "h": 396,
+            "anchorX": 1276,
+            "anchorY": 490
+          },
+          "visibleEdge": 0,
+          "visibleOutsideCrop": 0,
+          "boundaryAlphaZeroPixels": 2066,
+          "boundaryLowAlphaPixels1To24": 0,
+          "bodyHeadTop": 113,
+          "groundSole": 490,
+          "anchorMethod": "manual body/ground: centre between both sandal centres; lowest sole baseline, excluding brush/ink",
+          "individualNativeCropPreserved": true
+        },
+        {
+          "i": 3,
+          "crop": {
+            "x": 71,
+            "y": 569,
+            "w": 306,
+            "h": 405,
+            "anchorX": 232,
+            "anchorY": 965
+          },
+          "visibleEdge": 0,
+          "visibleOutsideCrop": 0,
+          "boundaryAlphaZeroPixels": 1904,
+          "boundaryLowAlphaPixels1To24": 6,
+          "bodyHeadTop": 578,
+          "groundSole": 965,
+          "anchorMethod": "manual body/ground: centre between both sandal centres; lowest sole baseline, excluding brush/ink",
+          "individualNativeCropPreserved": true
+        },
+        {
+          "i": 4,
+          "crop": {
+            "x": 516,
+            "y": 582,
+            "w": 594,
+            "h": 390,
+            "anchorX": 708,
+            "anchorY": 963
+          },
+          "visibleEdge": 0,
+          "visibleOutsideCrop": 0,
+          "boundaryAlphaZeroPixels": 2379,
+          "boundaryLowAlphaPixels1To24": 3,
+          "bodyHeadTop": 591,
+          "groundSole": 963,
+          "anchorMethod": "manual body/ground: centre between both sandal centres; lowest sole baseline, excluding brush/ink",
+          "individualNativeCropPreserved": true
+        },
+        {
+          "i": 5,
+          "crop": {
+            "x": 1147,
+            "y": 526,
+            "w": 284,
+            "h": 450,
+            "anchorX": 1305,
+            "anchorY": 967
+          },
+          "visibleEdge": 0,
+          "visibleOutsideCrop": 0,
+          "boundaryAlphaZeroPixels": 1834,
+          "boundaryLowAlphaPixels1To24": 0,
+          "bodyHeadTop": 576,
+          "groundSole": 967,
+          "anchorMethod": "manual body/ground: centre between both sandal centres; lowest sole baseline, excluding brush/ink",
+          "individualNativeCropPreserved": true
+        }
+      ]
+    },
+    {
+      "kind": "ultimate",
+      "width": 1585,
+      "height": 992,
+      "sha256": "ef00ee3ba72aa4cfb58d20bab106c0f08c7e886ee0068508e174a88eff84899a",
+      "originalSourceSelectedRuntimeIdentical": true,
+      "alphaZeroPixels": 1011967,
+      "lowAlphaPixels1To24": 110971,
+      "lowAlphaPixelsPreservedWithoutCleaning": true,
+      "cells": [
+        {
+          "i": 0,
+          "crop": {
+            "x": 25,
+            "y": 42,
+            "w": 269,
+            "h": 470,
+            "anchorX": 168,
+            "anchorY": 503
+          },
+          "visibleEdge": 0,
+          "visibleOutsideCrop": 0,
+          "boundaryAlphaZeroPixels": 1750,
+          "boundaryLowAlphaPixels1To24": 0,
+          "bodyHeadTop": 116,
+          "groundSole": 503,
+          "anchorMethod": "manual body/ground: centre between both sandal centres; lowest sole baseline, excluding brush/ink",
+          "individualNativeCropPreserved": true
+        },
+        {
+          "i": 1,
+          "crop": {
+            "x": 418,
+            "y": 110,
+            "w": 271,
+            "h": 402,
+            "anchorX": 572,
+            "anchorY": 503
+          },
+          "visibleEdge": 0,
+          "visibleOutsideCrop": 0,
+          "boundaryAlphaZeroPixels": 1850,
+          "boundaryLowAlphaPixels1To24": 0,
+          "bodyHeadTop": 118,
+          "groundSole": 503,
+          "anchorMethod": "manual body/ground: centre between both sandal centres; lowest sole baseline, excluding brush/ink",
+          "individualNativeCropPreserved": true
+        },
+        {
+          "i": 2,
+          "crop": {
+            "x": 836,
+            "y": 34,
+            "w": 316,
+            "h": 480,
+            "anchorX": 1007,
+            "anchorY": 505
+          },
+          "visibleEdge": 0,
+          "visibleOutsideCrop": 0,
+          "boundaryAlphaZeroPixels": 1912,
+          "boundaryLowAlphaPixels1To24": 0,
+          "bodyHeadTop": 127,
+          "groundSole": 505,
+          "anchorMethod": "manual body/ground: centre between both sandal centres; lowest sole baseline, excluding brush/ink",
+          "individualNativeCropPreserved": true
+        },
+        {
+          "i": 3,
+          "crop": {
+            "x": 1246,
+            "y": 136,
+            "w": 329,
+            "h": 378,
+            "anchorX": 1418,
+            "anchorY": 505
+          },
+          "visibleEdge": 0,
+          "visibleOutsideCrop": 0,
+          "boundaryAlphaZeroPixels": 1810,
+          "boundaryLowAlphaPixels1To24": 0,
+          "bodyHeadTop": 197,
+          "groundSole": 505,
+          "anchorMethod": "manual body/ground: centre between both sandal centres; lowest sole baseline, excluding brush/ink",
+          "individualNativeCropPreserved": true
+        },
+        {
+          "i": 4,
+          "crop": {
+            "x": 9,
+            "y": 590,
+            "w": 359,
+            "h": 368,
+            "anchorX": 174,
+            "anchorY": 949
+          },
+          "visibleEdge": 0,
+          "visibleOutsideCrop": 0,
+          "boundaryAlphaZeroPixels": 1673,
+          "boundaryLowAlphaPixels1To24": 1,
+          "bodyHeadTop": 598,
+          "groundSole": 949,
+          "anchorMethod": "manual body/ground: centre between both sandal centres; lowest sole baseline, excluding brush/ink",
+          "individualNativeCropPreserved": true
+        },
+        {
+          "i": 5,
+          "crop": {
+            "x": 368,
+            "y": 655,
+            "w": 525,
+            "h": 305,
+            "anchorX": 549,
+            "anchorY": 951
+          },
+          "visibleEdge": 0,
+          "visibleOutsideCrop": 0,
+          "boundaryAlphaZeroPixels": 1996,
+          "boundaryLowAlphaPixels1To24": 0,
+          "bodyHeadTop": 663,
+          "groundSole": 951,
+          "anchorMethod": "manual body/ground: centre between both sandal centres; lowest sole baseline, excluding brush/ink",
+          "individualNativeCropPreserved": true
+        },
+        {
+          "i": 6,
+          "crop": {
+            "x": 901,
+            "y": 605,
+            "w": 351,
+            "h": 348,
+            "anchorX": 1071,
+            "anchorY": 944
+          },
+          "visibleEdge": 0,
+          "visibleOutsideCrop": 0,
+          "boundaryAlphaZeroPixels": 1681,
+          "boundaryLowAlphaPixels1To24": 3,
+          "bodyHeadTop": 614,
+          "groundSole": 944,
+          "anchorMethod": "manual body/ground: centre between both sandal centres; lowest sole baseline, excluding brush/ink",
+          "individualNativeCropPreserved": true
+        },
+        {
+          "i": 7,
+          "crop": {
+            "x": 1288,
+            "y": 529,
+            "w": 262,
+            "h": 441,
+            "anchorX": 1425,
+            "anchorY": 961
+          },
+          "visibleEdge": 0,
+          "visibleOutsideCrop": 0,
+          "boundaryAlphaZeroPixels": 1568,
+          "boundaryLowAlphaPixels1To24": 0,
+          "bodyHeadTop": 591,
+          "groundSole": 961,
+          "anchorMethod": "manual body/ground: centre between both sandal centres; lowest sole baseline, excluding brush/ink",
+          "individualNativeCropPreserved": true
+        }
+      ]
+    },
+    {
+      "kind": "vfx",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "f953c4a351f194506c32bb3feefb350fc0385e6efda6f0fe1de2c8c02a57fd23",
+      "originalSourceSelectedRuntimeIdentical": true,
+      "alphaZeroPixels": 762105,
+      "lowAlphaPixels1To24": 240977,
+      "lowAlphaPixelsPreservedWithoutCleaning": true,
+      "cells": [
+        {
+          "i": 0,
+          "crop": {
+            "x": 45,
+            "y": 54,
+            "w": 458,
+            "h": 427,
+            "anchorX": 273.5,
+            "anchorY": 267
+          },
+          "visibleEdge": 0,
+          "visibleOutsideCrop": 0,
+          "boundaryAlphaZeroPixels": 1970,
+          "boundaryLowAlphaPixels1To24": 4,
+          "anchorMethod": "motif center",
+          "individualNativeCropPreserved": true
+        },
+        {
+          "i": 1,
+          "crop": {
+            "x": 504,
+            "y": 59,
+            "w": 497,
+            "h": 401,
+            "anchorX": 752,
+            "anchorY": 259
+          },
+          "visibleEdge": 0,
+          "visibleOutsideCrop": 0,
+          "boundaryAlphaZeroPixels": 1980,
+          "boundaryLowAlphaPixels1To24": 12,
+          "anchorMethod": "motif center",
+          "individualNativeCropPreserved": true
+        },
+        {
+          "i": 2,
+          "crop": {
+            "x": 1029,
+            "y": 32,
+            "w": 479,
+            "h": 416,
+            "anchorX": 1268,
+            "anchorY": 239.5
+          },
+          "visibleEdge": 0,
+          "visibleOutsideCrop": 0,
+          "boundaryAlphaZeroPixels": 1996,
+          "boundaryLowAlphaPixels1To24": 14,
+          "anchorMethod": "motif center",
+          "individualNativeCropPreserved": true
+        },
+        {
+          "i": 3,
+          "crop": {
+            "x": 29,
+            "y": 507,
+            "w": 474,
+            "h": 476,
+            "anchorX": 265.5,
+            "anchorY": 744.5
+          },
+          "visibleEdge": 0,
+          "visibleOutsideCrop": 0,
+          "boundaryAlphaZeroPixels": 1982,
+          "boundaryLowAlphaPixels1To24": 104,
+          "anchorMethod": "motif center",
+          "individualNativeCropPreserved": true
+        },
+        {
+          "i": 4,
+          "crop": {
+            "x": 512,
+            "y": 495,
+            "w": 506,
+            "h": 479,
+            "anchorX": 764.5,
+            "anchorY": 734
+          },
+          "visibleEdge": 0,
+          "visibleOutsideCrop": 0,
+          "boundaryAlphaZeroPixels": 2082,
+          "boundaryLowAlphaPixels1To24": 24,
+          "anchorMethod": "motif center",
+          "individualNativeCropPreserved": true
+        },
+        {
+          "i": 5,
+          "crop": {
+            "x": 1030,
+            "y": 491,
+            "w": 480,
+            "h": 494,
+            "anchorX": 1269.5,
+            "anchorY": 737.5
+          },
+          "visibleEdge": 0,
+          "visibleOutsideCrop": 0,
+          "boundaryAlphaZeroPixels": 2085,
+          "boundaryLowAlphaPixels1To24": 11,
+          "anchorMethod": "motif center",
+          "individualNativeCropPreserved": true
+        }
+      ]
+    },
+    {
+      "kind": "icons",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "52530a2a284e14a9dddc2ef4c56f2971013c5ced7932d519bc201212b7588749",
+      "originalSourceSelectedRuntimeIdentical": true,
+      "alphaZeroPixels": 695396,
+      "lowAlphaPixels1To24": 170557,
+      "lowAlphaPixelsPreservedWithoutCleaning": true,
+      "cells": [
+        {
+          "i": 0,
+          "crop": {
+            "x": 28,
+            "y": 0,
+            "w": 473,
+            "h": 495,
+            "anchorX": 264,
+            "anchorY": 245
+          },
+          "visibleEdge": 0,
+          "visibleOutsideCrop": 0,
+          "boundaryAlphaZeroPixels": 2050,
+          "boundaryLowAlphaPixels1To24": 6,
+          "anchorMethod": "motif center",
+          "individualNativeCropPreserved": true
+        },
+        {
+          "i": 1,
+          "crop": {
+            "x": 548,
+            "y": 11,
+            "w": 449,
+            "h": 488,
+            "anchorX": 772,
+            "anchorY": 254.5
+          },
+          "visibleEdge": 0,
+          "visibleOutsideCrop": 0,
+          "boundaryAlphaZeroPixels": 2016,
+          "boundaryLowAlphaPixels1To24": 0,
+          "anchorMethod": "motif center",
+          "individualNativeCropPreserved": true
+        },
+        {
+          "i": 2,
+          "crop": {
+            "x": 1060,
+            "y": 3,
+            "w": 454,
+            "h": 492,
+            "anchorX": 1286.5,
+            "anchorY": 248.5
+          },
+          "visibleEdge": 0,
+          "visibleOutsideCrop": 0,
+          "boundaryAlphaZeroPixels": 2024,
+          "boundaryLowAlphaPixels1To24": 0,
+          "anchorMethod": "motif center",
+          "individualNativeCropPreserved": true
+        },
+        {
+          "i": 3,
+          "crop": {
+            "x": 23,
+            "y": 524,
+            "w": 467,
+            "h": 483,
+            "anchorX": 256,
+            "anchorY": 765
+          },
+          "visibleEdge": 0,
+          "visibleOutsideCrop": 0,
+          "boundaryAlphaZeroPixels": 2052,
+          "boundaryLowAlphaPixels1To24": 0,
+          "anchorMethod": "motif center",
+          "individualNativeCropPreserved": true
+        },
+        {
+          "i": 4,
+          "crop": {
+            "x": 531,
+            "y": 517,
+            "w": 469,
+            "h": 501,
+            "anchorX": 765,
+            "anchorY": 767
+          },
+          "visibleEdge": 0,
+          "visibleOutsideCrop": 0,
+          "boundaryAlphaZeroPixels": 2034,
+          "boundaryLowAlphaPixels1To24": 20,
+          "anchorMethod": "motif center",
+          "individualNativeCropPreserved": true
+        },
+        {
+          "i": 5,
+          "crop": {
+            "x": 1042,
+            "y": 514,
+            "w": 489,
+            "h": 504,
+            "anchorX": 1286,
+            "anchorY": 765.5
+          },
+          "visibleEdge": 0,
+          "visibleOutsideCrop": 0,
+          "boundaryAlphaZeroPixels": 2053,
+          "boundaryLowAlphaPixels1To24": 9,
+          "anchorMethod": "motif center",
+          "individualNativeCropPreserved": true
+        }
+      ]
+    },
+    {
+      "kind": "companion",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "f707bd011cb86d431865eb40841f1e548fb557959df851f51880ec386e0bcee0",
+      "originalSourceSelectedRuntimeIdentical": true,
+      "alphaZeroPixels": 840449,
+      "lowAlphaPixels1To24": 97829,
+      "lowAlphaPixelsPreservedWithoutCleaning": true,
+      "cells": [
+        {
+          "i": 0,
+          "crop": {
+            "x": 88,
+            "y": 18,
+            "w": 515,
+            "h": 606,
+            "anchorX": 350.4,
+            "anchorY": 615
+          },
+          "visibleEdge": 0,
+          "visibleOutsideCrop": 0,
+          "boundaryAlphaZeroPixels": 2521,
+          "boundaryLowAlphaPixels1To24": 1,
+          "bodyHeadTop": 26,
+          "groundSole": 615,
+          "anchorMethod": "foot-band alpha centroid and sole baseline",
+          "individualNativeCropPreserved": true
+        },
+        {
+          "i": 1,
+          "crop": {
+            "x": 672,
+            "y": 19,
+            "w": 541,
+            "h": 605,
+            "anchorX": 954.7,
+            "anchorY": 615
+          },
+          "visibleEdge": 0,
+          "visibleOutsideCrop": 0,
+          "boundaryAlphaZeroPixels": 2480,
+          "boundaryLowAlphaPixels1To24": 2,
+          "bodyHeadTop": 27,
+          "groundSole": 615,
+          "anchorMethod": "foot-band alpha centroid and sole baseline",
+          "individualNativeCropPreserved": true
+        },
+        {
+          "i": 2,
+          "crop": {
+            "x": 44,
+            "y": 630,
+            "w": 570,
+            "h": 604,
+            "anchorX": 350,
+            "anchorY": 1225
+          },
+          "visibleEdge": 0,
+          "visibleOutsideCrop": 0,
+          "boundaryAlphaZeroPixels": 2560,
+          "boundaryLowAlphaPixels1To24": 46,
+          "bodyHeadTop": 638,
+          "groundSole": 1225,
+          "anchorMethod": "foot-band alpha centroid and sole baseline",
+          "individualNativeCropPreserved": true
+        },
+        {
+          "i": 3,
+          "crop": {
+            "x": 740,
+            "y": 628,
+            "w": 468,
+            "h": 610,
+            "anchorX": 1007.8,
+            "anchorY": 1229
+          },
+          "visibleEdge": 0,
+          "visibleOutsideCrop": 0,
+          "boundaryAlphaZeroPixels": 2399,
+          "boundaryLowAlphaPixels1To24": 7,
+          "bodyHeadTop": 636,
+          "groundSole": 1229,
+          "anchorMethod": "foot-band alpha centroid and sole baseline",
+          "individualNativeCropPreserved": true
+        }
+      ]
+    }
+  ],
+  "sourcePixelsChanged": false,
+  "runtimePixelsChanged": false,
+  "portraitReadOnly": true,
+  "visualLimit": "Finite visual inspection of all 48 native crops. It does not prove every anatomical detail at every runtime scale or browser playback; those integration checks belong to the root task.",
+  "portraitSourceSha256": "ea25e6cf1bda674aaffa6cde85a05748f4d6151240919a1f39e9e95d6d479a7f"
+}

@@ -1,0 +1,20 @@
+import sharp from '../../../../node_modules/.pnpm/sharp@0.35.4_@types+node@22.19.19/node_modules/sharp/dist/index.mjs';
+import { readFile, copyFile, writeFile } from 'node:fs/promises';
+import { createHash } from 'node:crypto';
+import assert from 'node:assert/strict';
+const entry = JSON.parse(await readFile(new URL('background-entry.json', import.meta.url), 'utf8'));
+const source = entry.source;
+const selected = 'art-source/v36/variants/ava-worldroot-sovereign/cinematic-background-source.png';
+const runtime = 'public/assets/v36/variants/ava-worldroot-sovereign/cinematic-background.png';
+const bytes = await readFile(source), metadata = await sharp(bytes).metadata();
+const ratioErrorHeightPixels = Math.abs(metadata.height - metadata.width * 9 / 16);
+assert.ok(ratioErrorHeightPixels <= 1, 'Native widescreen16:9, at most one raster pixel rounding');
+const { data } = await sharp(bytes).ensureAlpha().raw().toBuffer({ resolveWithObject: true });
+let opaquePixels = 0;
+for (let i = 3; i < data.length; i += 4) { assert.equal(data[i], 255); opaquePixels++; }
+await copyFile(source, selected); await copyFile(source, runtime);
+const hash = createHash('sha256').update(bytes).digest('hex');
+assert.deepEqual(await readFile(runtime), bytes);
+const manifest = { id: 'ava-worldroot-sovereign', kind: 'cinematic-background', tool: 'built-in image_gen', source, selected, runtime, width: metadata.width, height: metadata.height, requestedRatio: '16:9', nativeRatio: metadata.width / metadata.height, ratioErrorHeightPixels, nativePixelRoundingPreserved: true, opaquePixels, sourceSha256: hash, selectedSha256: hash, runtimeSha256: hash, byteIdenticalSourceCopies: true, noResizeCropOrPixelEditing: true, visualReview: 'Full native landscape reviewed: colossal layered stone/ochre quartz cathedral, broad unobstructed stage, no human/animal/text' };
+await writeFile(new URL('cinematic-background-manifest.json', import.meta.url), JSON.stringify(manifest, null, 2) + '\n');
+console.log(JSON.stringify(manifest));

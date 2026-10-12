@@ -1,0 +1,16 @@
+[
+  {
+    "id": "seiji-last-script",
+    "kind": "attack",
+    "source": "C:/Users/Diego/.codex/generated_images/01a0fe9c-5a05-7ae0-b816-392e2a3c966b/exec-b2f2c901-f888-4071-97b2-8fcb84fcdbf8.png",
+    "cols": 3,
+    "rows": 2
+  },
+  {
+    "id": "seiji-last-script",
+    "kind": "cast",
+    "source": "C:/Users/Diego/.codex/generated_images/01a0fe9c-5a05-7ae0-b816-392e2a3c966b/exec-a069c5a7-eb8a-42e9-8a2a-bf21effae625.png",
+    "cols": 3,
+    "rows": 2
+  }
+]

@@ -1,0 +1,158 @@
+[
+  {
+    "kind": "attack",
+    "size": [
+      1536,
+      1024
+    ],
+    "frames": 6,
+    "alphaZero": 730244,
+    "visibleEdgePixels": 0.0,
+    "runtimeCopyIdentical": true,
+    "runtime": "public/assets/v36/variants/gabriel-solar-oath/attack.png",
+    "sha256": "1b557020b888523e9d4f66fda90e81214d78eadcba3c4becf0aedfb942a40296"
+  },
+  {
+    "kind": "cast",
+    "size": [
+      1536,
+      1024
+    ],
+    "frames": 6,
+    "alphaZero": 995955,
+    "visibleEdgePixels": 0.0,
+    "runtimeCopyIdentical": true,
+    "runtime": "public/assets/v36/variants/gabriel-solar-oath/cast.png",
+    "sha256": "c547465e499f179b41d6f5c5782be49c5f7ac27b2fcd74c665099a6180e328a9"
+  },
+  {
+    "kind": "companion",
+    "size": [
+      1254,
+      1254
+    ],
+    "frames": 4,
+    "alphaZero": 1339415,
+    "visibleEdgePixels": 0.0,
+    "runtimeCopyIdentical": true,
+    "runtime": "public/assets/v36/variants/gabriel-solar-oath/companion.png",
+    "sha256": "67e24b604597897a5bccf15c1cbca092ce118463e057ed75235604395a70e70d"
+  },
+  {
+    "kind": "icons",
+    "size": [
+      1536,
+      1024
+    ],
+    "frames": 6,
+    "alphaZero": 681175,
+    "visibleEdgePixels": 0.0,
+    "runtimeCopyIdentical": true,
+    "runtime": "public/assets/v36/variants/gabriel-solar-oath/icons.png",
+    "sha256": "b119c748afab3198e518080f2613cb05562cc14eeff7295def33d6c8a4c5f25b"
+  },
+  {
+    "kind": "lycan-attack",
+    "size": [
+      1536,
+      1024
+    ],
+    "frames": 6,
+    "alphaZero": 807713,
+    "visibleEdgePixels": 0.0,
+    "runtimeCopyIdentical": true,
+    "runtime": "public/assets/v36/variants/gabriel-solar-oath/lycan-attack.png",
+    "sha256": "1bfcaac544420896b87dde48bd6fe0b3755f17119f9daf99c4ecc16d89c7c1c3"
+  },
+  {
+    "kind": "lycan-cast",
+    "size": [
+      1536,
+      1024
+    ],
+    "frames": 6,
+    "alphaZero": 1167402,
+    "visibleEdgePixels": 0.0,
+    "runtimeCopyIdentical": true,
+    "runtime": "public/assets/v36/variants/gabriel-solar-oath/lycan-cast.png",
+    "sha256": "ee3ba7b14da0aa30cecdb5b398513cce607de8da22974597b2e454eae0cf8a8c"
+  },
+  {
+    "kind": "lycan-ultimate",
+    "size": [
+      1536,
+      1024
+    ],
+    "frames": 8,
+    "alphaZero": 1132789,
+    "visibleEdgePixels": 0.0,
+    "runtimeCopyIdentical": true,
+    "runtime": "public/assets/v36/variants/gabriel-solar-oath/lycan-ultimate.png",
+    "sha256": "53fbbe7d5b9540cc9ddee887528e92a875b71c8aa55e49867ac85818da78f21f"
+  },
+  {
+    "kind": "lycan-walk",
+    "size": [
+      1024,
+      1536
+    ],
+    "frames": 12,
+    "alphaZero": 880100,
+    "visibleEdgePixels": 0.0,
+    "runtimeCopyIdentical": true,
+    "runtime": "public/assets/v36/variants/gabriel-solar-oath/lycan-walk.png",
+    "sha256": "b23dd8f763a325f89e9812470dfe80df9b3e6464658da89276c0376295668b0a"
+  },
+  {
+    "kind": null,
+    "size": [
+      1024,
+      1536
+    ],
+    "frames": 0,
+    "alphaZero": 794649,
+    "visibleEdgePixels": 0.0,
+    "runtimeCopyIdentical": true,
+    "runtime": "public/assets/v36/variants/gabriel-solar-oath/portrait.png",
+    "sha256": "c66d74c593a4b397390d2fcae2a4ab11087d6ef7417dcf2e51aadb14ad51a40c"
+  },
+  {
+    "kind": "ultimate",
+    "size": [
+      1536,
+      1024
+    ],
+    "frames": 8,
+    "alphaZero": 935872,
+    "visibleEdgePixels": 0.0,
+    "runtimeCopyIdentical": true,
+    "runtime": "public/assets/v36/variants/gabriel-solar-oath/ultimate.png",
+    "sha256": "f13e07cd1e22a6d6c9f7f0eea76aba434d64b9dcdd1a3cd02f719e121bd3e525"
+  },
+  {
+    "kind": "vfx",
+    "size": [
+      1536,
+      1024
+    ],
+    "frames": 6,
+    "alphaZero": 571850,
+    "visibleEdgePixels": 0.0,
+    "runtimeCopyIdentical": true,
+    "runtime": "public/assets/v36/variants/gabriel-solar-oath/vfx.png",
+    "sha256": "eac367db94205d6bb6961bf873f6a5600f1fdce247a7932674bdce52a8af5984"
+  },
+  {
+    "kind": "walk",
+    "size": [
+      1024,
+      1536
+    ],
+    "frames": 12,
+    "alphaZero": 1219579,
+    "visibleEdgePixels": 0.0,
+    "runtimeCopyIdentical": true,
+    "runtime": "public/assets/v36/variants/gabriel-solar-oath/walk.png",
+    "sha256": "1028cbd10b99ecbc64f8336cd058b2f851727a88a559dcd223f65a0e84ac481f"
+  }
+]

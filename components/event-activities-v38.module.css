@@ -1,0 +1,143 @@
+.panel{min-width:0;margin:0 0 22px;padding:16px;border:1px solid #bfa27670;border-radius:7px;background:linear-gradient(135deg,#221a2b,#0d1b2b);color:#ecdfca;font-size:13px;line-height:1.45;overflow-wrap:anywhere}
+.panel *{box-sizing:border-box}
+.panel button,.panel select{min-width:0;max-width:100%;min-height:36px;padding:6px 10px;border:1px solid #b9a47770!important;border-radius:4px!important;background:#1b2b3d!important;color:#f1e4cc!important;font:600 12px/1.25 system-ui,sans-serif;box-shadow:none!important;transform:none!important;white-space:normal;cursor:pointer;touch-action:manipulation}
+.panel button:hover:not(:disabled),.panel button[aria-pressed=true]{border-color:#f0cf8c!important;background:#4b392b!important}
+.panel button:focus-visible,.panel select:focus-visible,.panel summary:focus-visible{outline:2px solid #f4d594;outline-offset:2px}
+.panel button:disabled{opacity:.5;cursor:default}
+.panel .primary{background:#70512e!important;border-color:#d6b579!important;color:#fff2d5!important}
+.panel h3,.panel h4,.panel h5,.panel p{margin:0}
+.panel h3{font:600 20px/1.2 Georgia,serif;color:#f0d8af}
+.panel h4{font:600 17px/1.3 Georgia,serif;color:#ecd6b0}
+.panel h5{font:600 14px/1.25 system-ui,sans-serif;color:#f2e3c8}
+.panel small{font-size:11px;line-height:1.35;color:#c0cbd7}
+.heading,.activityHeading{display:flex;align-items:center;justify-content:space-between;gap:12px;min-width:0}
+.heading>div,.activityHeading>div{min-width:0}
+.heading{padding:14px;border:1px solid #d1b27865;border-radius:5px;min-height:128px;background:linear-gradient(90deg,#08172685,#21172a24),url('/assets/v38/event-activities/salon.png') center 46%/cover}
+.heading>div{max-width:70%;padding:9px 11px;border-left:2px solid #e1bf82;border-radius:2px;background:#0d172ce8}
+.heading>div>span{display:block;margin-bottom:5px;color:#d4b68a;font-size:10px;letter-spacing:.08em}
+.heading>small{flex:none;white-space:nowrap;padding:6px 8px;border:1px solid #c9ad7966;border-radius:3px;background:#0c192aeb;color:#e8ddc8}
+.intro{margin:10px 0 14px!important;color:#cfccd0;font-size:12px}
+.locked{padding:10px 12px;border-left:2px solid #d4b575;background:#0b1424;color:#e0d5c3}
+.overview{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;min-width:0}
+.overview>article{min-width:0;display:flex;flex-direction:column;gap:8px;padding:12px;border:1px solid #aa947452;border-radius:5px;background:#101d2b}
+.overviewIdentity{display:flex;align-items:center;gap:9px;min-width:0}
+.overviewIdentity>div{min-width:0}
+.overviewIdentity h4{font-size:15px}
+.overview>article>p{font-size:12px;color:#cad2dc;flex:1}
+.activityStatus{font-size:11px;color:#f0d6a0}
+.actions{display:flex;align-items:center;flex-wrap:wrap;gap:6px;min-width:0}
+.actions>small{margin-left:auto}
+.boardReward{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:12px;padding:11px 0 0;border-top:1px solid #a78b5d55}
+.boardReward>p{display:grid;gap:2px;min-width:0;font-size:12px}
+.boardReward>button{flex:none}
+.activityHeading{padding-bottom:11px;margin-bottom:10px;border-bottom:1px solid #c7a16b4d}
+.activityHeading>button{flex:none;font-size:11px}
+.activityHeading h4:focus{outline:none}
+.activity{display:grid;gap:12px;min-width:0}
+.hint{font-size:12px;color:#c3d3dd}
+.companionRow{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:6px;min-width:0}
+.companionRow>span{display:flex;flex-direction:column;align-items:center;gap:3px;text-align:center;min-width:0}
+.companionRow small{font-size:10px;color:#d8cbba}
+.clues{display:grid;gap:5px;margin:0;padding:10px 10px 10px 28px;border-radius:4px;background:#081727;color:#ded5c6;font-size:12px}
+.sealBank,.sealBoard{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:6px;min-width:0}
+.sealBank>button{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;min-width:0;padding:6px 3px;font-size:10px}
+.sealArt{display:block;width:28px;height:28px;object-fit:contain;flex:none}
+.selection{color:#dfd2b3;font-size:12px}
+.sealBoard>button{position:relative;display:flex;align-items:center;justify-content:center;min-width:0;height:56px;padding:8px 3px 3px;background:#0b1828!important}
+.sealBoard>button>b{position:absolute;left:4px;top:2px;font:500 10px/12px system-ui,sans-serif;color:#c5b58f}
+.sealBoard>button:disabled{opacity:1}
+.emptySlot{color:#a9b6c3;font-size:10px;line-height:12px;font-weight:400}
+.feedback{display:grid;gap:4px;color:#e3ceaa;font-size:12px}
+.feedback:empty{display:none}
+.success,.rewardReceived{font-size:12px;color:#bce5ce}
+.defeat{font-size:12px;color:#f0b9b0}
+.rewardReceived{margin-top:2px!important}
+.cues{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:6px;list-style:none;padding:0;margin:0;min-width:0}
+.cues>li{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;min-width:0;padding:6px 4px;border:1px solid #67728555;border-radius:4px;background:#0b1828;text-align:center}
+.cues strong{font-size:11px;line-height:12px;font-weight:600}
+.cues small{font-size:10px;line-height:12px}
+.cues [data-current]{border-color:#f0d491;background:#40341f}
+.cues [data-quality=miss]{border-bottom-color:#cf9293}
+.cues :is([data-quality=perfect],[data-quality=good],[data-quality=step]){border-bottom-color:#9bccad}
+.rhythmStage{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:12px;min-height:100px;padding:12px;border:1px solid #7897ad66;border-radius:5px;background:linear-gradient(90deg,#101f30ee,#101f30e8),url('/assets/v38/event-activities/salon.png') center/cover}
+.rhythmStage>p{display:grid;gap:3px;font-size:11px;color:#cfb88d;min-width:100px}
+.rhythmStage>p>strong{color:#f1e2c5;font-size:16px}
+.rhythmStage[data-signal]{border-color:#eacd87;box-shadow:inset 0 0 0 1px #eacd8770}
+.rhythmProgress{display:block;flex:1 0 100%;height:3px;background:#334359;overflow:hidden;border-radius:3px}
+.rhythmProgress>i{display:block;height:100%;background:#d3b880}
+.arenaProgress{display:flex;justify-content:space-between;align-items:center;gap:12px;font-size:12px;color:#e8d2a5}
+.arenaProgress>span{font-size:11px;color:#c6d2dc}
+.arenaCards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;min-width:0}
+.arenaCard{--card-bg:#0e1c2b;--card-ink:#f0e1cc;--card-muted:#c9d2df;--seal-edge:#bba272;display:flex;flex-direction:column;gap:8px;min-width:0;padding:10px;border:1px solid var(--seal-edge);border-radius:6px;background:linear-gradient(130deg,#ffffff09,transparent 70%),var(--card-bg);box-shadow:inset 0 0 0 3px #bda77815,0 3px 8px #0003;color:var(--card-ink)}
+.arenaCard[data-seal=ink]{--card-bg:#eeeae1;--card-ink:#202334;--card-muted:#424757;--seal-edge:#c8b68b}
+.arenaCard[data-seal=ice]{--card-bg:#c5e8f9;--card-ink:#132c42;--card-muted:#365064;--seal-edge:#82bbd4}
+.arenaCard[data-seal=dark]{--card-bg:#14101d;--card-ink:#f0e4ef;--card-muted:#c7bfd6;--seal-edge:#9f87b1}
+.arenaCard[data-seal=fire]{--card-bg:#471924;--card-ink:#fff0d6;--card-muted:#ead0cf;--seal-edge:#ce986a}
+.arenaCard[data-seal=lightning]{--card-bg:#f1da96;--card-ink:#2d271c;--card-muted:#55452a;--seal-edge:#b99a54}
+.cardIdentity{display:flex;align-items:center;gap:4px;min-width:0;min-height:112px}
+.cardIdentity>:global(.character-portrait){position:relative!important;inset:auto!important;width:112px!important;height:112px!important;transform:none!important;flex:none;filter:none!important}
+.cardIdentity>div{min-width:0}
+.cardIdentity h5{font-size:14px;line-height:1.3;color:var(--card-ink)}
+.cardIdentity small{display:block;margin-top:4px;font-size:11px;color:var(--card-muted)}
+.cardSeal{display:flex;align-items:center;gap:4px;margin-top:6px;font-size:11px;color:var(--card-ink)}
+.cardSeal>.sealArt{width:22px;height:22px}
+.cardStats{display:flex;flex-wrap:wrap;gap:3px 7px;padding-top:7px;border-top:1px solid var(--seal-edge);color:var(--card-ink);font-size:11px;font-variant-numeric:tabular-nums}
+.arenaCard>p{flex:1;color:var(--card-muted);font-size:12px;line-height:1.4}
+.arenaCard>label,.market>label{display:grid;gap:4px;min-width:0;font-size:11px;color:var(--card-ink,#cec1a9)}
+.arenaCard>label>select{width:100%}
+.arenaCard>button{font-size:11px;width:100%;margin-top:auto}
+.enemyPlan{display:grid;gap:6px;padding:10px;border-left:2px solid #d5a291;background:#271e2a}
+.enemyPlan>p{font-size:12px;color:#dfc8c3}
+.enemyPlan>ul{display:flex;flex-wrap:wrap;gap:7px;list-style:none;padding:0;margin:0}
+.enemyPlan li{display:flex;align-items:center;gap:6px;flex:1 1 170px;min-width:0}
+.enemyPlan li>img{width:28px;height:28px;object-fit:cover;border-radius:3px;flex:none}
+.enemyPlan li>span{min-width:0}
+.enemyPlan li strong{font-size:11px;font-weight:600}
+.enemyPlan li small{display:block;font-size:10px}
+.panel summary{display:flex;align-items:center;min-height:36px;font-size:12px;color:#e7ce9f;cursor:pointer}
+.panel summary:before{content:'›';margin-right:7px;font-size:16px}
+.panel details[open]>summary:before{transform:rotate(90deg)}
+.panel details>p{font-size:12px;color:#cdd4dc}
+.synergies{font-size:11px;color:#c5dace}
+.synergies ul{padding-left:18px;margin:4px 0 0}
+.synergies>p{margin-top:3px;color:#c1c9d5}
+.stances{display:flex;align-items:center;flex-wrap:wrap;gap:6px;border:0;padding:0;margin:0;min-width:0}
+.stances>legend{padding:0;margin-bottom:5px;font-size:12px;color:#ead9b9}
+.stances>p{flex:1 0 100%;color:#c6d0dc;font-size:11px}
+.market{padding:8px 0;border-top:1px solid #9b87623d}
+.market>label{max-width:300px;margin-bottom:8px}
+.resolution{display:grid;gap:9px;min-width:0;padding:10px;border:1px solid #c4a27170;border-radius:5px;background:#0a1725}
+.replayStage{display:grid;gap:12px;padding:20px 10px 10px;min-height:250px;border:1px solid #bfa77a60;border-radius:4px;background:linear-gradient(180deg,#09162230,#09162260),url('/assets/v38/event-activities/salon.png') center 50%/cover;overflow:hidden}
+.replaySides{display:grid;grid-template-columns:minmax(0,1fr) 24px minmax(0,1fr);gap:12px;min-width:0}
+.replaySides>div{display:grid;align-content:start;gap:9px;min-width:0}
+.replayUnit{display:flex;align-items:center;gap:8px;min-width:0;padding:5px;border:1px solid #bea3748c;border-radius:4px;background:#091725ed;transition:opacity .18s,border-color .12s}
+.replayPortrait{display:block;width:54px;height:54px;flex:none;border:1px solid #bfa16f;border-radius:4px;overflow:hidden;transition:opacity .18s}
+.replayPortrait>img{display:block;width:100%;height:100%;object-fit:cover;transition:filter .18s}
+.replayVitals{display:grid;gap:3px;min-width:0;flex:1}
+.replayUnit strong{font-size:12px;line-height:1.25;font-weight:600;color:#f4e6cf}
+.replayUnit small{font-size:11px;line-height:13px;font-variant-numeric:tabular-nums;color:#d4dfeb}
+.replayHp{display:block;width:100%;height:5px;border-radius:3px;background:#51343a;overflow:hidden}
+.replayHp>i{display:block;height:100%;background:linear-gradient(90deg,#739b82,#b9dbc1);transition:width .14s ease-out}
+.replayUnit[data-acting]{border-color:#e5c183}
+.replayUnit[data-targeted][data-event-kind=attack]{border-color:#eb938b}
+.replayUnit[data-targeted][data-event-kind=heal]{border-color:#a8d5b5}
+.replayUnit[data-targeted][data-event-kind=control]{border-color:#c5b3e8}
+.replayUnit[data-fallen]{border-color:#8a7b6a80}
+.replayUnit[data-fallen] .replayPortrait{opacity:.5}
+.replayUnit[data-fallen] .replayPortrait>img{filter:saturate(.35)}
+.resolution[data-playing=true] .replayUnit[data-acting][data-side=ally] .replayPortrait{animation:allyMove .12s ease-out}
+.resolution[data-playing=true] .replayUnit[data-acting][data-side=enemy] .replayPortrait{animation:enemyMove .12s ease-out}
+.resolution[data-playing=true] .replayUnit[data-targeted][data-event-kind=attack] .replayPortrait{animation:receiveMove .12s ease-out}
+.resolution[data-playing=false] .replayPortrait{animation-play-state:paused}
+.resolution[data-reduced-motion=true] :is(.replayPortrait,.replayHp>i,.replayUnit,.replayPortrait>img){animation:none;transition:none}
+@keyframes allyMove{50%{transform:translateX(4px)}}
+@keyframes enemyMove{50%{transform:translateX(-4px)}}
+@keyframes receiveMove{50%{transform:translateY(2px)}}
+.versus{align-self:center;justify-self:center;color:#bda778;font-size:16px}
+.replayEvent{min-height:42px;padding:8px 10px;border-left:2px solid #c9ae79;background:#081627eb;border-radius:3px;color:#f0dfc0;font-size:12px}
+.replaySummary{font-size:12px;line-height:1.5;color:#e2c5b8}
+.log{max-height:190px;overflow-y:auto;margin:0;padding-left:22px;font-size:11px;color:#c5d2dc}
+.log>li{margin-bottom:4px}
+@media(max-width:800px){.overview{grid-template-columns:minmax(0,1fr)}.overview>article{padding:10px;gap:6px}.overview>article>p{font-size:11px}.panel{padding:12px}.arenaCard{padding:8px}.cardIdentity{gap:3px;min-height:80px}.cardIdentity>:global(.character-portrait){width:80px!important;height:80px!important}.cardIdentity h5{font-size:12px}.cardIdentity small{font-size:10px}.cardSeal{font-size:10px}.cardSeal>.sealArt{width:18px;height:18px}.replayPortrait{width:42px;height:42px}}
+@media(max-width:520px){.panel{padding:10px}.panel h3{font-size:18px}.heading{align-items:start;gap:6px;padding:10px;min-height:112px}.heading>div{max-width:72%;padding:7px}.heading>small{font-size:10px;padding:4px}.activityHeading{flex-wrap:wrap}.activityHeading h4{font-size:16px}.activityHeading>button{min-height:36px}.arenaCards{grid-template-columns:minmax(0,1fr)}.cardIdentity{gap:6px}.cardIdentity h5{font-size:14px}.cardIdentity small{font-size:11px}.boardReward{align-items:start;flex-wrap:wrap;gap:8px}.clues{padding:9px 9px 9px 23px;font-size:11px}.sealBank,.sealBoard,.cues{gap:4px}.sealBank>button{font-size:9px}.companionRow{gap:4px}.companionRow small{font-size:9px}.cues strong{font-size:10px}.cues small{font-size:9px}.replayStage{padding:12px 5px 5px;min-height:215px;gap:9px}.replaySides{gap:4px;grid-template-columns:minmax(0,1fr) 13px minmax(0,1fr)}.replaySides>div{gap:6px}.replayUnit{gap:4px;padding:3px;align-items:start}.replayPortrait{width:36px;height:36px}.replayUnit strong{font-size:10px}.replayUnit small{font-size:10px;line-height:12px}.replayEvent{padding:7px;font-size:11px}.arenaProgress{flex-wrap:wrap;gap:4px}}
+@media(prefers-reduced-motion:reduce){.panel *{scroll-behavior:auto!important;animation:none!important;transition:none!important}}

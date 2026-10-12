@@ -1,0 +1,31 @@
+{
+  "id": "ava-worldroot-sovereign",
+  "tool": "built-in image_gen",
+  "status": "user-rejected-copper-skin-concept-never-finalized",
+  "records": [
+    {
+      "kind": "walk",
+      "stage": "spacing-repair",
+      "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-6d8a18ac-5370-4b71-a05f-b28a3ac0fcd5.png",
+      "prompt": "Edit: identity-preserve production sprite atlas spacing repair. Preserve EXACTLY these twelve Ava Matriarca dos Estratos drawings, her copper skin, grey/copper braid, green eyes, quartz crown and fully clothed ivory/basalt/ochre outfit, and current correct directions SOUTH row1, WEST facingLEFT row2, EAST facingRIGHT row3, NORTH backrow4. Exactly3columns x4rows, portrait1536x2048. The TOP crowns currently touch the outside boundary: this is rejected. REDUCE every COMPLETE figure including crown, boots, cloak and braid to about65% OF ITS CURRENT HEIGHT and width, centred individually in its existing cell. Each complete figure must have at least60pixels ACTUAL empty alpha0 above crown and below soles, and60pixelsleft/right. New sheet wide clear continuous transparent gutters between all rows/columns and at least60px empty allouteredges. Keep poses neutral/stepL/stepR, twoarms/twohands/twolegs and TWO complete visible boots perpose. All twelve remain same adult body scale; no cropping, no foot or crown touches boundaries, no cloth/hand crosses cells. Do not simplify or repaint costume concept, no effects/rocks/pets, no added objects/text/grid/floor/shadow/matte/glow/gradient/haze. Genuinely alphaZERO everywhere outside the twelve figure silhouettes. Clean intricate Japaneseanime cel shading remains. Fixed3x4 native layout, no extra row."
+    },
+    {
+      "kind": "walk",
+      "stage": "opposite-step-repair",
+      "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-67cbe818-d7fb-46f7-9978-2255e87f2925.png",
+      "prompt": "Edit: identity-preserve, targeted walk-cycle correction ONLY. Keep this approved Ava legendary twelve-sprite sheet: EXACT outfit, adult face, copper skin, grey/copper braid, ivory/ochre/basalt fullclothing, crown, silhouette quality and excellent transparent margins. Keep column1 neutral and column2 step pose EXACT. Edit ONLY the four figures in COLUMN3 so the leg motion is visibly OPPOSITE to column2: the foot that was forward in column2 must be back in column3 and the previously trailing foot forward; both knees/boots naturally attached to hips, only TWO legs and TWO boots. Arms gently counter-swing accordingly, no extrahand. Thirdcolumn is opposite step, not the same stride again. Preserve row1 SOUTHfront, row2 WESTfacingLEFT, row3 EASTfacingRIGHT, row4 NORTHback. Do NOT mirror whole figure, change mask/braid side or turn direction. All12samebodyscale, same rowbaselines. Keep EXACT3columns x4rows, native1086x1448 portrait. Full figures including crowns and boots retain at least40px alpha0 outer margins and broad fully empty alpha0 gutters; do not enlarge figures or move cells. No backdrop/shadow/glow/gradientmatte/text/grid/floor/FX/pet. High-detail handdrawn animecelshading preserved."
+    },
+    {
+      "kind": "vfx",
+      "stage": "spacing-repair",
+      "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-8e4ceeb5-9c80-4dc7-96ed-95d3a6f16cfa.png",
+      "prompt": "Edit: identity-preserve layout repair of this Ava Matriarca dos Estratos Earth vfx atlas. KEEP EXACTLY the same SIX intricate motifs, their content, original row-major order, exquisite mineral detail/celshading, brown/ivory/basalt/ochre amber material palette. This layout is rejected because small pixels cross/touch cell seams. Exactly3columns by2rows LANDSCAPE1536x1024. SUBSTANTIALLY SHRINK each COMPLETE motif including every crystal/ribbon/light particle to about55% OF ITS CURRENT WIDTH AND HEIGHT, centred in the same cell. Must leave at least80pixels genuinely empty alphaZERO on EACH four sides of EACH 512x512 cell. Continuous broad empty alpha0 horizontal and vertical corridors across the whole sheet, minimum60pixeloutermargin. No part touches/crosses its cell, no motif clipped. No extra objects or simplification. ALL free/background space genuinealpha0: remove every opaque/semitransparent gradient, rectangular haze/matte/glow, floor or castshadow. Keep any light restrained tightly to the motif itself. No text/grid/frame/watermark. Six motifs ONLY; no person,pet oranimal; nofire/lava/ice/plants. Professional finalgameasset with clear isolation."
+    },
+    {
+      "kind": "icons",
+      "stage": "spacing-repair",
+      "source": "C:\\Users\\Diego\\.codex\\generated_images\\01a1028e-5be8-7663-82a1-e9f4a5e52f9d\\exec-2ed5b52a-51fe-4fd6-802e-2883a8750a07.png",
+      "prompt": "Edit: identity-preserve layout repair of this Ava Matriarca dos Estratos Earth icons atlas. KEEP EXACTLY the same SIX intricate motifs, their content, original row-major order, exquisite mineral detail/celshading, brown/ivory/basalt/ochre amber material palette. This layout is rejected because small pixels cross/touch cell seams. Exactly3columns by2rows LANDSCAPE1536x1024. SUBSTANTIALLY SHRINK each COMPLETE motif including every crystal/ribbon/light particle to about55% OF ITS CURRENT WIDTH AND HEIGHT, centred in the same cell. Must leave at least80pixels genuinely empty alphaZERO on EACH four sides of EACH 512x512 cell. Continuous broad empty alpha0 horizontal and vertical corridors across the whole sheet, minimum60pixeloutermargin. No part touches/crosses its cell, no motif clipped. No extra objects or simplification. ALL free/background space genuinealpha0: remove every opaque/semitransparent gradient, rectangular haze/matte/glow, floor or castshadow. Keep any light restrained tightly to the motif itself. No text/grid/frame/watermark. Six motifs ONLY; no person,pet oranimal; nofire/lava/ice/plants. Professional finalgameasset with clear isolation."
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "date": "2026-10-11",
+  "source": "art-source/v36/abel/skills-atlas.png",
+  "sourceSha256": "a79d526071ad00b28bc96429ad44d58f9d80a7d3f004cbb8ea39513d9130dd9f",
+  "width": 1774,
+  "height": 887,
+  "mode": "native-crop-only",
+  "rowsCompared": 3548,
+  "icons": [
+    {
+      "id": "primordial-spark",
+      "key": "skill_icon_abel_primordial-spark",
+      "runtime": "public/assets/v36/abel/icons/primordial-spark.png",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "w": 444,
+        "h": 434
+      },
+      "boundaryMax": 1,
+      "visible": 106297,
+      "transparent": 79750,
+      "sha256": "c83b96871bd0d4cf29ca29e6886d9f8c33602c7e301fce160691592b194688d7"
+    },
+    {
+      "id": "ember-mantle",
+      "key": "skill_icon_abel_ember-mantle",
+      "runtime": "public/assets/v36/abel/icons/ember-mantle.png",
+      "crop": {
+        "x": 444,
+        "y": 0,
+        "w": 443,
+        "h": 434
+      },
+      "boundaryMax": 1,
+      "visible": 107506,
+      "transparent": 76509,
+      "sha256": "f1091ab04323bcd20dffb14b040dbfcff69bb2894c9f3e23264c8da3424db152"
+    },
+    {
+      "id": "hearth-rest",
+      "key": "skill_icon_abel_hearth-rest",
+      "runtime": "public/assets/v36/abel/icons/hearth-rest.png",
+      "crop": {
+        "x": 887,
+        "y": 0,
+        "w": 444,
+        "h": 434
+      },
+      "boundaryMax": 1,
+      "visible": 106207,
+      "transparent": 80056,
+      "sha256": "f2f76382366461d29ec0118d9e76bb3cd4b140eb4ea41b28ae626f25fc4aab0d"
+    },
+    {
+      "id": "lion-fang",
+      "key": "skill_icon_abel_lion-fang",
+      "runtime": "public/assets/v36/abel/icons/lion-fang.png",
+      "crop": {
+        "x": 1331,
+        "y": 0,
+        "w": 443,
+        "h": 434
+      },
+      "boundaryMax": 1,
+      "visible": 107720,
+      "transparent": 75848,
+      "sha256": "1151a9cfbfecdcc2bba8bd092b4bf465f25cbdd6d5a7f3e4af55ddf2da361f4e"
+    },
+    {
+      "id": "cinder-interdict",
+      "key": "skill_icon_abel_cinder-interdict",
+      "runtime": "public/assets/v36/abel/icons/cinder-interdict.png",
+      "crop": {
+        "x": 0,
+        "y": 434,
+        "w": 444,
+        "h": 453
+      },
+      "boundaryMax": 1,
+      "visible": 104653,
+      "transparent": 89960,
+      "sha256": "052dcc34868fb569fbaa3d82d1966394dc41d6fd9dabb278d557c80dead17b5a"
+    },
+    {
+      "id": "crucible-break",
+      "key": "skill_icon_abel_crucible-break",
+      "runtime": "public/assets/v36/abel/icons/crucible-break.png",
+      "crop": {
+        "x": 444,
+        "y": 434,
+        "w": 443,
+        "h": 453
+      },
+      "boundaryMax": 1,
+      "visible": 107184,
+      "transparent": 85314,
+      "sha256": "cf49f0903a927f556a7f77cfb6e1225f6cdef0331051f13392646f87517f7681"
+    },
+    {
+      "id": "primordial-oath",
+      "key": "skill_icon_abel_primordial-oath",
+      "runtime": "public/assets/v36/abel/icons/primordial-oath.png",
+      "crop": {
+        "x": 887,
+        "y": 434,
+        "w": 444,
+        "h": 453
+      },
+      "boundaryMax": 1,
+      "visible": 105055,
+      "transparent": 89667,
+      "sha256": "0b87a7053c983ab0a8b097512b24f8bfc70566ad29693984f1c96dd4abce4b9d"
+    },
+    {
+      "id": "ultimate",
+      "key": "skill_icon_abel_ultimate",
+      "runtime": "public/assets/v36/abel/icons/ultimate.png",
+      "crop": {
+        "x": 1331,
+        "y": 434,
+        "w": 443,
+        "h": 453
+      },
+      "boundaryMax": 1,
+      "visible": 109151,
+      "transparent": 83624,
+      "sha256": "1d22d83df690b19431afa97ec5c9c4b0be43893671eaf4548f489c745442c114"
+    }
+  ]
+}

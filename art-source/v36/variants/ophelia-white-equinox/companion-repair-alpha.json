@@ -1,0 +1,71 @@
+{
+  "source": "art-source/v36/variants/ophelia-white-equinox/companion-repair-candidate.png",
+  "width": 1024,
+  "height": 1536,
+  "alphaZero": 915478,
+  "allPixels": 1572864,
+  "strictAlphaZeroCorridors": true,
+  "horizontal": [
+    {
+      "index": 768,
+      "nonzero": 0,
+      "alpha": {
+        "max": 0,
+        "over24": 0,
+        "over210": 0
+      }
+    }
+  ],
+  "vertical": [
+    [
+      {
+        "index": 512,
+        "nonzero": 0,
+        "alpha": {
+          "max": 0,
+          "over24": 0,
+          "over210": 0
+        }
+      }
+    ],
+    [
+      {
+        "index": 510,
+        "nonzero": 0,
+        "alpha": {
+          "max": 0,
+          "over24": 0,
+          "over210": 0
+        }
+      }
+    ]
+  ],
+  "edges": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+  },
+  "edgeAlpha": {
+    "top": {
+      "max": 0,
+      "over24": 0,
+      "over210": 0
+    },
+    "bottom": {
+      "max": 0,
+      "over24": 0,
+      "over210": 0
+    },
+    "left": {
+      "max": 0,
+      "over24": 0,
+      "over210": 0
+    },
+    "right": {
+      "max": 0,
+      "over24": 0,
+      "over210": 0
+    }
+  }
+}
